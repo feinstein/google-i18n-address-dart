@@ -15,7 +15,7 @@ dependencies:
 
 Then run:
 
-```
+```dart
 dart pub get
 ```
 
@@ -54,7 +54,8 @@ void main() {
 ```
 
 Output:
-```
+
+```dart
 {city: required, country_area: required, postal_code: required, street_address: required}
 ```
 
@@ -76,7 +77,8 @@ void main() {
 ```
 
 Output:
-```
+
+```dart
 {city: MOUNTAIN VIEW, city_area: , country_area: CA, country_code: US, postal_code: 94043, sorting_code: , street_address: 1600 Amphitheatre Pkwy}
 ```
 
@@ -101,7 +103,8 @@ void main() {
 ```
 
 Output:
-```
+
+```dart
 {postal_code: invalid}
 ```
 
@@ -130,7 +133,8 @@ void main() {
 ```
 
 Output:
-```
+
+```dart
 {country_code: CN, country_area: Yunnan Sheng, city: Lincang Shi, city_area: Fengqing Xian, sorting_code: , postal_code: 677400, street_address: 中关村东路1号}
 ```
 
@@ -154,7 +158,8 @@ void main() {
 ```
 
 Output:
-```
+
+```dart
 {country_code: US, country_area: California, city: Mountain View, city_area: , sorting_code: , postal_code: 94037, street_address: 1600 Charleston Rd.}
 ```
 
@@ -180,7 +185,8 @@ void main() {
 ```
 
 Output:
-```
+
+```console
 677400
 云南省临沧市凤庆县
 中关村东路1号
@@ -207,7 +213,8 @@ void main() {
 ```
 
 Output:
-```
+
+```console
 中关村东路1号
 凤庆县
 临沧市
@@ -229,7 +236,8 @@ void main() {
 ```
 
 Output:
-```
+
+```dart
 ValidationRules(countryCode: US, countryName: UNITED STATES, addressFormat: %N%n%O%n%A%n%C, %S %Z, addressLatinFormat: %N%n%O%n%A%n%C, %S %Z, allowedFields: {street_address, company_name, city, name, country_area, postal_code}, requiredFields: {street_address, city, country_area, postal_code}, upperFields: {city, country_area}, countryAreaType: state, countryAreaChoices: [[AL, Alabama], [AK, Alaska], ...], cityType: city, cityChoices: [], cityAreaType: suburb, cityAreaChoices: [], postalCodeType: zip, postalCodeMatchers: [RegExp: pattern=^(\d{5})(?:[ \-](\d{4}))?$], postalCodeExamples: [90000, 96199], postalCodePrefix: )
 ```
 
@@ -247,7 +255,8 @@ void main() {
 ```
 
 Output:
-```
+
+```dart
 [[name], [company_name], [street_address], [postal_code, city]]
 ```
 
@@ -265,10 +274,11 @@ void main() {
 ```
 
 Output:
-```
+
+```dart
 {city_area, sorting_code}
 ```
 
 ## License
 
-This project is licensed under the BSD License.
+This project is licensed under the MIT License.
