@@ -257,7 +257,7 @@ Map<String, String> normalizeAddress(Map<String, String> address) {
     throw InvalidAddressError('Invalid address', errors);
   }
 
-  final cleanedData = Map<String, String>.from(address);
+  final cleanedData = <String, String>{...address};
 
   // Validate country code
   final countryCode = cleanedData['country_code'];
@@ -276,15 +276,11 @@ Map<String, String> normalizeAddress(Map<String, String> address) {
   // Validate postal code format
   final postalCode = cleanedData['postal_code'] ?? '';
   if (rules.postalCodeMatchers.isNotEmpty && postalCode.isNotEmpty) {
-    bool isValid = false;
     for (final matcher in rules.postalCodeMatchers) {
-      if (matcher.hasMatch(postalCode)) {
-        isValid = true;
+      if (!matcher.hasMatch(postalCode)) {
+        errors['postal_code'] = 'invalid';
         break;
       }
-    }
-    if (!isValid) {
-      errors['postal_code'] = 'invalid';
     }
   }
 
@@ -322,6 +318,6 @@ List<List<String>> getFieldOrder(Map<String, String> address, {bool latin = fals
             .cast<String>()
       ]
   ];
-  
+
   return allLines;
 }

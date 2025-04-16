@@ -169,9 +169,7 @@ class ChoicesMaker {
       final subLNames = rules['sub_lnames'];
       if (subLNames != null) {
         final subLNamesList = subLNames.split('~');
-        for (int i = 0;
-            i < subKeysList.length && i < subLNamesList.length;
-            i++) {
+        for (int i = 0; i < subKeysList.length && i < subLNamesList.length; i++) {
           if (subLNamesList[i].isNotEmpty) {
             choices.add([subKeysList[i], subLNamesList[i]]);
           }
@@ -181,9 +179,7 @@ class ChoicesMaker {
       final subLFNames = rules['sub_lfnames'];
       if (subLFNames != null) {
         final subLFNamesList = subLFNames.split('~');
-        for (int i = 0;
-            i < subKeysList.length && i < subLFNamesList.length;
-            i++) {
+        for (int i = 0; i < subKeysList.length && i < subLFNamesList.length; i++) {
           if (subLFNamesList[i].isNotEmpty) {
             choices.add([subKeysList[i], subLFNamesList[i]]);
           }
