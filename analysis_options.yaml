@@ -1,0 +1,29 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    - always_declare_return_types
+    - avoid_empty_else
+    - avoid_print
+    - avoid_redundant_argument_values
+    - avoid_relative_lib_imports
+    - avoid_return_types_on_setters
+    - avoid_slow_async_io
+    - avoid_type_to_string
+    - avoid_types_as_parameter_names
+    - cancel_subscriptions
+    - close_sinks
+    - directives_ordering
+    - prefer_const_constructors
+    - prefer_final_fields
+    - prefer_final_locals
+    - prefer_single_quotes
+    - sort_pub_dependencies
+    - unnecessary_await_in_return
+    - unnecessary_const
+    - unnecessary_new
+    - use_super_parameters
+
+analyzer:
+  errors:
+    invalid_annotation_target: ignore
