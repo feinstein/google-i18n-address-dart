@@ -154,7 +154,6 @@ void createJsonDataFile() {
   final jsonDataFile = File(path.join(dataDir, 'json_data.dart'));
 
   final imports = dartFiles.map((file) => "import '$file';").join('\n');
-
   final mapEntries = ([
     ...dartFiles.map((file) {
       final countryCode =
@@ -169,14 +168,16 @@ void createJsonDataFile() {
 // Do not edit manually
 
 $imports
+import 'dart:collection';
 
 /// Maps country codes to their respective JSON data getter functions.
 /// 
 /// The data is loaded lazily through getters, so memory is only used when the
 /// specific country data is requested.
-Map<String, Map<String, Map<String, String>> Function()> jsonDataMap = {
+final Map<String, Map<String, Map<String, String>> Function()> jsonDataMap = 
+    UnmodifiableMapView<String, Map<String, Map<String, String>> Function()>({
 $mapEntries
-};
+});
 ''');
 }
 

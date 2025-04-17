@@ -1,6 +1,8 @@
 // Generated Dart file
 // Do not edit manually
 
+import 'dart:collection';
+
 import 'ac.json.dart';
 import 'ad.json.dart';
 import 'ae.json.dart';
@@ -260,7 +262,8 @@ import 'zz.json.dart';
 ///
 /// The data is loaded lazily through getters, so memory is only used when the
 /// specific country data is requested.
-Map<String, Map<String, Map<String, String>> Function()> jsonDataMap = {
+final Map<String, Map<String, Map<String, String>> Function()> jsonDataMap =
+    UnmodifiableMapView<String, Map<String, Map<String, String>> Function()>({
   'ac': () => acJson,
   'ad': () => adJson,
   'ae': () => aeJson,
@@ -515,4 +518,4 @@ Map<String, Map<String, Map<String, String>> Function()> jsonDataMap = {
   'zm': () => zmJson,
   'zw': () => zwJson,
   'zz': () => zzJson,
-};
+});
