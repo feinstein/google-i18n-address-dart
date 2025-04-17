@@ -14,9 +14,11 @@ class Downloader {
 class ArgumentParser {
   final Map<String, dynamic> _options = {};
   final Map<String, String> _descriptions = {};
-  String get usage => _descriptions.entries.map((e) => '${e.key}: ${e.value}').join('\n');
+  String get usage =>
+      _descriptions.entries.map((e) => '${e.key}: ${e.value}').join('\n');
 
-  void addFlag(String name, {String? abbr, String? help, bool negatable = true}) {
+  void addFlag(String name,
+      {String? abbr, String? help, bool negatable = true}) {
     _options[name] = false;
     if (abbr != null) {
       _options[abbr] = false;
@@ -87,7 +89,8 @@ void main() {
     Future<void> mockDownloadJsonFiles({List<String>? arguments}) async {
       final parser = ArgumentParser();
       parser
-        ..addFlag('help', abbr: 'h', help: 'Show this help message', negatable: false)
+        ..addFlag('help',
+            abbr: 'h', help: 'Show this help message', negatable: false)
         ..addOption('country', abbr: 'c', help: 'Country code to download')
         ..addOption('output-dir', abbr: 'o', help: 'Output directory');
 
@@ -124,7 +127,8 @@ void main() {
     });
 
     test('download_json_files with output directory', () async {
-      when(mockDownloader.download(outputDir: '/tmp/output')).thenAnswer((_) async {});
+      when(mockDownloader.download(outputDir: '/tmp/output'))
+          .thenAnswer((_) async {});
 
       // Mock as if the script was called with an output directory argument
       await mockDownloadJsonFiles(arguments: ['--output-dir', '/tmp/output']);
@@ -133,7 +137,8 @@ void main() {
       verify(mockDownloader.download(outputDir: '/tmp/output')).called(1);
     });
 
-    test('download_json_files with both country and output directory', () async {
+    test('download_json_files with both country and output directory',
+        () async {
       when(mockDownloader.download(country: 'US', outputDir: '/tmp/output'))
           .thenAnswer((_) async {});
 
@@ -142,7 +147,8 @@ void main() {
           arguments: ['--country', 'US', '--output-dir', '/tmp/output']);
 
       // Verify the downloader was called with both parameters
-      verify(mockDownloader.download(country: 'US', outputDir: '/tmp/output')).called(1);
+      verify(mockDownloader.download(country: 'US', outputDir: '/tmp/output'))
+          .called(1);
     });
 
     test('download_json_files help flag', () async {
@@ -150,7 +156,8 @@ void main() {
       await mockDownloadJsonFiles(arguments: ['--help']);
 
       // No need to verify, as the help text would be printed
-      verifyNever(mockDownloader.download(country: anyNamed('country'), outputDir: anyNamed('outputDir')));
+      verifyNever(mockDownloader.download(
+          country: anyNamed('country'), outputDir: anyNamed('outputDir')));
     });
   });
 }

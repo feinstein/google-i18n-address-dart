@@ -9,11 +9,26 @@ void main() {
         countryName: 'UNITED STATES',
         addressFormat: '%N%n%O%n%A%n%C, %S %Z',
         addressLatinFormat: '%N%n%O%n%A%n%C, %S %Z',
-        allowedFields: {'name', 'company_name', 'street_address', 'city', 'country_area', 'postal_code'},
-        requiredFields: {'street_address', 'city', 'country_area', 'postal_code'},
+        allowedFields: {
+          'name',
+          'company_name',
+          'street_address',
+          'city',
+          'country_area',
+          'postal_code'
+        },
+        requiredFields: {
+          'street_address',
+          'city',
+          'country_area',
+          'postal_code'
+        },
         upperFields: {'city', 'country_area'},
         countryAreaType: 'state',
-        countryAreaChoices: [['CA', 'California'], ['NY', 'New York']],
+        countryAreaChoices: [
+          ['CA', 'California'],
+          ['NY', 'New York']
+        ],
         cityType: 'city',
         cityChoices: [],
         cityAreaType: 'district',
@@ -32,7 +47,10 @@ void main() {
       expect(rules.requiredFields, contains('street_address'));
       expect(rules.upperFields, contains('city'));
       expect(rules.countryAreaType, 'state');
-      expect(rules.countryAreaChoices, [['CA', 'California'], ['NY', 'New York']]);
+      expect(rules.countryAreaChoices, [
+        ['CA', 'California'],
+        ['NY', 'New York']
+      ]);
       expect(rules.cityType, 'city');
       expect(rules.cityChoices, isEmpty);
       expect(rules.cityAreaType, 'district');
@@ -53,7 +71,9 @@ void main() {
         requiredFields: {'street_address'},
         upperFields: {'city'},
         countryAreaType: 'state',
-        countryAreaChoices: [['CA', 'California']],
+        countryAreaChoices: [
+          ['CA', 'California']
+        ],
         cityType: 'city',
         cityChoices: [],
         cityAreaType: 'district',
@@ -72,13 +92,15 @@ void main() {
 
   group('InvalidAddressError', () {
     test('creates instance with message and errors', () {
-      final error = InvalidAddressError('Invalid address', {'city': 'required'});
+      final error =
+          InvalidAddressError('Invalid address', {'city': 'required'});
       expect(error.message, 'Invalid address');
       expect(error.errors, {'city': 'required'});
     });
 
     test('toString returns a string representation', () {
-      final error = InvalidAddressError('Invalid address', {'city': 'required'});
+      final error =
+          InvalidAddressError('Invalid address', {'city': 'required'});
       expect(error.toString(), 'InvalidAddressError: Invalid address');
     });
   });
@@ -120,14 +142,16 @@ void main() {
 
       final choices = ChoicesMaker.makeChoices(rules);
 
-      expect(choices, containsAll([
-        ['CA', 'California'],
-        ['NY', 'New York'],
-        ['TX', 'Texas'],
-        ['CA', 'Calif'],
-        ['NY', 'NY'],
-        ['TX', 'Tex'],
-      ]));
+      expect(
+          choices,
+          containsAll([
+            ['CA', 'California'],
+            ['NY', 'New York'],
+            ['TX', 'Texas'],
+            ['CA', 'Calif'],
+            ['NY', 'NY'],
+            ['TX', 'Tex'],
+          ]));
     });
 
     test('makeChoices includes latin full names when not translated', () {
@@ -139,14 +163,16 @@ void main() {
 
       final choices = ChoicesMaker.makeChoices(rules);
 
-      expect(choices, containsAll([
-        ['CA', 'California'],
-        ['NY', 'New York'],
-        ['TX', 'Texas'],
-        ['CA', 'California State'],
-        ['NY', 'New York State'],
-        ['TX', 'Texas State'],
-      ]));
+      expect(
+          choices,
+          containsAll([
+            ['CA', 'California'],
+            ['NY', 'New York'],
+            ['TX', 'Texas'],
+            ['CA', 'California State'],
+            ['NY', 'New York State'],
+            ['TX', 'Texas State'],
+          ]));
     });
 
     test('makeChoices skips latin names when translated', () {
@@ -226,17 +252,19 @@ void main() {
 
   group('Constants', () {
     test('knownFields contains all expected fields', () {
-      expect(knownFields, containsAll([
-        'country_code',
-        'country_area',
-        'city',
-        'city_area',
-        'street_address',
-        'postal_code',
-        'sorting_code',
-        'name',
-        'company_name',
-      ]));
+      expect(
+          knownFields,
+          containsAll([
+            'country_code',
+            'country_area',
+            'city',
+            'city_area',
+            'street_address',
+            'postal_code',
+            'sorting_code',
+            'name',
+            'company_name',
+          ]));
     });
 
     test('fieldMapping maps format codes to field names', () {

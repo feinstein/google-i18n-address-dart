@@ -138,7 +138,10 @@ void main() {
             ['West Bengal', 'पश्चिम बंगाल'],
             ['Andaman & Nicobar', 'अंडमान और निकोबार द्वीपसमूह'],
             ['Jammu & Kashmir', 'जम्मू और कश्मीर'],
-            ['Dadra & Nagar Haveli & Daman & Diu', 'दादरा और नगर हवेली और दमन और दिउ'],
+            [
+              'Dadra & Nagar Haveli & Daman & Diu',
+              'दादरा और नगर हवेली और दमन और दिउ'
+            ],
           ]));
     });
 

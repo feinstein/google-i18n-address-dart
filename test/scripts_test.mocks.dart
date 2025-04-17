@@ -7,7 +7,8 @@ class MockDownloader extends Mock implements Downloader {
   @override
   Future<void> download({String? country, String? outputDir}) {
     return super.noSuchMethod(
-      Invocation.method(#download, [], {#country: country, #outputDir: outputDir}),
+      Invocation.method(
+          #download, [], {#country: country, #outputDir: outputDir}),
       returnValue: Future.value(),
     );
   }

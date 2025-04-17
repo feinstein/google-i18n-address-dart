@@ -339,7 +339,8 @@ CHINA''');
 }
 
 // Helper function to compare error maps
-bool _compareErrors(Map<String, dynamic> actual, Map<String, dynamic> expected) {
+bool _compareErrors(
+    Map<String, dynamic> actual, Map<String, dynamic> expected) {
   if (actual.length != expected.length) {
     return false;
   }

@@ -22,8 +22,15 @@ void main() {
     test('getValidationRules returns correct data for Switzerland', () {
       final validationRules = getValidationRules({'country_code': 'CH'});
 
-      expect(validationRules.allowedFields,
-          containsAll(['company_name', 'city', 'postal_code', 'street_address', 'name']));
+      expect(
+          validationRules.allowedFields,
+          containsAll([
+            'company_name',
+            'city',
+            'postal_code',
+            'street_address',
+            'name'
+          ]));
 
       expect(validationRules.requiredFields,
           containsAll(['city', 'postal_code', 'street_address']));

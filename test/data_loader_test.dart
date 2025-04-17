@@ -37,7 +37,7 @@ void main() {
       final result = loadCountryData(null);
       expect(result.countryData, isA<Map<String, dynamic>>());
       expect(result.database, isA<Map<String, dynamic>>());
-      
+
       // Base data should have default formats
       expect(result.countryData.containsKey('fmt'), isTrue);
       expect(result.countryData.containsKey('require'), isTrue);
@@ -47,11 +47,11 @@ void main() {
       final result = loadCountryData('US');
       expect(result.countryData, isA<Map<String, dynamic>>());
       expect(result.database, isA<Map<String, dynamic>>());
-      
+
       // Should have US-specific data
       expect(result.countryData.containsKey('name'), isTrue);
       expect(result.countryData['name'], 'UNITED STATES');
-      
+
       // Database should contain US sub-regions
       expect(result.database.containsKey('US/CA'), isTrue);
       expect(result.database['US/CA']['name'], 'California');
@@ -72,8 +72,9 @@ void main() {
       expect(validCountryCode.hasMatch('US'), isTrue);
       expect(validCountryCode.hasMatch('CA'), isTrue);
       expect(validCountryCode.hasMatch('GB'), isTrue);
-      expect(validCountryCode.hasMatch('ZZZ'), isTrue); // Just checking pattern, not validity
-      
+      expect(validCountryCode.hasMatch('ZZZ'),
+          isTrue); // Just checking pattern, not validity
+
       expect(validCountryCode.hasMatch(''), isFalse);
       expect(validCountryCode.hasMatch('A'), isFalse);
       expect(validCountryCode.hasMatch('INVALID'), isFalse);
