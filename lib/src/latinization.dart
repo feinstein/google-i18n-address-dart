@@ -41,8 +41,7 @@ import 'validation.dart';
 Map<String, String> latinizeAddress(Map<String, String> address,
     {bool isNormalized = false}) {
   // Normalize the address if needed
-  final normalizedAddress =
-      isNormalized ? {...address} : normalizeAddress(address);
+  final normalizedAddress = isNormalized ? {...address} : normalizeAddress(address);
 
   // Return early if empty address
   if (normalizedAddress.isEmpty) {
@@ -80,9 +79,8 @@ Map<String, String> latinizeAddress(Map<String, String> address,
 
         if (cityData != null) {
           // Get the latinized name, or use the standard name, or keep the original
-          cleanedData['city'] = cityData['lname'] as String? ??
-              cityData['name'] as String? ??
-              city;
+          cleanedData['city'] =
+              cityData['lname'] as String? ?? cityData['name'] as String? ?? city;
 
           // Process city area
           final cityArea = normalizedAddress['city_area'];

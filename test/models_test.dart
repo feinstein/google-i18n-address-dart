@@ -17,12 +17,7 @@ void main() {
           'country_area',
           'postal_code'
         },
-        requiredFields: {
-          'street_address',
-          'city',
-          'country_area',
-          'postal_code'
-        },
+        requiredFields: {'street_address', 'city', 'country_area', 'postal_code'},
         upperFields: {'city', 'country_area'},
         countryAreaType: 'state',
         countryAreaChoices: [
@@ -92,15 +87,13 @@ void main() {
 
   group('InvalidAddressError', () {
     test('creates instance with message and errors', () {
-      final error =
-          InvalidAddressError('Invalid address', {'city': 'required'});
+      final error = InvalidAddressError('Invalid address', {'city': 'required'});
       expect(error.message, 'Invalid address');
       expect(error.errors, {'city': 'required'});
     });
 
     test('toString returns a string representation', () {
-      final error =
-          InvalidAddressError('Invalid address', {'city': 'required'});
+      final error = InvalidAddressError('Invalid address', {'city': 'required'});
       expect(error.toString(), 'InvalidAddressError: Invalid address');
     });
   });

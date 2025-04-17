@@ -32,8 +32,7 @@ class _FakeResponse_0 extends _i1.SmartFake implements _i2.Response {
       : super(parent, parentInvocation);
 }
 
-class _FakeStreamedResponse_1 extends _i1.SmartFake
-    implements _i2.StreamedResponse {
+class _FakeStreamedResponse_1 extends _i1.SmartFake implements _i2.StreamedResponse {
   _FakeStreamedResponse_1(Object parent, Invocation parentInvocation)
       : super(parent, parentInvocation);
 }
@@ -250,8 +249,7 @@ class MockClient extends _i1.Mock implements _i2.Client {
       ) as _i3.Future<_i6.Uint8List>);
 
   @override
-  _i3.Future<_i2.StreamedResponse> send(_i2.BaseRequest? request) =>
-      (super.noSuchMethod(
+  _i3.Future<_i2.StreamedResponse> send(_i2.BaseRequest? request) => (super.noSuchMethod(
         Invocation.method(#send, [request]),
         returnValue: _i3.Future<_i2.StreamedResponse>.value(
           _FakeStreamedResponse_1(

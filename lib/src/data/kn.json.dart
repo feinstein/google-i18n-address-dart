@@ -14,12 +14,7 @@ Map<String, Map<String, String>> get knJson => {
         'sub_isoids': 'N~K',
         'sub_keys': 'Nevis~St. Kitts'
       },
-      'KN/Nevis': {
-        'id': 'data/KN/Nevis',
-        'isoid': 'N',
-        'key': 'Nevis',
-        'lang': 'en'
-      },
+      'KN/Nevis': {'id': 'data/KN/Nevis', 'isoid': 'N', 'key': 'Nevis', 'lang': 'en'},
       'KN/St. Kitts': {
         'id': 'data/KN/St. Kitts',
         'isoid': 'K',

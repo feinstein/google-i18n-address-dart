@@ -7,8 +7,7 @@ Map<String, Map<String, String>> get mfJson => {
         'id': 'data/MF',
         'key': 'MF',
         'name': 'SAINT MARTIN',
-        'posturl':
-            'https://www.laposte.fr/particulier/outils/trouver-un-code-postal',
+        'posturl': 'https://www.laposte.fr/particulier/outils/trouver-un-code-postal',
         'require': 'ACZ',
         'upper': 'ACX',
         'zip': '9[78][01]\\d{2}',

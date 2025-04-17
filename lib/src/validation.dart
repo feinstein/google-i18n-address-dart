@@ -6,8 +6,7 @@ import 'models.dart';
 /// The address should at least have a country_code field.
 ValidationRules getValidationRules(Map<String, String> address) {
   final countryCode = address['country_code']?.toUpperCase() ?? '';
-  final (countryData: countryData, database: database) =
-      loadCountryData(countryCode);
+  final (countryData: countryData, database: database) = loadCountryData(countryCode);
 
   final countryName = countryData['name'] ?? '';
   final addressFormat = countryData['fmt'] as String;
@@ -66,11 +65,9 @@ ValidationRules getValidationRules(Map<String, String> address) {
   String? cityArea;
 
   // Process sub-regions
-  if (database.containsKey(countryCode) &&
-      countryData.containsKey('sub_keys')) {
+  if (database.containsKey(countryCode) && countryData.containsKey('sub_keys')) {
     for (final language in languages) {
-      final isDefaultLanguage =
-          language == null || language == countryData['lang'];
+      final isDefaultLanguage = language == null || language == countryData['lang'];
 
       Map<String, String> localizedCountryData;
       if (isDefaultLanguage) {
@@ -79,13 +76,12 @@ ValidationRules getValidationRules(Map<String, String> address) {
         localizedCountryData = database['$countryCode--$language'] ?? {};
       }
 
-      final localizedCountryAreaChoices =
-          ChoicesMaker.makeChoices(localizedCountryData);
+      final localizedCountryAreaChoices = ChoicesMaker.makeChoices(localizedCountryData);
       countryAreaChoices.addAll(localizedCountryAreaChoices);
 
       final existingChoice = countryArea != null;
-      countryArea = ChoicesMaker.matchChoices(
-          address['country_area'], localizedCountryAreaChoices);
+      countryArea =
+          ChoicesMaker.matchChoices(address['country_area'], localizedCountryAreaChoices);
 
       if (countryArea != null) {
         // Third level of data is for cities
@@ -93,8 +89,7 @@ ValidationRules getValidationRules(Map<String, String> address) {
         if (isDefaultLanguage) {
           countryAreaData = database['$countryCode/$countryArea'] ?? {};
         } else {
-          countryAreaData =
-              database['$countryCode/$countryArea--$language'] ?? {};
+          countryAreaData = database['$countryCode/$countryArea--$language'] ?? {};
         }
 
         if (!existingChoice) {
@@ -102,19 +97,16 @@ ValidationRules getValidationRules(Map<String, String> address) {
             postalCodeMatchers.add(RegExp('^${countryAreaData['zip']}'));
           }
           if (countryAreaData.containsKey('zipex')) {
-            postalCodeExamples =
-                (countryAreaData['zipex'] as String).split(',');
+            postalCodeExamples = (countryAreaData['zipex'] as String).split(',');
           }
         }
 
         if (countryAreaData.containsKey('sub_keys')) {
-          final localizedCityChoices =
-              ChoicesMaker.makeChoices(countryAreaData);
+          final localizedCityChoices = ChoicesMaker.makeChoices(countryAreaData);
           cityChoices.addAll(localizedCityChoices);
 
           final existingCityChoice = city != null;
-          city =
-              ChoicesMaker.matchChoices(address['city'], localizedCityChoices);
+          city = ChoicesMaker.matchChoices(address['city'], localizedCityChoices);
 
           if (city != null) {
             // Fourth level of data is for city areas
@@ -122,8 +114,7 @@ ValidationRules getValidationRules(Map<String, String> address) {
             if (isDefaultLanguage) {
               cityData = database['$countryCode/$countryArea/$city'] ?? {};
             } else {
-              cityData =
-                  database['$countryCode/$countryArea/$city--$language'] ?? {};
+              cityData = database['$countryCode/$countryArea/$city--$language'] ?? {};
             }
 
             if (!existingCityChoice) {
@@ -136,8 +127,7 @@ ValidationRules getValidationRules(Map<String, String> address) {
             }
 
             if (cityData.containsKey('sub_keys')) {
-              final localizedCityAreaChoices =
-                  ChoicesMaker.makeChoices(cityData);
+              final localizedCityAreaChoices = ChoicesMaker.makeChoices(cityData);
               cityAreaChoices.addAll(localizedCityAreaChoices);
 
               final existingCityAreaChoice = cityArea != null;
@@ -148,12 +138,11 @@ ValidationRules getValidationRules(Map<String, String> address) {
                 Map<String, dynamic> cityAreaData;
                 if (isDefaultLanguage) {
                   cityAreaData =
-                      database['$countryCode/$countryArea/$city/$cityArea'] ??
-                          {};
+                      database['$countryCode/$countryArea/$city/$cityArea'] ?? {};
                 } else {
-                  cityAreaData = database[
-                          '$countryCode/$countryArea/$city/$cityArea--$language'] ??
-                      {};
+                  cityAreaData =
+                      database['$countryCode/$countryArea/$city/$cityArea--$language'] ??
+                          {};
                 }
 
                 if (!existingCityAreaChoice) {
@@ -161,8 +150,7 @@ ValidationRules getValidationRules(Map<String, String> address) {
                     postalCodeMatchers.add(RegExp('^${cityAreaData['zip']}'));
                   }
                   if (cityAreaData.containsKey('zipex')) {
-                    postalCodeExamples =
-                        (cityAreaData['zipex'] as String).split(',');
+                    postalCodeExamples = (cityAreaData['zipex'] as String).split(',');
                   }
                 }
               }
@@ -201,12 +189,8 @@ ValidationRules getValidationRules(Map<String, String> address) {
 /// Normalizes a field in an address.
 ///
 /// Updates the cleaned data map and adds any errors to the errors map.
-void _normalizeField(
-    String name,
-    ValidationRules rules,
-    Map<String, String> data,
-    List<List<String>> choices,
-    Map<String, String> errors) {
+void _normalizeField(String name, ValidationRules rules, Map<String, String> data,
+    List<List<String>> choices, Map<String, String> errors) {
   final value = data[name];
 
   // Handle uppercase fields
@@ -268,11 +252,9 @@ Map<String, String> normalizeAddress(Map<String, String> address) {
   }
 
   // Normalize fields
-  _normalizeField(
-      'country_area', rules, cleanedData, rules.countryAreaChoices, errors);
+  _normalizeField('country_area', rules, cleanedData, rules.countryAreaChoices, errors);
   _normalizeField('city', rules, cleanedData, rules.cityChoices, errors);
-  _normalizeField(
-      'city_area', rules, cleanedData, rules.cityAreaChoices, errors);
+  _normalizeField('city_area', rules, cleanedData, rules.cityAreaChoices, errors);
   _normalizeField('postal_code', rules, cleanedData, [], errors);
 
   // Validate postal code format
@@ -300,8 +282,7 @@ Map<String, String> normalizeAddress(Map<String, String> address) {
 ///
 /// Returns a list of lists, where each inner list represents a line
 /// in the address format. This can be used to build form layouts.
-List<List<String>> getFieldOrder(Map<String, String> address,
-    {bool latin = false}) {
+List<List<String>> getFieldOrder(Map<String, String> address, {bool latin = false}) {
   final rules = getValidationRules(address);
   final addressFormat = latin ? rules.addressLatinFormat : rules.addressFormat;
   final addressLines = addressFormat.split('%n');

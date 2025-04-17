@@ -39,12 +39,7 @@ Map<String, Map<String, String>> get cuJson => {
         'key': 'Cienfuegos',
         'lang': 'es'
       },
-      'CU/Granma': {
-        'id': 'data/CU/Granma',
-        'isoid': '12',
-        'key': 'Granma',
-        'lang': 'es'
-      },
+      'CU/Granma': {'id': 'data/CU/Granma', 'isoid': '12', 'key': 'Granma', 'lang': 'es'},
       'CU/Guantánamo': {
         'id': 'data/CU/Guantánamo',
         'isoid': '14',

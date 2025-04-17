@@ -44,12 +44,7 @@ Map<String, Map<String, String>> get srJson => {
         'key': 'Nickerie',
         'lang': 'nl'
       },
-      'SR/Para': {
-        'id': 'data/SR/Para',
-        'isoid': 'PR',
-        'key': 'Para',
-        'lang': 'nl'
-      },
+      'SR/Para': {'id': 'data/SR/Para', 'isoid': 'PR', 'key': 'Para', 'lang': 'nl'},
       'SR/Paramaribo': {
         'id': 'data/SR/Paramaribo',
         'isoid': 'PM',
@@ -68,10 +63,5 @@ Map<String, Map<String, String>> get srJson => {
         'key': 'Sipaliwini',
         'lang': 'nl'
       },
-      'SR/Wanica': {
-        'id': 'data/SR/Wanica',
-        'isoid': 'WA',
-        'key': 'Wanica',
-        'lang': 'nl'
-      }
+      'SR/Wanica': {'id': 'data/SR/Wanica', 'isoid': 'WA', 'key': 'Wanica', 'lang': 'nl'}
     };

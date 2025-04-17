@@ -31,18 +31,8 @@ Map<String, Map<String, String>> get veJson => {
         'key': 'Anzoátegui',
         'lang': 'es'
       },
-      'VE/Apure': {
-        'id': 'data/VE/Apure',
-        'isoid': 'C',
-        'key': 'Apure',
-        'lang': 'es'
-      },
-      'VE/Aragua': {
-        'id': 'data/VE/Aragua',
-        'isoid': 'D',
-        'key': 'Aragua',
-        'lang': 'es'
-      },
+      'VE/Apure': {'id': 'data/VE/Apure', 'isoid': 'C', 'key': 'Apure', 'lang': 'es'},
+      'VE/Aragua': {'id': 'data/VE/Aragua', 'isoid': 'D', 'key': 'Aragua', 'lang': 'es'},
       'VE/Barinas': {
         'id': 'data/VE/Barinas',
         'isoid': 'E',
@@ -85,24 +75,14 @@ Map<String, Map<String, String>> get veJson => {
         'key': 'Distrito Federal',
         'lang': 'es'
       },
-      'VE/Falcón': {
-        'id': 'data/VE/Falcón',
-        'isoid': 'I',
-        'key': 'Falcón',
-        'lang': 'es'
-      },
+      'VE/Falcón': {'id': 'data/VE/Falcón', 'isoid': 'I', 'key': 'Falcón', 'lang': 'es'},
       'VE/Guárico': {
         'id': 'data/VE/Guárico',
         'isoid': 'J',
         'key': 'Guárico',
         'lang': 'es'
       },
-      'VE/Lara': {
-        'id': 'data/VE/Lara',
-        'isoid': 'K',
-        'key': 'Lara',
-        'lang': 'es'
-      },
+      'VE/Lara': {'id': 'data/VE/Lara', 'isoid': 'K', 'key': 'Lara', 'lang': 'es'},
       'VE/Miranda': {
         'id': 'data/VE/Miranda',
         'isoid': 'M',
@@ -115,12 +95,7 @@ Map<String, Map<String, String>> get veJson => {
         'key': 'Monagas',
         'lang': 'es'
       },
-      'VE/Mérida': {
-        'id': 'data/VE/Mérida',
-        'isoid': 'L',
-        'key': 'Mérida',
-        'lang': 'es'
-      },
+      'VE/Mérida': {'id': 'data/VE/Mérida', 'isoid': 'L', 'key': 'Mérida', 'lang': 'es'},
       'VE/Nueva Esparta': {
         'id': 'data/VE/Nueva Esparta',
         'isoid': 'O',
@@ -133,12 +108,7 @@ Map<String, Map<String, String>> get veJson => {
         'key': 'Portuguesa',
         'lang': 'es'
       },
-      'VE/Sucre': {
-        'id': 'data/VE/Sucre',
-        'isoid': 'R',
-        'key': 'Sucre',
-        'lang': 'es'
-      },
+      'VE/Sucre': {'id': 'data/VE/Sucre', 'isoid': 'R', 'key': 'Sucre', 'lang': 'es'},
       'VE/Trujillo': {
         'id': 'data/VE/Trujillo',
         'isoid': 'T',
@@ -151,22 +121,12 @@ Map<String, Map<String, String>> get veJson => {
         'key': 'Táchira',
         'lang': 'es'
       },
-      'VE/Vargas': {
-        'id': 'data/VE/Vargas',
-        'isoid': 'X',
-        'key': 'Vargas',
-        'lang': 'es'
-      },
+      'VE/Vargas': {'id': 'data/VE/Vargas', 'isoid': 'X', 'key': 'Vargas', 'lang': 'es'},
       'VE/Yaracuy': {
         'id': 'data/VE/Yaracuy',
         'isoid': 'U',
         'key': 'Yaracuy',
         'lang': 'es'
       },
-      'VE/Zulia': {
-        'id': 'data/VE/Zulia',
-        'isoid': 'V',
-        'key': 'Zulia',
-        'lang': 'es'
-      }
+      'VE/Zulia': {'id': 'data/VE/Zulia', 'isoid': 'V', 'key': 'Zulia', 'lang': 'es'}
     };

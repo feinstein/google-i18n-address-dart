@@ -17,8 +17,7 @@ Map<String, Map<String, String>> get adJson => {
         'sub_names':
             'Andorra la Vella~Canillo~Encamp~Escaldes-Engordany~La Massana~Ordino~Sant Julià de Lòria',
         'sub_zipexs': 'AD500~AD100~AD200~AD700~AD400~AD300~AD600',
-        'sub_zips':
-            'AD50[01]~AD10[01]~AD20[01]~AD70[01]~AD40[01]~AD30[01]~AD60[01]',
+        'sub_zips': 'AD50[01]~AD10[01]~AD20[01]~AD70[01]~AD40[01]~AD30[01]~AD60[01]',
         'zip': 'AD[1-7]0\\d',
         'zipex': 'AD100,AD501,AD700'
       },

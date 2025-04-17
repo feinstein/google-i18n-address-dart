@@ -25,8 +25,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_names':
             'Andorra la Vella~Canillo~Encamp~Escaldes-Engordany~La Massana~Ordino~Sant Julià de Lòria',
         'sub_zipexs': 'AD500~AD100~AD200~AD700~AD400~AD300~AD600',
-        'sub_zips':
-            'AD50[01]~AD10[01]~AD20[01]~AD70[01]~AD40[01]~AD30[01]~AD60[01]',
+        'sub_zips': 'AD50[01]~AD10[01]~AD20[01]~AD70[01]~AD40[01]~AD30[01]~AD60[01]',
         'zip': 'AD[1-7]0\\d',
         'zipex': 'AD100,AD501,AD700'
       },
@@ -174,12 +173,7 @@ Map<String, Map<String, String>> get allJson => {
         'zip': '\\d{4}',
         'zipex': '1001,2601,3801'
       },
-      'AG': {
-        'id': 'data/AG',
-        'key': 'AG',
-        'name': 'ANTIGUA AND BARBUDA',
-        'require': 'A'
-      },
+      'AG': {'id': 'data/AG', 'key': 'AG', 'name': 'ANTIGUA AND BARBUDA', 'require': 'A'},
       'AI': {
         'fmt': '%N%n%O%n%A%n%C%n%Z',
         'id': 'data/AI',
@@ -770,11 +764,7 @@ Map<String, Map<String, String>> get allJson => {
         'zipex': 'BT2328,KA1131,BA1511'
       },
       'BO': {'id': 'data/BO', 'key': 'BO', 'name': 'BOLIVIA', 'upper': 'AC'},
-      'BQ': {
-        'id': 'data/BQ',
-        'key': 'BQ',
-        'name': 'BONAIRE, SINT EUSTATIUS, AND SABA'
-      },
+      'BQ': {'id': 'data/BQ', 'key': 'BQ', 'name': 'BONAIRE, SINT EUSTATIUS, AND SABA'},
       'BR': {
         'fmt': '%O%n%N%n%A%n%D%n%C-%S%n%Z',
         'id': 'data/BR',
@@ -823,21 +813,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Assis Brasil',
         'lang': 'pt'
       },
-      'BR/AC/Brasiléia': {
-        'id': 'data/BR/AC/Brasiléia',
-        'key': 'Brasiléia',
-        'lang': 'pt'
-      },
-      'BR/AC/Bujari': {
-        'id': 'data/BR/AC/Bujari',
-        'key': 'Bujari',
-        'lang': 'pt'
-      },
-      'BR/AC/Capixaba': {
-        'id': 'data/BR/AC/Capixaba',
-        'key': 'Capixaba',
-        'lang': 'pt'
-      },
+      'BR/AC/Brasiléia': {'id': 'data/BR/AC/Brasiléia', 'key': 'Brasiléia', 'lang': 'pt'},
+      'BR/AC/Bujari': {'id': 'data/BR/AC/Bujari', 'key': 'Bujari', 'lang': 'pt'},
+      'BR/AC/Capixaba': {'id': 'data/BR/AC/Capixaba', 'key': 'Capixaba', 'lang': 'pt'},
       'BR/AC/Cruzeiro do Sul': {
         'id': 'data/BR/AC/Cruzeiro do Sul',
         'key': 'Cruzeiro do Sul',
@@ -849,11 +827,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/AC/Feijó': {'id': 'data/BR/AC/Feijó', 'key': 'Feijó', 'lang': 'pt'},
-      'BR/AC/Jordão': {
-        'id': 'data/BR/AC/Jordão',
-        'key': 'Jordão',
-        'lang': 'pt'
-      },
+      'BR/AC/Jordão': {'id': 'data/BR/AC/Jordão', 'key': 'Jordão', 'lang': 'pt'},
       'BR/AC/Manoel Urbano': {
         'id': 'data/BR/AC/Manoel Urbano',
         'key': 'Manoel Urbano',
@@ -909,16 +883,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Senador Guiomard',
         'lang': 'pt'
       },
-      'BR/AC/Tarauacá': {
-        'id': 'data/BR/AC/Tarauacá',
-        'key': 'Tarauacá',
-        'lang': 'pt'
-      },
-      'BR/AC/Xapuri': {
-        'id': 'data/BR/AC/Xapuri',
-        'key': 'Xapuri',
-        'lang': 'pt'
-      },
+      'BR/AC/Tarauacá': {'id': 'data/BR/AC/Tarauacá', 'key': 'Tarauacá', 'lang': 'pt'},
+      'BR/AC/Xapuri': {'id': 'data/BR/AC/Xapuri', 'key': 'Xapuri', 'lang': 'pt'},
       'BR/AL': {
         'id': 'data/BR/AL',
         'isoid': 'AL',
@@ -930,21 +896,9 @@ Map<String, Map<String, String>> get allJson => {
         'zip': '57',
         'zipex': '57000-000,57999-999'
       },
-      'BR/AL/Anadia': {
-        'id': 'data/BR/AL/Anadia',
-        'key': 'Anadia',
-        'lang': 'pt'
-      },
-      'BR/AL/Arapiraca': {
-        'id': 'data/BR/AL/Arapiraca',
-        'key': 'Arapiraca',
-        'lang': 'pt'
-      },
-      'BR/AL/Atalaia': {
-        'id': 'data/BR/AL/Atalaia',
-        'key': 'Atalaia',
-        'lang': 'pt'
-      },
+      'BR/AL/Anadia': {'id': 'data/BR/AL/Anadia', 'key': 'Anadia', 'lang': 'pt'},
+      'BR/AL/Arapiraca': {'id': 'data/BR/AL/Arapiraca', 'key': 'Arapiraca', 'lang': 'pt'},
+      'BR/AL/Atalaia': {'id': 'data/BR/AL/Atalaia', 'key': 'Atalaia', 'lang': 'pt'},
       'BR/AL/Barra de Santo Antônio': {
         'id': 'data/BR/AL/Barra de Santo Antônio',
         'key': 'Barra de Santo Antônio',
@@ -955,11 +909,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Barra de São Miguel',
         'lang': 'pt'
       },
-      'BR/AL/Batalha': {
-        'id': 'data/BR/AL/Batalha',
-        'key': 'Batalha',
-        'lang': 'pt'
-      },
+      'BR/AL/Batalha': {'id': 'data/BR/AL/Batalha', 'key': 'Batalha', 'lang': 'pt'},
       'BR/AL/Belo Monte': {
         'id': 'data/BR/AL/Belo Monte',
         'key': 'Belo Monte',
@@ -981,16 +931,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cacimbinhas',
         'lang': 'pt'
       },
-      'BR/AL/Cajueiro': {
-        'id': 'data/BR/AL/Cajueiro',
-        'key': 'Cajueiro',
-        'lang': 'pt'
-      },
-      'BR/AL/Campestre': {
-        'id': 'data/BR/AL/Campestre',
-        'key': 'Campestre',
-        'lang': 'pt'
-      },
+      'BR/AL/Cajueiro': {'id': 'data/BR/AL/Cajueiro', 'key': 'Cajueiro', 'lang': 'pt'},
+      'BR/AL/Campestre': {'id': 'data/BR/AL/Campestre', 'key': 'Campestre', 'lang': 'pt'},
       'BR/AL/Campo Alegre': {
         'id': 'data/BR/AL/Campo Alegre',
         'key': 'Campo Alegre',
@@ -1001,26 +943,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Campo Grande',
         'lang': 'pt'
       },
-      'BR/AL/Canapi': {
-        'id': 'data/BR/AL/Canapi',
-        'key': 'Canapi',
-        'lang': 'pt'
-      },
-      'BR/AL/Capela': {
-        'id': 'data/BR/AL/Capela',
-        'key': 'Capela',
-        'lang': 'pt'
-      },
-      'BR/AL/Carneiros': {
-        'id': 'data/BR/AL/Carneiros',
-        'key': 'Carneiros',
-        'lang': 'pt'
-      },
-      'BR/AL/Chã Preta': {
-        'id': 'data/BR/AL/Chã Preta',
-        'key': 'Chã Preta',
-        'lang': 'pt'
-      },
+      'BR/AL/Canapi': {'id': 'data/BR/AL/Canapi', 'key': 'Canapi', 'lang': 'pt'},
+      'BR/AL/Capela': {'id': 'data/BR/AL/Capela', 'key': 'Capela', 'lang': 'pt'},
+      'BR/AL/Carneiros': {'id': 'data/BR/AL/Carneiros', 'key': 'Carneiros', 'lang': 'pt'},
+      'BR/AL/Chã Preta': {'id': 'data/BR/AL/Chã Preta', 'key': 'Chã Preta', 'lang': 'pt'},
       'BR/AL/Coité do Nóia': {
         'id': 'data/BR/AL/Coité do Nóia',
         'key': 'Coité do Nóia',
@@ -1036,16 +962,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Coqueiro Seco',
         'lang': 'pt'
       },
-      'BR/AL/Coruripe': {
-        'id': 'data/BR/AL/Coruripe',
-        'key': 'Coruripe',
-        'lang': 'pt'
-      },
-      'BR/AL/Craíbas': {
-        'id': 'data/BR/AL/Craíbas',
-        'key': 'Craíbas',
-        'lang': 'pt'
-      },
+      'BR/AL/Coruripe': {'id': 'data/BR/AL/Coruripe', 'key': 'Coruripe', 'lang': 'pt'},
+      'BR/AL/Craíbas': {'id': 'data/BR/AL/Craíbas', 'key': 'Craíbas', 'lang': 'pt'},
       'BR/AL/Delmiro Gouveia': {
         'id': 'data/BR/AL/Delmiro Gouveia',
         'key': 'Delmiro Gouveia',
@@ -1071,11 +989,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Feliz Deserto',
         'lang': 'pt'
       },
-      'BR/AL/Flexeiras': {
-        'id': 'data/BR/AL/Flexeiras',
-        'key': 'Flexeiras',
-        'lang': 'pt'
-      },
+      'BR/AL/Flexeiras': {'id': 'data/BR/AL/Flexeiras', 'key': 'Flexeiras', 'lang': 'pt'},
       'BR/AL/Girau do Ponciano': {
         'id': 'data/BR/AL/Girau do Ponciano',
         'key': 'Girau do Ponciano',
@@ -1092,21 +1006,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Igreja Nova',
         'lang': 'pt'
       },
-      'BR/AL/Inhapi': {
-        'id': 'data/BR/AL/Inhapi',
-        'key': 'Inhapi',
-        'lang': 'pt'
-      },
+      'BR/AL/Inhapi': {'id': 'data/BR/AL/Inhapi', 'key': 'Inhapi', 'lang': 'pt'},
       'BR/AL/Jacaré dos Homens': {
         'id': 'data/BR/AL/Jacaré dos Homens',
         'key': 'Jacaré dos Homens',
         'lang': 'pt'
       },
-      'BR/AL/Jacuípe': {
-        'id': 'data/BR/AL/Jacuípe',
-        'key': 'Jacuípe',
-        'lang': 'pt'
-      },
+      'BR/AL/Jacuípe': {'id': 'data/BR/AL/Jacuípe', 'key': 'Jacuípe', 'lang': 'pt'},
       'BR/AL/Japaratinga': {
         'id': 'data/BR/AL/Japaratinga',
         'key': 'Japaratinga',
@@ -1127,16 +1033,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Joaquim Gomes',
         'lang': 'pt'
       },
-      'BR/AL/Jundiá': {
-        'id': 'data/BR/AL/Jundiá',
-        'key': 'Jundiá',
-        'lang': 'pt'
-      },
-      'BR/AL/Junqueiro': {
-        'id': 'data/BR/AL/Junqueiro',
-        'key': 'Junqueiro',
-        'lang': 'pt'
-      },
+      'BR/AL/Jundiá': {'id': 'data/BR/AL/Jundiá', 'key': 'Jundiá', 'lang': 'pt'},
+      'BR/AL/Junqueiro': {'id': 'data/BR/AL/Junqueiro', 'key': 'Junqueiro', 'lang': 'pt'},
       'BR/AL/Lagoa da Canoa': {
         'id': 'data/BR/AL/Lagoa da Canoa',
         'key': 'Lagoa da Canoa',
@@ -1147,11 +1045,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Limoeiro de Anadia',
         'lang': 'pt'
       },
-      'BR/AL/Maceió': {
-        'id': 'data/BR/AL/Maceió',
-        'key': 'Maceió',
-        'lang': 'pt'
-      },
+      'BR/AL/Maceió': {'id': 'data/BR/AL/Maceió', 'key': 'Maceió', 'lang': 'pt'},
       'BR/AL/Major Isidoro': {
         'id': 'data/BR/AL/Major Isidoro',
         'key': 'Major Isidoro',
@@ -1162,26 +1056,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Mar Vermelho',
         'lang': 'pt'
       },
-      'BR/AL/Maragogi': {
-        'id': 'data/BR/AL/Maragogi',
-        'key': 'Maragogi',
-        'lang': 'pt'
-      },
-      'BR/AL/Maravilha': {
-        'id': 'data/BR/AL/Maravilha',
-        'key': 'Maravilha',
-        'lang': 'pt'
-      },
+      'BR/AL/Maragogi': {'id': 'data/BR/AL/Maragogi', 'key': 'Maragogi', 'lang': 'pt'},
+      'BR/AL/Maravilha': {'id': 'data/BR/AL/Maravilha', 'key': 'Maravilha', 'lang': 'pt'},
       'BR/AL/Marechal Deodoro': {
         'id': 'data/BR/AL/Marechal Deodoro',
         'key': 'Marechal Deodoro',
         'lang': 'pt'
       },
-      'BR/AL/Maribondo': {
-        'id': 'data/BR/AL/Maribondo',
-        'key': 'Maribondo',
-        'lang': 'pt'
-      },
+      'BR/AL/Maribondo': {'id': 'data/BR/AL/Maribondo', 'key': 'Maribondo', 'lang': 'pt'},
       'BR/AL/Mata Grande': {
         'id': 'data/BR/AL/Mata Grande',
         'key': 'Mata Grande',
@@ -1192,11 +1074,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Matriz de Camaragibe',
         'lang': 'pt'
       },
-      'BR/AL/Messias': {
-        'id': 'data/BR/AL/Messias',
-        'key': 'Messias',
-        'lang': 'pt'
-      },
+      'BR/AL/Messias': {'id': 'data/BR/AL/Messias', 'key': 'Messias', 'lang': 'pt'},
       'BR/AL/Minador do Negrão': {
         'id': 'data/BR/AL/Minador do Negrão',
         'key': 'Minador do Negrão',
@@ -1207,16 +1085,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Monteirópolis',
         'lang': 'pt'
       },
-      'BR/AL/Murici': {
-        'id': 'data/BR/AL/Murici',
-        'key': 'Murici',
-        'lang': 'pt'
-      },
-      'BR/AL/Novo Lino': {
-        'id': 'data/BR/AL/Novo Lino',
-        'key': 'Novo Lino',
-        'lang': 'pt'
-      },
+      'BR/AL/Murici': {'id': 'data/BR/AL/Murici', 'key': 'Murici', 'lang': 'pt'},
+      'BR/AL/Novo Lino': {'id': 'data/BR/AL/Novo Lino', 'key': 'Novo Lino', 'lang': 'pt'},
       "BR/AL/Olho d'Água Grande": {
         'id': "data/BR/AL/Olho d'Água Grande",
         'key': "Olho d'Água Grande",
@@ -1232,31 +1102,19 @@ Map<String, Map<String, String>> get allJson => {
         'key': "Olho d'Água do Casado",
         'lang': 'pt'
       },
-      'BR/AL/Olivença': {
-        'id': 'data/BR/AL/Olivença',
-        'key': 'Olivença',
-        'lang': 'pt'
-      },
+      'BR/AL/Olivença': {'id': 'data/BR/AL/Olivença', 'key': 'Olivença', 'lang': 'pt'},
       'BR/AL/Ouro Branco': {
         'id': 'data/BR/AL/Ouro Branco',
         'key': 'Ouro Branco',
         'lang': 'pt'
       },
-      'BR/AL/Palestina': {
-        'id': 'data/BR/AL/Palestina',
-        'key': 'Palestina',
-        'lang': 'pt'
-      },
+      'BR/AL/Palestina': {'id': 'data/BR/AL/Palestina', 'key': 'Palestina', 'lang': 'pt'},
       'BR/AL/Palmeira dos Índios': {
         'id': 'data/BR/AL/Palmeira dos Índios',
         'key': 'Palmeira dos Índios',
         'lang': 'pt'
       },
-      'BR/AL/Pariconha': {
-        'id': 'data/BR/AL/Pariconha',
-        'key': 'Pariconha',
-        'lang': 'pt'
-      },
+      'BR/AL/Pariconha': {'id': 'data/BR/AL/Pariconha', 'key': 'Pariconha', 'lang': 'pt'},
       'BR/AL/Paripueira': {
         'id': 'data/BR/AL/Paripueira',
         'key': 'Paripueira',
@@ -1272,27 +1130,11 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Paulo Jacinto',
         'lang': 'pt'
       },
-      'BR/AL/Penedo': {
-        'id': 'data/BR/AL/Penedo',
-        'key': 'Penedo',
-        'lang': 'pt'
-      },
-      'BR/AL/Piaçabuçu': {
-        'id': 'data/BR/AL/Piaçabuçu',
-        'key': 'Piaçabuçu',
-        'lang': 'pt'
-      },
+      'BR/AL/Penedo': {'id': 'data/BR/AL/Penedo', 'key': 'Penedo', 'lang': 'pt'},
+      'BR/AL/Piaçabuçu': {'id': 'data/BR/AL/Piaçabuçu', 'key': 'Piaçabuçu', 'lang': 'pt'},
       'BR/AL/Pilar': {'id': 'data/BR/AL/Pilar', 'key': 'Pilar', 'lang': 'pt'},
-      'BR/AL/Pindoba': {
-        'id': 'data/BR/AL/Pindoba',
-        'key': 'Pindoba',
-        'lang': 'pt'
-      },
-      'BR/AL/Piranhas': {
-        'id': 'data/BR/AL/Piranhas',
-        'key': 'Piranhas',
-        'lang': 'pt'
-      },
+      'BR/AL/Pindoba': {'id': 'data/BR/AL/Pindoba', 'key': 'Pindoba', 'lang': 'pt'},
+      'BR/AL/Piranhas': {'id': 'data/BR/AL/Piranhas', 'key': 'Piranhas', 'lang': 'pt'},
       'BR/AL/Porto Calvo': {
         'id': 'data/BR/AL/Porto Calvo',
         'key': 'Porto Calvo',
@@ -1323,16 +1165,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Quebrangulo',
         'lang': 'pt'
       },
-      'BR/AL/Rio Largo': {
-        'id': 'data/BR/AL/Rio Largo',
-        'key': 'Rio Largo',
-        'lang': 'pt'
-      },
-      'BR/AL/Roteiro': {
-        'id': 'data/BR/AL/Roteiro',
-        'key': 'Roteiro',
-        'lang': 'pt'
-      },
+      'BR/AL/Rio Largo': {'id': 'data/BR/AL/Rio Largo', 'key': 'Rio Largo', 'lang': 'pt'},
+      'BR/AL/Roteiro': {'id': 'data/BR/AL/Roteiro', 'key': 'Roteiro', 'lang': 'pt'},
       'BR/AL/Santa Luzia do Norte': {
         'id': 'data/BR/AL/Santa Luzia do Norte',
         'key': 'Santa Luzia do Norte',
@@ -1348,21 +1182,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santana do Mundaú',
         'lang': 'pt'
       },
-      'BR/AL/Satuba': {
-        'id': 'data/BR/AL/Satuba',
-        'key': 'Satuba',
-        'lang': 'pt'
-      },
+      'BR/AL/Satuba': {'id': 'data/BR/AL/Satuba', 'key': 'Satuba', 'lang': 'pt'},
       'BR/AL/Senador Rui Palmeira': {
         'id': 'data/BR/AL/Senador Rui Palmeira',
         'key': 'Senador Rui Palmeira',
         'lang': 'pt'
       },
-      'BR/AL/São Brás': {
-        'id': 'data/BR/AL/São Brás',
-        'key': 'São Brás',
-        'lang': 'pt'
-      },
+      'BR/AL/São Brás': {'id': 'data/BR/AL/São Brás', 'key': 'São Brás', 'lang': 'pt'},
       'BR/AL/São José da Laje': {
         'id': 'data/BR/AL/São José da Laje',
         'key': 'São José da Laje',
@@ -1398,31 +1224,19 @@ Map<String, Map<String, String>> get allJson => {
         'key': "Tanque d'Arca",
         'lang': 'pt'
       },
-      'BR/AL/Taquarana': {
-        'id': 'data/BR/AL/Taquarana',
-        'key': 'Taquarana',
-        'lang': 'pt'
-      },
+      'BR/AL/Taquarana': {'id': 'data/BR/AL/Taquarana', 'key': 'Taquarana', 'lang': 'pt'},
       'BR/AL/Teotônio Vilela': {
         'id': 'data/BR/AL/Teotônio Vilela',
         'key': 'Teotônio Vilela',
         'lang': 'pt'
       },
-      'BR/AL/Traipu': {
-        'id': 'data/BR/AL/Traipu',
-        'key': 'Traipu',
-        'lang': 'pt'
-      },
+      'BR/AL/Traipu': {'id': 'data/BR/AL/Traipu', 'key': 'Traipu', 'lang': 'pt'},
       'BR/AL/União dos Palmares': {
         'id': 'data/BR/AL/União dos Palmares',
         'key': 'União dos Palmares',
         'lang': 'pt'
       },
-      'BR/AL/Viçosa': {
-        'id': 'data/BR/AL/Viçosa',
-        'key': 'Viçosa',
-        'lang': 'pt'
-      },
+      'BR/AL/Viçosa': {'id': 'data/BR/AL/Viçosa', 'key': 'Viçosa', 'lang': 'pt'},
       'BR/AL/Água Branca': {
         'id': 'data/BR/AL/Água Branca',
         'key': 'Água Branca',
@@ -1439,16 +1253,8 @@ Map<String, Map<String, String>> get allJson => {
         'zip': '69[0-24-8]',
         'zipex': '69000-000,69400-123'
       },
-      'BR/AM/Alvarães': {
-        'id': 'data/BR/AM/Alvarães',
-        'key': 'Alvarães',
-        'lang': 'pt'
-      },
-      'BR/AM/Amaturá': {
-        'id': 'data/BR/AM/Amaturá',
-        'key': 'Amaturá',
-        'lang': 'pt'
-      },
+      'BR/AM/Alvarães': {'id': 'data/BR/AM/Alvarães', 'key': 'Alvarães', 'lang': 'pt'},
+      'BR/AM/Amaturá': {'id': 'data/BR/AM/Amaturá', 'key': 'Amaturá', 'lang': 'pt'},
       'BR/AM/Anamã': {'id': 'data/BR/AM/Anamã', 'key': 'Anamã', 'lang': 'pt'},
       'BR/AM/Anorí': {'id': 'data/BR/AM/Anorí', 'key': 'Anorí', 'lang': 'pt'},
       'BR/AM/Apuí': {'id': 'data/BR/AM/Apuí', 'key': 'Apuí', 'lang': 'pt'},
@@ -1457,16 +1263,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Atalaia do Norte',
         'lang': 'pt'
       },
-      'BR/AM/Autazes': {
-        'id': 'data/BR/AM/Autazes',
-        'key': 'Autazes',
-        'lang': 'pt'
-      },
-      'BR/AM/Barcelos': {
-        'id': 'data/BR/AM/Barcelos',
-        'key': 'Barcelos',
-        'lang': 'pt'
-      },
+      'BR/AM/Autazes': {'id': 'data/BR/AM/Autazes', 'key': 'Autazes', 'lang': 'pt'},
+      'BR/AM/Barcelos': {'id': 'data/BR/AM/Barcelos', 'key': 'Barcelos', 'lang': 'pt'},
       'BR/AM/Barreirinha': {
         'id': 'data/BR/AM/Barreirinha',
         'key': 'Barreirinha',
@@ -1477,11 +1275,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Benjamin Constant',
         'lang': 'pt'
       },
-      'BR/AM/Beruri': {
-        'id': 'data/BR/AM/Beruri',
-        'key': 'Beruri',
-        'lang': 'pt'
-      },
+      'BR/AM/Beruri': {'id': 'data/BR/AM/Beruri', 'key': 'Beruri', 'lang': 'pt'},
       'BR/AM/Boa Vista do Ramos': {
         'id': 'data/BR/AM/Boa Vista do Ramos',
         'key': 'Boa Vista do Ramos',
@@ -1498,121 +1292,49 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Caapiranga',
         'lang': 'pt'
       },
-      'BR/AM/Canutama': {
-        'id': 'data/BR/AM/Canutama',
-        'key': 'Canutama',
-        'lang': 'pt'
-      },
-      'BR/AM/Carauari': {
-        'id': 'data/BR/AM/Carauari',
-        'key': 'Carauari',
-        'lang': 'pt'
-      },
-      'BR/AM/Careiro': {
-        'id': 'data/BR/AM/Careiro',
-        'key': 'Careiro',
-        'lang': 'pt'
-      },
+      'BR/AM/Canutama': {'id': 'data/BR/AM/Canutama', 'key': 'Canutama', 'lang': 'pt'},
+      'BR/AM/Carauari': {'id': 'data/BR/AM/Carauari', 'key': 'Carauari', 'lang': 'pt'},
+      'BR/AM/Careiro': {'id': 'data/BR/AM/Careiro', 'key': 'Careiro', 'lang': 'pt'},
       'BR/AM/Careiro da Várzea': {
         'id': 'data/BR/AM/Careiro da Várzea',
         'key': 'Careiro da Várzea',
         'lang': 'pt'
       },
       'BR/AM/Coari': {'id': 'data/BR/AM/Coari', 'key': 'Coari', 'lang': 'pt'},
-      'BR/AM/Codajás': {
-        'id': 'data/BR/AM/Codajás',
-        'key': 'Codajás',
-        'lang': 'pt'
-      },
-      'BR/AM/Eirunepé': {
-        'id': 'data/BR/AM/Eirunepé',
-        'key': 'Eirunepé',
-        'lang': 'pt'
-      },
-      'BR/AM/Envira': {
-        'id': 'data/BR/AM/Envira',
-        'key': 'Envira',
-        'lang': 'pt'
-      },
-      'BR/AM/Fonte Boa': {
-        'id': 'data/BR/AM/Fonte Boa',
-        'key': 'Fonte Boa',
-        'lang': 'pt'
-      },
-      'BR/AM/Guajará': {
-        'id': 'data/BR/AM/Guajará',
-        'key': 'Guajará',
-        'lang': 'pt'
-      },
-      'BR/AM/Humaitá': {
-        'id': 'data/BR/AM/Humaitá',
-        'key': 'Humaitá',
-        'lang': 'pt'
-      },
-      'BR/AM/Ipixuna': {
-        'id': 'data/BR/AM/Ipixuna',
-        'key': 'Ipixuna',
-        'lang': 'pt'
-      },
-      'BR/AM/Iranduba': {
-        'id': 'data/BR/AM/Iranduba',
-        'key': 'Iranduba',
-        'lang': 'pt'
-      },
+      'BR/AM/Codajás': {'id': 'data/BR/AM/Codajás', 'key': 'Codajás', 'lang': 'pt'},
+      'BR/AM/Eirunepé': {'id': 'data/BR/AM/Eirunepé', 'key': 'Eirunepé', 'lang': 'pt'},
+      'BR/AM/Envira': {'id': 'data/BR/AM/Envira', 'key': 'Envira', 'lang': 'pt'},
+      'BR/AM/Fonte Boa': {'id': 'data/BR/AM/Fonte Boa', 'key': 'Fonte Boa', 'lang': 'pt'},
+      'BR/AM/Guajará': {'id': 'data/BR/AM/Guajará', 'key': 'Guajará', 'lang': 'pt'},
+      'BR/AM/Humaitá': {'id': 'data/BR/AM/Humaitá', 'key': 'Humaitá', 'lang': 'pt'},
+      'BR/AM/Ipixuna': {'id': 'data/BR/AM/Ipixuna', 'key': 'Ipixuna', 'lang': 'pt'},
+      'BR/AM/Iranduba': {'id': 'data/BR/AM/Iranduba', 'key': 'Iranduba', 'lang': 'pt'},
       'BR/AM/Itacoatiara': {
         'id': 'data/BR/AM/Itacoatiara',
         'key': 'Itacoatiara',
         'lang': 'pt'
       },
-      'BR/AM/Itamarati': {
-        'id': 'data/BR/AM/Itamarati',
-        'key': 'Itamarati',
-        'lang': 'pt'
-      },
+      'BR/AM/Itamarati': {'id': 'data/BR/AM/Itamarati', 'key': 'Itamarati', 'lang': 'pt'},
       'BR/AM/Itapiranga': {
         'id': 'data/BR/AM/Itapiranga',
         'key': 'Itapiranga',
         'lang': 'pt'
       },
-      'BR/AM/Japurá': {
-        'id': 'data/BR/AM/Japurá',
-        'key': 'Japurá',
-        'lang': 'pt'
-      },
+      'BR/AM/Japurá': {'id': 'data/BR/AM/Japurá', 'key': 'Japurá', 'lang': 'pt'},
       'BR/AM/Jurua': {'id': 'data/BR/AM/Jurua', 'key': 'Jurua', 'lang': 'pt'},
       'BR/AM/Jutaí': {'id': 'data/BR/AM/Jutaí', 'key': 'Jutaí', 'lang': 'pt'},
-      'BR/AM/Lábrea': {
-        'id': 'data/BR/AM/Lábrea',
-        'key': 'Lábrea',
-        'lang': 'pt'
-      },
+      'BR/AM/Lábrea': {'id': 'data/BR/AM/Lábrea', 'key': 'Lábrea', 'lang': 'pt'},
       'BR/AM/Manacapuru': {
         'id': 'data/BR/AM/Manacapuru',
         'key': 'Manacapuru',
         'lang': 'pt'
       },
-      'BR/AM/Manaquiri': {
-        'id': 'data/BR/AM/Manaquiri',
-        'key': 'Manaquiri',
-        'lang': 'pt'
-      },
-      'BR/AM/Manaus': {
-        'id': 'data/BR/AM/Manaus',
-        'key': 'Manaus',
-        'lang': 'pt'
-      },
-      'BR/AM/Manicoré': {
-        'id': 'data/BR/AM/Manicoré',
-        'key': 'Manicoré',
-        'lang': 'pt'
-      },
+      'BR/AM/Manaquiri': {'id': 'data/BR/AM/Manaquiri', 'key': 'Manaquiri', 'lang': 'pt'},
+      'BR/AM/Manaus': {'id': 'data/BR/AM/Manaus', 'key': 'Manaus', 'lang': 'pt'},
+      'BR/AM/Manicoré': {'id': 'data/BR/AM/Manicoré', 'key': 'Manicoré', 'lang': 'pt'},
       'BR/AM/Maraã': {'id': 'data/BR/AM/Maraã', 'key': 'Maraã', 'lang': 'pt'},
       'BR/AM/Maués': {'id': 'data/BR/AM/Maués', 'key': 'Maués', 'lang': 'pt'},
-      'BR/AM/Nhamundá': {
-        'id': 'data/BR/AM/Nhamundá',
-        'key': 'Nhamundá',
-        'lang': 'pt'
-      },
+      'BR/AM/Nhamundá': {'id': 'data/BR/AM/Nhamundá', 'key': 'Nhamundá', 'lang': 'pt'},
       'BR/AM/Nova Olinda do Norte': {
         'id': 'data/BR/AM/Nova Olinda do Norte',
         'key': 'Nova Olinda do Norte',
@@ -1628,16 +1350,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Novo Aripuanã',
         'lang': 'pt'
       },
-      'BR/AM/Parintins': {
-        'id': 'data/BR/AM/Parintins',
-        'key': 'Parintins',
-        'lang': 'pt'
-      },
-      'BR/AM/Pauini': {
-        'id': 'data/BR/AM/Pauini',
-        'key': 'Pauini',
-        'lang': 'pt'
-      },
+      'BR/AM/Parintins': {'id': 'data/BR/AM/Parintins', 'key': 'Parintins', 'lang': 'pt'},
+      'BR/AM/Pauini': {'id': 'data/BR/AM/Pauini', 'key': 'Pauini', 'lang': 'pt'},
       'BR/AM/Presidente Figueiredo': {
         'id': 'data/BR/AM/Presidente Figueiredo',
         'key': 'Presidente Figueiredo',
@@ -1658,11 +1372,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santo Antônio do Içá',
         'lang': 'pt'
       },
-      'BR/AM/Silves': {
-        'id': 'data/BR/AM/Silves',
-        'key': 'Silves',
-        'lang': 'pt'
-      },
+      'BR/AM/Silves': {'id': 'data/BR/AM/Silves', 'key': 'Silves', 'lang': 'pt'},
       'BR/AM/São Gabriel da Cachoeira': {
         'id': 'data/BR/AM/São Gabriel da Cachoeira',
         'key': 'São Gabriel da Cachoeira',
@@ -1678,32 +1388,12 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Sebastião do Uatumã',
         'lang': 'pt'
       },
-      'BR/AM/Tabatinga': {
-        'id': 'data/BR/AM/Tabatinga',
-        'key': 'Tabatinga',
-        'lang': 'pt'
-      },
-      'BR/AM/Tapauá': {
-        'id': 'data/BR/AM/Tapauá',
-        'key': 'Tapauá',
-        'lang': 'pt'
-      },
+      'BR/AM/Tabatinga': {'id': 'data/BR/AM/Tabatinga', 'key': 'Tabatinga', 'lang': 'pt'},
+      'BR/AM/Tapauá': {'id': 'data/BR/AM/Tapauá', 'key': 'Tapauá', 'lang': 'pt'},
       'BR/AM/Tefé': {'id': 'data/BR/AM/Tefé', 'key': 'Tefé', 'lang': 'pt'},
-      'BR/AM/Tonantins': {
-        'id': 'data/BR/AM/Tonantins',
-        'key': 'Tonantins',
-        'lang': 'pt'
-      },
-      'BR/AM/Uarini': {
-        'id': 'data/BR/AM/Uarini',
-        'key': 'Uarini',
-        'lang': 'pt'
-      },
-      'BR/AM/Urucará': {
-        'id': 'data/BR/AM/Urucará',
-        'key': 'Urucará',
-        'lang': 'pt'
-      },
+      'BR/AM/Tonantins': {'id': 'data/BR/AM/Tonantins', 'key': 'Tonantins', 'lang': 'pt'},
+      'BR/AM/Uarini': {'id': 'data/BR/AM/Uarini', 'key': 'Uarini', 'lang': 'pt'},
+      'BR/AM/Urucará': {'id': 'data/BR/AM/Urucará', 'key': 'Urucará', 'lang': 'pt'},
       'BR/AM/Urucurituba': {
         'id': 'data/BR/AM/Urucurituba',
         'key': 'Urucurituba',
@@ -1721,46 +1411,22 @@ Map<String, Map<String, String>> get allJson => {
         'zipex': '68900-000,68999-999'
       },
       'BR/AP/Amapá': {'id': 'data/BR/AP/Amapá', 'key': 'Amapá', 'lang': 'pt'},
-      'BR/AP/Calçoene': {
-        'id': 'data/BR/AP/Calçoene',
-        'key': 'Calçoene',
-        'lang': 'pt'
-      },
-      'BR/AP/Cutias': {
-        'id': 'data/BR/AP/Cutias',
-        'key': 'Cutias',
-        'lang': 'pt'
-      },
+      'BR/AP/Calçoene': {'id': 'data/BR/AP/Calçoene', 'key': 'Calçoene', 'lang': 'pt'},
+      'BR/AP/Cutias': {'id': 'data/BR/AP/Cutias', 'key': 'Cutias', 'lang': 'pt'},
       'BR/AP/Ferreira Gomes': {
         'id': 'data/BR/AP/Ferreira Gomes',
         'key': 'Ferreira Gomes',
         'lang': 'pt'
       },
-      'BR/AP/Itaubal': {
-        'id': 'data/BR/AP/Itaubal',
-        'key': 'Itaubal',
-        'lang': 'pt'
-      },
+      'BR/AP/Itaubal': {'id': 'data/BR/AP/Itaubal', 'key': 'Itaubal', 'lang': 'pt'},
       'BR/AP/Laranjal do Jari': {
         'id': 'data/BR/AP/Laranjal do Jari',
         'key': 'Laranjal do Jari',
         'lang': 'pt'
       },
-      'BR/AP/Macapá': {
-        'id': 'data/BR/AP/Macapá',
-        'key': 'Macapá',
-        'lang': 'pt'
-      },
-      'BR/AP/Mazagão': {
-        'id': 'data/BR/AP/Mazagão',
-        'key': 'Mazagão',
-        'lang': 'pt'
-      },
-      'BR/AP/Oiapoque': {
-        'id': 'data/BR/AP/Oiapoque',
-        'key': 'Oiapoque',
-        'lang': 'pt'
-      },
+      'BR/AP/Macapá': {'id': 'data/BR/AP/Macapá', 'key': 'Macapá', 'lang': 'pt'},
+      'BR/AP/Mazagão': {'id': 'data/BR/AP/Mazagão', 'key': 'Mazagão', 'lang': 'pt'},
+      'BR/AP/Oiapoque': {'id': 'data/BR/AP/Oiapoque', 'key': 'Oiapoque', 'lang': 'pt'},
       'BR/AP/Pedra Branca do Amapari': {
         'id': 'data/BR/AP/Pedra Branca do Amapari',
         'key': 'Pedra Branca do Amapari',
@@ -1771,16 +1437,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Porto Grande',
         'lang': 'pt'
       },
-      'BR/AP/Pracuúba': {
-        'id': 'data/BR/AP/Pracuúba',
-        'key': 'Pracuúba',
-        'lang': 'pt'
-      },
-      'BR/AP/Santana': {
-        'id': 'data/BR/AP/Santana',
-        'key': 'Santana',
-        'lang': 'pt'
-      },
+      'BR/AP/Pracuúba': {'id': 'data/BR/AP/Pracuúba', 'key': 'Pracuúba', 'lang': 'pt'},
+      'BR/AP/Santana': {'id': 'data/BR/AP/Santana', 'key': 'Santana', 'lang': 'pt'},
       'BR/AP/Serra do Navio': {
         'id': 'data/BR/AP/Serra do Navio',
         'key': 'Serra do Navio',
@@ -1808,46 +1466,18 @@ Map<String, Map<String, String>> get allJson => {
         'zipex': '40000-000,48999-999'
       },
       'BR/BA/Abaré': {'id': 'data/BR/BA/Abaré', 'key': 'Abaré', 'lang': 'pt'},
-      'BR/BA/Abaíra': {
-        'id': 'data/BR/BA/Abaíra',
-        'key': 'Abaíra',
-        'lang': 'pt'
-      },
-      'BR/BA/Acajutiba': {
-        'id': 'data/BR/BA/Acajutiba',
-        'key': 'Acajutiba',
-        'lang': 'pt'
-      },
-      'BR/BA/Adustina': {
-        'id': 'data/BR/BA/Adustina',
-        'key': 'Adustina',
-        'lang': 'pt'
-      },
-      'BR/BA/Aiquara': {
-        'id': 'data/BR/BA/Aiquara',
-        'key': 'Aiquara',
-        'lang': 'pt'
-      },
+      'BR/BA/Abaíra': {'id': 'data/BR/BA/Abaíra', 'key': 'Abaíra', 'lang': 'pt'},
+      'BR/BA/Acajutiba': {'id': 'data/BR/BA/Acajutiba', 'key': 'Acajutiba', 'lang': 'pt'},
+      'BR/BA/Adustina': {'id': 'data/BR/BA/Adustina', 'key': 'Adustina', 'lang': 'pt'},
+      'BR/BA/Aiquara': {'id': 'data/BR/BA/Aiquara', 'key': 'Aiquara', 'lang': 'pt'},
       'BR/BA/Alagoinhas': {
         'id': 'data/BR/BA/Alagoinhas',
         'key': 'Alagoinhas',
         'lang': 'pt'
       },
-      'BR/BA/Alcobaça': {
-        'id': 'data/BR/BA/Alcobaça',
-        'key': 'Alcobaça',
-        'lang': 'pt'
-      },
-      'BR/BA/Almadina': {
-        'id': 'data/BR/BA/Almadina',
-        'key': 'Almadina',
-        'lang': 'pt'
-      },
-      'BR/BA/Amargosa': {
-        'id': 'data/BR/BA/Amargosa',
-        'key': 'Amargosa',
-        'lang': 'pt'
-      },
+      'BR/BA/Alcobaça': {'id': 'data/BR/BA/Alcobaça', 'key': 'Alcobaça', 'lang': 'pt'},
+      'BR/BA/Almadina': {'id': 'data/BR/BA/Almadina', 'key': 'Almadina', 'lang': 'pt'},
+      'BR/BA/Amargosa': {'id': 'data/BR/BA/Amargosa', 'key': 'Amargosa', 'lang': 'pt'},
       'BR/BA/Amélia Rodrigues': {
         'id': 'data/BR/BA/Amélia Rodrigues',
         'key': 'Amélia Rodrigues',
@@ -1859,26 +1489,10 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/BA/Anagé': {'id': 'data/BR/BA/Anagé', 'key': 'Anagé', 'lang': 'pt'},
-      'BR/BA/Andaraí': {
-        'id': 'data/BR/BA/Andaraí',
-        'key': 'Andaraí',
-        'lang': 'pt'
-      },
-      'BR/BA/Andorinha': {
-        'id': 'data/BR/BA/Andorinha',
-        'key': 'Andorinha',
-        'lang': 'pt'
-      },
-      'BR/BA/Angical': {
-        'id': 'data/BR/BA/Angical',
-        'key': 'Angical',
-        'lang': 'pt'
-      },
-      'BR/BA/Anguera': {
-        'id': 'data/BR/BA/Anguera',
-        'key': 'Anguera',
-        'lang': 'pt'
-      },
+      'BR/BA/Andaraí': {'id': 'data/BR/BA/Andaraí', 'key': 'Andaraí', 'lang': 'pt'},
+      'BR/BA/Andorinha': {'id': 'data/BR/BA/Andorinha', 'key': 'Andorinha', 'lang': 'pt'},
+      'BR/BA/Angical': {'id': 'data/BR/BA/Angical', 'key': 'Angical', 'lang': 'pt'},
+      'BR/BA/Anguera': {'id': 'data/BR/BA/Anguera', 'key': 'Anguera', 'lang': 'pt'},
       'BR/BA/Antas': {'id': 'data/BR/BA/Antas', 'key': 'Antas', 'lang': 'pt'},
       'BR/BA/Antônio Cardoso': {
         'id': 'data/BR/BA/Antônio Cardoso',
@@ -1891,37 +1505,13 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/BA/Aporá': {'id': 'data/BR/BA/Aporá', 'key': 'Aporá', 'lang': 'pt'},
-      'BR/BA/Apuarema': {
-        'id': 'data/BR/BA/Apuarema',
-        'key': 'Apuarema',
-        'lang': 'pt'
-      },
-      'BR/BA/Aracatu': {
-        'id': 'data/BR/BA/Aracatu',
-        'key': 'Aracatu',
-        'lang': 'pt'
-      },
+      'BR/BA/Apuarema': {'id': 'data/BR/BA/Apuarema', 'key': 'Apuarema', 'lang': 'pt'},
+      'BR/BA/Aracatu': {'id': 'data/BR/BA/Aracatu', 'key': 'Aracatu', 'lang': 'pt'},
       'BR/BA/Araci': {'id': 'data/BR/BA/Araci', 'key': 'Araci', 'lang': 'pt'},
-      'BR/BA/Aramari': {
-        'id': 'data/BR/BA/Aramari',
-        'key': 'Aramari',
-        'lang': 'pt'
-      },
-      'BR/BA/Arataca': {
-        'id': 'data/BR/BA/Arataca',
-        'key': 'Arataca',
-        'lang': 'pt'
-      },
-      'BR/BA/Aratuípe': {
-        'id': 'data/BR/BA/Aratuípe',
-        'key': 'Aratuípe',
-        'lang': 'pt'
-      },
-      'BR/BA/Araças': {
-        'id': 'data/BR/BA/Araças',
-        'key': 'Araças',
-        'lang': 'pt'
-      },
+      'BR/BA/Aramari': {'id': 'data/BR/BA/Aramari', 'key': 'Aramari', 'lang': 'pt'},
+      'BR/BA/Arataca': {'id': 'data/BR/BA/Arataca', 'key': 'Arataca', 'lang': 'pt'},
+      'BR/BA/Aratuípe': {'id': 'data/BR/BA/Aratuípe', 'key': 'Aratuípe', 'lang': 'pt'},
+      'BR/BA/Araças': {'id': 'data/BR/BA/Araças', 'key': 'Araças', 'lang': 'pt'},
       'BR/BA/Aurelino Leal': {
         'id': 'data/BR/BA/Aurelino Leal',
         'key': 'Aurelino Leal',
@@ -1937,11 +1527,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Baixa Grande',
         'lang': 'pt'
       },
-      'BR/BA/Banzaê': {
-        'id': 'data/BR/BA/Banzaê',
-        'key': 'Banzaê',
-        'lang': 'pt'
-      },
+      'BR/BA/Banzaê': {'id': 'data/BR/BA/Banzaê', 'key': 'Banzaê', 'lang': 'pt'},
       'BR/BA/Barra': {'id': 'data/BR/BA/Barra', 'key': 'Barra', 'lang': 'pt'},
       'BR/BA/Barra da Estiva': {
         'id': 'data/BR/BA/Barra da Estiva',
@@ -1963,11 +1549,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Barra do Rocha',
         'lang': 'pt'
       },
-      'BR/BA/Barreiras': {
-        'id': 'data/BR/BA/Barreiras',
-        'key': 'Barreiras',
-        'lang': 'pt'
-      },
+      'BR/BA/Barreiras': {'id': 'data/BR/BA/Barreiras', 'key': 'Barreiras', 'lang': 'pt'},
       'BR/BA/Barro Alto': {
         'id': 'data/BR/BA/Barro Alto',
         'key': 'Barro Alto',
@@ -1978,31 +1560,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Barro Preto',
         'lang': 'pt'
       },
-      'BR/BA/Barrocas': {
-        'id': 'data/BR/BA/Barrocas',
-        'key': 'Barrocas',
-        'lang': 'pt'
-      },
-      'BR/BA/Belmonte': {
-        'id': 'data/BR/BA/Belmonte',
-        'key': 'Belmonte',
-        'lang': 'pt'
-      },
+      'BR/BA/Barrocas': {'id': 'data/BR/BA/Barrocas', 'key': 'Barrocas', 'lang': 'pt'},
+      'BR/BA/Belmonte': {'id': 'data/BR/BA/Belmonte', 'key': 'Belmonte', 'lang': 'pt'},
       'BR/BA/Belo Campo': {
         'id': 'data/BR/BA/Belo Campo',
         'key': 'Belo Campo',
         'lang': 'pt'
       },
-      'BR/BA/Biritinga': {
-        'id': 'data/BR/BA/Biritinga',
-        'key': 'Biritinga',
-        'lang': 'pt'
-      },
-      'BR/BA/Boa Nova': {
-        'id': 'data/BR/BA/Boa Nova',
-        'key': 'Boa Nova',
-        'lang': 'pt'
-      },
+      'BR/BA/Biritinga': {'id': 'data/BR/BA/Biritinga', 'key': 'Biritinga', 'lang': 'pt'},
+      'BR/BA/Boa Nova': {'id': 'data/BR/BA/Boa Nova', 'key': 'Boa Nova', 'lang': 'pt'},
       'BR/BA/Boa Vista do Tupim': {
         'id': 'data/BR/BA/Boa Vista do Tupim',
         'key': 'Boa Vista do Tupim',
@@ -2018,112 +1584,48 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bom Jesus da Serra',
         'lang': 'pt'
       },
-      'BR/BA/Boninal': {
-        'id': 'data/BR/BA/Boninal',
-        'key': 'Boninal',
-        'lang': 'pt'
-      },
-      'BR/BA/Bonito': {
-        'id': 'data/BR/BA/Bonito',
-        'key': 'Bonito',
-        'lang': 'pt'
-      },
-      'BR/BA/Boquira': {
-        'id': 'data/BR/BA/Boquira',
-        'key': 'Boquira',
-        'lang': 'pt'
-      },
-      'BR/BA/Botuporã': {
-        'id': 'data/BR/BA/Botuporã',
-        'key': 'Botuporã',
-        'lang': 'pt'
-      },
+      'BR/BA/Boninal': {'id': 'data/BR/BA/Boninal', 'key': 'Boninal', 'lang': 'pt'},
+      'BR/BA/Bonito': {'id': 'data/BR/BA/Bonito', 'key': 'Bonito', 'lang': 'pt'},
+      'BR/BA/Boquira': {'id': 'data/BR/BA/Boquira', 'key': 'Boquira', 'lang': 'pt'},
+      'BR/BA/Botuporã': {'id': 'data/BR/BA/Botuporã', 'key': 'Botuporã', 'lang': 'pt'},
       'BR/BA/Brejolândia': {
         'id': 'data/BR/BA/Brejolândia',
         'key': 'Brejolândia',
         'lang': 'pt'
       },
-      'BR/BA/Brejões': {
-        'id': 'data/BR/BA/Brejões',
-        'key': 'Brejões',
-        'lang': 'pt'
-      },
+      'BR/BA/Brejões': {'id': 'data/BR/BA/Brejões', 'key': 'Brejões', 'lang': 'pt'},
       'BR/BA/Brotas de Macaúbas': {
         'id': 'data/BR/BA/Brotas de Macaúbas',
         'key': 'Brotas de Macaúbas',
         'lang': 'pt'
       },
-      'BR/BA/Brumado': {
-        'id': 'data/BR/BA/Brumado',
-        'key': 'Brumado',
-        'lang': 'pt'
-      },
-      'BR/BA/Buerarema': {
-        'id': 'data/BR/BA/Buerarema',
-        'key': 'Buerarema',
-        'lang': 'pt'
-      },
+      'BR/BA/Brumado': {'id': 'data/BR/BA/Brumado', 'key': 'Brumado', 'lang': 'pt'},
+      'BR/BA/Buerarema': {'id': 'data/BR/BA/Buerarema', 'key': 'Buerarema', 'lang': 'pt'},
       'BR/BA/Buritirama': {
         'id': 'data/BR/BA/Buritirama',
         'key': 'Buritirama',
         'lang': 'pt'
       },
-      'BR/BA/Caatiba': {
-        'id': 'data/BR/BA/Caatiba',
-        'key': 'Caatiba',
-        'lang': 'pt'
-      },
+      'BR/BA/Caatiba': {'id': 'data/BR/BA/Caatiba', 'key': 'Caatiba', 'lang': 'pt'},
       'BR/BA/Cabaceiras do Paraguaçu': {
         'id': 'data/BR/BA/Cabaceiras do Paraguaçu',
         'key': 'Cabaceiras do Paraguaçu',
         'lang': 'pt'
       },
-      'BR/BA/Cachoeira': {
-        'id': 'data/BR/BA/Cachoeira',
-        'key': 'Cachoeira',
-        'lang': 'pt'
-      },
-      'BR/BA/Caculé': {
-        'id': 'data/BR/BA/Caculé',
-        'key': 'Caculé',
-        'lang': 'pt'
-      },
-      'BR/BA/Caetanos': {
-        'id': 'data/BR/BA/Caetanos',
-        'key': 'Caetanos',
-        'lang': 'pt'
-      },
-      'BR/BA/Caetité': {
-        'id': 'data/BR/BA/Caetité',
-        'key': 'Caetité',
-        'lang': 'pt'
-      },
-      'BR/BA/Cafarnaum': {
-        'id': 'data/BR/BA/Cafarnaum',
-        'key': 'Cafarnaum',
-        'lang': 'pt'
-      },
+      'BR/BA/Cachoeira': {'id': 'data/BR/BA/Cachoeira', 'key': 'Cachoeira', 'lang': 'pt'},
+      'BR/BA/Caculé': {'id': 'data/BR/BA/Caculé', 'key': 'Caculé', 'lang': 'pt'},
+      'BR/BA/Caetanos': {'id': 'data/BR/BA/Caetanos', 'key': 'Caetanos', 'lang': 'pt'},
+      'BR/BA/Caetité': {'id': 'data/BR/BA/Caetité', 'key': 'Caetité', 'lang': 'pt'},
+      'BR/BA/Cafarnaum': {'id': 'data/BR/BA/Cafarnaum', 'key': 'Cafarnaum', 'lang': 'pt'},
       'BR/BA/Cairu': {'id': 'data/BR/BA/Cairu', 'key': 'Cairu', 'lang': 'pt'},
       'BR/BA/Caldeirão Grande': {
         'id': 'data/BR/BA/Caldeirão Grande',
         'key': 'Caldeirão Grande',
         'lang': 'pt'
       },
-      'BR/BA/Camacan': {
-        'id': 'data/BR/BA/Camacan',
-        'key': 'Camacan',
-        'lang': 'pt'
-      },
-      'BR/BA/Camamu': {
-        'id': 'data/BR/BA/Camamu',
-        'key': 'Camamu',
-        'lang': 'pt'
-      },
-      'BR/BA/Camaçari': {
-        'id': 'data/BR/BA/Camaçari',
-        'key': 'Camaçari',
-        'lang': 'pt'
-      },
+      'BR/BA/Camacan': {'id': 'data/BR/BA/Camacan', 'key': 'Camacan', 'lang': 'pt'},
+      'BR/BA/Camamu': {'id': 'data/BR/BA/Camamu', 'key': 'Camamu', 'lang': 'pt'},
+      'BR/BA/Camaçari': {'id': 'data/BR/BA/Camaçari', 'key': 'Camaçari', 'lang': 'pt'},
       'BR/BA/Campo Alegre de Lourdes': {
         'id': 'data/BR/BA/Campo Alegre de Lourdes',
         'key': 'Campo Alegre de Lourdes',
@@ -2134,46 +1636,18 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Campo Formoso',
         'lang': 'pt'
       },
-      'BR/BA/CanDeal': {
-        'id': 'data/BR/BA/CanDeal',
-        'key': 'CanDeal',
-        'lang': 'pt'
-      },
-      'BR/BA/Canarana': {
-        'id': 'data/BR/BA/Canarana',
-        'key': 'Canarana',
-        'lang': 'pt'
-      },
+      'BR/BA/CanDeal': {'id': 'data/BR/BA/CanDeal', 'key': 'CanDeal', 'lang': 'pt'},
+      'BR/BA/Canarana': {'id': 'data/BR/BA/Canarana', 'key': 'Canarana', 'lang': 'pt'},
       'BR/BA/Canavieiras': {
         'id': 'data/BR/BA/Canavieiras',
         'key': 'Canavieiras',
         'lang': 'pt'
       },
-      'BR/BA/Candeias': {
-        'id': 'data/BR/BA/Candeias',
-        'key': 'Candeias',
-        'lang': 'pt'
-      },
-      'BR/BA/Candiba': {
-        'id': 'data/BR/BA/Candiba',
-        'key': 'Candiba',
-        'lang': 'pt'
-      },
-      'BR/BA/Cansanção': {
-        'id': 'data/BR/BA/Cansanção',
-        'key': 'Cansanção',
-        'lang': 'pt'
-      },
-      'BR/BA/Canudos': {
-        'id': 'data/BR/BA/Canudos',
-        'key': 'Canudos',
-        'lang': 'pt'
-      },
-      'BR/BA/Canápolis': {
-        'id': 'data/BR/BA/Canápolis',
-        'key': 'Canápolis',
-        'lang': 'pt'
-      },
+      'BR/BA/Candeias': {'id': 'data/BR/BA/Candeias', 'key': 'Candeias', 'lang': 'pt'},
+      'BR/BA/Candiba': {'id': 'data/BR/BA/Candiba', 'key': 'Candiba', 'lang': 'pt'},
+      'BR/BA/Cansanção': {'id': 'data/BR/BA/Cansanção', 'key': 'Cansanção', 'lang': 'pt'},
+      'BR/BA/Canudos': {'id': 'data/BR/BA/Canudos', 'key': 'Canudos', 'lang': 'pt'},
+      'BR/BA/Canápolis': {'id': 'data/BR/BA/Canápolis', 'key': 'Canápolis', 'lang': 'pt'},
       'BR/BA/Capela do Alto Alegre': {
         'id': 'data/BR/BA/Capela do Alto Alegre',
         'key': 'Capela do Alto Alegre',
@@ -2184,16 +1658,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Capim Grosso',
         'lang': 'pt'
       },
-      'BR/BA/Caravelas': {
-        'id': 'data/BR/BA/Caravelas',
-        'key': 'Caravelas',
-        'lang': 'pt'
-      },
-      'BR/BA/Caraíbas': {
-        'id': 'data/BR/BA/Caraíbas',
-        'key': 'Caraíbas',
-        'lang': 'pt'
-      },
+      'BR/BA/Caravelas': {'id': 'data/BR/BA/Caravelas', 'key': 'Caravelas', 'lang': 'pt'},
+      'BR/BA/Caraíbas': {'id': 'data/BR/BA/Caraíbas', 'key': 'Caraíbas', 'lang': 'pt'},
       'BR/BA/Cardeal da Silva': {
         'id': 'data/BR/BA/Cardeal da Silva',
         'key': 'Cardeal da Silva',
@@ -2204,11 +1670,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Carinhanha',
         'lang': 'pt'
       },
-      'BR/BA/Casa Nova': {
-        'id': 'data/BR/BA/Casa Nova',
-        'key': 'Casa Nova',
-        'lang': 'pt'
-      },
+      'BR/BA/Casa Nova': {'id': 'data/BR/BA/Casa Nova', 'key': 'Casa Nova', 'lang': 'pt'},
       'BR/BA/Castro Alves': {
         'id': 'data/BR/BA/Castro Alves',
         'key': 'Castro Alves',
@@ -2220,28 +1682,12 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/BA/Catu': {'id': 'data/BR/BA/Catu', 'key': 'Catu', 'lang': 'pt'},
-      'BR/BA/Caturama': {
-        'id': 'data/BR/BA/Caturama',
-        'key': 'Caturama',
-        'lang': 'pt'
-      },
+      'BR/BA/Caturama': {'id': 'data/BR/BA/Caturama', 'key': 'Caturama', 'lang': 'pt'},
       'BR/BA/Caém': {'id': 'data/BR/BA/Caém', 'key': 'Caém', 'lang': 'pt'},
-      'BR/BA/Central': {
-        'id': 'data/BR/BA/Central',
-        'key': 'Central',
-        'lang': 'pt'
-      },
-      'BR/BA/Chorrochó': {
-        'id': 'data/BR/BA/Chorrochó',
-        'key': 'Chorrochó',
-        'lang': 'pt'
-      },
+      'BR/BA/Central': {'id': 'data/BR/BA/Central', 'key': 'Central', 'lang': 'pt'},
+      'BR/BA/Chorrochó': {'id': 'data/BR/BA/Chorrochó', 'key': 'Chorrochó', 'lang': 'pt'},
       'BR/BA/Cipó': {'id': 'data/BR/BA/Cipó', 'key': 'Cipó', 'lang': 'pt'},
-      'BR/BA/Coaraci': {
-        'id': 'data/BR/BA/Coaraci',
-        'key': 'Coaraci',
-        'lang': 'pt'
-      },
+      'BR/BA/Coaraci': {'id': 'data/BR/BA/Coaraci', 'key': 'Coaraci', 'lang': 'pt'},
       'BR/BA/Cocos': {'id': 'data/BR/BA/Cocos', 'key': 'Cocos', 'lang': 'pt'},
       'BR/BA/Conceição da Feira': {
         'id': 'data/BR/BA/Conceição da Feira',
@@ -2264,11 +1710,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/BA/Conde': {'id': 'data/BR/BA/Conde', 'key': 'Conde', 'lang': 'pt'},
-      'BR/BA/Condeúba': {
-        'id': 'data/BR/BA/Condeúba',
-        'key': 'Condeúba',
-        'lang': 'pt'
-      },
+      'BR/BA/Condeúba': {'id': 'data/BR/BA/Condeúba', 'key': 'Condeúba', 'lang': 'pt'},
       'BR/BA/Contendas do Sincorá': {
         'id': 'data/BR/BA/Contendas do Sincorá',
         'key': 'Contendas do Sincorá',
@@ -2279,16 +1721,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Coração de Maria',
         'lang': 'pt'
       },
-      'BR/BA/Cordeiros': {
-        'id': 'data/BR/BA/Cordeiros',
-        'key': 'Cordeiros',
-        'lang': 'pt'
-      },
-      'BR/BA/Coribe': {
-        'id': 'data/BR/BA/Coribe',
-        'key': 'Coribe',
-        'lang': 'pt'
-      },
+      'BR/BA/Cordeiros': {'id': 'data/BR/BA/Cordeiros', 'key': 'Cordeiros', 'lang': 'pt'},
+      'BR/BA/Coribe': {'id': 'data/BR/BA/Coribe', 'key': 'Coribe', 'lang': 'pt'},
       'BR/BA/Coronel João Sá': {
         'id': 'data/BR/BA/Coronel João Sá',
         'key': 'Coronel João Sá',
@@ -2299,11 +1733,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Correntina',
         'lang': 'pt'
       },
-      'BR/BA/Cotegipe': {
-        'id': 'data/BR/BA/Cotegipe',
-        'key': 'Cotegipe',
-        'lang': 'pt'
-      },
+      'BR/BA/Cotegipe': {'id': 'data/BR/BA/Cotegipe', 'key': 'Cotegipe', 'lang': 'pt'},
       'BR/BA/Cravolândia': {
         'id': 'data/BR/BA/Cravolândia',
         'key': 'Cravolândia',
@@ -2324,11 +1754,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cruz das Almas',
         'lang': 'pt'
       },
-      'BR/BA/Curaçá': {
-        'id': 'data/BR/BA/Curaçá',
-        'key': 'Curaçá',
-        'lang': 'pt'
-      },
+      'BR/BA/Curaçá': {'id': 'data/BR/BA/Curaçá', 'key': 'Curaçá', 'lang': 'pt'},
       'BR/BA/Cândido Sales': {
         'id': 'data/BR/BA/Cândido Sales',
         'key': 'Cândido Sales',
@@ -2374,26 +1800,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Entre Rios',
         'lang': 'pt'
       },
-      'BR/BA/Esplanada': {
-        'id': 'data/BR/BA/Esplanada',
-        'key': 'Esplanada',
-        'lang': 'pt'
-      },
+      'BR/BA/Esplanada': {'id': 'data/BR/BA/Esplanada', 'key': 'Esplanada', 'lang': 'pt'},
       'BR/BA/Euclides da Cunha': {
         'id': 'data/BR/BA/Euclides da Cunha',
         'key': 'Euclides da Cunha',
         'lang': 'pt'
       },
-      'BR/BA/Eunápolis': {
-        'id': 'data/BR/BA/Eunápolis',
-        'key': 'Eunápolis',
-        'lang': 'pt'
-      },
-      'BR/BA/Fatima': {
-        'id': 'data/BR/BA/Fatima',
-        'key': 'Fatima',
-        'lang': 'pt'
-      },
+      'BR/BA/Eunápolis': {'id': 'data/BR/BA/Eunápolis', 'key': 'Eunápolis', 'lang': 'pt'},
+      'BR/BA/Fatima': {'id': 'data/BR/BA/Fatima', 'key': 'Fatima', 'lang': 'pt'},
       'BR/BA/Feira da Mata': {
         'id': 'data/BR/BA/Feira da Mata',
         'key': 'Feira da Mata',
@@ -2425,41 +1839,21 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/BA/Gandu': {'id': 'data/BR/BA/Gandu', 'key': 'Gandu', 'lang': 'pt'},
-      'BR/BA/Gavião': {
-        'id': 'data/BR/BA/Gavião',
-        'key': 'Gavião',
-        'lang': 'pt'
-      },
+      'BR/BA/Gavião': {'id': 'data/BR/BA/Gavião', 'key': 'Gavião', 'lang': 'pt'},
       'BR/BA/Gentio do Ouro': {
         'id': 'data/BR/BA/Gentio do Ouro',
         'key': 'Gentio do Ouro',
         'lang': 'pt'
       },
-      'BR/BA/Glória': {
-        'id': 'data/BR/BA/Glória',
-        'key': 'Glória',
-        'lang': 'pt'
-      },
-      'BR/BA/Gongogi': {
-        'id': 'data/BR/BA/Gongogi',
-        'key': 'Gongogi',
-        'lang': 'pt'
-      },
+      'BR/BA/Glória': {'id': 'data/BR/BA/Glória', 'key': 'Glória', 'lang': 'pt'},
+      'BR/BA/Gongogi': {'id': 'data/BR/BA/Gongogi', 'key': 'Gongogi', 'lang': 'pt'},
       'BR/BA/Governador Mangabeira': {
         'id': 'data/BR/BA/Governador Mangabeira',
         'key': 'Governador Mangabeira',
         'lang': 'pt'
       },
-      'BR/BA/Guajeru': {
-        'id': 'data/BR/BA/Guajeru',
-        'key': 'Guajeru',
-        'lang': 'pt'
-      },
-      'BR/BA/Guanambi': {
-        'id': 'data/BR/BA/Guanambi',
-        'key': 'Guanambi',
-        'lang': 'pt'
-      },
+      'BR/BA/Guajeru': {'id': 'data/BR/BA/Guajeru', 'key': 'Guajeru', 'lang': 'pt'},
+      'BR/BA/Guanambi': {'id': 'data/BR/BA/Guanambi', 'key': 'Guanambi', 'lang': 'pt'},
       'BR/BA/Guaratinga': {
         'id': 'data/BR/BA/Guaratinga',
         'key': 'Guaratinga',
@@ -2471,153 +1865,49 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/BA/Iaçu': {'id': 'data/BR/BA/Iaçu', 'key': 'Iaçu', 'lang': 'pt'},
-      'BR/BA/Ibiassucê': {
-        'id': 'data/BR/BA/Ibiassucê',
-        'key': 'Ibiassucê',
-        'lang': 'pt'
-      },
-      'BR/BA/Ibicaraí': {
-        'id': 'data/BR/BA/Ibicaraí',
-        'key': 'Ibicaraí',
-        'lang': 'pt'
-      },
-      'BR/BA/Ibicoara': {
-        'id': 'data/BR/BA/Ibicoara',
-        'key': 'Ibicoara',
-        'lang': 'pt'
-      },
-      'BR/BA/Ibicuí': {
-        'id': 'data/BR/BA/Ibicuí',
-        'key': 'Ibicuí',
-        'lang': 'pt'
-      },
-      'BR/BA/Ibipeba': {
-        'id': 'data/BR/BA/Ibipeba',
-        'key': 'Ibipeba',
-        'lang': 'pt'
-      },
+      'BR/BA/Ibiassucê': {'id': 'data/BR/BA/Ibiassucê', 'key': 'Ibiassucê', 'lang': 'pt'},
+      'BR/BA/Ibicaraí': {'id': 'data/BR/BA/Ibicaraí', 'key': 'Ibicaraí', 'lang': 'pt'},
+      'BR/BA/Ibicoara': {'id': 'data/BR/BA/Ibicoara', 'key': 'Ibicoara', 'lang': 'pt'},
+      'BR/BA/Ibicuí': {'id': 'data/BR/BA/Ibicuí', 'key': 'Ibicuí', 'lang': 'pt'},
+      'BR/BA/Ibipeba': {'id': 'data/BR/BA/Ibipeba', 'key': 'Ibipeba', 'lang': 'pt'},
       'BR/BA/Ibipitanga': {
         'id': 'data/BR/BA/Ibipitanga',
         'key': 'Ibipitanga',
         'lang': 'pt'
       },
-      'BR/BA/Ibiquera': {
-        'id': 'data/BR/BA/Ibiquera',
-        'key': 'Ibiquera',
-        'lang': 'pt'
-      },
+      'BR/BA/Ibiquera': {'id': 'data/BR/BA/Ibiquera', 'key': 'Ibiquera', 'lang': 'pt'},
       'BR/BA/Ibirapitanga': {
         'id': 'data/BR/BA/Ibirapitanga',
         'key': 'Ibirapitanga',
         'lang': 'pt'
       },
-      'BR/BA/Ibirapuã': {
-        'id': 'data/BR/BA/Ibirapuã',
-        'key': 'Ibirapuã',
-        'lang': 'pt'
-      },
-      'BR/BA/Ibirataia': {
-        'id': 'data/BR/BA/Ibirataia',
-        'key': 'Ibirataia',
-        'lang': 'pt'
-      },
-      'BR/BA/Ibitiara': {
-        'id': 'data/BR/BA/Ibitiara',
-        'key': 'Ibitiara',
-        'lang': 'pt'
-      },
-      'BR/BA/Ibititá': {
-        'id': 'data/BR/BA/Ibititá',
-        'key': 'Ibititá',
-        'lang': 'pt'
-      },
-      'BR/BA/Ibotirama': {
-        'id': 'data/BR/BA/Ibotirama',
-        'key': 'Ibotirama',
-        'lang': 'pt'
-      },
+      'BR/BA/Ibirapuã': {'id': 'data/BR/BA/Ibirapuã', 'key': 'Ibirapuã', 'lang': 'pt'},
+      'BR/BA/Ibirataia': {'id': 'data/BR/BA/Ibirataia', 'key': 'Ibirataia', 'lang': 'pt'},
+      'BR/BA/Ibitiara': {'id': 'data/BR/BA/Ibitiara', 'key': 'Ibitiara', 'lang': 'pt'},
+      'BR/BA/Ibititá': {'id': 'data/BR/BA/Ibititá', 'key': 'Ibititá', 'lang': 'pt'},
+      'BR/BA/Ibotirama': {'id': 'data/BR/BA/Ibotirama', 'key': 'Ibotirama', 'lang': 'pt'},
       'BR/BA/Ichu': {'id': 'data/BR/BA/Ichu', 'key': 'Ichu', 'lang': 'pt'},
-      'BR/BA/Igaporã': {
-        'id': 'data/BR/BA/Igaporã',
-        'key': 'Igaporã',
-        'lang': 'pt'
-      },
-      'BR/BA/Igrapiúna': {
-        'id': 'data/BR/BA/Igrapiúna',
-        'key': 'Igrapiúna',
-        'lang': 'pt'
-      },
+      'BR/BA/Igaporã': {'id': 'data/BR/BA/Igaporã', 'key': 'Igaporã', 'lang': 'pt'},
+      'BR/BA/Igrapiúna': {'id': 'data/BR/BA/Igrapiúna', 'key': 'Igrapiúna', 'lang': 'pt'},
       'BR/BA/Iguaí': {'id': 'data/BR/BA/Iguaí', 'key': 'Iguaí', 'lang': 'pt'},
-      'BR/BA/Ilhéus': {
-        'id': 'data/BR/BA/Ilhéus',
-        'key': 'Ilhéus',
-        'lang': 'pt'
-      },
-      'BR/BA/Inhambupe': {
-        'id': 'data/BR/BA/Inhambupe',
-        'key': 'Inhambupe',
-        'lang': 'pt'
-      },
-      'BR/BA/Ipecaetá': {
-        'id': 'data/BR/BA/Ipecaetá',
-        'key': 'Ipecaetá',
-        'lang': 'pt'
-      },
+      'BR/BA/Ilhéus': {'id': 'data/BR/BA/Ilhéus', 'key': 'Ilhéus', 'lang': 'pt'},
+      'BR/BA/Inhambupe': {'id': 'data/BR/BA/Inhambupe', 'key': 'Inhambupe', 'lang': 'pt'},
+      'BR/BA/Ipecaetá': {'id': 'data/BR/BA/Ipecaetá', 'key': 'Ipecaetá', 'lang': 'pt'},
       'BR/BA/Ipiaú': {'id': 'data/BR/BA/Ipiaú', 'key': 'Ipiaú', 'lang': 'pt'},
       'BR/BA/Ipirá': {'id': 'data/BR/BA/Ipirá', 'key': 'Ipirá', 'lang': 'pt'},
-      'BR/BA/Ipupiara': {
-        'id': 'data/BR/BA/Ipupiara',
-        'key': 'Ipupiara',
-        'lang': 'pt'
-      },
-      'BR/BA/Irajuba': {
-        'id': 'data/BR/BA/Irajuba',
-        'key': 'Irajuba',
-        'lang': 'pt'
-      },
-      'BR/BA/Iramaia': {
-        'id': 'data/BR/BA/Iramaia',
-        'key': 'Iramaia',
-        'lang': 'pt'
-      },
-      'BR/BA/Iraquara': {
-        'id': 'data/BR/BA/Iraquara',
-        'key': 'Iraquara',
-        'lang': 'pt'
-      },
+      'BR/BA/Ipupiara': {'id': 'data/BR/BA/Ipupiara', 'key': 'Ipupiara', 'lang': 'pt'},
+      'BR/BA/Irajuba': {'id': 'data/BR/BA/Irajuba', 'key': 'Irajuba', 'lang': 'pt'},
+      'BR/BA/Iramaia': {'id': 'data/BR/BA/Iramaia', 'key': 'Iramaia', 'lang': 'pt'},
+      'BR/BA/Iraquara': {'id': 'data/BR/BA/Iraquara', 'key': 'Iraquara', 'lang': 'pt'},
       'BR/BA/Irará': {'id': 'data/BR/BA/Irará', 'key': 'Irará', 'lang': 'pt'},
       'BR/BA/Irecê': {'id': 'data/BR/BA/Irecê', 'key': 'Irecê', 'lang': 'pt'},
-      'BR/BA/Itabela': {
-        'id': 'data/BR/BA/Itabela',
-        'key': 'Itabela',
-        'lang': 'pt'
-      },
-      'BR/BA/Itaberaba': {
-        'id': 'data/BR/BA/Itaberaba',
-        'key': 'Itaberaba',
-        'lang': 'pt'
-      },
-      'BR/BA/Itabuna': {
-        'id': 'data/BR/BA/Itabuna',
-        'key': 'Itabuna',
-        'lang': 'pt'
-      },
-      'BR/BA/Itacare': {
-        'id': 'data/BR/BA/Itacare',
-        'key': 'Itacare',
-        'lang': 'pt'
-      },
-      'BR/BA/Itaeté': {
-        'id': 'data/BR/BA/Itaeté',
-        'key': 'Itaeté',
-        'lang': 'pt'
-      },
+      'BR/BA/Itabela': {'id': 'data/BR/BA/Itabela', 'key': 'Itabela', 'lang': 'pt'},
+      'BR/BA/Itaberaba': {'id': 'data/BR/BA/Itaberaba', 'key': 'Itaberaba', 'lang': 'pt'},
+      'BR/BA/Itabuna': {'id': 'data/BR/BA/Itabuna', 'key': 'Itabuna', 'lang': 'pt'},
+      'BR/BA/Itacare': {'id': 'data/BR/BA/Itacare', 'key': 'Itacare', 'lang': 'pt'},
+      'BR/BA/Itaeté': {'id': 'data/BR/BA/Itaeté', 'key': 'Itaeté', 'lang': 'pt'},
       'BR/BA/Itagi': {'id': 'data/BR/BA/Itagi', 'key': 'Itagi', 'lang': 'pt'},
-      'BR/BA/Itagibá': {
-        'id': 'data/BR/BA/Itagibá',
-        'key': 'Itagibá',
-        'lang': 'pt'
-      },
+      'BR/BA/Itagibá': {'id': 'data/BR/BA/Itagibá', 'key': 'Itagibá', 'lang': 'pt'},
       'BR/BA/Itagimirim': {
         'id': 'data/BR/BA/Itagimirim',
         'key': 'Itagimirim',
@@ -2633,188 +1923,60 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Itaju do Colônia',
         'lang': 'pt'
       },
-      'BR/BA/Itajuípe': {
-        'id': 'data/BR/BA/Itajuípe',
-        'key': 'Itajuípe',
-        'lang': 'pt'
-      },
-      'BR/BA/Itamaraju': {
-        'id': 'data/BR/BA/Itamaraju',
-        'key': 'Itamaraju',
-        'lang': 'pt'
-      },
-      'BR/BA/Itamari': {
-        'id': 'data/BR/BA/Itamari',
-        'key': 'Itamari',
-        'lang': 'pt'
-      },
-      'BR/BA/Itambé': {
-        'id': 'data/BR/BA/Itambé',
-        'key': 'Itambé',
-        'lang': 'pt'
-      },
-      'BR/BA/Itanagra': {
-        'id': 'data/BR/BA/Itanagra',
-        'key': 'Itanagra',
-        'lang': 'pt'
-      },
-      'BR/BA/Itanhém': {
-        'id': 'data/BR/BA/Itanhém',
-        'key': 'Itanhém',
-        'lang': 'pt'
-      },
-      'BR/BA/Itaparica': {
-        'id': 'data/BR/BA/Itaparica',
-        'key': 'Itaparica',
-        'lang': 'pt'
-      },
-      'BR/BA/Itapebi': {
-        'id': 'data/BR/BA/Itapebi',
-        'key': 'Itapebi',
-        'lang': 'pt'
-      },
+      'BR/BA/Itajuípe': {'id': 'data/BR/BA/Itajuípe', 'key': 'Itajuípe', 'lang': 'pt'},
+      'BR/BA/Itamaraju': {'id': 'data/BR/BA/Itamaraju', 'key': 'Itamaraju', 'lang': 'pt'},
+      'BR/BA/Itamari': {'id': 'data/BR/BA/Itamari', 'key': 'Itamari', 'lang': 'pt'},
+      'BR/BA/Itambé': {'id': 'data/BR/BA/Itambé', 'key': 'Itambé', 'lang': 'pt'},
+      'BR/BA/Itanagra': {'id': 'data/BR/BA/Itanagra', 'key': 'Itanagra', 'lang': 'pt'},
+      'BR/BA/Itanhém': {'id': 'data/BR/BA/Itanhém', 'key': 'Itanhém', 'lang': 'pt'},
+      'BR/BA/Itaparica': {'id': 'data/BR/BA/Itaparica', 'key': 'Itaparica', 'lang': 'pt'},
+      'BR/BA/Itapebi': {'id': 'data/BR/BA/Itapebi', 'key': 'Itapebi', 'lang': 'pt'},
       'BR/BA/Itapetinga': {
         'id': 'data/BR/BA/Itapetinga',
         'key': 'Itapetinga',
         'lang': 'pt'
       },
-      'BR/BA/Itapicuru': {
-        'id': 'data/BR/BA/Itapicuru',
-        'key': 'Itapicuru',
-        'lang': 'pt'
-      },
+      'BR/BA/Itapicuru': {'id': 'data/BR/BA/Itapicuru', 'key': 'Itapicuru', 'lang': 'pt'},
       'BR/BA/Itapitanga': {
         'id': 'data/BR/BA/Itapitanga',
         'key': 'Itapitanga',
         'lang': 'pt'
       },
       'BR/BA/Itapé': {'id': 'data/BR/BA/Itapé', 'key': 'Itapé', 'lang': 'pt'},
-      'BR/BA/Itaquara': {
-        'id': 'data/BR/BA/Itaquara',
-        'key': 'Itaquara',
-        'lang': 'pt'
-      },
-      'BR/BA/Itarantim': {
-        'id': 'data/BR/BA/Itarantim',
-        'key': 'Itarantim',
-        'lang': 'pt'
-      },
-      'BR/BA/Itatim': {
-        'id': 'data/BR/BA/Itatim',
-        'key': 'Itatim',
-        'lang': 'pt'
-      },
-      'BR/BA/Itiruçu': {
-        'id': 'data/BR/BA/Itiruçu',
-        'key': 'Itiruçu',
-        'lang': 'pt'
-      },
-      'BR/BA/Itiúba': {
-        'id': 'data/BR/BA/Itiúba',
-        'key': 'Itiúba',
-        'lang': 'pt'
-      },
-      'BR/BA/Itororó': {
-        'id': 'data/BR/BA/Itororó',
-        'key': 'Itororó',
-        'lang': 'pt'
-      },
-      'BR/BA/Ituaçu': {
-        'id': 'data/BR/BA/Ituaçu',
-        'key': 'Ituaçu',
-        'lang': 'pt'
-      },
-      'BR/BA/Ituberá': {
-        'id': 'data/BR/BA/Ituberá',
-        'key': 'Ituberá',
-        'lang': 'pt'
-      },
+      'BR/BA/Itaquara': {'id': 'data/BR/BA/Itaquara', 'key': 'Itaquara', 'lang': 'pt'},
+      'BR/BA/Itarantim': {'id': 'data/BR/BA/Itarantim', 'key': 'Itarantim', 'lang': 'pt'},
+      'BR/BA/Itatim': {'id': 'data/BR/BA/Itatim', 'key': 'Itatim', 'lang': 'pt'},
+      'BR/BA/Itiruçu': {'id': 'data/BR/BA/Itiruçu', 'key': 'Itiruçu', 'lang': 'pt'},
+      'BR/BA/Itiúba': {'id': 'data/BR/BA/Itiúba', 'key': 'Itiúba', 'lang': 'pt'},
+      'BR/BA/Itororó': {'id': 'data/BR/BA/Itororó', 'key': 'Itororó', 'lang': 'pt'},
+      'BR/BA/Ituaçu': {'id': 'data/BR/BA/Ituaçu', 'key': 'Ituaçu', 'lang': 'pt'},
+      'BR/BA/Ituberá': {'id': 'data/BR/BA/Ituberá', 'key': 'Ituberá', 'lang': 'pt'},
       'BR/BA/Iuiú': {'id': 'data/BR/BA/Iuiú', 'key': 'Iuiú', 'lang': 'pt'},
-      'BR/BA/Jaborandi': {
-        'id': 'data/BR/BA/Jaborandi',
-        'key': 'Jaborandi',
-        'lang': 'pt'
-      },
-      'BR/BA/Jacaraci': {
-        'id': 'data/BR/BA/Jacaraci',
-        'key': 'Jacaraci',
-        'lang': 'pt'
-      },
-      'BR/BA/Jacobina': {
-        'id': 'data/BR/BA/Jacobina',
-        'key': 'Jacobina',
-        'lang': 'pt'
-      },
+      'BR/BA/Jaborandi': {'id': 'data/BR/BA/Jaborandi', 'key': 'Jaborandi', 'lang': 'pt'},
+      'BR/BA/Jacaraci': {'id': 'data/BR/BA/Jacaraci', 'key': 'Jacaraci', 'lang': 'pt'},
+      'BR/BA/Jacobina': {'id': 'data/BR/BA/Jacobina', 'key': 'Jacobina', 'lang': 'pt'},
       'BR/BA/Jaguaquara': {
         'id': 'data/BR/BA/Jaguaquara',
         'key': 'Jaguaquara',
         'lang': 'pt'
       },
-      'BR/BA/Jaguarari': {
-        'id': 'data/BR/BA/Jaguarari',
-        'key': 'Jaguarari',
-        'lang': 'pt'
-      },
-      'BR/BA/Jaguaripe': {
-        'id': 'data/BR/BA/Jaguaripe',
-        'key': 'Jaguaripe',
-        'lang': 'pt'
-      },
-      'BR/BA/Jandaíra': {
-        'id': 'data/BR/BA/Jandaíra',
-        'key': 'Jandaíra',
-        'lang': 'pt'
-      },
-      'BR/BA/Jequié': {
-        'id': 'data/BR/BA/Jequié',
-        'key': 'Jequié',
-        'lang': 'pt'
-      },
-      'BR/BA/Jeremoabo': {
-        'id': 'data/BR/BA/Jeremoabo',
-        'key': 'Jeremoabo',
-        'lang': 'pt'
-      },
-      'BR/BA/Jiquiriçá': {
-        'id': 'data/BR/BA/Jiquiriçá',
-        'key': 'Jiquiriçá',
-        'lang': 'pt'
-      },
-      'BR/BA/Jitaúna': {
-        'id': 'data/BR/BA/Jitaúna',
-        'key': 'Jitaúna',
-        'lang': 'pt'
-      },
+      'BR/BA/Jaguarari': {'id': 'data/BR/BA/Jaguarari', 'key': 'Jaguarari', 'lang': 'pt'},
+      'BR/BA/Jaguaripe': {'id': 'data/BR/BA/Jaguaripe', 'key': 'Jaguaripe', 'lang': 'pt'},
+      'BR/BA/Jandaíra': {'id': 'data/BR/BA/Jandaíra', 'key': 'Jandaíra', 'lang': 'pt'},
+      'BR/BA/Jequié': {'id': 'data/BR/BA/Jequié', 'key': 'Jequié', 'lang': 'pt'},
+      'BR/BA/Jeremoabo': {'id': 'data/BR/BA/Jeremoabo', 'key': 'Jeremoabo', 'lang': 'pt'},
+      'BR/BA/Jiquiriçá': {'id': 'data/BR/BA/Jiquiriçá', 'key': 'Jiquiriçá', 'lang': 'pt'},
+      'BR/BA/Jitaúna': {'id': 'data/BR/BA/Jitaúna', 'key': 'Jitaúna', 'lang': 'pt'},
       'BR/BA/João Dourado': {
         'id': 'data/BR/BA/João Dourado',
         'key': 'João Dourado',
         'lang': 'pt'
       },
-      'BR/BA/Juazeiro': {
-        'id': 'data/BR/BA/Juazeiro',
-        'key': 'Juazeiro',
-        'lang': 'pt'
-      },
-      'BR/BA/Jucuruçu': {
-        'id': 'data/BR/BA/Jucuruçu',
-        'key': 'Jucuruçu',
-        'lang': 'pt'
-      },
-      'BR/BA/Jussara': {
-        'id': 'data/BR/BA/Jussara',
-        'key': 'Jussara',
-        'lang': 'pt'
-      },
-      'BR/BA/Jussari': {
-        'id': 'data/BR/BA/Jussari',
-        'key': 'Jussari',
-        'lang': 'pt'
-      },
-      'BR/BA/Jussiape': {
-        'id': 'data/BR/BA/Jussiape',
-        'key': 'Jussiape',
-        'lang': 'pt'
-      },
+      'BR/BA/Juazeiro': {'id': 'data/BR/BA/Juazeiro', 'key': 'Juazeiro', 'lang': 'pt'},
+      'BR/BA/Jucuruçu': {'id': 'data/BR/BA/Jucuruçu', 'key': 'Jucuruçu', 'lang': 'pt'},
+      'BR/BA/Jussara': {'id': 'data/BR/BA/Jussara', 'key': 'Jussara', 'lang': 'pt'},
+      'BR/BA/Jussari': {'id': 'data/BR/BA/Jussari', 'key': 'Jussari', 'lang': 'pt'},
+      'BR/BA/Jussiape': {'id': 'data/BR/BA/Jussiape', 'key': 'Jussiape', 'lang': 'pt'},
       'BR/BA/Lafaiete Coutinho': {
         'id': 'data/BR/BA/Lafaiete Coutinho',
         'key': 'Lafaiete Coutinho',
@@ -2826,37 +1988,21 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/BA/Laje': {'id': 'data/BR/BA/Laje', 'key': 'Laje', 'lang': 'pt'},
-      'BR/BA/Lajedinho': {
-        'id': 'data/BR/BA/Lajedinho',
-        'key': 'Lajedinho',
-        'lang': 'pt'
-      },
+      'BR/BA/Lajedinho': {'id': 'data/BR/BA/Lajedinho', 'key': 'Lajedinho', 'lang': 'pt'},
       'BR/BA/Lajedo do Tabocal': {
         'id': 'data/BR/BA/Lajedo do Tabocal',
         'key': 'Lajedo do Tabocal',
         'lang': 'pt'
       },
-      'BR/BA/Lajedão': {
-        'id': 'data/BR/BA/Lajedão',
-        'key': 'Lajedão',
-        'lang': 'pt'
-      },
-      'BR/BA/Lamarão': {
-        'id': 'data/BR/BA/Lamarão',
-        'key': 'Lamarão',
-        'lang': 'pt'
-      },
+      'BR/BA/Lajedão': {'id': 'data/BR/BA/Lajedão', 'key': 'Lajedão', 'lang': 'pt'},
+      'BR/BA/Lamarão': {'id': 'data/BR/BA/Lamarão', 'key': 'Lamarão', 'lang': 'pt'},
       'BR/BA/Lapão': {'id': 'data/BR/BA/Lapão', 'key': 'Lapão', 'lang': 'pt'},
       'BR/BA/Lauro de Freitas': {
         'id': 'data/BR/BA/Lauro de Freitas',
         'key': 'Lauro de Freitas',
         'lang': 'pt'
       },
-      'BR/BA/Lençóis': {
-        'id': 'data/BR/BA/Lençóis',
-        'key': 'Lençóis',
-        'lang': 'pt'
-      },
+      'BR/BA/Lençóis': {'id': 'data/BR/BA/Lençóis', 'key': 'Lençóis', 'lang': 'pt'},
       'BR/BA/Licínio de Almeida': {
         'id': 'data/BR/BA/Licínio de Almeida',
         'key': 'Licínio de Almeida',
@@ -2872,47 +2018,23 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Luís Eduardo Magalhães',
         'lang': 'pt'
       },
-      'BR/BA/Macajuba': {
-        'id': 'data/BR/BA/Macajuba',
-        'key': 'Macajuba',
-        'lang': 'pt'
-      },
-      'BR/BA/Macarani': {
-        'id': 'data/BR/BA/Macarani',
-        'key': 'Macarani',
-        'lang': 'pt'
-      },
-      'BR/BA/Macaúbas': {
-        'id': 'data/BR/BA/Macaúbas',
-        'key': 'Macaúbas',
-        'lang': 'pt'
-      },
-      'BR/BA/Macururé': {
-        'id': 'data/BR/BA/Macururé',
-        'key': 'Macururé',
-        'lang': 'pt'
-      },
+      'BR/BA/Macajuba': {'id': 'data/BR/BA/Macajuba', 'key': 'Macajuba', 'lang': 'pt'},
+      'BR/BA/Macarani': {'id': 'data/BR/BA/Macarani', 'key': 'Macarani', 'lang': 'pt'},
+      'BR/BA/Macaúbas': {'id': 'data/BR/BA/Macaúbas', 'key': 'Macaúbas', 'lang': 'pt'},
+      'BR/BA/Macururé': {'id': 'data/BR/BA/Macururé', 'key': 'Macururé', 'lang': 'pt'},
       'BR/BA/Madre de Deus': {
         'id': 'data/BR/BA/Madre de Deus',
         'key': 'Madre de Deus',
         'lang': 'pt'
       },
-      'BR/BA/Maetinga': {
-        'id': 'data/BR/BA/Maetinga',
-        'key': 'Maetinga',
-        'lang': 'pt'
-      },
+      'BR/BA/Maetinga': {'id': 'data/BR/BA/Maetinga', 'key': 'Maetinga', 'lang': 'pt'},
       'BR/BA/Maiquinique': {
         'id': 'data/BR/BA/Maiquinique',
         'key': 'Maiquinique',
         'lang': 'pt'
       },
       'BR/BA/Mairi': {'id': 'data/BR/BA/Mairi', 'key': 'Mairi', 'lang': 'pt'},
-      'BR/BA/Malhada': {
-        'id': 'data/BR/BA/Malhada',
-        'key': 'Malhada',
-        'lang': 'pt'
-      },
+      'BR/BA/Malhada': {'id': 'data/BR/BA/Malhada', 'key': 'Malhada', 'lang': 'pt'},
       'BR/BA/Malhada de Pedras': {
         'id': 'data/BR/BA/Malhada de Pedras',
         'key': 'Malhada de Pedras',
@@ -2923,16 +2045,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Manoel Vitorino',
         'lang': 'pt'
       },
-      'BR/BA/Mansidão': {
-        'id': 'data/BR/BA/Mansidão',
-        'key': 'Mansidão',
-        'lang': 'pt'
-      },
-      'BR/BA/Maracas': {
-        'id': 'data/BR/BA/Maracas',
-        'key': 'Maracas',
-        'lang': 'pt'
-      },
+      'BR/BA/Mansidão': {'id': 'data/BR/BA/Mansidão', 'key': 'Mansidão', 'lang': 'pt'},
+      'BR/BA/Maracas': {'id': 'data/BR/BA/Maracas', 'key': 'Maracas', 'lang': 'pt'},
       'BR/BA/Maragogipe': {
         'id': 'data/BR/BA/Maragogipe',
         'key': 'Maragogipe',
@@ -2944,21 +2058,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Marcionílio Souza',
         'lang': 'pt'
       },
-      'BR/BA/Mascote': {
-        'id': 'data/BR/BA/Mascote',
-        'key': 'Mascote',
-        'lang': 'pt'
-      },
+      'BR/BA/Mascote': {'id': 'data/BR/BA/Mascote', 'key': 'Mascote', 'lang': 'pt'},
       'BR/BA/Mata de São João': {
         'id': 'data/BR/BA/Mata de São João',
         'key': 'Mata de São João',
         'lang': 'pt'
       },
-      'BR/BA/Matina': {
-        'id': 'data/BR/BA/Matina',
-        'key': 'Matina',
-        'lang': 'pt'
-      },
+      'BR/BA/Matina': {'id': 'data/BR/BA/Matina', 'key': 'Matina', 'lang': 'pt'},
       'BR/BA/Medeiros Neto': {
         'id': 'data/BR/BA/Medeiros Neto',
         'key': 'Medeiros Neto',
@@ -2969,51 +2075,23 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Miguel Calmon',
         'lang': 'pt'
       },
-      'BR/BA/Milagres': {
-        'id': 'data/BR/BA/Milagres',
-        'key': 'Milagres',
-        'lang': 'pt'
-      },
-      'BR/BA/Mirangaba': {
-        'id': 'data/BR/BA/Mirangaba',
-        'key': 'Mirangaba',
-        'lang': 'pt'
-      },
-      'BR/BA/Mirante': {
-        'id': 'data/BR/BA/Mirante',
-        'key': 'Mirante',
-        'lang': 'pt'
-      },
+      'BR/BA/Milagres': {'id': 'data/BR/BA/Milagres', 'key': 'Milagres', 'lang': 'pt'},
+      'BR/BA/Mirangaba': {'id': 'data/BR/BA/Mirangaba', 'key': 'Mirangaba', 'lang': 'pt'},
+      'BR/BA/Mirante': {'id': 'data/BR/BA/Mirante', 'key': 'Mirante', 'lang': 'pt'},
       'BR/BA/Monte Santo': {
         'id': 'data/BR/BA/Monte Santo',
         'key': 'Monte Santo',
         'lang': 'pt'
       },
-      'BR/BA/Morpará': {
-        'id': 'data/BR/BA/Morpará',
-        'key': 'Morpará',
-        'lang': 'pt'
-      },
+      'BR/BA/Morpará': {'id': 'data/BR/BA/Morpará', 'key': 'Morpará', 'lang': 'pt'},
       'BR/BA/Morro do Chapéu': {
         'id': 'data/BR/BA/Morro do Chapéu',
         'key': 'Morro do Chapéu',
         'lang': 'pt'
       },
-      'BR/BA/Mortugaba': {
-        'id': 'data/BR/BA/Mortugaba',
-        'key': 'Mortugaba',
-        'lang': 'pt'
-      },
-      'BR/BA/Mucugê': {
-        'id': 'data/BR/BA/Mucugê',
-        'key': 'Mucugê',
-        'lang': 'pt'
-      },
-      'BR/BA/Mucuri': {
-        'id': 'data/BR/BA/Mucuri',
-        'key': 'Mucuri',
-        'lang': 'pt'
-      },
+      'BR/BA/Mortugaba': {'id': 'data/BR/BA/Mortugaba', 'key': 'Mortugaba', 'lang': 'pt'},
+      'BR/BA/Mucugê': {'id': 'data/BR/BA/Mucugê', 'key': 'Mucugê', 'lang': 'pt'},
+      'BR/BA/Mucuri': {'id': 'data/BR/BA/Mucuri', 'key': 'Mucuri', 'lang': 'pt'},
       'BR/BA/Mulungu do Morro': {
         'id': 'data/BR/BA/Mulungu do Morro',
         'key': 'Mulungu do Morro',
@@ -3034,21 +2112,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Muquém de São Francisco',
         'lang': 'pt'
       },
-      'BR/BA/Muritiba': {
-        'id': 'data/BR/BA/Muritiba',
-        'key': 'Muritiba',
-        'lang': 'pt'
-      },
-      'BR/BA/Mutuípe': {
-        'id': 'data/BR/BA/Mutuípe',
-        'key': 'Mutuípe',
-        'lang': 'pt'
-      },
-      'BR/BA/Nazaré': {
-        'id': 'data/BR/BA/Nazaré',
-        'key': 'Nazaré',
-        'lang': 'pt'
-      },
+      'BR/BA/Muritiba': {'id': 'data/BR/BA/Muritiba', 'key': 'Muritiba', 'lang': 'pt'},
+      'BR/BA/Mutuípe': {'id': 'data/BR/BA/Mutuípe', 'key': 'Mutuípe', 'lang': 'pt'},
+      'BR/BA/Nazaré': {'id': 'data/BR/BA/Nazaré', 'key': 'Nazaré', 'lang': 'pt'},
       'BR/BA/Nilo Peçanha': {
         'id': 'data/BR/BA/Nilo Peçanha',
         'key': 'Nilo Peçanha',
@@ -3069,11 +2135,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Nova Fátima',
         'lang': 'pt'
       },
-      'BR/BA/Nova Ibiá': {
-        'id': 'data/BR/BA/Nova Ibiá',
-        'key': 'Nova Ibiá',
-        'lang': 'pt'
-      },
+      'BR/BA/Nova Ibiá': {'id': 'data/BR/BA/Nova Ibiá', 'key': 'Nova Ibiá', 'lang': 'pt'},
       'BR/BA/Nova Itarana': {
         'id': 'data/BR/BA/Nova Itarana',
         'key': 'Nova Itarana',
@@ -3104,11 +2166,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Novo Triunfo',
         'lang': 'pt'
       },
-      'BR/BA/Olindina': {
-        'id': 'data/BR/BA/Olindina',
-        'key': 'Olindina',
-        'lang': 'pt'
-      },
+      'BR/BA/Olindina': {'id': 'data/BR/BA/Olindina', 'key': 'Olindina', 'lang': 'pt'},
       'BR/BA/Oliveira dos Brejinhos': {
         'id': 'data/BR/BA/Oliveira dos Brejinhos',
         'key': 'Oliveira dos Brejinhos',
@@ -3129,21 +2187,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Palmas de Monte Alto',
         'lang': 'pt'
       },
-      'BR/BA/Palmeiras': {
-        'id': 'data/BR/BA/Palmeiras',
-        'key': 'Palmeiras',
-        'lang': 'pt'
-      },
-      'BR/BA/Paramirim': {
-        'id': 'data/BR/BA/Paramirim',
-        'key': 'Paramirim',
-        'lang': 'pt'
-      },
-      'BR/BA/Paratinga': {
-        'id': 'data/BR/BA/Paratinga',
-        'key': 'Paratinga',
-        'lang': 'pt'
-      },
+      'BR/BA/Palmeiras': {'id': 'data/BR/BA/Palmeiras', 'key': 'Palmeiras', 'lang': 'pt'},
+      'BR/BA/Paramirim': {'id': 'data/BR/BA/Paramirim', 'key': 'Paramirim', 'lang': 'pt'},
+      'BR/BA/Paratinga': {'id': 'data/BR/BA/Paratinga', 'key': 'Paratinga', 'lang': 'pt'},
       'BR/BA/Paripiranga': {
         'id': 'data/BR/BA/Paripiranga',
         'key': 'Paripiranga',
@@ -3164,62 +2210,30 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pedro Alexandre',
         'lang': 'pt'
       },
-      'BR/BA/Pedrão': {
-        'id': 'data/BR/BA/Pedrão',
-        'key': 'Pedrão',
-        'lang': 'pt'
-      },
+      'BR/BA/Pedrão': {'id': 'data/BR/BA/Pedrão', 'key': 'Pedrão', 'lang': 'pt'},
       'BR/BA/Piatã': {'id': 'data/BR/BA/Piatã', 'key': 'Piatã', 'lang': 'pt'},
       'BR/BA/Pilão Arcado': {
         'id': 'data/BR/BA/Pilão Arcado',
         'key': 'Pilão Arcado',
         'lang': 'pt'
       },
-      'BR/BA/Pindaí': {
-        'id': 'data/BR/BA/Pindaí',
-        'key': 'Pindaí',
-        'lang': 'pt'
-      },
-      'BR/BA/Pindobaçu': {
-        'id': 'data/BR/BA/Pindobaçu',
-        'key': 'Pindobaçu',
-        'lang': 'pt'
-      },
-      'BR/BA/Pintadas': {
-        'id': 'data/BR/BA/Pintadas',
-        'key': 'Pintadas',
-        'lang': 'pt'
-      },
+      'BR/BA/Pindaí': {'id': 'data/BR/BA/Pindaí', 'key': 'Pindaí', 'lang': 'pt'},
+      'BR/BA/Pindobaçu': {'id': 'data/BR/BA/Pindobaçu', 'key': 'Pindobaçu', 'lang': 'pt'},
+      'BR/BA/Pintadas': {'id': 'data/BR/BA/Pintadas', 'key': 'Pintadas', 'lang': 'pt'},
       'BR/BA/Piraí do Norte': {
         'id': 'data/BR/BA/Piraí do Norte',
         'key': 'Piraí do Norte',
         'lang': 'pt'
       },
-      'BR/BA/Piripá': {
-        'id': 'data/BR/BA/Piripá',
-        'key': 'Piripá',
-        'lang': 'pt'
-      },
-      'BR/BA/Piritiba': {
-        'id': 'data/BR/BA/Piritiba',
-        'key': 'Piritiba',
-        'lang': 'pt'
-      },
+      'BR/BA/Piripá': {'id': 'data/BR/BA/Piripá', 'key': 'Piripá', 'lang': 'pt'},
+      'BR/BA/Piritiba': {'id': 'data/BR/BA/Piritiba', 'key': 'Piritiba', 'lang': 'pt'},
       'BR/BA/Planaltino': {
         'id': 'data/BR/BA/Planaltino',
         'key': 'Planaltino',
         'lang': 'pt'
       },
-      'BR/BA/Planalto': {
-        'id': 'data/BR/BA/Planalto',
-        'key': 'Planalto',
-        'lang': 'pt'
-      },
-      'BR/BA/Pojuca': {
-        'id': 'data/BR/BA/Pojuca',
-        'key': 'Pojuca',
-        'lang': 'pt'
-      },
+      'BR/BA/Planalto': {'id': 'data/BR/BA/Planalto', 'key': 'Planalto', 'lang': 'pt'},
+      'BR/BA/Pojuca': {'id': 'data/BR/BA/Pojuca', 'key': 'Pojuca', 'lang': 'pt'},
       'BR/BA/Ponto Novo': {
         'id': 'data/BR/BA/Ponto Novo',
         'key': 'Ponto Novo',
@@ -3230,16 +2244,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Porto Seguro',
         'lang': 'pt'
       },
-      'BR/BA/Potiraguá': {
-        'id': 'data/BR/BA/Potiraguá',
-        'key': 'Potiraguá',
-        'lang': 'pt'
-      },
-      'BR/BA/Poções': {
-        'id': 'data/BR/BA/Poções',
-        'key': 'Poções',
-        'lang': 'pt'
-      },
+      'BR/BA/Potiraguá': {'id': 'data/BR/BA/Potiraguá', 'key': 'Potiraguá', 'lang': 'pt'},
+      'BR/BA/Poções': {'id': 'data/BR/BA/Poções', 'key': 'Poções', 'lang': 'pt'},
       'BR/BA/Prado': {'id': 'data/BR/BA/Prado', 'key': 'Prado', 'lang': 'pt'},
       'BR/BA/Presidente Dutra': {
         'id': 'data/BR/BA/Presidente Dutra',
@@ -3261,16 +2267,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pé de Serra',
         'lang': 'pt'
       },
-      'BR/BA/Queimadas': {
-        'id': 'data/BR/BA/Queimadas',
-        'key': 'Queimadas',
-        'lang': 'pt'
-      },
-      'BR/BA/Quijingue': {
-        'id': 'data/BR/BA/Quijingue',
-        'key': 'Quijingue',
-        'lang': 'pt'
-      },
+      'BR/BA/Queimadas': {'id': 'data/BR/BA/Queimadas', 'key': 'Queimadas', 'lang': 'pt'},
+      'BR/BA/Quijingue': {'id': 'data/BR/BA/Quijingue', 'key': 'Quijingue', 'lang': 'pt'},
       'BR/BA/Quixabeira': {
         'id': 'data/BR/BA/Quixabeira',
         'key': 'Quixabeira',
@@ -3281,11 +2279,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Rafael Jambeiro',
         'lang': 'pt'
       },
-      'BR/BA/Remanso': {
-        'id': 'data/BR/BA/Remanso',
-        'key': 'Remanso',
-        'lang': 'pt'
-      },
+      'BR/BA/Remanso': {'id': 'data/BR/BA/Remanso', 'key': 'Remanso', 'lang': 'pt'},
       'BR/BA/Retirolândia': {
         'id': 'data/BR/BA/Retirolândia',
         'key': 'Retirolândia',
@@ -3321,11 +2315,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ribeirão do Largo',
         'lang': 'pt'
       },
-      'BR/BA/Rio Real': {
-        'id': 'data/BR/BA/Rio Real',
-        'key': 'Rio Real',
-        'lang': 'pt'
-      },
+      'BR/BA/Rio Real': {'id': 'data/BR/BA/Rio Real', 'key': 'Rio Real', 'lang': 'pt'},
       'BR/BA/Rio de Contas': {
         'id': 'data/BR/BA/Rio de Contas',
         'key': 'Rio de Contas',
@@ -3341,11 +2331,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Rio do Pires',
         'lang': 'pt'
       },
-      'BR/BA/Rodelas': {
-        'id': 'data/BR/BA/Rodelas',
-        'key': 'Rodelas',
-        'lang': 'pt'
-      },
+      'BR/BA/Rodelas': {'id': 'data/BR/BA/Rodelas', 'key': 'Rodelas', 'lang': 'pt'},
       'BR/BA/Ruy Barbosa': {
         'id': 'data/BR/BA/Ruy Barbosa',
         'key': 'Ruy Barbosa',
@@ -3356,11 +2342,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Salinas da Margarida',
         'lang': 'pt'
       },
-      'BR/BA/Salvador': {
-        'id': 'data/BR/BA/Salvador',
-        'key': 'Salvador',
-        'lang': 'pt'
-      },
+      'BR/BA/Salvador': {'id': 'data/BR/BA/Salvador', 'key': 'Salvador', 'lang': 'pt'},
       'BR/BA/Santa Brigida': {
         'id': 'data/BR/BA/Santa Brigida',
         'key': 'Santa Brigida',
@@ -3406,16 +2388,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santa Teresinha',
         'lang': 'pt'
       },
-      'BR/BA/Santaluz': {
-        'id': 'data/BR/BA/Santaluz',
-        'key': 'Santaluz',
-        'lang': 'pt'
-      },
-      'BR/BA/Santana': {
-        'id': 'data/BR/BA/Santana',
-        'key': 'Santana',
-        'lang': 'pt'
-      },
+      'BR/BA/Santaluz': {'id': 'data/BR/BA/Santaluz', 'key': 'Santaluz', 'lang': 'pt'},
+      'BR/BA/Santana': {'id': 'data/BR/BA/Santana', 'key': 'Santana', 'lang': 'pt'},
       'BR/BA/Santanópolis': {
         'id': 'data/BR/BA/Santanópolis',
         'key': 'Santanópolis',
@@ -3436,22 +2410,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santo Estêvão',
         'lang': 'pt'
       },
-      'BR/BA/Sapeaçu': {
-        'id': 'data/BR/BA/Sapeaçu',
-        'key': 'Sapeaçu',
-        'lang': 'pt'
-      },
-      'BR/BA/Saubara': {
-        'id': 'data/BR/BA/Saubara',
-        'key': 'Saubara',
-        'lang': 'pt'
-      },
+      'BR/BA/Sapeaçu': {'id': 'data/BR/BA/Sapeaçu', 'key': 'Sapeaçu', 'lang': 'pt'},
+      'BR/BA/Saubara': {'id': 'data/BR/BA/Saubara', 'key': 'Saubara', 'lang': 'pt'},
       'BR/BA/Saúde': {'id': 'data/BR/BA/Saúde', 'key': 'Saúde', 'lang': 'pt'},
-      'BR/BA/Seabra': {
-        'id': 'data/BR/BA/Seabra',
-        'key': 'Seabra',
-        'lang': 'pt'
-      },
+      'BR/BA/Seabra': {'id': 'data/BR/BA/Seabra', 'key': 'Seabra', 'lang': 'pt'},
       'BR/BA/Sebastião Laranjeiras': {
         'id': 'data/BR/BA/Sebastião Laranjeiras',
         'key': 'Sebastião Laranjeiras',
@@ -3462,11 +2424,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Senhor do Bonfim',
         'lang': 'pt'
       },
-      'BR/BA/Sento Sé': {
-        'id': 'data/BR/BA/Sento Sé',
-        'key': 'Sento Sé',
-        'lang': 'pt'
-      },
+      'BR/BA/Sento Sé': {'id': 'data/BR/BA/Sento Sé', 'key': 'Sento Sé', 'lang': 'pt'},
       'BR/BA/Serra Dourada': {
         'id': 'data/BR/BA/Serra Dourada',
         'key': 'Serra Dourada',
@@ -3482,11 +2440,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Serra preta',
         'lang': 'pt'
       },
-      'BR/BA/Serrinha': {
-        'id': 'data/BR/BA/Serrinha',
-        'key': 'Serrinha',
-        'lang': 'pt'
-      },
+      'BR/BA/Serrinha': {'id': 'data/BR/BA/Serrinha', 'key': 'Serrinha', 'lang': 'pt'},
       'BR/BA/Serrolândia': {
         'id': 'data/BR/BA/Serrolândia',
         'key': 'Serrolândia',
@@ -3532,11 +2486,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Francisco do Conde',
         'lang': 'pt'
       },
-      'BR/BA/São Félix': {
-        'id': 'data/BR/BA/São Félix',
-        'key': 'São Félix',
-        'lang': 'pt'
-      },
+      'BR/BA/São Félix': {'id': 'data/BR/BA/São Félix', 'key': 'São Félix', 'lang': 'pt'},
       'BR/BA/São Félix do Coribe': {
         'id': 'data/BR/BA/São Félix do Coribe',
         'key': 'São Félix do Coribe',
@@ -3587,26 +2537,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Tabocas do Brejo Velho',
         'lang': 'pt'
       },
-      'BR/BA/Tanhaçu': {
-        'id': 'data/BR/BA/Tanhaçu',
-        'key': 'Tanhaçu',
-        'lang': 'pt'
-      },
+      'BR/BA/Tanhaçu': {'id': 'data/BR/BA/Tanhaçu', 'key': 'Tanhaçu', 'lang': 'pt'},
       'BR/BA/Tanque Novo': {
         'id': 'data/BR/BA/Tanque Novo',
         'key': 'Tanque Novo',
         'lang': 'pt'
       },
-      'BR/BA/Tanquinho': {
-        'id': 'data/BR/BA/Tanquinho',
-        'key': 'Tanquinho',
-        'lang': 'pt'
-      },
-      'BR/BA/Taperoá': {
-        'id': 'data/BR/BA/Taperoá',
-        'key': 'Taperoá',
-        'lang': 'pt'
-      },
+      'BR/BA/Tanquinho': {'id': 'data/BR/BA/Tanquinho', 'key': 'Tanquinho', 'lang': 'pt'},
+      'BR/BA/Taperoá': {'id': 'data/BR/BA/Taperoá', 'key': 'Taperoá', 'lang': 'pt'},
       'BR/BA/Tapiramutá': {
         'id': 'data/BR/BA/Tapiramutá',
         'key': 'Tapiramutá',
@@ -3627,85 +2565,29 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Teofilândia',
         'lang': 'pt'
       },
-      'BR/BA/Teolândia': {
-        'id': 'data/BR/BA/Teolândia',
-        'key': 'Teolândia',
-        'lang': 'pt'
-      },
+      'BR/BA/Teolândia': {'id': 'data/BR/BA/Teolândia', 'key': 'Teolândia', 'lang': 'pt'},
       'BR/BA/Terra Nova': {
         'id': 'data/BR/BA/Terra Nova',
         'key': 'Terra Nova',
         'lang': 'pt'
       },
-      'BR/BA/Tremedal': {
-        'id': 'data/BR/BA/Tremedal',
-        'key': 'Tremedal',
-        'lang': 'pt'
-      },
-      'BR/BA/Tucano': {
-        'id': 'data/BR/BA/Tucano',
-        'key': 'Tucano',
-        'lang': 'pt'
-      },
+      'BR/BA/Tremedal': {'id': 'data/BR/BA/Tremedal', 'key': 'Tremedal', 'lang': 'pt'},
+      'BR/BA/Tucano': {'id': 'data/BR/BA/Tucano', 'key': 'Tucano', 'lang': 'pt'},
       'BR/BA/Uauá': {'id': 'data/BR/BA/Uauá', 'key': 'Uauá', 'lang': 'pt'},
-      'BR/BA/Ubaitaba': {
-        'id': 'data/BR/BA/Ubaitaba',
-        'key': 'Ubaitaba',
-        'lang': 'pt'
-      },
+      'BR/BA/Ubaitaba': {'id': 'data/BR/BA/Ubaitaba', 'key': 'Ubaitaba', 'lang': 'pt'},
       'BR/BA/Ubatã': {'id': 'data/BR/BA/Ubatã', 'key': 'Ubatã', 'lang': 'pt'},
-      'BR/BA/Ubaíra': {
-        'id': 'data/BR/BA/Ubaíra',
-        'key': 'Ubaíra',
-        'lang': 'pt'
-      },
+      'BR/BA/Ubaíra': {'id': 'data/BR/BA/Ubaíra', 'key': 'Ubaíra', 'lang': 'pt'},
       'BR/BA/Uibaí': {'id': 'data/BR/BA/Uibaí', 'key': 'Uibaí', 'lang': 'pt'},
-      'BR/BA/Umburanas': {
-        'id': 'data/BR/BA/Umburanas',
-        'key': 'Umburanas',
-        'lang': 'pt'
-      },
+      'BR/BA/Umburanas': {'id': 'data/BR/BA/Umburanas', 'key': 'Umburanas', 'lang': 'pt'},
       'BR/BA/Una': {'id': 'data/BR/BA/Una', 'key': 'Una', 'lang': 'pt'},
-      'BR/BA/Urandi': {
-        'id': 'data/BR/BA/Urandi',
-        'key': 'Urandi',
-        'lang': 'pt'
-      },
-      'BR/BA/Uruçuca': {
-        'id': 'data/BR/BA/Uruçuca',
-        'key': 'Uruçuca',
-        'lang': 'pt'
-      },
-      'BR/BA/Utinga': {
-        'id': 'data/BR/BA/Utinga',
-        'key': 'Utinga',
-        'lang': 'pt'
-      },
-      'BR/BA/Valente': {
-        'id': 'data/BR/BA/Valente',
-        'key': 'Valente',
-        'lang': 'pt'
-      },
-      'BR/BA/Valença': {
-        'id': 'data/BR/BA/Valença',
-        'key': 'Valença',
-        'lang': 'pt'
-      },
-      'BR/BA/Varzedo': {
-        'id': 'data/BR/BA/Varzedo',
-        'key': 'Varzedo',
-        'lang': 'pt'
-      },
-      'BR/BA/Vera Cruz': {
-        'id': 'data/BR/BA/Vera Cruz',
-        'key': 'Vera Cruz',
-        'lang': 'pt'
-      },
-      'BR/BA/Vereda': {
-        'id': 'data/BR/BA/Vereda',
-        'key': 'Vereda',
-        'lang': 'pt'
-      },
+      'BR/BA/Urandi': {'id': 'data/BR/BA/Urandi', 'key': 'Urandi', 'lang': 'pt'},
+      'BR/BA/Uruçuca': {'id': 'data/BR/BA/Uruçuca', 'key': 'Uruçuca', 'lang': 'pt'},
+      'BR/BA/Utinga': {'id': 'data/BR/BA/Utinga', 'key': 'Utinga', 'lang': 'pt'},
+      'BR/BA/Valente': {'id': 'data/BR/BA/Valente', 'key': 'Valente', 'lang': 'pt'},
+      'BR/BA/Valença': {'id': 'data/BR/BA/Valença', 'key': 'Valença', 'lang': 'pt'},
+      'BR/BA/Varzedo': {'id': 'data/BR/BA/Varzedo', 'key': 'Varzedo', 'lang': 'pt'},
+      'BR/BA/Vera Cruz': {'id': 'data/BR/BA/Vera Cruz', 'key': 'Vera Cruz', 'lang': 'pt'},
+      'BR/BA/Vereda': {'id': 'data/BR/BA/Vereda', 'key': 'Vereda', 'lang': 'pt'},
       'BR/BA/Vitória da Conquista': {
         'id': 'data/BR/BA/Vitória da Conquista',
         'key': 'Vitória da Conquista',
@@ -3726,16 +2608,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Várzea do Poço',
         'lang': 'pt'
       },
-      'BR/BA/Wagner': {
-        'id': 'data/BR/BA/Wagner',
-        'key': 'Wagner',
-        'lang': 'pt'
-      },
-      'BR/BA/Wanderley': {
-        'id': 'data/BR/BA/Wanderley',
-        'key': 'Wanderley',
-        'lang': 'pt'
-      },
+      'BR/BA/Wagner': {'id': 'data/BR/BA/Wagner', 'key': 'Wagner', 'lang': 'pt'},
+      'BR/BA/Wanderley': {'id': 'data/BR/BA/Wanderley', 'key': 'Wanderley', 'lang': 'pt'},
       'BR/BA/Wenceslau Guimarães': {
         'id': 'data/BR/BA/Wenceslau Guimarães',
         'key': 'Wenceslau Guimarães',
@@ -3746,11 +2620,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Xique-Xique',
         'lang': 'pt'
       },
-      'BR/BA/Água Fria': {
-        'id': 'data/BR/BA/Água Fria',
-        'key': 'Água Fria',
-        'lang': 'pt'
-      },
+      'BR/BA/Água Fria': {'id': 'data/BR/BA/Água Fria', 'key': 'Água Fria', 'lang': 'pt'},
       'BR/BA/Érico Cardoso': {
         'id': 'data/BR/BA/Érico Cardoso',
         'key': 'Érico Cardoso',
@@ -3767,147 +2637,51 @@ Map<String, Map<String, String>> get allJson => {
         'zip': '6[0-3]',
         'zipex': '60000-000,63999-999'
       },
-      'BR/CE/Abaiara': {
-        'id': 'data/BR/CE/Abaiara',
-        'key': 'Abaiara',
-        'lang': 'pt'
-      },
-      'BR/CE/Acarape': {
-        'id': 'data/BR/CE/Acarape',
-        'key': 'Acarape',
-        'lang': 'pt'
-      },
-      'BR/CE/Acaraú': {
-        'id': 'data/BR/CE/Acaraú',
-        'key': 'Acaraú',
-        'lang': 'pt'
-      },
-      'BR/CE/Acopiara': {
-        'id': 'data/BR/CE/Acopiara',
-        'key': 'Acopiara',
-        'lang': 'pt'
-      },
-      'BR/CE/Aiuaba': {
-        'id': 'data/BR/CE/Aiuaba',
-        'key': 'Aiuaba',
-        'lang': 'pt'
-      },
+      'BR/CE/Abaiara': {'id': 'data/BR/CE/Abaiara', 'key': 'Abaiara', 'lang': 'pt'},
+      'BR/CE/Acarape': {'id': 'data/BR/CE/Acarape', 'key': 'Acarape', 'lang': 'pt'},
+      'BR/CE/Acaraú': {'id': 'data/BR/CE/Acaraú', 'key': 'Acaraú', 'lang': 'pt'},
+      'BR/CE/Acopiara': {'id': 'data/BR/CE/Acopiara', 'key': 'Acopiara', 'lang': 'pt'},
+      'BR/CE/Aiuaba': {'id': 'data/BR/CE/Aiuaba', 'key': 'Aiuaba', 'lang': 'pt'},
       'BR/CE/Alcântaras': {
         'id': 'data/BR/CE/Alcântaras',
         'key': 'Alcântaras',
         'lang': 'pt'
       },
-      'BR/CE/Altaneira': {
-        'id': 'data/BR/CE/Altaneira',
-        'key': 'Altaneira',
-        'lang': 'pt'
-      },
+      'BR/CE/Altaneira': {'id': 'data/BR/CE/Altaneira', 'key': 'Altaneira', 'lang': 'pt'},
       'BR/CE/Alto Santo': {
         'id': 'data/BR/CE/Alto Santo',
         'key': 'Alto Santo',
         'lang': 'pt'
       },
-      'BR/CE/Amontada': {
-        'id': 'data/BR/CE/Amontada',
-        'key': 'Amontada',
-        'lang': 'pt'
-      },
+      'BR/CE/Amontada': {'id': 'data/BR/CE/Amontada', 'key': 'Amontada', 'lang': 'pt'},
       'BR/CE/Antonina do Norte': {
         'id': 'data/BR/CE/Antonina do Norte',
         'key': 'Antonina do Norte',
         'lang': 'pt'
       },
-      'BR/CE/Apuiarés': {
-        'id': 'data/BR/CE/Apuiarés',
-        'key': 'Apuiarés',
-        'lang': 'pt'
-      },
-      'BR/CE/Aquiraz': {
-        'id': 'data/BR/CE/Aquiraz',
-        'key': 'Aquiraz',
-        'lang': 'pt'
-      },
-      'BR/CE/Aracati': {
-        'id': 'data/BR/CE/Aracati',
-        'key': 'Aracati',
-        'lang': 'pt'
-      },
-      'BR/CE/Aracoiaba': {
-        'id': 'data/BR/CE/Aracoiaba',
-        'key': 'Aracoiaba',
-        'lang': 'pt'
-      },
-      'BR/CE/Ararendá': {
-        'id': 'data/BR/CE/Ararendá',
-        'key': 'Ararendá',
-        'lang': 'pt'
-      },
-      'BR/CE/Araripe': {
-        'id': 'data/BR/CE/Araripe',
-        'key': 'Araripe',
-        'lang': 'pt'
-      },
-      'BR/CE/Aratuba': {
-        'id': 'data/BR/CE/Aratuba',
-        'key': 'Aratuba',
-        'lang': 'pt'
-      },
-      'BR/CE/Arneiroz': {
-        'id': 'data/BR/CE/Arneiroz',
-        'key': 'Arneiroz',
-        'lang': 'pt'
-      },
-      'BR/CE/Assaré': {
-        'id': 'data/BR/CE/Assaré',
-        'key': 'Assaré',
-        'lang': 'pt'
-      },
-      'BR/CE/Aurora': {
-        'id': 'data/BR/CE/Aurora',
-        'key': 'Aurora',
-        'lang': 'pt'
-      },
-      'BR/CE/Baixio': {
-        'id': 'data/BR/CE/Baixio',
-        'key': 'Baixio',
-        'lang': 'pt'
-      },
-      'BR/CE/Banabuiú': {
-        'id': 'data/BR/CE/Banabuiú',
-        'key': 'Banabuiú',
-        'lang': 'pt'
-      },
-      'BR/CE/Barbalha': {
-        'id': 'data/BR/CE/Barbalha',
-        'key': 'Barbalha',
-        'lang': 'pt'
-      },
-      'BR/CE/Barreira': {
-        'id': 'data/BR/CE/Barreira',
-        'key': 'Barreira',
-        'lang': 'pt'
-      },
+      'BR/CE/Apuiarés': {'id': 'data/BR/CE/Apuiarés', 'key': 'Apuiarés', 'lang': 'pt'},
+      'BR/CE/Aquiraz': {'id': 'data/BR/CE/Aquiraz', 'key': 'Aquiraz', 'lang': 'pt'},
+      'BR/CE/Aracati': {'id': 'data/BR/CE/Aracati', 'key': 'Aracati', 'lang': 'pt'},
+      'BR/CE/Aracoiaba': {'id': 'data/BR/CE/Aracoiaba', 'key': 'Aracoiaba', 'lang': 'pt'},
+      'BR/CE/Ararendá': {'id': 'data/BR/CE/Ararendá', 'key': 'Ararendá', 'lang': 'pt'},
+      'BR/CE/Araripe': {'id': 'data/BR/CE/Araripe', 'key': 'Araripe', 'lang': 'pt'},
+      'BR/CE/Aratuba': {'id': 'data/BR/CE/Aratuba', 'key': 'Aratuba', 'lang': 'pt'},
+      'BR/CE/Arneiroz': {'id': 'data/BR/CE/Arneiroz', 'key': 'Arneiroz', 'lang': 'pt'},
+      'BR/CE/Assaré': {'id': 'data/BR/CE/Assaré', 'key': 'Assaré', 'lang': 'pt'},
+      'BR/CE/Aurora': {'id': 'data/BR/CE/Aurora', 'key': 'Aurora', 'lang': 'pt'},
+      'BR/CE/Baixio': {'id': 'data/BR/CE/Baixio', 'key': 'Baixio', 'lang': 'pt'},
+      'BR/CE/Banabuiú': {'id': 'data/BR/CE/Banabuiú', 'key': 'Banabuiú', 'lang': 'pt'},
+      'BR/CE/Barbalha': {'id': 'data/BR/CE/Barbalha', 'key': 'Barbalha', 'lang': 'pt'},
+      'BR/CE/Barreira': {'id': 'data/BR/CE/Barreira', 'key': 'Barreira', 'lang': 'pt'},
       'BR/CE/Barro': {'id': 'data/BR/CE/Barro', 'key': 'Barro', 'lang': 'pt'},
       'BR/CE/Barroquinha': {
         'id': 'data/BR/CE/Barroquinha',
         'key': 'Barroquinha',
         'lang': 'pt'
       },
-      'BR/CE/Baturité': {
-        'id': 'data/BR/CE/Baturité',
-        'key': 'Baturité',
-        'lang': 'pt'
-      },
-      'BR/CE/Beberibe': {
-        'id': 'data/BR/CE/Beberibe',
-        'key': 'Beberibe',
-        'lang': 'pt'
-      },
-      'BR/CE/Bela Cruz': {
-        'id': 'data/BR/CE/Bela Cruz',
-        'key': 'Bela Cruz',
-        'lang': 'pt'
-      },
+      'BR/CE/Baturité': {'id': 'data/BR/CE/Baturité', 'key': 'Baturité', 'lang': 'pt'},
+      'BR/CE/Beberibe': {'id': 'data/BR/CE/Beberibe', 'key': 'Beberibe', 'lang': 'pt'},
+      'BR/CE/Bela Cruz': {'id': 'data/BR/CE/Bela Cruz', 'key': 'Bela Cruz', 'lang': 'pt'},
       'BR/CE/Boa Viagem': {
         'id': 'data/BR/CE/Boa Viagem',
         'key': 'Boa Viagem',
@@ -3918,99 +2692,39 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Brejo Santo',
         'lang': 'pt'
       },
-      'BR/CE/Camocim': {
-        'id': 'data/BR/CE/Camocim',
-        'key': 'Camocim',
-        'lang': 'pt'
-      },
+      'BR/CE/Camocim': {'id': 'data/BR/CE/Camocim', 'key': 'Camocim', 'lang': 'pt'},
       'BR/CE/Campos Sales': {
         'id': 'data/BR/CE/Campos Sales',
         'key': 'Campos Sales',
         'lang': 'pt'
       },
-      'BR/CE/Canindé': {
-        'id': 'data/BR/CE/Canindé',
-        'key': 'Canindé',
-        'lang': 'pt'
-      },
+      'BR/CE/Canindé': {'id': 'data/BR/CE/Canindé', 'key': 'Canindé', 'lang': 'pt'},
       'BR/CE/Capistrano': {
         'id': 'data/BR/CE/Capistrano',
         'key': 'Capistrano',
         'lang': 'pt'
       },
-      'BR/CE/Caridade': {
-        'id': 'data/BR/CE/Caridade',
-        'key': 'Caridade',
-        'lang': 'pt'
-      },
-      'BR/CE/Caririaçú': {
-        'id': 'data/BR/CE/Caririaçú',
-        'key': 'Caririaçú',
-        'lang': 'pt'
-      },
-      'BR/CE/Cariré': {
-        'id': 'data/BR/CE/Cariré',
-        'key': 'Cariré',
-        'lang': 'pt'
-      },
-      'BR/CE/Cariús': {
-        'id': 'data/BR/CE/Cariús',
-        'key': 'Cariús',
-        'lang': 'pt'
-      },
-      'BR/CE/Carnaubal': {
-        'id': 'data/BR/CE/Carnaubal',
-        'key': 'Carnaubal',
-        'lang': 'pt'
-      },
-      'BR/CE/Cascavel': {
-        'id': 'data/BR/CE/Cascavel',
-        'key': 'Cascavel',
-        'lang': 'pt'
-      },
-      'BR/CE/Catarina': {
-        'id': 'data/BR/CE/Catarina',
-        'key': 'Catarina',
-        'lang': 'pt'
-      },
-      'BR/CE/Catunda': {
-        'id': 'data/BR/CE/Catunda',
-        'key': 'Catunda',
-        'lang': 'pt'
-      },
-      'BR/CE/Caucaia': {
-        'id': 'data/BR/CE/Caucaia',
-        'key': 'Caucaia',
-        'lang': 'pt'
-      },
+      'BR/CE/Caridade': {'id': 'data/BR/CE/Caridade', 'key': 'Caridade', 'lang': 'pt'},
+      'BR/CE/Caririaçú': {'id': 'data/BR/CE/Caririaçú', 'key': 'Caririaçú', 'lang': 'pt'},
+      'BR/CE/Cariré': {'id': 'data/BR/CE/Cariré', 'key': 'Cariré', 'lang': 'pt'},
+      'BR/CE/Cariús': {'id': 'data/BR/CE/Cariús', 'key': 'Cariús', 'lang': 'pt'},
+      'BR/CE/Carnaubal': {'id': 'data/BR/CE/Carnaubal', 'key': 'Carnaubal', 'lang': 'pt'},
+      'BR/CE/Cascavel': {'id': 'data/BR/CE/Cascavel', 'key': 'Cascavel', 'lang': 'pt'},
+      'BR/CE/Catarina': {'id': 'data/BR/CE/Catarina', 'key': 'Catarina', 'lang': 'pt'},
+      'BR/CE/Catunda': {'id': 'data/BR/CE/Catunda', 'key': 'Catunda', 'lang': 'pt'},
+      'BR/CE/Caucaia': {'id': 'data/BR/CE/Caucaia', 'key': 'Caucaia', 'lang': 'pt'},
       'BR/CE/Cedro': {'id': 'data/BR/CE/Cedro', 'key': 'Cedro', 'lang': 'pt'},
-      'BR/CE/Chaval': {
-        'id': 'data/BR/CE/Chaval',
-        'key': 'Chaval',
-        'lang': 'pt'
-      },
+      'BR/CE/Chaval': {'id': 'data/BR/CE/Chaval', 'key': 'Chaval', 'lang': 'pt'},
       'BR/CE/Choro': {'id': 'data/BR/CE/Choro', 'key': 'Choro', 'lang': 'pt'},
       'BR/CE/Chorozinho': {
         'id': 'data/BR/CE/Chorozinho',
         'key': 'Chorozinho',
         'lang': 'pt'
       },
-      'BR/CE/Coreaú': {
-        'id': 'data/BR/CE/Coreaú',
-        'key': 'Coreaú',
-        'lang': 'pt'
-      },
-      'BR/CE/Crateús': {
-        'id': 'data/BR/CE/Crateús',
-        'key': 'Crateús',
-        'lang': 'pt'
-      },
+      'BR/CE/Coreaú': {'id': 'data/BR/CE/Coreaú', 'key': 'Coreaú', 'lang': 'pt'},
+      'BR/CE/Crateús': {'id': 'data/BR/CE/Crateús', 'key': 'Crateús', 'lang': 'pt'},
       'BR/CE/Crato': {'id': 'data/BR/CE/Crato', 'key': 'Crato', 'lang': 'pt'},
-      'BR/CE/Croatá': {
-        'id': 'data/BR/CE/Croatá',
-        'key': 'Croatá',
-        'lang': 'pt'
-      },
+      'BR/CE/Croatá': {'id': 'data/BR/CE/Croatá', 'key': 'Croatá', 'lang': 'pt'},
       'BR/CE/Cruz': {'id': 'data/BR/CE/Cruz', 'key': 'Cruz', 'lang': 'pt'},
       'BR/CE/Deputado Irapuan Pinheiro': {
         'id': 'data/BR/CE/Deputado Irapuan Pinheiro',
@@ -4018,31 +2732,15 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/CE/Ererê': {'id': 'data/BR/CE/Ererê', 'key': 'Ererê', 'lang': 'pt'},
-      'BR/CE/Eusébio': {
-        'id': 'data/BR/CE/Eusébio',
-        'key': 'Eusébio',
-        'lang': 'pt'
-      },
+      'BR/CE/Eusébio': {'id': 'data/BR/CE/Eusébio', 'key': 'Eusébio', 'lang': 'pt'},
       'BR/CE/Farias Brito': {
         'id': 'data/BR/CE/Farias Brito',
         'key': 'Farias Brito',
         'lang': 'pt'
       },
-      'BR/CE/Forquilha': {
-        'id': 'data/BR/CE/Forquilha',
-        'key': 'Forquilha',
-        'lang': 'pt'
-      },
-      'BR/CE/Fortaleza': {
-        'id': 'data/BR/CE/Fortaleza',
-        'key': 'Fortaleza',
-        'lang': 'pt'
-      },
-      'BR/CE/Fortim': {
-        'id': 'data/BR/CE/Fortim',
-        'key': 'Fortim',
-        'lang': 'pt'
-      },
+      'BR/CE/Forquilha': {'id': 'data/BR/CE/Forquilha', 'key': 'Forquilha', 'lang': 'pt'},
+      'BR/CE/Fortaleza': {'id': 'data/BR/CE/Fortaleza', 'key': 'Fortaleza', 'lang': 'pt'},
+      'BR/CE/Fortim': {'id': 'data/BR/CE/Fortim', 'key': 'Fortim', 'lang': 'pt'},
       'BR/CE/Frecheirinha': {
         'id': 'data/BR/CE/Frecheirinha',
         'key': 'Frecheirinha',
@@ -4053,27 +2751,11 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'General Sampaio',
         'lang': 'pt'
       },
-      'BR/CE/Granja': {
-        'id': 'data/BR/CE/Granja',
-        'key': 'Granja',
-        'lang': 'pt'
-      },
-      'BR/CE/Granjeiro': {
-        'id': 'data/BR/CE/Granjeiro',
-        'key': 'Granjeiro',
-        'lang': 'pt'
-      },
+      'BR/CE/Granja': {'id': 'data/BR/CE/Granja', 'key': 'Granja', 'lang': 'pt'},
+      'BR/CE/Granjeiro': {'id': 'data/BR/CE/Granjeiro', 'key': 'Granjeiro', 'lang': 'pt'},
       'BR/CE/Graça': {'id': 'data/BR/CE/Graça', 'key': 'Graça', 'lang': 'pt'},
-      'BR/CE/Groaíras': {
-        'id': 'data/BR/CE/Groaíras',
-        'key': 'Groaíras',
-        'lang': 'pt'
-      },
-      'BR/CE/Guaiúba': {
-        'id': 'data/BR/CE/Guaiúba',
-        'key': 'Guaiúba',
-        'lang': 'pt'
-      },
+      'BR/CE/Groaíras': {'id': 'data/BR/CE/Groaíras', 'key': 'Groaíras', 'lang': 'pt'},
+      'BR/CE/Guaiúba': {'id': 'data/BR/CE/Guaiúba', 'key': 'Guaiúba', 'lang': 'pt'},
       'BR/CE/Guaraciaba do Norte': {
         'id': 'data/BR/CE/Guaraciaba do Norte',
         'key': 'Guaraciaba do Norte',
@@ -4089,37 +2771,17 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Hidrolândia',
         'lang': 'pt'
       },
-      'BR/CE/Horizonte': {
-        'id': 'data/BR/CE/Horizonte',
-        'key': 'Horizonte',
-        'lang': 'pt'
-      },
-      'BR/CE/Ibaretama': {
-        'id': 'data/BR/CE/Ibaretama',
-        'key': 'Ibaretama',
-        'lang': 'pt'
-      },
-      'BR/CE/Ibiapina': {
-        'id': 'data/BR/CE/Ibiapina',
-        'key': 'Ibiapina',
-        'lang': 'pt'
-      },
+      'BR/CE/Horizonte': {'id': 'data/BR/CE/Horizonte', 'key': 'Horizonte', 'lang': 'pt'},
+      'BR/CE/Ibaretama': {'id': 'data/BR/CE/Ibaretama', 'key': 'Ibaretama', 'lang': 'pt'},
+      'BR/CE/Ibiapina': {'id': 'data/BR/CE/Ibiapina', 'key': 'Ibiapina', 'lang': 'pt'},
       'BR/CE/Ibicuitinga': {
         'id': 'data/BR/CE/Ibicuitinga',
         'key': 'Ibicuitinga',
         'lang': 'pt'
       },
-      'BR/CE/Icapuí': {
-        'id': 'data/BR/CE/Icapuí',
-        'key': 'Icapuí',
-        'lang': 'pt'
-      },
+      'BR/CE/Icapuí': {'id': 'data/BR/CE/Icapuí', 'key': 'Icapuí', 'lang': 'pt'},
       'BR/CE/Ico': {'id': 'data/BR/CE/Ico', 'key': 'Ico', 'lang': 'pt'},
-      'BR/CE/Iguatu': {
-        'id': 'data/BR/CE/Iguatu',
-        'key': 'Iguatu',
-        'lang': 'pt'
-      },
+      'BR/CE/Iguatu': {'id': 'data/BR/CE/Iguatu', 'key': 'Iguatu', 'lang': 'pt'},
       'BR/CE/Independencia': {
         'id': 'data/BR/CE/Independencia',
         'key': 'Independencia',
@@ -4130,62 +2792,18 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ipaporanga',
         'lang': 'pt'
       },
-      'BR/CE/Ipaumirim': {
-        'id': 'data/BR/CE/Ipaumirim',
-        'key': 'Ipaumirim',
-        'lang': 'pt'
-      },
-      'BR/CE/Ipueiras': {
-        'id': 'data/BR/CE/Ipueiras',
-        'key': 'Ipueiras',
-        'lang': 'pt'
-      },
+      'BR/CE/Ipaumirim': {'id': 'data/BR/CE/Ipaumirim', 'key': 'Ipaumirim', 'lang': 'pt'},
+      'BR/CE/Ipueiras': {'id': 'data/BR/CE/Ipueiras', 'key': 'Ipueiras', 'lang': 'pt'},
       'BR/CE/Ipú': {'id': 'data/BR/CE/Ipú', 'key': 'Ipú', 'lang': 'pt'},
-      'BR/CE/Iracema': {
-        'id': 'data/BR/CE/Iracema',
-        'key': 'Iracema',
-        'lang': 'pt'
-      },
-      'BR/CE/Irauçuba': {
-        'id': 'data/BR/CE/Irauçuba',
-        'key': 'Irauçuba',
-        'lang': 'pt'
-      },
-      'BR/CE/Itaitinga': {
-        'id': 'data/BR/CE/Itaitinga',
-        'key': 'Itaitinga',
-        'lang': 'pt'
-      },
-      'BR/CE/Itaiçaba': {
-        'id': 'data/BR/CE/Itaiçaba',
-        'key': 'Itaiçaba',
-        'lang': 'pt'
-      },
-      'BR/CE/Itapagé': {
-        'id': 'data/BR/CE/Itapagé',
-        'key': 'Itapagé',
-        'lang': 'pt'
-      },
-      'BR/CE/Itapipoca': {
-        'id': 'data/BR/CE/Itapipoca',
-        'key': 'Itapipoca',
-        'lang': 'pt'
-      },
-      'BR/CE/Itapiúna': {
-        'id': 'data/BR/CE/Itapiúna',
-        'key': 'Itapiúna',
-        'lang': 'pt'
-      },
-      'BR/CE/Itarema': {
-        'id': 'data/BR/CE/Itarema',
-        'key': 'Itarema',
-        'lang': 'pt'
-      },
-      'BR/CE/Itatira': {
-        'id': 'data/BR/CE/Itatira',
-        'key': 'Itatira',
-        'lang': 'pt'
-      },
+      'BR/CE/Iracema': {'id': 'data/BR/CE/Iracema', 'key': 'Iracema', 'lang': 'pt'},
+      'BR/CE/Irauçuba': {'id': 'data/BR/CE/Irauçuba', 'key': 'Irauçuba', 'lang': 'pt'},
+      'BR/CE/Itaitinga': {'id': 'data/BR/CE/Itaitinga', 'key': 'Itaitinga', 'lang': 'pt'},
+      'BR/CE/Itaiçaba': {'id': 'data/BR/CE/Itaiçaba', 'key': 'Itaiçaba', 'lang': 'pt'},
+      'BR/CE/Itapagé': {'id': 'data/BR/CE/Itapagé', 'key': 'Itapagé', 'lang': 'pt'},
+      'BR/CE/Itapipoca': {'id': 'data/BR/CE/Itapipoca', 'key': 'Itapipoca', 'lang': 'pt'},
+      'BR/CE/Itapiúna': {'id': 'data/BR/CE/Itapiúna', 'key': 'Itapiúna', 'lang': 'pt'},
+      'BR/CE/Itarema': {'id': 'data/BR/CE/Itarema', 'key': 'Itarema', 'lang': 'pt'},
+      'BR/CE/Itatira': {'id': 'data/BR/CE/Itatira', 'key': 'Itatira', 'lang': 'pt'},
       'BR/CE/Jaguaretama': {
         'id': 'data/BR/CE/Jaguaretama',
         'key': 'Jaguaretama',
@@ -4196,21 +2814,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Jaguaribara',
         'lang': 'pt'
       },
-      'BR/CE/Jaguaribe': {
-        'id': 'data/BR/CE/Jaguaribe',
-        'key': 'Jaguaribe',
-        'lang': 'pt'
-      },
+      'BR/CE/Jaguaribe': {'id': 'data/BR/CE/Jaguaribe', 'key': 'Jaguaribe', 'lang': 'pt'},
       'BR/CE/Jaguaruana': {
         'id': 'data/BR/CE/Jaguaruana',
         'key': 'Jaguaruana',
         'lang': 'pt'
       },
-      'BR/CE/Jardim': {
-        'id': 'data/BR/CE/Jardim',
-        'key': 'Jardim',
-        'lang': 'pt'
-      },
+      'BR/CE/Jardim': {'id': 'data/BR/CE/Jardim', 'key': 'Jardim', 'lang': 'pt'},
       'BR/CE/Jati': {'id': 'data/BR/CE/Jati', 'key': 'Jati', 'lang': 'pt'},
       'BR/CE/Jijoca de Jericoacoara': {
         'id': 'data/BR/CE/Jijoca de Jericoacoara',
@@ -4233,16 +2843,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Limoeiro do Norte',
         'lang': 'pt'
       },
-      'BR/CE/Madalena': {
-        'id': 'data/BR/CE/Madalena',
-        'key': 'Madalena',
-        'lang': 'pt'
-      },
-      'BR/CE/Maracanaú': {
-        'id': 'data/BR/CE/Maracanaú',
-        'key': 'Maracanaú',
-        'lang': 'pt'
-      },
+      'BR/CE/Madalena': {'id': 'data/BR/CE/Madalena', 'key': 'Madalena', 'lang': 'pt'},
+      'BR/CE/Maracanaú': {'id': 'data/BR/CE/Maracanaú', 'key': 'Maracanaú', 'lang': 'pt'},
       'BR/CE/Maranguape': {
         'id': 'data/BR/CE/Maranguape',
         'key': 'Maranguape',
@@ -4254,42 +2856,18 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Martinópole',
         'lang': 'pt'
       },
-      'BR/CE/Massapê': {
-        'id': 'data/BR/CE/Massapê',
-        'key': 'Massapê',
-        'lang': 'pt'
-      },
-      'BR/CE/Mauriti': {
-        'id': 'data/BR/CE/Mauriti',
-        'key': 'Mauriti',
-        'lang': 'pt'
-      },
-      'BR/CE/Meruoca': {
-        'id': 'data/BR/CE/Meruoca',
-        'key': 'Meruoca',
-        'lang': 'pt'
-      },
-      'BR/CE/Milagres': {
-        'id': 'data/BR/CE/Milagres',
-        'key': 'Milagres',
-        'lang': 'pt'
-      },
+      'BR/CE/Massapê': {'id': 'data/BR/CE/Massapê', 'key': 'Massapê', 'lang': 'pt'},
+      'BR/CE/Mauriti': {'id': 'data/BR/CE/Mauriti', 'key': 'Mauriti', 'lang': 'pt'},
+      'BR/CE/Meruoca': {'id': 'data/BR/CE/Meruoca', 'key': 'Meruoca', 'lang': 'pt'},
+      'BR/CE/Milagres': {'id': 'data/BR/CE/Milagres', 'key': 'Milagres', 'lang': 'pt'},
       'BR/CE/Milhã': {'id': 'data/BR/CE/Milhã', 'key': 'Milhã', 'lang': 'pt'},
-      'BR/CE/Miraíma': {
-        'id': 'data/BR/CE/Miraíma',
-        'key': 'Miraíma',
-        'lang': 'pt'
-      },
+      'BR/CE/Miraíma': {'id': 'data/BR/CE/Miraíma', 'key': 'Miraíma', 'lang': 'pt'},
       'BR/CE/Missão Velha': {
         'id': 'data/BR/CE/Missão Velha',
         'key': 'Missão Velha',
         'lang': 'pt'
       },
-      'BR/CE/Mombaça': {
-        'id': 'data/BR/CE/Mombaça',
-        'key': 'Mombaça',
-        'lang': 'pt'
-      },
+      'BR/CE/Mombaça': {'id': 'data/BR/CE/Mombaça', 'key': 'Mombaça', 'lang': 'pt'},
       'BR/CE/Monsenhor Tabosa': {
         'id': 'data/BR/CE/Monsenhor Tabosa',
         'key': 'Monsenhor Tabosa',
@@ -4300,26 +2878,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Morada Nova',
         'lang': 'pt'
       },
-      'BR/CE/Moraújo': {
-        'id': 'data/BR/CE/Moraújo',
-        'key': 'Moraújo',
-        'lang': 'pt'
-      },
-      'BR/CE/Morrinhos': {
-        'id': 'data/BR/CE/Morrinhos',
-        'key': 'Morrinhos',
-        'lang': 'pt'
-      },
-      'BR/CE/Mucambo': {
-        'id': 'data/BR/CE/Mucambo',
-        'key': 'Mucambo',
-        'lang': 'pt'
-      },
-      'BR/CE/Mulungú': {
-        'id': 'data/BR/CE/Mulungú',
-        'key': 'Mulungú',
-        'lang': 'pt'
-      },
+      'BR/CE/Moraújo': {'id': 'data/BR/CE/Moraújo', 'key': 'Moraújo', 'lang': 'pt'},
+      'BR/CE/Morrinhos': {'id': 'data/BR/CE/Morrinhos', 'key': 'Morrinhos', 'lang': 'pt'},
+      'BR/CE/Mucambo': {'id': 'data/BR/CE/Mucambo', 'key': 'Mucambo', 'lang': 'pt'},
+      'BR/CE/Mulungú': {'id': 'data/BR/CE/Mulungú', 'key': 'Mulungú', 'lang': 'pt'},
       'BR/CE/Nova Olinda': {
         'id': 'data/BR/CE/Nova Olinda',
         'key': 'Nova Olinda',
@@ -4337,76 +2899,28 @@ Map<String, Map<String, String>> get allJson => {
       },
       'BR/CE/Ocara': {'id': 'data/BR/CE/Ocara', 'key': 'Ocara', 'lang': 'pt'},
       'BR/CE/Orós': {'id': 'data/BR/CE/Orós', 'key': 'Orós', 'lang': 'pt'},
-      'BR/CE/Pacajús': {
-        'id': 'data/BR/CE/Pacajús',
-        'key': 'Pacajús',
-        'lang': 'pt'
-      },
-      'BR/CE/Pacatuba': {
-        'id': 'data/BR/CE/Pacatuba',
-        'key': 'Pacatuba',
-        'lang': 'pt'
-      },
-      'BR/CE/Pacoti': {
-        'id': 'data/BR/CE/Pacoti',
-        'key': 'Pacoti',
-        'lang': 'pt'
-      },
-      'BR/CE/Pacujá': {
-        'id': 'data/BR/CE/Pacujá',
-        'key': 'Pacujá',
-        'lang': 'pt'
-      },
-      'BR/CE/Palhano': {
-        'id': 'data/BR/CE/Palhano',
-        'key': 'Palhano',
-        'lang': 'pt'
-      },
-      'BR/CE/Palmácia': {
-        'id': 'data/BR/CE/Palmácia',
-        'key': 'Palmácia',
-        'lang': 'pt'
-      },
-      'BR/CE/Paracuru': {
-        'id': 'data/BR/CE/Paracuru',
-        'key': 'Paracuru',
-        'lang': 'pt'
-      },
-      'BR/CE/Paraipaba': {
-        'id': 'data/BR/CE/Paraipaba',
-        'key': 'Paraipaba',
-        'lang': 'pt'
-      },
-      'BR/CE/Parambu': {
-        'id': 'data/BR/CE/Parambu',
-        'key': 'Parambu',
-        'lang': 'pt'
-      },
-      'BR/CE/Paramoti': {
-        'id': 'data/BR/CE/Paramoti',
-        'key': 'Paramoti',
-        'lang': 'pt'
-      },
+      'BR/CE/Pacajús': {'id': 'data/BR/CE/Pacajús', 'key': 'Pacajús', 'lang': 'pt'},
+      'BR/CE/Pacatuba': {'id': 'data/BR/CE/Pacatuba', 'key': 'Pacatuba', 'lang': 'pt'},
+      'BR/CE/Pacoti': {'id': 'data/BR/CE/Pacoti', 'key': 'Pacoti', 'lang': 'pt'},
+      'BR/CE/Pacujá': {'id': 'data/BR/CE/Pacujá', 'key': 'Pacujá', 'lang': 'pt'},
+      'BR/CE/Palhano': {'id': 'data/BR/CE/Palhano', 'key': 'Palhano', 'lang': 'pt'},
+      'BR/CE/Palmácia': {'id': 'data/BR/CE/Palmácia', 'key': 'Palmácia', 'lang': 'pt'},
+      'BR/CE/Paracuru': {'id': 'data/BR/CE/Paracuru', 'key': 'Paracuru', 'lang': 'pt'},
+      'BR/CE/Paraipaba': {'id': 'data/BR/CE/Paraipaba', 'key': 'Paraipaba', 'lang': 'pt'},
+      'BR/CE/Parambu': {'id': 'data/BR/CE/Parambu', 'key': 'Parambu', 'lang': 'pt'},
+      'BR/CE/Paramoti': {'id': 'data/BR/CE/Paramoti', 'key': 'Paramoti', 'lang': 'pt'},
       'BR/CE/Pedra Branca': {
         'id': 'data/BR/CE/Pedra Branca',
         'key': 'Pedra Branca',
         'lang': 'pt'
       },
-      'BR/CE/Penaforte': {
-        'id': 'data/BR/CE/Penaforte',
-        'key': 'Penaforte',
-        'lang': 'pt'
-      },
+      'BR/CE/Penaforte': {'id': 'data/BR/CE/Penaforte', 'key': 'Penaforte', 'lang': 'pt'},
       'BR/CE/Pentecoste': {
         'id': 'data/BR/CE/Pentecoste',
         'key': 'Pentecoste',
         'lang': 'pt'
       },
-      'BR/CE/Pereiro': {
-        'id': 'data/BR/CE/Pereiro',
-        'key': 'Pereiro',
-        'lang': 'pt'
-      },
+      'BR/CE/Pereiro': {'id': 'data/BR/CE/Pereiro', 'key': 'Pereiro', 'lang': 'pt'},
       'BR/CE/Pindoretama': {
         'id': 'data/BR/CE/Pindoretama',
         'key': 'Pindoretama',
@@ -4422,21 +2936,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pires Ferreira',
         'lang': 'pt'
       },
-      'BR/CE/Poranga': {
-        'id': 'data/BR/CE/Poranga',
-        'key': 'Poranga',
-        'lang': 'pt'
-      },
-      'BR/CE/Porteiras': {
-        'id': 'data/BR/CE/Porteiras',
-        'key': 'Porteiras',
-        'lang': 'pt'
-      },
-      'BR/CE/Potengi': {
-        'id': 'data/BR/CE/Potengi',
-        'key': 'Potengi',
-        'lang': 'pt'
-      },
+      'BR/CE/Poranga': {'id': 'data/BR/CE/Poranga', 'key': 'Poranga', 'lang': 'pt'},
+      'BR/CE/Porteiras': {'id': 'data/BR/CE/Porteiras', 'key': 'Porteiras', 'lang': 'pt'},
+      'BR/CE/Potengi': {'id': 'data/BR/CE/Potengi', 'key': 'Potengi', 'lang': 'pt'},
       'BR/CE/Potiretama': {
         'id': 'data/BR/CE/Potiretama',
         'key': 'Potiretama',
@@ -4447,51 +2949,19 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Quiterianópolis',
         'lang': 'pt'
       },
-      'BR/CE/Quixadá': {
-        'id': 'data/BR/CE/Quixadá',
-        'key': 'Quixadá',
-        'lang': 'pt'
-      },
-      'BR/CE/Quixelô': {
-        'id': 'data/BR/CE/Quixelô',
-        'key': 'Quixelô',
-        'lang': 'pt'
-      },
+      'BR/CE/Quixadá': {'id': 'data/BR/CE/Quixadá', 'key': 'Quixadá', 'lang': 'pt'},
+      'BR/CE/Quixelô': {'id': 'data/BR/CE/Quixelô', 'key': 'Quixelô', 'lang': 'pt'},
       'BR/CE/Quixeramobim': {
         'id': 'data/BR/CE/Quixeramobim',
         'key': 'Quixeramobim',
         'lang': 'pt'
       },
-      'BR/CE/Quixeré': {
-        'id': 'data/BR/CE/Quixeré',
-        'key': 'Quixeré',
-        'lang': 'pt'
-      },
-      'BR/CE/Redenção': {
-        'id': 'data/BR/CE/Redenção',
-        'key': 'Redenção',
-        'lang': 'pt'
-      },
-      'BR/CE/Reriutaba': {
-        'id': 'data/BR/CE/Reriutaba',
-        'key': 'Reriutaba',
-        'lang': 'pt'
-      },
-      'BR/CE/Russas': {
-        'id': 'data/BR/CE/Russas',
-        'key': 'Russas',
-        'lang': 'pt'
-      },
-      'BR/CE/Saboeiro': {
-        'id': 'data/BR/CE/Saboeiro',
-        'key': 'Saboeiro',
-        'lang': 'pt'
-      },
-      'BR/CE/Salitre': {
-        'id': 'data/BR/CE/Salitre',
-        'key': 'Salitre',
-        'lang': 'pt'
-      },
+      'BR/CE/Quixeré': {'id': 'data/BR/CE/Quixeré', 'key': 'Quixeré', 'lang': 'pt'},
+      'BR/CE/Redenção': {'id': 'data/BR/CE/Redenção', 'key': 'Redenção', 'lang': 'pt'},
+      'BR/CE/Reriutaba': {'id': 'data/BR/CE/Reriutaba', 'key': 'Reriutaba', 'lang': 'pt'},
+      'BR/CE/Russas': {'id': 'data/BR/CE/Russas', 'key': 'Russas', 'lang': 'pt'},
+      'BR/CE/Saboeiro': {'id': 'data/BR/CE/Saboeiro', 'key': 'Saboeiro', 'lang': 'pt'},
+      'BR/CE/Salitre': {'id': 'data/BR/CE/Salitre', 'key': 'Salitre', 'lang': 'pt'},
       'BR/CE/Santa Quitéria': {
         'id': 'data/BR/CE/Santa Quitéria',
         'key': 'Santa Quitéria',
@@ -4517,11 +2987,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Senador Sá',
         'lang': 'pt'
       },
-      'BR/CE/Sobral': {
-        'id': 'data/BR/CE/Sobral',
-        'key': 'Sobral',
-        'lang': 'pt'
-      },
+      'BR/CE/Sobral': {'id': 'data/BR/CE/Sobral', 'key': 'Sobral', 'lang': 'pt'},
       'BR/CE/Solonópole': {
         'id': 'data/BR/CE/Solonópole',
         'key': 'Solonópole',
@@ -4552,63 +3018,23 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Tabuleiro do Norte',
         'lang': 'pt'
       },
-      'BR/CE/Tamboril': {
-        'id': 'data/BR/CE/Tamboril',
-        'key': 'Tamboril',
-        'lang': 'pt'
-      },
-      'BR/CE/Tarrafas': {
-        'id': 'data/BR/CE/Tarrafas',
-        'key': 'Tarrafas',
-        'lang': 'pt'
-      },
+      'BR/CE/Tamboril': {'id': 'data/BR/CE/Tamboril', 'key': 'Tamboril', 'lang': 'pt'},
+      'BR/CE/Tarrafas': {'id': 'data/BR/CE/Tarrafas', 'key': 'Tarrafas', 'lang': 'pt'},
       'BR/CE/Tauá': {'id': 'data/BR/CE/Tauá', 'key': 'Tauá', 'lang': 'pt'},
-      'BR/CE/Tejuçuoca': {
-        'id': 'data/BR/CE/Tejuçuoca',
-        'key': 'Tejuçuoca',
-        'lang': 'pt'
-      },
-      'BR/CE/Tianguá': {
-        'id': 'data/BR/CE/Tianguá',
-        'key': 'Tianguá',
-        'lang': 'pt'
-      },
-      'BR/CE/Trairi': {
-        'id': 'data/BR/CE/Trairi',
-        'key': 'Trairi',
-        'lang': 'pt'
-      },
-      'BR/CE/Tururu': {
-        'id': 'data/BR/CE/Tururu',
-        'key': 'Tururu',
-        'lang': 'pt'
-      },
-      'BR/CE/Ubajara': {
-        'id': 'data/BR/CE/Ubajara',
-        'key': 'Ubajara',
-        'lang': 'pt'
-      },
+      'BR/CE/Tejuçuoca': {'id': 'data/BR/CE/Tejuçuoca', 'key': 'Tejuçuoca', 'lang': 'pt'},
+      'BR/CE/Tianguá': {'id': 'data/BR/CE/Tianguá', 'key': 'Tianguá', 'lang': 'pt'},
+      'BR/CE/Trairi': {'id': 'data/BR/CE/Trairi', 'key': 'Trairi', 'lang': 'pt'},
+      'BR/CE/Tururu': {'id': 'data/BR/CE/Tururu', 'key': 'Tururu', 'lang': 'pt'},
+      'BR/CE/Ubajara': {'id': 'data/BR/CE/Ubajara', 'key': 'Ubajara', 'lang': 'pt'},
       'BR/CE/Umari': {'id': 'data/BR/CE/Umari', 'key': 'Umari', 'lang': 'pt'},
-      'BR/CE/Umirim': {
-        'id': 'data/BR/CE/Umirim',
-        'key': 'Umirim',
-        'lang': 'pt'
-      },
+      'BR/CE/Umirim': {'id': 'data/BR/CE/Umirim', 'key': 'Umirim', 'lang': 'pt'},
       'BR/CE/Uruburetama': {
         'id': 'data/BR/CE/Uruburetama',
         'key': 'Uruburetama',
         'lang': 'pt'
       },
-      'BR/CE/Uruoca': {
-        'id': 'data/BR/CE/Uruoca',
-        'key': 'Uruoca',
-        'lang': 'pt'
-      },
-      'BR/CE/Varjota': {
-        'id': 'data/BR/CE/Varjota',
-        'key': 'Varjota',
-        'lang': 'pt'
-      },
+      'BR/CE/Uruoca': {'id': 'data/BR/CE/Uruoca', 'key': 'Uruoca', 'lang': 'pt'},
+      'BR/CE/Varjota': {'id': 'data/BR/CE/Varjota', 'key': 'Varjota', 'lang': 'pt'},
       'BR/CE/Viçosa do Ceará': {
         'id': 'data/BR/CE/Viçosa do Ceará',
         'key': 'Viçosa do Ceará',
@@ -4629,11 +3055,7 @@ Map<String, Map<String, String>> get allJson => {
         'zip': '7[0-1]|72[0-7]|73[0-6]',
         'zipex': '70000-000,73500-123'
       },
-      'BR/DF/Brasília': {
-        'id': 'data/BR/DF/Brasília',
-        'key': 'Brasília',
-        'lang': 'pt'
-      },
+      'BR/DF/Brasília': {'id': 'data/BR/DF/Brasília', 'key': 'Brasília', 'lang': 'pt'},
       'BR/ES': {
         'id': 'data/BR/ES',
         'isoid': 'ES',
@@ -4650,11 +3072,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Afonso Claudio',
         'lang': 'pt'
       },
-      'BR/ES/Alegre': {
-        'id': 'data/BR/ES/Alegre',
-        'key': 'Alegre',
-        'lang': 'pt'
-      },
+      'BR/ES/Alegre': {'id': 'data/BR/ES/Alegre', 'key': 'Alegre', 'lang': 'pt'},
       'BR/ES/Alfredo Chaves': {
         'id': 'data/BR/ES/Alfredo Chaves',
         'key': 'Alfredo Chaves',
@@ -4665,21 +3083,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alto Rio Novo',
         'lang': 'pt'
       },
-      'BR/ES/Anchieta': {
-        'id': 'data/BR/ES/Anchieta',
-        'key': 'Anchieta',
-        'lang': 'pt'
-      },
-      'BR/ES/Apiacá': {
-        'id': 'data/BR/ES/Apiacá',
-        'key': 'Apiacá',
-        'lang': 'pt'
-      },
-      'BR/ES/Aracruz': {
-        'id': 'data/BR/ES/Aracruz',
-        'key': 'Aracruz',
-        'lang': 'pt'
-      },
+      'BR/ES/Anchieta': {'id': 'data/BR/ES/Anchieta', 'key': 'Anchieta', 'lang': 'pt'},
+      'BR/ES/Apiacá': {'id': 'data/BR/ES/Apiacá', 'key': 'Apiacá', 'lang': 'pt'},
+      'BR/ES/Aracruz': {'id': 'data/BR/ES/Aracruz', 'key': 'Aracruz', 'lang': 'pt'},
       'BR/ES/Atílio Vivácqua': {
         'id': 'data/BR/ES/Atílio Vivácqua',
         'key': 'Atílio Vivácqua',
@@ -4705,31 +3111,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bom Jesus do Norte',
         'lang': 'pt'
       },
-      'BR/ES/Brejetuba': {
-        'id': 'data/BR/ES/Brejetuba',
-        'key': 'Brejetuba',
-        'lang': 'pt'
-      },
+      'BR/ES/Brejetuba': {'id': 'data/BR/ES/Brejetuba', 'key': 'Brejetuba', 'lang': 'pt'},
       'BR/ES/Cachoeiro de Itapemirim': {
         'id': 'data/BR/ES/Cachoeiro de Itapemirim',
         'key': 'Cachoeiro de Itapemirim',
         'lang': 'pt'
       },
-      'BR/ES/Cariacica': {
-        'id': 'data/BR/ES/Cariacica',
-        'key': 'Cariacica',
-        'lang': 'pt'
-      },
-      'BR/ES/Castelo': {
-        'id': 'data/BR/ES/Castelo',
-        'key': 'Castelo',
-        'lang': 'pt'
-      },
-      'BR/ES/Colatina': {
-        'id': 'data/BR/ES/Colatina',
-        'key': 'Colatina',
-        'lang': 'pt'
-      },
+      'BR/ES/Cariacica': {'id': 'data/BR/ES/Cariacica', 'key': 'Cariacica', 'lang': 'pt'},
+      'BR/ES/Castelo': {'id': 'data/BR/ES/Castelo', 'key': 'Castelo', 'lang': 'pt'},
+      'BR/ES/Colatina': {'id': 'data/BR/ES/Colatina', 'key': 'Colatina', 'lang': 'pt'},
       'BR/ES/Conceição da Barra': {
         'id': 'data/BR/ES/Conceição da Barra',
         'key': 'Conceição da Barra',
@@ -4765,68 +3155,28 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Espírito Santo',
         'lang': 'pt'
       },
-      'BR/ES/Fundão': {
-        'id': 'data/BR/ES/Fundão',
-        'key': 'Fundão',
-        'lang': 'pt'
-      },
+      'BR/ES/Fundão': {'id': 'data/BR/ES/Fundão', 'key': 'Fundão', 'lang': 'pt'},
       'BR/ES/Governador Lindenberg': {
         'id': 'data/BR/ES/Governador Lindenberg',
         'key': 'Governador Lindenberg',
         'lang': 'pt'
       },
-      'BR/ES/Guarapari': {
-        'id': 'data/BR/ES/Guarapari',
-        'key': 'Guarapari',
-        'lang': 'pt'
-      },
-      'BR/ES/Guaçuí': {
-        'id': 'data/BR/ES/Guaçuí',
-        'key': 'Guaçuí',
-        'lang': 'pt'
-      },
-      'BR/ES/Ibatiba': {
-        'id': 'data/BR/ES/Ibatiba',
-        'key': 'Ibatiba',
-        'lang': 'pt'
-      },
-      'BR/ES/Ibiraçu': {
-        'id': 'data/BR/ES/Ibiraçu',
-        'key': 'Ibiraçu',
-        'lang': 'pt'
-      },
-      'BR/ES/Ibitirama': {
-        'id': 'data/BR/ES/Ibitirama',
-        'key': 'Ibitirama',
-        'lang': 'pt'
-      },
-      'BR/ES/Iconha': {
-        'id': 'data/BR/ES/Iconha',
-        'key': 'Iconha',
-        'lang': 'pt'
-      },
+      'BR/ES/Guarapari': {'id': 'data/BR/ES/Guarapari', 'key': 'Guarapari', 'lang': 'pt'},
+      'BR/ES/Guaçuí': {'id': 'data/BR/ES/Guaçuí', 'key': 'Guaçuí', 'lang': 'pt'},
+      'BR/ES/Ibatiba': {'id': 'data/BR/ES/Ibatiba', 'key': 'Ibatiba', 'lang': 'pt'},
+      'BR/ES/Ibiraçu': {'id': 'data/BR/ES/Ibiraçu', 'key': 'Ibiraçu', 'lang': 'pt'},
+      'BR/ES/Ibitirama': {'id': 'data/BR/ES/Ibitirama', 'key': 'Ibitirama', 'lang': 'pt'},
+      'BR/ES/Iconha': {'id': 'data/BR/ES/Iconha', 'key': 'Iconha', 'lang': 'pt'},
       'BR/ES/Irupi': {'id': 'data/BR/ES/Irupi', 'key': 'Irupi', 'lang': 'pt'},
-      'BR/ES/Itaguaçu': {
-        'id': 'data/BR/ES/Itaguaçu',
-        'key': 'Itaguaçu',
-        'lang': 'pt'
-      },
+      'BR/ES/Itaguaçu': {'id': 'data/BR/ES/Itaguaçu', 'key': 'Itaguaçu', 'lang': 'pt'},
       'BR/ES/Itapemirim': {
         'id': 'data/BR/ES/Itapemirim',
         'key': 'Itapemirim',
         'lang': 'pt'
       },
-      'BR/ES/Itarana': {
-        'id': 'data/BR/ES/Itarana',
-        'key': 'Itarana',
-        'lang': 'pt'
-      },
+      'BR/ES/Itarana': {'id': 'data/BR/ES/Itarana', 'key': 'Itarana', 'lang': 'pt'},
       'BR/ES/Iúna': {'id': 'data/BR/ES/Iúna', 'key': 'Iúna', 'lang': 'pt'},
-      'BR/ES/Jaguaré': {
-        'id': 'data/BR/ES/Jaguaré',
-        'key': 'Jaguaré',
-        'lang': 'pt'
-      },
+      'BR/ES/Jaguaré': {'id': 'data/BR/ES/Jaguaré', 'key': 'Jaguaré', 'lang': 'pt'},
       'BR/ES/Jerônimo Monteiro': {
         'id': 'data/BR/ES/Jerônimo Monteiro',
         'key': 'Jerônimo Monteiro',
@@ -4842,11 +3192,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Laranja da Terra',
         'lang': 'pt'
       },
-      'BR/ES/Linhares': {
-        'id': 'data/BR/ES/Linhares',
-        'key': 'Linhares',
-        'lang': 'pt'
-      },
+      'BR/ES/Linhares': {'id': 'data/BR/ES/Linhares', 'key': 'Linhares', 'lang': 'pt'},
       'BR/ES/Mantenópolis': {
         'id': 'data/BR/ES/Mantenópolis',
         'key': 'Mantenópolis',
@@ -4872,16 +3218,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Mimoso do Sul',
         'lang': 'pt'
       },
-      'BR/ES/Montanha': {
-        'id': 'data/BR/ES/Montanha',
-        'key': 'Montanha',
-        'lang': 'pt'
-      },
-      'BR/ES/Mucurici': {
-        'id': 'data/BR/ES/Mucurici',
-        'key': 'Mucurici',
-        'lang': 'pt'
-      },
+      'BR/ES/Montanha': {'id': 'data/BR/ES/Montanha', 'key': 'Montanha', 'lang': 'pt'},
+      'BR/ES/Mucurici': {'id': 'data/BR/ES/Mucurici', 'key': 'Mucurici', 'lang': 'pt'},
       'BR/ES/Muniz Freire': {
         'id': 'data/BR/ES/Muniz Freire',
         'key': 'Muniz Freire',
@@ -4893,21 +3231,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Nova Venécia',
         'lang': 'pt'
       },
-      'BR/ES/Pancas': {
-        'id': 'data/BR/ES/Pancas',
-        'key': 'Pancas',
-        'lang': 'pt'
-      },
+      'BR/ES/Pancas': {'id': 'data/BR/ES/Pancas', 'key': 'Pancas', 'lang': 'pt'},
       'BR/ES/Pedro Canário': {
         'id': 'data/BR/ES/Pedro Canário',
         'key': 'Pedro Canário',
         'lang': 'pt'
       },
-      'BR/ES/Pinheiros': {
-        'id': 'data/BR/ES/Pinheiros',
-        'key': 'Pinheiros',
-        'lang': 'pt'
-      },
+      'BR/ES/Pinheiros': {'id': 'data/BR/ES/Pinheiros', 'key': 'Pinheiros', 'lang': 'pt'},
       'BR/ES/Piúma': {'id': 'data/BR/ES/Piúma', 'key': 'Piúma', 'lang': 'pt'},
       'BR/ES/Ponto Belo': {
         'id': 'data/BR/ES/Ponto Belo',
@@ -4945,11 +3275,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/ES/Serra': {'id': 'data/BR/ES/Serra', 'key': 'Serra', 'lang': 'pt'},
-      'BR/ES/Sooretama': {
-        'id': 'data/BR/ES/Sooretama',
-        'key': 'Sooretama',
-        'lang': 'pt'
-      },
+      'BR/ES/Sooretama': {'id': 'data/BR/ES/Sooretama', 'key': 'Sooretama', 'lang': 'pt'},
       'BR/ES/São Domingos do Norte': {
         'id': 'data/BR/ES/São Domingos do Norte',
         'key': 'São Domingos do Norte',
@@ -5001,11 +3327,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Vila Velha',
         'lang': 'pt'
       },
-      'BR/ES/Vitória': {
-        'id': 'data/BR/ES/Vitória',
-        'key': 'Vitória',
-        'lang': 'pt'
-      },
+      'BR/ES/Vitória': {'id': 'data/BR/ES/Vitória', 'key': 'Vitória', 'lang': 'pt'},
       'BR/ES/Água Doce do Norte': {
         'id': 'data/BR/ES/Água Doce do Norte',
         'key': 'Água Doce do Norte',
@@ -5032,31 +3354,11 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Abadia de Goiás',
         'lang': 'pt'
       },
-      'BR/GO/Abadiânia': {
-        'id': 'data/BR/GO/Abadiânia',
-        'key': 'Abadiânia',
-        'lang': 'pt'
-      },
-      'BR/GO/Acreúna': {
-        'id': 'data/BR/GO/Acreúna',
-        'key': 'Acreúna',
-        'lang': 'pt'
-      },
-      'BR/GO/Adelândia': {
-        'id': 'data/BR/GO/Adelândia',
-        'key': 'Adelândia',
-        'lang': 'pt'
-      },
-      'BR/GO/Alexânia': {
-        'id': 'data/BR/GO/Alexânia',
-        'key': 'Alexânia',
-        'lang': 'pt'
-      },
-      'BR/GO/Aloândia': {
-        'id': 'data/BR/GO/Aloândia',
-        'key': 'Aloândia',
-        'lang': 'pt'
-      },
+      'BR/GO/Abadiânia': {'id': 'data/BR/GO/Abadiânia', 'key': 'Abadiânia', 'lang': 'pt'},
+      'BR/GO/Acreúna': {'id': 'data/BR/GO/Acreúna', 'key': 'Acreúna', 'lang': 'pt'},
+      'BR/GO/Adelândia': {'id': 'data/BR/GO/Adelândia', 'key': 'Adelândia', 'lang': 'pt'},
+      'BR/GO/Alexânia': {'id': 'data/BR/GO/Alexânia', 'key': 'Alexânia', 'lang': 'pt'},
+      'BR/GO/Aloândia': {'id': 'data/BR/GO/Aloândia', 'key': 'Aloândia', 'lang': 'pt'},
       'BR/GO/Alto Horizonte': {
         'id': 'data/BR/GO/Alto Horizonte',
         'key': 'Alto Horizonte',
@@ -5072,11 +3374,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alvorada do Norte',
         'lang': 'pt'
       },
-      'BR/GO/Amaralina': {
-        'id': 'data/BR/GO/Amaralina',
-        'key': 'Amaralina',
-        'lang': 'pt'
-      },
+      'BR/GO/Amaralina': {'id': 'data/BR/GO/Amaralina', 'key': 'Amaralina', 'lang': 'pt'},
       'BR/GO/Americano do Brasil': {
         'id': 'data/BR/GO/Americano do Brasil',
         'key': 'Americano do Brasil',
@@ -5092,16 +3390,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Anhanguera',
         'lang': 'pt'
       },
-      'BR/GO/Anicuns': {
-        'id': 'data/BR/GO/Anicuns',
-        'key': 'Anicuns',
-        'lang': 'pt'
-      },
-      'BR/GO/Anápolis': {
-        'id': 'data/BR/GO/Anápolis',
-        'key': 'Anápolis',
-        'lang': 'pt'
-      },
+      'BR/GO/Anicuns': {'id': 'data/BR/GO/Anicuns', 'key': 'Anicuns', 'lang': 'pt'},
+      'BR/GO/Anápolis': {'id': 'data/BR/GO/Anápolis', 'key': 'Anápolis', 'lang': 'pt'},
       'BR/GO/Aparecida de Goiânia': {
         'id': 'data/BR/GO/Aparecida de Goiânia',
         'key': 'Aparecida de Goiânia',
@@ -5113,32 +3403,20 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/GO/Aporé': {'id': 'data/BR/GO/Aporé', 'key': 'Aporé', 'lang': 'pt'},
-      'BR/GO/Aragarças': {
-        'id': 'data/BR/GO/Aragarças',
-        'key': 'Aragarças',
-        'lang': 'pt'
-      },
+      'BR/GO/Aragarças': {'id': 'data/BR/GO/Aragarças', 'key': 'Aragarças', 'lang': 'pt'},
       'BR/GO/Aragoiânia': {
         'id': 'data/BR/GO/Aragoiânia',
         'key': 'Aragoiânia',
         'lang': 'pt'
       },
-      'BR/GO/Araguapaz': {
-        'id': 'data/BR/GO/Araguapaz',
-        'key': 'Araguapaz',
-        'lang': 'pt'
-      },
+      'BR/GO/Araguapaz': {'id': 'data/BR/GO/Araguapaz', 'key': 'Araguapaz', 'lang': 'pt'},
       'BR/GO/Araçu': {'id': 'data/BR/GO/Araçu', 'key': 'Araçu', 'lang': 'pt'},
       'BR/GO/Arenópolis': {
         'id': 'data/BR/GO/Arenópolis',
         'key': 'Arenópolis',
         'lang': 'pt'
       },
-      'BR/GO/Aruanã': {
-        'id': 'data/BR/GO/Aruanã',
-        'key': 'Aruanã',
-        'lang': 'pt'
-      },
+      'BR/GO/Aruanã': {'id': 'data/BR/GO/Aruanã', 'key': 'Aruanã', 'lang': 'pt'},
       'BR/GO/Aurilândia': {
         'id': 'data/BR/GO/Aurilândia',
         'key': 'Aurilândia',
@@ -5149,11 +3427,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Avelinópolis',
         'lang': 'pt'
       },
-      'BR/GO/Baliza': {
-        'id': 'data/BR/GO/Baliza',
-        'key': 'Baliza',
-        'lang': 'pt'
-      },
+      'BR/GO/Baliza': {'id': 'data/BR/GO/Baliza', 'key': 'Baliza', 'lang': 'pt'},
       'BR/GO/Barro Alto': {
         'id': 'data/BR/GO/Barro Alto',
         'key': 'Barro Alto',
@@ -5179,21 +3453,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bonfinópolis',
         'lang': 'pt'
       },
-      'BR/GO/Bonópolis': {
-        'id': 'data/BR/GO/Bonópolis',
-        'key': 'Bonópolis',
-        'lang': 'pt'
-      },
+      'BR/GO/Bonópolis': {'id': 'data/BR/GO/Bonópolis', 'key': 'Bonópolis', 'lang': 'pt'},
       'BR/GO/Brazabrantes': {
         'id': 'data/BR/GO/Brazabrantes',
         'key': 'Brazabrantes',
         'lang': 'pt'
       },
-      'BR/GO/Britânia': {
-        'id': 'data/BR/GO/Britânia',
-        'key': 'Britânia',
-        'lang': 'pt'
-      },
+      'BR/GO/Britânia': {'id': 'data/BR/GO/Britânia', 'key': 'Britânia', 'lang': 'pt'},
       'BR/GO/Buriti Alegre': {
         'id': 'data/BR/GO/Buriti Alegre',
         'key': 'Buriti Alegre',
@@ -5229,11 +3495,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cachoeira de Goiás',
         'lang': 'pt'
       },
-      'BR/GO/Caiapônia': {
-        'id': 'data/BR/GO/Caiapônia',
-        'key': 'Caiapônia',
-        'lang': 'pt'
-      },
+      'BR/GO/Caiapônia': {'id': 'data/BR/GO/Caiapônia', 'key': 'Caiapônia', 'lang': 'pt'},
       'BR/GO/Caldas Novas': {
         'id': 'data/BR/GO/Caldas Novas',
         'key': 'Caldas Novas',
@@ -5249,11 +3511,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Campestre de Goiás',
         'lang': 'pt'
       },
-      'BR/GO/Campinaçu': {
-        'id': 'data/BR/GO/Campinaçu',
-        'key': 'Campinaçu',
-        'lang': 'pt'
-      },
+      'BR/GO/Campinaçu': {'id': 'data/BR/GO/Campinaçu', 'key': 'Campinaçu', 'lang': 'pt'},
       'BR/GO/Campinorte': {
         'id': 'data/BR/GO/Campinorte',
         'key': 'Campinorte',
@@ -5289,16 +3547,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Castelândia',
         'lang': 'pt'
       },
-      'BR/GO/Catalão': {
-        'id': 'data/BR/GO/Catalão',
-        'key': 'Catalão',
-        'lang': 'pt'
-      },
-      'BR/GO/Caturaí': {
-        'id': 'data/BR/GO/Caturaí',
-        'key': 'Caturaí',
-        'lang': 'pt'
-      },
+      'BR/GO/Catalão': {'id': 'data/BR/GO/Catalão', 'key': 'Catalão', 'lang': 'pt'},
+      'BR/GO/Caturaí': {'id': 'data/BR/GO/Caturaí', 'key': 'Caturaí', 'lang': 'pt'},
       'BR/GO/Cavalcante': {
         'id': 'data/BR/GO/Cavalcante',
         'key': 'Cavalcante',
@@ -5306,11 +3556,7 @@ Map<String, Map<String, String>> get allJson => {
       },
       'BR/GO/Caçu': {'id': 'data/BR/GO/Caçu', 'key': 'Caçu', 'lang': 'pt'},
       'BR/GO/Ceres': {'id': 'data/BR/GO/Ceres', 'key': 'Ceres', 'lang': 'pt'},
-      'BR/GO/Cezarina': {
-        'id': 'data/BR/GO/Cezarina',
-        'key': 'Cezarina',
-        'lang': 'pt'
-      },
+      'BR/GO/Cezarina': {'id': 'data/BR/GO/Cezarina', 'key': 'Cezarina', 'lang': 'pt'},
       'BR/GO/Chapadão do Céu': {
         'id': 'data/BR/GO/Chapadão do Céu',
         'key': 'Chapadão do Céu',
@@ -5351,21 +3597,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cristianópolis',
         'lang': 'pt'
       },
-      'BR/GO/Crixás': {
-        'id': 'data/BR/GO/Crixás',
-        'key': 'Crixás',
-        'lang': 'pt'
-      },
-      'BR/GO/Cromínia': {
-        'id': 'data/BR/GO/Cromínia',
-        'key': 'Cromínia',
-        'lang': 'pt'
-      },
-      'BR/GO/Cumari': {
-        'id': 'data/BR/GO/Cumari',
-        'key': 'Cumari',
-        'lang': 'pt'
-      },
+      'BR/GO/Crixás': {'id': 'data/BR/GO/Crixás', 'key': 'Crixás', 'lang': 'pt'},
+      'BR/GO/Cromínia': {'id': 'data/BR/GO/Cromínia', 'key': 'Cromínia', 'lang': 'pt'},
+      'BR/GO/Cumari': {'id': 'data/BR/GO/Cumari', 'key': 'Cumari', 'lang': 'pt'},
       'BR/GO/Córrego do Ouro': {
         'id': 'data/BR/GO/Córrego do Ouro',
         'key': 'Córrego do Ouro',
@@ -5386,11 +3620,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Davinópolis',
         'lang': 'pt'
       },
-      'BR/GO/Diorama': {
-        'id': 'data/BR/GO/Diorama',
-        'key': 'Diorama',
-        'lang': 'pt'
-      },
+      'BR/GO/Diorama': {'id': 'data/BR/GO/Diorama', 'key': 'Diorama', 'lang': 'pt'},
       'BR/GO/Divinópolis de Goiás': {
         'id': 'data/BR/GO/Divinópolis de Goiás',
         'key': 'Divinópolis de Goiás',
@@ -5401,11 +3631,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Doverlândia',
         'lang': 'pt'
       },
-      'BR/GO/Edealina': {
-        'id': 'data/BR/GO/Edealina',
-        'key': 'Edealina',
-        'lang': 'pt'
-      },
+      'BR/GO/Edealina': {'id': 'data/BR/GO/Edealina', 'key': 'Edealina', 'lang': 'pt'},
       'BR/GO/Edéia': {'id': 'data/BR/GO/Edéia', 'key': 'Edéia', 'lang': 'pt'},
       'BR/GO/Estrela do Norte': {
         'id': 'data/BR/GO/Estrela do Norte',
@@ -5428,52 +3654,24 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Flores de Goiás',
         'lang': 'pt'
       },
-      'BR/GO/Formosa': {
-        'id': 'data/BR/GO/Formosa',
-        'key': 'Formosa',
-        'lang': 'pt'
-      },
-      'BR/GO/Formoso': {
-        'id': 'data/BR/GO/Formoso',
-        'key': 'Formoso',
-        'lang': 'pt'
-      },
+      'BR/GO/Formosa': {'id': 'data/BR/GO/Formosa', 'key': 'Formosa', 'lang': 'pt'},
+      'BR/GO/Formoso': {'id': 'data/BR/GO/Formoso', 'key': 'Formoso', 'lang': 'pt'},
       'BR/GO/Gameleira de Goiás': {
         'id': 'data/BR/GO/Gameleira de Goiás',
         'key': 'Gameleira de Goiás',
         'lang': 'pt'
       },
-      'BR/GO/Goiandira': {
-        'id': 'data/BR/GO/Goiandira',
-        'key': 'Goiandira',
-        'lang': 'pt'
-      },
-      'BR/GO/Goianira': {
-        'id': 'data/BR/GO/Goianira',
-        'key': 'Goianira',
-        'lang': 'pt'
-      },
+      'BR/GO/Goiandira': {'id': 'data/BR/GO/Goiandira', 'key': 'Goiandira', 'lang': 'pt'},
+      'BR/GO/Goianira': {'id': 'data/BR/GO/Goianira', 'key': 'Goianira', 'lang': 'pt'},
       'BR/GO/Goianápolis': {
         'id': 'data/BR/GO/Goianápolis',
         'key': 'Goianápolis',
         'lang': 'pt'
       },
-      'BR/GO/Goianésia': {
-        'id': 'data/BR/GO/Goianésia',
-        'key': 'Goianésia',
-        'lang': 'pt'
-      },
-      'BR/GO/Goiatuba': {
-        'id': 'data/BR/GO/Goiatuba',
-        'key': 'Goiatuba',
-        'lang': 'pt'
-      },
+      'BR/GO/Goianésia': {'id': 'data/BR/GO/Goianésia', 'key': 'Goianésia', 'lang': 'pt'},
+      'BR/GO/Goiatuba': {'id': 'data/BR/GO/Goiatuba', 'key': 'Goiatuba', 'lang': 'pt'},
       'BR/GO/Goiás': {'id': 'data/BR/GO/Goiás', 'key': 'Goiás', 'lang': 'pt'},
-      'BR/GO/Goiânia': {
-        'id': 'data/BR/GO/Goiânia',
-        'key': 'Goiânia',
-        'lang': 'pt'
-      },
+      'BR/GO/Goiânia': {'id': 'data/BR/GO/Goiânia', 'key': 'Goiânia', 'lang': 'pt'},
       'BR/GO/Gouvelândia': {
         'id': 'data/BR/GO/Gouvelândia',
         'key': 'Gouvelândia',
@@ -5485,56 +3683,24 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Guarani de Goiás',
         'lang': 'pt'
       },
-      'BR/GO/Guaraíta': {
-        'id': 'data/BR/GO/Guaraíta',
-        'key': 'Guaraíta',
-        'lang': 'pt'
-      },
-      'BR/GO/Guarinos': {
-        'id': 'data/BR/GO/Guarinos',
-        'key': 'Guarinos',
-        'lang': 'pt'
-      },
-      'BR/GO/Heitoraí': {
-        'id': 'data/BR/GO/Heitoraí',
-        'key': 'Heitoraí',
-        'lang': 'pt'
-      },
-      'BR/GO/Hidrolina': {
-        'id': 'data/BR/GO/Hidrolina',
-        'key': 'Hidrolina',
-        'lang': 'pt'
-      },
+      'BR/GO/Guaraíta': {'id': 'data/BR/GO/Guaraíta', 'key': 'Guaraíta', 'lang': 'pt'},
+      'BR/GO/Guarinos': {'id': 'data/BR/GO/Guarinos', 'key': 'Guarinos', 'lang': 'pt'},
+      'BR/GO/Heitoraí': {'id': 'data/BR/GO/Heitoraí', 'key': 'Heitoraí', 'lang': 'pt'},
+      'BR/GO/Hidrolina': {'id': 'data/BR/GO/Hidrolina', 'key': 'Hidrolina', 'lang': 'pt'},
       'BR/GO/Hidrolândia': {
         'id': 'data/BR/GO/Hidrolândia',
         'key': 'Hidrolândia',
         'lang': 'pt'
       },
-      'BR/GO/Iaciara': {
-        'id': 'data/BR/GO/Iaciara',
-        'key': 'Iaciara',
-        'lang': 'pt'
-      },
+      'BR/GO/Iaciara': {'id': 'data/BR/GO/Iaciara', 'key': 'Iaciara', 'lang': 'pt'},
       'BR/GO/Inaciolândia': {
         'id': 'data/BR/GO/Inaciolândia',
         'key': 'Inaciolândia',
         'lang': 'pt'
       },
-      'BR/GO/Indiara': {
-        'id': 'data/BR/GO/Indiara',
-        'key': 'Indiara',
-        'lang': 'pt'
-      },
-      'BR/GO/Inhumas': {
-        'id': 'data/BR/GO/Inhumas',
-        'key': 'Inhumas',
-        'lang': 'pt'
-      },
-      'BR/GO/Ipameri': {
-        'id': 'data/BR/GO/Ipameri',
-        'key': 'Ipameri',
-        'lang': 'pt'
-      },
+      'BR/GO/Indiara': {'id': 'data/BR/GO/Indiara', 'key': 'Indiara', 'lang': 'pt'},
+      'BR/GO/Inhumas': {'id': 'data/BR/GO/Inhumas', 'key': 'Inhumas', 'lang': 'pt'},
+      'BR/GO/Ipameri': {'id': 'data/BR/GO/Ipameri', 'key': 'Ipameri', 'lang': 'pt'},
       'BR/GO/Ipiranga de Goiás': {
         'id': 'data/BR/GO/Ipiranga de Goiás',
         'key': 'Ipiranga de Goiás',
@@ -5546,27 +3712,11 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Israelândia',
         'lang': 'pt'
       },
-      'BR/GO/Itaberaí': {
-        'id': 'data/BR/GO/Itaberaí',
-        'key': 'Itaberaí',
-        'lang': 'pt'
-      },
-      'BR/GO/Itaguari': {
-        'id': 'data/BR/GO/Itaguari',
-        'key': 'Itaguari',
-        'lang': 'pt'
-      },
-      'BR/GO/Itaguaru': {
-        'id': 'data/BR/GO/Itaguaru',
-        'key': 'Itaguaru',
-        'lang': 'pt'
-      },
+      'BR/GO/Itaberaí': {'id': 'data/BR/GO/Itaberaí', 'key': 'Itaberaí', 'lang': 'pt'},
+      'BR/GO/Itaguari': {'id': 'data/BR/GO/Itaguari', 'key': 'Itaguari', 'lang': 'pt'},
+      'BR/GO/Itaguaru': {'id': 'data/BR/GO/Itaguaru', 'key': 'Itaguaru', 'lang': 'pt'},
       'BR/GO/Itajá': {'id': 'data/BR/GO/Itajá', 'key': 'Itajá', 'lang': 'pt'},
-      'BR/GO/Itapaci': {
-        'id': 'data/BR/GO/Itapaci',
-        'key': 'Itapaci',
-        'lang': 'pt'
-      },
+      'BR/GO/Itapaci': {'id': 'data/BR/GO/Itapaci', 'key': 'Itapaci', 'lang': 'pt'},
       'BR/GO/Itapirapuã': {
         'id': 'data/BR/GO/Itapirapuã',
         'key': 'Itapirapuã',
@@ -5577,57 +3727,17 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Itapuranga',
         'lang': 'pt'
       },
-      'BR/GO/Itarumã': {
-        'id': 'data/BR/GO/Itarumã',
-        'key': 'Itarumã',
-        'lang': 'pt'
-      },
-      'BR/GO/Itauçu': {
-        'id': 'data/BR/GO/Itauçu',
-        'key': 'Itauçu',
-        'lang': 'pt'
-      },
-      'BR/GO/Itumbiara': {
-        'id': 'data/BR/GO/Itumbiara',
-        'key': 'Itumbiara',
-        'lang': 'pt'
-      },
-      'BR/GO/Ivolândia': {
-        'id': 'data/BR/GO/Ivolândia',
-        'key': 'Ivolândia',
-        'lang': 'pt'
-      },
-      'BR/GO/Jandaia': {
-        'id': 'data/BR/GO/Jandaia',
-        'key': 'Jandaia',
-        'lang': 'pt'
-      },
-      'BR/GO/Jaraguá': {
-        'id': 'data/BR/GO/Jaraguá',
-        'key': 'Jaraguá',
-        'lang': 'pt'
-      },
+      'BR/GO/Itarumã': {'id': 'data/BR/GO/Itarumã', 'key': 'Itarumã', 'lang': 'pt'},
+      'BR/GO/Itauçu': {'id': 'data/BR/GO/Itauçu', 'key': 'Itauçu', 'lang': 'pt'},
+      'BR/GO/Itumbiara': {'id': 'data/BR/GO/Itumbiara', 'key': 'Itumbiara', 'lang': 'pt'},
+      'BR/GO/Ivolândia': {'id': 'data/BR/GO/Ivolândia', 'key': 'Ivolândia', 'lang': 'pt'},
+      'BR/GO/Jandaia': {'id': 'data/BR/GO/Jandaia', 'key': 'Jandaia', 'lang': 'pt'},
+      'BR/GO/Jaraguá': {'id': 'data/BR/GO/Jaraguá', 'key': 'Jaraguá', 'lang': 'pt'},
       'BR/GO/Jataí': {'id': 'data/BR/GO/Jataí', 'key': 'Jataí', 'lang': 'pt'},
-      'BR/GO/Jaupaci': {
-        'id': 'data/BR/GO/Jaupaci',
-        'key': 'Jaupaci',
-        'lang': 'pt'
-      },
-      'BR/GO/Jesúpolis': {
-        'id': 'data/BR/GO/Jesúpolis',
-        'key': 'Jesúpolis',
-        'lang': 'pt'
-      },
-      'BR/GO/Joviânia': {
-        'id': 'data/BR/GO/Joviânia',
-        'key': 'Joviânia',
-        'lang': 'pt'
-      },
-      'BR/GO/Jussara': {
-        'id': 'data/BR/GO/Jussara',
-        'key': 'Jussara',
-        'lang': 'pt'
-      },
+      'BR/GO/Jaupaci': {'id': 'data/BR/GO/Jaupaci', 'key': 'Jaupaci', 'lang': 'pt'},
+      'BR/GO/Jesúpolis': {'id': 'data/BR/GO/Jesúpolis', 'key': 'Jesúpolis', 'lang': 'pt'},
+      'BR/GO/Joviânia': {'id': 'data/BR/GO/Joviânia', 'key': 'Joviânia', 'lang': 'pt'},
+      'BR/GO/Jussara': {'id': 'data/BR/GO/Jussara', 'key': 'Jussara', 'lang': 'pt'},
       'BR/GO/Lagoa Santa': {
         'id': 'data/BR/GO/Lagoa Santa',
         'key': 'Lagoa Santa',
@@ -5638,36 +3748,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Leopoldo de Bulhões',
         'lang': 'pt'
       },
-      'BR/GO/Luziânia': {
-        'id': 'data/BR/GO/Luziânia',
-        'key': 'Luziânia',
-        'lang': 'pt'
-      },
+      'BR/GO/Luziânia': {'id': 'data/BR/GO/Luziânia', 'key': 'Luziânia', 'lang': 'pt'},
       'BR/GO/Mairipotaba': {
         'id': 'data/BR/GO/Mairipotaba',
         'key': 'Mairipotaba',
         'lang': 'pt'
       },
-      'BR/GO/Mambaí': {
-        'id': 'data/BR/GO/Mambaí',
-        'key': 'Mambaí',
-        'lang': 'pt'
-      },
-      'BR/GO/Mara Rosa': {
-        'id': 'data/BR/GO/Mara Rosa',
-        'key': 'Mara Rosa',
-        'lang': 'pt'
-      },
-      'BR/GO/Marzagão': {
-        'id': 'data/BR/GO/Marzagão',
-        'key': 'Marzagão',
-        'lang': 'pt'
-      },
-      'BR/GO/Matrinchã': {
-        'id': 'data/BR/GO/Matrinchã',
-        'key': 'Matrinchã',
-        'lang': 'pt'
-      },
+      'BR/GO/Mambaí': {'id': 'data/BR/GO/Mambaí', 'key': 'Mambaí', 'lang': 'pt'},
+      'BR/GO/Mara Rosa': {'id': 'data/BR/GO/Mara Rosa', 'key': 'Mara Rosa', 'lang': 'pt'},
+      'BR/GO/Marzagão': {'id': 'data/BR/GO/Marzagão', 'key': 'Marzagão', 'lang': 'pt'},
+      'BR/GO/Matrinchã': {'id': 'data/BR/GO/Matrinchã', 'key': 'Matrinchã', 'lang': 'pt'},
       'BR/GO/Maurilândia': {
         'id': 'data/BR/GO/Maurilândia',
         'key': 'Maurilândia',
@@ -5678,21 +3768,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Mimoso de Goiás',
         'lang': 'pt'
       },
-      'BR/GO/Minaçu': {
-        'id': 'data/BR/GO/Minaçu',
-        'key': 'Minaçu',
-        'lang': 'pt'
-      },
-      'BR/GO/Mineiros': {
-        'id': 'data/BR/GO/Mineiros',
-        'key': 'Mineiros',
-        'lang': 'pt'
-      },
-      'BR/GO/Moiporá': {
-        'id': 'data/BR/GO/Moiporá',
-        'key': 'Moiporá',
-        'lang': 'pt'
-      },
+      'BR/GO/Minaçu': {'id': 'data/BR/GO/Minaçu', 'key': 'Minaçu', 'lang': 'pt'},
+      'BR/GO/Mineiros': {'id': 'data/BR/GO/Mineiros', 'key': 'Mineiros', 'lang': 'pt'},
+      'BR/GO/Moiporá': {'id': 'data/BR/GO/Moiporá', 'key': 'Moiporá', 'lang': 'pt'},
       'BR/GO/Monte Alegre de Goiás': {
         'id': 'data/BR/GO/Monte Alegre de Goiás',
         'key': 'Monte Alegre de Goiás',
@@ -5713,11 +3791,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Montividiu do Norte',
         'lang': 'pt'
       },
-      'BR/GO/Morrinhos': {
-        'id': 'data/BR/GO/Morrinhos',
-        'key': 'Morrinhos',
-        'lang': 'pt'
-      },
+      'BR/GO/Morrinhos': {'id': 'data/BR/GO/Morrinhos', 'key': 'Morrinhos', 'lang': 'pt'},
       'BR/GO/Morro Agudo de Goiás': {
         'id': 'data/BR/GO/Morro Agudo de Goiás',
         'key': 'Morro Agudo de Goiás',
@@ -5743,16 +3817,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Mutunópolis',
         'lang': 'pt'
       },
-      'BR/GO/Nazário': {
-        'id': 'data/BR/GO/Nazário',
-        'key': 'Nazário',
-        'lang': 'pt'
-      },
-      'BR/GO/Nerópolis': {
-        'id': 'data/BR/GO/Nerópolis',
-        'key': 'Nerópolis',
-        'lang': 'pt'
-      },
+      'BR/GO/Nazário': {'id': 'data/BR/GO/Nazário', 'key': 'Nazário', 'lang': 'pt'},
+      'BR/GO/Nerópolis': {'id': 'data/BR/GO/Nerópolis', 'key': 'Nerópolis', 'lang': 'pt'},
       'BR/GO/Niquelândia': {
         'id': 'data/BR/GO/Niquelândia',
         'key': 'Niquelândia',
@@ -5783,11 +3849,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Nova Iguaçu de Goiás',
         'lang': 'pt'
       },
-      'BR/GO/Nova Roma': {
-        'id': 'data/BR/GO/Nova Roma',
-        'key': 'Nova Roma',
-        'lang': 'pt'
-      },
+      'BR/GO/Nova Roma': {'id': 'data/BR/GO/Nova Roma', 'key': 'Nova Roma', 'lang': 'pt'},
       'BR/GO/Nova Veneza': {
         'id': 'data/BR/GO/Nova Veneza',
         'key': 'Nova Veneza',
@@ -5798,31 +3860,19 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Novo Brasil',
         'lang': 'pt'
       },
-      'BR/GO/Novo Gama': {
-        'id': 'data/BR/GO/Novo Gama',
-        'key': 'Novo Gama',
-        'lang': 'pt'
-      },
+      'BR/GO/Novo Gama': {'id': 'data/BR/GO/Novo Gama', 'key': 'Novo Gama', 'lang': 'pt'},
       'BR/GO/Novo Planalto': {
         'id': 'data/BR/GO/Novo Planalto',
         'key': 'Novo Planalto',
         'lang': 'pt'
       },
-      'BR/GO/Orizona': {
-        'id': 'data/BR/GO/Orizona',
-        'key': 'Orizona',
-        'lang': 'pt'
-      },
+      'BR/GO/Orizona': {'id': 'data/BR/GO/Orizona', 'key': 'Orizona', 'lang': 'pt'},
       'BR/GO/Ouro Verde de Goiás': {
         'id': 'data/BR/GO/Ouro Verde de Goiás',
         'key': 'Ouro Verde de Goiás',
         'lang': 'pt'
       },
-      'BR/GO/Ouvidor': {
-        'id': 'data/BR/GO/Ouvidor',
-        'key': 'Ouvidor',
-        'lang': 'pt'
-      },
+      'BR/GO/Ouvidor': {'id': 'data/BR/GO/Ouvidor', 'key': 'Ouvidor', 'lang': 'pt'},
       'BR/GO/Padre Bernardo': {
         'id': 'data/BR/GO/Padre Bernardo',
         'key': 'Padre Bernardo',
@@ -5838,31 +3888,19 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Palmeiras de Goiás',
         'lang': 'pt'
       },
-      'BR/GO/Palmelo': {
-        'id': 'data/BR/GO/Palmelo',
-        'key': 'Palmelo',
-        'lang': 'pt'
-      },
+      'BR/GO/Palmelo': {'id': 'data/BR/GO/Palmelo', 'key': 'Palmelo', 'lang': 'pt'},
       'BR/GO/Palminópolis': {
         'id': 'data/BR/GO/Palminópolis',
         'key': 'Palminópolis',
         'lang': 'pt'
       },
-      'BR/GO/Panama': {
-        'id': 'data/BR/GO/Panama',
-        'key': 'Panama',
-        'lang': 'pt'
-      },
+      'BR/GO/Panama': {'id': 'data/BR/GO/Panama', 'key': 'Panama', 'lang': 'pt'},
       'BR/GO/Paranaiguara': {
         'id': 'data/BR/GO/Paranaiguara',
         'key': 'Paranaiguara',
         'lang': 'pt'
       },
-      'BR/GO/Paraúna': {
-        'id': 'data/BR/GO/Paraúna',
-        'key': 'Paraúna',
-        'lang': 'pt'
-      },
+      'BR/GO/Paraúna': {'id': 'data/BR/GO/Paraúna', 'key': 'Paraúna', 'lang': 'pt'},
       'BR/GO/Perolândia': {
         'id': 'data/BR/GO/Perolândia',
         'key': 'Perolândia',
@@ -5883,11 +3921,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Piracanjuba',
         'lang': 'pt'
       },
-      'BR/GO/Piranhas': {
-        'id': 'data/BR/GO/Piranhas',
-        'key': 'Piranhas',
-        'lang': 'pt'
-      },
+      'BR/GO/Piranhas': {'id': 'data/BR/GO/Piranhas', 'key': 'Piranhas', 'lang': 'pt'},
       'BR/GO/Pirenópolis': {
         'id': 'data/BR/GO/Pirenópolis',
         'key': 'Pirenópolis',
@@ -5903,21 +3937,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Planaltina',
         'lang': 'pt'
       },
-      'BR/GO/Pontalina': {
-        'id': 'data/BR/GO/Pontalina',
-        'key': 'Pontalina',
-        'lang': 'pt'
-      },
-      'BR/GO/Porangatu': {
-        'id': 'data/BR/GO/Porangatu',
-        'key': 'Porangatu',
-        'lang': 'pt'
-      },
-      'BR/GO/Porteirão': {
-        'id': 'data/BR/GO/Porteirão',
-        'key': 'Porteirão',
-        'lang': 'pt'
-      },
+      'BR/GO/Pontalina': {'id': 'data/BR/GO/Pontalina', 'key': 'Pontalina', 'lang': 'pt'},
+      'BR/GO/Porangatu': {'id': 'data/BR/GO/Porangatu', 'key': 'Porangatu', 'lang': 'pt'},
+      'BR/GO/Porteirão': {'id': 'data/BR/GO/Porteirão', 'key': 'Porteirão', 'lang': 'pt'},
       'BR/GO/Portelândia': {
         'id': 'data/BR/GO/Portelândia',
         'key': 'Portelândia',
@@ -5934,11 +3956,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Quirinópolis',
         'lang': 'pt'
       },
-      'BR/GO/Rialma': {
-        'id': 'data/BR/GO/Rialma',
-        'key': 'Rialma',
-        'lang': 'pt'
-      },
+      'BR/GO/Rialma': {'id': 'data/BR/GO/Rialma', 'key': 'Rialma', 'lang': 'pt'},
       'BR/GO/Rianápolis': {
         'id': 'data/BR/GO/Rianápolis',
         'key': 'Rianápolis',
@@ -5949,16 +3967,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Rio Quente',
         'lang': 'pt'
       },
-      'BR/GO/Rubiataba': {
-        'id': 'data/BR/GO/Rubiataba',
-        'key': 'Rubiataba',
-        'lang': 'pt'
-      },
-      'BR/GO/Río Verde': {
-        'id': 'data/BR/GO/Río Verde',
-        'key': 'Río Verde',
-        'lang': 'pt'
-      },
+      'BR/GO/Rubiataba': {'id': 'data/BR/GO/Rubiataba', 'key': 'Rubiataba', 'lang': 'pt'},
+      'BR/GO/Río Verde': {'id': 'data/BR/GO/Río Verde', 'key': 'Río Verde', 'lang': 'pt'},
       'BR/GO/Sanclerlândia': {
         'id': 'data/BR/GO/Sanclerlândia',
         'key': 'Sanclerlândia',
@@ -6039,11 +4049,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Serranópolis',
         'lang': 'pt'
       },
-      'BR/GO/Silvania': {
-        'id': 'data/BR/GO/Silvania',
-        'key': 'Silvania',
-        'lang': 'pt'
-      },
+      'BR/GO/Silvania': {'id': 'data/BR/GO/Silvania', 'key': 'Silvania', 'lang': 'pt'},
       'BR/GO/Simolândia': {
         'id': 'data/BR/GO/Simolândia',
         'key': 'Simolândia',
@@ -6094,11 +4100,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Patrício',
         'lang': 'pt'
       },
-      'BR/GO/São Simão': {
-        'id': 'data/BR/GO/São Simão',
-        'key': 'São Simão',
-        'lang': 'pt'
-      },
+      'BR/GO/São Simão': {'id': 'data/BR/GO/São Simão', 'key': 'São Simão', 'lang': 'pt'},
       "BR/GO/Sítio d'Abadia": {
         'id': "data/BR/GO/Sítio d'Abadia",
         'key': "Sítio d'Abadia",
@@ -6119,16 +4121,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Terezópolis de Goiás',
         'lang': 'pt'
       },
-      'BR/GO/Trindade': {
-        'id': 'data/BR/GO/Trindade',
-        'key': 'Trindade',
-        'lang': 'pt'
-      },
-      'BR/GO/Trombas': {
-        'id': 'data/BR/GO/Trombas',
-        'key': 'Trombas',
-        'lang': 'pt'
-      },
+      'BR/GO/Trindade': {'id': 'data/BR/GO/Trindade', 'key': 'Trindade', 'lang': 'pt'},
+      'BR/GO/Trombas': {'id': 'data/BR/GO/Trombas', 'key': 'Trombas', 'lang': 'pt'},
       'BR/GO/Três Ranchos': {
         'id': 'data/BR/GO/Três Ranchos',
         'key': 'Três Ranchos',
@@ -6139,41 +4133,17 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Turvelândia',
         'lang': 'pt'
       },
-      'BR/GO/Turvânia': {
-        'id': 'data/BR/GO/Turvânia',
-        'key': 'Turvânia',
-        'lang': 'pt'
-      },
-      'BR/GO/Uirapuru': {
-        'id': 'data/BR/GO/Uirapuru',
-        'key': 'Uirapuru',
-        'lang': 'pt'
-      },
-      'BR/GO/Uruana': {
-        'id': 'data/BR/GO/Uruana',
-        'key': 'Uruana',
-        'lang': 'pt'
-      },
-      'BR/GO/Uruaçu': {
-        'id': 'data/BR/GO/Uruaçu',
-        'key': 'Uruaçu',
-        'lang': 'pt'
-      },
-      'BR/GO/Urutaí': {
-        'id': 'data/BR/GO/Urutaí',
-        'key': 'Urutaí',
-        'lang': 'pt'
-      },
+      'BR/GO/Turvânia': {'id': 'data/BR/GO/Turvânia', 'key': 'Turvânia', 'lang': 'pt'},
+      'BR/GO/Uirapuru': {'id': 'data/BR/GO/Uirapuru', 'key': 'Uirapuru', 'lang': 'pt'},
+      'BR/GO/Uruana': {'id': 'data/BR/GO/Uruana', 'key': 'Uruana', 'lang': 'pt'},
+      'BR/GO/Uruaçu': {'id': 'data/BR/GO/Uruaçu', 'key': 'Uruaçu', 'lang': 'pt'},
+      'BR/GO/Urutaí': {'id': 'data/BR/GO/Urutaí', 'key': 'Urutaí', 'lang': 'pt'},
       'BR/GO/Valparaíso de Goiás': {
         'id': 'data/BR/GO/Valparaíso de Goiás',
         'key': 'Valparaíso de Goiás',
         'lang': 'pt'
       },
-      'BR/GO/Varjão': {
-        'id': 'data/BR/GO/Varjão',
-        'key': 'Varjão',
-        'lang': 'pt'
-      },
+      'BR/GO/Varjão': {'id': 'data/BR/GO/Varjão', 'key': 'Varjão', 'lang': 'pt'},
       'BR/GO/Vianópolis': {
         'id': 'data/BR/GO/Vianópolis',
         'key': 'Vianópolis',
@@ -6184,11 +4154,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Vicentinópolis',
         'lang': 'pt'
       },
-      'BR/GO/Vila Boa': {
-        'id': 'data/BR/GO/Vila Boa',
-        'key': 'Vila Boa',
-        'lang': 'pt'
-      },
+      'BR/GO/Vila Boa': {'id': 'data/BR/GO/Vila Boa', 'key': 'Vila Boa', 'lang': 'pt'},
       'BR/GO/Vila Propício': {
         'id': 'data/BR/GO/Vila Propício',
         'key': 'Vila Propício',
@@ -6225,11 +4191,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Afonso Cunha',
         'lang': 'pt'
       },
-      'BR/MA/Alcântara': {
-        'id': 'data/BR/MA/Alcântara',
-        'key': 'Alcântara',
-        'lang': 'pt'
-      },
+      'BR/MA/Alcântara': {'id': 'data/BR/MA/Alcântara', 'key': 'Alcântara', 'lang': 'pt'},
       'BR/MA/Aldeias Altas': {
         'id': 'data/BR/MA/Aldeias Altas',
         'key': 'Aldeias Altas',
@@ -6265,31 +4227,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Amarante do Maranhão',
         'lang': 'pt'
       },
-      'BR/MA/Anajatuba': {
-        'id': 'data/BR/MA/Anajatuba',
-        'key': 'Anajatuba',
-        'lang': 'pt'
-      },
-      'BR/MA/Anapurus': {
-        'id': 'data/BR/MA/Anapurus',
-        'key': 'Anapurus',
-        'lang': 'pt'
-      },
+      'BR/MA/Anajatuba': {'id': 'data/BR/MA/Anajatuba', 'key': 'Anajatuba', 'lang': 'pt'},
+      'BR/MA/Anapurus': {'id': 'data/BR/MA/Anapurus', 'key': 'Anapurus', 'lang': 'pt'},
       'BR/MA/Apicum-Açu': {
         'id': 'data/BR/MA/Apicum-Açu',
         'key': 'Apicum-Açu',
         'lang': 'pt'
       },
-      'BR/MA/Araguanã': {
-        'id': 'data/BR/MA/Araguanã',
-        'key': 'Araguanã',
-        'lang': 'pt'
-      },
-      'BR/MA/Araioses': {
-        'id': 'data/BR/MA/Araioses',
-        'key': 'Araioses',
-        'lang': 'pt'
-      },
+      'BR/MA/Araguanã': {'id': 'data/BR/MA/Araguanã', 'key': 'Araguanã', 'lang': 'pt'},
+      'BR/MA/Araioses': {'id': 'data/BR/MA/Araioses', 'key': 'Araioses', 'lang': 'pt'},
       'BR/MA/Arame': {'id': 'data/BR/MA/Arame', 'key': 'Arame', 'lang': 'pt'},
       'BR/MA/Arari': {'id': 'data/BR/MA/Arari', 'key': 'Arari', 'lang': 'pt'},
       'BR/MA/Axixá': {'id': 'data/BR/MA/Axixá', 'key': 'Axixá', 'lang': 'pt'},
@@ -6298,31 +4244,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Açailândia',
         'lang': 'pt'
       },
-      'BR/MA/Bacabal': {
-        'id': 'data/BR/MA/Bacabal',
-        'key': 'Bacabal',
-        'lang': 'pt'
-      },
-      'BR/MA/Bacabeira': {
-        'id': 'data/BR/MA/Bacabeira',
-        'key': 'Bacabeira',
-        'lang': 'pt'
-      },
-      'BR/MA/Bacuri': {
-        'id': 'data/BR/MA/Bacuri',
-        'key': 'Bacuri',
-        'lang': 'pt'
-      },
+      'BR/MA/Bacabal': {'id': 'data/BR/MA/Bacabal', 'key': 'Bacabal', 'lang': 'pt'},
+      'BR/MA/Bacabeira': {'id': 'data/BR/MA/Bacabeira', 'key': 'Bacabeira', 'lang': 'pt'},
+      'BR/MA/Bacuri': {'id': 'data/BR/MA/Bacuri', 'key': 'Bacuri', 'lang': 'pt'},
       'BR/MA/Bacurituba': {
         'id': 'data/BR/MA/Bacurituba',
         'key': 'Bacurituba',
         'lang': 'pt'
       },
-      'BR/MA/Balsas': {
-        'id': 'data/BR/MA/Balsas',
-        'key': 'Balsas',
-        'lang': 'pt'
-      },
+      'BR/MA/Balsas': {'id': 'data/BR/MA/Balsas', 'key': 'Balsas', 'lang': 'pt'},
       'BR/MA/Barra do Corda': {
         'id': 'data/BR/MA/Barra do Corda',
         'key': 'Barra do Corda',
@@ -6343,21 +4273,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bela Vista do Maranhão',
         'lang': 'pt'
       },
-      'BR/MA/Belágua': {
-        'id': 'data/BR/MA/Belágua',
-        'key': 'Belágua',
-        'lang': 'pt'
-      },
+      'BR/MA/Belágua': {'id': 'data/BR/MA/Belágua', 'key': 'Belágua', 'lang': 'pt'},
       'BR/MA/Benedito Leite': {
         'id': 'data/BR/MA/Benedito Leite',
         'key': 'Benedito Leite',
         'lang': 'pt'
       },
-      'BR/MA/Bequimão': {
-        'id': 'data/BR/MA/Bequimão',
-        'key': 'Bequimão',
-        'lang': 'pt'
-      },
+      'BR/MA/Bequimão': {'id': 'data/BR/MA/Bequimão', 'key': 'Bequimão', 'lang': 'pt'},
       'BR/MA/Bernardo do Mearim': {
         'id': 'data/BR/MA/Bernardo do Mearim',
         'key': 'Bernardo do Mearim',
@@ -6378,22 +4300,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bom Jesus das Selvas',
         'lang': 'pt'
       },
-      'BR/MA/Bom Lugar': {
-        'id': 'data/BR/MA/Bom Lugar',
-        'key': 'Bom Lugar',
-        'lang': 'pt'
-      },
+      'BR/MA/Bom Lugar': {'id': 'data/BR/MA/Bom Lugar', 'key': 'Bom Lugar', 'lang': 'pt'},
       'BR/MA/Brejo': {'id': 'data/BR/MA/Brejo', 'key': 'Brejo', 'lang': 'pt'},
       'BR/MA/Brejo de Areia': {
         'id': 'data/BR/MA/Brejo de Areia',
         'key': 'Brejo de Areia',
         'lang': 'pt'
       },
-      'BR/MA/Buriti': {
-        'id': 'data/BR/MA/Buriti',
-        'key': 'Buriti',
-        'lang': 'pt'
-      },
+      'BR/MA/Buriti': {'id': 'data/BR/MA/Buriti', 'key': 'Buriti', 'lang': 'pt'},
       'BR/MA/Buriti Bravo': {
         'id': 'data/BR/MA/Buriti Bravo',
         'key': 'Buriti Bravo',
@@ -6414,16 +4328,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cachoeira Grande',
         'lang': 'pt'
       },
-      'BR/MA/Cajapió': {
-        'id': 'data/BR/MA/Cajapió',
-        'key': 'Cajapió',
-        'lang': 'pt'
-      },
-      'BR/MA/Cajari': {
-        'id': 'data/BR/MA/Cajari',
-        'key': 'Cajari',
-        'lang': 'pt'
-      },
+      'BR/MA/Cajapió': {'id': 'data/BR/MA/Cajapió', 'key': 'Cajapió', 'lang': 'pt'},
+      'BR/MA/Cajari': {'id': 'data/BR/MA/Cajari', 'key': 'Cajari', 'lang': 'pt'},
       'BR/MA/Campestre do Maranhão': {
         'id': 'data/BR/MA/Campestre do Maranhão',
         'key': 'Campestre do Maranhão',
@@ -6439,26 +4345,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Capinzal do Norte',
         'lang': 'pt'
       },
-      'BR/MA/Carolina': {
-        'id': 'data/BR/MA/Carolina',
-        'key': 'Carolina',
-        'lang': 'pt'
-      },
+      'BR/MA/Carolina': {'id': 'data/BR/MA/Carolina', 'key': 'Carolina', 'lang': 'pt'},
       'BR/MA/Carutapera': {
         'id': 'data/BR/MA/Carutapera',
         'key': 'Carutapera',
         'lang': 'pt'
       },
-      'BR/MA/Caxias': {
-        'id': 'data/BR/MA/Caxias',
-        'key': 'Caxias',
-        'lang': 'pt'
-      },
-      'BR/MA/Cedral': {
-        'id': 'data/BR/MA/Cedral',
-        'key': 'Cedral',
-        'lang': 'pt'
-      },
+      'BR/MA/Caxias': {'id': 'data/BR/MA/Caxias', 'key': 'Caxias', 'lang': 'pt'},
+      'BR/MA/Cedral': {'id': 'data/BR/MA/Cedral', 'key': 'Cedral', 'lang': 'pt'},
       'BR/MA/Central do Maranhão': {
         'id': 'data/BR/MA/Central do Maranhão',
         'key': 'Central do Maranhão',
@@ -6490,26 +4384,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Coelho Neto',
         'lang': 'pt'
       },
-      'BR/MA/Colinas': {
-        'id': 'data/BR/MA/Colinas',
-        'key': 'Colinas',
-        'lang': 'pt'
-      },
+      'BR/MA/Colinas': {'id': 'data/BR/MA/Colinas', 'key': 'Colinas', 'lang': 'pt'},
       'BR/MA/Conceição do Lago-Açu': {
         'id': 'data/BR/MA/Conceição do Lago-Açu',
         'key': 'Conceição do Lago-Açu',
         'lang': 'pt'
       },
-      'BR/MA/Coroatá': {
-        'id': 'data/BR/MA/Coroatá',
-        'key': 'Coroatá',
-        'lang': 'pt'
-      },
-      'BR/MA/Cururupu': {
-        'id': 'data/BR/MA/Cururupu',
-        'key': 'Cururupu',
-        'lang': 'pt'
-      },
+      'BR/MA/Coroatá': {'id': 'data/BR/MA/Coroatá', 'key': 'Coroatá', 'lang': 'pt'},
+      'BR/MA/Cururupu': {'id': 'data/BR/MA/Cururupu', 'key': 'Cururupu', 'lang': 'pt'},
       'BR/MA/Cândido Mendes': {
         'id': 'data/BR/MA/Cândido Mendes',
         'key': 'Cândido Mendes',
@@ -6520,11 +4402,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Davinópolis',
         'lang': 'pt'
       },
-      'BR/MA/Dom Pedro': {
-        'id': 'data/BR/MA/Dom Pedro',
-        'key': 'Dom Pedro',
-        'lang': 'pt'
-      },
+      'BR/MA/Dom Pedro': {'id': 'data/BR/MA/Dom Pedro', 'key': 'Dom Pedro', 'lang': 'pt'},
       'BR/MA/Duque Bacelar': {
         'id': 'data/BR/MA/Duque Bacelar',
         'key': 'Duque Bacelar',
@@ -6535,11 +4413,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Esperantinópolis',
         'lang': 'pt'
       },
-      'BR/MA/Estreito': {
-        'id': 'data/BR/MA/Estreito',
-        'key': 'Estreito',
-        'lang': 'pt'
-      },
+      'BR/MA/Estreito': {'id': 'data/BR/MA/Estreito', 'key': 'Estreito', 'lang': 'pt'},
       'BR/MA/Feira Nova do Maranhão': {
         'id': 'data/BR/MA/Feira Nova do Maranhão',
         'key': 'Feira Nova do Maranhão',
@@ -6560,11 +4434,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Fortaleza dos Nogueiras',
         'lang': 'pt'
       },
-      'BR/MA/Fortuna': {
-        'id': 'data/BR/MA/Fortuna',
-        'key': 'Fortuna',
-        'lang': 'pt'
-      },
+      'BR/MA/Fortuna': {'id': 'data/BR/MA/Fortuna', 'key': 'Fortuna', 'lang': 'pt'},
       'BR/MA/Godofredo Viana': {
         'id': 'data/BR/MA/Godofredo Viana',
         'key': 'Godofredo Viana',
@@ -6605,21 +4475,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Governador Nunes Freire',
         'lang': 'pt'
       },
-      'BR/MA/Grajaú': {
-        'id': 'data/BR/MA/Grajaú',
-        'key': 'Grajaú',
-        'lang': 'pt'
-      },
+      'BR/MA/Grajaú': {'id': 'data/BR/MA/Grajaú', 'key': 'Grajaú', 'lang': 'pt'},
       'BR/MA/Graça Aranha': {
         'id': 'data/BR/MA/Graça Aranha',
         'key': 'Graça Aranha',
         'lang': 'pt'
       },
-      'BR/MA/Guimarães': {
-        'id': 'data/BR/MA/Guimarães',
-        'key': 'Guimarães',
-        'lang': 'pt'
-      },
+      'BR/MA/Guimarães': {'id': 'data/BR/MA/Guimarães', 'key': 'Guimarães', 'lang': 'pt'},
       'BR/MA/Humberto de Campos': {
         'id': 'data/BR/MA/Humberto de Campos',
         'key': 'Humberto de Campos',
@@ -6656,11 +4518,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Itinga do Maranhão',
         'lang': 'pt'
       },
-      'BR/MA/Jatobá': {
-        'id': 'data/BR/MA/Jatobá',
-        'key': 'Jatobá',
-        'lang': 'pt'
-      },
+      'BR/MA/Jatobá': {'id': 'data/BR/MA/Jatobá', 'key': 'Jatobá', 'lang': 'pt'},
       'BR/MA/Jenipapo dos Vieiras': {
         'id': 'data/BR/MA/Jenipapo dos Vieiras',
         'key': 'Jenipapo dos Vieiras',
@@ -6721,11 +4579,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Lima Campos',
         'lang': 'pt'
       },
-      'BR/MA/Loreto': {
-        'id': 'data/BR/MA/Loreto',
-        'key': 'Loreto',
-        'lang': 'pt'
-      },
+      'BR/MA/Loreto': {'id': 'data/BR/MA/Loreto', 'key': 'Loreto', 'lang': 'pt'},
       'BR/MA/Luís Domingues': {
         'id': 'data/BR/MA/Luís Domingues',
         'key': 'Luís Domingues',
@@ -6751,21 +4605,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Maranhãozinho',
         'lang': 'pt'
       },
-      'BR/MA/Mata Roma': {
-        'id': 'data/BR/MA/Mata Roma',
-        'key': 'Mata Roma',
-        'lang': 'pt'
-      },
-      'BR/MA/Matinha': {
-        'id': 'data/BR/MA/Matinha',
-        'key': 'Matinha',
-        'lang': 'pt'
-      },
-      'BR/MA/Matões': {
-        'id': 'data/BR/MA/Matões',
-        'key': 'Matões',
-        'lang': 'pt'
-      },
+      'BR/MA/Mata Roma': {'id': 'data/BR/MA/Mata Roma', 'key': 'Mata Roma', 'lang': 'pt'},
+      'BR/MA/Matinha': {'id': 'data/BR/MA/Matinha', 'key': 'Matinha', 'lang': 'pt'},
+      'BR/MA/Matões': {'id': 'data/BR/MA/Matões', 'key': 'Matões', 'lang': 'pt'},
       'BR/MA/Matões do Norte': {
         'id': 'data/BR/MA/Matões do Norte',
         'key': 'Matões do Norte',
@@ -6776,36 +4618,20 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Milagres do Maranhão',
         'lang': 'pt'
       },
-      'BR/MA/Mirador': {
-        'id': 'data/BR/MA/Mirador',
-        'key': 'Mirador',
-        'lang': 'pt'
-      },
+      'BR/MA/Mirador': {'id': 'data/BR/MA/Mirador', 'key': 'Mirador', 'lang': 'pt'},
       'BR/MA/Miranda do Norte': {
         'id': 'data/BR/MA/Miranda do Norte',
         'key': 'Miranda do Norte',
         'lang': 'pt'
       },
-      'BR/MA/Mirinzal': {
-        'id': 'data/BR/MA/Mirinzal',
-        'key': 'Mirinzal',
-        'lang': 'pt'
-      },
+      'BR/MA/Mirinzal': {'id': 'data/BR/MA/Mirinzal', 'key': 'Mirinzal', 'lang': 'pt'},
       'BR/MA/Montes Altos': {
         'id': 'data/BR/MA/Montes Altos',
         'key': 'Montes Altos',
         'lang': 'pt'
       },
-      'BR/MA/Monção': {
-        'id': 'data/BR/MA/Monção',
-        'key': 'Monção',
-        'lang': 'pt'
-      },
-      'BR/MA/Morros': {
-        'id': 'data/BR/MA/Morros',
-        'key': 'Morros',
-        'lang': 'pt'
-      },
+      'BR/MA/Monção': {'id': 'data/BR/MA/Monção', 'key': 'Monção', 'lang': 'pt'},
+      'BR/MA/Morros': {'id': 'data/BR/MA/Morros', 'key': 'Morros', 'lang': 'pt'},
       'BR/MA/Nina Rodrigues': {
         'id': 'data/BR/MA/Nina Rodrigues',
         'key': 'Nina Rodrigues',
@@ -6841,16 +4667,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Palmeirândia',
         'lang': 'pt'
       },
-      'BR/MA/Paraibano': {
-        'id': 'data/BR/MA/Paraibano',
-        'key': 'Paraibano',
-        'lang': 'pt'
-      },
-      'BR/MA/Parnarama': {
-        'id': 'data/BR/MA/Parnarama',
-        'key': 'Parnarama',
-        'lang': 'pt'
-      },
+      'BR/MA/Paraibano': {'id': 'data/BR/MA/Paraibano', 'key': 'Paraibano', 'lang': 'pt'},
+      'BR/MA/Parnarama': {'id': 'data/BR/MA/Parnarama', 'key': 'Parnarama', 'lang': 'pt'},
       'BR/MA/Passagem Franca': {
         'id': 'data/BR/MA/Passagem Franca',
         'key': 'Passagem Franca',
@@ -6876,51 +4694,27 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Paço do Lumiar',
         'lang': 'pt'
       },
-      'BR/MA/Pedreiras': {
-        'id': 'data/BR/MA/Pedreiras',
-        'key': 'Pedreiras',
-        'lang': 'pt'
-      },
+      'BR/MA/Pedreiras': {'id': 'data/BR/MA/Pedreiras', 'key': 'Pedreiras', 'lang': 'pt'},
       'BR/MA/Pedro do Rosário': {
         'id': 'data/BR/MA/Pedro do Rosário',
         'key': 'Pedro do Rosário',
         'lang': 'pt'
       },
-      'BR/MA/Penalva': {
-        'id': 'data/BR/MA/Penalva',
-        'key': 'Penalva',
-        'lang': 'pt'
-      },
+      'BR/MA/Penalva': {'id': 'data/BR/MA/Penalva', 'key': 'Penalva', 'lang': 'pt'},
       'BR/MA/Peri Mirim': {
         'id': 'data/BR/MA/Peri Mirim',
         'key': 'Peri Mirim',
         'lang': 'pt'
       },
-      'BR/MA/Peritoró': {
-        'id': 'data/BR/MA/Peritoró',
-        'key': 'Peritoró',
-        'lang': 'pt'
-      },
+      'BR/MA/Peritoró': {'id': 'data/BR/MA/Peritoró', 'key': 'Peritoró', 'lang': 'pt'},
       'BR/MA/Pindaré Mirim': {
         'id': 'data/BR/MA/Pindaré Mirim',
         'key': 'Pindaré Mirim',
         'lang': 'pt'
       },
-      'BR/MA/Pinheiro': {
-        'id': 'data/BR/MA/Pinheiro',
-        'key': 'Pinheiro',
-        'lang': 'pt'
-      },
-      'BR/MA/Pio XII': {
-        'id': 'data/BR/MA/Pio XII',
-        'key': 'Pio XII',
-        'lang': 'pt'
-      },
-      'BR/MA/Pirapemas': {
-        'id': 'data/BR/MA/Pirapemas',
-        'key': 'Pirapemas',
-        'lang': 'pt'
-      },
+      'BR/MA/Pinheiro': {'id': 'data/BR/MA/Pinheiro', 'key': 'Pinheiro', 'lang': 'pt'},
+      'BR/MA/Pio XII': {'id': 'data/BR/MA/Pio XII', 'key': 'Pio XII', 'lang': 'pt'},
+      'BR/MA/Pirapemas': {'id': 'data/BR/MA/Pirapemas', 'key': 'Pirapemas', 'lang': 'pt'},
       'BR/MA/Porto Franco': {
         'id': 'data/BR/MA/Porto Franco',
         'key': 'Porto Franco',
@@ -6966,31 +4760,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Primeira Cruz',
         'lang': 'pt'
       },
-      'BR/MA/Raposa': {
-        'id': 'data/BR/MA/Raposa',
-        'key': 'Raposa',
-        'lang': 'pt'
-      },
-      'BR/MA/Riachão': {
-        'id': 'data/BR/MA/Riachão',
-        'key': 'Riachão',
-        'lang': 'pt'
-      },
+      'BR/MA/Raposa': {'id': 'data/BR/MA/Raposa', 'key': 'Raposa', 'lang': 'pt'},
+      'BR/MA/Riachão': {'id': 'data/BR/MA/Riachão', 'key': 'Riachão', 'lang': 'pt'},
       'BR/MA/Ribamar Fiquene': {
         'id': 'data/BR/MA/Ribamar Fiquene',
         'key': 'Ribamar Fiquene',
         'lang': 'pt'
       },
-      'BR/MA/Rosario': {
-        'id': 'data/BR/MA/Rosario',
-        'key': 'Rosario',
-        'lang': 'pt'
-      },
-      'BR/MA/Sambaíba': {
-        'id': 'data/BR/MA/Sambaíba',
-        'key': 'Sambaíba',
-        'lang': 'pt'
-      },
+      'BR/MA/Rosario': {'id': 'data/BR/MA/Rosario', 'key': 'Rosario', 'lang': 'pt'},
+      'BR/MA/Sambaíba': {'id': 'data/BR/MA/Sambaíba', 'key': 'Sambaíba', 'lang': 'pt'},
       'BR/MA/Santa Filomena do Maranhão': {
         'id': 'data/BR/MA/Santa Filomena do Maranhão',
         'key': 'Santa Filomena do Maranhão',
@@ -7041,11 +4819,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santo Antônio dos Lopes',
         'lang': 'pt'
       },
-      'BR/MA/Satubinha': {
-        'id': 'data/BR/MA/Satubinha',
-        'key': 'Satubinha',
-        'lang': 'pt'
-      },
+      'BR/MA/Satubinha': {'id': 'data/BR/MA/Satubinha', 'key': 'Satubinha', 'lang': 'pt'},
       'BR/MA/Senador Alexandre Costa': {
         'id': 'data/BR/MA/Senador Alexandre Costa',
         'key': 'Senador Alexandre Costa',
@@ -7076,11 +4850,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Benedito do Rio Preto',
         'lang': 'pt'
       },
-      'BR/MA/São Bento': {
-        'id': 'data/BR/MA/São Bento',
-        'key': 'São Bento',
-        'lang': 'pt'
-      },
+      'BR/MA/São Bento': {'id': 'data/BR/MA/São Bento', 'key': 'São Bento', 'lang': 'pt'},
       'BR/MA/São Bernardo': {
         'id': 'data/BR/MA/São Bernardo',
         'key': 'São Bernardo',
@@ -7146,11 +4916,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São João dos Patos',
         'lang': 'pt'
       },
-      'BR/MA/São Luís': {
-        'id': 'data/BR/MA/São Luís',
-        'key': 'São Luís',
-        'lang': 'pt'
-      },
+      'BR/MA/São Luís': {'id': 'data/BR/MA/São Luís', 'key': 'São Luís', 'lang': 'pt'},
       'BR/MA/São Luís Gonzaga do Maranhão': {
         'id': 'data/BR/MA/São Luís Gonzaga do Maranhão',
         'key': 'São Luís Gonzaga do Maranhão',
@@ -7201,11 +4967,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Tasso Fragoso',
         'lang': 'pt'
       },
-      'BR/MA/Timbiras': {
-        'id': 'data/BR/MA/Timbiras',
-        'key': 'Timbiras',
-        'lang': 'pt'
-      },
+      'BR/MA/Timbiras': {'id': 'data/BR/MA/Timbiras', 'key': 'Timbiras', 'lang': 'pt'},
       'BR/MA/Timon': {'id': 'data/BR/MA/Timon', 'key': 'Timon', 'lang': 'pt'},
       'BR/MA/Trizidela do Vale': {
         'id': 'data/BR/MA/Trizidela do Vale',
@@ -7217,26 +4979,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Tufilândia',
         'lang': 'pt'
       },
-      'BR/MA/Tuntum': {
-        'id': 'data/BR/MA/Tuntum',
-        'key': 'Tuntum',
-        'lang': 'pt'
-      },
-      'BR/MA/Turiaçu': {
-        'id': 'data/BR/MA/Turiaçu',
-        'key': 'Turiaçu',
-        'lang': 'pt'
-      },
+      'BR/MA/Tuntum': {'id': 'data/BR/MA/Tuntum', 'key': 'Tuntum', 'lang': 'pt'},
+      'BR/MA/Turiaçu': {'id': 'data/BR/MA/Turiaçu', 'key': 'Turiaçu', 'lang': 'pt'},
       'BR/MA/Turilândia': {
         'id': 'data/BR/MA/Turilândia',
         'key': 'Turilândia',
         'lang': 'pt'
       },
-      'BR/MA/Tutóia': {
-        'id': 'data/BR/MA/Tutóia',
-        'key': 'Tutóia',
-        'lang': 'pt'
-      },
+      'BR/MA/Tutóia': {'id': 'data/BR/MA/Tutóia', 'key': 'Tutóia', 'lang': 'pt'},
       'BR/MA/Urbano Santos': {
         'id': 'data/BR/MA/Urbano Santos',
         'key': 'Urbano Santos',
@@ -7263,11 +5013,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Vitória do Mearim',
         'lang': 'pt'
       },
-      'BR/MA/Zé Doca': {
-        'id': 'data/BR/MA/Zé Doca',
-        'key': 'Zé Doca',
-        'lang': 'pt'
-      },
+      'BR/MA/Zé Doca': {'id': 'data/BR/MA/Zé Doca', 'key': 'Zé Doca', 'lang': 'pt'},
       'BR/MA/Água Doce do Maranhão': {
         'id': 'data/BR/MA/Água Doce do Maranhão',
         'key': 'Água Doce do Maranhão',
@@ -7289,76 +5035,32 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Abadia dos Dourados',
         'lang': 'pt'
       },
-      'BR/MG/Abaeté': {
-        'id': 'data/BR/MG/Abaeté',
-        'key': 'Abaeté',
-        'lang': 'pt'
-      },
+      'BR/MG/Abaeté': {'id': 'data/BR/MG/Abaeté', 'key': 'Abaeté', 'lang': 'pt'},
       'BR/MG/Abre Campo': {
         'id': 'data/BR/MG/Abre Campo',
         'key': 'Abre Campo',
         'lang': 'pt'
       },
-      'BR/MG/Acaiaca': {
-        'id': 'data/BR/MG/Acaiaca',
-        'key': 'Acaiaca',
-        'lang': 'pt'
-      },
-      'BR/MG/Aguanil': {
-        'id': 'data/BR/MG/Aguanil',
-        'key': 'Aguanil',
-        'lang': 'pt'
-      },
-      'BR/MG/Aimorés': {
-        'id': 'data/BR/MG/Aimorés',
-        'key': 'Aimorés',
-        'lang': 'pt'
-      },
-      'BR/MG/Aiuruoca': {
-        'id': 'data/BR/MG/Aiuruoca',
-        'key': 'Aiuruoca',
-        'lang': 'pt'
-      },
-      'BR/MG/Alagoa': {
-        'id': 'data/BR/MG/Alagoa',
-        'key': 'Alagoa',
-        'lang': 'pt'
-      },
-      'BR/MG/Albertina': {
-        'id': 'data/BR/MG/Albertina',
-        'key': 'Albertina',
-        'lang': 'pt'
-      },
-      'BR/MG/Alfenas': {
-        'id': 'data/BR/MG/Alfenas',
-        'key': 'Alfenas',
-        'lang': 'pt'
-      },
+      'BR/MG/Acaiaca': {'id': 'data/BR/MG/Acaiaca', 'key': 'Acaiaca', 'lang': 'pt'},
+      'BR/MG/Aguanil': {'id': 'data/BR/MG/Aguanil', 'key': 'Aguanil', 'lang': 'pt'},
+      'BR/MG/Aimorés': {'id': 'data/BR/MG/Aimorés', 'key': 'Aimorés', 'lang': 'pt'},
+      'BR/MG/Aiuruoca': {'id': 'data/BR/MG/Aiuruoca', 'key': 'Aiuruoca', 'lang': 'pt'},
+      'BR/MG/Alagoa': {'id': 'data/BR/MG/Alagoa', 'key': 'Alagoa', 'lang': 'pt'},
+      'BR/MG/Albertina': {'id': 'data/BR/MG/Albertina', 'key': 'Albertina', 'lang': 'pt'},
+      'BR/MG/Alfenas': {'id': 'data/BR/MG/Alfenas', 'key': 'Alfenas', 'lang': 'pt'},
       'BR/MG/Alfredo Vasconcelos': {
         'id': 'data/BR/MG/Alfredo Vasconcelos',
         'key': 'Alfredo Vasconcelos',
         'lang': 'pt'
       },
-      'BR/MG/Almenara': {
-        'id': 'data/BR/MG/Almenara',
-        'key': 'Almenara',
-        'lang': 'pt'
-      },
-      'BR/MG/Alpercata': {
-        'id': 'data/BR/MG/Alpercata',
-        'key': 'Alpercata',
-        'lang': 'pt'
-      },
+      'BR/MG/Almenara': {'id': 'data/BR/MG/Almenara', 'key': 'Almenara', 'lang': 'pt'},
+      'BR/MG/Alpercata': {'id': 'data/BR/MG/Alpercata', 'key': 'Alpercata', 'lang': 'pt'},
       'BR/MG/Alpinópolis': {
         'id': 'data/BR/MG/Alpinópolis',
         'key': 'Alpinópolis',
         'lang': 'pt'
       },
-      'BR/MG/Alterosa': {
-        'id': 'data/BR/MG/Alterosa',
-        'key': 'Alterosa',
-        'lang': 'pt'
-      },
+      'BR/MG/Alterosa': {'id': 'data/BR/MG/Alterosa', 'key': 'Alterosa', 'lang': 'pt'},
       'BR/MG/Alto Caparaó': {
         'id': 'data/BR/MG/Alto Caparaó',
         'key': 'Alto Caparaó',
@@ -7374,11 +5076,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alto Rio Doce',
         'lang': 'pt'
       },
-      'BR/MG/Alvarenga': {
-        'id': 'data/BR/MG/Alvarenga',
-        'key': 'Alvarenga',
-        'lang': 'pt'
-      },
+      'BR/MG/Alvarenga': {'id': 'data/BR/MG/Alvarenga', 'key': 'Alvarenga', 'lang': 'pt'},
       'BR/MG/Alvinópolis': {
         'id': 'data/BR/MG/Alvinópolis',
         'key': 'Alvinópolis',
@@ -7399,11 +5097,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Amparo do Serra',
         'lang': 'pt'
       },
-      'BR/MG/Andradas': {
-        'id': 'data/BR/MG/Andradas',
-        'key': 'Andradas',
-        'lang': 'pt'
-      },
+      'BR/MG/Andradas': {'id': 'data/BR/MG/Andradas', 'key': 'Andradas', 'lang': 'pt'},
       'BR/MG/Andrelândia': {
         'id': 'data/BR/MG/Andrelândia',
         'key': 'Andrelândia',
@@ -7429,138 +5123,54 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Antônio Prado de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Aracitaba': {
-        'id': 'data/BR/MG/Aracitaba',
-        'key': 'Aracitaba',
-        'lang': 'pt'
-      },
-      'BR/MG/Araguari': {
-        'id': 'data/BR/MG/Araguari',
-        'key': 'Araguari',
-        'lang': 'pt'
-      },
-      'BR/MG/Arantina': {
-        'id': 'data/BR/MG/Arantina',
-        'key': 'Arantina',
-        'lang': 'pt'
-      },
-      'BR/MG/Araponga': {
-        'id': 'data/BR/MG/Araponga',
-        'key': 'Araponga',
-        'lang': 'pt'
-      },
-      'BR/MG/Araporã': {
-        'id': 'data/BR/MG/Araporã',
-        'key': 'Araporã',
-        'lang': 'pt'
-      },
-      'BR/MG/Arapuá': {
-        'id': 'data/BR/MG/Arapuá',
-        'key': 'Arapuá',
-        'lang': 'pt'
-      },
+      'BR/MG/Aracitaba': {'id': 'data/BR/MG/Aracitaba', 'key': 'Aracitaba', 'lang': 'pt'},
+      'BR/MG/Araguari': {'id': 'data/BR/MG/Araguari', 'key': 'Araguari', 'lang': 'pt'},
+      'BR/MG/Arantina': {'id': 'data/BR/MG/Arantina', 'key': 'Arantina', 'lang': 'pt'},
+      'BR/MG/Araponga': {'id': 'data/BR/MG/Araponga', 'key': 'Araponga', 'lang': 'pt'},
+      'BR/MG/Araporã': {'id': 'data/BR/MG/Araporã', 'key': 'Araporã', 'lang': 'pt'},
+      'BR/MG/Arapuá': {'id': 'data/BR/MG/Arapuá', 'key': 'Arapuá', 'lang': 'pt'},
       'BR/MG/Araxá': {'id': 'data/BR/MG/Araxá', 'key': 'Araxá', 'lang': 'pt'},
-      'BR/MG/Araçaí': {
-        'id': 'data/BR/MG/Araçaí',
-        'key': 'Araçaí',
-        'lang': 'pt'
-      },
-      'BR/MG/Araçuaí': {
-        'id': 'data/BR/MG/Araçuaí',
-        'key': 'Araçuaí',
-        'lang': 'pt'
-      },
-      'BR/MG/Araújos': {
-        'id': 'data/BR/MG/Araújos',
-        'key': 'Araújos',
-        'lang': 'pt'
-      },
-      'BR/MG/Arceburgo': {
-        'id': 'data/BR/MG/Arceburgo',
-        'key': 'Arceburgo',
-        'lang': 'pt'
-      },
+      'BR/MG/Araçaí': {'id': 'data/BR/MG/Araçaí', 'key': 'Araçaí', 'lang': 'pt'},
+      'BR/MG/Araçuaí': {'id': 'data/BR/MG/Araçuaí', 'key': 'Araçuaí', 'lang': 'pt'},
+      'BR/MG/Araújos': {'id': 'data/BR/MG/Araújos', 'key': 'Araújos', 'lang': 'pt'},
+      'BR/MG/Arceburgo': {'id': 'data/BR/MG/Arceburgo', 'key': 'Arceburgo', 'lang': 'pt'},
       'BR/MG/Arcos': {'id': 'data/BR/MG/Arcos', 'key': 'Arcos', 'lang': 'pt'},
-      'BR/MG/Areado': {
-        'id': 'data/BR/MG/Areado',
-        'key': 'Areado',
-        'lang': 'pt'
-      },
-      'BR/MG/Argirita': {
-        'id': 'data/BR/MG/Argirita',
-        'key': 'Argirita',
-        'lang': 'pt'
-      },
+      'BR/MG/Areado': {'id': 'data/BR/MG/Areado', 'key': 'Areado', 'lang': 'pt'},
+      'BR/MG/Argirita': {'id': 'data/BR/MG/Argirita', 'key': 'Argirita', 'lang': 'pt'},
       'BR/MG/Aricanduva': {
         'id': 'data/BR/MG/Aricanduva',
         'key': 'Aricanduva',
         'lang': 'pt'
       },
-      'BR/MG/Arinos': {
-        'id': 'data/BR/MG/Arinos',
-        'key': 'Arinos',
-        'lang': 'pt'
-      },
+      'BR/MG/Arinos': {'id': 'data/BR/MG/Arinos', 'key': 'Arinos', 'lang': 'pt'},
       'BR/MG/Astolfo Dutra': {
         'id': 'data/BR/MG/Astolfo Dutra',
         'key': 'Astolfo Dutra',
         'lang': 'pt'
       },
-      'BR/MG/Ataléia': {
-        'id': 'data/BR/MG/Ataléia',
-        'key': 'Ataléia',
-        'lang': 'pt'
-      },
+      'BR/MG/Ataléia': {'id': 'data/BR/MG/Ataléia', 'key': 'Ataléia', 'lang': 'pt'},
       'BR/MG/Augusto de Lima': {
         'id': 'data/BR/MG/Augusto de Lima',
         'key': 'Augusto de Lima',
         'lang': 'pt'
       },
-      'BR/MG/Açucena': {
-        'id': 'data/BR/MG/Açucena',
-        'key': 'Açucena',
-        'lang': 'pt'
-      },
-      'BR/MG/Baependi': {
-        'id': 'data/BR/MG/Baependi',
-        'key': 'Baependi',
-        'lang': 'pt'
-      },
-      'BR/MG/Baldim': {
-        'id': 'data/BR/MG/Baldim',
-        'key': 'Baldim',
-        'lang': 'pt'
-      },
-      'BR/MG/Bambuí': {
-        'id': 'data/BR/MG/Bambuí',
-        'key': 'Bambuí',
-        'lang': 'pt'
-      },
-      'BR/MG/Bandeira': {
-        'id': 'data/BR/MG/Bandeira',
-        'key': 'Bandeira',
-        'lang': 'pt'
-      },
+      'BR/MG/Açucena': {'id': 'data/BR/MG/Açucena', 'key': 'Açucena', 'lang': 'pt'},
+      'BR/MG/Baependi': {'id': 'data/BR/MG/Baependi', 'key': 'Baependi', 'lang': 'pt'},
+      'BR/MG/Baldim': {'id': 'data/BR/MG/Baldim', 'key': 'Baldim', 'lang': 'pt'},
+      'BR/MG/Bambuí': {'id': 'data/BR/MG/Bambuí', 'key': 'Bambuí', 'lang': 'pt'},
+      'BR/MG/Bandeira': {'id': 'data/BR/MG/Bandeira', 'key': 'Bandeira', 'lang': 'pt'},
       'BR/MG/Bandeira do Sul': {
         'id': 'data/BR/MG/Bandeira do Sul',
         'key': 'Bandeira do Sul',
         'lang': 'pt'
       },
-      'BR/MG/Barbacena': {
-        'id': 'data/BR/MG/Barbacena',
-        'key': 'Barbacena',
-        'lang': 'pt'
-      },
+      'BR/MG/Barbacena': {'id': 'data/BR/MG/Barbacena', 'key': 'Barbacena', 'lang': 'pt'},
       'BR/MG/Barra Longa': {
         'id': 'data/BR/MG/Barra Longa',
         'key': 'Barra Longa',
         'lang': 'pt'
       },
-      'BR/MG/Barroso': {
-        'id': 'data/BR/MG/Barroso',
-        'key': 'Barroso',
-        'lang': 'pt'
-      },
+      'BR/MG/Barroso': {'id': 'data/BR/MG/Barroso', 'key': 'Barroso', 'lang': 'pt'},
       'BR/MG/Barão de Cocais': {
         'id': 'data/BR/MG/Barão de Cocais',
         'key': 'Barão de Cocais',
@@ -7591,21 +5201,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Belo Oriente',
         'lang': 'pt'
       },
-      'BR/MG/Belo Vale': {
-        'id': 'data/BR/MG/Belo Vale',
-        'key': 'Belo Vale',
-        'lang': 'pt'
-      },
-      'BR/MG/Berilo': {
-        'id': 'data/BR/MG/Berilo',
-        'key': 'Berilo',
-        'lang': 'pt'
-      },
-      'BR/MG/Berizal': {
-        'id': 'data/BR/MG/Berizal',
-        'key': 'Berizal',
-        'lang': 'pt'
-      },
+      'BR/MG/Belo Vale': {'id': 'data/BR/MG/Belo Vale', 'key': 'Belo Vale', 'lang': 'pt'},
+      'BR/MG/Berilo': {'id': 'data/BR/MG/Berilo', 'key': 'Berilo', 'lang': 'pt'},
+      'BR/MG/Berizal': {'id': 'data/BR/MG/Berizal', 'key': 'Berizal', 'lang': 'pt'},
       'BR/MG/Bertópolis': {
         'id': 'data/BR/MG/Bertópolis',
         'key': 'Bertópolis',
@@ -7618,11 +5216,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/MG/Bicas': {'id': 'data/BR/MG/Bicas', 'key': 'Bicas', 'lang': 'pt'},
-      'BR/MG/Biquinhas': {
-        'id': 'data/BR/MG/Biquinhas',
-        'key': 'Biquinhas',
-        'lang': 'pt'
-      },
+      'BR/MG/Biquinhas': {'id': 'data/BR/MG/Biquinhas', 'key': 'Biquinhas', 'lang': 'pt'},
       'BR/MG/Boa Esperança': {
         'id': 'data/BR/MG/Boa Esperança',
         'key': 'Boa Esperança',
@@ -7633,11 +5227,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bocaina de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Bocaiúva': {
-        'id': 'data/BR/MG/Bocaiúva',
-        'key': 'Bocaiúva',
-        'lang': 'pt'
-      },
+      'BR/MG/Bocaiúva': {'id': 'data/BR/MG/Bocaiúva', 'key': 'Bocaiúva', 'lang': 'pt'},
       'BR/MG/Bom Despacho': {
         'id': 'data/BR/MG/Bom Despacho',
         'key': 'Bom Despacho',
@@ -7673,11 +5263,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bom Sucesso',
         'lang': 'pt'
       },
-      'BR/MG/Bonfim': {
-        'id': 'data/BR/MG/Bonfim',
-        'key': 'Bonfim',
-        'lang': 'pt'
-      },
+      'BR/MG/Bonfim': {'id': 'data/BR/MG/Bonfim', 'key': 'Bonfim', 'lang': 'pt'},
       'BR/MG/Bonfinópolis de Minas': {
         'id': 'data/BR/MG/Bonfinópolis de Minas',
         'key': 'Bonfinópolis de Minas',
@@ -7693,16 +5279,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Borda da Mata',
         'lang': 'pt'
       },
-      'BR/MG/Botelhos': {
-        'id': 'data/BR/MG/Botelhos',
-        'key': 'Botelhos',
-        'lang': 'pt'
-      },
-      'BR/MG/Botumirim': {
-        'id': 'data/BR/MG/Botumirim',
-        'key': 'Botumirim',
-        'lang': 'pt'
-      },
+      'BR/MG/Botelhos': {'id': 'data/BR/MG/Botelhos', 'key': 'Botelhos', 'lang': 'pt'},
+      'BR/MG/Botumirim': {'id': 'data/BR/MG/Botumirim', 'key': 'Botumirim', 'lang': 'pt'},
       'BR/MG/Brasilândia de Minas': {
         'id': 'data/BR/MG/Brasilândia de Minas',
         'key': 'Brasilândia de Minas',
@@ -7718,11 +5296,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Brasília de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Braúnas': {
-        'id': 'data/BR/MG/Braúnas',
-        'key': 'Braúnas',
-        'lang': 'pt'
-      },
+      'BR/MG/Braúnas': {'id': 'data/BR/MG/Braúnas', 'key': 'Braúnas', 'lang': 'pt'},
       'BR/MG/Brumadinho': {
         'id': 'data/BR/MG/Brumadinho',
         'key': 'Brumadinho',
@@ -7744,11 +5318,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/MG/Bugre': {'id': 'data/BR/MG/Bugre', 'key': 'Bugre', 'lang': 'pt'},
-      'BR/MG/Buritis': {
-        'id': 'data/BR/MG/Buritis',
-        'key': 'Buritis',
-        'lang': 'pt'
-      },
+      'BR/MG/Buritis': {'id': 'data/BR/MG/Buritis', 'key': 'Buritis', 'lang': 'pt'},
       'BR/MG/Buritizeiro': {
         'id': 'data/BR/MG/Buritizeiro',
         'key': 'Buritizeiro',
@@ -7790,26 +5360,10 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/MG/Caeté': {'id': 'data/BR/MG/Caeté', 'key': 'Caeté', 'lang': 'pt'},
-      'BR/MG/Caiana': {
-        'id': 'data/BR/MG/Caiana',
-        'key': 'Caiana',
-        'lang': 'pt'
-      },
-      'BR/MG/Cajuri': {
-        'id': 'data/BR/MG/Cajuri',
-        'key': 'Cajuri',
-        'lang': 'pt'
-      },
-      'BR/MG/Caldas': {
-        'id': 'data/BR/MG/Caldas',
-        'key': 'Caldas',
-        'lang': 'pt'
-      },
-      'BR/MG/Camacho': {
-        'id': 'data/BR/MG/Camacho',
-        'key': 'Camacho',
-        'lang': 'pt'
-      },
+      'BR/MG/Caiana': {'id': 'data/BR/MG/Caiana', 'key': 'Caiana', 'lang': 'pt'},
+      'BR/MG/Cajuri': {'id': 'data/BR/MG/Cajuri', 'key': 'Cajuri', 'lang': 'pt'},
+      'BR/MG/Caldas': {'id': 'data/BR/MG/Caldas', 'key': 'Caldas', 'lang': 'pt'},
+      'BR/MG/Camacho': {'id': 'data/BR/MG/Camacho', 'key': 'Camacho', 'lang': 'pt'},
       'BR/MG/Camanducaia': {
         'id': 'data/BR/MG/Camanducaia',
         'key': 'Camanducaia',
@@ -7820,26 +5374,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cambuquira',
         'lang': 'pt'
       },
-      'BR/MG/Cambuí': {
-        'id': 'data/BR/MG/Cambuí',
-        'key': 'Cambuí',
-        'lang': 'pt'
-      },
-      'BR/MG/Campanhã': {
-        'id': 'data/BR/MG/Campanhã',
-        'key': 'Campanhã',
-        'lang': 'pt'
-      },
+      'BR/MG/Cambuí': {'id': 'data/BR/MG/Cambuí', 'key': 'Cambuí', 'lang': 'pt'},
+      'BR/MG/Campanhã': {'id': 'data/BR/MG/Campanhã', 'key': 'Campanhã', 'lang': 'pt'},
       'BR/MG/Campanário': {
         'id': 'data/BR/MG/Campanário',
         'key': 'Campanário',
         'lang': 'pt'
       },
-      'BR/MG/Campestre': {
-        'id': 'data/BR/MG/Campestre',
-        'key': 'Campestre',
-        'lang': 'pt'
-      },
+      'BR/MG/Campestre': {'id': 'data/BR/MG/Campestre', 'key': 'Campestre', 'lang': 'pt'},
       'BR/MG/Campina Verde': {
         'id': 'data/BR/MG/Campina Verde',
         'key': 'Campina Verde',
@@ -7881,41 +5423,17 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/MG/Canaã': {'id': 'data/BR/MG/Canaã', 'key': 'Canaã', 'lang': 'pt'},
-      'BR/MG/Candeias': {
-        'id': 'data/BR/MG/Candeias',
-        'key': 'Candeias',
-        'lang': 'pt'
-      },
-      'BR/MG/Cantagalo': {
-        'id': 'data/BR/MG/Cantagalo',
-        'key': 'Cantagalo',
-        'lang': 'pt'
-      },
-      'BR/MG/Canápolis': {
-        'id': 'data/BR/MG/Canápolis',
-        'key': 'Canápolis',
-        'lang': 'pt'
-      },
-      'BR/MG/Caparaó': {
-        'id': 'data/BR/MG/Caparaó',
-        'key': 'Caparaó',
-        'lang': 'pt'
-      },
+      'BR/MG/Candeias': {'id': 'data/BR/MG/Candeias', 'key': 'Candeias', 'lang': 'pt'},
+      'BR/MG/Cantagalo': {'id': 'data/BR/MG/Cantagalo', 'key': 'Cantagalo', 'lang': 'pt'},
+      'BR/MG/Canápolis': {'id': 'data/BR/MG/Canápolis', 'key': 'Canápolis', 'lang': 'pt'},
+      'BR/MG/Caparaó': {'id': 'data/BR/MG/Caparaó', 'key': 'Caparaó', 'lang': 'pt'},
       'BR/MG/Capela Nova': {
         'id': 'data/BR/MG/Capela Nova',
         'key': 'Capela Nova',
         'lang': 'pt'
       },
-      'BR/MG/Capelinha': {
-        'id': 'data/BR/MG/Capelinha',
-        'key': 'Capelinha',
-        'lang': 'pt'
-      },
-      'BR/MG/Capetinga': {
-        'id': 'data/BR/MG/Capetinga',
-        'key': 'Capetinga',
-        'lang': 'pt'
-      },
+      'BR/MG/Capelinha': {'id': 'data/BR/MG/Capelinha', 'key': 'Capelinha', 'lang': 'pt'},
+      'BR/MG/Capetinga': {'id': 'data/BR/MG/Capetinga', 'key': 'Capetinga', 'lang': 'pt'},
       'BR/MG/Capim Branco': {
         'id': 'data/BR/MG/Capim Branco',
         'key': 'Capim Branco',
@@ -7936,47 +5454,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Capitão Enéas',
         'lang': 'pt'
       },
-      'BR/MG/Capitólio': {
-        'id': 'data/BR/MG/Capitólio',
-        'key': 'Capitólio',
-        'lang': 'pt'
-      },
-      'BR/MG/Caputira': {
-        'id': 'data/BR/MG/Caputira',
-        'key': 'Caputira',
-        'lang': 'pt'
-      },
-      'BR/MG/Caranaíba': {
-        'id': 'data/BR/MG/Caranaíba',
-        'key': 'Caranaíba',
-        'lang': 'pt'
-      },
-      'BR/MG/Carandaí': {
-        'id': 'data/BR/MG/Carandaí',
-        'key': 'Carandaí',
-        'lang': 'pt'
-      },
-      'BR/MG/Carangola': {
-        'id': 'data/BR/MG/Carangola',
-        'key': 'Carangola',
-        'lang': 'pt'
-      },
-      'BR/MG/Caratinga': {
-        'id': 'data/BR/MG/Caratinga',
-        'key': 'Caratinga',
-        'lang': 'pt'
-      },
+      'BR/MG/Capitólio': {'id': 'data/BR/MG/Capitólio', 'key': 'Capitólio', 'lang': 'pt'},
+      'BR/MG/Caputira': {'id': 'data/BR/MG/Caputira', 'key': 'Caputira', 'lang': 'pt'},
+      'BR/MG/Caranaíba': {'id': 'data/BR/MG/Caranaíba', 'key': 'Caranaíba', 'lang': 'pt'},
+      'BR/MG/Carandaí': {'id': 'data/BR/MG/Carandaí', 'key': 'Carandaí', 'lang': 'pt'},
+      'BR/MG/Carangola': {'id': 'data/BR/MG/Carangola', 'key': 'Carangola', 'lang': 'pt'},
+      'BR/MG/Caratinga': {'id': 'data/BR/MG/Caratinga', 'key': 'Caratinga', 'lang': 'pt'},
       'BR/MG/Caraí': {'id': 'data/BR/MG/Caraí', 'key': 'Caraí', 'lang': 'pt'},
-      'BR/MG/Carbonita': {
-        'id': 'data/BR/MG/Carbonita',
-        'key': 'Carbonita',
-        'lang': 'pt'
-      },
-      'BR/MG/Careaçu': {
-        'id': 'data/BR/MG/Careaçu',
-        'key': 'Careaçu',
-        'lang': 'pt'
-      },
+      'BR/MG/Carbonita': {'id': 'data/BR/MG/Carbonita', 'key': 'Carbonita', 'lang': 'pt'},
+      'BR/MG/Careaçu': {'id': 'data/BR/MG/Careaçu', 'key': 'Careaçu', 'lang': 'pt'},
       'BR/MG/Carlos Chagas': {
         'id': 'data/BR/MG/Carlos Chagas',
         'key': 'Carlos Chagas',
@@ -8012,11 +5498,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Carmo do Rio Claro',
         'lang': 'pt'
       },
-      'BR/MG/Carmésia': {
-        'id': 'data/BR/MG/Carmésia',
-        'key': 'Carmésia',
-        'lang': 'pt'
-      },
+      'BR/MG/Carmésia': {'id': 'data/BR/MG/Carmésia', 'key': 'Carmésia', 'lang': 'pt'},
       'BR/MG/Carmópolis de Minas': {
         'id': 'data/BR/MG/Carmópolis de Minas',
         'key': 'Carmópolis de Minas',
@@ -8027,16 +5509,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Carneirinho',
         'lang': 'pt'
       },
-      'BR/MG/Carrancas': {
-        'id': 'data/BR/MG/Carrancas',
-        'key': 'Carrancas',
-        'lang': 'pt'
-      },
-      'BR/MG/Carvalhos': {
-        'id': 'data/BR/MG/Carvalhos',
-        'key': 'Carvalhos',
-        'lang': 'pt'
-      },
+      'BR/MG/Carrancas': {'id': 'data/BR/MG/Carrancas', 'key': 'Carrancas', 'lang': 'pt'},
+      'BR/MG/Carvalhos': {'id': 'data/BR/MG/Carvalhos', 'key': 'Carvalhos', 'lang': 'pt'},
       'BR/MG/Carvalhópolis': {
         'id': 'data/BR/MG/Carvalhópolis',
         'key': 'Carvalhópolis',
@@ -8052,11 +5526,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cascalho Rico',
         'lang': 'pt'
       },
-      'BR/MG/Cassia': {
-        'id': 'data/BR/MG/Cassia',
-        'key': 'Cassia',
-        'lang': 'pt'
-      },
+      'BR/MG/Cassia': {'id': 'data/BR/MG/Cassia', 'key': 'Cassia', 'lang': 'pt'},
       'BR/MG/Cataguases': {
         'id': 'data/BR/MG/Cataguases',
         'key': 'Cataguases',
@@ -8072,21 +5542,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Catas Altas da Noruega',
         'lang': 'pt'
       },
-      'BR/MG/Catuji': {
-        'id': 'data/BR/MG/Catuji',
-        'key': 'Catuji',
-        'lang': 'pt'
-      },
-      'BR/MG/Catuti': {
-        'id': 'data/BR/MG/Catuti',
-        'key': 'Catuti',
-        'lang': 'pt'
-      },
-      'BR/MG/Caxambu': {
-        'id': 'data/BR/MG/Caxambu',
-        'key': 'Caxambu',
-        'lang': 'pt'
-      },
+      'BR/MG/Catuji': {'id': 'data/BR/MG/Catuji', 'key': 'Catuji', 'lang': 'pt'},
+      'BR/MG/Catuti': {'id': 'data/BR/MG/Catuti', 'key': 'Catuti', 'lang': 'pt'},
+      'BR/MG/Caxambu': {'id': 'data/BR/MG/Caxambu', 'key': 'Caxambu', 'lang': 'pt'},
       'BR/MG/Cedro do Abaeté': {
         'id': 'data/BR/MG/Cedro do Abaeté',
         'key': 'Cedro do Abaeté',
@@ -8113,46 +5571,18 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Chapada do Norte',
         'lang': 'pt'
       },
-      'BR/MG/Chiador': {
-        'id': 'data/BR/MG/Chiador',
-        'key': 'Chiador',
-        'lang': 'pt'
-      },
-      'BR/MG/Chácara': {
-        'id': 'data/BR/MG/Chácara',
-        'key': 'Chácara',
-        'lang': 'pt'
-      },
-      'BR/MG/Cipotânea': {
-        'id': 'data/BR/MG/Cipotânea',
-        'key': 'Cipotânea',
-        'lang': 'pt'
-      },
-      'BR/MG/Claraval': {
-        'id': 'data/BR/MG/Claraval',
-        'key': 'Claraval',
-        'lang': 'pt'
-      },
+      'BR/MG/Chiador': {'id': 'data/BR/MG/Chiador', 'key': 'Chiador', 'lang': 'pt'},
+      'BR/MG/Chácara': {'id': 'data/BR/MG/Chácara', 'key': 'Chácara', 'lang': 'pt'},
+      'BR/MG/Cipotânea': {'id': 'data/BR/MG/Cipotânea', 'key': 'Cipotânea', 'lang': 'pt'},
+      'BR/MG/Claraval': {'id': 'data/BR/MG/Claraval', 'key': 'Claraval', 'lang': 'pt'},
       'BR/MG/Claro dos Poções': {
         'id': 'data/BR/MG/Claro dos Poções',
         'key': 'Claro dos Poções',
         'lang': 'pt'
       },
-      'BR/MG/Cláudio': {
-        'id': 'data/BR/MG/Cláudio',
-        'key': 'Cláudio',
-        'lang': 'pt'
-      },
-      'BR/MG/Coimbra': {
-        'id': 'data/BR/MG/Coimbra',
-        'key': 'Coimbra',
-        'lang': 'pt'
-      },
-      'BR/MG/Coluna': {
-        'id': 'data/BR/MG/Coluna',
-        'key': 'Coluna',
-        'lang': 'pt'
-      },
+      'BR/MG/Cláudio': {'id': 'data/BR/MG/Cláudio', 'key': 'Cláudio', 'lang': 'pt'},
+      'BR/MG/Coimbra': {'id': 'data/BR/MG/Coimbra', 'key': 'Coimbra', 'lang': 'pt'},
+      'BR/MG/Coluna': {'id': 'data/BR/MG/Coluna', 'key': 'Coluna', 'lang': 'pt'},
       'BR/MG/Comendador Gomes': {
         'id': 'data/BR/MG/Comendador Gomes',
         'key': 'Comendador Gomes',
@@ -8208,31 +5638,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Conceição dos Ouros',
         'lang': 'pt'
       },
-      'BR/MG/Confins': {
-        'id': 'data/BR/MG/Confins',
-        'key': 'Confins',
-        'lang': 'pt'
-      },
-      'BR/MG/Congonhal': {
-        'id': 'data/BR/MG/Congonhal',
-        'key': 'Congonhal',
-        'lang': 'pt'
-      },
-      'BR/MG/Congonhas': {
-        'id': 'data/BR/MG/Congonhas',
-        'key': 'Congonhas',
-        'lang': 'pt'
-      },
+      'BR/MG/Confins': {'id': 'data/BR/MG/Confins', 'key': 'Confins', 'lang': 'pt'},
+      'BR/MG/Congonhal': {'id': 'data/BR/MG/Congonhal', 'key': 'Congonhal', 'lang': 'pt'},
+      'BR/MG/Congonhas': {'id': 'data/BR/MG/Congonhas', 'key': 'Congonhas', 'lang': 'pt'},
       'BR/MG/Congonhas do Norte': {
         'id': 'data/BR/MG/Congonhas do Norte',
         'key': 'Congonhas do Norte',
         'lang': 'pt'
       },
-      'BR/MG/Conquista': {
-        'id': 'data/BR/MG/Conquista',
-        'key': 'Conquista',
-        'lang': 'pt'
-      },
+      'BR/MG/Conquista': {'id': 'data/BR/MG/Conquista', 'key': 'Conquista', 'lang': 'pt'},
       'BR/MG/Conselheiro Lafaiete': {
         'id': 'data/BR/MG/Conselheiro Lafaiete',
         'key': 'Conselheiro Lafaiete',
@@ -8248,16 +5662,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Consolação',
         'lang': 'pt'
       },
-      'BR/MG/Contagem': {
-        'id': 'data/BR/MG/Contagem',
-        'key': 'Contagem',
-        'lang': 'pt'
-      },
-      'BR/MG/Coqueiral': {
-        'id': 'data/BR/MG/Coqueiral',
-        'key': 'Coqueiral',
-        'lang': 'pt'
-      },
+      'BR/MG/Contagem': {'id': 'data/BR/MG/Contagem', 'key': 'Contagem', 'lang': 'pt'},
+      'BR/MG/Coqueiral': {'id': 'data/BR/MG/Coqueiral', 'key': 'Coqueiral', 'lang': 'pt'},
       'BR/MG/Coração de Jesus': {
         'id': 'data/BR/MG/Coração de Jesus',
         'key': 'Coração de Jesus',
@@ -8273,16 +5679,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cordislândia',
         'lang': 'pt'
       },
-      'BR/MG/Corinto': {
-        'id': 'data/BR/MG/Corinto',
-        'key': 'Corinto',
-        'lang': 'pt'
-      },
-      'BR/MG/Coroaci': {
-        'id': 'data/BR/MG/Coroaci',
-        'key': 'Coroaci',
-        'lang': 'pt'
-      },
+      'BR/MG/Corinto': {'id': 'data/BR/MG/Corinto', 'key': 'Corinto', 'lang': 'pt'},
+      'BR/MG/Coroaci': {'id': 'data/BR/MG/Coroaci', 'key': 'Coroaci', 'lang': 'pt'},
       'BR/MG/Coromandel': {
         'id': 'data/BR/MG/Coromandel',
         'key': 'Coromandel',
@@ -8313,31 +5711,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Couto de Magalhães de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Cristais': {
-        'id': 'data/BR/MG/Cristais',
-        'key': 'Cristais',
-        'lang': 'pt'
-      },
+      'BR/MG/Cristais': {'id': 'data/BR/MG/Cristais', 'key': 'Cristais', 'lang': 'pt'},
       'BR/MG/Cristiano Otoni': {
         'id': 'data/BR/MG/Cristiano Otoni',
         'key': 'Cristiano Otoni',
         'lang': 'pt'
       },
-      'BR/MG/Cristina': {
-        'id': 'data/BR/MG/Cristina',
-        'key': 'Cristina',
-        'lang': 'pt'
-      },
-      'BR/MG/Cristália': {
-        'id': 'data/BR/MG/Cristália',
-        'key': 'Cristália',
-        'lang': 'pt'
-      },
-      'BR/MG/Crisólita': {
-        'id': 'data/BR/MG/Crisólita',
-        'key': 'Crisólita',
-        'lang': 'pt'
-      },
+      'BR/MG/Cristina': {'id': 'data/BR/MG/Cristina', 'key': 'Cristina', 'lang': 'pt'},
+      'BR/MG/Cristália': {'id': 'data/BR/MG/Cristália', 'key': 'Cristália', 'lang': 'pt'},
+      'BR/MG/Crisólita': {'id': 'data/BR/MG/Crisólita', 'key': 'Crisólita', 'lang': 'pt'},
       'BR/MG/Crucilândia': {
         'id': 'data/BR/MG/Crucilândia',
         'key': 'Crucilândia',
@@ -8348,26 +5730,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cruzeiro da Fortaleza',
         'lang': 'pt'
       },
-      'BR/MG/Cruzília': {
-        'id': 'data/BR/MG/Cruzília',
-        'key': 'Cruzília',
-        'lang': 'pt'
-      },
-      'BR/MG/Cuparaque': {
-        'id': 'data/BR/MG/Cuparaque',
-        'key': 'Cuparaque',
-        'lang': 'pt'
-      },
+      'BR/MG/Cruzília': {'id': 'data/BR/MG/Cruzília', 'key': 'Cruzília', 'lang': 'pt'},
+      'BR/MG/Cuparaque': {'id': 'data/BR/MG/Cuparaque', 'key': 'Cuparaque', 'lang': 'pt'},
       'BR/MG/Curral de Dentro': {
         'id': 'data/BR/MG/Curral de Dentro',
         'key': 'Curral de Dentro',
         'lang': 'pt'
       },
-      'BR/MG/Curvelo': {
-        'id': 'data/BR/MG/Curvelo',
-        'key': 'Curvelo',
-        'lang': 'pt'
-      },
+      'BR/MG/Curvelo': {'id': 'data/BR/MG/Curvelo', 'key': 'Curvelo', 'lang': 'pt'},
       'BR/MG/Córrego Danta': {
         'id': 'data/BR/MG/Córrego Danta',
         'key': 'Córrego Danta',
@@ -8430,16 +5800,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Diogo de Vasconcelos',
         'lang': 'pt'
       },
-      'BR/MG/Dionísio': {
-        'id': 'data/BR/MG/Dionísio',
-        'key': 'Dionísio',
-        'lang': 'pt'
-      },
-      'BR/MG/Divino': {
-        'id': 'data/BR/MG/Divino',
-        'key': 'Divino',
-        'lang': 'pt'
-      },
+      'BR/MG/Dionísio': {'id': 'data/BR/MG/Dionísio', 'key': 'Dionísio', 'lang': 'pt'},
+      'BR/MG/Divino': {'id': 'data/BR/MG/Divino', 'key': 'Divino', 'lang': 'pt'},
       'BR/MG/Divino das Laranjeiras': {
         'id': 'data/BR/MG/Divino das Laranjeiras',
         'key': 'Divino das Laranjeiras',
@@ -8450,11 +5812,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Divinolândia de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Divinésia': {
-        'id': 'data/BR/MG/Divinésia',
-        'key': 'Divinésia',
-        'lang': 'pt'
-      },
+      'BR/MG/Divinésia': {'id': 'data/BR/MG/Divinésia', 'key': 'Divinésia', 'lang': 'pt'},
       'BR/MG/Divinópolis': {
         'id': 'data/BR/MG/Divinópolis',
         'key': 'Divinópolis',
@@ -8475,11 +5833,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Divisópolis',
         'lang': 'pt'
       },
-      'BR/MG/Dom Bosco': {
-        'id': 'data/BR/MG/Dom Bosco',
-        'key': 'Dom Bosco',
-        'lang': 'pt'
-      },
+      'BR/MG/Dom Bosco': {'id': 'data/BR/MG/Dom Bosco', 'key': 'Dom Bosco', 'lang': 'pt'},
       'BR/MG/Dom Cavati': {
         'id': 'data/BR/MG/Dom Cavati',
         'key': 'Dom Cavati',
@@ -8535,11 +5889,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Douradoquara',
         'lang': 'pt'
       },
-      'BR/MG/Durandé': {
-        'id': 'data/BR/MG/Durandé',
-        'key': 'Durandé',
-        'lang': 'pt'
-      },
+      'BR/MG/Durandé': {'id': 'data/BR/MG/Durandé', 'key': 'Durandé', 'lang': 'pt'},
       'BR/MG/Elói Mendes': {
         'id': 'data/BR/MG/Elói Mendes',
         'key': 'Elói Mendes',
@@ -8565,11 +5915,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Entre Rios de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Ervália': {
-        'id': 'data/BR/MG/Ervália',
-        'key': 'Ervália',
-        'lang': 'pt'
-      },
+      'BR/MG/Ervália': {'id': 'data/BR/MG/Ervália', 'key': 'Ervália', 'lang': 'pt'},
       'BR/MG/Esmeraldas': {
         'id': 'data/BR/MG/Esmeraldas',
         'key': 'Esmeraldas',
@@ -8580,21 +5926,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Espera feliz',
         'lang': 'pt'
       },
-      'BR/MG/Espinosa': {
-        'id': 'data/BR/MG/Espinosa',
-        'key': 'Espinosa',
-        'lang': 'pt'
-      },
+      'BR/MG/Espinosa': {'id': 'data/BR/MG/Espinosa', 'key': 'Espinosa', 'lang': 'pt'},
       'BR/MG/Espírito Santo do Dourado': {
         'id': 'data/BR/MG/Espírito Santo do Dourado',
         'key': 'Espírito Santo do Dourado',
         'lang': 'pt'
       },
-      'BR/MG/Estiva': {
-        'id': 'data/BR/MG/Estiva',
-        'key': 'Estiva',
-        'lang': 'pt'
-      },
+      'BR/MG/Estiva': {'id': 'data/BR/MG/Estiva', 'key': 'Estiva', 'lang': 'pt'},
       'BR/MG/Estrela Dalva': {
         'id': 'data/BR/MG/Estrela Dalva',
         'key': 'Estrela Dalva',
@@ -8620,11 +5958,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ewbank da Câmara',
         'lang': 'pt'
       },
-      'BR/MG/Extrema': {
-        'id': 'data/BR/MG/Extrema',
-        'key': 'Extrema',
-        'lang': 'pt'
-      },
+      'BR/MG/Extrema': {'id': 'data/BR/MG/Extrema', 'key': 'Extrema', 'lang': 'pt'},
       'BR/MG/Fama': {'id': 'data/BR/MG/Fama', 'key': 'Fama', 'lang': 'pt'},
       'BR/MG/Faria Lemos': {
         'id': 'data/BR/MG/Faria Lemos',
@@ -8651,31 +5985,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Fernandes Tourinho',
         'lang': 'pt'
       },
-      'BR/MG/Ferros': {
-        'id': 'data/BR/MG/Ferros',
-        'key': 'Ferros',
-        'lang': 'pt'
-      },
+      'BR/MG/Ferros': {'id': 'data/BR/MG/Ferros', 'key': 'Ferros', 'lang': 'pt'},
       'BR/MG/Fervedouro': {
         'id': 'data/BR/MG/Fervedouro',
         'key': 'Fervedouro',
         'lang': 'pt'
       },
-      'BR/MG/Florestal': {
-        'id': 'data/BR/MG/Florestal',
-        'key': 'Florestal',
-        'lang': 'pt'
-      },
-      'BR/MG/Formiga': {
-        'id': 'data/BR/MG/Formiga',
-        'key': 'Formiga',
-        'lang': 'pt'
-      },
-      'BR/MG/Formoso': {
-        'id': 'data/BR/MG/Formoso',
-        'key': 'Formoso',
-        'lang': 'pt'
-      },
+      'BR/MG/Florestal': {'id': 'data/BR/MG/Florestal', 'key': 'Florestal', 'lang': 'pt'},
+      'BR/MG/Formiga': {'id': 'data/BR/MG/Formiga', 'key': 'Formiga', 'lang': 'pt'},
+      'BR/MG/Formoso': {'id': 'data/BR/MG/Formoso', 'key': 'Formoso', 'lang': 'pt'},
       'BR/MG/Fortaleza de Minas': {
         'id': 'data/BR/MG/Fortaleza de Minas',
         'key': 'Fortaleza de Minas',
@@ -8721,11 +6039,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Frei Lagonegro',
         'lang': 'pt'
       },
-      'BR/MG/Fronteira': {
-        'id': 'data/BR/MG/Fronteira',
-        'key': 'Fronteira',
-        'lang': 'pt'
-      },
+      'BR/MG/Fronteira': {'id': 'data/BR/MG/Fronteira', 'key': 'Fronteira', 'lang': 'pt'},
       'BR/MG/Fronteira dos Vales': {
         'id': 'data/BR/MG/Fronteira dos Vales',
         'key': 'Fronteira dos Vales',
@@ -8736,21 +6050,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Fruta de Leite',
         'lang': 'pt'
       },
-      'BR/MG/Frutal': {
-        'id': 'data/BR/MG/Frutal',
-        'key': 'Frutal',
-        'lang': 'pt'
-      },
+      'BR/MG/Frutal': {'id': 'data/BR/MG/Frutal', 'key': 'Frutal', 'lang': 'pt'},
       'BR/MG/Funilândia': {
         'id': 'data/BR/MG/Funilândia',
         'key': 'Funilândia',
         'lang': 'pt'
       },
-      'BR/MG/Galiléia': {
-        'id': 'data/BR/MG/Galiléia',
-        'key': 'Galiléia',
-        'lang': 'pt'
-      },
+      'BR/MG/Galiléia': {'id': 'data/BR/MG/Galiléia', 'key': 'Galiléia', 'lang': 'pt'},
       'BR/MG/Gameleiras': {
         'id': 'data/BR/MG/Gameleiras',
         'key': 'Gameleiras',
@@ -8761,51 +6067,23 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Glaucilândia',
         'lang': 'pt'
       },
-      'BR/MG/Goiabeira': {
-        'id': 'data/BR/MG/Goiabeira',
-        'key': 'Goiabeira',
-        'lang': 'pt'
-      },
-      'BR/MG/Goiana': {
-        'id': 'data/BR/MG/Goiana',
-        'key': 'Goiana',
-        'lang': 'pt'
-      },
-      'BR/MG/Gonzaga': {
-        'id': 'data/BR/MG/Gonzaga',
-        'key': 'Gonzaga',
-        'lang': 'pt'
-      },
-      'BR/MG/Gonçalves': {
-        'id': 'data/BR/MG/Gonçalves',
-        'key': 'Gonçalves',
-        'lang': 'pt'
-      },
-      'BR/MG/Gouveia': {
-        'id': 'data/BR/MG/Gouveia',
-        'key': 'Gouveia',
-        'lang': 'pt'
-      },
+      'BR/MG/Goiabeira': {'id': 'data/BR/MG/Goiabeira', 'key': 'Goiabeira', 'lang': 'pt'},
+      'BR/MG/Goiana': {'id': 'data/BR/MG/Goiana', 'key': 'Goiana', 'lang': 'pt'},
+      'BR/MG/Gonzaga': {'id': 'data/BR/MG/Gonzaga', 'key': 'Gonzaga', 'lang': 'pt'},
+      'BR/MG/Gonçalves': {'id': 'data/BR/MG/Gonçalves', 'key': 'Gonçalves', 'lang': 'pt'},
+      'BR/MG/Gouveia': {'id': 'data/BR/MG/Gouveia', 'key': 'Gouveia', 'lang': 'pt'},
       'BR/MG/Governador Valadares': {
         'id': 'data/BR/MG/Governador Valadares',
         'key': 'Governador Valadares',
         'lang': 'pt'
       },
-      'BR/MG/Grupiara': {
-        'id': 'data/BR/MG/Grupiara',
-        'key': 'Grupiara',
-        'lang': 'pt'
-      },
+      'BR/MG/Grupiara': {'id': 'data/BR/MG/Grupiara', 'key': 'Grupiara', 'lang': 'pt'},
       'BR/MG/Grão Mogol': {
         'id': 'data/BR/MG/Grão Mogol',
         'key': 'Grão Mogol',
         'lang': 'pt'
       },
-      'BR/MG/Guanhães': {
-        'id': 'data/BR/MG/Guanhães',
-        'key': 'Guanhães',
-        'lang': 'pt'
-      },
+      'BR/MG/Guanhães': {'id': 'data/BR/MG/Guanhães', 'key': 'Guanhães', 'lang': 'pt'},
       'BR/MG/Guapé': {'id': 'data/BR/MG/Guapé', 'key': 'Guapé', 'lang': 'pt'},
       'BR/MG/Guaraciaba': {
         'id': 'data/BR/MG/Guaraciaba',
@@ -8817,115 +6095,55 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Guaraciama',
         'lang': 'pt'
       },
-      'BR/MG/Guarani': {
-        'id': 'data/BR/MG/Guarani',
-        'key': 'Guarani',
-        'lang': 'pt'
-      },
+      'BR/MG/Guarani': {'id': 'data/BR/MG/Guarani', 'key': 'Guarani', 'lang': 'pt'},
       'BR/MG/Guaranésia': {
         'id': 'data/BR/MG/Guaranésia',
         'key': 'Guaranésia',
         'lang': 'pt'
       },
-      'BR/MG/Guarará': {
-        'id': 'data/BR/MG/Guarará',
-        'key': 'Guarará',
-        'lang': 'pt'
-      },
+      'BR/MG/Guarará': {'id': 'data/BR/MG/Guarará', 'key': 'Guarará', 'lang': 'pt'},
       'BR/MG/Guarda-Mor': {
         'id': 'data/BR/MG/Guarda-Mor',
         'key': 'Guarda-Mor',
         'lang': 'pt'
       },
-      'BR/MG/Guaxupé': {
-        'id': 'data/BR/MG/Guaxupé',
-        'key': 'Guaxupé',
-        'lang': 'pt'
-      },
-      'BR/MG/Guidoval': {
-        'id': 'data/BR/MG/Guidoval',
-        'key': 'Guidoval',
-        'lang': 'pt'
-      },
+      'BR/MG/Guaxupé': {'id': 'data/BR/MG/Guaxupé', 'key': 'Guaxupé', 'lang': 'pt'},
+      'BR/MG/Guidoval': {'id': 'data/BR/MG/Guidoval', 'key': 'Guidoval', 'lang': 'pt'},
       'BR/MG/Guimarânia': {
         'id': 'data/BR/MG/Guimarânia',
         'key': 'Guimarânia',
         'lang': 'pt'
       },
-      'BR/MG/Guiricema': {
-        'id': 'data/BR/MG/Guiricema',
-        'key': 'Guiricema',
-        'lang': 'pt'
-      },
-      'BR/MG/Gurinhatã': {
-        'id': 'data/BR/MG/Gurinhatã',
-        'key': 'Gurinhatã',
-        'lang': 'pt'
-      },
-      'BR/MG/Heliodora': {
-        'id': 'data/BR/MG/Heliodora',
-        'key': 'Heliodora',
-        'lang': 'pt'
-      },
+      'BR/MG/Guiricema': {'id': 'data/BR/MG/Guiricema', 'key': 'Guiricema', 'lang': 'pt'},
+      'BR/MG/Gurinhatã': {'id': 'data/BR/MG/Gurinhatã', 'key': 'Gurinhatã', 'lang': 'pt'},
+      'BR/MG/Heliodora': {'id': 'data/BR/MG/Heliodora', 'key': 'Heliodora', 'lang': 'pt'},
       'BR/MG/Iapu': {'id': 'data/BR/MG/Iapu', 'key': 'Iapu', 'lang': 'pt'},
-      'BR/MG/Ibertioga': {
-        'id': 'data/BR/MG/Ibertioga',
-        'key': 'Ibertioga',
-        'lang': 'pt'
-      },
+      'BR/MG/Ibertioga': {'id': 'data/BR/MG/Ibertioga', 'key': 'Ibertioga', 'lang': 'pt'},
       'BR/MG/Ibiaí': {'id': 'data/BR/MG/Ibiaí', 'key': 'Ibiaí', 'lang': 'pt'},
-      'BR/MG/Ibiracatu': {
-        'id': 'data/BR/MG/Ibiracatu',
-        'key': 'Ibiracatu',
-        'lang': 'pt'
-      },
-      'BR/MG/Ibiraci': {
-        'id': 'data/BR/MG/Ibiraci',
-        'key': 'Ibiraci',
-        'lang': 'pt'
-      },
-      'BR/MG/Ibirité': {
-        'id': 'data/BR/MG/Ibirité',
-        'key': 'Ibirité',
-        'lang': 'pt'
-      },
+      'BR/MG/Ibiracatu': {'id': 'data/BR/MG/Ibiracatu', 'key': 'Ibiracatu', 'lang': 'pt'},
+      'BR/MG/Ibiraci': {'id': 'data/BR/MG/Ibiraci', 'key': 'Ibiraci', 'lang': 'pt'},
+      'BR/MG/Ibirité': {'id': 'data/BR/MG/Ibirité', 'key': 'Ibirité', 'lang': 'pt'},
       'BR/MG/Ibitiúra de Minas': {
         'id': 'data/BR/MG/Ibitiúra de Minas',
         'key': 'Ibitiúra de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Ibituruna': {
-        'id': 'data/BR/MG/Ibituruna',
-        'key': 'Ibituruna',
-        'lang': 'pt'
-      },
+      'BR/MG/Ibituruna': {'id': 'data/BR/MG/Ibituruna', 'key': 'Ibituruna', 'lang': 'pt'},
       'BR/MG/Ibiá': {'id': 'data/BR/MG/Ibiá', 'key': 'Ibiá', 'lang': 'pt'},
       'BR/MG/Icaraí de Minas': {
         'id': 'data/BR/MG/Icaraí de Minas',
         'key': 'Icaraí de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Igarapé': {
-        'id': 'data/BR/MG/Igarapé',
-        'key': 'Igarapé',
-        'lang': 'pt'
-      },
+      'BR/MG/Igarapé': {'id': 'data/BR/MG/Igarapé', 'key': 'Igarapé', 'lang': 'pt'},
       'BR/MG/Igaratinga': {
         'id': 'data/BR/MG/Igaratinga',
         'key': 'Igaratinga',
         'lang': 'pt'
       },
-      'BR/MG/Iguatama': {
-        'id': 'data/BR/MG/Iguatama',
-        'key': 'Iguatama',
-        'lang': 'pt'
-      },
+      'BR/MG/Iguatama': {'id': 'data/BR/MG/Iguatama', 'key': 'Iguatama', 'lang': 'pt'},
       'BR/MG/Ijaci': {'id': 'data/BR/MG/Ijaci', 'key': 'Ijaci', 'lang': 'pt'},
-      'BR/MG/Ilicínea': {
-        'id': 'data/BR/MG/Ilicínea',
-        'key': 'Ilicínea',
-        'lang': 'pt'
-      },
+      'BR/MG/Ilicínea': {'id': 'data/BR/MG/Ilicínea', 'key': 'Ilicínea', 'lang': 'pt'},
       'BR/MG/Imbé de Minas': {
         'id': 'data/BR/MG/Imbé de Minas',
         'key': 'Imbé de Minas',
@@ -8947,62 +6165,26 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/MG/Ingaí': {'id': 'data/BR/MG/Ingaí', 'key': 'Ingaí', 'lang': 'pt'},
-      'BR/MG/Inhapim': {
-        'id': 'data/BR/MG/Inhapim',
-        'key': 'Inhapim',
-        'lang': 'pt'
-      },
-      'BR/MG/Inhaúma': {
-        'id': 'data/BR/MG/Inhaúma',
-        'key': 'Inhaúma',
-        'lang': 'pt'
-      },
-      'BR/MG/Inimutaba': {
-        'id': 'data/BR/MG/Inimutaba',
-        'key': 'Inimutaba',
-        'lang': 'pt'
-      },
+      'BR/MG/Inhapim': {'id': 'data/BR/MG/Inhapim', 'key': 'Inhapim', 'lang': 'pt'},
+      'BR/MG/Inhaúma': {'id': 'data/BR/MG/Inhaúma', 'key': 'Inhaúma', 'lang': 'pt'},
+      'BR/MG/Inimutaba': {'id': 'data/BR/MG/Inimutaba', 'key': 'Inimutaba', 'lang': 'pt'},
       'BR/MG/Ipaba': {'id': 'data/BR/MG/Ipaba', 'key': 'Ipaba', 'lang': 'pt'},
-      'BR/MG/Ipanema': {
-        'id': 'data/BR/MG/Ipanema',
-        'key': 'Ipanema',
-        'lang': 'pt'
-      },
-      'BR/MG/Ipatinga': {
-        'id': 'data/BR/MG/Ipatinga',
-        'key': 'Ipatinga',
-        'lang': 'pt'
-      },
-      'BR/MG/Ipiaçu': {
-        'id': 'data/BR/MG/Ipiaçu',
-        'key': 'Ipiaçu',
-        'lang': 'pt'
-      },
-      'BR/MG/Ipuiúna': {
-        'id': 'data/BR/MG/Ipuiúna',
-        'key': 'Ipuiúna',
-        'lang': 'pt'
-      },
+      'BR/MG/Ipanema': {'id': 'data/BR/MG/Ipanema', 'key': 'Ipanema', 'lang': 'pt'},
+      'BR/MG/Ipatinga': {'id': 'data/BR/MG/Ipatinga', 'key': 'Ipatinga', 'lang': 'pt'},
+      'BR/MG/Ipiaçu': {'id': 'data/BR/MG/Ipiaçu', 'key': 'Ipiaçu', 'lang': 'pt'},
+      'BR/MG/Ipuiúna': {'id': 'data/BR/MG/Ipuiúna', 'key': 'Ipuiúna', 'lang': 'pt'},
       'BR/MG/Iraí de Minas': {
         'id': 'data/BR/MG/Iraí de Minas',
         'key': 'Iraí de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Itabira': {
-        'id': 'data/BR/MG/Itabira',
-        'key': 'Itabira',
-        'lang': 'pt'
-      },
+      'BR/MG/Itabira': {'id': 'data/BR/MG/Itabira', 'key': 'Itabira', 'lang': 'pt'},
       'BR/MG/Itabirinha': {
         'id': 'data/BR/MG/Itabirinha',
         'key': 'Itabirinha',
         'lang': 'pt'
       },
-      'BR/MG/Itabirito': {
-        'id': 'data/BR/MG/Itabirito',
-        'key': 'Itabirito',
-        'lang': 'pt'
-      },
+      'BR/MG/Itabirito': {'id': 'data/BR/MG/Itabirito', 'key': 'Itabirito', 'lang': 'pt'},
       'BR/MG/Itacambira': {
         'id': 'data/BR/MG/Itacambira',
         'key': 'Itacambira',
@@ -9013,21 +6195,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Itacarambi',
         'lang': 'pt'
       },
-      'BR/MG/Itaguara': {
-        'id': 'data/BR/MG/Itaguara',
-        'key': 'Itaguara',
-        'lang': 'pt'
-      },
-      'BR/MG/Itaipé': {
-        'id': 'data/BR/MG/Itaipé',
-        'key': 'Itaipé',
-        'lang': 'pt'
-      },
-      'BR/MG/Itajubá': {
-        'id': 'data/BR/MG/Itajubá',
-        'key': 'Itajubá',
-        'lang': 'pt'
-      },
+      'BR/MG/Itaguara': {'id': 'data/BR/MG/Itaguara', 'key': 'Itaguara', 'lang': 'pt'},
+      'BR/MG/Itaipé': {'id': 'data/BR/MG/Itaipé', 'key': 'Itaipé', 'lang': 'pt'},
+      'BR/MG/Itajubá': {'id': 'data/BR/MG/Itajubá', 'key': 'Itajubá', 'lang': 'pt'},
       'BR/MG/Itamarandiba': {
         'id': 'data/BR/MG/Itamarandiba',
         'key': 'Itamarandiba',
@@ -9048,198 +6218,74 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Itambé do Mato Dentro',
         'lang': 'pt'
       },
-      'BR/MG/Itamogi': {
-        'id': 'data/BR/MG/Itamogi',
-        'key': 'Itamogi',
-        'lang': 'pt'
-      },
-      'BR/MG/Itamonte': {
-        'id': 'data/BR/MG/Itamonte',
-        'key': 'Itamonte',
-        'lang': 'pt'
-      },
-      'BR/MG/Itanhandu': {
-        'id': 'data/BR/MG/Itanhandu',
-        'key': 'Itanhandu',
-        'lang': 'pt'
-      },
-      'BR/MG/Itanhomi': {
-        'id': 'data/BR/MG/Itanhomi',
-        'key': 'Itanhomi',
-        'lang': 'pt'
-      },
-      'BR/MG/Itaobim': {
-        'id': 'data/BR/MG/Itaobim',
-        'key': 'Itaobim',
-        'lang': 'pt'
-      },
-      'BR/MG/Itapagipe': {
-        'id': 'data/BR/MG/Itapagipe',
-        'key': 'Itapagipe',
-        'lang': 'pt'
-      },
+      'BR/MG/Itamogi': {'id': 'data/BR/MG/Itamogi', 'key': 'Itamogi', 'lang': 'pt'},
+      'BR/MG/Itamonte': {'id': 'data/BR/MG/Itamonte', 'key': 'Itamonte', 'lang': 'pt'},
+      'BR/MG/Itanhandu': {'id': 'data/BR/MG/Itanhandu', 'key': 'Itanhandu', 'lang': 'pt'},
+      'BR/MG/Itanhomi': {'id': 'data/BR/MG/Itanhomi', 'key': 'Itanhomi', 'lang': 'pt'},
+      'BR/MG/Itaobim': {'id': 'data/BR/MG/Itaobim', 'key': 'Itaobim', 'lang': 'pt'},
+      'BR/MG/Itapagipe': {'id': 'data/BR/MG/Itapagipe', 'key': 'Itapagipe', 'lang': 'pt'},
       'BR/MG/Itapecerica': {
         'id': 'data/BR/MG/Itapecerica',
         'key': 'Itapecerica',
         'lang': 'pt'
       },
-      'BR/MG/Itapeva': {
-        'id': 'data/BR/MG/Itapeva',
-        'key': 'Itapeva',
-        'lang': 'pt'
-      },
+      'BR/MG/Itapeva': {'id': 'data/BR/MG/Itapeva', 'key': 'Itapeva', 'lang': 'pt'},
       'BR/MG/Itatiaiuçu': {
         'id': 'data/BR/MG/Itatiaiuçu',
         'key': 'Itatiaiuçu',
         'lang': 'pt'
       },
-      'BR/MG/Itaverava': {
-        'id': 'data/BR/MG/Itaverava',
-        'key': 'Itaverava',
-        'lang': 'pt'
-      },
+      'BR/MG/Itaverava': {'id': 'data/BR/MG/Itaverava', 'key': 'Itaverava', 'lang': 'pt'},
       'BR/MG/Itaú de Minas': {
         'id': 'data/BR/MG/Itaú de Minas',
         'key': 'Itaú de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Itaúna': {
-        'id': 'data/BR/MG/Itaúna',
-        'key': 'Itaúna',
-        'lang': 'pt'
-      },
-      'BR/MG/Itinga': {
-        'id': 'data/BR/MG/Itinga',
-        'key': 'Itinga',
-        'lang': 'pt'
-      },
-      'BR/MG/Itueta': {
-        'id': 'data/BR/MG/Itueta',
-        'key': 'Itueta',
-        'lang': 'pt'
-      },
-      'BR/MG/Ituiutaba': {
-        'id': 'data/BR/MG/Ituiutaba',
-        'key': 'Ituiutaba',
-        'lang': 'pt'
-      },
-      'BR/MG/Itumirim': {
-        'id': 'data/BR/MG/Itumirim',
-        'key': 'Itumirim',
-        'lang': 'pt'
-      },
-      'BR/MG/Iturama': {
-        'id': 'data/BR/MG/Iturama',
-        'key': 'Iturama',
-        'lang': 'pt'
-      },
-      'BR/MG/Itutinga': {
-        'id': 'data/BR/MG/Itutinga',
-        'key': 'Itutinga',
-        'lang': 'pt'
-      },
+      'BR/MG/Itaúna': {'id': 'data/BR/MG/Itaúna', 'key': 'Itaúna', 'lang': 'pt'},
+      'BR/MG/Itinga': {'id': 'data/BR/MG/Itinga', 'key': 'Itinga', 'lang': 'pt'},
+      'BR/MG/Itueta': {'id': 'data/BR/MG/Itueta', 'key': 'Itueta', 'lang': 'pt'},
+      'BR/MG/Ituiutaba': {'id': 'data/BR/MG/Ituiutaba', 'key': 'Ituiutaba', 'lang': 'pt'},
+      'BR/MG/Itumirim': {'id': 'data/BR/MG/Itumirim', 'key': 'Itumirim', 'lang': 'pt'},
+      'BR/MG/Iturama': {'id': 'data/BR/MG/Iturama', 'key': 'Iturama', 'lang': 'pt'},
+      'BR/MG/Itutinga': {'id': 'data/BR/MG/Itutinga', 'key': 'Itutinga', 'lang': 'pt'},
       'BR/MG/Jaboticatubas': {
         'id': 'data/BR/MG/Jaboticatubas',
         'key': 'Jaboticatubas',
         'lang': 'pt'
       },
-      'BR/MG/Jacinto': {
-        'id': 'data/BR/MG/Jacinto',
-        'key': 'Jacinto',
-        'lang': 'pt'
-      },
-      'BR/MG/Jacutinga': {
-        'id': 'data/BR/MG/Jacutinga',
-        'key': 'Jacutinga',
-        'lang': 'pt'
-      },
+      'BR/MG/Jacinto': {'id': 'data/BR/MG/Jacinto', 'key': 'Jacinto', 'lang': 'pt'},
+      'BR/MG/Jacutinga': {'id': 'data/BR/MG/Jacutinga', 'key': 'Jacutinga', 'lang': 'pt'},
       'BR/MG/Jacuí': {'id': 'data/BR/MG/Jacuí', 'key': 'Jacuí', 'lang': 'pt'},
-      'BR/MG/Jaguaraçu': {
-        'id': 'data/BR/MG/Jaguaraçu',
-        'key': 'Jaguaraçu',
-        'lang': 'pt'
-      },
-      'BR/MG/Jampruca': {
-        'id': 'data/BR/MG/Jampruca',
-        'key': 'Jampruca',
-        'lang': 'pt'
-      },
-      'BR/MG/Janaúba': {
-        'id': 'data/BR/MG/Janaúba',
-        'key': 'Janaúba',
-        'lang': 'pt'
-      },
-      'BR/MG/Januária': {
-        'id': 'data/BR/MG/Januária',
-        'key': 'Januária',
-        'lang': 'pt'
-      },
-      'BR/MG/Japaraíba': {
-        'id': 'data/BR/MG/Japaraíba',
-        'key': 'Japaraíba',
-        'lang': 'pt'
-      },
-      'BR/MG/Japonvar': {
-        'id': 'data/BR/MG/Japonvar',
-        'key': 'Japonvar',
-        'lang': 'pt'
-      },
+      'BR/MG/Jaguaraçu': {'id': 'data/BR/MG/Jaguaraçu', 'key': 'Jaguaraçu', 'lang': 'pt'},
+      'BR/MG/Jampruca': {'id': 'data/BR/MG/Jampruca', 'key': 'Jampruca', 'lang': 'pt'},
+      'BR/MG/Janaúba': {'id': 'data/BR/MG/Janaúba', 'key': 'Janaúba', 'lang': 'pt'},
+      'BR/MG/Januária': {'id': 'data/BR/MG/Januária', 'key': 'Januária', 'lang': 'pt'},
+      'BR/MG/Japaraíba': {'id': 'data/BR/MG/Japaraíba', 'key': 'Japaraíba', 'lang': 'pt'},
+      'BR/MG/Japonvar': {'id': 'data/BR/MG/Japonvar', 'key': 'Japonvar', 'lang': 'pt'},
       'BR/MG/Jaíba': {'id': 'data/BR/MG/Jaíba', 'key': 'Jaíba', 'lang': 'pt'},
-      'BR/MG/Jeceaba': {
-        'id': 'data/BR/MG/Jeceaba',
-        'key': 'Jeceaba',
-        'lang': 'pt'
-      },
+      'BR/MG/Jeceaba': {'id': 'data/BR/MG/Jeceaba', 'key': 'Jeceaba', 'lang': 'pt'},
       'BR/MG/Jenipapo de Minas': {
         'id': 'data/BR/MG/Jenipapo de Minas',
         'key': 'Jenipapo de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Jequeri': {
-        'id': 'data/BR/MG/Jequeri',
-        'key': 'Jequeri',
-        'lang': 'pt'
-      },
-      'BR/MG/Jequitaí': {
-        'id': 'data/BR/MG/Jequitaí',
-        'key': 'Jequitaí',
-        'lang': 'pt'
-      },
-      'BR/MG/Jequitibá': {
-        'id': 'data/BR/MG/Jequitibá',
-        'key': 'Jequitibá',
-        'lang': 'pt'
-      },
+      'BR/MG/Jequeri': {'id': 'data/BR/MG/Jequeri', 'key': 'Jequeri', 'lang': 'pt'},
+      'BR/MG/Jequitaí': {'id': 'data/BR/MG/Jequitaí', 'key': 'Jequitaí', 'lang': 'pt'},
+      'BR/MG/Jequitibá': {'id': 'data/BR/MG/Jequitibá', 'key': 'Jequitibá', 'lang': 'pt'},
       'BR/MG/Jequitinhonha': {
         'id': 'data/BR/MG/Jequitinhonha',
         'key': 'Jequitinhonha',
         'lang': 'pt'
       },
-      'BR/MG/Jesuânia': {
-        'id': 'data/BR/MG/Jesuânia',
-        'key': 'Jesuânia',
-        'lang': 'pt'
-      },
-      'BR/MG/Joanésia': {
-        'id': 'data/BR/MG/Joanésia',
-        'key': 'Joanésia',
-        'lang': 'pt'
-      },
+      'BR/MG/Jesuânia': {'id': 'data/BR/MG/Jesuânia', 'key': 'Jesuânia', 'lang': 'pt'},
+      'BR/MG/Joanésia': {'id': 'data/BR/MG/Joanésia', 'key': 'Joanésia', 'lang': 'pt'},
       'BR/MG/Joaquim Felício': {
         'id': 'data/BR/MG/Joaquim Felício',
         'key': 'Joaquim Felício',
         'lang': 'pt'
       },
-      'BR/MG/Joaíma': {
-        'id': 'data/BR/MG/Joaíma',
-        'key': 'Joaíma',
-        'lang': 'pt'
-      },
-      'BR/MG/Jordânia': {
-        'id': 'data/BR/MG/Jordânia',
-        'key': 'Jordânia',
-        'lang': 'pt'
-      },
+      'BR/MG/Joaíma': {'id': 'data/BR/MG/Joaíma', 'key': 'Joaíma', 'lang': 'pt'},
+      'BR/MG/Jordânia': {'id': 'data/BR/MG/Jordânia', 'key': 'Jordânia', 'lang': 'pt'},
       'BR/MG/Josenópolis': {
         'id': 'data/BR/MG/Josenópolis',
         'key': 'Josenópolis',
@@ -9265,41 +6311,17 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'João Pinheiro',
         'lang': 'pt'
       },
-      'BR/MG/Juatuba': {
-        'id': 'data/BR/MG/Juatuba',
-        'key': 'Juatuba',
-        'lang': 'pt'
-      },
+      'BR/MG/Juatuba': {'id': 'data/BR/MG/Juatuba', 'key': 'Juatuba', 'lang': 'pt'},
       'BR/MG/Juiz de Fora': {
         'id': 'data/BR/MG/Juiz de Fora',
         'key': 'Juiz de Fora',
         'lang': 'pt'
       },
-      'BR/MG/Juramento': {
-        'id': 'data/BR/MG/Juramento',
-        'key': 'Juramento',
-        'lang': 'pt'
-      },
-      'BR/MG/Juruaia': {
-        'id': 'data/BR/MG/Juruaia',
-        'key': 'Juruaia',
-        'lang': 'pt'
-      },
-      'BR/MG/Juvenilia': {
-        'id': 'data/BR/MG/Juvenilia',
-        'key': 'Juvenilia',
-        'lang': 'pt'
-      },
-      'BR/MG/Ladainha': {
-        'id': 'data/BR/MG/Ladainha',
-        'key': 'Ladainha',
-        'lang': 'pt'
-      },
-      'BR/MG/Lagamar': {
-        'id': 'data/BR/MG/Lagamar',
-        'key': 'Lagamar',
-        'lang': 'pt'
-      },
+      'BR/MG/Juramento': {'id': 'data/BR/MG/Juramento', 'key': 'Juramento', 'lang': 'pt'},
+      'BR/MG/Juruaia': {'id': 'data/BR/MG/Juruaia', 'key': 'Juruaia', 'lang': 'pt'},
+      'BR/MG/Juvenilia': {'id': 'data/BR/MG/Juvenilia', 'key': 'Juvenilia', 'lang': 'pt'},
+      'BR/MG/Ladainha': {'id': 'data/BR/MG/Ladainha', 'key': 'Ladainha', 'lang': 'pt'},
+      'BR/MG/Lagamar': {'id': 'data/BR/MG/Lagamar', 'key': 'Lagamar', 'lang': 'pt'},
       'BR/MG/Lagoa Dourada': {
         'id': 'data/BR/MG/Lagoa Dourada',
         'key': 'Lagoa Dourada',
@@ -9330,32 +6352,12 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Lagoa dos Patos',
         'lang': 'pt'
       },
-      'BR/MG/Lajinha': {
-        'id': 'data/BR/MG/Lajinha',
-        'key': 'Lajinha',
-        'lang': 'pt'
-      },
-      'BR/MG/Lambari': {
-        'id': 'data/BR/MG/Lambari',
-        'key': 'Lambari',
-        'lang': 'pt'
-      },
+      'BR/MG/Lajinha': {'id': 'data/BR/MG/Lajinha', 'key': 'Lajinha', 'lang': 'pt'},
+      'BR/MG/Lambari': {'id': 'data/BR/MG/Lambari', 'key': 'Lambari', 'lang': 'pt'},
       'BR/MG/Lamim': {'id': 'data/BR/MG/Lamim', 'key': 'Lamim', 'lang': 'pt'},
-      'BR/MG/Laranjal': {
-        'id': 'data/BR/MG/Laranjal',
-        'key': 'Laranjal',
-        'lang': 'pt'
-      },
-      'BR/MG/Lassance': {
-        'id': 'data/BR/MG/Lassance',
-        'key': 'Lassance',
-        'lang': 'pt'
-      },
-      'BR/MG/Lavras': {
-        'id': 'data/BR/MG/Lavras',
-        'key': 'Lavras',
-        'lang': 'pt'
-      },
+      'BR/MG/Laranjal': {'id': 'data/BR/MG/Laranjal', 'key': 'Laranjal', 'lang': 'pt'},
+      'BR/MG/Lassance': {'id': 'data/BR/MG/Lassance', 'key': 'Lassance', 'lang': 'pt'},
+      'BR/MG/Lavras': {'id': 'data/BR/MG/Lavras', 'key': 'Lavras', 'lang': 'pt'},
       'BR/MG/Leandro Ferreira': {
         'id': 'data/BR/MG/Leandro Ferreira',
         'key': 'Leandro Ferreira',
@@ -9371,11 +6373,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Leopoldina',
         'lang': 'pt'
       },
-      'BR/MG/Liberdade': {
-        'id': 'data/BR/MG/Liberdade',
-        'key': 'Liberdade',
-        'lang': 'pt'
-      },
+      'BR/MG/Liberdade': {'id': 'data/BR/MG/Liberdade', 'key': 'Liberdade', 'lang': 'pt'},
       'BR/MG/Lima Duarte': {
         'id': 'data/BR/MG/Lima Duarte',
         'key': 'Lima Duarte',
@@ -9386,16 +6384,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Limeira do Oeste',
         'lang': 'pt'
       },
-      'BR/MG/Lontra': {
-        'id': 'data/BR/MG/Lontra',
-        'key': 'Lontra',
-        'lang': 'pt'
-      },
-      'BR/MG/Luisburgo': {
-        'id': 'data/BR/MG/Luisburgo',
-        'key': 'Luisburgo',
-        'lang': 'pt'
-      },
+      'BR/MG/Lontra': {'id': 'data/BR/MG/Lontra', 'key': 'Lontra', 'lang': 'pt'},
+      'BR/MG/Luisburgo': {'id': 'data/BR/MG/Luisburgo', 'key': 'Luisburgo', 'lang': 'pt'},
       'BR/MG/Luislândia': {
         'id': 'data/BR/MG/Luislândia',
         'key': 'Luislândia',
@@ -9412,11 +6402,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Machacalis',
         'lang': 'pt'
       },
-      'BR/MG/Machado': {
-        'id': 'data/BR/MG/Machado',
-        'key': 'Machado',
-        'lang': 'pt'
-      },
+      'BR/MG/Machado': {'id': 'data/BR/MG/Machado', 'key': 'Machado', 'lang': 'pt'},
       'BR/MG/Madre de Deus de Minas': {
         'id': 'data/BR/MG/Madre de Deus de Minas',
         'key': 'Madre de Deus de Minas',
@@ -9427,27 +6413,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Malacacheta',
         'lang': 'pt'
       },
-      'BR/MG/Mamonas': {
-        'id': 'data/BR/MG/Mamonas',
-        'key': 'Mamonas',
-        'lang': 'pt'
-      },
+      'BR/MG/Mamonas': {'id': 'data/BR/MG/Mamonas', 'key': 'Mamonas', 'lang': 'pt'},
       'BR/MG/Manga': {'id': 'data/BR/MG/Manga', 'key': 'Manga', 'lang': 'pt'},
-      'BR/MG/Manhuaçu': {
-        'id': 'data/BR/MG/Manhuaçu',
-        'key': 'Manhuaçu',
-        'lang': 'pt'
-      },
+      'BR/MG/Manhuaçu': {'id': 'data/BR/MG/Manhuaçu', 'key': 'Manhuaçu', 'lang': 'pt'},
       'BR/MG/Manhumirim': {
         'id': 'data/BR/MG/Manhumirim',
         'key': 'Manhumirim',
         'lang': 'pt'
       },
-      'BR/MG/Mantena': {
-        'id': 'data/BR/MG/Mantena',
-        'key': 'Mantena',
-        'lang': 'pt'
-      },
+      'BR/MG/Mantena': {'id': 'data/BR/MG/Mantena', 'key': 'Mantena', 'lang': 'pt'},
       'BR/MG/Mar de Espanha': {
         'id': 'data/BR/MG/Mar de Espanha',
         'key': 'Mar de Espanha',
@@ -9463,26 +6437,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Maria da Fé',
         'lang': 'pt'
       },
-      'BR/MG/Mariana': {
-        'id': 'data/BR/MG/Mariana',
-        'key': 'Mariana',
-        'lang': 'pt'
-      },
-      'BR/MG/Marilac': {
-        'id': 'data/BR/MG/Marilac',
-        'key': 'Marilac',
-        'lang': 'pt'
-      },
+      'BR/MG/Mariana': {'id': 'data/BR/MG/Mariana', 'key': 'Mariana', 'lang': 'pt'},
+      'BR/MG/Marilac': {'id': 'data/BR/MG/Marilac', 'key': 'Marilac', 'lang': 'pt'},
       'BR/MG/Maripá de Minas': {
         'id': 'data/BR/MG/Maripá de Minas',
         'key': 'Maripá de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Marliéria': {
-        'id': 'data/BR/MG/Marliéria',
-        'key': 'Marliéria',
-        'lang': 'pt'
-      },
+      'BR/MG/Marliéria': {'id': 'data/BR/MG/Marliéria', 'key': 'Marliéria', 'lang': 'pt'},
       'BR/MG/Marmelópolis': {
         'id': 'data/BR/MG/Marmelópolis',
         'key': 'Marmelópolis',
@@ -9528,11 +6490,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Matias Cardoso',
         'lang': 'pt'
       },
-      'BR/MG/Matipo': {
-        'id': 'data/BR/MG/Matipo',
-        'key': 'Matipo',
-        'lang': 'pt'
-      },
+      'BR/MG/Matipo': {'id': 'data/BR/MG/Matipo', 'key': 'Matipo', 'lang': 'pt'},
       'BR/MG/Mato Verde': {
         'id': 'data/BR/MG/Mato Verde',
         'key': 'Mato Verde',
@@ -9543,69 +6501,29 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Matozinhos',
         'lang': 'pt'
       },
-      'BR/MG/Matutina': {
-        'id': 'data/BR/MG/Matutina',
-        'key': 'Matutina',
-        'lang': 'pt'
-      },
-      'BR/MG/Medeiros': {
-        'id': 'data/BR/MG/Medeiros',
-        'key': 'Medeiros',
-        'lang': 'pt'
-      },
-      'BR/MG/Medina': {
-        'id': 'data/BR/MG/Medina',
-        'key': 'Medina',
-        'lang': 'pt'
-      },
+      'BR/MG/Matutina': {'id': 'data/BR/MG/Matutina', 'key': 'Matutina', 'lang': 'pt'},
+      'BR/MG/Medeiros': {'id': 'data/BR/MG/Medeiros', 'key': 'Medeiros', 'lang': 'pt'},
+      'BR/MG/Medina': {'id': 'data/BR/MG/Medina', 'key': 'Medina', 'lang': 'pt'},
       'BR/MG/Mendes Pimentel': {
         'id': 'data/BR/MG/Mendes Pimentel',
         'key': 'Mendes Pimentel',
         'lang': 'pt'
       },
-      'BR/MG/Mercês': {
-        'id': 'data/BR/MG/Mercês',
-        'key': 'Mercês',
-        'lang': 'pt'
-      },
-      'BR/MG/Mesquita': {
-        'id': 'data/BR/MG/Mesquita',
-        'key': 'Mesquita',
-        'lang': 'pt'
-      },
+      'BR/MG/Mercês': {'id': 'data/BR/MG/Mercês', 'key': 'Mercês', 'lang': 'pt'},
+      'BR/MG/Mesquita': {'id': 'data/BR/MG/Mesquita', 'key': 'Mesquita', 'lang': 'pt'},
       'BR/MG/Minas Novas': {
         'id': 'data/BR/MG/Minas Novas',
         'key': 'Minas Novas',
         'lang': 'pt'
       },
-      'BR/MG/Minduri': {
-        'id': 'data/BR/MG/Minduri',
-        'key': 'Minduri',
-        'lang': 'pt'
-      },
-      'BR/MG/Mirabela': {
-        'id': 'data/BR/MG/Mirabela',
-        'key': 'Mirabela',
-        'lang': 'pt'
-      },
-      'BR/MG/Miradouro': {
-        'id': 'data/BR/MG/Miradouro',
-        'key': 'Miradouro',
-        'lang': 'pt'
-      },
-      'BR/MG/Miravânia': {
-        'id': 'data/BR/MG/Miravânia',
-        'key': 'Miravânia',
-        'lang': 'pt'
-      },
+      'BR/MG/Minduri': {'id': 'data/BR/MG/Minduri', 'key': 'Minduri', 'lang': 'pt'},
+      'BR/MG/Mirabela': {'id': 'data/BR/MG/Mirabela', 'key': 'Mirabela', 'lang': 'pt'},
+      'BR/MG/Miradouro': {'id': 'data/BR/MG/Miradouro', 'key': 'Miradouro', 'lang': 'pt'},
+      'BR/MG/Miravânia': {'id': 'data/BR/MG/Miravânia', 'key': 'Miravânia', 'lang': 'pt'},
       'BR/MG/Miraí': {'id': 'data/BR/MG/Miraí', 'key': 'Miraí', 'lang': 'pt'},
       'BR/MG/Moeda': {'id': 'data/BR/MG/Moeda', 'key': 'Moeda', 'lang': 'pt'},
       'BR/MG/Moema': {'id': 'data/BR/MG/Moema', 'key': 'Moema', 'lang': 'pt'},
-      'BR/MG/Monjolos': {
-        'id': 'data/BR/MG/Monjolos',
-        'key': 'Monjolos',
-        'lang': 'pt'
-      },
+      'BR/MG/Monjolos': {'id': 'data/BR/MG/Monjolos', 'key': 'Monjolos', 'lang': 'pt'},
       'BR/MG/Monsenhor Paulo': {
         'id': 'data/BR/MG/Monsenhor Paulo',
         'key': 'Monsenhor Paulo',
@@ -9656,11 +6574,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Montes Claros',
         'lang': 'pt'
       },
-      'BR/MG/Montezuma': {
-        'id': 'data/BR/MG/Montezuma',
-        'key': 'Montezuma',
-        'lang': 'pt'
-      },
+      'BR/MG/Montezuma': {'id': 'data/BR/MG/Montezuma', 'key': 'Montezuma', 'lang': 'pt'},
       'BR/MG/Morada Nova de Minas': {
         'id': 'data/BR/MG/Morada Nova de Minas',
         'key': 'Morada Nova de Minas',
@@ -9676,16 +6590,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Morro do Pilar',
         'lang': 'pt'
       },
-      'BR/MG/Munhoz': {
-        'id': 'data/BR/MG/Munhoz',
-        'key': 'Munhoz',
-        'lang': 'pt'
-      },
-      'BR/MG/Muriaé': {
-        'id': 'data/BR/MG/Muriaé',
-        'key': 'Muriaé',
-        'lang': 'pt'
-      },
+      'BR/MG/Munhoz': {'id': 'data/BR/MG/Munhoz', 'key': 'Munhoz', 'lang': 'pt'},
+      'BR/MG/Muriaé': {'id': 'data/BR/MG/Muriaé', 'key': 'Muriaé', 'lang': 'pt'},
       'BR/MG/Mutum': {'id': 'data/BR/MG/Mutum', 'key': 'Mutum', 'lang': 'pt'},
       'BR/MG/Muzambinho': {
         'id': 'data/BR/MG/Muzambinho',
@@ -9702,52 +6608,28 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Nacip Raydan',
         'lang': 'pt'
       },
-      'BR/MG/Nanuque': {
-        'id': 'data/BR/MG/Nanuque',
-        'key': 'Nanuque',
-        'lang': 'pt'
-      },
+      'BR/MG/Nanuque': {'id': 'data/BR/MG/Nanuque', 'key': 'Nanuque', 'lang': 'pt'},
       'BR/MG/Naque': {'id': 'data/BR/MG/Naque', 'key': 'Naque', 'lang': 'pt'},
       'BR/MG/Natalândia': {
         'id': 'data/BR/MG/Natalândia',
         'key': 'Natalândia',
         'lang': 'pt'
       },
-      'BR/MG/Natércia': {
-        'id': 'data/BR/MG/Natércia',
-        'key': 'Natércia',
-        'lang': 'pt'
-      },
-      'BR/MG/Nazareno': {
-        'id': 'data/BR/MG/Nazareno',
-        'key': 'Nazareno',
-        'lang': 'pt'
-      },
+      'BR/MG/Natércia': {'id': 'data/BR/MG/Natércia', 'key': 'Natércia', 'lang': 'pt'},
+      'BR/MG/Nazareno': {'id': 'data/BR/MG/Nazareno', 'key': 'Nazareno', 'lang': 'pt'},
       'BR/MG/Nepomuceno': {
         'id': 'data/BR/MG/Nepomuceno',
         'key': 'Nepomuceno',
         'lang': 'pt'
       },
-      'BR/MG/Ninheira': {
-        'id': 'data/BR/MG/Ninheira',
-        'key': 'Ninheira',
-        'lang': 'pt'
-      },
+      'BR/MG/Ninheira': {'id': 'data/BR/MG/Ninheira', 'key': 'Ninheira', 'lang': 'pt'},
       'BR/MG/Nova Belém': {
         'id': 'data/BR/MG/Nova Belém',
         'key': 'Nova Belém',
         'lang': 'pt'
       },
-      'BR/MG/Nova Era': {
-        'id': 'data/BR/MG/Nova Era',
-        'key': 'Nova Era',
-        'lang': 'pt'
-      },
-      'BR/MG/Nova Lima': {
-        'id': 'data/BR/MG/Nova Lima',
-        'key': 'Nova Lima',
-        'lang': 'pt'
-      },
+      'BR/MG/Nova Era': {'id': 'data/BR/MG/Nova Era', 'key': 'Nova Era', 'lang': 'pt'},
+      'BR/MG/Nova Lima': {'id': 'data/BR/MG/Nova Lima', 'key': 'Nova Lima', 'lang': 'pt'},
       'BR/MG/Nova Módica': {
         'id': 'data/BR/MG/Nova Módica',
         'key': 'Nova Módica',
@@ -9793,21 +6675,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Novorizonte',
         'lang': 'pt'
       },
-      'BR/MG/Olaria': {
-        'id': 'data/BR/MG/Olaria',
-        'key': 'Olaria',
-        'lang': 'pt'
-      },
+      'BR/MG/Olaria': {'id': 'data/BR/MG/Olaria', 'key': 'Olaria', 'lang': 'pt'},
       "BR/MG/Olhos-d'Água": {
         'id': "data/BR/MG/Olhos-d'Água",
         'key': "Olhos-d'Água",
         'lang': 'pt'
       },
-      'BR/MG/Oliveira': {
-        'id': 'data/BR/MG/Oliveira',
-        'key': 'Oliveira',
-        'lang': 'pt'
-      },
+      'BR/MG/Oliveira': {'id': 'data/BR/MG/Oliveira', 'key': 'Oliveira', 'lang': 'pt'},
       'BR/MG/Oliveira Fortes': {
         'id': 'data/BR/MG/Oliveira Fortes',
         'key': 'Oliveira Fortes',
@@ -9823,26 +6697,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Onça de Pitangui',
         'lang': 'pt'
       },
-      'BR/MG/Oratórios': {
-        'id': 'data/BR/MG/Oratórios',
-        'key': 'Oratórios',
-        'lang': 'pt'
-      },
-      'BR/MG/Orizânia': {
-        'id': 'data/BR/MG/Orizânia',
-        'key': 'Orizânia',
-        'lang': 'pt'
-      },
+      'BR/MG/Oratórios': {'id': 'data/BR/MG/Oratórios', 'key': 'Oratórios', 'lang': 'pt'},
+      'BR/MG/Orizânia': {'id': 'data/BR/MG/Orizânia', 'key': 'Orizânia', 'lang': 'pt'},
       'BR/MG/Ouro Branco': {
         'id': 'data/BR/MG/Ouro Branco',
         'key': 'Ouro Branco',
         'lang': 'pt'
       },
-      'BR/MG/Ouro Fino': {
-        'id': 'data/BR/MG/Ouro Fino',
-        'key': 'Ouro Fino',
-        'lang': 'pt'
-      },
+      'BR/MG/Ouro Fino': {'id': 'data/BR/MG/Ouro Fino', 'key': 'Ouro Fino', 'lang': 'pt'},
       'BR/MG/Ouro Preto': {
         'id': 'data/BR/MG/Ouro Preto',
         'key': 'Ouro Preto',
@@ -9863,16 +6725,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Padre Paraíso',
         'lang': 'pt'
       },
-      'BR/MG/Pai Pedro': {
-        'id': 'data/BR/MG/Pai Pedro',
-        'key': 'Pai Pedro',
-        'lang': 'pt'
-      },
-      'BR/MG/Paineiras': {
-        'id': 'data/BR/MG/Paineiras',
-        'key': 'Paineiras',
-        'lang': 'pt'
-      },
+      'BR/MG/Pai Pedro': {'id': 'data/BR/MG/Pai Pedro', 'key': 'Pai Pedro', 'lang': 'pt'},
+      'BR/MG/Paineiras': {'id': 'data/BR/MG/Paineiras', 'key': 'Paineiras', 'lang': 'pt'},
       'BR/MG/Pains': {'id': 'data/BR/MG/Pains', 'key': 'Pains', 'lang': 'pt'},
       'BR/MG/Paiva': {'id': 'data/BR/MG/Paiva', 'key': 'Paiva', 'lang': 'pt'},
       'BR/MG/Palma': {'id': 'data/BR/MG/Palma', 'key': 'Palma', 'lang': 'pt'},
@@ -9881,31 +6735,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Palmópolis',
         'lang': 'pt'
       },
-      'BR/MG/Papagaios': {
-        'id': 'data/BR/MG/Papagaios',
-        'key': 'Papagaios',
-        'lang': 'pt'
-      },
-      'BR/MG/Paracatu': {
-        'id': 'data/BR/MG/Paracatu',
-        'key': 'Paracatu',
-        'lang': 'pt'
-      },
-      'BR/MG/Paraguaçu': {
-        'id': 'data/BR/MG/Paraguaçu',
-        'key': 'Paraguaçu',
-        'lang': 'pt'
-      },
+      'BR/MG/Papagaios': {'id': 'data/BR/MG/Papagaios', 'key': 'Papagaios', 'lang': 'pt'},
+      'BR/MG/Paracatu': {'id': 'data/BR/MG/Paracatu', 'key': 'Paracatu', 'lang': 'pt'},
+      'BR/MG/Paraguaçu': {'id': 'data/BR/MG/Paraguaçu', 'key': 'Paraguaçu', 'lang': 'pt'},
       'BR/MG/Paraisópolis': {
         'id': 'data/BR/MG/Paraisópolis',
         'key': 'Paraisópolis',
         'lang': 'pt'
       },
-      'BR/MG/Paraopeba': {
-        'id': 'data/BR/MG/Paraopeba',
-        'key': 'Paraopeba',
-        'lang': 'pt'
-      },
+      'BR/MG/Paraopeba': {'id': 'data/BR/MG/Paraopeba', 'key': 'Paraopeba', 'lang': 'pt'},
       'BR/MG/Pará de Minas': {
         'id': 'data/BR/MG/Pará de Minas',
         'key': 'Pará de Minas',
@@ -9926,16 +6764,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Passa Vinte',
         'lang': 'pt'
       },
-      'BR/MG/Passabém': {
-        'id': 'data/BR/MG/Passabém',
-        'key': 'Passabém',
-        'lang': 'pt'
-      },
-      'BR/MG/Passos': {
-        'id': 'data/BR/MG/Passos',
-        'key': 'Passos',
-        'lang': 'pt'
-      },
+      'BR/MG/Passabém': {'id': 'data/BR/MG/Passabém', 'key': 'Passabém', 'lang': 'pt'},
+      'BR/MG/Passos': {'id': 'data/BR/MG/Passos', 'key': 'Passos', 'lang': 'pt'},
       'BR/MG/Patis': {'id': 'data/BR/MG/Patis', 'key': 'Patis', 'lang': 'pt'},
       'BR/MG/Patos de Minas': {
         'id': 'data/BR/MG/Patos de Minas',
@@ -9957,11 +6787,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Paula Cândido',
         'lang': 'pt'
       },
-      'BR/MG/Paulistas': {
-        'id': 'data/BR/MG/Paulistas',
-        'key': 'Paulistas',
-        'lang': 'pt'
-      },
+      'BR/MG/Paulistas': {'id': 'data/BR/MG/Paulistas', 'key': 'Paulistas', 'lang': 'pt'},
       'BR/MG/Pavão': {'id': 'data/BR/MG/Pavão', 'key': 'Pavão', 'lang': 'pt'},
       'BR/MG/Pedra Azul': {
         'id': 'data/BR/MG/Pedra Azul',
@@ -9988,11 +6814,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pedra do Indaiá',
         'lang': 'pt'
       },
-      'BR/MG/Pedralva': {
-        'id': 'data/BR/MG/Pedralva',
-        'key': 'Pedralva',
-        'lang': 'pt'
-      },
+      'BR/MG/Pedralva': {'id': 'data/BR/MG/Pedralva', 'key': 'Pedralva', 'lang': 'pt'},
       'BR/MG/Pedras de Maria da Cruz': {
         'id': 'data/BR/MG/Pedras de Maria da Cruz',
         'key': 'Pedras de Maria da Cruz',
@@ -10013,42 +6835,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pedro Teixeira',
         'lang': 'pt'
       },
-      'BR/MG/Pequeri': {
-        'id': 'data/BR/MG/Pequeri',
-        'key': 'Pequeri',
-        'lang': 'pt'
-      },
+      'BR/MG/Pequeri': {'id': 'data/BR/MG/Pequeri', 'key': 'Pequeri', 'lang': 'pt'},
       'BR/MG/Pequi': {'id': 'data/BR/MG/Pequi', 'key': 'Pequi', 'lang': 'pt'},
-      'BR/MG/Perdigão': {
-        'id': 'data/BR/MG/Perdigão',
-        'key': 'Perdigão',
-        'lang': 'pt'
-      },
-      'BR/MG/Perdizes': {
-        'id': 'data/BR/MG/Perdizes',
-        'key': 'Perdizes',
-        'lang': 'pt'
-      },
-      'BR/MG/Perdões': {
-        'id': 'data/BR/MG/Perdões',
-        'key': 'Perdões',
-        'lang': 'pt'
-      },
-      'BR/MG/Periquito': {
-        'id': 'data/BR/MG/Periquito',
-        'key': 'Periquito',
-        'lang': 'pt'
-      },
-      'BR/MG/Pescador': {
-        'id': 'data/BR/MG/Pescador',
-        'key': 'Pescador',
-        'lang': 'pt'
-      },
-      'BR/MG/Peçanha': {
-        'id': 'data/BR/MG/Peçanha',
-        'key': 'Peçanha',
-        'lang': 'pt'
-      },
+      'BR/MG/Perdigão': {'id': 'data/BR/MG/Perdigão', 'key': 'Perdigão', 'lang': 'pt'},
+      'BR/MG/Perdizes': {'id': 'data/BR/MG/Perdizes', 'key': 'Perdizes', 'lang': 'pt'},
+      'BR/MG/Perdões': {'id': 'data/BR/MG/Perdões', 'key': 'Perdões', 'lang': 'pt'},
+      'BR/MG/Periquito': {'id': 'data/BR/MG/Periquito', 'key': 'Periquito', 'lang': 'pt'},
+      'BR/MG/Pescador': {'id': 'data/BR/MG/Pescador', 'key': 'Pescador', 'lang': 'pt'},
+      'BR/MG/Peçanha': {'id': 'data/BR/MG/Peçanha', 'key': 'Peçanha', 'lang': 'pt'},
       'BR/MG/Piau': {'id': 'data/BR/MG/Piau', 'key': 'Piau', 'lang': 'pt'},
       'BR/MG/Piedade de Caratinga': {
         'id': 'data/BR/MG/Piedade de Caratinga',
@@ -10070,11 +6864,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Piedade dos Gerais',
         'lang': 'pt'
       },
-      'BR/MG/Pimenta': {
-        'id': 'data/BR/MG/Pimenta',
-        'key': 'Pimenta',
-        'lang': 'pt'
-      },
+      'BR/MG/Pimenta': {'id': 'data/BR/MG/Pimenta', 'key': 'Pimenta', 'lang': 'pt'},
       "BR/MG/Pingo d'Água": {
         'id': "data/BR/MG/Pingo d'Água",
         'key': "Pingo d'Água",
@@ -10085,71 +6875,27 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pintópolis',
         'lang': 'pt'
       },
-      'BR/MG/Piracema': {
-        'id': 'data/BR/MG/Piracema',
-        'key': 'Piracema',
-        'lang': 'pt'
-      },
-      'BR/MG/Pirajuba': {
-        'id': 'data/BR/MG/Pirajuba',
-        'key': 'Pirajuba',
-        'lang': 'pt'
-      },
-      'BR/MG/Piranga': {
-        'id': 'data/BR/MG/Piranga',
-        'key': 'Piranga',
-        'lang': 'pt'
-      },
+      'BR/MG/Piracema': {'id': 'data/BR/MG/Piracema', 'key': 'Piracema', 'lang': 'pt'},
+      'BR/MG/Pirajuba': {'id': 'data/BR/MG/Pirajuba', 'key': 'Pirajuba', 'lang': 'pt'},
+      'BR/MG/Piranga': {'id': 'data/BR/MG/Piranga', 'key': 'Piranga', 'lang': 'pt'},
       'BR/MG/Piranguinho': {
         'id': 'data/BR/MG/Piranguinho',
         'key': 'Piranguinho',
         'lang': 'pt'
       },
-      'BR/MG/Piranguçu': {
-        'id': 'data/BR/MG/Piranguçu',
-        'key': 'Piranguçu',
-        'lang': 'pt'
-      },
+      'BR/MG/Piranguçu': {'id': 'data/BR/MG/Piranguçu', 'key': 'Piranguçu', 'lang': 'pt'},
       'BR/MG/Pirapetinga': {
         'id': 'data/BR/MG/Pirapetinga',
         'key': 'Pirapetinga',
         'lang': 'pt'
       },
-      'BR/MG/Pirapora': {
-        'id': 'data/BR/MG/Pirapora',
-        'key': 'Pirapora',
-        'lang': 'pt'
-      },
-      'BR/MG/Piraúba': {
-        'id': 'data/BR/MG/Piraúba',
-        'key': 'Piraúba',
-        'lang': 'pt'
-      },
-      'BR/MG/Pitangui': {
-        'id': 'data/BR/MG/Pitangui',
-        'key': 'Pitangui',
-        'lang': 'pt'
-      },
-      'BR/MG/Piumhi': {
-        'id': 'data/BR/MG/Piumhi',
-        'key': 'Piumhi',
-        'lang': 'pt'
-      },
-      'BR/MG/Planura': {
-        'id': 'data/BR/MG/Planura',
-        'key': 'Planura',
-        'lang': 'pt'
-      },
-      'BR/MG/Pocrane': {
-        'id': 'data/BR/MG/Pocrane',
-        'key': 'Pocrane',
-        'lang': 'pt'
-      },
-      'BR/MG/Pompéu': {
-        'id': 'data/BR/MG/Pompéu',
-        'key': 'Pompéu',
-        'lang': 'pt'
-      },
+      'BR/MG/Pirapora': {'id': 'data/BR/MG/Pirapora', 'key': 'Pirapora', 'lang': 'pt'},
+      'BR/MG/Piraúba': {'id': 'data/BR/MG/Piraúba', 'key': 'Piraúba', 'lang': 'pt'},
+      'BR/MG/Pitangui': {'id': 'data/BR/MG/Pitangui', 'key': 'Pitangui', 'lang': 'pt'},
+      'BR/MG/Piumhi': {'id': 'data/BR/MG/Piumhi', 'key': 'Piumhi', 'lang': 'pt'},
+      'BR/MG/Planura': {'id': 'data/BR/MG/Planura', 'key': 'Planura', 'lang': 'pt'},
+      'BR/MG/Pocrane': {'id': 'data/BR/MG/Pocrane', 'key': 'Pocrane', 'lang': 'pt'},
+      'BR/MG/Pompéu': {'id': 'data/BR/MG/Pompéu', 'key': 'Pompéu', 'lang': 'pt'},
       'BR/MG/Ponte Nova': {
         'id': 'data/BR/MG/Ponte Nova',
         'key': 'Ponte Nova',
@@ -10196,17 +6942,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Poços de Caldas',
         'lang': 'pt'
       },
-      'BR/MG/Prados': {
-        'id': 'data/BR/MG/Prados',
-        'key': 'Prados',
-        'lang': 'pt'
-      },
+      'BR/MG/Prados': {'id': 'data/BR/MG/Prados', 'key': 'Prados', 'lang': 'pt'},
       'BR/MG/Prata': {'id': 'data/BR/MG/Prata', 'key': 'Prata', 'lang': 'pt'},
-      'BR/MG/Pratinha': {
-        'id': 'data/BR/MG/Pratinha',
-        'key': 'Pratinha',
-        'lang': 'pt'
-      },
+      'BR/MG/Pratinha': {'id': 'data/BR/MG/Pratinha', 'key': 'Pratinha', 'lang': 'pt'},
       'BR/MG/Pratápolis': {
         'id': 'data/BR/MG/Pratápolis',
         'key': 'Pratápolis',
@@ -10242,31 +6980,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Quartel Geral',
         'lang': 'pt'
       },
-      'BR/MG/Queluzito': {
-        'id': 'data/BR/MG/Queluzito',
-        'key': 'Queluzito',
-        'lang': 'pt'
-      },
-      'BR/MG/Raposos': {
-        'id': 'data/BR/MG/Raposos',
-        'key': 'Raposos',
-        'lang': 'pt'
-      },
+      'BR/MG/Queluzito': {'id': 'data/BR/MG/Queluzito', 'key': 'Queluzito', 'lang': 'pt'},
+      'BR/MG/Raposos': {'id': 'data/BR/MG/Raposos', 'key': 'Raposos', 'lang': 'pt'},
       'BR/MG/Raul Soares': {
         'id': 'data/BR/MG/Raul Soares',
         'key': 'Raul Soares',
         'lang': 'pt'
       },
-      'BR/MG/Recreio': {
-        'id': 'data/BR/MG/Recreio',
-        'key': 'Recreio',
-        'lang': 'pt'
-      },
-      'BR/MG/Reduto': {
-        'id': 'data/BR/MG/Reduto',
-        'key': 'Reduto',
-        'lang': 'pt'
-      },
+      'BR/MG/Recreio': {'id': 'data/BR/MG/Recreio', 'key': 'Recreio', 'lang': 'pt'},
+      'BR/MG/Reduto': {'id': 'data/BR/MG/Reduto', 'key': 'Reduto', 'lang': 'pt'},
       'BR/MG/Resende Costa': {
         'id': 'data/BR/MG/Resende Costa',
         'key': 'Resende Costa',
@@ -10282,11 +7004,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ressaquinha',
         'lang': 'pt'
       },
-      'BR/MG/Riachinho': {
-        'id': 'data/BR/MG/Riachinho',
-        'key': 'Riachinho',
-        'lang': 'pt'
-      },
+      'BR/MG/Riachinho': {'id': 'data/BR/MG/Riachinho', 'key': 'Riachinho', 'lang': 'pt'},
       'BR/MG/Riacho dos Machados': {
         'id': 'data/BR/MG/Riacho dos Machados',
         'key': 'Riacho dos Machados',
@@ -10302,36 +7020,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ribeirão das Neves',
         'lang': 'pt'
       },
-      'BR/MG/Rio Acima': {
-        'id': 'data/BR/MG/Rio Acima',
-        'key': 'Rio Acima',
-        'lang': 'pt'
-      },
-      'BR/MG/Rio Casca': {
-        'id': 'data/BR/MG/Rio Casca',
-        'key': 'Rio Casca',
-        'lang': 'pt'
-      },
-      'BR/MG/Rio Doce': {
-        'id': 'data/BR/MG/Rio Doce',
-        'key': 'Rio Doce',
-        'lang': 'pt'
-      },
+      'BR/MG/Rio Acima': {'id': 'data/BR/MG/Rio Acima', 'key': 'Rio Acima', 'lang': 'pt'},
+      'BR/MG/Rio Casca': {'id': 'data/BR/MG/Rio Casca', 'key': 'Rio Casca', 'lang': 'pt'},
+      'BR/MG/Rio Doce': {'id': 'data/BR/MG/Rio Doce', 'key': 'Rio Doce', 'lang': 'pt'},
       'BR/MG/Rio Espera': {
         'id': 'data/BR/MG/Rio Espera',
         'key': 'Rio Espera',
         'lang': 'pt'
       },
-      'BR/MG/Rio Manso': {
-        'id': 'data/BR/MG/Rio Manso',
-        'key': 'Rio Manso',
-        'lang': 'pt'
-      },
-      'BR/MG/Rio Novo': {
-        'id': 'data/BR/MG/Rio Novo',
-        'key': 'Rio Novo',
-        'lang': 'pt'
-      },
+      'BR/MG/Rio Manso': {'id': 'data/BR/MG/Rio Manso', 'key': 'Rio Manso', 'lang': 'pt'},
+      'BR/MG/Rio Novo': {'id': 'data/BR/MG/Rio Novo', 'key': 'Rio Novo', 'lang': 'pt'},
       'BR/MG/Rio Paranaíba': {
         'id': 'data/BR/MG/Rio Paranaíba',
         'key': 'Rio Paranaíba',
@@ -10347,16 +7045,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Rio Piracicaba',
         'lang': 'pt'
       },
-      'BR/MG/Rio Pomba': {
-        'id': 'data/BR/MG/Rio Pomba',
-        'key': 'Rio Pomba',
-        'lang': 'pt'
-      },
-      'BR/MG/Rio Preto': {
-        'id': 'data/BR/MG/Rio Preto',
-        'key': 'Rio Preto',
-        'lang': 'pt'
-      },
+      'BR/MG/Rio Pomba': {'id': 'data/BR/MG/Rio Pomba', 'key': 'Rio Pomba', 'lang': 'pt'},
+      'BR/MG/Rio Preto': {'id': 'data/BR/MG/Rio Preto', 'key': 'Rio Preto', 'lang': 'pt'},
       'BR/MG/Rio Vermelho': {
         'id': 'data/BR/MG/Rio Vermelho',
         'key': 'Rio Vermelho',
@@ -10367,42 +7057,22 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Rio do Prado',
         'lang': 'pt'
       },
-      'BR/MG/Ritápolis': {
-        'id': 'data/BR/MG/Ritápolis',
-        'key': 'Ritápolis',
-        'lang': 'pt'
-      },
+      'BR/MG/Ritápolis': {'id': 'data/BR/MG/Ritápolis', 'key': 'Ritápolis', 'lang': 'pt'},
       'BR/MG/Rochedo de Minas': {
         'id': 'data/BR/MG/Rochedo de Minas',
         'key': 'Rochedo de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Rodeiro': {
-        'id': 'data/BR/MG/Rodeiro',
-        'key': 'Rodeiro',
-        'lang': 'pt'
-      },
-      'BR/MG/Romaria': {
-        'id': 'data/BR/MG/Romaria',
-        'key': 'Romaria',
-        'lang': 'pt'
-      },
+      'BR/MG/Rodeiro': {'id': 'data/BR/MG/Rodeiro', 'key': 'Rodeiro', 'lang': 'pt'},
+      'BR/MG/Romaria': {'id': 'data/BR/MG/Romaria', 'key': 'Romaria', 'lang': 'pt'},
       'BR/MG/Rosário da Limeira': {
         'id': 'data/BR/MG/Rosário da Limeira',
         'key': 'Rosário da Limeira',
         'lang': 'pt'
       },
-      'BR/MG/Rubelita': {
-        'id': 'data/BR/MG/Rubelita',
-        'key': 'Rubelita',
-        'lang': 'pt'
-      },
+      'BR/MG/Rubelita': {'id': 'data/BR/MG/Rubelita', 'key': 'Rubelita', 'lang': 'pt'},
       'BR/MG/Rubim': {'id': 'data/BR/MG/Rubim', 'key': 'Rubim', 'lang': 'pt'},
-      'BR/MG/Sabará': {
-        'id': 'data/BR/MG/Sabará',
-        'key': 'Sabará',
-        'lang': 'pt'
-      },
+      'BR/MG/Sabará': {'id': 'data/BR/MG/Sabará', 'key': 'Sabará', 'lang': 'pt'},
       'BR/MG/Sabinópolis': {
         'id': 'data/BR/MG/Sabinópolis',
         'key': 'Sabinópolis',
@@ -10413,11 +7083,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Sacramento',
         'lang': 'pt'
       },
-      'BR/MG/Salinas': {
-        'id': 'data/BR/MG/Salinas',
-        'key': 'Salinas',
-        'lang': 'pt'
-      },
+      'BR/MG/Salinas': {'id': 'data/BR/MG/Salinas', 'key': 'Salinas', 'lang': 'pt'},
       'BR/MG/Salto da Divisa': {
         'id': 'data/BR/MG/Salto da Divisa',
         'key': 'Salto da Divisa',
@@ -10648,21 +7314,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Sapucaí-Mirim',
         'lang': 'pt'
       },
-      'BR/MG/Sardoá': {
-        'id': 'data/BR/MG/Sardoá',
-        'key': 'Sardoá',
-        'lang': 'pt'
-      },
-      'BR/MG/Sarzedo': {
-        'id': 'data/BR/MG/Sarzedo',
-        'key': 'Sarzedo',
-        'lang': 'pt'
-      },
-      'BR/MG/Sem-Peixe': {
-        'id': 'data/BR/MG/Sem-Peixe',
-        'key': 'Sem-Peixe',
-        'lang': 'pt'
-      },
+      'BR/MG/Sardoá': {'id': 'data/BR/MG/Sardoá', 'key': 'Sardoá', 'lang': 'pt'},
+      'BR/MG/Sarzedo': {'id': 'data/BR/MG/Sarzedo', 'key': 'Sarzedo', 'lang': 'pt'},
+      'BR/MG/Sem-Peixe': {'id': 'data/BR/MG/Sem-Peixe', 'key': 'Sem-Peixe', 'lang': 'pt'},
       'BR/MG/Senador Amaral': {
         'id': 'data/BR/MG/Senador Amaral',
         'key': 'Senador Amaral',
@@ -10703,16 +7357,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Senhora dos Remédios',
         'lang': 'pt'
       },
-      'BR/MG/Sericita': {
-        'id': 'data/BR/MG/Sericita',
-        'key': 'Sericita',
-        'lang': 'pt'
-      },
-      'BR/MG/Seritinga': {
-        'id': 'data/BR/MG/Seritinga',
-        'key': 'Seritinga',
-        'lang': 'pt'
-      },
+      'BR/MG/Sericita': {'id': 'data/BR/MG/Sericita', 'key': 'Sericita', 'lang': 'pt'},
+      'BR/MG/Seritinga': {'id': 'data/BR/MG/Seritinga', 'key': 'Seritinga', 'lang': 'pt'},
       'BR/MG/Serra Azul de Minas': {
         'id': 'data/BR/MG/Serra Azul de Minas',
         'key': 'Serra Azul de Minas',
@@ -10733,16 +7379,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Serra dos Aimorés',
         'lang': 'pt'
       },
-      'BR/MG/Serrania': {
-        'id': 'data/BR/MG/Serrania',
-        'key': 'Serrania',
-        'lang': 'pt'
-      },
-      'BR/MG/Serranos': {
-        'id': 'data/BR/MG/Serranos',
-        'key': 'Serranos',
-        'lang': 'pt'
-      },
+      'BR/MG/Serrania': {'id': 'data/BR/MG/Serrania', 'key': 'Serrania', 'lang': 'pt'},
+      'BR/MG/Serranos': {'id': 'data/BR/MG/Serranos', 'key': 'Serranos', 'lang': 'pt'},
       'BR/MG/Serranópolis de Minas': {
         'id': 'data/BR/MG/Serranópolis de Minas',
         'key': 'Serranópolis de Minas',
@@ -10754,11 +7392,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Sete Lagoas',
         'lang': 'pt'
       },
-      'BR/MG/Setubinha': {
-        'id': 'data/BR/MG/Setubinha',
-        'key': 'Setubinha',
-        'lang': 'pt'
-      },
+      'BR/MG/Setubinha': {'id': 'data/BR/MG/Setubinha', 'key': 'Setubinha', 'lang': 'pt'},
       'BR/MG/Silveirânia': {
         'id': 'data/BR/MG/Silveirânia',
         'key': 'Silveirânia',
@@ -10769,21 +7403,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Silvianópolis',
         'lang': 'pt'
       },
-      'BR/MG/Simonésia': {
-        'id': 'data/BR/MG/Simonésia',
-        'key': 'Simonésia',
-        'lang': 'pt'
-      },
+      'BR/MG/Simonésia': {'id': 'data/BR/MG/Simonésia', 'key': 'Simonésia', 'lang': 'pt'},
       'BR/MG/Simão Pereira': {
         'id': 'data/BR/MG/Simão Pereira',
         'key': 'Simão Pereira',
         'lang': 'pt'
       },
-      'BR/MG/Sobrália': {
-        'id': 'data/BR/MG/Sobrália',
-        'key': 'Sobrália',
-        'lang': 'pt'
-      },
+      'BR/MG/Sobrália': {'id': 'data/BR/MG/Sobrália', 'key': 'Sobrália', 'lang': 'pt'},
       'BR/MG/Soledade de Minas': {
         'id': 'data/BR/MG/Soledade de Minas',
         'key': 'Soledade de Minas',
@@ -11019,11 +7645,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Pedro dos Ferros',
         'lang': 'pt'
       },
-      'BR/MG/São Romão': {
-        'id': 'data/BR/MG/São Romão',
-        'key': 'São Romão',
-        'lang': 'pt'
-      },
+      'BR/MG/São Romão': {'id': 'data/BR/MG/São Romão', 'key': 'São Romão', 'lang': 'pt'},
       'BR/MG/São Roque de Minas': {
         'id': 'data/BR/MG/São Roque de Minas',
         'key': 'São Roque de Minas',
@@ -11074,11 +7696,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Thomé das Letras',
         'lang': 'pt'
       },
-      'BR/MG/São Tiago': {
-        'id': 'data/BR/MG/São Tiago',
-        'key': 'São Tiago',
-        'lang': 'pt'
-      },
+      'BR/MG/São Tiago': {'id': 'data/BR/MG/São Tiago', 'key': 'São Tiago', 'lang': 'pt'},
       'BR/MG/São Tomás de Aquino': {
         'id': 'data/BR/MG/São Tomás de Aquino',
         'key': 'São Tomás de Aquino',
@@ -11089,82 +7707,42 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Vicente de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Tabuleiro': {
-        'id': 'data/BR/MG/Tabuleiro',
-        'key': 'Tabuleiro',
-        'lang': 'pt'
-      },
+      'BR/MG/Tabuleiro': {'id': 'data/BR/MG/Tabuleiro', 'key': 'Tabuleiro', 'lang': 'pt'},
       'BR/MG/Taiobeiras': {
         'id': 'data/BR/MG/Taiobeiras',
         'key': 'Taiobeiras',
         'lang': 'pt'
       },
-      'BR/MG/Taparuba': {
-        'id': 'data/BR/MG/Taparuba',
-        'key': 'Taparuba',
-        'lang': 'pt'
-      },
-      'BR/MG/Tapira': {
-        'id': 'data/BR/MG/Tapira',
-        'key': 'Tapira',
-        'lang': 'pt'
-      },
-      'BR/MG/Tapiraí': {
-        'id': 'data/BR/MG/Tapiraí',
-        'key': 'Tapiraí',
-        'lang': 'pt'
-      },
+      'BR/MG/Taparuba': {'id': 'data/BR/MG/Taparuba', 'key': 'Taparuba', 'lang': 'pt'},
+      'BR/MG/Tapira': {'id': 'data/BR/MG/Tapira', 'key': 'Tapira', 'lang': 'pt'},
+      'BR/MG/Tapiraí': {'id': 'data/BR/MG/Tapiraí', 'key': 'Tapiraí', 'lang': 'pt'},
       'BR/MG/Taquaraçu de Minas': {
         'id': 'data/BR/MG/Taquaraçu de Minas',
         'key': 'Taquaraçu de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Tarumirim': {
-        'id': 'data/BR/MG/Tarumirim',
-        'key': 'Tarumirim',
-        'lang': 'pt'
-      },
-      'BR/MG/Teixeiras': {
-        'id': 'data/BR/MG/Teixeiras',
-        'key': 'Teixeiras',
-        'lang': 'pt'
-      },
+      'BR/MG/Tarumirim': {'id': 'data/BR/MG/Tarumirim', 'key': 'Tarumirim', 'lang': 'pt'},
+      'BR/MG/Teixeiras': {'id': 'data/BR/MG/Teixeiras', 'key': 'Teixeiras', 'lang': 'pt'},
       'BR/MG/Teófilo Otoni': {
         'id': 'data/BR/MG/Teófilo Otoni',
         'key': 'Teófilo Otoni',
         'lang': 'pt'
       },
-      'BR/MG/Timóteo': {
-        'id': 'data/BR/MG/Timóteo',
-        'key': 'Timóteo',
-        'lang': 'pt'
-      },
+      'BR/MG/Timóteo': {'id': 'data/BR/MG/Timóteo', 'key': 'Timóteo', 'lang': 'pt'},
       'BR/MG/Tiradentes': {
         'id': 'data/BR/MG/Tiradentes',
         'key': 'Tiradentes',
         'lang': 'pt'
       },
       'BR/MG/Tiros': {'id': 'data/BR/MG/Tiros', 'key': 'Tiros', 'lang': 'pt'},
-      'BR/MG/Tocantins': {
-        'id': 'data/BR/MG/Tocantins',
-        'key': 'Tocantins',
-        'lang': 'pt'
-      },
+      'BR/MG/Tocantins': {'id': 'data/BR/MG/Tocantins', 'key': 'Tocantins', 'lang': 'pt'},
       'BR/MG/Tocos do Moji': {
         'id': 'data/BR/MG/Tocos do Moji',
         'key': 'Tocos do Moji',
         'lang': 'pt'
       },
-      'BR/MG/Toledo': {
-        'id': 'data/BR/MG/Toledo',
-        'key': 'Toledo',
-        'lang': 'pt'
-      },
-      'BR/MG/Tombos': {
-        'id': 'data/BR/MG/Tombos',
-        'key': 'Tombos',
-        'lang': 'pt'
-      },
+      'BR/MG/Toledo': {'id': 'data/BR/MG/Toledo', 'key': 'Toledo', 'lang': 'pt'},
+      'BR/MG/Tombos': {'id': 'data/BR/MG/Tombos', 'key': 'Tombos', 'lang': 'pt'},
       'BR/MG/Três Corações': {
         'id': 'data/BR/MG/Três Corações',
         'key': 'Três Corações',
@@ -11190,11 +7768,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Tupaciguara',
         'lang': 'pt'
       },
-      'BR/MG/Turmalina': {
-        'id': 'data/BR/MG/Turmalina',
-        'key': 'Turmalina',
-        'lang': 'pt'
-      },
+      'BR/MG/Turmalina': {'id': 'data/BR/MG/Turmalina', 'key': 'Turmalina', 'lang': 'pt'},
       'BR/MG/Turvolândia': {
         'id': 'data/BR/MG/Turvolândia',
         'key': 'Turvolândia',
@@ -11206,11 +7780,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/MG/Ubaí': {'id': 'data/BR/MG/Ubaí', 'key': 'Ubaí', 'lang': 'pt'},
-      'BR/MG/Uberaba': {
-        'id': 'data/BR/MG/Uberaba',
-        'key': 'Uberaba',
-        'lang': 'pt'
-      },
+      'BR/MG/Uberaba': {'id': 'data/BR/MG/Uberaba', 'key': 'Uberaba', 'lang': 'pt'},
       'BR/MG/Uberlândia': {
         'id': 'data/BR/MG/Uberlândia',
         'key': 'Uberlândia',
@@ -11233,16 +7803,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Uruana de Minas',
         'lang': 'pt'
       },
-      'BR/MG/Urucuia': {
-        'id': 'data/BR/MG/Urucuia',
-        'key': 'Urucuia',
-        'lang': 'pt'
-      },
-      'BR/MG/Urucânia': {
-        'id': 'data/BR/MG/Urucânia',
-        'key': 'Urucânia',
-        'lang': 'pt'
-      },
+      'BR/MG/Urucuia': {'id': 'data/BR/MG/Urucuia', 'key': 'Urucuia', 'lang': 'pt'},
+      'BR/MG/Urucânia': {'id': 'data/BR/MG/Urucânia', 'key': 'Urucânia', 'lang': 'pt'},
       'BR/MG/Vargem Alegre': {
         'id': 'data/BR/MG/Vargem Alegre',
         'key': 'Vargem Alegre',
@@ -11258,11 +7820,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Vargem Grande do Rio Pardo',
         'lang': 'pt'
       },
-      'BR/MG/Varginha': {
-        'id': 'data/BR/MG/Varginha',
-        'key': 'Varginha',
-        'lang': 'pt'
-      },
+      'BR/MG/Varginha': {'id': 'data/BR/MG/Varginha', 'key': 'Varginha', 'lang': 'pt'},
       'BR/MG/Varjão de Minas': {
         'id': 'data/BR/MG/Varjão de Minas',
         'key': 'Varjão de Minas',
@@ -11273,51 +7831,31 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Varzelândia',
         'lang': 'pt'
       },
-      'BR/MG/Vazante': {
-        'id': 'data/BR/MG/Vazante',
-        'key': 'Vazante',
-        'lang': 'pt'
-      },
+      'BR/MG/Vazante': {'id': 'data/BR/MG/Vazante', 'key': 'Vazante', 'lang': 'pt'},
       'BR/MG/Verdelândia': {
         'id': 'data/BR/MG/Verdelândia',
         'key': 'Verdelândia',
         'lang': 'pt'
       },
-      'BR/MG/Veredinha': {
-        'id': 'data/BR/MG/Veredinha',
-        'key': 'Veredinha',
-        'lang': 'pt'
-      },
+      'BR/MG/Veredinha': {'id': 'data/BR/MG/Veredinha', 'key': 'Veredinha', 'lang': 'pt'},
       'BR/MG/Vermelho Novo': {
         'id': 'data/BR/MG/Vermelho Novo',
         'key': 'Vermelho Novo',
         'lang': 'pt'
       },
-      'BR/MG/Veríssimo': {
-        'id': 'data/BR/MG/Veríssimo',
-        'key': 'Veríssimo',
-        'lang': 'pt'
-      },
+      'BR/MG/Veríssimo': {'id': 'data/BR/MG/Veríssimo', 'key': 'Veríssimo', 'lang': 'pt'},
       'BR/MG/Vespasiano': {
         'id': 'data/BR/MG/Vespasiano',
         'key': 'Vespasiano',
         'lang': 'pt'
       },
-      'BR/MG/Vieiras': {
-        'id': 'data/BR/MG/Vieiras',
-        'key': 'Vieiras',
-        'lang': 'pt'
-      },
+      'BR/MG/Vieiras': {'id': 'data/BR/MG/Vieiras', 'key': 'Vieiras', 'lang': 'pt'},
       'BR/MG/Virgem da Lapa': {
         'id': 'data/BR/MG/Virgem da Lapa',
         'key': 'Virgem da Lapa',
         'lang': 'pt'
       },
-      'BR/MG/Virginia': {
-        'id': 'data/BR/MG/Virginia',
-        'key': 'Virginia',
-        'lang': 'pt'
-      },
+      'BR/MG/Virginia': {'id': 'data/BR/MG/Virginia', 'key': 'Virginia', 'lang': 'pt'},
       'BR/MG/Virginópolis': {
         'id': 'data/BR/MG/Virginópolis',
         'key': 'Virginópolis',
@@ -11333,11 +7871,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Visconde do Rio Branco',
         'lang': 'pt'
       },
-      'BR/MG/Viçosa': {
-        'id': 'data/BR/MG/Viçosa',
-        'key': 'Viçosa',
-        'lang': 'pt'
-      },
+      'BR/MG/Viçosa': {'id': 'data/BR/MG/Viçosa', 'key': 'Viçosa', 'lang': 'pt'},
       'BR/MG/Volta Grande': {
         'id': 'data/BR/MG/Volta Grande',
         'key': 'Volta Grande',
@@ -11353,11 +7887,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Wenceslau Braz',
         'lang': 'pt'
       },
-      'BR/MG/Água Boa': {
-        'id': 'data/BR/MG/Água Boa',
-        'key': 'Água Boa',
-        'lang': 'pt'
-      },
+      'BR/MG/Água Boa': {'id': 'data/BR/MG/Água Boa', 'key': 'Água Boa', 'lang': 'pt'},
       'BR/MG/Água Comprida': {
         'id': 'data/BR/MG/Água Comprida',
         'key': 'Água Comprida',
@@ -11389,26 +7919,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alcinópolis',
         'lang': 'pt'
       },
-      'BR/MS/Amambai': {
-        'id': 'data/BR/MS/Amambai',
-        'key': 'Amambai',
-        'lang': 'pt'
-      },
-      'BR/MS/Anastácio': {
-        'id': 'data/BR/MS/Anastácio',
-        'key': 'Anastácio',
-        'lang': 'pt'
-      },
+      'BR/MS/Amambai': {'id': 'data/BR/MS/Amambai', 'key': 'Amambai', 'lang': 'pt'},
+      'BR/MS/Anastácio': {'id': 'data/BR/MS/Anastácio', 'key': 'Anastácio', 'lang': 'pt'},
       'BR/MS/Anaurilândia': {
         'id': 'data/BR/MS/Anaurilândia',
         'key': 'Anaurilândia',
         'lang': 'pt'
       },
-      'BR/MS/Angelica': {
-        'id': 'data/BR/MS/Angelica',
-        'key': 'Angelica',
-        'lang': 'pt'
-      },
+      'BR/MS/Angelica': {'id': 'data/BR/MS/Angelica', 'key': 'Angelica', 'lang': 'pt'},
       'BR/MS/Antônio João': {
         'id': 'data/BR/MS/Antônio João',
         'key': 'Antônio João',
@@ -11439,51 +7957,27 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bataguassu',
         'lang': 'pt'
       },
-      'BR/MS/Bataiporã': {
-        'id': 'data/BR/MS/Bataiporã',
-        'key': 'Bataiporã',
-        'lang': 'pt'
-      },
+      'BR/MS/Bataiporã': {'id': 'data/BR/MS/Bataiporã', 'key': 'Bataiporã', 'lang': 'pt'},
       'BR/MS/Bela Vista': {
         'id': 'data/BR/MS/Bela Vista',
         'key': 'Bela Vista',
         'lang': 'pt'
       },
-      'BR/MS/Bodoquena': {
-        'id': 'data/BR/MS/Bodoquena',
-        'key': 'Bodoquena',
-        'lang': 'pt'
-      },
-      'BR/MS/Bonito': {
-        'id': 'data/BR/MS/Bonito',
-        'key': 'Bonito',
-        'lang': 'pt'
-      },
+      'BR/MS/Bodoquena': {'id': 'data/BR/MS/Bodoquena', 'key': 'Bodoquena', 'lang': 'pt'},
+      'BR/MS/Bonito': {'id': 'data/BR/MS/Bonito', 'key': 'Bonito', 'lang': 'pt'},
       'BR/MS/Brasilândia': {
         'id': 'data/BR/MS/Brasilândia',
         'key': 'Brasilândia',
         'lang': 'pt'
       },
-      'BR/MS/Caarapó': {
-        'id': 'data/BR/MS/Caarapó',
-        'key': 'Caarapó',
-        'lang': 'pt'
-      },
-      'BR/MS/Camapuã': {
-        'id': 'data/BR/MS/Camapuã',
-        'key': 'Camapuã',
-        'lang': 'pt'
-      },
+      'BR/MS/Caarapó': {'id': 'data/BR/MS/Caarapó', 'key': 'Caarapó', 'lang': 'pt'},
+      'BR/MS/Camapuã': {'id': 'data/BR/MS/Camapuã', 'key': 'Camapuã', 'lang': 'pt'},
       'BR/MS/Campo Grande': {
         'id': 'data/BR/MS/Campo Grande',
         'key': 'Campo Grande',
         'lang': 'pt'
       },
-      'BR/MS/Caracol': {
-        'id': 'data/BR/MS/Caracol',
-        'key': 'Caracol',
-        'lang': 'pt'
-      },
+      'BR/MS/Caracol': {'id': 'data/BR/MS/Caracol', 'key': 'Caracol', 'lang': 'pt'},
       'BR/MS/Cassilândia': {
         'id': 'data/BR/MS/Cassilândia',
         'key': 'Cassilândia',
@@ -11494,21 +7988,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Chapadão do Sul',
         'lang': 'pt'
       },
-      'BR/MS/Corguinho': {
-        'id': 'data/BR/MS/Corguinho',
-        'key': 'Corguinho',
-        'lang': 'pt'
-      },
+      'BR/MS/Corguinho': {'id': 'data/BR/MS/Corguinho', 'key': 'Corguinho', 'lang': 'pt'},
       'BR/MS/Coronel Sapucaia': {
         'id': 'data/BR/MS/Coronel Sapucaia',
         'key': 'Coronel Sapucaia',
         'lang': 'pt'
       },
-      'BR/MS/Corumbá': {
-        'id': 'data/BR/MS/Corumbá',
-        'key': 'Corumbá',
-        'lang': 'pt'
-      },
+      'BR/MS/Corumbá': {'id': 'data/BR/MS/Corumbá', 'key': 'Corumbá', 'lang': 'pt'},
       'BR/MS/Costa Rica': {
         'id': 'data/BR/MS/Costa Rica',
         'key': 'Costa Rica',
@@ -11525,26 +8011,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Dois Irmãos do Buriti',
         'lang': 'pt'
       },
-      'BR/MS/Douradina': {
-        'id': 'data/BR/MS/Douradina',
-        'key': 'Douradina',
-        'lang': 'pt'
-      },
-      'BR/MS/Dourados': {
-        'id': 'data/BR/MS/Dourados',
-        'key': 'Dourados',
-        'lang': 'pt'
-      },
-      'BR/MS/Eldorado': {
-        'id': 'data/BR/MS/Eldorado',
-        'key': 'Eldorado',
-        'lang': 'pt'
-      },
-      'BR/MS/Figueirão': {
-        'id': 'data/BR/MS/Figueirão',
-        'key': 'Figueirão',
-        'lang': 'pt'
-      },
+      'BR/MS/Douradina': {'id': 'data/BR/MS/Douradina', 'key': 'Douradina', 'lang': 'pt'},
+      'BR/MS/Dourados': {'id': 'data/BR/MS/Dourados', 'key': 'Dourados', 'lang': 'pt'},
+      'BR/MS/Eldorado': {'id': 'data/BR/MS/Eldorado', 'key': 'Eldorado', 'lang': 'pt'},
+      'BR/MS/Figueirão': {'id': 'data/BR/MS/Figueirão', 'key': 'Figueirão', 'lang': 'pt'},
       'BR/MS/Fátima do Sul': {
         'id': 'data/BR/MS/Fátima do Sul',
         'key': 'Fátima do Sul',
@@ -11560,83 +8030,31 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Guia Lopes da Laguna',
         'lang': 'pt'
       },
-      'BR/MS/Iguatemi': {
-        'id': 'data/BR/MS/Iguatemi',
-        'key': 'Iguatemi',
-        'lang': 'pt'
-      },
-      'BR/MS/Inocencia': {
-        'id': 'data/BR/MS/Inocencia',
-        'key': 'Inocencia',
-        'lang': 'pt'
-      },
-      'BR/MS/Itaporã': {
-        'id': 'data/BR/MS/Itaporã',
-        'key': 'Itaporã',
-        'lang': 'pt'
-      },
-      'BR/MS/Itaquiraí': {
-        'id': 'data/BR/MS/Itaquiraí',
-        'key': 'Itaquiraí',
-        'lang': 'pt'
-      },
-      'BR/MS/Ivinhema': {
-        'id': 'data/BR/MS/Ivinhema',
-        'key': 'Ivinhema',
-        'lang': 'pt'
-      },
-      'BR/MS/Japorã': {
-        'id': 'data/BR/MS/Japorã',
-        'key': 'Japorã',
-        'lang': 'pt'
-      },
-      'BR/MS/Jaraguari': {
-        'id': 'data/BR/MS/Jaraguari',
-        'key': 'Jaraguari',
-        'lang': 'pt'
-      },
-      'BR/MS/Jardim': {
-        'id': 'data/BR/MS/Jardim',
-        'key': 'Jardim',
-        'lang': 'pt'
-      },
+      'BR/MS/Iguatemi': {'id': 'data/BR/MS/Iguatemi', 'key': 'Iguatemi', 'lang': 'pt'},
+      'BR/MS/Inocencia': {'id': 'data/BR/MS/Inocencia', 'key': 'Inocencia', 'lang': 'pt'},
+      'BR/MS/Itaporã': {'id': 'data/BR/MS/Itaporã', 'key': 'Itaporã', 'lang': 'pt'},
+      'BR/MS/Itaquiraí': {'id': 'data/BR/MS/Itaquiraí', 'key': 'Itaquiraí', 'lang': 'pt'},
+      'BR/MS/Ivinhema': {'id': 'data/BR/MS/Ivinhema', 'key': 'Ivinhema', 'lang': 'pt'},
+      'BR/MS/Japorã': {'id': 'data/BR/MS/Japorã', 'key': 'Japorã', 'lang': 'pt'},
+      'BR/MS/Jaraguari': {'id': 'data/BR/MS/Jaraguari', 'key': 'Jaraguari', 'lang': 'pt'},
+      'BR/MS/Jardim': {'id': 'data/BR/MS/Jardim', 'key': 'Jardim', 'lang': 'pt'},
       'BR/MS/Jateí': {'id': 'data/BR/MS/Jateí', 'key': 'Jateí', 'lang': 'pt'},
       'BR/MS/Juti': {'id': 'data/BR/MS/Juti', 'key': 'Juti', 'lang': 'pt'},
-      'BR/MS/Ladário': {
-        'id': 'data/BR/MS/Ladário',
-        'key': 'Ladário',
-        'lang': 'pt'
-      },
+      'BR/MS/Ladário': {'id': 'data/BR/MS/Ladário', 'key': 'Ladário', 'lang': 'pt'},
       'BR/MS/Laguna Carapã': {
         'id': 'data/BR/MS/Laguna Carapã',
         'key': 'Laguna Carapã',
         'lang': 'pt'
       },
-      'BR/MS/Maracaju': {
-        'id': 'data/BR/MS/Maracaju',
-        'key': 'Maracaju',
-        'lang': 'pt'
-      },
-      'BR/MS/Miranda': {
-        'id': 'data/BR/MS/Miranda',
-        'key': 'Miranda',
-        'lang': 'pt'
-      },
+      'BR/MS/Maracaju': {'id': 'data/BR/MS/Maracaju', 'key': 'Maracaju', 'lang': 'pt'},
+      'BR/MS/Miranda': {'id': 'data/BR/MS/Miranda', 'key': 'Miranda', 'lang': 'pt'},
       'BR/MS/Mundo Novo': {
         'id': 'data/BR/MS/Mundo Novo',
         'key': 'Mundo Novo',
         'lang': 'pt'
       },
-      'BR/MS/Naviraí': {
-        'id': 'data/BR/MS/Naviraí',
-        'key': 'Naviraí',
-        'lang': 'pt'
-      },
-      'BR/MS/Nioaque': {
-        'id': 'data/BR/MS/Nioaque',
-        'key': 'Nioaque',
-        'lang': 'pt'
-      },
+      'BR/MS/Naviraí': {'id': 'data/BR/MS/Naviraí', 'key': 'Naviraí', 'lang': 'pt'},
+      'BR/MS/Nioaque': {'id': 'data/BR/MS/Nioaque', 'key': 'Nioaque', 'lang': 'pt'},
       'BR/MS/Nova Alvorada do Sul': {
         'id': 'data/BR/MS/Nova Alvorada do Sul',
         'key': 'Nova Alvorada do Sul',
@@ -11652,16 +8070,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Novo Horizonte do Sul',
         'lang': 'pt'
       },
-      'BR/MS/Paranaíba': {
-        'id': 'data/BR/MS/Paranaíba',
-        'key': 'Paranaíba',
-        'lang': 'pt'
-      },
-      'BR/MS/Paranhos': {
-        'id': 'data/BR/MS/Paranhos',
-        'key': 'Paranhos',
-        'lang': 'pt'
-      },
+      'BR/MS/Paranaíba': {'id': 'data/BR/MS/Paranaíba', 'key': 'Paranaíba', 'lang': 'pt'},
+      'BR/MS/Paranhos': {'id': 'data/BR/MS/Paranhos', 'key': 'Paranhos', 'lang': 'pt'},
       'BR/MS/Pedro Gomes': {
         'id': 'data/BR/MS/Pedro Gomes',
         'key': 'Pedro Gomes',
@@ -11687,31 +8097,19 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Rio Brilhante',
         'lang': 'pt'
       },
-      'BR/MS/Rio Negro': {
-        'id': 'data/BR/MS/Rio Negro',
-        'key': 'Rio Negro',
-        'lang': 'pt'
-      },
+      'BR/MS/Rio Negro': {'id': 'data/BR/MS/Rio Negro', 'key': 'Rio Negro', 'lang': 'pt'},
       'BR/MS/Rio Verde de Mato Grosso': {
         'id': 'data/BR/MS/Rio Verde de Mato Grosso',
         'key': 'Rio Verde de Mato Grosso',
         'lang': 'pt'
       },
-      'BR/MS/Rochedo': {
-        'id': 'data/BR/MS/Rochedo',
-        'key': 'Rochedo',
-        'lang': 'pt'
-      },
+      'BR/MS/Rochedo': {'id': 'data/BR/MS/Rochedo', 'key': 'Rochedo', 'lang': 'pt'},
       'BR/MS/Santa Rita do Pardo': {
         'id': 'data/BR/MS/Santa Rita do Pardo',
         'key': 'Santa Rita do Pardo',
         'lang': 'pt'
       },
-      'BR/MS/Selvíria': {
-        'id': 'data/BR/MS/Selvíria',
-        'key': 'Selvíria',
-        'lang': 'pt'
-      },
+      'BR/MS/Selvíria': {'id': 'data/BR/MS/Selvíria', 'key': 'Selvíria', 'lang': 'pt'},
       'BR/MS/Sete Quedas': {
         'id': 'data/BR/MS/Sete Quedas',
         'key': 'Sete Quedas',
@@ -11722,41 +8120,25 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Sidrolândia',
         'lang': 'pt'
       },
-      'BR/MS/Sonora': {
-        'id': 'data/BR/MS/Sonora',
-        'key': 'Sonora',
-        'lang': 'pt'
-      },
+      'BR/MS/Sonora': {'id': 'data/BR/MS/Sonora', 'key': 'Sonora', 'lang': 'pt'},
       'BR/MS/São Gabriel do Oeste': {
         'id': 'data/BR/MS/São Gabriel do Oeste',
         'key': 'São Gabriel do Oeste',
         'lang': 'pt'
       },
-      'BR/MS/Tacuru': {
-        'id': 'data/BR/MS/Tacuru',
-        'key': 'Tacuru',
-        'lang': 'pt'
-      },
+      'BR/MS/Tacuru': {'id': 'data/BR/MS/Tacuru', 'key': 'Tacuru', 'lang': 'pt'},
       'BR/MS/Taquarussu': {
         'id': 'data/BR/MS/Taquarussu',
         'key': 'Taquarussu',
         'lang': 'pt'
       },
-      'BR/MS/Terenos': {
-        'id': 'data/BR/MS/Terenos',
-        'key': 'Terenos',
-        'lang': 'pt'
-      },
+      'BR/MS/Terenos': {'id': 'data/BR/MS/Terenos', 'key': 'Terenos', 'lang': 'pt'},
       'BR/MS/Três Lagoas': {
         'id': 'data/BR/MS/Três Lagoas',
         'key': 'Três Lagoas',
         'lang': 'pt'
       },
-      'BR/MS/Vicentina': {
-        'id': 'data/BR/MS/Vicentina',
-        'key': 'Vicentina',
-        'lang': 'pt'
-      },
+      'BR/MS/Vicentina': {'id': 'data/BR/MS/Vicentina', 'key': 'Vicentina', 'lang': 'pt'},
       'BR/MS/Água Clara': {
         'id': 'data/BR/MS/Água Clara',
         'key': 'Água Clara',
@@ -11773,11 +8155,7 @@ Map<String, Map<String, String>> get allJson => {
         'zip': '78[0-8]',
         'zipex': '78000-000,78899-999'
       },
-      'BR/MT/Acorizal': {
-        'id': 'data/BR/MT/Acorizal',
-        'key': 'Acorizal',
-        'lang': 'pt'
-      },
+      'BR/MT/Acorizal': {'id': 'data/BR/MT/Acorizal', 'key': 'Acorizal', 'lang': 'pt'},
       'BR/MT/Alta Floresta': {
         'id': 'data/BR/MT/Alta Floresta',
         'key': 'Alta Floresta',
@@ -11808,11 +8186,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alto Taquari',
         'lang': 'pt'
       },
-      'BR/MT/Apiacás': {
-        'id': 'data/BR/MT/Apiacás',
-        'key': 'Apiacás',
-        'lang': 'pt'
-      },
+      'BR/MT/Apiacás': {'id': 'data/BR/MT/Apiacás', 'key': 'Apiacás', 'lang': 'pt'},
       'BR/MT/Araguaiana': {
         'id': 'data/BR/MT/Araguaiana',
         'key': 'Araguaiana',
@@ -11833,11 +8207,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Arenápolis',
         'lang': 'pt'
       },
-      'BR/MT/Aripuana': {
-        'id': 'data/BR/MT/Aripuana',
-        'key': 'Aripuana',
-        'lang': 'pt'
-      },
+      'BR/MT/Aripuana': {'id': 'data/BR/MT/Aripuana', 'key': 'Aripuana', 'lang': 'pt'},
       'BR/MT/Barra do Bugres': {
         'id': 'data/BR/MT/Barra do Bugres',
         'key': 'Barra do Bugres',
@@ -11858,11 +8228,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bom Jesus do Araguaia',
         'lang': 'pt'
       },
-      'BR/MT/Brasnorte': {
-        'id': 'data/BR/MT/Brasnorte',
-        'key': 'Brasnorte',
-        'lang': 'pt'
-      },
+      'BR/MT/Brasnorte': {'id': 'data/BR/MT/Brasnorte', 'key': 'Brasnorte', 'lang': 'pt'},
       'BR/MT/Campinápolis': {
         'id': 'data/BR/MT/Campinápolis',
         'key': 'Campinápolis',
@@ -11888,16 +8254,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Canabrava do Norte',
         'lang': 'pt'
       },
-      'BR/MT/Canarana': {
-        'id': 'data/BR/MT/Canarana',
-        'key': 'Canarana',
-        'lang': 'pt'
-      },
-      'BR/MT/Carlinda': {
-        'id': 'data/BR/MT/Carlinda',
-        'key': 'Carlinda',
-        'lang': 'pt'
-      },
+      'BR/MT/Canarana': {'id': 'data/BR/MT/Canarana', 'key': 'Canarana', 'lang': 'pt'},
+      'BR/MT/Carlinda': {'id': 'data/BR/MT/Carlinda', 'key': 'Carlinda', 'lang': 'pt'},
       'BR/MT/Castanheira': {
         'id': 'data/BR/MT/Castanheira',
         'key': 'Castanheira',
@@ -11908,36 +8266,12 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Chapada dos Guimarães',
         'lang': 'pt'
       },
-      'BR/MT/Claudia': {
-        'id': 'data/BR/MT/Claudia',
-        'key': 'Claudia',
-        'lang': 'pt'
-      },
-      'BR/MT/Cocalinho': {
-        'id': 'data/BR/MT/Cocalinho',
-        'key': 'Cocalinho',
-        'lang': 'pt'
-      },
-      'BR/MT/Colniza': {
-        'id': 'data/BR/MT/Colniza',
-        'key': 'Colniza',
-        'lang': 'pt'
-      },
-      'BR/MT/Colíder': {
-        'id': 'data/BR/MT/Colíder',
-        'key': 'Colíder',
-        'lang': 'pt'
-      },
-      'BR/MT/Comodoro': {
-        'id': 'data/BR/MT/Comodoro',
-        'key': 'Comodoro',
-        'lang': 'pt'
-      },
-      'BR/MT/Confresa': {
-        'id': 'data/BR/MT/Confresa',
-        'key': 'Confresa',
-        'lang': 'pt'
-      },
+      'BR/MT/Claudia': {'id': 'data/BR/MT/Claudia', 'key': 'Claudia', 'lang': 'pt'},
+      'BR/MT/Cocalinho': {'id': 'data/BR/MT/Cocalinho', 'key': 'Cocalinho', 'lang': 'pt'},
+      'BR/MT/Colniza': {'id': 'data/BR/MT/Colniza', 'key': 'Colniza', 'lang': 'pt'},
+      'BR/MT/Colíder': {'id': 'data/BR/MT/Colíder', 'key': 'Colíder', 'lang': 'pt'},
+      'BR/MT/Comodoro': {'id': 'data/BR/MT/Comodoro', 'key': 'Comodoro', 'lang': 'pt'},
+      'BR/MT/Confresa': {'id': 'data/BR/MT/Confresa', 'key': 'Confresa', 'lang': 'pt'},
       "BR/MT/Conquista d'Oeste": {
         'id': "data/BR/MT/Conquista d'Oeste",
         'key': "Conquista d'Oeste",
@@ -11948,26 +8282,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cotriguaçu',
         'lang': 'pt'
       },
-      'BR/MT/Cuiabá': {
-        'id': 'data/BR/MT/Cuiabá',
-        'key': 'Cuiabá',
-        'lang': 'pt'
-      },
+      'BR/MT/Cuiabá': {'id': 'data/BR/MT/Cuiabá', 'key': 'Cuiabá', 'lang': 'pt'},
       'BR/MT/Curvelândia': {
         'id': 'data/BR/MT/Curvelândia',
         'key': 'Curvelândia',
         'lang': 'pt'
       },
-      'BR/MT/Cáceres': {
-        'id': 'data/BR/MT/Cáceres',
-        'key': 'Cáceres',
-        'lang': 'pt'
-      },
-      'BR/MT/Denise': {
-        'id': 'data/BR/MT/Denise',
-        'key': 'Denise',
-        'lang': 'pt'
-      },
+      'BR/MT/Cáceres': {'id': 'data/BR/MT/Cáceres', 'key': 'Cáceres', 'lang': 'pt'},
+      'BR/MT/Denise': {'id': 'data/BR/MT/Denise', 'key': 'Denise', 'lang': 'pt'},
       'BR/MT/Diamantino': {
         'id': 'data/BR/MT/Diamantino',
         'key': 'Diamantino',
@@ -12013,48 +8335,20 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Guiratinga',
         'lang': 'pt'
       },
-      'BR/MT/Indiavaí': {
-        'id': 'data/BR/MT/Indiavaí',
-        'key': 'Indiavaí',
-        'lang': 'pt'
-      },
+      'BR/MT/Indiavaí': {'id': 'data/BR/MT/Indiavaí', 'key': 'Indiavaí', 'lang': 'pt'},
       'BR/MT/Ipiranga do Norte': {
         'id': 'data/BR/MT/Ipiranga do Norte',
         'key': 'Ipiranga do Norte',
         'lang': 'pt'
       },
-      'BR/MT/Itanhangá': {
-        'id': 'data/BR/MT/Itanhangá',
-        'key': 'Itanhangá',
-        'lang': 'pt'
-      },
-      'BR/MT/Itaúba': {
-        'id': 'data/BR/MT/Itaúba',
-        'key': 'Itaúba',
-        'lang': 'pt'
-      },
-      'BR/MT/Itiquira': {
-        'id': 'data/BR/MT/Itiquira',
-        'key': 'Itiquira',
-        'lang': 'pt'
-      },
-      'BR/MT/Jaciara': {
-        'id': 'data/BR/MT/Jaciara',
-        'key': 'Jaciara',
-        'lang': 'pt'
-      },
-      'BR/MT/Jangada': {
-        'id': 'data/BR/MT/Jangada',
-        'key': 'Jangada',
-        'lang': 'pt'
-      },
+      'BR/MT/Itanhangá': {'id': 'data/BR/MT/Itanhangá', 'key': 'Itanhangá', 'lang': 'pt'},
+      'BR/MT/Itaúba': {'id': 'data/BR/MT/Itaúba', 'key': 'Itaúba', 'lang': 'pt'},
+      'BR/MT/Itiquira': {'id': 'data/BR/MT/Itiquira', 'key': 'Itiquira', 'lang': 'pt'},
+      'BR/MT/Jaciara': {'id': 'data/BR/MT/Jaciara', 'key': 'Jaciara', 'lang': 'pt'},
+      'BR/MT/Jangada': {'id': 'data/BR/MT/Jangada', 'key': 'Jangada', 'lang': 'pt'},
       'BR/MT/Jauru': {'id': 'data/BR/MT/Jauru', 'key': 'Jauru', 'lang': 'pt'},
       'BR/MT/Juara': {'id': 'data/BR/MT/Juara', 'key': 'Juara', 'lang': 'pt'},
-      'BR/MT/Juruena': {
-        'id': 'data/BR/MT/Juruena',
-        'key': 'Juruena',
-        'lang': 'pt'
-      },
+      'BR/MT/Juruena': {'id': 'data/BR/MT/Juruena', 'key': 'Juruena', 'lang': 'pt'},
       'BR/MT/Juscimeira': {
         'id': 'data/BR/MT/Juscimeira',
         'key': 'Juscimeira',
@@ -12071,31 +8365,19 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Lucas do Rio Verde',
         'lang': 'pt'
       },
-      'BR/MT/Luciára': {
-        'id': 'data/BR/MT/Luciára',
-        'key': 'Luciára',
-        'lang': 'pt'
-      },
+      'BR/MT/Luciára': {'id': 'data/BR/MT/Luciára', 'key': 'Luciára', 'lang': 'pt'},
       'BR/MT/Marcelândia': {
         'id': 'data/BR/MT/Marcelândia',
         'key': 'Marcelândia',
         'lang': 'pt'
       },
-      'BR/MT/Matupá': {
-        'id': 'data/BR/MT/Matupá',
-        'key': 'Matupá',
-        'lang': 'pt'
-      },
+      'BR/MT/Matupá': {'id': 'data/BR/MT/Matupá', 'key': 'Matupá', 'lang': 'pt'},
       "BR/MT/Mirassol d'Oeste": {
         'id': "data/BR/MT/Mirassol d'Oeste",
         'key': "Mirassol d'Oeste",
         'lang': 'pt'
       },
-      'BR/MT/Nobres': {
-        'id': 'data/BR/MT/Nobres',
-        'key': 'Nobres',
-        'lang': 'pt'
-      },
+      'BR/MT/Nobres': {'id': 'data/BR/MT/Nobres', 'key': 'Nobres', 'lang': 'pt'},
       'BR/MT/Nortelândia': {
         'id': 'data/BR/MT/Nortelândia',
         'key': 'Nortelândia',
@@ -12201,11 +8483,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Paranatinga',
         'lang': 'pt'
       },
-      'BR/MT/Paranaíta': {
-        'id': 'data/BR/MT/Paranaíta',
-        'key': 'Paranaíta',
-        'lang': 'pt'
-      },
+      'BR/MT/Paranaíta': {'id': 'data/BR/MT/Paranaíta', 'key': 'Paranaíta', 'lang': 'pt'},
       'BR/MT/Pedra Preta': {
         'id': 'data/BR/MT/Pedra Preta',
         'key': 'Pedra Preta',
@@ -12221,11 +8499,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Planalto da Serra',
         'lang': 'pt'
       },
-      'BR/MT/Poconé': {
-        'id': 'data/BR/MT/Poconé',
-        'key': 'Poconé',
-        'lang': 'pt'
-      },
+      'BR/MT/Poconé': {'id': 'data/BR/MT/Poconé', 'key': 'Poconé', 'lang': 'pt'},
       'BR/MT/Pontal do Araguaia': {
         'id': 'data/BR/MT/Pontal do Araguaia',
         'key': 'Pontal do Araguaia',
@@ -12261,21 +8535,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Porto dos Gaúchos',
         'lang': 'pt'
       },
-      'BR/MT/Poxoréo': {
-        'id': 'data/BR/MT/Poxoréo',
-        'key': 'Poxoréo',
-        'lang': 'pt'
-      },
+      'BR/MT/Poxoréo': {'id': 'data/BR/MT/Poxoréo', 'key': 'Poxoréo', 'lang': 'pt'},
       'BR/MT/Primavera do Leste': {
         'id': 'data/BR/MT/Primavera do Leste',
         'key': 'Primavera do Leste',
         'lang': 'pt'
       },
-      'BR/MT/Querência': {
-        'id': 'data/BR/MT/Querência',
-        'key': 'Querência',
-        'lang': 'pt'
-      },
+      'BR/MT/Querência': {'id': 'data/BR/MT/Querência', 'key': 'Querência', 'lang': 'pt'},
       'BR/MT/Reserva do Cabaçal': {
         'id': 'data/BR/MT/Reserva do Cabaçal',
         'key': 'Reserva do Cabaçal',
@@ -12351,22 +8617,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santo Antônio do Leverger',
         'lang': 'pt'
       },
-      'BR/MT/Sapezal': {
-        'id': 'data/BR/MT/Sapezal',
-        'key': 'Sapezal',
-        'lang': 'pt'
-      },
+      'BR/MT/Sapezal': {'id': 'data/BR/MT/Sapezal', 'key': 'Sapezal', 'lang': 'pt'},
       'BR/MT/Serra Nova Dourada': {
         'id': 'data/BR/MT/Serra Nova Dourada',
         'key': 'Serra Nova Dourada',
         'lang': 'pt'
       },
       'BR/MT/Sinop': {'id': 'data/BR/MT/Sinop', 'key': 'Sinop', 'lang': 'pt'},
-      'BR/MT/Sorriso': {
-        'id': 'data/BR/MT/Sorriso',
-        'key': 'Sorriso',
-        'lang': 'pt'
-      },
+      'BR/MT/Sorriso': {'id': 'data/BR/MT/Sorriso', 'key': 'Sorriso', 'lang': 'pt'},
       'BR/MT/São Félix do Araguaia': {
         'id': 'data/BR/MT/São Félix do Araguaia',
         'key': 'São Félix do Araguaia',
@@ -12397,36 +8655,20 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Pedro da Cipa',
         'lang': 'pt'
       },
-      'BR/MT/Tabaporã': {
-        'id': 'data/BR/MT/Tabaporã',
-        'key': 'Tabaporã',
-        'lang': 'pt'
-      },
+      'BR/MT/Tabaporã': {'id': 'data/BR/MT/Tabaporã', 'key': 'Tabaporã', 'lang': 'pt'},
       'BR/MT/Tangará da Serra': {
         'id': 'data/BR/MT/Tangará da Serra',
         'key': 'Tangará da Serra',
         'lang': 'pt'
       },
-      'BR/MT/Tapurah': {
-        'id': 'data/BR/MT/Tapurah',
-        'key': 'Tapurah',
-        'lang': 'pt'
-      },
+      'BR/MT/Tapurah': {'id': 'data/BR/MT/Tapurah', 'key': 'Tapurah', 'lang': 'pt'},
       'BR/MT/Terra Nova do Norte': {
         'id': 'data/BR/MT/Terra Nova do Norte',
         'key': 'Terra Nova do Norte',
         'lang': 'pt'
       },
-      'BR/MT/Tesouro': {
-        'id': 'data/BR/MT/Tesouro',
-        'key': 'Tesouro',
-        'lang': 'pt'
-      },
-      'BR/MT/Torixoréu': {
-        'id': 'data/BR/MT/Torixoréu',
-        'key': 'Torixoréu',
-        'lang': 'pt'
-      },
+      'BR/MT/Tesouro': {'id': 'data/BR/MT/Tesouro', 'key': 'Tesouro', 'lang': 'pt'},
+      'BR/MT/Torixoréu': {'id': 'data/BR/MT/Torixoréu', 'key': 'Torixoréu', 'lang': 'pt'},
       'BR/MT/União do Sul': {
         'id': 'data/BR/MT/União do Sul',
         'key': 'União do Sul',
@@ -12443,21 +8685,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Vila Bela da Santíssima Trindade',
         'lang': 'pt'
       },
-      'BR/MT/Vila Rica': {
-        'id': 'data/BR/MT/Vila Rica',
-        'key': 'Vila Rica',
-        'lang': 'pt'
-      },
+      'BR/MT/Vila Rica': {'id': 'data/BR/MT/Vila Rica', 'key': 'Vila Rica', 'lang': 'pt'},
       'BR/MT/Várzea Grande': {
         'id': 'data/BR/MT/Várzea Grande',
         'key': 'Várzea Grande',
         'lang': 'pt'
       },
-      'BR/MT/Água Boa': {
-        'id': 'data/BR/MT/Água Boa',
-        'key': 'Água Boa',
-        'lang': 'pt'
-      },
+      'BR/MT/Água Boa': {'id': 'data/BR/MT/Água Boa', 'key': 'Água Boa', 'lang': 'pt'},
       'BR/PA': {
         'id': 'data/BR/PA',
         'isoid': 'PA',
@@ -12481,31 +8715,15 @@ Map<String, Map<String, String>> get allJson => {
       },
       'BR/PA/Acará': {'id': 'data/BR/PA/Acará', 'key': 'Acará', 'lang': 'pt'},
       'BR/PA/Afuá': {'id': 'data/BR/PA/Afuá', 'key': 'Afuá', 'lang': 'pt'},
-      'BR/PA/Alenquer': {
-        'id': 'data/BR/PA/Alenquer',
-        'key': 'Alenquer',
-        'lang': 'pt'
-      },
-      'BR/PA/Almeirim': {
-        'id': 'data/BR/PA/Almeirim',
-        'key': 'Almeirim',
-        'lang': 'pt'
-      },
-      'BR/PA/Altamira': {
-        'id': 'data/BR/PA/Altamira',
-        'key': 'Altamira',
-        'lang': 'pt'
-      },
+      'BR/PA/Alenquer': {'id': 'data/BR/PA/Alenquer', 'key': 'Alenquer', 'lang': 'pt'},
+      'BR/PA/Almeirim': {'id': 'data/BR/PA/Almeirim', 'key': 'Almeirim', 'lang': 'pt'},
+      'BR/PA/Altamira': {'id': 'data/BR/PA/Altamira', 'key': 'Altamira', 'lang': 'pt'},
       'BR/PA/Alter do Chão': {
         'id': 'data/BR/PA/Alter do Chão',
         'key': 'Alter do Chão',
         'lang': 'pt'
       },
-      'BR/PA/Anajás': {
-        'id': 'data/BR/PA/Anajás',
-        'key': 'Anajás',
-        'lang': 'pt'
-      },
+      'BR/PA/Anajás': {'id': 'data/BR/PA/Anajás', 'key': 'Anajás', 'lang': 'pt'},
       'BR/PA/Ananindeua': {
         'id': 'data/BR/PA/Ananindeua',
         'key': 'Ananindeua',
@@ -12522,49 +8740,21 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Aurora do Pará',
         'lang': 'pt'
       },
-      'BR/PA/Aveiro': {
-        'id': 'data/BR/PA/Aveiro',
-        'key': 'Aveiro',
-        'lang': 'pt'
-      },
+      'BR/PA/Aveiro': {'id': 'data/BR/PA/Aveiro', 'key': 'Aveiro', 'lang': 'pt'},
       'BR/PA/Bagre': {'id': 'data/BR/PA/Bagre', 'key': 'Bagre', 'lang': 'pt'},
       'BR/PA/Baião': {'id': 'data/BR/PA/Baião', 'key': 'Baião', 'lang': 'pt'},
-      'BR/PA/Bannach': {
-        'id': 'data/BR/PA/Bannach',
-        'key': 'Bannach',
-        'lang': 'pt'
-      },
-      'BR/PA/Barcarena': {
-        'id': 'data/BR/PA/Barcarena',
-        'key': 'Barcarena',
-        'lang': 'pt'
-      },
-      'BR/PA/Belterra': {
-        'id': 'data/BR/PA/Belterra',
-        'key': 'Belterra',
-        'lang': 'pt'
-      },
+      'BR/PA/Bannach': {'id': 'data/BR/PA/Bannach', 'key': 'Bannach', 'lang': 'pt'},
+      'BR/PA/Barcarena': {'id': 'data/BR/PA/Barcarena', 'key': 'Barcarena', 'lang': 'pt'},
+      'BR/PA/Belterra': {'id': 'data/BR/PA/Belterra', 'key': 'Belterra', 'lang': 'pt'},
       'BR/PA/Belém': {'id': 'data/BR/PA/Belém', 'key': 'Belém', 'lang': 'pt'},
-      'BR/PA/Benevides': {
-        'id': 'data/BR/PA/Benevides',
-        'key': 'Benevides',
-        'lang': 'pt'
-      },
+      'BR/PA/Benevides': {'id': 'data/BR/PA/Benevides', 'key': 'Benevides', 'lang': 'pt'},
       'BR/PA/Bom Jesus do Tocantins': {
         'id': 'data/BR/PA/Bom Jesus do Tocantins',
         'key': 'Bom Jesus do Tocantins',
         'lang': 'pt'
       },
-      'BR/PA/Bonito': {
-        'id': 'data/BR/PA/Bonito',
-        'key': 'Bonito',
-        'lang': 'pt'
-      },
-      'BR/PA/Bragança': {
-        'id': 'data/BR/PA/Bragança',
-        'key': 'Bragança',
-        'lang': 'pt'
-      },
+      'BR/PA/Bonito': {'id': 'data/BR/PA/Bonito', 'key': 'Bonito', 'lang': 'pt'},
+      'BR/PA/Bragança': {'id': 'data/BR/PA/Bragança', 'key': 'Bragança', 'lang': 'pt'},
       'BR/PA/Brasil Novo': {
         'id': 'data/BR/PA/Brasil Novo',
         'key': 'Brasil Novo',
@@ -12580,16 +8770,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Breu Branco',
         'lang': 'pt'
       },
-      'BR/PA/Breves': {
-        'id': 'data/BR/PA/Breves',
-        'key': 'Breves',
-        'lang': 'pt'
-      },
-      'BR/PA/Bujaru': {
-        'id': 'data/BR/PA/Bujaru',
-        'key': 'Bujaru',
-        'lang': 'pt'
-      },
+      'BR/PA/Breves': {'id': 'data/BR/PA/Breves', 'key': 'Breves', 'lang': 'pt'},
+      'BR/PA/Bujaru': {'id': 'data/BR/PA/Bujaru', 'key': 'Bujaru', 'lang': 'pt'},
       'BR/PA/Cachoeira do Arari': {
         'id': 'data/BR/PA/Cachoeira do Arari',
         'key': 'Cachoeira do Arari',
@@ -12600,41 +8782,21 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cachoeira do Piriá',
         'lang': 'pt'
       },
-      'BR/PA/Cameta': {
-        'id': 'data/BR/PA/Cameta',
-        'key': 'Cameta',
-        'lang': 'pt'
-      },
+      'BR/PA/Cameta': {'id': 'data/BR/PA/Cameta', 'key': 'Cameta', 'lang': 'pt'},
       'BR/PA/Canaã dos Carajás': {
         'id': 'data/BR/PA/Canaã dos Carajás',
         'key': 'Canaã dos Carajás',
         'lang': 'pt'
       },
-      'BR/PA/Capanema': {
-        'id': 'data/BR/PA/Capanema',
-        'key': 'Capanema',
-        'lang': 'pt'
-      },
+      'BR/PA/Capanema': {'id': 'data/BR/PA/Capanema', 'key': 'Capanema', 'lang': 'pt'},
       'BR/PA/Capitão Poço': {
         'id': 'data/BR/PA/Capitão Poço',
         'key': 'Capitão Poço',
         'lang': 'pt'
       },
-      'BR/PA/Castanhal': {
-        'id': 'data/BR/PA/Castanhal',
-        'key': 'Castanhal',
-        'lang': 'pt'
-      },
-      'BR/PA/Chaves': {
-        'id': 'data/BR/PA/Chaves',
-        'key': 'Chaves',
-        'lang': 'pt'
-      },
-      'BR/PA/Colares': {
-        'id': 'data/BR/PA/Colares',
-        'key': 'Colares',
-        'lang': 'pt'
-      },
+      'BR/PA/Castanhal': {'id': 'data/BR/PA/Castanhal', 'key': 'Castanhal', 'lang': 'pt'},
+      'BR/PA/Chaves': {'id': 'data/BR/PA/Chaves', 'key': 'Chaves', 'lang': 'pt'},
+      'BR/PA/Colares': {'id': 'data/BR/PA/Colares', 'key': 'Colares', 'lang': 'pt'},
       'BR/PA/Conceição do Araguaia': {
         'id': 'data/BR/PA/Conceição do Araguaia',
         'key': 'Conceição do Araguaia',
@@ -12661,11 +8823,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/PA/Curuá': {'id': 'data/BR/PA/Curuá', 'key': 'Curuá', 'lang': 'pt'},
-      'BR/PA/Curuçá': {
-        'id': 'data/BR/PA/Curuçá',
-        'key': 'Curuçá',
-        'lang': 'pt'
-      },
+      'BR/PA/Curuçá': {'id': 'data/BR/PA/Curuçá', 'key': 'Curuçá', 'lang': 'pt'},
       'BR/PA/Dom Eliseu': {
         'id': 'data/BR/PA/Dom Eliseu',
         'key': 'Dom Eliseu',
@@ -12692,11 +8850,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Goianésia do Pará',
         'lang': 'pt'
       },
-      'BR/PA/Gurupá': {
-        'id': 'data/BR/PA/Gurupá',
-        'key': 'Gurupá',
-        'lang': 'pt'
-      },
+      'BR/PA/Gurupá': {'id': 'data/BR/PA/Gurupá', 'key': 'Gurupá', 'lang': 'pt'},
       'BR/PA/Igarapé-Açu': {
         'id': 'data/BR/PA/Igarapé-Açu',
         'key': 'Igarapé-Açu',
@@ -12707,26 +8861,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Igarapé-Miri',
         'lang': 'pt'
       },
-      'BR/PA/Inhangapi': {
-        'id': 'data/BR/PA/Inhangapi',
-        'key': 'Inhangapi',
-        'lang': 'pt'
-      },
+      'BR/PA/Inhangapi': {'id': 'data/BR/PA/Inhangapi', 'key': 'Inhangapi', 'lang': 'pt'},
       'BR/PA/Ipixuna do Pará': {
         'id': 'data/BR/PA/Ipixuna do Pará',
         'key': 'Ipixuna do Pará',
         'lang': 'pt'
       },
-      'BR/PA/Irituia': {
-        'id': 'data/BR/PA/Irituia',
-        'key': 'Irituia',
-        'lang': 'pt'
-      },
-      'BR/PA/Itaituba': {
-        'id': 'data/BR/PA/Itaituba',
-        'key': 'Itaituba',
-        'lang': 'pt'
-      },
+      'BR/PA/Irituia': {'id': 'data/BR/PA/Irituia', 'key': 'Irituia', 'lang': 'pt'},
+      'BR/PA/Itaituba': {'id': 'data/BR/PA/Itaituba', 'key': 'Itaituba', 'lang': 'pt'},
       'BR/PA/Itupiranga': {
         'id': 'data/BR/PA/Itupiranga',
         'key': 'Itupiranga',
@@ -12737,16 +8879,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Jacareacanga',
         'lang': 'pt'
       },
-      'BR/PA/Jacundá': {
-        'id': 'data/BR/PA/Jacundá',
-        'key': 'Jacundá',
-        'lang': 'pt'
-      },
-      'BR/PA/Juruti': {
-        'id': 'data/BR/PA/Juruti',
-        'key': 'Juruti',
-        'lang': 'pt'
-      },
+      'BR/PA/Jacundá': {'id': 'data/BR/PA/Jacundá', 'key': 'Jacundá', 'lang': 'pt'},
+      'BR/PA/Juruti': {'id': 'data/BR/PA/Juruti', 'key': 'Juruti', 'lang': 'pt'},
       'BR/PA/Limoeiro do Ajuru': {
         'id': 'data/BR/PA/Limoeiro do Ajuru',
         'key': 'Limoeiro do Ajuru',
@@ -12757,41 +8891,17 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Magalhães Barata',
         'lang': 'pt'
       },
-      'BR/PA/Marabá': {
-        'id': 'data/BR/PA/Marabá',
-        'key': 'Marabá',
-        'lang': 'pt'
-      },
-      'BR/PA/Maracanã': {
-        'id': 'data/BR/PA/Maracanã',
-        'key': 'Maracanã',
-        'lang': 'pt'
-      },
-      'BR/PA/Marapanim': {
-        'id': 'data/BR/PA/Marapanim',
-        'key': 'Marapanim',
-        'lang': 'pt'
-      },
-      'BR/PA/Marituba': {
-        'id': 'data/BR/PA/Marituba',
-        'key': 'Marituba',
-        'lang': 'pt'
-      },
+      'BR/PA/Marabá': {'id': 'data/BR/PA/Marabá', 'key': 'Marabá', 'lang': 'pt'},
+      'BR/PA/Maracanã': {'id': 'data/BR/PA/Maracanã', 'key': 'Maracanã', 'lang': 'pt'},
+      'BR/PA/Marapanim': {'id': 'data/BR/PA/Marapanim', 'key': 'Marapanim', 'lang': 'pt'},
+      'BR/PA/Marituba': {'id': 'data/BR/PA/Marituba', 'key': 'Marituba', 'lang': 'pt'},
       'BR/PA/Medicilândia': {
         'id': 'data/BR/PA/Medicilândia',
         'key': 'Medicilândia',
         'lang': 'pt'
       },
-      'BR/PA/Melgaço': {
-        'id': 'data/BR/PA/Melgaço',
-        'key': 'Melgaço',
-        'lang': 'pt'
-      },
-      'BR/PA/Mocajuba': {
-        'id': 'data/BR/PA/Mocajuba',
-        'key': 'Mocajuba',
-        'lang': 'pt'
-      },
+      'BR/PA/Melgaço': {'id': 'data/BR/PA/Melgaço', 'key': 'Melgaço', 'lang': 'pt'},
+      'BR/PA/Mocajuba': {'id': 'data/BR/PA/Mocajuba', 'key': 'Mocajuba', 'lang': 'pt'},
       'BR/PA/Moju': {'id': 'data/BR/PA/Moju', 'key': 'Moju', 'lang': 'pt'},
       'BR/PA/Monte Alegre': {
         'id': 'data/BR/PA/Monte Alegre',
@@ -12834,22 +8944,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Oeiras do Pará',
         'lang': 'pt'
       },
-      'BR/PA/Oriximiná': {
-        'id': 'data/BR/PA/Oriximiná',
-        'key': 'Oriximiná',
-        'lang': 'pt'
-      },
+      'BR/PA/Oriximiná': {'id': 'data/BR/PA/Oriximiná', 'key': 'Oriximiná', 'lang': 'pt'},
       'BR/PA/Ourilândia do Norte': {
         'id': 'data/BR/PA/Ourilândia do Norte',
         'key': 'Ourilândia do Norte',
         'lang': 'pt'
       },
       'BR/PA/Ourém': {'id': 'data/BR/PA/Ourém', 'key': 'Ourém', 'lang': 'pt'},
-      'BR/PA/Pacajá': {
-        'id': 'data/BR/PA/Pacajá',
-        'key': 'Pacajá',
-        'lang': 'pt'
-      },
+      'BR/PA/Pacajá': {'id': 'data/BR/PA/Pacajá', 'key': 'Pacajá', 'lang': 'pt'},
       'BR/PA/Palestina do Pará': {
         'id': 'data/BR/PA/Palestina do Pará',
         'key': 'Palestina do Pará',
@@ -12870,71 +8972,31 @@ Map<String, Map<String, String>> get allJson => {
         'key': "Pau D'Arco",
         'lang': 'pt'
       },
-      'BR/PA/Peixe-Boi': {
-        'id': 'data/BR/PA/Peixe-Boi',
-        'key': 'Peixe-Boi',
-        'lang': 'pt'
-      },
-      'BR/PA/Piçarra': {
-        'id': 'data/BR/PA/Piçarra',
-        'key': 'Piçarra',
-        'lang': 'pt'
-      },
-      'BR/PA/Placas': {
-        'id': 'data/BR/PA/Placas',
-        'key': 'Placas',
-        'lang': 'pt'
-      },
+      'BR/PA/Peixe-Boi': {'id': 'data/BR/PA/Peixe-Boi', 'key': 'Peixe-Boi', 'lang': 'pt'},
+      'BR/PA/Piçarra': {'id': 'data/BR/PA/Piçarra', 'key': 'Piçarra', 'lang': 'pt'},
+      'BR/PA/Placas': {'id': 'data/BR/PA/Placas', 'key': 'Placas', 'lang': 'pt'},
       'BR/PA/Ponta de Pedras': {
         'id': 'data/BR/PA/Ponta de Pedras',
         'key': 'Ponta de Pedras',
         'lang': 'pt'
       },
-      'BR/PA/Portel': {
-        'id': 'data/BR/PA/Portel',
-        'key': 'Portel',
-        'lang': 'pt'
-      },
+      'BR/PA/Portel': {'id': 'data/BR/PA/Portel', 'key': 'Portel', 'lang': 'pt'},
       'BR/PA/Porto de Moz': {
         'id': 'data/BR/PA/Porto de Moz',
         'key': 'Porto de Moz',
         'lang': 'pt'
       },
-      'BR/PA/Prainha': {
-        'id': 'data/BR/PA/Prainha',
-        'key': 'Prainha',
-        'lang': 'pt'
-      },
-      'BR/PA/Primavera': {
-        'id': 'data/BR/PA/Primavera',
-        'key': 'Primavera',
-        'lang': 'pt'
-      },
-      'BR/PA/Quatipuru': {
-        'id': 'data/BR/PA/Quatipuru',
-        'key': 'Quatipuru',
-        'lang': 'pt'
-      },
-      'BR/PA/Redenção': {
-        'id': 'data/BR/PA/Redenção',
-        'key': 'Redenção',
-        'lang': 'pt'
-      },
-      'BR/PA/Rio Maria': {
-        'id': 'data/BR/PA/Rio Maria',
-        'key': 'Rio Maria',
-        'lang': 'pt'
-      },
+      'BR/PA/Prainha': {'id': 'data/BR/PA/Prainha', 'key': 'Prainha', 'lang': 'pt'},
+      'BR/PA/Primavera': {'id': 'data/BR/PA/Primavera', 'key': 'Primavera', 'lang': 'pt'},
+      'BR/PA/Quatipuru': {'id': 'data/BR/PA/Quatipuru', 'key': 'Quatipuru', 'lang': 'pt'},
+      'BR/PA/Redenção': {'id': 'data/BR/PA/Redenção', 'key': 'Redenção', 'lang': 'pt'},
+      'BR/PA/Rio Maria': {'id': 'data/BR/PA/Rio Maria', 'key': 'Rio Maria', 'lang': 'pt'},
       'BR/PA/Rondon do Pará': {
         'id': 'data/BR/PA/Rondon do Pará',
         'key': 'Rondon do Pará',
         'lang': 'pt'
       },
-      'BR/PA/Rurópolis': {
-        'id': 'data/BR/PA/Rurópolis',
-        'key': 'Rurópolis',
-        'lang': 'pt'
-      },
+      'BR/PA/Rurópolis': {'id': 'data/BR/PA/Rurópolis', 'key': 'Rurópolis', 'lang': 'pt'},
       'BR/PA/Salinópolis': {
         'id': 'data/BR/PA/Salinópolis',
         'key': 'Salinópolis',
@@ -12980,11 +9042,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santana do Araguaia',
         'lang': 'pt'
       },
-      'BR/PA/Santarém': {
-        'id': 'data/BR/PA/Santarém',
-        'key': 'Santarém',
-        'lang': 'pt'
-      },
+      'BR/PA/Santarém': {'id': 'data/BR/PA/Santarém', 'key': 'Santarém', 'lang': 'pt'},
       'BR/PA/Santarém Novo': {
         'id': 'data/BR/PA/Santarém Novo',
         'key': 'Santarém Novo',
@@ -12995,11 +9053,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santo Antônio do Tauá',
         'lang': 'pt'
       },
-      'BR/PA/Sapucaia': {
-        'id': 'data/BR/PA/Sapucaia',
-        'key': 'Sapucaia',
-        'lang': 'pt'
-      },
+      'BR/PA/Sapucaia': {'id': 'data/BR/PA/Sapucaia', 'key': 'Sapucaia', 'lang': 'pt'},
       'BR/PA/Senador José Porfírio': {
         'id': 'data/BR/PA/Senador José Porfírio',
         'key': 'Senador José Porfírio',
@@ -13061,11 +9115,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Sebastião da Boa Vista',
         'lang': 'pt'
       },
-      'BR/PA/Tailândia': {
-        'id': 'data/BR/PA/Tailândia',
-        'key': 'Tailândia',
-        'lang': 'pt'
-      },
+      'BR/PA/Tailândia': {'id': 'data/BR/PA/Tailândia', 'key': 'Tailândia', 'lang': 'pt'},
       'BR/PA/Terra Alta': {
         'id': 'data/BR/PA/Terra Alta',
         'key': 'Terra Alta',
@@ -13076,41 +9126,21 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Terra Santa',
         'lang': 'pt'
       },
-      'BR/PA/Tomé-Açu': {
-        'id': 'data/BR/PA/Tomé-Açu',
-        'key': 'Tomé-Açu',
-        'lang': 'pt'
-      },
+      'BR/PA/Tomé-Açu': {'id': 'data/BR/PA/Tomé-Açu', 'key': 'Tomé-Açu', 'lang': 'pt'},
       'BR/PA/Tracuateua': {
         'id': 'data/BR/PA/Tracuateua',
         'key': 'Tracuateua',
         'lang': 'pt'
       },
-      'BR/PA/Trairão': {
-        'id': 'data/BR/PA/Trairão',
-        'key': 'Trairão',
-        'lang': 'pt'
-      },
-      'BR/PA/Tucumã': {
-        'id': 'data/BR/PA/Tucumã',
-        'key': 'Tucumã',
-        'lang': 'pt'
-      },
-      'BR/PA/Tucuruí': {
-        'id': 'data/BR/PA/Tucuruí',
-        'key': 'Tucuruí',
-        'lang': 'pt'
-      },
+      'BR/PA/Trairão': {'id': 'data/BR/PA/Trairão', 'key': 'Trairão', 'lang': 'pt'},
+      'BR/PA/Tucumã': {'id': 'data/BR/PA/Tucumã', 'key': 'Tucumã', 'lang': 'pt'},
+      'BR/PA/Tucuruí': {'id': 'data/BR/PA/Tucuruí', 'key': 'Tucuruí', 'lang': 'pt'},
       'BR/PA/Ulianópolis': {
         'id': 'data/BR/PA/Ulianópolis',
         'key': 'Ulianópolis',
         'lang': 'pt'
       },
-      'BR/PA/Uruará': {
-        'id': 'data/BR/PA/Uruará',
-        'key': 'Uruará',
-        'lang': 'pt'
-      },
+      'BR/PA/Uruará': {'id': 'data/BR/PA/Uruará', 'key': 'Uruará', 'lang': 'pt'},
       'BR/PA/Vigia': {'id': 'data/BR/PA/Vigia', 'key': 'Vigia', 'lang': 'pt'},
       'BR/PA/Viseu': {'id': 'data/BR/PA/Viseu', 'key': 'Viseu', 'lang': 'pt'},
       'BR/PA/Vitória do Xingu': {
@@ -13118,21 +9148,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Vitória do Xingu',
         'lang': 'pt'
       },
-      'BR/PA/Xinguara': {
-        'id': 'data/BR/PA/Xinguara',
-        'key': 'Xinguara',
-        'lang': 'pt'
-      },
+      'BR/PA/Xinguara': {'id': 'data/BR/PA/Xinguara', 'key': 'Xinguara', 'lang': 'pt'},
       'BR/PA/Água Azul do Norte': {
         'id': 'data/BR/PA/Água Azul do Norte',
         'key': 'Água Azul do Norte',
         'lang': 'pt'
       },
-      'BR/PA/Óbidos': {
-        'id': 'data/BR/PA/Óbidos',
-        'key': 'Óbidos',
-        'lang': 'pt'
-      },
+      'BR/PA/Óbidos': {'id': 'data/BR/PA/Óbidos', 'key': 'Óbidos', 'lang': 'pt'},
       'BR/PB': {
         'id': 'data/BR/PB',
         'isoid': 'PB',
@@ -13144,11 +9166,7 @@ Map<String, Map<String, String>> get allJson => {
         'zip': '58',
         'zipex': '58000-000,58999-999'
       },
-      'BR/PB/Aguiar': {
-        'id': 'data/BR/PB/Aguiar',
-        'key': 'Aguiar',
-        'lang': 'pt'
-      },
+      'BR/PB/Aguiar': {'id': 'data/BR/PB/Aguiar', 'key': 'Aguiar', 'lang': 'pt'},
       'BR/PB/Alagoa Grande': {
         'id': 'data/BR/PB/Alagoa Grande',
         'key': 'Alagoa Grande',
@@ -13159,78 +9177,34 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alagoa Nova',
         'lang': 'pt'
       },
-      'BR/PB/Alagoinha': {
-        'id': 'data/BR/PB/Alagoinha',
-        'key': 'Alagoinha',
-        'lang': 'pt'
-      },
-      'BR/PB/Alcantil': {
-        'id': 'data/BR/PB/Alcantil',
-        'key': 'Alcantil',
-        'lang': 'pt'
-      },
+      'BR/PB/Alagoinha': {'id': 'data/BR/PB/Alagoinha', 'key': 'Alagoinha', 'lang': 'pt'},
+      'BR/PB/Alcantil': {'id': 'data/BR/PB/Alcantil', 'key': 'Alcantil', 'lang': 'pt'},
       'BR/PB/Algodão de Jandaíra': {
         'id': 'data/BR/PB/Algodão de Jandaíra',
         'key': 'Algodão de Jandaíra',
         'lang': 'pt'
       },
-      'BR/PB/Alhandra': {
-        'id': 'data/BR/PB/Alhandra',
-        'key': 'Alhandra',
-        'lang': 'pt'
-      },
-      'BR/PB/Amparo': {
-        'id': 'data/BR/PB/Amparo',
-        'key': 'Amparo',
-        'lang': 'pt'
-      },
-      'BR/PB/Aparecida': {
-        'id': 'data/BR/PB/Aparecida',
-        'key': 'Aparecida',
-        'lang': 'pt'
-      },
-      'BR/PB/Araruna': {
-        'id': 'data/BR/PB/Araruna',
-        'key': 'Araruna',
-        'lang': 'pt'
-      },
+      'BR/PB/Alhandra': {'id': 'data/BR/PB/Alhandra', 'key': 'Alhandra', 'lang': 'pt'},
+      'BR/PB/Amparo': {'id': 'data/BR/PB/Amparo', 'key': 'Amparo', 'lang': 'pt'},
+      'BR/PB/Aparecida': {'id': 'data/BR/PB/Aparecida', 'key': 'Aparecida', 'lang': 'pt'},
+      'BR/PB/Araruna': {'id': 'data/BR/PB/Araruna', 'key': 'Araruna', 'lang': 'pt'},
       'BR/PB/Arará': {'id': 'data/BR/PB/Arará', 'key': 'Arará', 'lang': 'pt'},
-      'BR/PB/Araçagi': {
-        'id': 'data/BR/PB/Araçagi',
-        'key': 'Araçagi',
-        'lang': 'pt'
-      },
+      'BR/PB/Araçagi': {'id': 'data/BR/PB/Araçagi', 'key': 'Araçagi', 'lang': 'pt'},
       'BR/PB/Areia': {'id': 'data/BR/PB/Areia', 'key': 'Areia', 'lang': 'pt'},
       'BR/PB/Areia de Baraúnas': {
         'id': 'data/BR/PB/Areia de Baraúnas',
         'key': 'Areia de Baraúnas',
         'lang': 'pt'
       },
-      'BR/PB/Areial': {
-        'id': 'data/BR/PB/Areial',
-        'key': 'Areial',
-        'lang': 'pt'
-      },
-      'BR/PB/Aroeiras': {
-        'id': 'data/BR/PB/Aroeiras',
-        'key': 'Aroeiras',
-        'lang': 'pt'
-      },
-      'BR/PB/Assunção': {
-        'id': 'data/BR/PB/Assunção',
-        'key': 'Assunção',
-        'lang': 'pt'
-      },
+      'BR/PB/Areial': {'id': 'data/BR/PB/Areial', 'key': 'Areial', 'lang': 'pt'},
+      'BR/PB/Aroeiras': {'id': 'data/BR/PB/Aroeiras', 'key': 'Aroeiras', 'lang': 'pt'},
+      'BR/PB/Assunção': {'id': 'data/BR/PB/Assunção', 'key': 'Assunção', 'lang': 'pt'},
       'BR/PB/Bananeiras': {
         'id': 'data/BR/PB/Bananeiras',
         'key': 'Bananeiras',
         'lang': 'pt'
       },
-      'BR/PB/Baraúna': {
-        'id': 'data/BR/PB/Baraúna',
-        'key': 'Baraúna',
-        'lang': 'pt'
-      },
+      'BR/PB/Baraúna': {'id': 'data/BR/PB/Baraúna', 'key': 'Baraúna', 'lang': 'pt'},
       'BR/PB/Barra de Santa Rosa': {
         'id': 'data/BR/PB/Barra de Santa Rosa',
         'key': 'Barra de Santa Rosa',
@@ -13246,11 +9220,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Barra de São Miguel',
         'lang': 'pt'
       },
-      'BR/PB/Bayeux': {
-        'id': 'data/BR/PB/Bayeux',
-        'key': 'Bayeux',
-        'lang': 'pt'
-      },
+      'BR/PB/Bayeux': {'id': 'data/BR/PB/Bayeux', 'key': 'Bayeux', 'lang': 'pt'},
       'BR/PB/Baía da Traição': {
         'id': 'data/BR/PB/Baía da Traição',
         'key': 'Baía da Traição',
@@ -13272,16 +9242,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Boa Ventura',
         'lang': 'pt'
       },
-      'BR/PB/Boa Vista': {
-        'id': 'data/BR/PB/Boa Vista',
-        'key': 'Boa Vista',
-        'lang': 'pt'
-      },
-      'BR/PB/Bom Jesus': {
-        'id': 'data/BR/PB/Bom Jesus',
-        'key': 'Bom Jesus',
-        'lang': 'pt'
-      },
+      'BR/PB/Boa Vista': {'id': 'data/BR/PB/Boa Vista', 'key': 'Boa Vista', 'lang': 'pt'},
+      'BR/PB/Bom Jesus': {'id': 'data/BR/PB/Bom Jesus', 'key': 'Bom Jesus', 'lang': 'pt'},
       'BR/PB/Bom Sucesso': {
         'id': 'data/BR/PB/Bom Sucesso',
         'key': 'Bom Sucesso',
@@ -13292,16 +9254,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bonito de Santa Fé',
         'lang': 'pt'
       },
-      'BR/PB/Boqueirão': {
-        'id': 'data/BR/PB/Boqueirão',
-        'key': 'Boqueirão',
-        'lang': 'pt'
-      },
-      'BR/PB/Borborema': {
-        'id': 'data/BR/PB/Borborema',
-        'key': 'Borborema',
-        'lang': 'pt'
-      },
+      'BR/PB/Boqueirão': {'id': 'data/BR/PB/Boqueirão', 'key': 'Boqueirão', 'lang': 'pt'},
+      'BR/PB/Borborema': {'id': 'data/BR/PB/Borborema', 'key': 'Borborema', 'lang': 'pt'},
       'BR/PB/Brejo do Cruz': {
         'id': 'data/BR/PB/Brejo do Cruz',
         'key': 'Brejo do Cruz',
@@ -13312,21 +9266,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Brejo dos Santos',
         'lang': 'pt'
       },
-      'BR/PB/Caaporã': {
-        'id': 'data/BR/PB/Caaporã',
-        'key': 'Caaporã',
-        'lang': 'pt'
-      },
+      'BR/PB/Caaporã': {'id': 'data/BR/PB/Caaporã', 'key': 'Caaporã', 'lang': 'pt'},
       'BR/PB/Cabaceiras': {
         'id': 'data/BR/PB/Cabaceiras',
         'key': 'Cabaceiras',
         'lang': 'pt'
       },
-      'BR/PB/Cabedelo': {
-        'id': 'data/BR/PB/Cabedelo',
-        'key': 'Cabedelo',
-        'lang': 'pt'
-      },
+      'BR/PB/Cabedelo': {'id': 'data/BR/PB/Cabedelo', 'key': 'Cabedelo', 'lang': 'pt'},
       'BR/PB/Cachoeira dos Índios': {
         'id': 'data/BR/PB/Cachoeira dos Índios',
         'key': 'Cachoeira dos Índios',
@@ -13342,16 +9288,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cacimba de Dentro',
         'lang': 'pt'
       },
-      'BR/PB/Cacimbas': {
-        'id': 'data/BR/PB/Cacimbas',
-        'key': 'Cacimbas',
-        'lang': 'pt'
-      },
-      'BR/PB/Caiçara': {
-        'id': 'data/BR/PB/Caiçara',
-        'key': 'Caiçara',
-        'lang': 'pt'
-      },
+      'BR/PB/Cacimbas': {'id': 'data/BR/PB/Cacimbas', 'key': 'Cacimbas', 'lang': 'pt'},
+      'BR/PB/Caiçara': {'id': 'data/BR/PB/Caiçara', 'key': 'Caiçara', 'lang': 'pt'},
       'BR/PB/Cajazeiras': {
         'id': 'data/BR/PB/Cajazeiras',
         'key': 'Cajazeiras',
@@ -13367,11 +9305,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Caldas Brandão',
         'lang': 'pt'
       },
-      'BR/PB/Camalaú': {
-        'id': 'data/BR/PB/Camalaú',
-        'key': 'Camalaú',
-        'lang': 'pt'
-      },
+      'BR/PB/Camalaú': {'id': 'data/BR/PB/Camalaú', 'key': 'Camalaú', 'lang': 'pt'},
       'BR/PB/Campina Grande': {
         'id': 'data/BR/PB/Campina Grande',
         'key': 'Campina Grande',
@@ -13383,11 +9317,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/PB/Capim': {'id': 'data/BR/PB/Capim', 'key': 'Capim', 'lang': 'pt'},
-      'BR/PB/Caraúbas': {
-        'id': 'data/BR/PB/Caraúbas',
-        'key': 'Caraúbas',
-        'lang': 'pt'
-      },
+      'BR/PB/Caraúbas': {'id': 'data/BR/PB/Caraúbas', 'key': 'Caraúbas', 'lang': 'pt'},
       'BR/PB/Carrapateira': {
         'id': 'data/BR/PB/Carrapateira',
         'key': 'Carrapateira',
@@ -13408,48 +9338,20 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Catolé do Rocha',
         'lang': 'pt'
       },
-      'BR/PB/Caturité': {
-        'id': 'data/BR/PB/Caturité',
-        'key': 'Caturité',
-        'lang': 'pt'
-      },
-      'BR/PB/Conceição': {
-        'id': 'data/BR/PB/Conceição',
-        'key': 'Conceição',
-        'lang': 'pt'
-      },
-      'BR/PB/Condado': {
-        'id': 'data/BR/PB/Condado',
-        'key': 'Condado',
-        'lang': 'pt'
-      },
+      'BR/PB/Caturité': {'id': 'data/BR/PB/Caturité', 'key': 'Caturité', 'lang': 'pt'},
+      'BR/PB/Conceição': {'id': 'data/BR/PB/Conceição', 'key': 'Conceição', 'lang': 'pt'},
+      'BR/PB/Condado': {'id': 'data/BR/PB/Condado', 'key': 'Condado', 'lang': 'pt'},
       'BR/PB/Conde': {'id': 'data/BR/PB/Conde', 'key': 'Conde', 'lang': 'pt'},
       'BR/PB/Congo': {'id': 'data/BR/PB/Congo', 'key': 'Congo', 'lang': 'pt'},
-      'BR/PB/Coremas': {
-        'id': 'data/BR/PB/Coremas',
-        'key': 'Coremas',
-        'lang': 'pt'
-      },
-      'BR/PB/Coxixola': {
-        'id': 'data/BR/PB/Coxixola',
-        'key': 'Coxixola',
-        'lang': 'pt'
-      },
+      'BR/PB/Coremas': {'id': 'data/BR/PB/Coremas', 'key': 'Coremas', 'lang': 'pt'},
+      'BR/PB/Coxixola': {'id': 'data/BR/PB/Coxixola', 'key': 'Coxixola', 'lang': 'pt'},
       'BR/PB/Cruz do Espírito Santo': {
         'id': 'data/BR/PB/Cruz do Espírito Santo',
         'key': 'Cruz do Espírito Santo',
         'lang': 'pt'
       },
-      'BR/PB/Cubati': {
-        'id': 'data/BR/PB/Cubati',
-        'key': 'Cubati',
-        'lang': 'pt'
-      },
-      'BR/PB/Cuitegi': {
-        'id': 'data/BR/PB/Cuitegi',
-        'key': 'Cuitegi',
-        'lang': 'pt'
-      },
+      'BR/PB/Cubati': {'id': 'data/BR/PB/Cubati', 'key': 'Cubati', 'lang': 'pt'},
+      'BR/PB/Cuitegi': {'id': 'data/BR/PB/Cuitegi', 'key': 'Cuitegi', 'lang': 'pt'},
       'BR/PB/Cuité': {'id': 'data/BR/PB/Cuité', 'key': 'Cuité', 'lang': 'pt'},
       'BR/PB/Cuité de Mamanguape': {
         'id': 'data/BR/PB/Cuité de Mamanguape',
@@ -13466,42 +9368,18 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Curral de Cima',
         'lang': 'pt'
       },
-      'BR/PB/Damião': {
-        'id': 'data/BR/PB/Damião',
-        'key': 'Damião',
-        'lang': 'pt'
-      },
-      'BR/PB/Desterro': {
-        'id': 'data/BR/PB/Desterro',
-        'key': 'Desterro',
-        'lang': 'pt'
-      },
-      'BR/PB/Diamante': {
-        'id': 'data/BR/PB/Diamante',
-        'key': 'Diamante',
-        'lang': 'pt'
-      },
-      'BR/PB/Dona Inês': {
-        'id': 'data/BR/PB/Dona Inês',
-        'key': 'Dona Inês',
-        'lang': 'pt'
-      },
+      'BR/PB/Damião': {'id': 'data/BR/PB/Damião', 'key': 'Damião', 'lang': 'pt'},
+      'BR/PB/Desterro': {'id': 'data/BR/PB/Desterro', 'key': 'Desterro', 'lang': 'pt'},
+      'BR/PB/Diamante': {'id': 'data/BR/PB/Diamante', 'key': 'Diamante', 'lang': 'pt'},
+      'BR/PB/Dona Inês': {'id': 'data/BR/PB/Dona Inês', 'key': 'Dona Inês', 'lang': 'pt'},
       'BR/PB/Duas Estradas': {
         'id': 'data/BR/PB/Duas Estradas',
         'key': 'Duas Estradas',
         'lang': 'pt'
       },
       'BR/PB/Emas': {'id': 'data/BR/PB/Emas', 'key': 'Emas', 'lang': 'pt'},
-      'BR/PB/Esperança': {
-        'id': 'data/BR/PB/Esperança',
-        'key': 'Esperança',
-        'lang': 'pt'
-      },
-      'BR/PB/Fagundes': {
-        'id': 'data/BR/PB/Fagundes',
-        'key': 'Fagundes',
-        'lang': 'pt'
-      },
+      'BR/PB/Esperança': {'id': 'data/BR/PB/Esperança', 'key': 'Esperança', 'lang': 'pt'},
+      'BR/PB/Fagundes': {'id': 'data/BR/PB/Fagundes', 'key': 'Fagundes', 'lang': 'pt'},
       'BR/PB/Frei Martinho': {
         'id': 'data/BR/PB/Frei Martinho',
         'key': 'Frei Martinho',
@@ -13512,42 +9390,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Gado Bravo',
         'lang': 'pt'
       },
-      'BR/PB/Guarabira': {
-        'id': 'data/BR/PB/Guarabira',
-        'key': 'Guarabira',
-        'lang': 'pt'
-      },
-      'BR/PB/Gurinhém': {
-        'id': 'data/BR/PB/Gurinhém',
-        'key': 'Gurinhém',
-        'lang': 'pt'
-      },
-      'BR/PB/Gurjão': {
-        'id': 'data/BR/PB/Gurjão',
-        'key': 'Gurjão',
-        'lang': 'pt'
-      },
-      'BR/PB/Ibiara': {
-        'id': 'data/BR/PB/Ibiara',
-        'key': 'Ibiara',
-        'lang': 'pt'
-      },
-      'BR/PB/Igaracy': {
-        'id': 'data/BR/PB/Igaracy',
-        'key': 'Igaracy',
-        'lang': 'pt'
-      },
-      'BR/PB/Imaculada': {
-        'id': 'data/BR/PB/Imaculada',
-        'key': 'Imaculada',
-        'lang': 'pt'
-      },
+      'BR/PB/Guarabira': {'id': 'data/BR/PB/Guarabira', 'key': 'Guarabira', 'lang': 'pt'},
+      'BR/PB/Gurinhém': {'id': 'data/BR/PB/Gurinhém', 'key': 'Gurinhém', 'lang': 'pt'},
+      'BR/PB/Gurjão': {'id': 'data/BR/PB/Gurjão', 'key': 'Gurjão', 'lang': 'pt'},
+      'BR/PB/Ibiara': {'id': 'data/BR/PB/Ibiara', 'key': 'Ibiara', 'lang': 'pt'},
+      'BR/PB/Igaracy': {'id': 'data/BR/PB/Igaracy', 'key': 'Igaracy', 'lang': 'pt'},
+      'BR/PB/Imaculada': {'id': 'data/BR/PB/Imaculada', 'key': 'Imaculada', 'lang': 'pt'},
       'BR/PB/Inga': {'id': 'data/BR/PB/Inga', 'key': 'Inga', 'lang': 'pt'},
-      'BR/PB/Itabaiana': {
-        'id': 'data/BR/PB/Itabaiana',
-        'key': 'Itabaiana',
-        'lang': 'pt'
-      },
+      'BR/PB/Itabaiana': {'id': 'data/BR/PB/Itabaiana', 'key': 'Itabaiana', 'lang': 'pt'},
       'BR/PB/Itaporanga': {
         'id': 'data/BR/PB/Itaporanga',
         'key': 'Itaporanga',
@@ -13558,21 +9408,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Itapororoca',
         'lang': 'pt'
       },
-      'BR/PB/Itatuba': {
-        'id': 'data/BR/PB/Itatuba',
-        'key': 'Itatuba',
-        'lang': 'pt'
-      },
-      'BR/PB/Jacaraú': {
-        'id': 'data/BR/PB/Jacaraú',
-        'key': 'Jacaraú',
-        'lang': 'pt'
-      },
-      'BR/PB/Jerico': {
-        'id': 'data/BR/PB/Jerico',
-        'key': 'Jerico',
-        'lang': 'pt'
-      },
+      'BR/PB/Itatuba': {'id': 'data/BR/PB/Itatuba', 'key': 'Itatuba', 'lang': 'pt'},
+      'BR/PB/Jacaraú': {'id': 'data/BR/PB/Jacaraú', 'key': 'Jacaraú', 'lang': 'pt'},
+      'BR/PB/Jerico': {'id': 'data/BR/PB/Jerico', 'key': 'Jerico', 'lang': 'pt'},
       'BR/PB/João Pessoa': {
         'id': 'data/BR/PB/João Pessoa',
         'key': 'João Pessoa',
@@ -13610,11 +9448,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Lagoa de Dentro',
         'lang': 'pt'
       },
-      'BR/PB/Lastro': {
-        'id': 'data/BR/PB/Lastro',
-        'key': 'Lastro',
-        'lang': 'pt'
-      },
+      'BR/PB/Lastro': {'id': 'data/BR/PB/Lastro', 'key': 'Lastro', 'lang': 'pt'},
       'BR/PB/Livramento': {
         'id': 'data/BR/PB/Livramento',
         'key': 'Livramento',
@@ -13625,27 +9459,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Logradouro',
         'lang': 'pt'
       },
-      'BR/PB/Lucena': {
-        'id': 'data/BR/PB/Lucena',
-        'key': 'Lucena',
-        'lang': 'pt'
-      },
+      'BR/PB/Lucena': {'id': 'data/BR/PB/Lucena', 'key': 'Lucena', 'lang': 'pt'},
       'BR/PB/Malta': {'id': 'data/BR/PB/Malta', 'key': 'Malta', 'lang': 'pt'},
       'BR/PB/Mamanguape': {
         'id': 'data/BR/PB/Mamanguape',
         'key': 'Mamanguape',
         'lang': 'pt'
       },
-      'BR/PB/Manaíra': {
-        'id': 'data/BR/PB/Manaíra',
-        'key': 'Manaíra',
-        'lang': 'pt'
-      },
-      'BR/PB/Marcação': {
-        'id': 'data/BR/PB/Marcação',
-        'key': 'Marcação',
-        'lang': 'pt'
-      },
+      'BR/PB/Manaíra': {'id': 'data/BR/PB/Manaíra', 'key': 'Manaíra', 'lang': 'pt'},
+      'BR/PB/Marcação': {'id': 'data/BR/PB/Marcação', 'key': 'Marcação', 'lang': 'pt'},
       'BR/PB/Mari': {'id': 'data/BR/PB/Mari', 'key': 'Mari', 'lang': 'pt'},
       'BR/PB/Marizópolis': {
         'id': 'data/BR/PB/Marizópolis',
@@ -13657,61 +9479,29 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Massaranduba',
         'lang': 'pt'
       },
-      'BR/PB/Mataraca': {
-        'id': 'data/BR/PB/Mataraca',
-        'key': 'Mataraca',
-        'lang': 'pt'
-      },
-      'BR/PB/Matinhas': {
-        'id': 'data/BR/PB/Matinhas',
-        'key': 'Matinhas',
-        'lang': 'pt'
-      },
+      'BR/PB/Mataraca': {'id': 'data/BR/PB/Mataraca', 'key': 'Mataraca', 'lang': 'pt'},
+      'BR/PB/Matinhas': {'id': 'data/BR/PB/Matinhas', 'key': 'Matinhas', 'lang': 'pt'},
       'BR/PB/Mato Grosso': {
         'id': 'data/BR/PB/Mato Grosso',
         'key': 'Mato Grosso',
         'lang': 'pt'
       },
-      'BR/PB/Maturéia': {
-        'id': 'data/BR/PB/Maturéia',
-        'key': 'Maturéia',
-        'lang': 'pt'
-      },
-      'BR/PB/Mogeiro': {
-        'id': 'data/BR/PB/Mogeiro',
-        'key': 'Mogeiro',
-        'lang': 'pt'
-      },
-      'BR/PB/Montadas': {
-        'id': 'data/BR/PB/Montadas',
-        'key': 'Montadas',
-        'lang': 'pt'
-      },
+      'BR/PB/Maturéia': {'id': 'data/BR/PB/Maturéia', 'key': 'Maturéia', 'lang': 'pt'},
+      'BR/PB/Mogeiro': {'id': 'data/BR/PB/Mogeiro', 'key': 'Mogeiro', 'lang': 'pt'},
+      'BR/PB/Montadas': {'id': 'data/BR/PB/Montadas', 'key': 'Montadas', 'lang': 'pt'},
       'BR/PB/Monte Horebe': {
         'id': 'data/BR/PB/Monte Horebe',
         'key': 'Monte Horebe',
         'lang': 'pt'
       },
-      'BR/PB/Monteiro': {
-        'id': 'data/BR/PB/Monteiro',
-        'key': 'Monteiro',
-        'lang': 'pt'
-      },
-      'BR/PB/Mulungú': {
-        'id': 'data/BR/PB/Mulungú',
-        'key': 'Mulungú',
-        'lang': 'pt'
-      },
+      'BR/PB/Monteiro': {'id': 'data/BR/PB/Monteiro', 'key': 'Monteiro', 'lang': 'pt'},
+      'BR/PB/Mulungú': {'id': 'data/BR/PB/Mulungú', 'key': 'Mulungú', 'lang': 'pt'},
       "BR/PB/Mãe d'água": {
         'id': "data/BR/PB/Mãe d'água",
         'key': "Mãe d'água",
         'lang': 'pt'
       },
-      'BR/PB/Natuba': {
-        'id': 'data/BR/PB/Natuba',
-        'key': 'Natuba',
-        'lang': 'pt'
-      },
+      'BR/PB/Natuba': {'id': 'data/BR/PB/Natuba', 'key': 'Natuba', 'lang': 'pt'},
       'BR/PB/Nazarezinho': {
         'id': 'data/BR/PB/Nazarezinho',
         'key': 'Nazarezinho',
@@ -13737,32 +9527,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': "Olho d'Água",
         'lang': 'pt'
       },
-      'BR/PB/Olivedos': {
-        'id': 'data/BR/PB/Olivedos',
-        'key': 'Olivedos',
-        'lang': 'pt'
-      },
+      'BR/PB/Olivedos': {'id': 'data/BR/PB/Olivedos', 'key': 'Olivedos', 'lang': 'pt'},
       'BR/PB/Ouro Velho': {
         'id': 'data/BR/PB/Ouro Velho',
         'key': 'Ouro Velho',
         'lang': 'pt'
       },
-      'BR/PB/Parari': {
-        'id': 'data/BR/PB/Parari',
-        'key': 'Parari',
-        'lang': 'pt'
-      },
-      'BR/PB/Passagem': {
-        'id': 'data/BR/PB/Passagem',
-        'key': 'Passagem',
-        'lang': 'pt'
-      },
+      'BR/PB/Parari': {'id': 'data/BR/PB/Parari', 'key': 'Parari', 'lang': 'pt'},
+      'BR/PB/Passagem': {'id': 'data/BR/PB/Passagem', 'key': 'Passagem', 'lang': 'pt'},
       'BR/PB/Patos': {'id': 'data/BR/PB/Patos', 'key': 'Patos', 'lang': 'pt'},
-      'BR/PB/Paulista': {
-        'id': 'data/BR/PB/Paulista',
-        'key': 'Paulista',
-        'lang': 'pt'
-      },
+      'BR/PB/Paulista': {'id': 'data/BR/PB/Paulista', 'key': 'Paulista', 'lang': 'pt'},
       'BR/PB/Pedra Branca': {
         'id': 'data/BR/PB/Pedra Branca',
         'key': 'Pedra Branca',
@@ -13783,18 +9557,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pedro Régis',
         'lang': 'pt'
       },
-      'BR/PB/Piancó': {
-        'id': 'data/BR/PB/Piancó',
-        'key': 'Piancó',
-        'lang': 'pt'
-      },
+      'BR/PB/Piancó': {'id': 'data/BR/PB/Piancó', 'key': 'Piancó', 'lang': 'pt'},
       'BR/PB/Picuí': {'id': 'data/BR/PB/Picuí', 'key': 'Picuí', 'lang': 'pt'},
       'BR/PB/Pilar': {'id': 'data/BR/PB/Pilar', 'key': 'Pilar', 'lang': 'pt'},
-      'BR/PB/Pilões': {
-        'id': 'data/BR/PB/Pilões',
-        'key': 'Pilões',
-        'lang': 'pt'
-      },
+      'BR/PB/Pilões': {'id': 'data/BR/PB/Pilões', 'key': 'Pilões', 'lang': 'pt'},
       'BR/PB/Pilõezinhos': {
         'id': 'data/BR/PB/Pilõezinhos',
         'key': 'Pilõezinhos',
@@ -13805,21 +9571,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pirpirituba',
         'lang': 'pt'
       },
-      'BR/PB/Pitimbu': {
-        'id': 'data/BR/PB/Pitimbu',
-        'key': 'Pitimbu',
-        'lang': 'pt'
-      },
-      'BR/PB/Pocinhos': {
-        'id': 'data/BR/PB/Pocinhos',
-        'key': 'Pocinhos',
-        'lang': 'pt'
-      },
-      'BR/PB/Pombal': {
-        'id': 'data/BR/PB/Pombal',
-        'key': 'Pombal',
-        'lang': 'pt'
-      },
+      'BR/PB/Pitimbu': {'id': 'data/BR/PB/Pitimbu', 'key': 'Pitimbu', 'lang': 'pt'},
+      'BR/PB/Pocinhos': {'id': 'data/BR/PB/Pocinhos', 'key': 'Pocinhos', 'lang': 'pt'},
+      'BR/PB/Pombal': {'id': 'data/BR/PB/Pombal', 'key': 'Pombal', 'lang': 'pt'},
       'BR/PB/Poço Dantas': {
         'id': 'data/BR/PB/Poço Dantas',
         'key': 'Poço Dantas',
@@ -13836,26 +9590,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Princesa Isabel',
         'lang': 'pt'
       },
-      'BR/PB/Puxinanã': {
-        'id': 'data/BR/PB/Puxinanã',
-        'key': 'Puxinanã',
-        'lang': 'pt'
-      },
-      'BR/PB/Queimadas': {
-        'id': 'data/BR/PB/Queimadas',
-        'key': 'Queimadas',
-        'lang': 'pt'
-      },
-      'BR/PB/Quixaba': {
-        'id': 'data/BR/PB/Quixaba',
-        'key': 'Quixaba',
-        'lang': 'pt'
-      },
-      'BR/PB/Remígio': {
-        'id': 'data/BR/PB/Remígio',
-        'key': 'Remígio',
-        'lang': 'pt'
-      },
+      'BR/PB/Puxinanã': {'id': 'data/BR/PB/Puxinanã', 'key': 'Puxinanã', 'lang': 'pt'},
+      'BR/PB/Queimadas': {'id': 'data/BR/PB/Queimadas', 'key': 'Queimadas', 'lang': 'pt'},
+      'BR/PB/Quixaba': {'id': 'data/BR/PB/Quixaba', 'key': 'Quixaba', 'lang': 'pt'},
+      'BR/PB/Remígio': {'id': 'data/BR/PB/Remígio', 'key': 'Remígio', 'lang': 'pt'},
       'BR/PB/Riacho de Santo Antônio': {
         'id': 'data/BR/PB/Riacho de Santo Antônio',
         'key': 'Riacho de Santo Antônio',
@@ -13866,11 +9604,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Riacho dos Cavalos',
         'lang': 'pt'
       },
-      'BR/PB/Riachão': {
-        'id': 'data/BR/PB/Riachão',
-        'key': 'Riachão',
-        'lang': 'pt'
-      },
+      'BR/PB/Riachão': {'id': 'data/BR/PB/Riachão', 'key': 'Riachão', 'lang': 'pt'},
       'BR/PB/Riachão do Bacamarte': {
         'id': 'data/BR/PB/Riachão do Bacamarte',
         'key': 'Riachão do Bacamarte',
@@ -13881,11 +9615,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Riachão do Poço',
         'lang': 'pt'
       },
-      'BR/PB/Rio Tinto': {
-        'id': 'data/BR/PB/Rio Tinto',
-        'key': 'Rio Tinto',
-        'lang': 'pt'
-      },
+      'BR/PB/Rio Tinto': {'id': 'data/BR/PB/Rio Tinto', 'key': 'Rio Tinto', 'lang': 'pt'},
       'BR/PB/Salgadinho': {
         'id': 'data/BR/PB/Salgadinho',
         'key': 'Salgadinho',
@@ -13941,22 +9671,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santana dos Garrotes',
         'lang': 'pt'
       },
-      'BR/PB/Santarém': {
-        'id': 'data/BR/PB/Santarém',
-        'key': 'Santarém',
-        'lang': 'pt'
-      },
+      'BR/PB/Santarém': {'id': 'data/BR/PB/Santarém', 'key': 'Santarém', 'lang': 'pt'},
       'BR/PB/Santo André': {
         'id': 'data/BR/PB/Santo André',
         'key': 'Santo André',
         'lang': 'pt'
       },
       'BR/PB/Sapé': {'id': 'data/BR/PB/Sapé', 'key': 'Sapé', 'lang': 'pt'},
-      'BR/PB/Seridó': {
-        'id': 'data/BR/PB/Seridó',
-        'key': 'Seridó',
-        'lang': 'pt'
-      },
+      'BR/PB/Seridó': {'id': 'data/BR/PB/Seridó', 'key': 'Seridó', 'lang': 'pt'},
       'BR/PB/Serra Branca': {
         'id': 'data/BR/PB/Serra Branca',
         'key': 'Serra Branca',
@@ -13977,36 +9699,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Serra da Raiz',
         'lang': 'pt'
       },
-      'BR/PB/Serraria': {
-        'id': 'data/BR/PB/Serraria',
-        'key': 'Serraria',
-        'lang': 'pt'
-      },
+      'BR/PB/Serraria': {'id': 'data/BR/PB/Serraria', 'key': 'Serraria', 'lang': 'pt'},
       'BR/PB/Sertãozinho': {
         'id': 'data/BR/PB/Sertãozinho',
         'key': 'Sertãozinho',
         'lang': 'pt'
       },
-      'BR/PB/Sobrado': {
-        'id': 'data/BR/PB/Sobrado',
-        'key': 'Sobrado',
-        'lang': 'pt'
-      },
-      'BR/PB/Soledade': {
-        'id': 'data/BR/PB/Soledade',
-        'key': 'Soledade',
-        'lang': 'pt'
-      },
-      'BR/PB/Solânea': {
-        'id': 'data/BR/PB/Solânea',
-        'key': 'Solânea',
-        'lang': 'pt'
-      },
-      'BR/PB/Sossego': {
-        'id': 'data/BR/PB/Sossego',
-        'key': 'Sossego',
-        'lang': 'pt'
-      },
+      'BR/PB/Sobrado': {'id': 'data/BR/PB/Sobrado', 'key': 'Sobrado', 'lang': 'pt'},
+      'BR/PB/Soledade': {'id': 'data/BR/PB/Soledade', 'key': 'Soledade', 'lang': 'pt'},
+      'BR/PB/Solânea': {'id': 'data/BR/PB/Solânea', 'key': 'Solânea', 'lang': 'pt'},
+      'BR/PB/Sossego': {'id': 'data/BR/PB/Sossego', 'key': 'Sossego', 'lang': 'pt'},
       'BR/PB/Sousa': {'id': 'data/BR/PB/Sousa', 'key': 'Sousa', 'lang': 'pt'},
       'BR/PB/Sumé': {'id': 'data/BR/PB/Sumé', 'key': 'Sumé', 'lang': 'pt'},
       'BR/PB/São Bentinho': {
@@ -14014,11 +9716,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Bentinho',
         'lang': 'pt'
       },
-      'BR/PB/São Bento': {
-        'id': 'data/BR/PB/São Bento',
-        'key': 'São Bento',
-        'lang': 'pt'
-      },
+      'BR/PB/São Bento': {'id': 'data/BR/PB/São Bento', 'key': 'São Bento', 'lang': 'pt'},
       'BR/PB/São Domingos de Pombal': {
         'id': 'data/BR/PB/São Domingos de Pombal',
         'key': 'São Domingos de Pombal',
@@ -14119,41 +9817,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Sebastião do Umbuzeiro',
         'lang': 'pt'
       },
-      'BR/PB/Taperoá': {
-        'id': 'data/BR/PB/Taperoá',
-        'key': 'Taperoá',
-        'lang': 'pt'
-      },
-      'BR/PB/Tavares': {
-        'id': 'data/BR/PB/Tavares',
-        'key': 'Tavares',
-        'lang': 'pt'
-      },
-      'BR/PB/Teixeira': {
-        'id': 'data/BR/PB/Teixeira',
-        'key': 'Teixeira',
-        'lang': 'pt'
-      },
-      'BR/PB/Tenório': {
-        'id': 'data/BR/PB/Tenório',
-        'key': 'Tenório',
-        'lang': 'pt'
-      },
-      'BR/PB/Triunfo': {
-        'id': 'data/BR/PB/Triunfo',
-        'key': 'Triunfo',
-        'lang': 'pt'
-      },
-      'BR/PB/Uiraúna': {
-        'id': 'data/BR/PB/Uiraúna',
-        'key': 'Uiraúna',
-        'lang': 'pt'
-      },
-      'BR/PB/Umbuzeiro': {
-        'id': 'data/BR/PB/Umbuzeiro',
-        'key': 'Umbuzeiro',
-        'lang': 'pt'
-      },
+      'BR/PB/Taperoá': {'id': 'data/BR/PB/Taperoá', 'key': 'Taperoá', 'lang': 'pt'},
+      'BR/PB/Tavares': {'id': 'data/BR/PB/Tavares', 'key': 'Tavares', 'lang': 'pt'},
+      'BR/PB/Teixeira': {'id': 'data/BR/PB/Teixeira', 'key': 'Teixeira', 'lang': 'pt'},
+      'BR/PB/Tenório': {'id': 'data/BR/PB/Tenório', 'key': 'Tenório', 'lang': 'pt'},
+      'BR/PB/Triunfo': {'id': 'data/BR/PB/Triunfo', 'key': 'Triunfo', 'lang': 'pt'},
+      'BR/PB/Uiraúna': {'id': 'data/BR/PB/Uiraúna', 'key': 'Uiraúna', 'lang': 'pt'},
+      'BR/PB/Umbuzeiro': {'id': 'data/BR/PB/Umbuzeiro', 'key': 'Umbuzeiro', 'lang': 'pt'},
       'BR/PB/Vieirópolis': {
         'id': 'data/BR/PB/Vieirópolis',
         'key': 'Vieirópolis',
@@ -14164,16 +9834,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Vista Serrana',
         'lang': 'pt'
       },
-      'BR/PB/Várzea': {
-        'id': 'data/BR/PB/Várzea',
-        'key': 'Várzea',
-        'lang': 'pt'
-      },
-      'BR/PB/Zabelê': {
-        'id': 'data/BR/PB/Zabelê',
-        'key': 'Zabelê',
-        'lang': 'pt'
-      },
+      'BR/PB/Várzea': {'id': 'data/BR/PB/Várzea', 'key': 'Várzea', 'lang': 'pt'},
+      'BR/PB/Zabelê': {'id': 'data/BR/PB/Zabelê', 'key': 'Zabelê', 'lang': 'pt'},
       'BR/PB/Água Branca': {
         'id': 'data/BR/PB/Água Branca',
         'key': 'Água Branca',
@@ -14200,66 +9862,22 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Afogados da Ingazeira',
         'lang': 'pt'
       },
-      'BR/PE/Afrânio': {
-        'id': 'data/BR/PE/Afrânio',
-        'key': 'Afrânio',
-        'lang': 'pt'
-      },
-      'BR/PE/Agrestina': {
-        'id': 'data/BR/PE/Agrestina',
-        'key': 'Agrestina',
-        'lang': 'pt'
-      },
-      'BR/PE/Alagoinha': {
-        'id': 'data/BR/PE/Alagoinha',
-        'key': 'Alagoinha',
-        'lang': 'pt'
-      },
-      'BR/PE/Aliança': {
-        'id': 'data/BR/PE/Aliança',
-        'key': 'Aliança',
-        'lang': 'pt'
-      },
-      'BR/PE/Altinho': {
-        'id': 'data/BR/PE/Altinho',
-        'key': 'Altinho',
-        'lang': 'pt'
-      },
-      'BR/PE/Amaraji': {
-        'id': 'data/BR/PE/Amaraji',
-        'key': 'Amaraji',
-        'lang': 'pt'
-      },
-      'BR/PE/Angelim': {
-        'id': 'data/BR/PE/Angelim',
-        'key': 'Angelim',
-        'lang': 'pt'
-      },
-      'BR/PE/Aracoiaba': {
-        'id': 'data/BR/PE/Aracoiaba',
-        'key': 'Aracoiaba',
-        'lang': 'pt'
-      },
-      'BR/PE/Araripina': {
-        'id': 'data/BR/PE/Araripina',
-        'key': 'Araripina',
-        'lang': 'pt'
-      },
-      'BR/PE/Arcoverde': {
-        'id': 'data/BR/PE/Arcoverde',
-        'key': 'Arcoverde',
-        'lang': 'pt'
-      },
+      'BR/PE/Afrânio': {'id': 'data/BR/PE/Afrânio', 'key': 'Afrânio', 'lang': 'pt'},
+      'BR/PE/Agrestina': {'id': 'data/BR/PE/Agrestina', 'key': 'Agrestina', 'lang': 'pt'},
+      'BR/PE/Alagoinha': {'id': 'data/BR/PE/Alagoinha', 'key': 'Alagoinha', 'lang': 'pt'},
+      'BR/PE/Aliança': {'id': 'data/BR/PE/Aliança', 'key': 'Aliança', 'lang': 'pt'},
+      'BR/PE/Altinho': {'id': 'data/BR/PE/Altinho', 'key': 'Altinho', 'lang': 'pt'},
+      'BR/PE/Amaraji': {'id': 'data/BR/PE/Amaraji', 'key': 'Amaraji', 'lang': 'pt'},
+      'BR/PE/Angelim': {'id': 'data/BR/PE/Angelim', 'key': 'Angelim', 'lang': 'pt'},
+      'BR/PE/Aracoiaba': {'id': 'data/BR/PE/Aracoiaba', 'key': 'Aracoiaba', 'lang': 'pt'},
+      'BR/PE/Araripina': {'id': 'data/BR/PE/Araripina', 'key': 'Araripina', 'lang': 'pt'},
+      'BR/PE/Arcoverde': {'id': 'data/BR/PE/Arcoverde', 'key': 'Arcoverde', 'lang': 'pt'},
       'BR/PE/Barra de Guabiraba': {
         'id': 'data/BR/PE/Barra de Guabiraba',
         'key': 'Barra de Guabiraba',
         'lang': 'pt'
       },
-      'BR/PE/Barreiros': {
-        'id': 'data/BR/PE/Barreiros',
-        'key': 'Barreiros',
-        'lang': 'pt'
-      },
+      'BR/PE/Barreiros': {'id': 'data/BR/PE/Barreiros', 'key': 'Barreiros', 'lang': 'pt'},
       'BR/PE/Belo Jardim': {
         'id': 'data/BR/PE/Belo Jardim',
         'key': 'Belo Jardim',
@@ -14275,21 +9893,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Belém de São Francisco',
         'lang': 'pt'
       },
-      'BR/PE/Betania': {
-        'id': 'data/BR/PE/Betania',
-        'key': 'Betania',
-        'lang': 'pt'
-      },
-      'BR/PE/Bezerros': {
-        'id': 'data/BR/PE/Bezerros',
-        'key': 'Bezerros',
-        'lang': 'pt'
-      },
-      'BR/PE/Bodoco': {
-        'id': 'data/BR/PE/Bodoco',
-        'key': 'Bodoco',
-        'lang': 'pt'
-      },
+      'BR/PE/Betania': {'id': 'data/BR/PE/Betania', 'key': 'Betania', 'lang': 'pt'},
+      'BR/PE/Bezerros': {'id': 'data/BR/PE/Bezerros', 'key': 'Bezerros', 'lang': 'pt'},
+      'BR/PE/Bodoco': {'id': 'data/BR/PE/Bodoco', 'key': 'Bodoco', 'lang': 'pt'},
       'BR/PE/Bom Conselho': {
         'id': 'data/BR/PE/Bom Conselho',
         'key': 'Bom Conselho',
@@ -14300,66 +9906,34 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bom Jardim',
         'lang': 'pt'
       },
-      'BR/PE/Bonito': {
-        'id': 'data/BR/PE/Bonito',
-        'key': 'Bonito',
-        'lang': 'pt'
-      },
-      'BR/PE/Brejinho': {
-        'id': 'data/BR/PE/Brejinho',
-        'key': 'Brejinho',
-        'lang': 'pt'
-      },
+      'BR/PE/Bonito': {'id': 'data/BR/PE/Bonito', 'key': 'Bonito', 'lang': 'pt'},
+      'BR/PE/Brejinho': {'id': 'data/BR/PE/Brejinho', 'key': 'Brejinho', 'lang': 'pt'},
       'BR/PE/Brejo da Madre de Deus': {
         'id': 'data/BR/PE/Brejo da Madre de Deus',
         'key': 'Brejo da Madre de Deus',
         'lang': 'pt'
       },
-      'BR/PE/Brejão': {
-        'id': 'data/BR/PE/Brejão',
-        'key': 'Brejão',
-        'lang': 'pt'
-      },
+      'BR/PE/Brejão': {'id': 'data/BR/PE/Brejão', 'key': 'Brejão', 'lang': 'pt'},
       'BR/PE/Buenos Aires': {
         'id': 'data/BR/PE/Buenos Aires',
         'key': 'Buenos Aires',
         'lang': 'pt'
       },
-      'BR/PE/Buíque': {
-        'id': 'data/BR/PE/Buíque',
-        'key': 'Buíque',
-        'lang': 'pt'
-      },
+      'BR/PE/Buíque': {'id': 'data/BR/PE/Buíque', 'key': 'Buíque', 'lang': 'pt'},
       'BR/PE/Cabo de Santo Agostinho': {
         'id': 'data/BR/PE/Cabo de Santo Agostinho',
         'key': 'Cabo de Santo Agostinho',
         'lang': 'pt'
       },
-      'BR/PE/Cabrobó': {
-        'id': 'data/BR/PE/Cabrobó',
-        'key': 'Cabrobó',
-        'lang': 'pt'
-      },
+      'BR/PE/Cabrobó': {'id': 'data/BR/PE/Cabrobó', 'key': 'Cabrobó', 'lang': 'pt'},
       'BR/PE/Cachoeirinha': {
         'id': 'data/BR/PE/Cachoeirinha',
         'key': 'Cachoeirinha',
         'lang': 'pt'
       },
-      'BR/PE/Caetés': {
-        'id': 'data/BR/PE/Caetés',
-        'key': 'Caetés',
-        'lang': 'pt'
-      },
-      'BR/PE/Calumbi': {
-        'id': 'data/BR/PE/Calumbi',
-        'key': 'Calumbi',
-        'lang': 'pt'
-      },
-      'BR/PE/Calçado': {
-        'id': 'data/BR/PE/Calçado',
-        'key': 'Calçado',
-        'lang': 'pt'
-      },
+      'BR/PE/Caetés': {'id': 'data/BR/PE/Caetés', 'key': 'Caetés', 'lang': 'pt'},
+      'BR/PE/Calumbi': {'id': 'data/BR/PE/Calumbi', 'key': 'Calumbi', 'lang': 'pt'},
+      'BR/PE/Calçado': {'id': 'data/BR/PE/Calçado', 'key': 'Calçado', 'lang': 'pt'},
       'BR/PE/Camaragibe': {
         'id': 'data/BR/PE/Camaragibe',
         'key': 'Camaragibe',
@@ -14370,51 +9944,23 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Camocim de São Félix',
         'lang': 'pt'
       },
-      'BR/PE/Camutanga': {
-        'id': 'data/BR/PE/Camutanga',
-        'key': 'Camutanga',
-        'lang': 'pt'
-      },
+      'BR/PE/Camutanga': {'id': 'data/BR/PE/Camutanga', 'key': 'Camutanga', 'lang': 'pt'},
       'BR/PE/Canhotinho': {
         'id': 'data/BR/PE/Canhotinho',
         'key': 'Canhotinho',
         'lang': 'pt'
       },
-      'BR/PE/Capoeiras': {
-        'id': 'data/BR/PE/Capoeiras',
-        'key': 'Capoeiras',
-        'lang': 'pt'
-      },
-      'BR/PE/Carnaiba': {
-        'id': 'data/BR/PE/Carnaiba',
-        'key': 'Carnaiba',
-        'lang': 'pt'
-      },
+      'BR/PE/Capoeiras': {'id': 'data/BR/PE/Capoeiras', 'key': 'Capoeiras', 'lang': 'pt'},
+      'BR/PE/Carnaiba': {'id': 'data/BR/PE/Carnaiba', 'key': 'Carnaiba', 'lang': 'pt'},
       'BR/PE/Carnaubeira da Penha': {
         'id': 'data/BR/PE/Carnaubeira da Penha',
         'key': 'Carnaubeira da Penha',
         'lang': 'pt'
       },
-      'BR/PE/Carpina': {
-        'id': 'data/BR/PE/Carpina',
-        'key': 'Carpina',
-        'lang': 'pt'
-      },
-      'BR/PE/Caruaru': {
-        'id': 'data/BR/PE/Caruaru',
-        'key': 'Caruaru',
-        'lang': 'pt'
-      },
-      'BR/PE/Casinhas': {
-        'id': 'data/BR/PE/Casinhas',
-        'key': 'Casinhas',
-        'lang': 'pt'
-      },
-      'BR/PE/Catende': {
-        'id': 'data/BR/PE/Catende',
-        'key': 'Catende',
-        'lang': 'pt'
-      },
+      'BR/PE/Carpina': {'id': 'data/BR/PE/Carpina', 'key': 'Carpina', 'lang': 'pt'},
+      'BR/PE/Caruaru': {'id': 'data/BR/PE/Caruaru', 'key': 'Caruaru', 'lang': 'pt'},
+      'BR/PE/Casinhas': {'id': 'data/BR/PE/Casinhas', 'key': 'Casinhas', 'lang': 'pt'},
+      'BR/PE/Catende': {'id': 'data/BR/PE/Catende', 'key': 'Catende', 'lang': 'pt'},
       'BR/PE/Cedro': {'id': 'data/BR/PE/Cedro', 'key': 'Cedro', 'lang': 'pt'},
       'BR/PE/Chã Grande': {
         'id': 'data/BR/PE/Chã Grande',
@@ -14426,46 +9972,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Chã de Alegria',
         'lang': 'pt'
       },
-      'BR/PE/Condado': {
-        'id': 'data/BR/PE/Condado',
-        'key': 'Condado',
-        'lang': 'pt'
-      },
-      'BR/PE/Correntes': {
-        'id': 'data/BR/PE/Correntes',
-        'key': 'Correntes',
-        'lang': 'pt'
-      },
-      'BR/PE/Cortés': {
-        'id': 'data/BR/PE/Cortés',
-        'key': 'Cortés',
-        'lang': 'pt'
-      },
-      'BR/PE/Cumaru': {
-        'id': 'data/BR/PE/Cumaru',
-        'key': 'Cumaru',
-        'lang': 'pt'
-      },
-      'BR/PE/Cupira': {
-        'id': 'data/BR/PE/Cupira',
-        'key': 'Cupira',
-        'lang': 'pt'
-      },
-      'BR/PE/Custodia': {
-        'id': 'data/BR/PE/Custodia',
-        'key': 'Custodia',
-        'lang': 'pt'
-      },
-      'BR/PE/Dormentes': {
-        'id': 'data/BR/PE/Dormentes',
-        'key': 'Dormentes',
-        'lang': 'pt'
-      },
-      'BR/PE/Escada': {
-        'id': 'data/BR/PE/Escada',
-        'key': 'Escada',
-        'lang': 'pt'
-      },
+      'BR/PE/Condado': {'id': 'data/BR/PE/Condado', 'key': 'Condado', 'lang': 'pt'},
+      'BR/PE/Correntes': {'id': 'data/BR/PE/Correntes', 'key': 'Correntes', 'lang': 'pt'},
+      'BR/PE/Cortés': {'id': 'data/BR/PE/Cortés', 'key': 'Cortés', 'lang': 'pt'},
+      'BR/PE/Cumaru': {'id': 'data/BR/PE/Cumaru', 'key': 'Cumaru', 'lang': 'pt'},
+      'BR/PE/Cupira': {'id': 'data/BR/PE/Cupira', 'key': 'Cupira', 'lang': 'pt'},
+      'BR/PE/Custodia': {'id': 'data/BR/PE/Custodia', 'key': 'Custodia', 'lang': 'pt'},
+      'BR/PE/Dormentes': {'id': 'data/BR/PE/Dormentes', 'key': 'Dormentes', 'lang': 'pt'},
+      'BR/PE/Escada': {'id': 'data/BR/PE/Escada', 'key': 'Escada', 'lang': 'pt'},
       'BR/PE/Exu': {'id': 'data/BR/PE/Exu', 'key': 'Exu', 'lang': 'pt'},
       'BR/PE/Feira Nova': {
         'id': 'data/BR/PE/Feira Nova',
@@ -14477,114 +9991,42 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Fernando de Noronha (Distrito Estadual)',
         'lang': 'pt'
       },
-      'BR/PE/Ferreiros': {
-        'id': 'data/BR/PE/Ferreiros',
-        'key': 'Ferreiros',
-        'lang': 'pt'
-      },
-      'BR/PE/Flores': {
-        'id': 'data/BR/PE/Flores',
-        'key': 'Flores',
-        'lang': 'pt'
-      },
-      'BR/PE/Floresta': {
-        'id': 'data/BR/PE/Floresta',
-        'key': 'Floresta',
-        'lang': 'pt'
-      },
+      'BR/PE/Ferreiros': {'id': 'data/BR/PE/Ferreiros', 'key': 'Ferreiros', 'lang': 'pt'},
+      'BR/PE/Flores': {'id': 'data/BR/PE/Flores', 'key': 'Flores', 'lang': 'pt'},
+      'BR/PE/Floresta': {'id': 'data/BR/PE/Floresta', 'key': 'Floresta', 'lang': 'pt'},
       'BR/PE/Frei Miguelinho': {
         'id': 'data/BR/PE/Frei Miguelinho',
         'key': 'Frei Miguelinho',
         'lang': 'pt'
       },
-      'BR/PE/Gameleira': {
-        'id': 'data/BR/PE/Gameleira',
-        'key': 'Gameleira',
-        'lang': 'pt'
-      },
-      'BR/PE/Garanhuns': {
-        'id': 'data/BR/PE/Garanhuns',
-        'key': 'Garanhuns',
-        'lang': 'pt'
-      },
+      'BR/PE/Gameleira': {'id': 'data/BR/PE/Gameleira', 'key': 'Gameleira', 'lang': 'pt'},
+      'BR/PE/Garanhuns': {'id': 'data/BR/PE/Garanhuns', 'key': 'Garanhuns', 'lang': 'pt'},
       'BR/PE/Glória do Goitá': {
         'id': 'data/BR/PE/Glória do Goitá',
         'key': 'Glória do Goitá',
         'lang': 'pt'
       },
-      'BR/PE/Goiana': {
-        'id': 'data/BR/PE/Goiana',
-        'key': 'Goiana',
-        'lang': 'pt'
-      },
-      'BR/PE/Granito': {
-        'id': 'data/BR/PE/Granito',
-        'key': 'Granito',
-        'lang': 'pt'
-      },
-      'BR/PE/Gravatá': {
-        'id': 'data/BR/PE/Gravatá',
-        'key': 'Gravatá',
-        'lang': 'pt'
-      },
+      'BR/PE/Goiana': {'id': 'data/BR/PE/Goiana', 'key': 'Goiana', 'lang': 'pt'},
+      'BR/PE/Granito': {'id': 'data/BR/PE/Granito', 'key': 'Granito', 'lang': 'pt'},
+      'BR/PE/Gravatá': {'id': 'data/BR/PE/Gravatá', 'key': 'Gravatá', 'lang': 'pt'},
       'BR/PE/Iati': {'id': 'data/BR/PE/Iati', 'key': 'Iati', 'lang': 'pt'},
-      'BR/PE/Ibimirim': {
-        'id': 'data/BR/PE/Ibimirim',
-        'key': 'Ibimirim',
-        'lang': 'pt'
-      },
-      'BR/PE/Ibirajuba': {
-        'id': 'data/BR/PE/Ibirajuba',
-        'key': 'Ibirajuba',
-        'lang': 'pt'
-      },
-      'BR/PE/Igarassu': {
-        'id': 'data/BR/PE/Igarassu',
-        'key': 'Igarassu',
-        'lang': 'pt'
-      },
-      'BR/PE/Iguaraci': {
-        'id': 'data/BR/PE/Iguaraci',
-        'key': 'Iguaraci',
-        'lang': 'pt'
-      },
+      'BR/PE/Ibimirim': {'id': 'data/BR/PE/Ibimirim', 'key': 'Ibimirim', 'lang': 'pt'},
+      'BR/PE/Ibirajuba': {'id': 'data/BR/PE/Ibirajuba', 'key': 'Ibirajuba', 'lang': 'pt'},
+      'BR/PE/Igarassu': {'id': 'data/BR/PE/Igarassu', 'key': 'Igarassu', 'lang': 'pt'},
+      'BR/PE/Iguaraci': {'id': 'data/BR/PE/Iguaraci', 'key': 'Iguaraci', 'lang': 'pt'},
       'BR/PE/Ilha de Itamaracá': {
         'id': 'data/BR/PE/Ilha de Itamaracá',
         'key': 'Ilha de Itamaracá',
         'lang': 'pt'
       },
       'BR/PE/Inajá': {'id': 'data/BR/PE/Inajá', 'key': 'Inajá', 'lang': 'pt'},
-      'BR/PE/Ingazeira': {
-        'id': 'data/BR/PE/Ingazeira',
-        'key': 'Ingazeira',
-        'lang': 'pt'
-      },
-      'BR/PE/Ipojuca': {
-        'id': 'data/BR/PE/Ipojuca',
-        'key': 'Ipojuca',
-        'lang': 'pt'
-      },
+      'BR/PE/Ingazeira': {'id': 'data/BR/PE/Ingazeira', 'key': 'Ingazeira', 'lang': 'pt'},
+      'BR/PE/Ipojuca': {'id': 'data/BR/PE/Ipojuca', 'key': 'Ipojuca', 'lang': 'pt'},
       'BR/PE/Ipubi': {'id': 'data/BR/PE/Ipubi', 'key': 'Ipubi', 'lang': 'pt'},
-      'BR/PE/Itacuruba': {
-        'id': 'data/BR/PE/Itacuruba',
-        'key': 'Itacuruba',
-        'lang': 'pt'
-      },
-      'BR/PE/Itaiba': {
-        'id': 'data/BR/PE/Itaiba',
-        'key': 'Itaiba',
-        'lang': 'pt'
-      },
-      'BR/PE/Itambé': {
-        'id': 'data/BR/PE/Itambé',
-        'key': 'Itambé',
-        'lang': 'pt'
-      },
-      'BR/PE/Itapetim': {
-        'id': 'data/BR/PE/Itapetim',
-        'key': 'Itapetim',
-        'lang': 'pt'
-      },
+      'BR/PE/Itacuruba': {'id': 'data/BR/PE/Itacuruba', 'key': 'Itacuruba', 'lang': 'pt'},
+      'BR/PE/Itaiba': {'id': 'data/BR/PE/Itaiba', 'key': 'Itaiba', 'lang': 'pt'},
+      'BR/PE/Itambé': {'id': 'data/BR/PE/Itambé', 'key': 'Itambé', 'lang': 'pt'},
+      'BR/PE/Itapetim': {'id': 'data/BR/PE/Itapetim', 'key': 'Itapetim', 'lang': 'pt'},
       'BR/PE/Itapissuma': {
         'id': 'data/BR/PE/Itapissuma',
         'key': 'Itapissuma',
@@ -14600,21 +10042,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Jaboatão dos Guararapes',
         'lang': 'pt'
       },
-      'BR/PE/Jaqueira': {
-        'id': 'data/BR/PE/Jaqueira',
-        'key': 'Jaqueira',
-        'lang': 'pt'
-      },
-      'BR/PE/Jatauba': {
-        'id': 'data/BR/PE/Jatauba',
-        'key': 'Jatauba',
-        'lang': 'pt'
-      },
-      'BR/PE/Jatobá': {
-        'id': 'data/BR/PE/Jatobá',
-        'key': 'Jatobá',
-        'lang': 'pt'
-      },
+      'BR/PE/Jaqueira': {'id': 'data/BR/PE/Jaqueira', 'key': 'Jaqueira', 'lang': 'pt'},
+      'BR/PE/Jatauba': {'id': 'data/BR/PE/Jatauba', 'key': 'Jatauba', 'lang': 'pt'},
+      'BR/PE/Jatobá': {'id': 'data/BR/PE/Jatobá', 'key': 'Jatobá', 'lang': 'pt'},
       'BR/PE/Joaquim Nabuco': {
         'id': 'data/BR/PE/Joaquim Nabuco',
         'key': 'Joaquim Nabuco',
@@ -14625,17 +10055,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'João Alfredo',
         'lang': 'pt'
       },
-      'BR/PE/Jucati': {
-        'id': 'data/BR/PE/Jucati',
-        'key': 'Jucati',
-        'lang': 'pt'
-      },
+      'BR/PE/Jucati': {'id': 'data/BR/PE/Jucati', 'key': 'Jucati', 'lang': 'pt'},
       'BR/PE/Jupi': {'id': 'data/BR/PE/Jupi', 'key': 'Jupi', 'lang': 'pt'},
-      'BR/PE/Jurema': {
-        'id': 'data/BR/PE/Jurema',
-        'key': 'Jurema',
-        'lang': 'pt'
-      },
+      'BR/PE/Jurema': {'id': 'data/BR/PE/Jurema', 'key': 'Jurema', 'lang': 'pt'},
       'BR/PE/Lagoa Grande': {
         'id': 'data/BR/PE/Lagoa Grande',
         'key': 'Lagoa Grande',
@@ -14661,83 +10083,39 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Lagoa dos Gatos',
         'lang': 'pt'
       },
-      'BR/PE/Lajedo': {
-        'id': 'data/BR/PE/Lajedo',
-        'key': 'Lajedo',
-        'lang': 'pt'
-      },
-      'BR/PE/Limoeiro': {
-        'id': 'data/BR/PE/Limoeiro',
-        'key': 'Limoeiro',
-        'lang': 'pt'
-      },
+      'BR/PE/Lajedo': {'id': 'data/BR/PE/Lajedo', 'key': 'Lajedo', 'lang': 'pt'},
+      'BR/PE/Limoeiro': {'id': 'data/BR/PE/Limoeiro', 'key': 'Limoeiro', 'lang': 'pt'},
       'BR/PE/Macaparana': {
         'id': 'data/BR/PE/Macaparana',
         'key': 'Macaparana',
         'lang': 'pt'
       },
-      'BR/PE/Machados': {
-        'id': 'data/BR/PE/Machados',
-        'key': 'Machados',
-        'lang': 'pt'
-      },
-      'BR/PE/Manari': {
-        'id': 'data/BR/PE/Manari',
-        'key': 'Manari',
-        'lang': 'pt'
-      },
-      'BR/PE/Maraial': {
-        'id': 'data/BR/PE/Maraial',
-        'key': 'Maraial',
-        'lang': 'pt'
-      },
-      'BR/PE/Mirandiba': {
-        'id': 'data/BR/PE/Mirandiba',
-        'key': 'Mirandiba',
-        'lang': 'pt'
-      },
+      'BR/PE/Machados': {'id': 'data/BR/PE/Machados', 'key': 'Machados', 'lang': 'pt'},
+      'BR/PE/Manari': {'id': 'data/BR/PE/Manari', 'key': 'Manari', 'lang': 'pt'},
+      'BR/PE/Maraial': {'id': 'data/BR/PE/Maraial', 'key': 'Maraial', 'lang': 'pt'},
+      'BR/PE/Mirandiba': {'id': 'data/BR/PE/Mirandiba', 'key': 'Mirandiba', 'lang': 'pt'},
       'BR/PE/Moreilandia': {
         'id': 'data/BR/PE/Moreilandia',
         'key': 'Moreilandia',
         'lang': 'pt'
       },
-      'BR/PE/Moreno': {
-        'id': 'data/BR/PE/Moreno',
-        'key': 'Moreno',
-        'lang': 'pt'
-      },
+      'BR/PE/Moreno': {'id': 'data/BR/PE/Moreno', 'key': 'Moreno', 'lang': 'pt'},
       'BR/PE/Nazaré da Mata': {
         'id': 'data/BR/PE/Nazaré da Mata',
         'key': 'Nazaré da Mata',
         'lang': 'pt'
       },
-      'BR/PE/Olinda': {
-        'id': 'data/BR/PE/Olinda',
-        'key': 'Olinda',
-        'lang': 'pt'
-      },
+      'BR/PE/Olinda': {'id': 'data/BR/PE/Olinda', 'key': 'Olinda', 'lang': 'pt'},
       'BR/PE/Orobó': {'id': 'data/BR/PE/Orobó', 'key': 'Orobó', 'lang': 'pt'},
       'BR/PE/Oroco': {'id': 'data/BR/PE/Oroco', 'key': 'Oroco', 'lang': 'pt'},
-      'BR/PE/Ouricuri': {
-        'id': 'data/BR/PE/Ouricuri',
-        'key': 'Ouricuri',
-        'lang': 'pt'
-      },
-      'BR/PE/Palmares': {
-        'id': 'data/BR/PE/Palmares',
-        'key': 'Palmares',
-        'lang': 'pt'
-      },
+      'BR/PE/Ouricuri': {'id': 'data/BR/PE/Ouricuri', 'key': 'Ouricuri', 'lang': 'pt'},
+      'BR/PE/Palmares': {'id': 'data/BR/PE/Palmares', 'key': 'Palmares', 'lang': 'pt'},
       'BR/PE/Palmeirina': {
         'id': 'data/BR/PE/Palmeirina',
         'key': 'Palmeirina',
         'lang': 'pt'
       },
-      'BR/PE/Panelas': {
-        'id': 'data/BR/PE/Panelas',
-        'key': 'Panelas',
-        'lang': 'pt'
-      },
+      'BR/PE/Panelas': {'id': 'data/BR/PE/Panelas', 'key': 'Panelas', 'lang': 'pt'},
       'BR/PE/Paranatama': {
         'id': 'data/BR/PE/Paranatama',
         'key': 'Paranatama',
@@ -14748,73 +10126,29 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Parnamirim',
         'lang': 'pt'
       },
-      'BR/PE/Passira': {
-        'id': 'data/BR/PE/Passira',
-        'key': 'Passira',
-        'lang': 'pt'
-      },
-      'BR/PE/Paudalho': {
-        'id': 'data/BR/PE/Paudalho',
-        'key': 'Paudalho',
-        'lang': 'pt'
-      },
-      'BR/PE/Paulista': {
-        'id': 'data/BR/PE/Paulista',
-        'key': 'Paulista',
-        'lang': 'pt'
-      },
+      'BR/PE/Passira': {'id': 'data/BR/PE/Passira', 'key': 'Passira', 'lang': 'pt'},
+      'BR/PE/Paudalho': {'id': 'data/BR/PE/Paudalho', 'key': 'Paudalho', 'lang': 'pt'},
+      'BR/PE/Paulista': {'id': 'data/BR/PE/Paulista', 'key': 'Paulista', 'lang': 'pt'},
       'BR/PE/Pedrá': {'id': 'data/BR/PE/Pedrá', 'key': 'Pedrá', 'lang': 'pt'},
-      'BR/PE/Pesqueira': {
-        'id': 'data/BR/PE/Pesqueira',
-        'key': 'Pesqueira',
-        'lang': 'pt'
-      },
-      'BR/PE/Petrolina': {
-        'id': 'data/BR/PE/Petrolina',
-        'key': 'Petrolina',
-        'lang': 'pt'
-      },
+      'BR/PE/Pesqueira': {'id': 'data/BR/PE/Pesqueira', 'key': 'Pesqueira', 'lang': 'pt'},
+      'BR/PE/Petrolina': {'id': 'data/BR/PE/Petrolina', 'key': 'Petrolina', 'lang': 'pt'},
       'BR/PE/Petrolândia': {
         'id': 'data/BR/PE/Petrolândia',
         'key': 'Petrolândia',
         'lang': 'pt'
       },
-      'BR/PE/Pombos': {
-        'id': 'data/BR/PE/Pombos',
-        'key': 'Pombos',
-        'lang': 'pt'
-      },
+      'BR/PE/Pombos': {'id': 'data/BR/PE/Pombos', 'key': 'Pombos', 'lang': 'pt'},
       'BR/PE/Poção': {'id': 'data/BR/PE/Poção', 'key': 'Poção', 'lang': 'pt'},
-      'BR/PE/Primavera': {
-        'id': 'data/BR/PE/Primavera',
-        'key': 'Primavera',
-        'lang': 'pt'
-      },
-      'BR/PE/Quipapá': {
-        'id': 'data/BR/PE/Quipapá',
-        'key': 'Quipapá',
-        'lang': 'pt'
-      },
-      'BR/PE/Quixaba': {
-        'id': 'data/BR/PE/Quixaba',
-        'key': 'Quixaba',
-        'lang': 'pt'
-      },
-      'BR/PE/Recife': {
-        'id': 'data/BR/PE/Recife',
-        'key': 'Recife',
-        'lang': 'pt'
-      },
+      'BR/PE/Primavera': {'id': 'data/BR/PE/Primavera', 'key': 'Primavera', 'lang': 'pt'},
+      'BR/PE/Quipapá': {'id': 'data/BR/PE/Quipapá', 'key': 'Quipapá', 'lang': 'pt'},
+      'BR/PE/Quixaba': {'id': 'data/BR/PE/Quixaba', 'key': 'Quixaba', 'lang': 'pt'},
+      'BR/PE/Recife': {'id': 'data/BR/PE/Recife', 'key': 'Recife', 'lang': 'pt'},
       'BR/PE/Riacho das Almas': {
         'id': 'data/BR/PE/Riacho das Almas',
         'key': 'Riacho das Almas',
         'lang': 'pt'
       },
-      'BR/PE/Ribeirão': {
-        'id': 'data/BR/PE/Ribeirão',
-        'key': 'Ribeirão',
-        'lang': 'pt'
-      },
+      'BR/PE/Ribeirão': {'id': 'data/BR/PE/Ribeirão', 'key': 'Ribeirão', 'lang': 'pt'},
       'BR/PE/Rio Formoso': {
         'id': 'data/BR/PE/Rio Formoso',
         'key': 'Rio Formoso',
@@ -14826,17 +10160,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Salgadinho',
         'lang': 'pt'
       },
-      'BR/PE/Salgueiro': {
-        'id': 'data/BR/PE/Salgueiro',
-        'key': 'Salgueiro',
-        'lang': 'pt'
-      },
+      'BR/PE/Salgueiro': {'id': 'data/BR/PE/Salgueiro', 'key': 'Salgueiro', 'lang': 'pt'},
       'BR/PE/Saloa': {'id': 'data/BR/PE/Saloa', 'key': 'Saloa', 'lang': 'pt'},
-      'BR/PE/Sanharo': {
-        'id': 'data/BR/PE/Sanharo',
-        'key': 'Sanharo',
-        'lang': 'pt'
-      },
+      'BR/PE/Sanharo': {'id': 'data/BR/PE/Sanharo', 'key': 'Sanharo', 'lang': 'pt'},
       'BR/PE/Santa Cruz': {
         'id': 'data/BR/PE/Santa Cruz',
         'key': 'Santa Cruz',
@@ -14877,31 +10203,11 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Serra Talhada',
         'lang': 'pt'
       },
-      'BR/PE/Serrita': {
-        'id': 'data/BR/PE/Serrita',
-        'key': 'Serrita',
-        'lang': 'pt'
-      },
-      'BR/PE/Sertânia': {
-        'id': 'data/BR/PE/Sertânia',
-        'key': 'Sertânia',
-        'lang': 'pt'
-      },
-      'BR/PE/Sirinhaém': {
-        'id': 'data/BR/PE/Sirinhaém',
-        'key': 'Sirinhaém',
-        'lang': 'pt'
-      },
-      'BR/PE/Solidao': {
-        'id': 'data/BR/PE/Solidao',
-        'key': 'Solidao',
-        'lang': 'pt'
-      },
-      'BR/PE/Surubim': {
-        'id': 'data/BR/PE/Surubim',
-        'key': 'Surubim',
-        'lang': 'pt'
-      },
+      'BR/PE/Serrita': {'id': 'data/BR/PE/Serrita', 'key': 'Serrita', 'lang': 'pt'},
+      'BR/PE/Sertânia': {'id': 'data/BR/PE/Sertânia', 'key': 'Sertânia', 'lang': 'pt'},
+      'BR/PE/Sirinhaém': {'id': 'data/BR/PE/Sirinhaém', 'key': 'Sirinhaém', 'lang': 'pt'},
+      'BR/PE/Solidao': {'id': 'data/BR/PE/Solidao', 'key': 'Solidao', 'lang': 'pt'},
+      'BR/PE/Surubim': {'id': 'data/BR/PE/Surubim', 'key': 'Surubim', 'lang': 'pt'},
       'BR/PE/São Benedito do Sul': {
         'id': 'data/BR/PE/São Benedito do Sul',
         'key': 'São Benedito do Sul',
@@ -14937,11 +10243,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São José do Egito',
         'lang': 'pt'
       },
-      'BR/PE/São João': {
-        'id': 'data/BR/PE/São João',
-        'key': 'São João',
-        'lang': 'pt'
-      },
+      'BR/PE/São João': {'id': 'data/BR/PE/São João', 'key': 'São João', 'lang': 'pt'},
       'BR/PE/São Lourenço da Mata': {
         'id': 'data/BR/PE/São Lourenço da Mata',
         'key': 'São Lourenço da Mata',
@@ -14952,66 +10254,30 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Vicente Ferrer',
         'lang': 'pt'
       },
-      'BR/PE/Tabira': {
-        'id': 'data/BR/PE/Tabira',
-        'key': 'Tabira',
-        'lang': 'pt'
-      },
-      'BR/PE/Tacaimbó': {
-        'id': 'data/BR/PE/Tacaimbó',
-        'key': 'Tacaimbó',
-        'lang': 'pt'
-      },
-      'BR/PE/Tacaratu': {
-        'id': 'data/BR/PE/Tacaratu',
-        'key': 'Tacaratu',
-        'lang': 'pt'
-      },
-      'BR/PE/Tamandaré': {
-        'id': 'data/BR/PE/Tamandaré',
-        'key': 'Tamandaré',
-        'lang': 'pt'
-      },
+      'BR/PE/Tabira': {'id': 'data/BR/PE/Tabira', 'key': 'Tabira', 'lang': 'pt'},
+      'BR/PE/Tacaimbó': {'id': 'data/BR/PE/Tacaimbó', 'key': 'Tacaimbó', 'lang': 'pt'},
+      'BR/PE/Tacaratu': {'id': 'data/BR/PE/Tacaratu', 'key': 'Tacaratu', 'lang': 'pt'},
+      'BR/PE/Tamandaré': {'id': 'data/BR/PE/Tamandaré', 'key': 'Tamandaré', 'lang': 'pt'},
       'BR/PE/Taquaritinga do Norte': {
         'id': 'data/BR/PE/Taquaritinga do Norte',
         'key': 'Taquaritinga do Norte',
         'lang': 'pt'
       },
-      'BR/PE/Terezinha': {
-        'id': 'data/BR/PE/Terezinha',
-        'key': 'Terezinha',
-        'lang': 'pt'
-      },
+      'BR/PE/Terezinha': {'id': 'data/BR/PE/Terezinha', 'key': 'Terezinha', 'lang': 'pt'},
       'BR/PE/Terra Nova': {
         'id': 'data/BR/PE/Terra Nova',
         'key': 'Terra Nova',
         'lang': 'pt'
       },
-      'BR/PE/Timbaúba': {
-        'id': 'data/BR/PE/Timbaúba',
-        'key': 'Timbaúba',
-        'lang': 'pt'
-      },
-      'BR/PE/Toritama': {
-        'id': 'data/BR/PE/Toritama',
-        'key': 'Toritama',
-        'lang': 'pt'
-      },
+      'BR/PE/Timbaúba': {'id': 'data/BR/PE/Timbaúba', 'key': 'Timbaúba', 'lang': 'pt'},
+      'BR/PE/Toritama': {'id': 'data/BR/PE/Toritama', 'key': 'Toritama', 'lang': 'pt'},
       'BR/PE/Tracunhaém': {
         'id': 'data/BR/PE/Tracunhaém',
         'key': 'Tracunhaém',
         'lang': 'pt'
       },
-      'BR/PE/Trindade': {
-        'id': 'data/BR/PE/Trindade',
-        'key': 'Trindade',
-        'lang': 'pt'
-      },
-      'BR/PE/Triunfo': {
-        'id': 'data/BR/PE/Triunfo',
-        'key': 'Triunfo',
-        'lang': 'pt'
-      },
+      'BR/PE/Trindade': {'id': 'data/BR/PE/Trindade', 'key': 'Trindade', 'lang': 'pt'},
+      'BR/PE/Triunfo': {'id': 'data/BR/PE/Triunfo', 'key': 'Triunfo', 'lang': 'pt'},
       'BR/PE/Tupanatinga': {
         'id': 'data/BR/PE/Tupanatinga',
         'key': 'Tupanatinga',
@@ -15022,31 +10288,19 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Tuparetama',
         'lang': 'pt'
       },
-      'BR/PE/Venturosa': {
-        'id': 'data/BR/PE/Venturosa',
-        'key': 'Venturosa',
-        'lang': 'pt'
-      },
+      'BR/PE/Venturosa': {'id': 'data/BR/PE/Venturosa', 'key': 'Venturosa', 'lang': 'pt'},
       'BR/PE/Verdejante': {
         'id': 'data/BR/PE/Verdejante',
         'key': 'Verdejante',
         'lang': 'pt'
       },
-      'BR/PE/Vertentes': {
-        'id': 'data/BR/PE/Vertentes',
-        'key': 'Vertentes',
-        'lang': 'pt'
-      },
+      'BR/PE/Vertentes': {'id': 'data/BR/PE/Vertentes', 'key': 'Vertentes', 'lang': 'pt'},
       'BR/PE/Vertentes do Lério': {
         'id': 'data/BR/PE/Vertentes do Lério',
         'key': 'Vertentes do Lério',
         'lang': 'pt'
       },
-      'BR/PE/Vicência': {
-        'id': 'data/BR/PE/Vicência',
-        'key': 'Vicência',
-        'lang': 'pt'
-      },
+      'BR/PE/Vicência': {'id': 'data/BR/PE/Vicência', 'key': 'Vicência', 'lang': 'pt'},
       'BR/PE/Vitória de Santo Antão': {
         'id': 'data/BR/PE/Vitória de Santo Antão',
         'key': 'Vitória de Santo Antão',
@@ -15101,11 +10355,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alvorada do Gurguéia',
         'lang': 'pt'
       },
-      'BR/PI/Amarante': {
-        'id': 'data/BR/PI/Amarante',
-        'key': 'Amarante',
-        'lang': 'pt'
-      },
+      'BR/PI/Amarante': {'id': 'data/BR/PI/Amarante', 'key': 'Amarante', 'lang': 'pt'},
       'BR/PI/Angical do Piauí': {
         'id': 'data/BR/PI/Angical do Piauí',
         'key': 'Angical do Piauí',
@@ -15121,21 +10371,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Anísio de Abreu',
         'lang': 'pt'
       },
-      'BR/PI/Aroazes': {
-        'id': 'data/BR/PI/Aroazes',
-        'key': 'Aroazes',
-        'lang': 'pt'
-      },
+      'BR/PI/Aroazes': {'id': 'data/BR/PI/Aroazes', 'key': 'Aroazes', 'lang': 'pt'},
       'BR/PI/Aroeiras do Itaim': {
         'id': 'data/BR/PI/Aroeiras do Itaim',
         'key': 'Aroeiras do Itaim',
         'lang': 'pt'
       },
-      'BR/PI/Arraial': {
-        'id': 'data/BR/PI/Arraial',
-        'key': 'Arraial',
-        'lang': 'pt'
-      },
+      'BR/PI/Arraial': {'id': 'data/BR/PI/Arraial', 'key': 'Arraial', 'lang': 'pt'},
       'BR/PI/Assunção do Piauí': {
         'id': 'data/BR/PI/Assunção do Piauí',
         'key': 'Assunção do Piauí',
@@ -15156,11 +10398,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': "Barra d'Alcântara",
         'lang': 'pt'
       },
-      'BR/PI/Barras': {
-        'id': 'data/BR/PI/Barras',
-        'key': 'Barras',
-        'lang': 'pt'
-      },
+      'BR/PI/Barras': {'id': 'data/BR/PI/Barras', 'key': 'Barras', 'lang': 'pt'},
       'BR/PI/Barreiras do Piauí': {
         'id': 'data/BR/PI/Barreiras do Piauí',
         'key': 'Barreiras do Piauí',
@@ -15171,11 +10409,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Barro Duro',
         'lang': 'pt'
       },
-      'BR/PI/Batalha': {
-        'id': 'data/BR/PI/Batalha',
-        'key': 'Batalha',
-        'lang': 'pt'
-      },
+      'BR/PI/Batalha': {'id': 'data/BR/PI/Batalha', 'key': 'Batalha', 'lang': 'pt'},
       'BR/PI/Bela Vista do Piauí': {
         'id': 'data/BR/PI/Bela Vista do Piauí',
         'key': 'Bela Vista do Piauí',
@@ -15201,21 +10435,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Betânia do Piauí',
         'lang': 'pt'
       },
-      'BR/PI/Boa Hora': {
-        'id': 'data/BR/PI/Boa Hora',
-        'key': 'Boa Hora',
-        'lang': 'pt'
-      },
-      'BR/PI/Bocaina': {
-        'id': 'data/BR/PI/Bocaina',
-        'key': 'Bocaina',
-        'lang': 'pt'
-      },
-      'BR/PI/Bom Jesus': {
-        'id': 'data/BR/PI/Bom Jesus',
-        'key': 'Bom Jesus',
-        'lang': 'pt'
-      },
+      'BR/PI/Boa Hora': {'id': 'data/BR/PI/Boa Hora', 'key': 'Boa Hora', 'lang': 'pt'},
+      'BR/PI/Bocaina': {'id': 'data/BR/PI/Bocaina', 'key': 'Bocaina', 'lang': 'pt'},
+      'BR/PI/Bom Jesus': {'id': 'data/BR/PI/Bom Jesus', 'key': 'Bom Jesus', 'lang': 'pt'},
       'BR/PI/Bom Princípio do Piauí': {
         'id': 'data/BR/PI/Bom Princípio do Piauí',
         'key': 'Bom Princípio do Piauí',
@@ -15316,11 +10538,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Capitão de Campos',
         'lang': 'pt'
       },
-      'BR/PI/Caracol': {
-        'id': 'data/BR/PI/Caracol',
-        'key': 'Caracol',
-        'lang': 'pt'
-      },
+      'BR/PI/Caracol': {'id': 'data/BR/PI/Caracol', 'key': 'Caracol', 'lang': 'pt'},
       'BR/PI/Caraúbas do Piauí': {
         'id': 'data/BR/PI/Caraúbas do Piauí',
         'key': 'Caraúbas do Piauí',
@@ -15336,11 +10554,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Castelo do Piauí',
         'lang': 'pt'
       },
-      'BR/PI/Caxingó': {
-        'id': 'data/BR/PI/Caxingó',
-        'key': 'Caxingó',
-        'lang': 'pt'
-      },
+      'BR/PI/Caxingó': {'id': 'data/BR/PI/Caxingó', 'key': 'Caxingó', 'lang': 'pt'},
       'BR/PI/Cocal': {'id': 'data/BR/PI/Cocal', 'key': 'Cocal', 'lang': 'pt'},
       'BR/PI/Cocal de Telha': {
         'id': 'data/BR/PI/Cocal de Telha',
@@ -15352,11 +10566,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cocal dos Alves',
         'lang': 'pt'
       },
-      'BR/PI/Coivaras': {
-        'id': 'data/BR/PI/Coivaras',
-        'key': 'Coivaras',
-        'lang': 'pt'
-      },
+      'BR/PI/Coivaras': {'id': 'data/BR/PI/Coivaras', 'key': 'Coivaras', 'lang': 'pt'},
       'BR/PI/Colônia do Gurguéia': {
         'id': 'data/BR/PI/Colônia do Gurguéia',
         'key': 'Colônia do Gurguéia',
@@ -15377,11 +10587,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Coronel José Dias',
         'lang': 'pt'
       },
-      'BR/PI/Corrente': {
-        'id': 'data/BR/PI/Corrente',
-        'key': 'Corrente',
-        'lang': 'pt'
-      },
+      'BR/PI/Corrente': {'id': 'data/BR/PI/Corrente', 'key': 'Corrente', 'lang': 'pt'},
       'BR/PI/Cristalândia do Piauí': {
         'id': 'data/BR/PI/Cristalândia do Piauí',
         'key': 'Cristalândia do Piauí',
@@ -15392,16 +10598,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cristino Castro',
         'lang': 'pt'
       },
-      'BR/PI/Curimatá': {
-        'id': 'data/BR/PI/Curimatá',
-        'key': 'Curimatá',
-        'lang': 'pt'
-      },
-      'BR/PI/Currais': {
-        'id': 'data/BR/PI/Currais',
-        'key': 'Currais',
-        'lang': 'pt'
-      },
+      'BR/PI/Curimatá': {'id': 'data/BR/PI/Curimatá', 'key': 'Curimatá', 'lang': 'pt'},
+      'BR/PI/Currais': {'id': 'data/BR/PI/Currais', 'key': 'Currais', 'lang': 'pt'},
       'BR/PI/Curral Novo do Piauí': {
         'id': 'data/BR/PI/Curral Novo do Piauí',
         'key': 'Curral Novo do Piauí',
@@ -15467,11 +10665,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Floresta do Piauí',
         'lang': 'pt'
       },
-      'BR/PI/Floriano': {
-        'id': 'data/BR/PI/Floriano',
-        'key': 'Floriano',
-        'lang': 'pt'
-      },
+      'BR/PI/Floriano': {'id': 'data/BR/PI/Floriano', 'key': 'Floriano', 'lang': 'pt'},
       'BR/PI/Francinópolis': {
         'id': 'data/BR/PI/Francinópolis',
         'key': 'Francinópolis',
@@ -15497,26 +10691,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Fronteiras',
         'lang': 'pt'
       },
-      'BR/PI/Geminiano': {
-        'id': 'data/BR/PI/Geminiano',
-        'key': 'Geminiano',
-        'lang': 'pt'
-      },
-      'BR/PI/Gilbués': {
-        'id': 'data/BR/PI/Gilbués',
-        'key': 'Gilbués',
-        'lang': 'pt'
-      },
-      'BR/PI/Guadalupe': {
-        'id': 'data/BR/PI/Guadalupe',
-        'key': 'Guadalupe',
-        'lang': 'pt'
-      },
-      'BR/PI/Guaribas': {
-        'id': 'data/BR/PI/Guaribas',
-        'key': 'Guaribas',
-        'lang': 'pt'
-      },
+      'BR/PI/Geminiano': {'id': 'data/BR/PI/Geminiano', 'key': 'Geminiano', 'lang': 'pt'},
+      'BR/PI/Gilbués': {'id': 'data/BR/PI/Gilbués', 'key': 'Gilbués', 'lang': 'pt'},
+      'BR/PI/Guadalupe': {'id': 'data/BR/PI/Guadalupe', 'key': 'Guadalupe', 'lang': 'pt'},
+      'BR/PI/Guaribas': {'id': 'data/BR/PI/Guaribas', 'key': 'Guaribas', 'lang': 'pt'},
       'BR/PI/Hugo Napoleão': {
         'id': 'data/BR/PI/Hugo Napoleão',
         'key': 'Hugo Napoleão',
@@ -15527,11 +10705,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ilha Grande',
         'lang': 'pt'
       },
-      'BR/PI/Inhuma': {
-        'id': 'data/BR/PI/Inhuma',
-        'key': 'Inhuma',
-        'lang': 'pt'
-      },
+      'BR/PI/Inhuma': {'id': 'data/BR/PI/Inhuma', 'key': 'Inhuma', 'lang': 'pt'},
       'BR/PI/Ipiranga do Piauí': {
         'id': 'data/BR/PI/Ipiranga do Piauí',
         'key': 'Ipiranga do Piauí',
@@ -15547,21 +10721,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Itainópolis',
         'lang': 'pt'
       },
-      'BR/PI/Itaueira': {
-        'id': 'data/BR/PI/Itaueira',
-        'key': 'Itaueira',
-        'lang': 'pt'
-      },
+      'BR/PI/Itaueira': {'id': 'data/BR/PI/Itaueira', 'key': 'Itaueira', 'lang': 'pt'},
       'BR/PI/Jacobina do Piauí': {
         'id': 'data/BR/PI/Jacobina do Piauí',
         'key': 'Jacobina do Piauí',
         'lang': 'pt'
       },
-      'BR/PI/Jaicós': {
-        'id': 'data/BR/PI/Jaicós',
-        'key': 'Jaicós',
-        'lang': 'pt'
-      },
+      'BR/PI/Jaicós': {'id': 'data/BR/PI/Jaicós', 'key': 'Jaicós', 'lang': 'pt'},
       'BR/PI/Jardim do Mulato': {
         'id': 'data/BR/PI/Jardim do Mulato',
         'key': 'Jardim do Mulato',
@@ -15572,11 +10738,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Jatobá do Piauí',
         'lang': 'pt'
       },
-      'BR/PI/Jerumenha': {
-        'id': 'data/BR/PI/Jerumenha',
-        'key': 'Jerumenha',
-        'lang': 'pt'
-      },
+      'BR/PI/Jerumenha': {'id': 'data/BR/PI/Jerumenha', 'key': 'Jerumenha', 'lang': 'pt'},
       'BR/PI/Joaquim Pires': {
         'id': 'data/BR/PI/Joaquim Pires',
         'key': 'Joaquim Pires',
@@ -15607,11 +10769,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Julio Borges',
         'lang': 'pt'
       },
-      'BR/PI/Jurema': {
-        'id': 'data/BR/PI/Jurema',
-        'key': 'Jurema',
-        'lang': 'pt'
-      },
+      'BR/PI/Jurema': {'id': 'data/BR/PI/Jurema', 'key': 'Jurema', 'lang': 'pt'},
       'BR/PI/Lagoa Alegre': {
         'id': 'data/BR/PI/Lagoa Alegre',
         'key': 'Lagoa Alegre',
@@ -15657,11 +10815,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Luís Correia',
         'lang': 'pt'
       },
-      'BR/PI/Madeiro': {
-        'id': 'data/BR/PI/Madeiro',
-        'key': 'Madeiro',
-        'lang': 'pt'
-      },
+      'BR/PI/Madeiro': {'id': 'data/BR/PI/Madeiro', 'key': 'Madeiro', 'lang': 'pt'},
       'BR/PI/Manoel Emídio': {
         'id': 'data/BR/PI/Manoel Emídio',
         'key': 'Manoel Emídio',
@@ -15762,11 +10916,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Novo Santo Antônio',
         'lang': 'pt'
       },
-      'BR/PI/Oeiras': {
-        'id': 'data/BR/PI/Oeiras',
-        'key': 'Oeiras',
-        'lang': 'pt'
-      },
+      'BR/PI/Oeiras': {'id': 'data/BR/PI/Oeiras', 'key': 'Oeiras', 'lang': 'pt'},
       "BR/PI/Olho d'Água do Piauí": {
         'id': "data/BR/PI/Olho d'Água do Piauí",
         'key': "Olho d'Água do Piauí",
@@ -15797,21 +10947,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Palmeirais',
         'lang': 'pt'
       },
-      'BR/PI/Paquetá': {
-        'id': 'data/BR/PI/Paquetá',
-        'key': 'Paquetá',
-        'lang': 'pt'
-      },
-      'BR/PI/Parnaguá': {
-        'id': 'data/BR/PI/Parnaguá',
-        'key': 'Parnaguá',
-        'lang': 'pt'
-      },
-      'BR/PI/Parnaíba': {
-        'id': 'data/BR/PI/Parnaíba',
-        'key': 'Parnaíba',
-        'lang': 'pt'
-      },
+      'BR/PI/Paquetá': {'id': 'data/BR/PI/Paquetá', 'key': 'Paquetá', 'lang': 'pt'},
+      'BR/PI/Parnaguá': {'id': 'data/BR/PI/Parnaguá', 'key': 'Parnaguá', 'lang': 'pt'},
+      'BR/PI/Parnaíba': {'id': 'data/BR/PI/Parnaíba', 'key': 'Parnaíba', 'lang': 'pt'},
       'BR/PI/Passagem Franca do Piauí': {
         'id': 'data/BR/PI/Passagem Franca do Piauí',
         'key': 'Passagem Franca do Piauí',
@@ -15832,16 +10970,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Paulistana',
         'lang': 'pt'
       },
-      'BR/PI/Pavussu': {
-        'id': 'data/BR/PI/Pavussu',
-        'key': 'Pavussu',
-        'lang': 'pt'
-      },
-      'BR/PI/Pedro II': {
-        'id': 'data/BR/PI/Pedro II',
-        'key': 'Pedro II',
-        'lang': 'pt'
-      },
+      'BR/PI/Pavussu': {'id': 'data/BR/PI/Pavussu', 'key': 'Pavussu', 'lang': 'pt'},
+      'BR/PI/Pedro II': {'id': 'data/BR/PI/Pedro II', 'key': 'Pedro II', 'lang': 'pt'},
       'BR/PI/Pedro Laurentino': {
         'id': 'data/BR/PI/Pedro Laurentino',
         'key': 'Pedro Laurentino',
@@ -15853,21 +10983,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pimenteiras',
         'lang': 'pt'
       },
-      'BR/PI/Pio IX': {
-        'id': 'data/BR/PI/Pio IX',
-        'key': 'Pio IX',
-        'lang': 'pt'
-      },
+      'BR/PI/Pio IX': {'id': 'data/BR/PI/Pio IX', 'key': 'Pio IX', 'lang': 'pt'},
       'BR/PI/Piracuruca': {
         'id': 'data/BR/PI/Piracuruca',
         'key': 'Piracuruca',
         'lang': 'pt'
       },
-      'BR/PI/Piripiri': {
-        'id': 'data/BR/PI/Piripiri',
-        'key': 'Piripiri',
-        'lang': 'pt'
-      },
+      'BR/PI/Piripiri': {'id': 'data/BR/PI/Piripiri', 'key': 'Piripiri', 'lang': 'pt'},
       'BR/PI/Porto': {'id': 'data/BR/PI/Porto', 'key': 'Porto', 'lang': 'pt'},
       'BR/PI/Porto Alegre do Piauí': {
         'id': 'data/BR/PI/Porto Alegre do Piauí',
@@ -15929,11 +11051,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santa Filomena',
         'lang': 'pt'
       },
-      'BR/PI/Santa Luz': {
-        'id': 'data/BR/PI/Santa Luz',
-        'key': 'Santa Luz',
-        'lang': 'pt'
-      },
+      'BR/PI/Santa Luz': {'id': 'data/BR/PI/Santa Luz', 'key': 'Santa Luz', 'lang': 'pt'},
       'BR/PI/Santa Rosa do Piauí': {
         'id': 'data/BR/PI/Santa Rosa do Piauí',
         'key': 'Santa Rosa do Piauí',
@@ -15979,11 +11097,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Simplício Mendes',
         'lang': 'pt'
       },
-      'BR/PI/Simões': {
-        'id': 'data/BR/PI/Simões',
-        'key': 'Simões',
-        'lang': 'pt'
-      },
+      'BR/PI/Simões': {'id': 'data/BR/PI/Simões', 'key': 'Simões', 'lang': 'pt'},
       'BR/PI/Socorro do Piauí': {
         'id': 'data/BR/PI/Socorro do Piauí',
         'key': 'Socorro do Piauí',
@@ -16119,17 +11233,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Tanque do Piauí',
         'lang': 'pt'
       },
-      'BR/PI/Teresina': {
-        'id': 'data/BR/PI/Teresina',
-        'key': 'Teresina',
-        'lang': 'pt'
-      },
+      'BR/PI/Teresina': {'id': 'data/BR/PI/Teresina', 'key': 'Teresina', 'lang': 'pt'},
       'BR/PI/União': {'id': 'data/BR/PI/União', 'key': 'União', 'lang': 'pt'},
-      'BR/PI/Uruçuí': {
-        'id': 'data/BR/PI/Uruçuí',
-        'key': 'Uruçuí',
-        'lang': 'pt'
-      },
+      'BR/PI/Uruçuí': {'id': 'data/BR/PI/Uruçuí', 'key': 'Uruçuí', 'lang': 'pt'},
       'BR/PI/Valença do Piauí': {
         'id': 'data/BR/PI/Valença do Piauí',
         'key': 'Valença do Piauí',
@@ -16176,11 +11282,7 @@ Map<String, Map<String, String>> get allJson => {
         'zip': '8[0-7]',
         'zipex': '80000-000,87999-999'
       },
-      'BR/PR/Abatiá': {
-        'id': 'data/BR/PR/Abatiá',
-        'key': 'Abatiá',
-        'lang': 'pt'
-      },
+      'BR/PR/Abatiá': {'id': 'data/BR/PR/Abatiá', 'key': 'Abatiá', 'lang': 'pt'},
       'BR/PR/Adrianópolis': {
         'id': 'data/BR/PR/Adrianópolis',
         'key': 'Adrianópolis',
@@ -16211,77 +11313,29 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alto Piquiri',
         'lang': 'pt'
       },
-      'BR/PR/Altônia': {
-        'id': 'data/BR/PR/Altônia',
-        'key': 'Altônia',
-        'lang': 'pt'
-      },
+      'BR/PR/Altônia': {'id': 'data/BR/PR/Altônia', 'key': 'Altônia', 'lang': 'pt'},
       'BR/PR/Alvorada do Sul': {
         'id': 'data/BR/PR/Alvorada do Sul',
         'key': 'Alvorada do Sul',
         'lang': 'pt'
       },
-      'BR/PR/Amaporã': {
-        'id': 'data/BR/PR/Amaporã',
-        'key': 'Amaporã',
-        'lang': 'pt'
-      },
-      'BR/PR/Ampere': {
-        'id': 'data/BR/PR/Ampere',
-        'key': 'Ampere',
-        'lang': 'pt'
-      },
+      'BR/PR/Amaporã': {'id': 'data/BR/PR/Amaporã', 'key': 'Amaporã', 'lang': 'pt'},
+      'BR/PR/Ampere': {'id': 'data/BR/PR/Ampere', 'key': 'Ampere', 'lang': 'pt'},
       'BR/PR/Anahy': {'id': 'data/BR/PR/Anahy', 'key': 'Anahy', 'lang': 'pt'},
-      'BR/PR/Andira': {
-        'id': 'data/BR/PR/Andira',
-        'key': 'Andira',
-        'lang': 'pt'
-      },
-      'BR/PR/Angulo': {
-        'id': 'data/BR/PR/Angulo',
-        'key': 'Angulo',
-        'lang': 'pt'
-      },
-      'BR/PR/Antonina': {
-        'id': 'data/BR/PR/Antonina',
-        'key': 'Antonina',
-        'lang': 'pt'
-      },
+      'BR/PR/Andira': {'id': 'data/BR/PR/Andira', 'key': 'Andira', 'lang': 'pt'},
+      'BR/PR/Angulo': {'id': 'data/BR/PR/Angulo', 'key': 'Angulo', 'lang': 'pt'},
+      'BR/PR/Antonina': {'id': 'data/BR/PR/Antonina', 'key': 'Antonina', 'lang': 'pt'},
       'BR/PR/Antônio Olinto': {
         'id': 'data/BR/PR/Antônio Olinto',
         'key': 'Antônio Olinto',
         'lang': 'pt'
       },
-      'BR/PR/Apucarana': {
-        'id': 'data/BR/PR/Apucarana',
-        'key': 'Apucarana',
-        'lang': 'pt'
-      },
-      'BR/PR/Arapongas': {
-        'id': 'data/BR/PR/Arapongas',
-        'key': 'Arapongas',
-        'lang': 'pt'
-      },
-      'BR/PR/Arapoti': {
-        'id': 'data/BR/PR/Arapoti',
-        'key': 'Arapoti',
-        'lang': 'pt'
-      },
-      'BR/PR/Arapuá': {
-        'id': 'data/BR/PR/Arapuá',
-        'key': 'Arapuá',
-        'lang': 'pt'
-      },
-      'BR/PR/Araruna': {
-        'id': 'data/BR/PR/Araruna',
-        'key': 'Araruna',
-        'lang': 'pt'
-      },
-      'BR/PR/Araucaria': {
-        'id': 'data/BR/PR/Araucaria',
-        'key': 'Araucaria',
-        'lang': 'pt'
-      },
+      'BR/PR/Apucarana': {'id': 'data/BR/PR/Apucarana', 'key': 'Apucarana', 'lang': 'pt'},
+      'BR/PR/Arapongas': {'id': 'data/BR/PR/Arapongas', 'key': 'Arapongas', 'lang': 'pt'},
+      'BR/PR/Arapoti': {'id': 'data/BR/PR/Arapoti', 'key': 'Arapoti', 'lang': 'pt'},
+      'BR/PR/Arapuá': {'id': 'data/BR/PR/Arapuá', 'key': 'Arapuá', 'lang': 'pt'},
+      'BR/PR/Araruna': {'id': 'data/BR/PR/Araruna', 'key': 'Araruna', 'lang': 'pt'},
+      'BR/PR/Araucaria': {'id': 'data/BR/PR/Araucaria', 'key': 'Araucaria', 'lang': 'pt'},
       'BR/PR/Ariranha do Ivaí': {
         'id': 'data/BR/PR/Ariranha do Ivaí',
         'key': 'Ariranha do Ivaí',
@@ -16293,16 +11347,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Assis Chateaubriand',
         'lang': 'pt'
       },
-      'BR/PR/Astorga': {
-        'id': 'data/BR/PR/Astorga',
-        'key': 'Astorga',
-        'lang': 'pt'
-      },
-      'BR/PR/Atalaia': {
-        'id': 'data/BR/PR/Atalaia',
-        'key': 'Atalaia',
-        'lang': 'pt'
-      },
+      'BR/PR/Astorga': {'id': 'data/BR/PR/Astorga', 'key': 'Astorga', 'lang': 'pt'},
+      'BR/PR/Atalaia': {'id': 'data/BR/PR/Atalaia', 'key': 'Atalaia', 'lang': 'pt'},
       'BR/PR/Balsa Nova': {
         'id': 'data/BR/PR/Balsa Nova',
         'key': 'Balsa Nova',
@@ -16323,11 +11369,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Barra do Jacaré',
         'lang': 'pt'
       },
-      'BR/PR/Barracão': {
-        'id': 'data/BR/PR/Barracão',
-        'key': 'Barracão',
-        'lang': 'pt'
-      },
+      'BR/PR/Barracão': {'id': 'data/BR/PR/Barracão', 'key': 'Barracão', 'lang': 'pt'},
       'BR/PR/Bela Vista da Caroba': {
         'id': 'data/BR/PR/Bela Vista da Caroba',
         'key': 'Bela Vista da Caroba',
@@ -16338,11 +11380,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bela Vista do Paraíso',
         'lang': 'pt'
       },
-      'BR/PR/Bituruna': {
-        'id': 'data/BR/PR/Bituruna',
-        'key': 'Bituruna',
-        'lang': 'pt'
-      },
+      'BR/PR/Bituruna': {'id': 'data/BR/PR/Bituruna', 'key': 'Bituruna', 'lang': 'pt'},
       'BR/PR/Boa Esperança': {
         'id': 'data/BR/PR/Boa Esperança',
         'key': 'Boa Esperança',
@@ -16388,21 +11426,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Borrazópolis',
         'lang': 'pt'
       },
-      'BR/PR/Braganey': {
-        'id': 'data/BR/PR/Braganey',
-        'key': 'Braganey',
-        'lang': 'pt'
-      },
+      'BR/PR/Braganey': {'id': 'data/BR/PR/Braganey', 'key': 'Braganey', 'lang': 'pt'},
       'BR/PR/Brasilândia do Sul': {
         'id': 'data/BR/PR/Brasilândia do Sul',
         'key': 'Brasilândia do Sul',
         'lang': 'pt'
       },
-      'BR/PR/Cafeara': {
-        'id': 'data/BR/PR/Cafeara',
-        'key': 'Cafeara',
-        'lang': 'pt'
-      },
+      'BR/PR/Cafeara': {'id': 'data/BR/PR/Cafeara', 'key': 'Cafeara', 'lang': 'pt'},
       'BR/PR/Cafelândia': {
         'id': 'data/BR/PR/Cafelândia',
         'key': 'Cafelândia',
@@ -16418,16 +11448,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'California',
         'lang': 'pt'
       },
-      'BR/PR/Cambará': {
-        'id': 'data/BR/PR/Cambará',
-        'key': 'Cambará',
-        'lang': 'pt'
-      },
-      'BR/PR/Cambira': {
-        'id': 'data/BR/PR/Cambira',
-        'key': 'Cambira',
-        'lang': 'pt'
-      },
+      'BR/PR/Cambará': {'id': 'data/BR/PR/Cambará', 'key': 'Cambará', 'lang': 'pt'},
+      'BR/PR/Cambira': {'id': 'data/BR/PR/Cambira', 'key': 'Cambira', 'lang': 'pt'},
       'BR/PR/Cambé': {'id': 'data/BR/PR/Cambé', 'key': 'Cambé', 'lang': 'pt'},
       'BR/PR/Campina Grande do Sul': {
         'id': 'data/BR/PR/Campina Grande do Sul',
@@ -16469,46 +11491,22 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Campo do Tenente',
         'lang': 'pt'
       },
-      'BR/PR/Candói': {
-        'id': 'data/BR/PR/Candói',
-        'key': 'Candói',
-        'lang': 'pt'
-      },
-      'BR/PR/Cantagalo': {
-        'id': 'data/BR/PR/Cantagalo',
-        'key': 'Cantagalo',
-        'lang': 'pt'
-      },
-      'BR/PR/Capanema': {
-        'id': 'data/BR/PR/Capanema',
-        'key': 'Capanema',
-        'lang': 'pt'
-      },
+      'BR/PR/Candói': {'id': 'data/BR/PR/Candói', 'key': 'Candói', 'lang': 'pt'},
+      'BR/PR/Cantagalo': {'id': 'data/BR/PR/Cantagalo', 'key': 'Cantagalo', 'lang': 'pt'},
+      'BR/PR/Capanema': {'id': 'data/BR/PR/Capanema', 'key': 'Capanema', 'lang': 'pt'},
       'BR/PR/Capitão Leônidas Marques': {
         'id': 'data/BR/PR/Capitão Leônidas Marques',
         'key': 'Capitão Leônidas Marques',
         'lang': 'pt'
       },
-      'BR/PR/Carambeí': {
-        'id': 'data/BR/PR/Carambeí',
-        'key': 'Carambeí',
-        'lang': 'pt'
-      },
+      'BR/PR/Carambeí': {'id': 'data/BR/PR/Carambeí', 'key': 'Carambeí', 'lang': 'pt'},
       'BR/PR/Carlópolis': {
         'id': 'data/BR/PR/Carlópolis',
         'key': 'Carlópolis',
         'lang': 'pt'
       },
-      'BR/PR/Cascavel': {
-        'id': 'data/BR/PR/Cascavel',
-        'key': 'Cascavel',
-        'lang': 'pt'
-      },
-      'BR/PR/Castro': {
-        'id': 'data/BR/PR/Castro',
-        'key': 'Castro',
-        'lang': 'pt'
-      },
+      'BR/PR/Cascavel': {'id': 'data/BR/PR/Cascavel', 'key': 'Cascavel', 'lang': 'pt'},
+      'BR/PR/Castro': {'id': 'data/BR/PR/Castro', 'key': 'Castro', 'lang': 'pt'},
       'BR/PR/Catanduvas': {
         'id': 'data/BR/PR/Catanduvas',
         'key': 'Catanduvas',
@@ -16529,11 +11527,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Chopinzinho',
         'lang': 'pt'
       },
-      'BR/PR/Cianorte': {
-        'id': 'data/BR/PR/Cianorte',
-        'key': 'Cianorte',
-        'lang': 'pt'
-      },
+      'BR/PR/Cianorte': {'id': 'data/BR/PR/Cianorte', 'key': 'Cianorte', 'lang': 'pt'},
       'BR/PR/Cidade Gaúcha': {
         'id': 'data/BR/PR/Cidade Gaúcha',
         'key': 'Cidade Gaúcha',
@@ -16544,16 +11538,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Clevelândia',
         'lang': 'pt'
       },
-      'BR/PR/Colombo': {
-        'id': 'data/BR/PR/Colombo',
-        'key': 'Colombo',
-        'lang': 'pt'
-      },
-      'BR/PR/Colorado': {
-        'id': 'data/BR/PR/Colorado',
-        'key': 'Colorado',
-        'lang': 'pt'
-      },
+      'BR/PR/Colombo': {'id': 'data/BR/PR/Colombo', 'key': 'Colombo', 'lang': 'pt'},
+      'BR/PR/Colorado': {'id': 'data/BR/PR/Colorado', 'key': 'Colorado', 'lang': 'pt'},
       'BR/PR/Congonhinhas': {
         'id': 'data/BR/PR/Congonhinhas',
         'key': 'Congonhinhas',
@@ -16564,16 +11550,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Conselheiro Mairinck',
         'lang': 'pt'
       },
-      'BR/PR/Contenda': {
-        'id': 'data/BR/PR/Contenda',
-        'key': 'Contenda',
-        'lang': 'pt'
-      },
-      'BR/PR/Corbélia': {
-        'id': 'data/BR/PR/Corbélia',
-        'key': 'Corbélia',
-        'lang': 'pt'
-      },
+      'BR/PR/Contenda': {'id': 'data/BR/PR/Contenda', 'key': 'Contenda', 'lang': 'pt'},
+      'BR/PR/Corbélia': {'id': 'data/BR/PR/Corbélia', 'key': 'Corbélia', 'lang': 'pt'},
       'BR/PR/Cornélio Procópio': {
         'id': 'data/BR/PR/Cornélio Procópio',
         'key': 'Cornélio Procópio',
@@ -16619,26 +11597,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cruzmaltina',
         'lang': 'pt'
       },
-      'BR/PR/Curitiba': {
-        'id': 'data/BR/PR/Curitiba',
-        'key': 'Curitiba',
-        'lang': 'pt'
-      },
-      'BR/PR/Curiúva': {
-        'id': 'data/BR/PR/Curiúva',
-        'key': 'Curiúva',
-        'lang': 'pt'
-      },
+      'BR/PR/Curitiba': {'id': 'data/BR/PR/Curitiba', 'key': 'Curitiba', 'lang': 'pt'},
+      'BR/PR/Curiúva': {'id': 'data/BR/PR/Curiúva', 'key': 'Curiúva', 'lang': 'pt'},
       'BR/PR/Cândido de Abreu': {
         'id': 'data/BR/PR/Cândido de Abreu',
         'key': 'Cândido de Abreu',
         'lang': 'pt'
       },
-      'BR/PR/Céu Azul': {
-        'id': 'data/BR/PR/Céu Azul',
-        'key': 'Céu Azul',
-        'lang': 'pt'
-      },
+      'BR/PR/Céu Azul': {'id': 'data/BR/PR/Céu Azul', 'key': 'Céu Azul', 'lang': 'pt'},
       "BR/PR/Diamante d'Oeste": {
         'id': "data/BR/PR/Diamante d'Oeste",
         'key': "Diamante d'Oeste",
@@ -16659,11 +11625,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Dois Vizinhos',
         'lang': 'pt'
       },
-      'BR/PR/Douradina': {
-        'id': 'data/BR/PR/Douradina',
-        'key': 'Douradina',
-        'lang': 'pt'
-      },
+      'BR/PR/Douradina': {'id': 'data/BR/PR/Douradina', 'key': 'Douradina', 'lang': 'pt'},
       'BR/PR/Doutor Camargo': {
         'id': 'data/BR/PR/Doutor Camargo',
         'key': 'Doutor Camargo',
@@ -16700,11 +11662,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/PR/Farol': {'id': 'data/BR/PR/Farol', 'key': 'Farol', 'lang': 'pt'},
-      'BR/PR/Faxinal': {
-        'id': 'data/BR/PR/Faxinal',
-        'key': 'Faxinal',
-        'lang': 'pt'
-      },
+      'BR/PR/Faxinal': {'id': 'data/BR/PR/Faxinal', 'key': 'Faxinal', 'lang': 'pt'},
       'BR/PR/Fazenda Rio Grande': {
         'id': 'data/BR/PR/Fazenda Rio Grande',
         'key': 'Fazenda Rio Grande',
@@ -16715,36 +11673,20 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Fernandes Pinheiro',
         'lang': 'pt'
       },
-      'BR/PR/Figueira': {
-        'id': 'data/BR/PR/Figueira',
-        'key': 'Figueira',
-        'lang': 'pt'
-      },
+      'BR/PR/Figueira': {'id': 'data/BR/PR/Figueira', 'key': 'Figueira', 'lang': 'pt'},
       'BR/PR/Flor da Serra do Sul': {
         'id': 'data/BR/PR/Flor da Serra do Sul',
         'key': 'Flor da Serra do Sul',
         'lang': 'pt'
       },
-      'BR/PR/Floraí': {
-        'id': 'data/BR/PR/Floraí',
-        'key': 'Floraí',
-        'lang': 'pt'
-      },
-      'BR/PR/Floresta': {
-        'id': 'data/BR/PR/Floresta',
-        'key': 'Floresta',
-        'lang': 'pt'
-      },
+      'BR/PR/Floraí': {'id': 'data/BR/PR/Floraí', 'key': 'Floraí', 'lang': 'pt'},
+      'BR/PR/Floresta': {'id': 'data/BR/PR/Floresta', 'key': 'Floresta', 'lang': 'pt'},
       'BR/PR/Florestópolis': {
         'id': 'data/BR/PR/Florestópolis',
         'key': 'Florestópolis',
         'lang': 'pt'
       },
-      'BR/PR/Flórida': {
-        'id': 'data/BR/PR/Flórida',
-        'key': 'Flórida',
-        'lang': 'pt'
-      },
+      'BR/PR/Flórida': {'id': 'data/BR/PR/Flórida', 'key': 'Flórida', 'lang': 'pt'},
       'BR/PR/Formosa do Oeste': {
         'id': 'data/BR/PR/Formosa do Oeste',
         'key': 'Formosa do Oeste',
@@ -16781,46 +11723,22 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Godoy Moreira',
         'lang': 'pt'
       },
-      'BR/PR/Goioerê': {
-        'id': 'data/BR/PR/Goioerê',
-        'key': 'Goioerê',
-        'lang': 'pt'
-      },
-      'BR/PR/Goioxim': {
-        'id': 'data/BR/PR/Goioxim',
-        'key': 'Goioxim',
-        'lang': 'pt'
-      },
+      'BR/PR/Goioerê': {'id': 'data/BR/PR/Goioerê', 'key': 'Goioerê', 'lang': 'pt'},
+      'BR/PR/Goioxim': {'id': 'data/BR/PR/Goioxim', 'key': 'Goioxim', 'lang': 'pt'},
       'BR/PR/Grandes Rios': {
         'id': 'data/BR/PR/Grandes Rios',
         'key': 'Grandes Rios',
         'lang': 'pt'
       },
-      'BR/PR/Guairaçá': {
-        'id': 'data/BR/PR/Guairaçá',
-        'key': 'Guairaçá',
-        'lang': 'pt'
-      },
+      'BR/PR/Guairaçá': {'id': 'data/BR/PR/Guairaçá', 'key': 'Guairaçá', 'lang': 'pt'},
       'BR/PR/Guamiranga': {
         'id': 'data/BR/PR/Guamiranga',
         'key': 'Guamiranga',
         'lang': 'pt'
       },
-      'BR/PR/Guapirama': {
-        'id': 'data/BR/PR/Guapirama',
-        'key': 'Guapirama',
-        'lang': 'pt'
-      },
-      'BR/PR/Guaporema': {
-        'id': 'data/BR/PR/Guaporema',
-        'key': 'Guaporema',
-        'lang': 'pt'
-      },
-      'BR/PR/Guaraci': {
-        'id': 'data/BR/PR/Guaraci',
-        'key': 'Guaraci',
-        'lang': 'pt'
-      },
+      'BR/PR/Guapirama': {'id': 'data/BR/PR/Guapirama', 'key': 'Guapirama', 'lang': 'pt'},
+      'BR/PR/Guaporema': {'id': 'data/BR/PR/Guaporema', 'key': 'Guaporema', 'lang': 'pt'},
+      'BR/PR/Guaraci': {'id': 'data/BR/PR/Guaraci', 'key': 'Guaraci', 'lang': 'pt'},
       'BR/PR/Guaraniaçu': {
         'id': 'data/BR/PR/Guaraniaçu',
         'key': 'Guaraniaçu',
@@ -16836,53 +11754,21 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Guaraqueçaba',
         'lang': 'pt'
       },
-      'BR/PR/Guaratuba': {
-        'id': 'data/BR/PR/Guaratuba',
-        'key': 'Guaratuba',
-        'lang': 'pt'
-      },
-      'BR/PR/Guaíra': {
-        'id': 'data/BR/PR/Guaíra',
-        'key': 'Guaíra',
-        'lang': 'pt'
-      },
+      'BR/PR/Guaratuba': {'id': 'data/BR/PR/Guaratuba', 'key': 'Guaratuba', 'lang': 'pt'},
+      'BR/PR/Guaíra': {'id': 'data/BR/PR/Guaíra', 'key': 'Guaíra', 'lang': 'pt'},
       'BR/PR/Honório Serpa': {
         'id': 'data/BR/PR/Honório Serpa',
         'key': 'Honório Serpa',
         'lang': 'pt'
       },
-      'BR/PR/Ibaiti': {
-        'id': 'data/BR/PR/Ibaiti',
-        'key': 'Ibaiti',
-        'lang': 'pt'
-      },
+      'BR/PR/Ibaiti': {'id': 'data/BR/PR/Ibaiti', 'key': 'Ibaiti', 'lang': 'pt'},
       'BR/PR/Ibema': {'id': 'data/BR/PR/Ibema', 'key': 'Ibema', 'lang': 'pt'},
-      'BR/PR/Ibiporã': {
-        'id': 'data/BR/PR/Ibiporã',
-        'key': 'Ibiporã',
-        'lang': 'pt'
-      },
-      'BR/PR/Icaraíma': {
-        'id': 'data/BR/PR/Icaraíma',
-        'key': 'Icaraíma',
-        'lang': 'pt'
-      },
-      'BR/PR/Iguaraçu': {
-        'id': 'data/BR/PR/Iguaraçu',
-        'key': 'Iguaraçu',
-        'lang': 'pt'
-      },
-      'BR/PR/Iguatu': {
-        'id': 'data/BR/PR/Iguatu',
-        'key': 'Iguatu',
-        'lang': 'pt'
-      },
+      'BR/PR/Ibiporã': {'id': 'data/BR/PR/Ibiporã', 'key': 'Ibiporã', 'lang': 'pt'},
+      'BR/PR/Icaraíma': {'id': 'data/BR/PR/Icaraíma', 'key': 'Icaraíma', 'lang': 'pt'},
+      'BR/PR/Iguaraçu': {'id': 'data/BR/PR/Iguaraçu', 'key': 'Iguaraçu', 'lang': 'pt'},
+      'BR/PR/Iguatu': {'id': 'data/BR/PR/Iguatu', 'key': 'Iguatu', 'lang': 'pt'},
       'BR/PR/Imbaú': {'id': 'data/BR/PR/Imbaú', 'key': 'Imbaú', 'lang': 'pt'},
-      'BR/PR/Imbituva': {
-        'id': 'data/BR/PR/Imbituva',
-        'key': 'Imbituva',
-        'lang': 'pt'
-      },
+      'BR/PR/Imbituva': {'id': 'data/BR/PR/Imbituva', 'key': 'Imbituva', 'lang': 'pt'},
       'BR/PR/Inajá': {'id': 'data/BR/PR/Inajá', 'key': 'Inajá', 'lang': 'pt'},
       'BR/PR/Indianópolis': {
         'id': 'data/BR/PR/Indianópolis',
@@ -16894,11 +11780,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Inácio Martins',
         'lang': 'pt'
       },
-      'BR/PR/Ipiranga': {
-        'id': 'data/BR/PR/Ipiranga',
-        'key': 'Ipiranga',
-        'lang': 'pt'
-      },
+      'BR/PR/Ipiranga': {'id': 'data/BR/PR/Ipiranga', 'key': 'Ipiranga', 'lang': 'pt'},
       'BR/PR/Iporã': {'id': 'data/BR/PR/Iporã', 'key': 'Iporã', 'lang': 'pt'},
       'BR/PR/Iracema do Oeste': {
         'id': 'data/BR/PR/Iracema do Oeste',
@@ -16906,16 +11788,8 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/PR/Irati': {'id': 'data/BR/PR/Irati', 'key': 'Irati', 'lang': 'pt'},
-      'BR/PR/Iretama': {
-        'id': 'data/BR/PR/Iretama',
-        'key': 'Iretama',
-        'lang': 'pt'
-      },
-      'BR/PR/Itaguajé': {
-        'id': 'data/BR/PR/Itaguajé',
-        'key': 'Itaguajé',
-        'lang': 'pt'
-      },
+      'BR/PR/Iretama': {'id': 'data/BR/PR/Iretama', 'key': 'Iretama', 'lang': 'pt'},
+      'BR/PR/Itaguajé': {'id': 'data/BR/PR/Itaguajé', 'key': 'Itaguajé', 'lang': 'pt'},
       'BR/PR/Itaipulândia': {
         'id': 'data/BR/PR/Itaipulândia',
         'key': 'Itaipulândia',
@@ -16926,53 +11800,29 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Itambaracá',
         'lang': 'pt'
       },
-      'BR/PR/Itambé': {
-        'id': 'data/BR/PR/Itambé',
-        'key': 'Itambé',
-        'lang': 'pt'
-      },
+      'BR/PR/Itambé': {'id': 'data/BR/PR/Itambé', 'key': 'Itambé', 'lang': 'pt'},
       "BR/PR/Itapejara d'Oeste": {
         'id': "data/BR/PR/Itapejara d'Oeste",
         'key': "Itapejara d'Oeste",
         'lang': 'pt'
       },
-      'BR/PR/Itaperuçu': {
-        'id': 'data/BR/PR/Itaperuçu',
-        'key': 'Itaperuçu',
-        'lang': 'pt'
-      },
+      'BR/PR/Itaperuçu': {'id': 'data/BR/PR/Itaperuçu', 'key': 'Itaperuçu', 'lang': 'pt'},
       'BR/PR/Itaúna do Sul': {
         'id': 'data/BR/PR/Itaúna do Sul',
         'key': 'Itaúna do Sul',
         'lang': 'pt'
       },
-      'BR/PR/Ivaiporã': {
-        'id': 'data/BR/PR/Ivaiporã',
-        'key': 'Ivaiporã',
-        'lang': 'pt'
-      },
-      'BR/PR/Ivatuba': {
-        'id': 'data/BR/PR/Ivatuba',
-        'key': 'Ivatuba',
-        'lang': 'pt'
-      },
+      'BR/PR/Ivaiporã': {'id': 'data/BR/PR/Ivaiporã', 'key': 'Ivaiporã', 'lang': 'pt'},
+      'BR/PR/Ivatuba': {'id': 'data/BR/PR/Ivatuba', 'key': 'Ivatuba', 'lang': 'pt'},
       'BR/PR/Ivaté': {'id': 'data/BR/PR/Ivaté', 'key': 'Ivaté', 'lang': 'pt'},
       'BR/PR/Ivaí': {'id': 'data/BR/PR/Ivaí', 'key': 'Ivaí', 'lang': 'pt'},
-      'BR/PR/Jaboti': {
-        'id': 'data/BR/PR/Jaboti',
-        'key': 'Jaboti',
-        'lang': 'pt'
-      },
+      'BR/PR/Jaboti': {'id': 'data/BR/PR/Jaboti', 'key': 'Jaboti', 'lang': 'pt'},
       'BR/PR/Jacarezinho': {
         'id': 'data/BR/PR/Jacarezinho',
         'key': 'Jacarezinho',
         'lang': 'pt'
       },
-      'BR/PR/Jaguapitã': {
-        'id': 'data/BR/PR/Jaguapitã',
-        'key': 'Jaguapitã',
-        'lang': 'pt'
-      },
+      'BR/PR/Jaguapitã': {'id': 'data/BR/PR/Jaguapitã', 'key': 'Jaguapitã', 'lang': 'pt'},
       'BR/PR/Jaguariaíva': {
         'id': 'data/BR/PR/Jaguariaíva',
         'key': 'Jaguariaíva',
@@ -16988,16 +11838,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Janiópolis',
         'lang': 'pt'
       },
-      'BR/PR/Japira': {
-        'id': 'data/BR/PR/Japira',
-        'key': 'Japira',
-        'lang': 'pt'
-      },
-      'BR/PR/Japurá': {
-        'id': 'data/BR/PR/Japurá',
-        'key': 'Japurá',
-        'lang': 'pt'
-      },
+      'BR/PR/Japira': {'id': 'data/BR/PR/Japira', 'key': 'Japira', 'lang': 'pt'},
+      'BR/PR/Japurá': {'id': 'data/BR/PR/Japurá', 'key': 'Japurá', 'lang': 'pt'},
       'BR/PR/Jardim Alegre': {
         'id': 'data/BR/PR/Jardim Alegre',
         'key': 'Jardim Alegre',
@@ -17013,11 +11855,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Jataizinho',
         'lang': 'pt'
       },
-      'BR/PR/Jesuítas': {
-        'id': 'data/BR/PR/Jesuítas',
-        'key': 'Jesuítas',
-        'lang': 'pt'
-      },
+      'BR/PR/Jesuítas': {'id': 'data/BR/PR/Jesuítas', 'key': 'Jesuítas', 'lang': 'pt'},
       'BR/PR/Joaquim Távora': {
         'id': 'data/BR/PR/Joaquim Távora',
         'key': 'Joaquim Távora',
@@ -17028,67 +11866,27 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Jundiaí do Sul',
         'lang': 'pt'
       },
-      'BR/PR/Juranda': {
-        'id': 'data/BR/PR/Juranda',
-        'key': 'Juranda',
-        'lang': 'pt'
-      },
-      'BR/PR/Jussara': {
-        'id': 'data/BR/PR/Jussara',
-        'key': 'Jussara',
-        'lang': 'pt'
-      },
-      'BR/PR/Kaloré': {
-        'id': 'data/BR/PR/Kaloré',
-        'key': 'Kaloré',
-        'lang': 'pt'
-      },
+      'BR/PR/Juranda': {'id': 'data/BR/PR/Juranda', 'key': 'Juranda', 'lang': 'pt'},
+      'BR/PR/Jussara': {'id': 'data/BR/PR/Jussara', 'key': 'Jussara', 'lang': 'pt'},
+      'BR/PR/Kaloré': {'id': 'data/BR/PR/Kaloré', 'key': 'Kaloré', 'lang': 'pt'},
       'BR/PR/Lapa': {'id': 'data/BR/PR/Lapa', 'key': 'Lapa', 'lang': 'pt'},
-      'BR/PR/Laranjal': {
-        'id': 'data/BR/PR/Laranjal',
-        'key': 'Laranjal',
-        'lang': 'pt'
-      },
+      'BR/PR/Laranjal': {'id': 'data/BR/PR/Laranjal', 'key': 'Laranjal', 'lang': 'pt'},
       'BR/PR/Laranjeiras do Sul': {
         'id': 'data/BR/PR/Laranjeiras do Sul',
         'key': 'Laranjeiras do Sul',
         'lang': 'pt'
       },
-      'BR/PR/Leopolis': {
-        'id': 'data/BR/PR/Leopolis',
-        'key': 'Leopolis',
-        'lang': 'pt'
-      },
+      'BR/PR/Leopolis': {'id': 'data/BR/PR/Leopolis', 'key': 'Leopolis', 'lang': 'pt'},
       'BR/PR/Lidianópolis': {
         'id': 'data/BR/PR/Lidianópolis',
         'key': 'Lidianópolis',
         'lang': 'pt'
       },
-      'BR/PR/Lindoeste': {
-        'id': 'data/BR/PR/Lindoeste',
-        'key': 'Lindoeste',
-        'lang': 'pt'
-      },
-      'BR/PR/Loanda': {
-        'id': 'data/BR/PR/Loanda',
-        'key': 'Loanda',
-        'lang': 'pt'
-      },
-      'BR/PR/Lobato': {
-        'id': 'data/BR/PR/Lobato',
-        'key': 'Lobato',
-        'lang': 'pt'
-      },
-      'BR/PR/Londrina': {
-        'id': 'data/BR/PR/Londrina',
-        'key': 'Londrina',
-        'lang': 'pt'
-      },
-      'BR/PR/Luiziana': {
-        'id': 'data/BR/PR/Luiziana',
-        'key': 'Luiziana',
-        'lang': 'pt'
-      },
+      'BR/PR/Lindoeste': {'id': 'data/BR/PR/Lindoeste', 'key': 'Lindoeste', 'lang': 'pt'},
+      'BR/PR/Loanda': {'id': 'data/BR/PR/Loanda', 'key': 'Loanda', 'lang': 'pt'},
+      'BR/PR/Lobato': {'id': 'data/BR/PR/Lobato', 'key': 'Lobato', 'lang': 'pt'},
+      'BR/PR/Londrina': {'id': 'data/BR/PR/Londrina', 'key': 'Londrina', 'lang': 'pt'},
+      'BR/PR/Luiziana': {'id': 'data/BR/PR/Luiziana', 'key': 'Luiziana', 'lang': 'pt'},
       'BR/PR/Lunardelli': {
         'id': 'data/BR/PR/Lunardelli',
         'key': 'Lunardelli',
@@ -17099,16 +11897,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Lupionópolis',
         'lang': 'pt'
       },
-      'BR/PR/Mallet': {
-        'id': 'data/BR/PR/Mallet',
-        'key': 'Mallet',
-        'lang': 'pt'
-      },
-      'BR/PR/Mamborê': {
-        'id': 'data/BR/PR/Mamborê',
-        'key': 'Mamborê',
-        'lang': 'pt'
-      },
+      'BR/PR/Mallet': {'id': 'data/BR/PR/Mallet', 'key': 'Mallet', 'lang': 'pt'},
+      'BR/PR/Mamborê': {'id': 'data/BR/PR/Mamborê', 'key': 'Mamborê', 'lang': 'pt'},
       'BR/PR/Mandaguari': {
         'id': 'data/BR/PR/Mandaguari',
         'key': 'Mandaguari',
@@ -17149,36 +11939,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Maria Helena',
         'lang': 'pt'
       },
-      'BR/PR/Marialva': {
-        'id': 'data/BR/PR/Marialva',
-        'key': 'Marialva',
-        'lang': 'pt'
-      },
-      'BR/PR/Marilena': {
-        'id': 'data/BR/PR/Marilena',
-        'key': 'Marilena',
-        'lang': 'pt'
-      },
-      'BR/PR/Mariluz': {
-        'id': 'data/BR/PR/Mariluz',
-        'key': 'Mariluz',
-        'lang': 'pt'
-      },
+      'BR/PR/Marialva': {'id': 'data/BR/PR/Marialva', 'key': 'Marialva', 'lang': 'pt'},
+      'BR/PR/Marilena': {'id': 'data/BR/PR/Marilena', 'key': 'Marilena', 'lang': 'pt'},
+      'BR/PR/Mariluz': {'id': 'data/BR/PR/Mariluz', 'key': 'Mariluz', 'lang': 'pt'},
       'BR/PR/Marilândia do Sul': {
         'id': 'data/BR/PR/Marilândia do Sul',
         'key': 'Marilândia do Sul',
         'lang': 'pt'
       },
-      'BR/PR/Maringá': {
-        'id': 'data/BR/PR/Maringá',
-        'key': 'Maringá',
-        'lang': 'pt'
-      },
-      'BR/PR/Maripá': {
-        'id': 'data/BR/PR/Maripá',
-        'key': 'Maripá',
-        'lang': 'pt'
-      },
+      'BR/PR/Maringá': {'id': 'data/BR/PR/Maringá', 'key': 'Maringá', 'lang': 'pt'},
+      'BR/PR/Maripá': {'id': 'data/BR/PR/Maripá', 'key': 'Maripá', 'lang': 'pt'},
       'BR/PR/Mariópolis': {
         'id': 'data/BR/PR/Mariópolis',
         'key': 'Mariópolis',
@@ -17189,31 +11959,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Marmeleiro',
         'lang': 'pt'
       },
-      'BR/PR/Marquinho': {
-        'id': 'data/BR/PR/Marquinho',
-        'key': 'Marquinho',
-        'lang': 'pt'
-      },
-      'BR/PR/Marumbi': {
-        'id': 'data/BR/PR/Marumbi',
-        'key': 'Marumbi',
-        'lang': 'pt'
-      },
+      'BR/PR/Marquinho': {'id': 'data/BR/PR/Marquinho', 'key': 'Marquinho', 'lang': 'pt'},
+      'BR/PR/Marumbi': {'id': 'data/BR/PR/Marumbi', 'key': 'Marumbi', 'lang': 'pt'},
       'BR/PR/Matelândia': {
         'id': 'data/BR/PR/Matelândia',
         'key': 'Matelândia',
         'lang': 'pt'
       },
-      'BR/PR/Matinhos': {
-        'id': 'data/BR/PR/Matinhos',
-        'key': 'Matinhos',
-        'lang': 'pt'
-      },
-      'BR/PR/Mato Rico': {
-        'id': 'data/BR/PR/Mato Rico',
-        'key': 'Mato Rico',
-        'lang': 'pt'
-      },
+      'BR/PR/Matinhos': {'id': 'data/BR/PR/Matinhos', 'key': 'Matinhos', 'lang': 'pt'},
+      'BR/PR/Mato Rico': {'id': 'data/BR/PR/Mato Rico', 'key': 'Mato Rico', 'lang': 'pt'},
       'BR/PR/Mauá da Serra': {
         'id': 'data/BR/PR/Mauá da Serra',
         'key': 'Mauá da Serra',
@@ -17224,36 +11978,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Medianeira',
         'lang': 'pt'
       },
-      'BR/PR/Mercedes': {
-        'id': 'data/BR/PR/Mercedes',
-        'key': 'Mercedes',
-        'lang': 'pt'
-      },
-      'BR/PR/Mirador': {
-        'id': 'data/BR/PR/Mirador',
-        'key': 'Mirador',
-        'lang': 'pt'
-      },
-      'BR/PR/Miraselva': {
-        'id': 'data/BR/PR/Miraselva',
-        'key': 'Miraselva',
-        'lang': 'pt'
-      },
-      'BR/PR/Missal': {
-        'id': 'data/BR/PR/Missal',
-        'key': 'Missal',
-        'lang': 'pt'
-      },
+      'BR/PR/Mercedes': {'id': 'data/BR/PR/Mercedes', 'key': 'Mercedes', 'lang': 'pt'},
+      'BR/PR/Mirador': {'id': 'data/BR/PR/Mirador', 'key': 'Mirador', 'lang': 'pt'},
+      'BR/PR/Miraselva': {'id': 'data/BR/PR/Miraselva', 'key': 'Miraselva', 'lang': 'pt'},
+      'BR/PR/Missal': {'id': 'data/BR/PR/Missal', 'key': 'Missal', 'lang': 'pt'},
       'BR/PR/Moreira Sales': {
         'id': 'data/BR/PR/Moreira Sales',
         'key': 'Moreira Sales',
         'lang': 'pt'
       },
-      'BR/PR/Morretes': {
-        'id': 'data/BR/PR/Morretes',
-        'key': 'Morretes',
-        'lang': 'pt'
-      },
+      'BR/PR/Morretes': {'id': 'data/BR/PR/Morretes', 'key': 'Morretes', 'lang': 'pt'},
       'BR/PR/Munhoz de Melo': {
         'id': 'data/BR/PR/Munhoz de Melo',
         'key': 'Munhoz de Melo',
@@ -17344,61 +12078,29 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ortigueira',
         'lang': 'pt'
       },
-      'BR/PR/Ourizona': {
-        'id': 'data/BR/PR/Ourizona',
-        'key': 'Ourizona',
-        'lang': 'pt'
-      },
+      'BR/PR/Ourizona': {'id': 'data/BR/PR/Ourizona', 'key': 'Ourizona', 'lang': 'pt'},
       'BR/PR/Ouro Verde do Oeste': {
         'id': 'data/BR/PR/Ouro Verde do Oeste',
         'key': 'Ouro Verde do Oeste',
         'lang': 'pt'
       },
-      'BR/PR/Paiçandu': {
-        'id': 'data/BR/PR/Paiçandu',
-        'key': 'Paiçandu',
-        'lang': 'pt'
-      },
-      'BR/PR/Palmas': {
-        'id': 'data/BR/PR/Palmas',
-        'key': 'Palmas',
-        'lang': 'pt'
-      },
-      'BR/PR/Palmeira': {
-        'id': 'data/BR/PR/Palmeira',
-        'key': 'Palmeira',
-        'lang': 'pt'
-      },
-      'BR/PR/Palmital': {
-        'id': 'data/BR/PR/Palmital',
-        'key': 'Palmital',
-        'lang': 'pt'
-      },
-      'BR/PR/Palotina': {
-        'id': 'data/BR/PR/Palotina',
-        'key': 'Palotina',
-        'lang': 'pt'
-      },
+      'BR/PR/Paiçandu': {'id': 'data/BR/PR/Paiçandu', 'key': 'Paiçandu', 'lang': 'pt'},
+      'BR/PR/Palmas': {'id': 'data/BR/PR/Palmas', 'key': 'Palmas', 'lang': 'pt'},
+      'BR/PR/Palmeira': {'id': 'data/BR/PR/Palmeira', 'key': 'Palmeira', 'lang': 'pt'},
+      'BR/PR/Palmital': {'id': 'data/BR/PR/Palmital', 'key': 'Palmital', 'lang': 'pt'},
+      'BR/PR/Palotina': {'id': 'data/BR/PR/Palotina', 'key': 'Palotina', 'lang': 'pt'},
       'BR/PR/Paranacity': {
         'id': 'data/BR/PR/Paranacity',
         'key': 'Paranacity',
         'lang': 'pt'
       },
-      'BR/PR/Paranaguá': {
-        'id': 'data/BR/PR/Paranaguá',
-        'key': 'Paranaguá',
-        'lang': 'pt'
-      },
+      'BR/PR/Paranaguá': {'id': 'data/BR/PR/Paranaguá', 'key': 'Paranaguá', 'lang': 'pt'},
       'BR/PR/Paranapoema': {
         'id': 'data/BR/PR/Paranapoema',
         'key': 'Paranapoema',
         'lang': 'pt'
       },
-      'BR/PR/Paranavaí': {
-        'id': 'data/BR/PR/Paranavaí',
-        'key': 'Paranavaí',
-        'lang': 'pt'
-      },
+      'BR/PR/Paranavaí': {'id': 'data/BR/PR/Paranavaí', 'key': 'Paranavaí', 'lang': 'pt'},
       'BR/PR/Paraíso do Norte': {
         'id': 'data/BR/PR/Paraíso do Norte',
         'key': 'Paraíso do Norte',
@@ -17424,51 +12126,23 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Paulo Frontin',
         'lang': 'pt'
       },
-      'BR/PR/Peabiru': {
-        'id': 'data/BR/PR/Peabiru',
-        'key': 'Peabiru',
-        'lang': 'pt'
-      },
-      'BR/PR/Perobal': {
-        'id': 'data/BR/PR/Perobal',
-        'key': 'Perobal',
-        'lang': 'pt'
-      },
-      'BR/PR/Pinhais': {
-        'id': 'data/BR/PR/Pinhais',
-        'key': 'Pinhais',
-        'lang': 'pt'
-      },
+      'BR/PR/Peabiru': {'id': 'data/BR/PR/Peabiru', 'key': 'Peabiru', 'lang': 'pt'},
+      'BR/PR/Perobal': {'id': 'data/BR/PR/Perobal', 'key': 'Perobal', 'lang': 'pt'},
+      'BR/PR/Pinhais': {'id': 'data/BR/PR/Pinhais', 'key': 'Pinhais', 'lang': 'pt'},
       'BR/PR/Pinhal de São Bento': {
         'id': 'data/BR/PR/Pinhal de São Bento',
         'key': 'Pinhal de São Bento',
         'lang': 'pt'
       },
-      'BR/PR/Pinhalão': {
-        'id': 'data/BR/PR/Pinhalão',
-        'key': 'Pinhalão',
-        'lang': 'pt'
-      },
-      'BR/PR/Pinhão': {
-        'id': 'data/BR/PR/Pinhão',
-        'key': 'Pinhão',
-        'lang': 'pt'
-      },
-      'BR/PR/Piraquara': {
-        'id': 'data/BR/PR/Piraquara',
-        'key': 'Piraquara',
-        'lang': 'pt'
-      },
+      'BR/PR/Pinhalão': {'id': 'data/BR/PR/Pinhalão', 'key': 'Pinhalão', 'lang': 'pt'},
+      'BR/PR/Pinhão': {'id': 'data/BR/PR/Pinhão', 'key': 'Pinhão', 'lang': 'pt'},
+      'BR/PR/Piraquara': {'id': 'data/BR/PR/Piraquara', 'key': 'Piraquara', 'lang': 'pt'},
       'BR/PR/Piraí do Sul': {
         'id': 'data/BR/PR/Piraí do Sul',
         'key': 'Piraí do Sul',
         'lang': 'pt'
       },
-      'BR/PR/Pitanga': {
-        'id': 'data/BR/PR/Pitanga',
-        'key': 'Pitanga',
-        'lang': 'pt'
-      },
+      'BR/PR/Pitanga': {'id': 'data/BR/PR/Pitanga', 'key': 'Pitanga', 'lang': 'pt'},
       'BR/PR/Pitangueiras': {
         'id': 'data/BR/PR/Pitangueiras',
         'key': 'Pitangueiras',
@@ -17480,11 +12154,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Planaltina do Paraná',
         'lang': 'pt'
       },
-      'BR/PR/Planalto': {
-        'id': 'data/BR/PR/Planalto',
-        'key': 'Planalto',
-        'lang': 'pt'
-      },
+      'BR/PR/Planalto': {'id': 'data/BR/PR/Planalto', 'key': 'Planalto', 'lang': 'pt'},
       'BR/PR/Ponta Grossa': {
         'id': 'data/BR/PR/Ponta Grossa',
         'key': 'Ponta Grossa',
@@ -17495,11 +12165,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pontal do Paraná',
         'lang': 'pt'
       },
-      'BR/PR/Porecatu': {
-        'id': 'data/BR/PR/Porecatu',
-        'key': 'Porecatu',
-        'lang': 'pt'
-      },
+      'BR/PR/Porecatu': {'id': 'data/BR/PR/Porecatu', 'key': 'Porecatu', 'lang': 'pt'},
       'BR/PR/Porto Amazonas': {
         'id': 'data/BR/PR/Porto Amazonas',
         'key': 'Porto Amazonas',
@@ -17525,11 +12191,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Prado Ferreira',
         'lang': 'pt'
       },
-      'BR/PR/Pranchita': {
-        'id': 'data/BR/PR/Pranchita',
-        'key': 'Pranchita',
-        'lang': 'pt'
-      },
+      'BR/PR/Pranchita': {'id': 'data/BR/PR/Pranchita', 'key': 'Pranchita', 'lang': 'pt'},
       'BR/PR/Presidente Castelo Branco': {
         'id': 'data/BR/PR/Presidente Castelo Branco',
         'key': 'Presidente Castelo Branco',
@@ -17545,11 +12207,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Prudentópolis',
         'lang': 'pt'
       },
-      'BR/PR/Pérola': {
-        'id': 'data/BR/PR/Pérola',
-        'key': 'Pérola',
-        'lang': 'pt'
-      },
+      'BR/PR/Pérola': {'id': 'data/BR/PR/Pérola', 'key': 'Pérola', 'lang': 'pt'},
       "BR/PR/Pérola d'Oeste": {
         'id': "data/BR/PR/Pérola d'Oeste",
         'key': "Pérola d'Oeste",
@@ -17560,11 +12218,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Quarto Centenário',
         'lang': 'pt'
       },
-      'BR/PR/Quatiguá': {
-        'id': 'data/BR/PR/Quatiguá',
-        'key': 'Quatiguá',
-        'lang': 'pt'
-      },
+      'BR/PR/Quatiguá': {'id': 'data/BR/PR/Quatiguá', 'key': 'Quatiguá', 'lang': 'pt'},
       'BR/PR/Quatro Barras': {
         'id': 'data/BR/PR/Quatro Barras',
         'key': 'Quatro Barras',
@@ -17610,26 +12264,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': "Rancho Alegre d'Oeste",
         'lang': 'pt'
       },
-      'BR/PR/Realeza': {
-        'id': 'data/BR/PR/Realeza',
-        'key': 'Realeza',
-        'lang': 'pt'
-      },
-      'BR/PR/Rebouças': {
-        'id': 'data/BR/PR/Rebouças',
-        'key': 'Rebouças',
-        'lang': 'pt'
-      },
+      'BR/PR/Realeza': {'id': 'data/BR/PR/Realeza', 'key': 'Realeza', 'lang': 'pt'},
+      'BR/PR/Rebouças': {'id': 'data/BR/PR/Rebouças', 'key': 'Rebouças', 'lang': 'pt'},
       'BR/PR/Renascença': {
         'id': 'data/BR/PR/Renascença',
         'key': 'Renascença',
         'lang': 'pt'
       },
-      'BR/PR/Reserva': {
-        'id': 'data/BR/PR/Reserva',
-        'key': 'Reserva',
-        'lang': 'pt'
-      },
+      'BR/PR/Reserva': {'id': 'data/BR/PR/Reserva', 'key': 'Reserva', 'lang': 'pt'},
       'BR/PR/Reserva do Iguaçu': {
         'id': 'data/BR/PR/Reserva do Iguaçu',
         'key': 'Reserva do Iguaçu',
@@ -17645,11 +12287,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ribeirão do Pinhal',
         'lang': 'pt'
       },
-      'BR/PR/Rio Bom': {
-        'id': 'data/BR/PR/Rio Bom',
-        'key': 'Rio Bom',
-        'lang': 'pt'
-      },
+      'BR/PR/Rio Bom': {'id': 'data/BR/PR/Rio Bom', 'key': 'Rio Bom', 'lang': 'pt'},
       'BR/PR/Rio Bonito do Iguaçu': {
         'id': 'data/BR/PR/Rio Bonito do Iguaçu',
         'key': 'Rio Bonito do Iguaçu',
@@ -17665,41 +12303,17 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Rio Branco do Sul',
         'lang': 'pt'
       },
-      'BR/PR/Rio Negro': {
-        'id': 'data/BR/PR/Rio Negro',
-        'key': 'Rio Negro',
-        'lang': 'pt'
-      },
-      'BR/PR/Rolândia': {
-        'id': 'data/BR/PR/Rolândia',
-        'key': 'Rolândia',
-        'lang': 'pt'
-      },
-      'BR/PR/Roncador': {
-        'id': 'data/BR/PR/Roncador',
-        'key': 'Roncador',
-        'lang': 'pt'
-      },
-      'BR/PR/Rondon': {
-        'id': 'data/BR/PR/Rondon',
-        'key': 'Rondon',
-        'lang': 'pt'
-      },
+      'BR/PR/Rio Negro': {'id': 'data/BR/PR/Rio Negro', 'key': 'Rio Negro', 'lang': 'pt'},
+      'BR/PR/Rolândia': {'id': 'data/BR/PR/Rolândia', 'key': 'Rolândia', 'lang': 'pt'},
+      'BR/PR/Roncador': {'id': 'data/BR/PR/Roncador', 'key': 'Roncador', 'lang': 'pt'},
+      'BR/PR/Rondon': {'id': 'data/BR/PR/Rondon', 'key': 'Rondon', 'lang': 'pt'},
       'BR/PR/Rosário do Ivaí': {
         'id': 'data/BR/PR/Rosário do Ivaí',
         'key': 'Rosário do Ivaí',
         'lang': 'pt'
       },
-      'BR/PR/Río Azul': {
-        'id': 'data/BR/PR/Río Azul',
-        'key': 'Río Azul',
-        'lang': 'pt'
-      },
-      'BR/PR/Sabaudia': {
-        'id': 'data/BR/PR/Sabaudia',
-        'key': 'Sabaudia',
-        'lang': 'pt'
-      },
+      'BR/PR/Río Azul': {'id': 'data/BR/PR/Río Azul', 'key': 'Río Azul', 'lang': 'pt'},
+      'BR/PR/Sabaudia': {'id': 'data/BR/PR/Sabaudia', 'key': 'Sabaudia', 'lang': 'pt'},
       'BR/PR/Salgado Filho': {
         'id': 'data/BR/PR/Salgado Filho',
         'key': 'Salgado Filho',
@@ -17730,11 +12344,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santa Cruz do Monte Castelo',
         'lang': 'pt'
       },
-      'BR/PR/Santa Fé': {
-        'id': 'data/BR/PR/Santa Fé',
-        'key': 'Santa Fé',
-        'lang': 'pt'
-      },
+      'BR/PR/Santa Fé': {'id': 'data/BR/PR/Santa Fé', 'key': 'Santa Fé', 'lang': 'pt'},
       'BR/PR/Santa Helena': {
         'id': 'data/BR/PR/Santa Helena',
         'key': 'Santa Helena',
@@ -17815,36 +12425,20 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santo Inácio',
         'lang': 'pt'
       },
-      'BR/PR/Sapopema': {
-        'id': 'data/BR/PR/Sapopema',
-        'key': 'Sapopema',
-        'lang': 'pt'
-      },
-      'BR/PR/Sarandí': {
-        'id': 'data/BR/PR/Sarandí',
-        'key': 'Sarandí',
-        'lang': 'pt'
-      },
+      'BR/PR/Sapopema': {'id': 'data/BR/PR/Sapopema', 'key': 'Sapopema', 'lang': 'pt'},
+      'BR/PR/Sarandí': {'id': 'data/BR/PR/Sarandí', 'key': 'Sarandí', 'lang': 'pt'},
       'BR/PR/Saudade do Iguaçu': {
         'id': 'data/BR/PR/Saudade do Iguaçu',
         'key': 'Saudade do Iguaçu',
         'lang': 'pt'
       },
-      'BR/PR/Sengés': {
-        'id': 'data/BR/PR/Sengés',
-        'key': 'Sengés',
-        'lang': 'pt'
-      },
+      'BR/PR/Sengés': {'id': 'data/BR/PR/Sengés', 'key': 'Sengés', 'lang': 'pt'},
       'BR/PR/Serranópolis do Iguaçu': {
         'id': 'data/BR/PR/Serranópolis do Iguaçu',
         'key': 'Serranópolis do Iguaçu',
         'lang': 'pt'
       },
-      'BR/PR/Sertaneja': {
-        'id': 'data/BR/PR/Sertaneja',
-        'key': 'Sertaneja',
-        'lang': 'pt'
-      },
+      'BR/PR/Sertaneja': {'id': 'data/BR/PR/Sertaneja', 'key': 'Sertaneja', 'lang': 'pt'},
       'BR/PR/Sertanópolis': {
         'id': 'data/BR/PR/Sertanópolis',
         'key': 'Sertanópolis',
@@ -17855,11 +12449,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Siqueira Campos',
         'lang': 'pt'
       },
-      'BR/PR/Sulina': {
-        'id': 'data/BR/PR/Sulina',
-        'key': 'Sulina',
-        'lang': 'pt'
-      },
+      'BR/PR/Sulina': {'id': 'data/BR/PR/Sulina', 'key': 'Sulina', 'lang': 'pt'},
       'BR/PR/São Carlos do Ivaí': {
         'id': 'data/BR/PR/São Carlos do Ivaí',
         'key': 'São Carlos do Ivaí',
@@ -17900,11 +12490,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São José dos Pinhais',
         'lang': 'pt'
       },
-      'BR/PR/São João': {
-        'id': 'data/BR/PR/São João',
-        'key': 'São João',
-        'lang': 'pt'
-      },
+      'BR/PR/São João': {'id': 'data/BR/PR/São João', 'key': 'São João', 'lang': 'pt'},
       'BR/PR/São João do Caiuá': {
         'id': 'data/BR/PR/São João do Caiuá',
         'key': 'São João do Caiuá',
@@ -17955,31 +12541,11 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Sebastião da Amoreira',
         'lang': 'pt'
       },
-      'BR/PR/São Tomé': {
-        'id': 'data/BR/PR/São Tomé',
-        'key': 'São Tomé',
-        'lang': 'pt'
-      },
-      'BR/PR/Tamarana': {
-        'id': 'data/BR/PR/Tamarana',
-        'key': 'Tamarana',
-        'lang': 'pt'
-      },
-      'BR/PR/Tamboara': {
-        'id': 'data/BR/PR/Tamboara',
-        'key': 'Tamboara',
-        'lang': 'pt'
-      },
-      'BR/PR/Tapejara': {
-        'id': 'data/BR/PR/Tapejara',
-        'key': 'Tapejara',
-        'lang': 'pt'
-      },
-      'BR/PR/Tapira': {
-        'id': 'data/BR/PR/Tapira',
-        'key': 'Tapira',
-        'lang': 'pt'
-      },
+      'BR/PR/São Tomé': {'id': 'data/BR/PR/São Tomé', 'key': 'São Tomé', 'lang': 'pt'},
+      'BR/PR/Tamarana': {'id': 'data/BR/PR/Tamarana', 'key': 'Tamarana', 'lang': 'pt'},
+      'BR/PR/Tamboara': {'id': 'data/BR/PR/Tamboara', 'key': 'Tamboara', 'lang': 'pt'},
+      'BR/PR/Tapejara': {'id': 'data/BR/PR/Tapejara', 'key': 'Tapejara', 'lang': 'pt'},
+      'BR/PR/Tapira': {'id': 'data/BR/PR/Tapira', 'key': 'Tapira', 'lang': 'pt'},
       'BR/PR/Teixeira Soares': {
         'id': 'data/BR/PR/Teixeira Soares',
         'key': 'Teixeira Soares',
@@ -17990,11 +12556,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Telêmaco Borba',
         'lang': 'pt'
       },
-      'BR/PR/Terra Boa': {
-        'id': 'data/BR/PR/Terra Boa',
-        'key': 'Terra Boa',
-        'lang': 'pt'
-      },
+      'BR/PR/Terra Boa': {'id': 'data/BR/PR/Terra Boa', 'key': 'Terra Boa', 'lang': 'pt'},
       'BR/PR/Terra Rica': {
         'id': 'data/BR/PR/Terra Rica',
         'key': 'Terra Rica',
@@ -18005,26 +12567,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Terra Roxa',
         'lang': 'pt'
       },
-      'BR/PR/Tibagi': {
-        'id': 'data/BR/PR/Tibagi',
-        'key': 'Tibagi',
-        'lang': 'pt'
-      },
+      'BR/PR/Tibagi': {'id': 'data/BR/PR/Tibagi', 'key': 'Tibagi', 'lang': 'pt'},
       'BR/PR/Tijucas do Sul': {
         'id': 'data/BR/PR/Tijucas do Sul',
         'key': 'Tijucas do Sul',
         'lang': 'pt'
       },
-      'BR/PR/Toledo': {
-        'id': 'data/BR/PR/Toledo',
-        'key': 'Toledo',
-        'lang': 'pt'
-      },
-      'BR/PR/Tomazina': {
-        'id': 'data/BR/PR/Tomazina',
-        'key': 'Tomazina',
-        'lang': 'pt'
-      },
+      'BR/PR/Toledo': {'id': 'data/BR/PR/Toledo', 'key': 'Toledo', 'lang': 'pt'},
+      'BR/PR/Tomazina': {'id': 'data/BR/PR/Tomazina', 'key': 'Tomazina', 'lang': 'pt'},
       'BR/PR/Três Barras do Paraná': {
         'id': 'data/BR/PR/Três Barras do Paraná',
         'key': 'Três Barras do Paraná',
@@ -18040,69 +12590,33 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Tuneiras do Oeste',
         'lang': 'pt'
       },
-      'BR/PR/Tupãssi': {
-        'id': 'data/BR/PR/Tupãssi',
-        'key': 'Tupãssi',
-        'lang': 'pt'
-      },
+      'BR/PR/Tupãssi': {'id': 'data/BR/PR/Tupãssi', 'key': 'Tupãssi', 'lang': 'pt'},
       'BR/PR/Turvo': {'id': 'data/BR/PR/Turvo', 'key': 'Turvo', 'lang': 'pt'},
-      'BR/PR/Ubiratã': {
-        'id': 'data/BR/PR/Ubiratã',
-        'key': 'Ubiratã',
-        'lang': 'pt'
-      },
-      'BR/PR/Umuarama': {
-        'id': 'data/BR/PR/Umuarama',
-        'key': 'Umuarama',
-        'lang': 'pt'
-      },
-      'BR/PR/Uniflor': {
-        'id': 'data/BR/PR/Uniflor',
-        'key': 'Uniflor',
-        'lang': 'pt'
-      },
+      'BR/PR/Ubiratã': {'id': 'data/BR/PR/Ubiratã', 'key': 'Ubiratã', 'lang': 'pt'},
+      'BR/PR/Umuarama': {'id': 'data/BR/PR/Umuarama', 'key': 'Umuarama', 'lang': 'pt'},
+      'BR/PR/Uniflor': {'id': 'data/BR/PR/Uniflor', 'key': 'Uniflor', 'lang': 'pt'},
       'BR/PR/União da Vitória': {
         'id': 'data/BR/PR/União da Vitória',
         'key': 'União da Vitória',
         'lang': 'pt'
       },
       'BR/PR/Uraí': {'id': 'data/BR/PR/Uraí', 'key': 'Uraí', 'lang': 'pt'},
-      'BR/PR/Ventania': {
-        'id': 'data/BR/PR/Ventania',
-        'key': 'Ventania',
-        'lang': 'pt'
-      },
+      'BR/PR/Ventania': {'id': 'data/BR/PR/Ventania', 'key': 'Ventania', 'lang': 'pt'},
       'BR/PR/Vera Cruz do Oeste': {
         'id': 'data/BR/PR/Vera Cruz do Oeste',
         'key': 'Vera Cruz do Oeste',
         'lang': 'pt'
       },
       'BR/PR/Verê': {'id': 'data/BR/PR/Verê', 'key': 'Verê', 'lang': 'pt'},
-      'BR/PR/Vila Alta': {
-        'id': 'data/BR/PR/Vila Alta',
-        'key': 'Vila Alta',
-        'lang': 'pt'
-      },
-      'BR/PR/Virmond': {
-        'id': 'data/BR/PR/Virmond',
-        'key': 'Virmond',
-        'lang': 'pt'
-      },
-      'BR/PR/Vitorino': {
-        'id': 'data/BR/PR/Vitorino',
-        'key': 'Vitorino',
-        'lang': 'pt'
-      },
+      'BR/PR/Vila Alta': {'id': 'data/BR/PR/Vila Alta', 'key': 'Vila Alta', 'lang': 'pt'},
+      'BR/PR/Virmond': {'id': 'data/BR/PR/Virmond', 'key': 'Virmond', 'lang': 'pt'},
+      'BR/PR/Vitorino': {'id': 'data/BR/PR/Vitorino', 'key': 'Vitorino', 'lang': 'pt'},
       'BR/PR/Wenceslau Braz': {
         'id': 'data/BR/PR/Wenceslau Braz',
         'key': 'Wenceslau Braz',
         'lang': 'pt'
       },
-      'BR/PR/Xambrê': {
-        'id': 'data/BR/PR/Xambrê',
-        'key': 'Xambrê',
-        'lang': 'pt'
-      },
+      'BR/PR/Xambrê': {'id': 'data/BR/PR/Xambrê', 'key': 'Xambrê', 'lang': 'pt'},
       'BR/RJ': {
         'id': 'data/BR/RJ',
         'isoid': 'RJ',
@@ -18119,16 +12633,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Angra dos Reis',
         'lang': 'pt'
       },
-      'BR/RJ/Aperibé': {
-        'id': 'data/BR/RJ/Aperibé',
-        'key': 'Aperibé',
-        'lang': 'pt'
-      },
-      'BR/RJ/Araruama': {
-        'id': 'data/BR/RJ/Araruama',
-        'key': 'Araruama',
-        'lang': 'pt'
-      },
+      'BR/RJ/Aperibé': {'id': 'data/BR/RJ/Aperibé', 'key': 'Aperibé', 'lang': 'pt'},
+      'BR/RJ/Araruama': {'id': 'data/BR/RJ/Araruama', 'key': 'Araruama', 'lang': 'pt'},
       'BR/RJ/Areal': {'id': 'data/BR/RJ/Areal', 'key': 'Areal', 'lang': 'pt'},
       'BR/RJ/Armação dos Búzios': {
         'id': 'data/BR/RJ/Armação dos Búzios',
@@ -18140,11 +12646,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Arraial do Cabo',
         'lang': 'pt'
       },
-      'BR/RJ/Bacaxá': {
-        'id': 'data/BR/RJ/Bacaxá',
-        'key': 'Bacaxá',
-        'lang': 'pt'
-      },
+      'BR/RJ/Bacaxá': {'id': 'data/BR/RJ/Bacaxá', 'key': 'Bacaxá', 'lang': 'pt'},
       'BR/RJ/Barra Mansa': {
         'id': 'data/BR/RJ/Barra Mansa',
         'key': 'Barra Mansa',
@@ -18170,36 +12672,20 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bom Jesus do Itabapoana',
         'lang': 'pt'
       },
-      'BR/RJ/Cabo Frio': {
-        'id': 'data/BR/RJ/Cabo Frio',
-        'key': 'Cabo Frio',
-        'lang': 'pt'
-      },
+      'BR/RJ/Cabo Frio': {'id': 'data/BR/RJ/Cabo Frio', 'key': 'Cabo Frio', 'lang': 'pt'},
       'BR/RJ/Cachoeiras de Macacu': {
         'id': 'data/BR/RJ/Cachoeiras de Macacu',
         'key': 'Cachoeiras de Macacu',
         'lang': 'pt'
       },
-      'BR/RJ/Cambuci': {
-        'id': 'data/BR/RJ/Cambuci',
-        'key': 'Cambuci',
-        'lang': 'pt'
-      },
+      'BR/RJ/Cambuci': {'id': 'data/BR/RJ/Cambuci', 'key': 'Cambuci', 'lang': 'pt'},
       'BR/RJ/Campos dos Goytacazes': {
         'id': 'data/BR/RJ/Campos dos Goytacazes',
         'key': 'Campos dos Goytacazes',
         'lang': 'pt'
       },
-      'BR/RJ/Cantagalo': {
-        'id': 'data/BR/RJ/Cantagalo',
-        'key': 'Cantagalo',
-        'lang': 'pt'
-      },
-      'BR/RJ/Carapebus': {
-        'id': 'data/BR/RJ/Carapebus',
-        'key': 'Carapebus',
-        'lang': 'pt'
-      },
+      'BR/RJ/Cantagalo': {'id': 'data/BR/RJ/Cantagalo', 'key': 'Cantagalo', 'lang': 'pt'},
+      'BR/RJ/Carapebus': {'id': 'data/BR/RJ/Carapebus', 'key': 'Carapebus', 'lang': 'pt'},
       'BR/RJ/Cardoso Moreira': {
         'id': 'data/BR/RJ/Cardoso Moreira',
         'key': 'Cardoso Moreira',
@@ -18221,11 +12707,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Conceição de Macabu',
         'lang': 'pt'
       },
-      'BR/RJ/Cordeiro': {
-        'id': 'data/BR/RJ/Cordeiro',
-        'key': 'Cordeiro',
-        'lang': 'pt'
-      },
+      'BR/RJ/Cordeiro': {'id': 'data/BR/RJ/Cordeiro', 'key': 'Cordeiro', 'lang': 'pt'},
       'BR/RJ/Duas Barras': {
         'id': 'data/BR/RJ/Duas Barras',
         'key': 'Duas Barras',
@@ -18251,98 +12733,42 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Iguaba Grande',
         'lang': 'pt'
       },
-      'BR/RJ/Itaboraí': {
-        'id': 'data/BR/RJ/Itaboraí',
-        'key': 'Itaboraí',
-        'lang': 'pt'
-      },
-      'BR/RJ/Itaguaí': {
-        'id': 'data/BR/RJ/Itaguaí',
-        'key': 'Itaguaí',
-        'lang': 'pt'
-      },
-      'BR/RJ/Italva': {
-        'id': 'data/BR/RJ/Italva',
-        'key': 'Italva',
-        'lang': 'pt'
-      },
-      'BR/RJ/Itaocara': {
-        'id': 'data/BR/RJ/Itaocara',
-        'key': 'Itaocara',
-        'lang': 'pt'
-      },
-      'BR/RJ/Itaperuna': {
-        'id': 'data/BR/RJ/Itaperuna',
-        'key': 'Itaperuna',
-        'lang': 'pt'
-      },
-      'BR/RJ/Itatiaia': {
-        'id': 'data/BR/RJ/Itatiaia',
-        'key': 'Itatiaia',
-        'lang': 'pt'
-      },
-      'BR/RJ/Japeri': {
-        'id': 'data/BR/RJ/Japeri',
-        'key': 'Japeri',
-        'lang': 'pt'
-      },
+      'BR/RJ/Itaboraí': {'id': 'data/BR/RJ/Itaboraí', 'key': 'Itaboraí', 'lang': 'pt'},
+      'BR/RJ/Itaguaí': {'id': 'data/BR/RJ/Itaguaí', 'key': 'Itaguaí', 'lang': 'pt'},
+      'BR/RJ/Italva': {'id': 'data/BR/RJ/Italva', 'key': 'Italva', 'lang': 'pt'},
+      'BR/RJ/Itaocara': {'id': 'data/BR/RJ/Itaocara', 'key': 'Itaocara', 'lang': 'pt'},
+      'BR/RJ/Itaperuna': {'id': 'data/BR/RJ/Itaperuna', 'key': 'Itaperuna', 'lang': 'pt'},
+      'BR/RJ/Itatiaia': {'id': 'data/BR/RJ/Itatiaia', 'key': 'Itatiaia', 'lang': 'pt'},
+      'BR/RJ/Japeri': {'id': 'data/BR/RJ/Japeri', 'key': 'Japeri', 'lang': 'pt'},
       'BR/RJ/Laje do Muriaé': {
         'id': 'data/BR/RJ/Laje do Muriaé',
         'key': 'Laje do Muriaé',
         'lang': 'pt'
       },
       'BR/RJ/Macaé': {'id': 'data/BR/RJ/Macaé', 'key': 'Macaé', 'lang': 'pt'},
-      'BR/RJ/Macuco': {
-        'id': 'data/BR/RJ/Macuco',
-        'key': 'Macuco',
-        'lang': 'pt'
-      },
+      'BR/RJ/Macuco': {'id': 'data/BR/RJ/Macuco', 'key': 'Macuco', 'lang': 'pt'},
       'BR/RJ/Magé': {'id': 'data/BR/RJ/Magé', 'key': 'Magé', 'lang': 'pt'},
       'BR/RJ/Mangaratiba': {
         'id': 'data/BR/RJ/Mangaratiba',
         'key': 'Mangaratiba',
         'lang': 'pt'
       },
-      'BR/RJ/Maricá': {
-        'id': 'data/BR/RJ/Maricá',
-        'key': 'Maricá',
-        'lang': 'pt'
-      },
-      'BR/RJ/Mendes': {
-        'id': 'data/BR/RJ/Mendes',
-        'key': 'Mendes',
-        'lang': 'pt'
-      },
-      'BR/RJ/Mesquita': {
-        'id': 'data/BR/RJ/Mesquita',
-        'key': 'Mesquita',
-        'lang': 'pt'
-      },
+      'BR/RJ/Maricá': {'id': 'data/BR/RJ/Maricá', 'key': 'Maricá', 'lang': 'pt'},
+      'BR/RJ/Mendes': {'id': 'data/BR/RJ/Mendes', 'key': 'Mendes', 'lang': 'pt'},
+      'BR/RJ/Mesquita': {'id': 'data/BR/RJ/Mesquita', 'key': 'Mesquita', 'lang': 'pt'},
       'BR/RJ/Miguel Pereira': {
         'id': 'data/BR/RJ/Miguel Pereira',
         'key': 'Miguel Pereira',
         'lang': 'pt'
       },
-      'BR/RJ/Miracema': {
-        'id': 'data/BR/RJ/Miracema',
-        'key': 'Miracema',
-        'lang': 'pt'
-      },
+      'BR/RJ/Miracema': {'id': 'data/BR/RJ/Miracema', 'key': 'Miracema', 'lang': 'pt'},
       'BR/RJ/Natividade': {
         'id': 'data/BR/RJ/Natividade',
         'key': 'Natividade',
         'lang': 'pt'
       },
-      'BR/RJ/Nilópolis': {
-        'id': 'data/BR/RJ/Nilópolis',
-        'key': 'Nilópolis',
-        'lang': 'pt'
-      },
-      'BR/RJ/Niterói': {
-        'id': 'data/BR/RJ/Niterói',
-        'key': 'Niterói',
-        'lang': 'pt'
-      },
+      'BR/RJ/Nilópolis': {'id': 'data/BR/RJ/Nilópolis', 'key': 'Nilópolis', 'lang': 'pt'},
+      'BR/RJ/Niterói': {'id': 'data/BR/RJ/Niterói', 'key': 'Niterói', 'lang': 'pt'},
       'BR/RJ/Nova Friburgo': {
         'id': 'data/BR/RJ/Nova Friburgo',
         'key': 'Nova Friburgo',
@@ -18353,16 +12779,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Nova Iguaçu',
         'lang': 'pt'
       },
-      'BR/RJ/Paracambi': {
-        'id': 'data/BR/RJ/Paracambi',
-        'key': 'Paracambi',
-        'lang': 'pt'
-      },
-      'BR/RJ/Paraty': {
-        'id': 'data/BR/RJ/Paraty',
-        'key': 'Paraty',
-        'lang': 'pt'
-      },
+      'BR/RJ/Paracambi': {'id': 'data/BR/RJ/Paracambi', 'key': 'Paracambi', 'lang': 'pt'},
+      'BR/RJ/Paraty': {'id': 'data/BR/RJ/Paraty', 'key': 'Paraty', 'lang': 'pt'},
       'BR/RJ/Paraíba do Sul': {
         'id': 'data/BR/RJ/Paraíba do Sul',
         'key': 'Paraíba do Sul',
@@ -18378,11 +12796,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Petrópolis',
         'lang': 'pt'
       },
-      'BR/RJ/Pinheiral': {
-        'id': 'data/BR/RJ/Pinheiral',
-        'key': 'Pinheiral',
-        'lang': 'pt'
-      },
+      'BR/RJ/Pinheiral': {'id': 'data/BR/RJ/Pinheiral', 'key': 'Pinheiral', 'lang': 'pt'},
       'BR/RJ/Piraí': {'id': 'data/BR/RJ/Piraí', 'key': 'Piraí', 'lang': 'pt'},
       'BR/RJ/Porciúncula': {
         'id': 'data/BR/RJ/Porciúncula',
@@ -18394,36 +12808,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Porto Real',
         'lang': 'pt'
       },
-      'BR/RJ/Quatis': {
-        'id': 'data/BR/RJ/Quatis',
-        'key': 'Quatis',
-        'lang': 'pt'
-      },
-      'BR/RJ/Queimados': {
-        'id': 'data/BR/RJ/Queimados',
-        'key': 'Queimados',
-        'lang': 'pt'
-      },
-      'BR/RJ/Quissamã': {
-        'id': 'data/BR/RJ/Quissamã',
-        'key': 'Quissamã',
-        'lang': 'pt'
-      },
-      'BR/RJ/Resende': {
-        'id': 'data/BR/RJ/Resende',
-        'key': 'Resende',
-        'lang': 'pt'
-      },
+      'BR/RJ/Quatis': {'id': 'data/BR/RJ/Quatis', 'key': 'Quatis', 'lang': 'pt'},
+      'BR/RJ/Queimados': {'id': 'data/BR/RJ/Queimados', 'key': 'Queimados', 'lang': 'pt'},
+      'BR/RJ/Quissamã': {'id': 'data/BR/RJ/Quissamã', 'key': 'Quissamã', 'lang': 'pt'},
+      'BR/RJ/Resende': {'id': 'data/BR/RJ/Resende', 'key': 'Resende', 'lang': 'pt'},
       'BR/RJ/Rio Bonito': {
         'id': 'data/BR/RJ/Rio Bonito',
         'key': 'Rio Bonito',
         'lang': 'pt'
       },
-      'BR/RJ/Rio Claro': {
-        'id': 'data/BR/RJ/Rio Claro',
-        'key': 'Rio Claro',
-        'lang': 'pt'
-      },
+      'BR/RJ/Rio Claro': {'id': 'data/BR/RJ/Rio Claro', 'key': 'Rio Claro', 'lang': 'pt'},
       'BR/RJ/Rio das Flores': {
         'id': 'data/BR/RJ/Rio das Flores',
         'key': 'Rio das Flores',
@@ -18449,16 +12843,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santo Antônio de Pádua',
         'lang': 'pt'
       },
-      'BR/RJ/Sapucaia': {
-        'id': 'data/BR/RJ/Sapucaia',
-        'key': 'Sapucaia',
-        'lang': 'pt'
-      },
-      'BR/RJ/Saquarema': {
-        'id': 'data/BR/RJ/Saquarema',
-        'key': 'Saquarema',
-        'lang': 'pt'
-      },
+      'BR/RJ/Sapucaia': {'id': 'data/BR/RJ/Sapucaia', 'key': 'Sapucaia', 'lang': 'pt'},
+      'BR/RJ/Saquarema': {'id': 'data/BR/RJ/Saquarema', 'key': 'Saquarema', 'lang': 'pt'},
       'BR/RJ/Seropédica': {
         'id': 'data/BR/RJ/Seropédica',
         'key': 'Seropédica',
@@ -18469,11 +12855,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Silva Jardim',
         'lang': 'pt'
       },
-      'BR/RJ/Sumidouro': {
-        'id': 'data/BR/RJ/Sumidouro',
-        'key': 'Sumidouro',
-        'lang': 'pt'
-      },
+      'BR/RJ/Sumidouro': {'id': 'data/BR/RJ/Sumidouro', 'key': 'Sumidouro', 'lang': 'pt'},
       'BR/RJ/São Fidélis': {
         'id': 'data/BR/RJ/São Fidélis',
         'key': 'São Fidélis',
@@ -18519,11 +12901,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Sebastião do Alto',
         'lang': 'pt'
       },
-      'BR/RJ/Tanguá': {
-        'id': 'data/BR/RJ/Tanguá',
-        'key': 'Tanguá',
-        'lang': 'pt'
-      },
+      'BR/RJ/Tanguá': {'id': 'data/BR/RJ/Tanguá', 'key': 'Tanguá', 'lang': 'pt'},
       'BR/RJ/Teresópolis': {
         'id': 'data/BR/RJ/Teresópolis',
         'key': 'Teresópolis',
@@ -18534,26 +12912,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Trajano de Morais',
         'lang': 'pt'
       },
-      'BR/RJ/Três Rios': {
-        'id': 'data/BR/RJ/Três Rios',
-        'key': 'Três Rios',
-        'lang': 'pt'
-      },
-      'BR/RJ/Valença': {
-        'id': 'data/BR/RJ/Valença',
-        'key': 'Valença',
-        'lang': 'pt'
-      },
-      'BR/RJ/Varre-Sai': {
-        'id': 'data/BR/RJ/Varre-Sai',
-        'key': 'Varre-Sai',
-        'lang': 'pt'
-      },
-      'BR/RJ/Vassouras': {
-        'id': 'data/BR/RJ/Vassouras',
-        'key': 'Vassouras',
-        'lang': 'pt'
-      },
+      'BR/RJ/Três Rios': {'id': 'data/BR/RJ/Três Rios', 'key': 'Três Rios', 'lang': 'pt'},
+      'BR/RJ/Valença': {'id': 'data/BR/RJ/Valença', 'key': 'Valença', 'lang': 'pt'},
+      'BR/RJ/Varre-Sai': {'id': 'data/BR/RJ/Varre-Sai', 'key': 'Varre-Sai', 'lang': 'pt'},
+      'BR/RJ/Vassouras': {'id': 'data/BR/RJ/Vassouras', 'key': 'Vassouras', 'lang': 'pt'},
       'BR/RJ/Volta Redonda': {
         'id': 'data/BR/RJ/Volta Redonda',
         'key': 'Volta Redonda',
@@ -18591,11 +12953,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alto do Rodrigues',
         'lang': 'pt'
       },
-      'BR/RN/Angicos': {
-        'id': 'data/BR/RN/Angicos',
-        'key': 'Angicos',
-        'lang': 'pt'
-      },
+      'BR/RN/Angicos': {'id': 'data/BR/RN/Angicos', 'key': 'Angicos', 'lang': 'pt'},
       'BR/RN/Antônio Martins': {
         'id': 'data/BR/RN/Antônio Martins',
         'key': 'Antônio Martins',
@@ -18614,16 +12972,8 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/RN/Açu': {'id': 'data/BR/RN/Açu', 'key': 'Açu', 'lang': 'pt'},
-      'BR/RN/Baraúna': {
-        'id': 'data/BR/RN/Baraúna',
-        'key': 'Baraúna',
-        'lang': 'pt'
-      },
-      'BR/RN/Barcelona': {
-        'id': 'data/BR/RN/Barcelona',
-        'key': 'Barcelona',
-        'lang': 'pt'
-      },
+      'BR/RN/Baraúna': {'id': 'data/BR/RN/Baraúna', 'key': 'Baraúna', 'lang': 'pt'},
+      'BR/RN/Barcelona': {'id': 'data/BR/RN/Barcelona', 'key': 'Barcelona', 'lang': 'pt'},
       'BR/RN/Baía Formosa': {
         'id': 'data/BR/RN/Baía Formosa',
         'key': 'Baía Formosa',
@@ -18635,16 +12985,8 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/RN/Bodó': {'id': 'data/BR/RN/Bodó', 'key': 'Bodó', 'lang': 'pt'},
-      'BR/RN/Bom Jesus': {
-        'id': 'data/BR/RN/Bom Jesus',
-        'key': 'Bom Jesus',
-        'lang': 'pt'
-      },
-      'BR/RN/Brejinho': {
-        'id': 'data/BR/RN/Brejinho',
-        'key': 'Brejinho',
-        'lang': 'pt'
-      },
+      'BR/RN/Bom Jesus': {'id': 'data/BR/RN/Bom Jesus', 'key': 'Bom Jesus', 'lang': 'pt'},
+      'BR/RN/Brejinho': {'id': 'data/BR/RN/Brejinho', 'key': 'Brejinho', 'lang': 'pt'},
       'BR/RN/Caicó': {'id': 'data/BR/RN/Caicó', 'key': 'Caicó', 'lang': 'pt'},
       'BR/RN/Caiçara do Norte': {
         'id': 'data/BR/RN/Caiçara do Norte',
@@ -18666,11 +13008,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Canguaretama',
         'lang': 'pt'
       },
-      'BR/RN/Caraúbas': {
-        'id': 'data/BR/RN/Caraúbas',
-        'key': 'Caraúbas',
-        'lang': 'pt'
-      },
+      'BR/RN/Caraúbas': {'id': 'data/BR/RN/Caraúbas', 'key': 'Caraúbas', 'lang': 'pt'},
       'BR/RN/Carnaubais': {
         'id': 'data/BR/RN/Carnaubais',
         'key': 'Carnaubais',
@@ -18701,11 +13039,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Coronel João Pessoa',
         'lang': 'pt'
       },
-      'BR/RN/Cruzeta': {
-        'id': 'data/BR/RN/Cruzeta',
-        'key': 'Cruzeta',
-        'lang': 'pt'
-      },
+      'BR/RN/Cruzeta': {'id': 'data/BR/RN/Cruzeta', 'key': 'Cruzeta', 'lang': 'pt'},
       'BR/RN/Currais Novos': {
         'id': 'data/BR/RN/Currais Novos',
         'key': 'Currais Novos',
@@ -18716,21 +13050,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Doutor Severiano',
         'lang': 'pt'
       },
-      'BR/RN/Encanto': {
-        'id': 'data/BR/RN/Encanto',
-        'key': 'Encanto',
-        'lang': 'pt'
-      },
-      'BR/RN/Equador': {
-        'id': 'data/BR/RN/Equador',
-        'key': 'Equador',
-        'lang': 'pt'
-      },
-      'BR/RN/Extremoz': {
-        'id': 'data/BR/RN/Extremoz',
-        'key': 'Extremoz',
-        'lang': 'pt'
-      },
+      'BR/RN/Encanto': {'id': 'data/BR/RN/Encanto', 'key': 'Encanto', 'lang': 'pt'},
+      'BR/RN/Equador': {'id': 'data/BR/RN/Equador', 'key': 'Equador', 'lang': 'pt'},
+      'BR/RN/Extremoz': {'id': 'data/BR/RN/Extremoz', 'key': 'Extremoz', 'lang': 'pt'},
       'BR/RN/Felipe Guerra': {
         'id': 'data/BR/RN/Felipe Guerra',
         'key': 'Felipe Guerra',
@@ -18741,11 +13063,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Fernando Pedroza',
         'lang': 'pt'
       },
-      'BR/RN/Florânia': {
-        'id': 'data/BR/RN/Florânia',
-        'key': 'Florânia',
-        'lang': 'pt'
-      },
+      'BR/RN/Florânia': {'id': 'data/BR/RN/Florânia', 'key': 'Florânia', 'lang': 'pt'},
       'BR/RN/Francisco Dantas': {
         'id': 'data/BR/RN/Francisco Dantas',
         'key': 'Francisco Dantas',
@@ -18756,58 +13074,26 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Frutuoso Gomes',
         'lang': 'pt'
       },
-      'BR/RN/Galinhos': {
-        'id': 'data/BR/RN/Galinhos',
-        'key': 'Galinhos',
-        'lang': 'pt'
-      },
-      'BR/RN/Goianinha': {
-        'id': 'data/BR/RN/Goianinha',
-        'key': 'Goianinha',
-        'lang': 'pt'
-      },
+      'BR/RN/Galinhos': {'id': 'data/BR/RN/Galinhos', 'key': 'Galinhos', 'lang': 'pt'},
+      'BR/RN/Goianinha': {'id': 'data/BR/RN/Goianinha', 'key': 'Goianinha', 'lang': 'pt'},
       'BR/RN/Governador Dix-Sept Rosado': {
         'id': 'data/BR/RN/Governador Dix-Sept Rosado',
         'key': 'Governador Dix-Sept Rosado',
         'lang': 'pt'
       },
-      'BR/RN/Grossos': {
-        'id': 'data/BR/RN/Grossos',
-        'key': 'Grossos',
-        'lang': 'pt'
-      },
-      'BR/RN/Guamare': {
-        'id': 'data/BR/RN/Guamare',
-        'key': 'Guamare',
-        'lang': 'pt'
-      },
+      'BR/RN/Grossos': {'id': 'data/BR/RN/Grossos', 'key': 'Grossos', 'lang': 'pt'},
+      'BR/RN/Guamare': {'id': 'data/BR/RN/Guamare', 'key': 'Guamare', 'lang': 'pt'},
       'BR/RN/Ielmo Marinho': {
         'id': 'data/BR/RN/Ielmo Marinho',
         'key': 'Ielmo Marinho',
         'lang': 'pt'
       },
-      'BR/RN/Ipanguaçu': {
-        'id': 'data/BR/RN/Ipanguaçu',
-        'key': 'Ipanguaçu',
-        'lang': 'pt'
-      },
-      'BR/RN/Ipueira': {
-        'id': 'data/BR/RN/Ipueira',
-        'key': 'Ipueira',
-        'lang': 'pt'
-      },
+      'BR/RN/Ipanguaçu': {'id': 'data/BR/RN/Ipanguaçu', 'key': 'Ipanguaçu', 'lang': 'pt'},
+      'BR/RN/Ipueira': {'id': 'data/BR/RN/Ipueira', 'key': 'Ipueira', 'lang': 'pt'},
       'BR/RN/Itajá': {'id': 'data/BR/RN/Itajá', 'key': 'Itajá', 'lang': 'pt'},
       'BR/RN/Itaú': {'id': 'data/BR/RN/Itaú', 'key': 'Itaú', 'lang': 'pt'},
-      'BR/RN/Jandaíra': {
-        'id': 'data/BR/RN/Jandaíra',
-        'key': 'Jandaíra',
-        'lang': 'pt'
-      },
-      'BR/RN/Janduís': {
-        'id': 'data/BR/RN/Janduís',
-        'key': 'Janduís',
-        'lang': 'pt'
-      },
+      'BR/RN/Jandaíra': {'id': 'data/BR/RN/Jandaíra', 'key': 'Jandaíra', 'lang': 'pt'},
+      'BR/RN/Janduís': {'id': 'data/BR/RN/Janduís', 'key': 'Janduís', 'lang': 'pt'},
       'BR/RN/Januario Cicco': {
         'id': 'data/BR/RN/Januario Cicco',
         'key': 'Januario Cicco',
@@ -18829,11 +13115,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Jardim do Seridó',
         'lang': 'pt'
       },
-      'BR/RN/Jaçanã': {
-        'id': 'data/BR/RN/Jaçanã',
-        'key': 'Jaçanã',
-        'lang': 'pt'
-      },
+      'BR/RN/Jaçanã': {'id': 'data/BR/RN/Jaçanã', 'key': 'Jaçanã', 'lang': 'pt'},
       'BR/RN/José da Penha': {
         'id': 'data/BR/RN/José da Penha',
         'key': 'José da Penha',
@@ -18844,21 +13126,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'João Câmara',
         'lang': 'pt'
       },
-      'BR/RN/João Dias': {
-        'id': 'data/BR/RN/João Dias',
-        'key': 'João Dias',
-        'lang': 'pt'
-      },
-      'BR/RN/Jucurutu': {
-        'id': 'data/BR/RN/Jucurutu',
-        'key': 'Jucurutu',
-        'lang': 'pt'
-      },
-      'BR/RN/Jundiá': {
-        'id': 'data/BR/RN/Jundiá',
-        'key': 'Jundiá',
-        'lang': 'pt'
-      },
+      'BR/RN/João Dias': {'id': 'data/BR/RN/João Dias', 'key': 'João Dias', 'lang': 'pt'},
+      'BR/RN/Jucurutu': {'id': 'data/BR/RN/Jucurutu', 'key': 'Jucurutu', 'lang': 'pt'},
+      'BR/RN/Jundiá': {'id': 'data/BR/RN/Jundiá', 'key': 'Jundiá', 'lang': 'pt'},
       'BR/RN/Lagoa Nova': {
         'id': 'data/BR/RN/Lagoa Nova',
         'key': 'Lagoa Nova',
@@ -18890,22 +13160,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Lajes Pintadas',
         'lang': 'pt'
       },
-      'BR/RN/Lucrecia': {
-        'id': 'data/BR/RN/Lucrecia',
-        'key': 'Lucrecia',
-        'lang': 'pt'
-      },
+      'BR/RN/Lucrecia': {'id': 'data/BR/RN/Lucrecia', 'key': 'Lucrecia', 'lang': 'pt'},
       'BR/RN/Luís Gomes': {
         'id': 'data/BR/RN/Luís Gomes',
         'key': 'Luís Gomes',
         'lang': 'pt'
       },
       'BR/RN/Macau': {'id': 'data/BR/RN/Macau', 'key': 'Macau', 'lang': 'pt'},
-      'BR/RN/Macaíba': {
-        'id': 'data/BR/RN/Macaíba',
-        'key': 'Macaíba',
-        'lang': 'pt'
-      },
+      'BR/RN/Macaíba': {'id': 'data/BR/RN/Macaíba', 'key': 'Macaíba', 'lang': 'pt'},
       'BR/RN/Major Sales': {
         'id': 'data/BR/RN/Major Sales',
         'key': 'Major Sales',
@@ -18916,11 +13178,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Marcelino Vieira',
         'lang': 'pt'
       },
-      'BR/RN/Martins': {
-        'id': 'data/BR/RN/Martins',
-        'key': 'Martins',
-        'lang': 'pt'
-      },
+      'BR/RN/Martins': {'id': 'data/BR/RN/Martins', 'key': 'Martins', 'lang': 'pt'},
       'BR/RN/Maxaranguape': {
         'id': 'data/BR/RN/Maxaranguape',
         'key': 'Maxaranguape',
@@ -18931,11 +13189,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Messias Targino',
         'lang': 'pt'
       },
-      'BR/RN/Montanhas': {
-        'id': 'data/BR/RN/Montanhas',
-        'key': 'Montanhas',
-        'lang': 'pt'
-      },
+      'BR/RN/Montanhas': {'id': 'data/BR/RN/Montanhas', 'key': 'Montanhas', 'lang': 'pt'},
       'BR/RN/Monte Alegre': {
         'id': 'data/BR/RN/Monte Alegre',
         'key': 'Monte Alegre',
@@ -18946,17 +13200,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Monte das Gameleiras',
         'lang': 'pt'
       },
-      'BR/RN/Mossoró': {
-        'id': 'data/BR/RN/Mossoró',
-        'key': 'Mossoró',
-        'lang': 'pt'
-      },
+      'BR/RN/Mossoró': {'id': 'data/BR/RN/Mossoró', 'key': 'Mossoró', 'lang': 'pt'},
       'BR/RN/Natal': {'id': 'data/BR/RN/Natal', 'key': 'Natal', 'lang': 'pt'},
-      'BR/RN/Nova Cruz': {
-        'id': 'data/BR/RN/Nova Cruz',
-        'key': 'Nova Cruz',
-        'lang': 'pt'
-      },
+      'BR/RN/Nova Cruz': {'id': 'data/BR/RN/Nova Cruz', 'key': 'Nova Cruz', 'lang': 'pt'},
       'BR/RN/Nísia Floresta': {
         'id': 'data/BR/RN/Nísia Floresta',
         'key': 'Nísia Floresta',
@@ -18972,21 +13218,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ouro Branco',
         'lang': 'pt'
       },
-      'BR/RN/Paraná': {
-        'id': 'data/BR/RN/Paraná',
-        'key': 'Paraná',
-        'lang': 'pt'
-      },
-      'BR/RN/Parazinho': {
-        'id': 'data/BR/RN/Parazinho',
-        'key': 'Parazinho',
-        'lang': 'pt'
-      },
-      'BR/RN/Parelhas': {
-        'id': 'data/BR/RN/Parelhas',
-        'key': 'Parelhas',
-        'lang': 'pt'
-      },
+      'BR/RN/Paraná': {'id': 'data/BR/RN/Paraná', 'key': 'Paraná', 'lang': 'pt'},
+      'BR/RN/Parazinho': {'id': 'data/BR/RN/Parazinho', 'key': 'Parazinho', 'lang': 'pt'},
+      'BR/RN/Parelhas': {'id': 'data/BR/RN/Parelhas', 'key': 'Parelhas', 'lang': 'pt'},
       'BR/RN/Parnamirim': {
         'id': 'data/BR/RN/Parnamirim',
         'key': 'Parnamirim',
@@ -18997,11 +13231,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Passa e Fica',
         'lang': 'pt'
       },
-      'BR/RN/Passagem': {
-        'id': 'data/BR/RN/Passagem',
-        'key': 'Passagem',
-        'lang': 'pt'
-      },
+      'BR/RN/Passagem': {'id': 'data/BR/RN/Passagem', 'key': 'Passagem', 'lang': 'pt'},
       'BR/RN/Patu': {'id': 'data/BR/RN/Patu', 'key': 'Patu', 'lang': 'pt'},
       'BR/RN/Pau dos Ferros': {
         'id': 'data/BR/RN/Pau dos Ferros',
@@ -19033,11 +13263,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pendências',
         'lang': 'pt'
       },
-      'BR/RN/Pilões': {
-        'id': 'data/BR/RN/Pilões',
-        'key': 'Pilões',
-        'lang': 'pt'
-      },
+      'BR/RN/Pilões': {'id': 'data/BR/RN/Pilões', 'key': 'Pilões', 'lang': 'pt'},
       'BR/RN/Portalegre': {
         'id': 'data/BR/RN/Portalegre',
         'key': 'Portalegre',
@@ -19058,11 +13284,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Presidente Juscelino',
         'lang': 'pt'
       },
-      'BR/RN/Pureza': {
-        'id': 'data/BR/RN/Pureza',
-        'key': 'Pureza',
-        'lang': 'pt'
-      },
+      'BR/RN/Pureza': {'id': 'data/BR/RN/Pureza', 'key': 'Pureza', 'lang': 'pt'},
       'BR/RN/Părău': {'id': 'data/BR/RN/Părău', 'key': 'Părău', 'lang': 'pt'},
       'BR/RN/Rafael Fernandes': {
         'id': 'data/BR/RN/Rafael Fernandes',
@@ -19084,11 +13306,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Riacho de Santana',
         'lang': 'pt'
       },
-      'BR/RN/Riachuelo': {
-        'id': 'data/BR/RN/Riachuelo',
-        'key': 'Riachuelo',
-        'lang': 'pt'
-      },
+      'BR/RN/Riachuelo': {'id': 'data/BR/RN/Riachuelo', 'key': 'Riachuelo', 'lang': 'pt'},
       'BR/RN/Rio do Fogo': {
         'id': 'data/BR/RN/Rio do Fogo',
         'key': 'Rio do Fogo',
@@ -19154,11 +13372,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Serra do Mel',
         'lang': 'pt'
       },
-      'BR/RN/Serrinha': {
-        'id': 'data/BR/RN/Serrinha',
-        'key': 'Serrinha',
-        'lang': 'pt'
-      },
+      'BR/RN/Serrinha': {'id': 'data/BR/RN/Serrinha', 'key': 'Serrinha', 'lang': 'pt'},
       'BR/RN/Serrinha dos Pintos': {
         'id': 'data/BR/RN/Serrinha dos Pintos',
         'key': 'Serrinha dos Pintos',
@@ -19229,21 +13443,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Paulo do Potengi',
         'lang': 'pt'
       },
-      'BR/RN/São Pedro': {
-        'id': 'data/BR/RN/São Pedro',
-        'key': 'São Pedro',
-        'lang': 'pt'
-      },
+      'BR/RN/São Pedro': {'id': 'data/BR/RN/São Pedro', 'key': 'São Pedro', 'lang': 'pt'},
       'BR/RN/São Rafael': {
         'id': 'data/BR/RN/São Rafael',
         'key': 'São Rafael',
         'lang': 'pt'
       },
-      'BR/RN/São Tomé': {
-        'id': 'data/BR/RN/São Tomé',
-        'key': 'São Tomé',
-        'lang': 'pt'
-      },
+      'BR/RN/São Tomé': {'id': 'data/BR/RN/São Tomé', 'key': 'São Tomé', 'lang': 'pt'},
       'BR/RN/São Vicente': {
         'id': 'data/BR/RN/São Vicente',
         'key': 'São Vicente',
@@ -19260,11 +13466,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/RN/Taipu': {'id': 'data/BR/RN/Taipu', 'key': 'Taipu', 'lang': 'pt'},
-      'BR/RN/Tangara': {
-        'id': 'data/BR/RN/Tangara',
-        'key': 'Tangara',
-        'lang': 'pt'
-      },
+      'BR/RN/Tangara': {'id': 'data/BR/RN/Tangara', 'key': 'Tangara', 'lang': 'pt'},
       'BR/RN/Tenente Ananias': {
         'id': 'data/BR/RN/Tenente Ananias',
         'key': 'Tenente Ananias',
@@ -19286,56 +13488,20 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Timbaúba dos Batistas',
         'lang': 'pt'
       },
-      'BR/RN/Touros': {
-        'id': 'data/BR/RN/Touros',
-        'key': 'Touros',
-        'lang': 'pt'
-      },
+      'BR/RN/Touros': {'id': 'data/BR/RN/Touros', 'key': 'Touros', 'lang': 'pt'},
       'BR/RN/Triunfo Potiguar': {
         'id': 'data/BR/RN/Triunfo Potiguar',
         'key': 'Triunfo Potiguar',
         'lang': 'pt'
       },
-      'BR/RN/Umarizal': {
-        'id': 'data/BR/RN/Umarizal',
-        'key': 'Umarizal',
-        'lang': 'pt'
-      },
-      'BR/RN/Upanema': {
-        'id': 'data/BR/RN/Upanema',
-        'key': 'Upanema',
-        'lang': 'pt'
-      },
-      'BR/RN/Venha-Ver': {
-        'id': 'data/BR/RN/Venha-Ver',
-        'key': 'Venha-Ver',
-        'lang': 'pt'
-      },
-      'BR/RN/Vera Cruz': {
-        'id': 'data/BR/RN/Vera Cruz',
-        'key': 'Vera Cruz',
-        'lang': 'pt'
-      },
-      'BR/RN/Vila Flor': {
-        'id': 'data/BR/RN/Vila Flor',
-        'key': 'Vila Flor',
-        'lang': 'pt'
-      },
-      'BR/RN/Viçosa': {
-        'id': 'data/BR/RN/Viçosa',
-        'key': 'Viçosa',
-        'lang': 'pt'
-      },
-      'BR/RN/Várzea': {
-        'id': 'data/BR/RN/Várzea',
-        'key': 'Várzea',
-        'lang': 'pt'
-      },
-      'BR/RN/Água Nova': {
-        'id': 'data/BR/RN/Água Nova',
-        'key': 'Água Nova',
-        'lang': 'pt'
-      },
+      'BR/RN/Umarizal': {'id': 'data/BR/RN/Umarizal', 'key': 'Umarizal', 'lang': 'pt'},
+      'BR/RN/Upanema': {'id': 'data/BR/RN/Upanema', 'key': 'Upanema', 'lang': 'pt'},
+      'BR/RN/Venha-Ver': {'id': 'data/BR/RN/Venha-Ver', 'key': 'Venha-Ver', 'lang': 'pt'},
+      'BR/RN/Vera Cruz': {'id': 'data/BR/RN/Vera Cruz', 'key': 'Vera Cruz', 'lang': 'pt'},
+      'BR/RN/Vila Flor': {'id': 'data/BR/RN/Vila Flor', 'key': 'Vila Flor', 'lang': 'pt'},
+      'BR/RN/Viçosa': {'id': 'data/BR/RN/Viçosa', 'key': 'Viçosa', 'lang': 'pt'},
+      'BR/RN/Várzea': {'id': 'data/BR/RN/Várzea', 'key': 'Várzea', 'lang': 'pt'},
+      'BR/RN/Água Nova': {'id': 'data/BR/RN/Água Nova', 'key': 'Água Nova', 'lang': 'pt'},
       'BR/RO': {
         'id': 'data/BR/RO',
         'isoid': 'RO',
@@ -19367,31 +13533,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': "Alvorada d'Oeste",
         'lang': 'pt'
       },
-      'BR/RO/Ariquemes': {
-        'id': 'data/BR/RO/Ariquemes',
-        'key': 'Ariquemes',
-        'lang': 'pt'
-      },
-      'BR/RO/Buritis': {
-        'id': 'data/BR/RO/Buritis',
-        'key': 'Buritis',
-        'lang': 'pt'
-      },
-      'BR/RO/Cabixi': {
-        'id': 'data/BR/RO/Cabixi',
-        'key': 'Cabixi',
-        'lang': 'pt'
-      },
+      'BR/RO/Ariquemes': {'id': 'data/BR/RO/Ariquemes', 'key': 'Ariquemes', 'lang': 'pt'},
+      'BR/RO/Buritis': {'id': 'data/BR/RO/Buritis', 'key': 'Buritis', 'lang': 'pt'},
+      'BR/RO/Cabixi': {'id': 'data/BR/RO/Cabixi', 'key': 'Cabixi', 'lang': 'pt'},
       'BR/RO/Cacaulândia': {
         'id': 'data/BR/RO/Cacaulândia',
         'key': 'Cacaulândia',
         'lang': 'pt'
       },
-      'BR/RO/Cacoal': {
-        'id': 'data/BR/RO/Cacoal',
-        'key': 'Cacoal',
-        'lang': 'pt'
-      },
+      'BR/RO/Cacoal': {'id': 'data/BR/RO/Cacoal', 'key': 'Cacoal', 'lang': 'pt'},
       'BR/RO/Campo Novo de Rondônia': {
         'id': 'data/BR/RO/Campo Novo de Rondônia',
         'key': 'Campo Novo de Rondônia',
@@ -19432,11 +13582,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Costa Marques',
         'lang': 'pt'
       },
-      'BR/RO/Cujubim': {
-        'id': 'data/BR/RO/Cujubim',
-        'key': 'Cujubim',
-        'lang': 'pt'
-      },
+      'BR/RO/Cujubim': {'id': 'data/BR/RO/Cujubim', 'key': 'Cujubim', 'lang': 'pt'},
       "BR/RO/Espigão d'Oeste": {
         'id': "data/BR/RO/Espigão d'Oeste",
         'key': "Espigão d'Oeste",
@@ -19458,11 +13604,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/RO/Jaru': {'id': 'data/BR/RO/Jaru', 'key': 'Jaru', 'lang': 'pt'},
-      'BR/RO/Ji-Paraná': {
-        'id': 'data/BR/RO/Ji-Paraná',
-        'key': 'Ji-Paraná',
-        'lang': 'pt'
-      },
+      'BR/RO/Ji-Paraná': {'id': 'data/BR/RO/Ji-Paraná', 'key': 'Ji-Paraná', 'lang': 'pt'},
       "BR/RO/Machadinho d'Oeste": {
         'id': "data/BR/RO/Machadinho d'Oeste",
         'key': "Machadinho d'Oeste",
@@ -19508,11 +13650,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ouro Preto do Oeste',
         'lang': 'pt'
       },
-      'BR/RO/Parecis': {
-        'id': 'data/BR/RO/Parecis',
-        'key': 'Parecis',
-        'lang': 'pt'
-      },
+      'BR/RO/Parecis': {'id': 'data/BR/RO/Parecis', 'key': 'Parecis', 'lang': 'pt'},
       'BR/RO/Pimenta Bueno': {
         'id': 'data/BR/RO/Pimenta Bueno',
         'key': 'Pimenta Bueno',
@@ -19578,11 +13716,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Teixeirópolis',
         'lang': 'pt'
       },
-      'BR/RO/Theobroma': {
-        'id': 'data/BR/RO/Theobroma',
-        'key': 'Theobroma',
-        'lang': 'pt'
-      },
+      'BR/RO/Theobroma': {'id': 'data/BR/RO/Theobroma', 'key': 'Theobroma', 'lang': 'pt'},
       'BR/RO/Urupá': {'id': 'data/BR/RO/Urupá', 'key': 'Urupá', 'lang': 'pt'},
       'BR/RO/Vale do Anari': {
         'id': 'data/BR/RO/Vale do Anari',
@@ -19594,11 +13728,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Vale do Paraíso',
         'lang': 'pt'
       },
-      'BR/RO/Vilhena': {
-        'id': 'data/BR/RO/Vilhena',
-        'key': 'Vilhena',
-        'lang': 'pt'
-      },
+      'BR/RO/Vilhena': {'id': 'data/BR/RO/Vilhena', 'key': 'Vilhena', 'lang': 'pt'},
       'BR/RR': {
         'id': 'data/BR/RR',
         'isoid': 'RR',
@@ -19615,52 +13745,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alto Alegre',
         'lang': 'pt'
       },
-      'BR/RR/Amajari': {
-        'id': 'data/BR/RR/Amajari',
-        'key': 'Amajari',
-        'lang': 'pt'
-      },
-      'BR/RR/Boa Vista': {
-        'id': 'data/BR/RR/Boa Vista',
-        'key': 'Boa Vista',
-        'lang': 'pt'
-      },
-      'BR/RR/Bonfim': {
-        'id': 'data/BR/RR/Bonfim',
-        'key': 'Bonfim',
-        'lang': 'pt'
-      },
+      'BR/RR/Amajari': {'id': 'data/BR/RR/Amajari', 'key': 'Amajari', 'lang': 'pt'},
+      'BR/RR/Boa Vista': {'id': 'data/BR/RR/Boa Vista', 'key': 'Boa Vista', 'lang': 'pt'},
+      'BR/RR/Bonfim': {'id': 'data/BR/RR/Bonfim', 'key': 'Bonfim', 'lang': 'pt'},
       'BR/RR/Cantá': {'id': 'data/BR/RR/Cantá', 'key': 'Cantá', 'lang': 'pt'},
-      'BR/RR/Caracaraí': {
-        'id': 'data/BR/RR/Caracaraí',
-        'key': 'Caracaraí',
-        'lang': 'pt'
-      },
-      'BR/RR/Caroebe': {
-        'id': 'data/BR/RR/Caroebe',
-        'key': 'Caroebe',
-        'lang': 'pt'
-      },
-      'BR/RR/Iracema': {
-        'id': 'data/BR/RR/Iracema',
-        'key': 'Iracema',
-        'lang': 'pt'
-      },
-      'BR/RR/Mucajaí': {
-        'id': 'data/BR/RR/Mucajaí',
-        'key': 'Mucajaí',
-        'lang': 'pt'
-      },
-      'BR/RR/Normandia': {
-        'id': 'data/BR/RR/Normandia',
-        'key': 'Normandia',
-        'lang': 'pt'
-      },
-      'BR/RR/Pacaraima': {
-        'id': 'data/BR/RR/Pacaraima',
-        'key': 'Pacaraima',
-        'lang': 'pt'
-      },
+      'BR/RR/Caracaraí': {'id': 'data/BR/RR/Caracaraí', 'key': 'Caracaraí', 'lang': 'pt'},
+      'BR/RR/Caroebe': {'id': 'data/BR/RR/Caroebe', 'key': 'Caroebe', 'lang': 'pt'},
+      'BR/RR/Iracema': {'id': 'data/BR/RR/Iracema', 'key': 'Iracema', 'lang': 'pt'},
+      'BR/RR/Mucajaí': {'id': 'data/BR/RR/Mucajaí', 'key': 'Mucajaí', 'lang': 'pt'},
+      'BR/RR/Normandia': {'id': 'data/BR/RR/Normandia', 'key': 'Normandia', 'lang': 'pt'},
+      'BR/RR/Pacaraima': {'id': 'data/BR/RR/Pacaraima', 'key': 'Pacaraima', 'lang': 'pt'},
       'BR/RR/Rorainópolis': {
         'id': 'data/BR/RR/Rorainópolis',
         'key': 'Rorainópolis',
@@ -19671,16 +13765,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São João da Baliza',
         'lang': 'pt'
       },
-      'BR/RR/São Luiz': {
-        'id': 'data/BR/RR/São Luiz',
-        'key': 'São Luiz',
-        'lang': 'pt'
-      },
-      'BR/RR/Uiramutã': {
-        'id': 'data/BR/RR/Uiramutã',
-        'key': 'Uiramutã',
-        'lang': 'pt'
-      },
+      'BR/RR/São Luiz': {'id': 'data/BR/RR/São Luiz', 'key': 'São Luiz', 'lang': 'pt'},
+      'BR/RR/Uiramutã': {'id': 'data/BR/RR/Uiramutã', 'key': 'Uiramutã', 'lang': 'pt'},
       'BR/RS': {
         'id': 'data/BR/RS',
         'isoid': 'RS',
@@ -19692,42 +13778,18 @@ Map<String, Map<String, String>> get allJson => {
         'zip': '9',
         'zipex': '90000-000,99999-999'
       },
-      'BR/RS/Aceguá': {
-        'id': 'data/BR/RS/Aceguá',
-        'key': 'Aceguá',
-        'lang': 'pt'
-      },
+      'BR/RS/Aceguá': {'id': 'data/BR/RS/Aceguá', 'key': 'Aceguá', 'lang': 'pt'},
       'BR/RS/Agudo': {'id': 'data/BR/RS/Agudo', 'key': 'Agudo', 'lang': 'pt'},
-      'BR/RS/Ajuricaba': {
-        'id': 'data/BR/RS/Ajuricaba',
-        'key': 'Ajuricaba',
-        'lang': 'pt'
-      },
-      'BR/RS/Alecrim': {
-        'id': 'data/BR/RS/Alecrim',
-        'key': 'Alecrim',
-        'lang': 'pt'
-      },
-      'BR/RS/Alegrete': {
-        'id': 'data/BR/RS/Alegrete',
-        'key': 'Alegrete',
-        'lang': 'pt'
-      },
-      'BR/RS/Alegría': {
-        'id': 'data/BR/RS/Alegría',
-        'key': 'Alegría',
-        'lang': 'pt'
-      },
+      'BR/RS/Ajuricaba': {'id': 'data/BR/RS/Ajuricaba', 'key': 'Ajuricaba', 'lang': 'pt'},
+      'BR/RS/Alecrim': {'id': 'data/BR/RS/Alecrim', 'key': 'Alecrim', 'lang': 'pt'},
+      'BR/RS/Alegrete': {'id': 'data/BR/RS/Alegrete', 'key': 'Alegrete', 'lang': 'pt'},
+      'BR/RS/Alegría': {'id': 'data/BR/RS/Alegría', 'key': 'Alegría', 'lang': 'pt'},
       'BR/RS/Almirante Tamandaré do Sul': {
         'id': 'data/BR/RS/Almirante Tamandaré do Sul',
         'key': 'Almirante Tamandaré do Sul',
         'lang': 'pt'
       },
-      'BR/RS/Alpestre': {
-        'id': 'data/BR/RS/Alpestre',
-        'key': 'Alpestre',
-        'lang': 'pt'
-      },
+      'BR/RS/Alpestre': {'id': 'data/BR/RS/Alpestre', 'key': 'Alpestre', 'lang': 'pt'},
       'BR/RS/Alto Alegre': {
         'id': 'data/BR/RS/Alto Alegre',
         'key': 'Alto Alegre',
@@ -19738,11 +13800,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alto Feliz',
         'lang': 'pt'
       },
-      'BR/RS/Alvorada': {
-        'id': 'data/BR/RS/Alvorada',
-        'key': 'Alvorada',
-        'lang': 'pt'
-      },
+      'BR/RS/Alvorada': {'id': 'data/BR/RS/Alvorada', 'key': 'Alvorada', 'lang': 'pt'},
       'BR/RS/Amaral Ferrador': {
         'id': 'data/BR/RS/Amaral Ferrador',
         'key': 'Amaral Ferrador',
@@ -19768,21 +13826,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Antônio Prado',
         'lang': 'pt'
       },
-      'BR/RS/Arambaré': {
-        'id': 'data/BR/RS/Arambaré',
-        'key': 'Arambaré',
-        'lang': 'pt'
-      },
-      'BR/RS/Araricá': {
-        'id': 'data/BR/RS/Araricá',
-        'key': 'Araricá',
-        'lang': 'pt'
-      },
-      'BR/RS/Aratiba': {
-        'id': 'data/BR/RS/Aratiba',
-        'key': 'Aratiba',
-        'lang': 'pt'
-      },
+      'BR/RS/Arambaré': {'id': 'data/BR/RS/Arambaré', 'key': 'Arambaré', 'lang': 'pt'},
+      'BR/RS/Araricá': {'id': 'data/BR/RS/Araricá', 'key': 'Araricá', 'lang': 'pt'},
+      'BR/RS/Aratiba': {'id': 'data/BR/RS/Aratiba', 'key': 'Aratiba', 'lang': 'pt'},
       'BR/RS/Arroio Grande': {
         'id': 'data/BR/RS/Arroio Grande',
         'key': 'Arroio Grande',
@@ -19855,11 +13901,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Barra do Rio Azul',
         'lang': 'pt'
       },
-      'BR/RS/Barracão': {
-        'id': 'data/BR/RS/Barracão',
-        'key': 'Barracão',
-        'lang': 'pt'
-      },
+      'BR/RS/Barracão': {'id': 'data/BR/RS/Barracão', 'key': 'Barracão', 'lang': 'pt'},
       'BR/RS/Barros Cassal': {
         'id': 'data/BR/RS/Barros Cassal',
         'key': 'Barros Cassal',
@@ -19911,11 +13953,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Boa Vista do Sul',
         'lang': 'pt'
       },
-      'BR/RS/Bom Jesus': {
-        'id': 'data/BR/RS/Bom Jesus',
-        'key': 'Bom Jesus',
-        'lang': 'pt'
-      },
+      'BR/RS/Bom Jesus': {'id': 'data/BR/RS/Bom Jesus', 'key': 'Bom Jesus', 'lang': 'pt'},
       'BR/RS/Bom Princípio': {
         'id': 'data/BR/RS/Bom Princípio',
         'key': 'Bom Princípio',
@@ -19936,28 +13974,12 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Boqueirão do Leão',
         'lang': 'pt'
       },
-      'BR/RS/Bossoroca': {
-        'id': 'data/BR/RS/Bossoroca',
-        'key': 'Bossoroca',
-        'lang': 'pt'
-      },
-      'BR/RS/Bozano': {
-        'id': 'data/BR/RS/Bozano',
-        'key': 'Bozano',
-        'lang': 'pt'
-      },
+      'BR/RS/Bossoroca': {'id': 'data/BR/RS/Bossoroca', 'key': 'Bossoroca', 'lang': 'pt'},
+      'BR/RS/Bozano': {'id': 'data/BR/RS/Bozano', 'key': 'Bozano', 'lang': 'pt'},
       'BR/RS/Braga': {'id': 'data/BR/RS/Braga', 'key': 'Braga', 'lang': 'pt'},
-      'BR/RS/Brochier': {
-        'id': 'data/BR/RS/Brochier',
-        'key': 'Brochier',
-        'lang': 'pt'
-      },
+      'BR/RS/Brochier': {'id': 'data/BR/RS/Brochier', 'key': 'Brochier', 'lang': 'pt'},
       'BR/RS/Butia': {'id': 'data/BR/RS/Butia', 'key': 'Butia', 'lang': 'pt'},
-      'BR/RS/Cacequi': {
-        'id': 'data/BR/RS/Cacequi',
-        'key': 'Cacequi',
-        'lang': 'pt'
-      },
+      'BR/RS/Cacequi': {'id': 'data/BR/RS/Cacequi', 'key': 'Cacequi', 'lang': 'pt'},
       'BR/RS/Cachoeira do Sul': {
         'id': 'data/BR/RS/Cachoeira do Sul',
         'key': 'Cachoeira do Sul',
@@ -19973,26 +13995,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cacique Doble',
         'lang': 'pt'
       },
-      'BR/RS/Caibaté': {
-        'id': 'data/BR/RS/Caibaté',
-        'key': 'Caibaté',
-        'lang': 'pt'
-      },
-      'BR/RS/Caiçara': {
-        'id': 'data/BR/RS/Caiçara',
-        'key': 'Caiçara',
-        'lang': 'pt'
-      },
-      'BR/RS/Camaquã': {
-        'id': 'data/BR/RS/Camaquã',
-        'key': 'Camaquã',
-        'lang': 'pt'
-      },
-      'BR/RS/Camargo': {
-        'id': 'data/BR/RS/Camargo',
-        'key': 'Camargo',
-        'lang': 'pt'
-      },
+      'BR/RS/Caibaté': {'id': 'data/BR/RS/Caibaté', 'key': 'Caibaté', 'lang': 'pt'},
+      'BR/RS/Caiçara': {'id': 'data/BR/RS/Caiçara', 'key': 'Caiçara', 'lang': 'pt'},
+      'BR/RS/Camaquã': {'id': 'data/BR/RS/Camaquã', 'key': 'Camaquã', 'lang': 'pt'},
+      'BR/RS/Camargo': {'id': 'data/BR/RS/Camargo', 'key': 'Camargo', 'lang': 'pt'},
       'BR/RS/Cambará do Sul': {
         'id': 'data/BR/RS/Cambará do Sul',
         'key': 'Cambará do Sul',
@@ -20013,11 +14019,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Campinas do Sul',
         'lang': 'pt'
       },
-      'BR/RS/Campo Bom': {
-        'id': 'data/BR/RS/Campo Bom',
-        'key': 'Campo Bom',
-        'lang': 'pt'
-      },
+      'BR/RS/Campo Bom': {'id': 'data/BR/RS/Campo Bom', 'key': 'Campo Bom', 'lang': 'pt'},
       'BR/RS/Campo Novo': {
         'id': 'data/BR/RS/Campo Novo',
         'key': 'Campo Novo',
@@ -20033,26 +14035,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Candelária',
         'lang': 'pt'
       },
-      'BR/RS/Candiota': {
-        'id': 'data/BR/RS/Candiota',
-        'key': 'Candiota',
-        'lang': 'pt'
-      },
-      'BR/RS/Canela': {
-        'id': 'data/BR/RS/Canela',
-        'key': 'Canela',
-        'lang': 'pt'
-      },
-      'BR/RS/Canguçu': {
-        'id': 'data/BR/RS/Canguçu',
-        'key': 'Canguçu',
-        'lang': 'pt'
-      },
-      'BR/RS/Canoas': {
-        'id': 'data/BR/RS/Canoas',
-        'key': 'Canoas',
-        'lang': 'pt'
-      },
+      'BR/RS/Candiota': {'id': 'data/BR/RS/Candiota', 'key': 'Candiota', 'lang': 'pt'},
+      'BR/RS/Canela': {'id': 'data/BR/RS/Canela', 'key': 'Canela', 'lang': 'pt'},
+      'BR/RS/Canguçu': {'id': 'data/BR/RS/Canguçu', 'key': 'Canguçu', 'lang': 'pt'},
+      'BR/RS/Canoas': {'id': 'data/BR/RS/Canoas', 'key': 'Canoas', 'lang': 'pt'},
       'BR/RS/Canudos do Vale': {
         'id': 'data/BR/RS/Canudos do Vale',
         'key': 'Canudos do Vale',
@@ -20063,11 +14049,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Capela de Santana',
         'lang': 'pt'
       },
-      'BR/RS/Capitao': {
-        'id': 'data/BR/RS/Capitao',
-        'key': 'Capitao',
-        'lang': 'pt'
-      },
+      'BR/RS/Capitao': {'id': 'data/BR/RS/Capitao', 'key': 'Capitao', 'lang': 'pt'},
       'BR/RS/Capivari do Sul': {
         'id': 'data/BR/RS/Capivari do Sul',
         'key': 'Capivari do Sul',
@@ -20093,11 +14075,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Capão do Leão',
         'lang': 'pt'
       },
-      'BR/RS/Carazinho': {
-        'id': 'data/BR/RS/Carazinho',
-        'key': 'Carazinho',
-        'lang': 'pt'
-      },
+      'BR/RS/Carazinho': {'id': 'data/BR/RS/Carazinho', 'key': 'Carazinho', 'lang': 'pt'},
       'BR/RS/Caraá': {'id': 'data/BR/RS/Caraá', 'key': 'Caraá', 'lang': 'pt'},
       'BR/RS/Carlos Barbosa': {
         'id': 'data/BR/RS/Carlos Barbosa',
@@ -20110,16 +14088,8 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/RS/Casca': {'id': 'data/BR/RS/Casca', 'key': 'Casca', 'lang': 'pt'},
-      'BR/RS/Caseiros': {
-        'id': 'data/BR/RS/Caseiros',
-        'key': 'Caseiros',
-        'lang': 'pt'
-      },
-      'BR/RS/Catuípe': {
-        'id': 'data/BR/RS/Catuípe',
-        'key': 'Catuípe',
-        'lang': 'pt'
-      },
+      'BR/RS/Caseiros': {'id': 'data/BR/RS/Caseiros', 'key': 'Caseiros', 'lang': 'pt'},
+      'BR/RS/Catuípe': {'id': 'data/BR/RS/Catuípe', 'key': 'Catuípe', 'lang': 'pt'},
       'BR/RS/Caxias do Sul': {
         'id': 'data/BR/RS/Caxias do Sul',
         'key': 'Caxias do Sul',
@@ -20135,11 +14105,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Centenário',
         'lang': 'pt'
       },
-      'BR/RS/Cerrito': {
-        'id': 'data/BR/RS/Cerrito',
-        'key': 'Cerrito',
-        'lang': 'pt'
-      },
+      'BR/RS/Cerrito': {'id': 'data/BR/RS/Cerrito', 'key': 'Cerrito', 'lang': 'pt'},
       'BR/RS/Cerro Branco': {
         'id': 'data/BR/RS/Cerro Branco',
         'key': 'Cerro Branco',
@@ -20160,57 +14126,21 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cerro Largo',
         'lang': 'pt'
       },
-      'BR/RS/Chapada': {
-        'id': 'data/BR/RS/Chapada',
-        'key': 'Chapada',
-        'lang': 'pt'
-      },
+      'BR/RS/Chapada': {'id': 'data/BR/RS/Chapada', 'key': 'Chapada', 'lang': 'pt'},
       'BR/RS/Charqueadas': {
         'id': 'data/BR/RS/Charqueadas',
         'key': 'Charqueadas',
         'lang': 'pt'
       },
-      'BR/RS/Charrua': {
-        'id': 'data/BR/RS/Charrua',
-        'key': 'Charrua',
-        'lang': 'pt'
-      },
-      'BR/RS/Chiapeta': {
-        'id': 'data/BR/RS/Chiapeta',
-        'key': 'Chiapeta',
-        'lang': 'pt'
-      },
+      'BR/RS/Charrua': {'id': 'data/BR/RS/Charrua', 'key': 'Charrua', 'lang': 'pt'},
+      'BR/RS/Chiapeta': {'id': 'data/BR/RS/Chiapeta', 'key': 'Chiapeta', 'lang': 'pt'},
       'BR/RS/Chui': {'id': 'data/BR/RS/Chui', 'key': 'Chui', 'lang': 'pt'},
-      'BR/RS/Chuvisca': {
-        'id': 'data/BR/RS/Chuvisca',
-        'key': 'Chuvisca',
-        'lang': 'pt'
-      },
-      'BR/RS/Cidreira': {
-        'id': 'data/BR/RS/Cidreira',
-        'key': 'Cidreira',
-        'lang': 'pt'
-      },
-      'BR/RS/Ciríaco': {
-        'id': 'data/BR/RS/Ciríaco',
-        'key': 'Ciríaco',
-        'lang': 'pt'
-      },
-      'BR/RS/Colinas': {
-        'id': 'data/BR/RS/Colinas',
-        'key': 'Colinas',
-        'lang': 'pt'
-      },
-      'BR/RS/Colorado': {
-        'id': 'data/BR/RS/Colorado',
-        'key': 'Colorado',
-        'lang': 'pt'
-      },
-      'BR/RS/Condor': {
-        'id': 'data/BR/RS/Condor',
-        'key': 'Condor',
-        'lang': 'pt'
-      },
+      'BR/RS/Chuvisca': {'id': 'data/BR/RS/Chuvisca', 'key': 'Chuvisca', 'lang': 'pt'},
+      'BR/RS/Cidreira': {'id': 'data/BR/RS/Cidreira', 'key': 'Cidreira', 'lang': 'pt'},
+      'BR/RS/Ciríaco': {'id': 'data/BR/RS/Ciríaco', 'key': 'Ciríaco', 'lang': 'pt'},
+      'BR/RS/Colinas': {'id': 'data/BR/RS/Colinas', 'key': 'Colinas', 'lang': 'pt'},
+      'BR/RS/Colorado': {'id': 'data/BR/RS/Colorado', 'key': 'Colorado', 'lang': 'pt'},
+      'BR/RS/Condor': {'id': 'data/BR/RS/Condor', 'key': 'Condor', 'lang': 'pt'},
       'BR/RS/Constantina': {
         'id': 'data/BR/RS/Constantina',
         'key': 'Constantina',
@@ -20241,36 +14171,20 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Coronel Pilar',
         'lang': 'pt'
       },
-      'BR/RS/Cotiporã': {
-        'id': 'data/BR/RS/Cotiporã',
-        'key': 'Cotiporã',
-        'lang': 'pt'
-      },
-      'BR/RS/Coxilha': {
-        'id': 'data/BR/RS/Coxilha',
-        'key': 'Coxilha',
-        'lang': 'pt'
-      },
+      'BR/RS/Cotiporã': {'id': 'data/BR/RS/Cotiporã', 'key': 'Cotiporã', 'lang': 'pt'},
+      'BR/RS/Coxilha': {'id': 'data/BR/RS/Coxilha', 'key': 'Coxilha', 'lang': 'pt'},
       'BR/RS/Crissiumal': {
         'id': 'data/BR/RS/Crissiumal',
         'key': 'Crissiumal',
         'lang': 'pt'
       },
-      'BR/RS/Cristal': {
-        'id': 'data/BR/RS/Cristal',
-        'key': 'Cristal',
-        'lang': 'pt'
-      },
+      'BR/RS/Cristal': {'id': 'data/BR/RS/Cristal', 'key': 'Cristal', 'lang': 'pt'},
       'BR/RS/Cristal do Sul': {
         'id': 'data/BR/RS/Cristal do Sul',
         'key': 'Cristal do Sul',
         'lang': 'pt'
       },
-      'BR/RS/Cruz Alta': {
-        'id': 'data/BR/RS/Cruz Alta',
-        'key': 'Cruz Alta',
-        'lang': 'pt'
-      },
+      'BR/RS/Cruz Alta': {'id': 'data/BR/RS/Cruz Alta', 'key': 'Cruz Alta', 'lang': 'pt'},
       'BR/RS/Cruzaltense': {
         'id': 'data/BR/RS/Cruzaltense',
         'key': 'Cruzaltense',
@@ -20356,11 +14270,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Eldorado do Sul',
         'lang': 'pt'
       },
-      'BR/RS/Encantado': {
-        'id': 'data/BR/RS/Encantado',
-        'key': 'Encantado',
-        'lang': 'pt'
-      },
+      'BR/RS/Encantado': {'id': 'data/BR/RS/Encantado', 'key': 'Encantado', 'lang': 'pt'},
       'BR/RS/Encruzilhada do Sul': {
         'id': 'data/BR/RS/Encruzilhada do Sul',
         'key': 'Encruzilhada do Sul',
@@ -20381,21 +14291,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Entre-Ijuís',
         'lang': 'pt'
       },
-      'BR/RS/Erebango': {
-        'id': 'data/BR/RS/Erebango',
-        'key': 'Erebango',
-        'lang': 'pt'
-      },
-      'BR/RS/Erechim': {
-        'id': 'data/BR/RS/Erechim',
-        'key': 'Erechim',
-        'lang': 'pt'
-      },
-      'BR/RS/Ernestina': {
-        'id': 'data/BR/RS/Ernestina',
-        'key': 'Ernestina',
-        'lang': 'pt'
-      },
+      'BR/RS/Erebango': {'id': 'data/BR/RS/Erebango', 'key': 'Erebango', 'lang': 'pt'},
+      'BR/RS/Erechim': {'id': 'data/BR/RS/Erechim', 'key': 'Erechim', 'lang': 'pt'},
+      'BR/RS/Ernestina': {'id': 'data/BR/RS/Ernestina', 'key': 'Ernestina', 'lang': 'pt'},
       'BR/RS/Erval Grande': {
         'id': 'data/BR/RS/Erval Grande',
         'key': 'Erval Grande',
@@ -20406,36 +14304,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Erval Seco',
         'lang': 'pt'
       },
-      'BR/RS/Esmeralda': {
-        'id': 'data/BR/RS/Esmeralda',
-        'key': 'Esmeralda',
-        'lang': 'pt'
-      },
+      'BR/RS/Esmeralda': {'id': 'data/BR/RS/Esmeralda', 'key': 'Esmeralda', 'lang': 'pt'},
       'BR/RS/Esperança do Sul': {
         'id': 'data/BR/RS/Esperança do Sul',
         'key': 'Esperança do Sul',
         'lang': 'pt'
       },
-      'BR/RS/Espumoso': {
-        'id': 'data/BR/RS/Espumoso',
-        'key': 'Espumoso',
-        'lang': 'pt'
-      },
-      'BR/RS/Estação': {
-        'id': 'data/BR/RS/Estação',
-        'key': 'Estação',
-        'lang': 'pt'
-      },
-      'BR/RS/Esteio': {
-        'id': 'data/BR/RS/Esteio',
-        'key': 'Esteio',
-        'lang': 'pt'
-      },
-      'BR/RS/Estrela': {
-        'id': 'data/BR/RS/Estrela',
-        'key': 'Estrela',
-        'lang': 'pt'
-      },
+      'BR/RS/Espumoso': {'id': 'data/BR/RS/Espumoso', 'key': 'Espumoso', 'lang': 'pt'},
+      'BR/RS/Estação': {'id': 'data/BR/RS/Estação', 'key': 'Estação', 'lang': 'pt'},
+      'BR/RS/Esteio': {'id': 'data/BR/RS/Esteio', 'key': 'Esteio', 'lang': 'pt'},
+      'BR/RS/Estrela': {'id': 'data/BR/RS/Estrela', 'key': 'Estrela', 'lang': 'pt'},
       'BR/RS/Estrela Velha': {
         'id': 'data/BR/RS/Estrela Velha',
         'key': 'Estrela Velha',
@@ -20512,47 +14390,23 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Frederico Westphalen',
         'lang': 'pt'
       },
-      'BR/RS/Garibaldi': {
-        'id': 'data/BR/RS/Garibaldi',
-        'key': 'Garibaldi',
-        'lang': 'pt'
-      },
-      'BR/RS/Garruchos': {
-        'id': 'data/BR/RS/Garruchos',
-        'key': 'Garruchos',
-        'lang': 'pt'
-      },
-      'BR/RS/Gaurama': {
-        'id': 'data/BR/RS/Gaurama',
-        'key': 'Gaurama',
-        'lang': 'pt'
-      },
+      'BR/RS/Garibaldi': {'id': 'data/BR/RS/Garibaldi', 'key': 'Garibaldi', 'lang': 'pt'},
+      'BR/RS/Garruchos': {'id': 'data/BR/RS/Garruchos', 'key': 'Garruchos', 'lang': 'pt'},
+      'BR/RS/Gaurama': {'id': 'data/BR/RS/Gaurama', 'key': 'Gaurama', 'lang': 'pt'},
       'BR/RS/General Câmara': {
         'id': 'data/BR/RS/General Câmara',
         'key': 'General Câmara',
         'lang': 'pt'
       },
-      'BR/RS/Gentil': {
-        'id': 'data/BR/RS/Gentil',
-        'key': 'Gentil',
-        'lang': 'pt'
-      },
+      'BR/RS/Gentil': {'id': 'data/BR/RS/Gentil', 'key': 'Gentil', 'lang': 'pt'},
       'BR/RS/Getúlio Vargas': {
         'id': 'data/BR/RS/Getúlio Vargas',
         'key': 'Getúlio Vargas',
         'lang': 'pt'
       },
       'BR/RS/Giruá': {'id': 'data/BR/RS/Giruá', 'key': 'Giruá', 'lang': 'pt'},
-      'BR/RS/Glorinha': {
-        'id': 'data/BR/RS/Glorinha',
-        'key': 'Glorinha',
-        'lang': 'pt'
-      },
-      'BR/RS/Gramado': {
-        'id': 'data/BR/RS/Gramado',
-        'key': 'Gramado',
-        'lang': 'pt'
-      },
+      'BR/RS/Glorinha': {'id': 'data/BR/RS/Glorinha', 'key': 'Glorinha', 'lang': 'pt'},
+      'BR/RS/Gramado': {'id': 'data/BR/RS/Gramado', 'key': 'Gramado', 'lang': 'pt'},
       'BR/RS/Gramado Xavier': {
         'id': 'data/BR/RS/Gramado Xavier',
         'key': 'Gramado Xavier',
@@ -20563,46 +14417,18 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Gramado dos Loureiros',
         'lang': 'pt'
       },
-      'BR/RS/Gravataí': {
-        'id': 'data/BR/RS/Gravataí',
-        'key': 'Gravataí',
-        'lang': 'pt'
-      },
-      'BR/RS/Guabiju': {
-        'id': 'data/BR/RS/Guabiju',
-        'key': 'Guabiju',
-        'lang': 'pt'
-      },
-      'BR/RS/Guaporé': {
-        'id': 'data/BR/RS/Guaporé',
-        'key': 'Guaporé',
-        'lang': 'pt'
-      },
+      'BR/RS/Gravataí': {'id': 'data/BR/RS/Gravataí', 'key': 'Gravataí', 'lang': 'pt'},
+      'BR/RS/Guabiju': {'id': 'data/BR/RS/Guabiju', 'key': 'Guabiju', 'lang': 'pt'},
+      'BR/RS/Guaporé': {'id': 'data/BR/RS/Guaporé', 'key': 'Guaporé', 'lang': 'pt'},
       'BR/RS/Guarani das Missões': {
         'id': 'data/BR/RS/Guarani das Missões',
         'key': 'Guarani das Missões',
         'lang': 'pt'
       },
-      'BR/RS/Guaíba': {
-        'id': 'data/BR/RS/Guaíba',
-        'key': 'Guaíba',
-        'lang': 'pt'
-      },
-      'BR/RS/Harmonia': {
-        'id': 'data/BR/RS/Harmonia',
-        'key': 'Harmonia',
-        'lang': 'pt'
-      },
-      'BR/RS/Herval': {
-        'id': 'data/BR/RS/Herval',
-        'key': 'Herval',
-        'lang': 'pt'
-      },
-      'BR/RS/Herveiras': {
-        'id': 'data/BR/RS/Herveiras',
-        'key': 'Herveiras',
-        'lang': 'pt'
-      },
+      'BR/RS/Guaíba': {'id': 'data/BR/RS/Guaíba', 'key': 'Guaíba', 'lang': 'pt'},
+      'BR/RS/Harmonia': {'id': 'data/BR/RS/Harmonia', 'key': 'Harmonia', 'lang': 'pt'},
+      'BR/RS/Herval': {'id': 'data/BR/RS/Herval', 'key': 'Herval', 'lang': 'pt'},
+      'BR/RS/Herveiras': {'id': 'data/BR/RS/Herveiras', 'key': 'Herveiras', 'lang': 'pt'},
       'BR/RS/Horizontina': {
         'id': 'data/BR/RS/Horizontina',
         'key': 'Horizontina',
@@ -20613,21 +14439,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Hulha Negra',
         'lang': 'pt'
       },
-      'BR/RS/Humaitá': {
-        'id': 'data/BR/RS/Humaitá',
-        'key': 'Humaitá',
-        'lang': 'pt'
-      },
-      'BR/RS/Ibarama': {
-        'id': 'data/BR/RS/Ibarama',
-        'key': 'Ibarama',
-        'lang': 'pt'
-      },
-      'BR/RS/Ibiaçá': {
-        'id': 'data/BR/RS/Ibiaçá',
-        'key': 'Ibiaçá',
-        'lang': 'pt'
-      },
+      'BR/RS/Humaitá': {'id': 'data/BR/RS/Humaitá', 'key': 'Humaitá', 'lang': 'pt'},
+      'BR/RS/Ibarama': {'id': 'data/BR/RS/Ibarama', 'key': 'Ibarama', 'lang': 'pt'},
+      'BR/RS/Ibiaçá': {'id': 'data/BR/RS/Ibiaçá', 'key': 'Ibiaçá', 'lang': 'pt'},
       'BR/RS/Ibiraiaras': {
         'id': 'data/BR/RS/Ibiraiaras',
         'key': 'Ibiraiaras',
@@ -20638,38 +14452,18 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ibirapuitã',
         'lang': 'pt'
       },
-      'BR/RS/Ibirubá': {
-        'id': 'data/BR/RS/Ibirubá',
-        'key': 'Ibirubá',
-        'lang': 'pt'
-      },
-      'BR/RS/Igrejinha': {
-        'id': 'data/BR/RS/Igrejinha',
-        'key': 'Igrejinha',
-        'lang': 'pt'
-      },
+      'BR/RS/Ibirubá': {'id': 'data/BR/RS/Ibirubá', 'key': 'Ibirubá', 'lang': 'pt'},
+      'BR/RS/Igrejinha': {'id': 'data/BR/RS/Igrejinha', 'key': 'Igrejinha', 'lang': 'pt'},
       'BR/RS/Ijuí': {'id': 'data/BR/RS/Ijuí', 'key': 'Ijuí', 'lang': 'pt'},
-      'BR/RS/Ilópolis': {
-        'id': 'data/BR/RS/Ilópolis',
-        'key': 'Ilópolis',
-        'lang': 'pt'
-      },
+      'BR/RS/Ilópolis': {'id': 'data/BR/RS/Ilópolis', 'key': 'Ilópolis', 'lang': 'pt'},
       'BR/RS/Imbé': {'id': 'data/BR/RS/Imbé', 'key': 'Imbé', 'lang': 'pt'},
-      'BR/RS/Imigrante': {
-        'id': 'data/BR/RS/Imigrante',
-        'key': 'Imigrante',
-        'lang': 'pt'
-      },
+      'BR/RS/Imigrante': {'id': 'data/BR/RS/Imigrante', 'key': 'Imigrante', 'lang': 'pt'},
       'BR/RS/Independencia': {
         'id': 'data/BR/RS/Independencia',
         'key': 'Independencia',
         'lang': 'pt'
       },
-      'BR/RS/Inhacorá': {
-        'id': 'data/BR/RS/Inhacorá',
-        'key': 'Inhacorá',
-        'lang': 'pt'
-      },
+      'BR/RS/Inhacorá': {'id': 'data/BR/RS/Inhacorá', 'key': 'Inhacorá', 'lang': 'pt'},
       'BR/RS/Ipiranga do Sul': {
         'id': 'data/BR/RS/Ipiranga do Sul',
         'key': 'Ipiranga do Sul',
@@ -20677,26 +14471,10 @@ Map<String, Map<String, String>> get allJson => {
       },
       'BR/RS/Ipê': {'id': 'data/BR/RS/Ipê', 'key': 'Ipê', 'lang': 'pt'},
       'BR/RS/Irai': {'id': 'data/BR/RS/Irai', 'key': 'Irai', 'lang': 'pt'},
-      'BR/RS/Itaara': {
-        'id': 'data/BR/RS/Itaara',
-        'key': 'Itaara',
-        'lang': 'pt'
-      },
-      'BR/RS/Itacurubi': {
-        'id': 'data/BR/RS/Itacurubi',
-        'key': 'Itacurubi',
-        'lang': 'pt'
-      },
-      'BR/RS/Itapuca': {
-        'id': 'data/BR/RS/Itapuca',
-        'key': 'Itapuca',
-        'lang': 'pt'
-      },
-      'BR/RS/Itaqui': {
-        'id': 'data/BR/RS/Itaqui',
-        'key': 'Itaqui',
-        'lang': 'pt'
-      },
+      'BR/RS/Itaara': {'id': 'data/BR/RS/Itaara', 'key': 'Itaara', 'lang': 'pt'},
+      'BR/RS/Itacurubi': {'id': 'data/BR/RS/Itacurubi', 'key': 'Itacurubi', 'lang': 'pt'},
+      'BR/RS/Itapuca': {'id': 'data/BR/RS/Itapuca', 'key': 'Itapuca', 'lang': 'pt'},
+      'BR/RS/Itaqui': {'id': 'data/BR/RS/Itaqui', 'key': 'Itaqui', 'lang': 'pt'},
       'BR/RS/Itatiba do Sul': {
         'id': 'data/BR/RS/Itatiba do Sul',
         'key': 'Itatiba do Sul',
@@ -20715,26 +14493,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Jacuizinho',
         'lang': 'pt'
       },
-      'BR/RS/Jacutinga': {
-        'id': 'data/BR/RS/Jacutinga',
-        'key': 'Jacutinga',
-        'lang': 'pt'
-      },
-      'BR/RS/Jaguari': {
-        'id': 'data/BR/RS/Jaguari',
-        'key': 'Jaguari',
-        'lang': 'pt'
-      },
-      'BR/RS/Jaguarão': {
-        'id': 'data/BR/RS/Jaguarão',
-        'key': 'Jaguarão',
-        'lang': 'pt'
-      },
-      'BR/RS/Jaquirana': {
-        'id': 'data/BR/RS/Jaquirana',
-        'key': 'Jaquirana',
-        'lang': 'pt'
-      },
+      'BR/RS/Jacutinga': {'id': 'data/BR/RS/Jacutinga', 'key': 'Jacutinga', 'lang': 'pt'},
+      'BR/RS/Jaguari': {'id': 'data/BR/RS/Jaguari', 'key': 'Jaguari', 'lang': 'pt'},
+      'BR/RS/Jaguarão': {'id': 'data/BR/RS/Jaguarão', 'key': 'Jaguarão', 'lang': 'pt'},
+      'BR/RS/Jaquirana': {'id': 'data/BR/RS/Jaquirana', 'key': 'Jaquirana', 'lang': 'pt'},
       'BR/RS/Jari': {'id': 'data/BR/RS/Jari', 'key': 'Jari', 'lang': 'pt'},
       'BR/RS/Jóia': {'id': 'data/BR/RS/Jóia', 'key': 'Jóia', 'lang': 'pt'},
       'BR/RS/Júlio de Castilhos': {
@@ -20757,16 +14519,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Lagoa dos Três Cantos',
         'lang': 'pt'
       },
-      'BR/RS/Lagoão': {
-        'id': 'data/BR/RS/Lagoão',
-        'key': 'Lagoão',
-        'lang': 'pt'
-      },
-      'BR/RS/Lajeado': {
-        'id': 'data/BR/RS/Lajeado',
-        'key': 'Lajeado',
-        'lang': 'pt'
-      },
+      'BR/RS/Lagoão': {'id': 'data/BR/RS/Lagoão', 'key': 'Lagoão', 'lang': 'pt'},
+      'BR/RS/Lajeado': {'id': 'data/BR/RS/Lajeado', 'key': 'Lajeado', 'lang': 'pt'},
       'BR/RS/Lajeado do Bugre': {
         'id': 'data/BR/RS/Lajeado do Bugre',
         'key': 'Lajeado do Bugre',
@@ -20797,26 +14551,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Machadinho',
         'lang': 'pt'
       },
-      'BR/RS/Mampituba': {
-        'id': 'data/BR/RS/Mampituba',
-        'key': 'Mampituba',
-        'lang': 'pt'
-      },
+      'BR/RS/Mampituba': {'id': 'data/BR/RS/Mampituba', 'key': 'Mampituba', 'lang': 'pt'},
       'BR/RS/Manoel Viana': {
         'id': 'data/BR/RS/Manoel Viana',
         'key': 'Manoel Viana',
         'lang': 'pt'
       },
-      'BR/RS/Maquiné': {
-        'id': 'data/BR/RS/Maquiné',
-        'key': 'Maquiné',
-        'lang': 'pt'
-      },
-      'BR/RS/Maratá': {
-        'id': 'data/BR/RS/Maratá',
-        'key': 'Maratá',
-        'lang': 'pt'
-      },
+      'BR/RS/Maquiné': {'id': 'data/BR/RS/Maquiné', 'key': 'Maquiné', 'lang': 'pt'},
+      'BR/RS/Maratá': {'id': 'data/BR/RS/Maratá', 'key': 'Maratá', 'lang': 'pt'},
       'BR/RS/Marau': {'id': 'data/BR/RS/Marau', 'key': 'Marau', 'lang': 'pt'},
       'BR/RS/Marcelino Ramos': {
         'id': 'data/BR/RS/Marcelino Ramos',
@@ -20859,26 +14601,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Maximiliano de Almeida',
         'lang': 'pt'
       },
-      'BR/RS/Maçambara': {
-        'id': 'data/BR/RS/Maçambara',
-        'key': 'Maçambara',
-        'lang': 'pt'
-      },
+      'BR/RS/Maçambara': {'id': 'data/BR/RS/Maçambara', 'key': 'Maçambara', 'lang': 'pt'},
       'BR/RS/Minas do Leão': {
         'id': 'data/BR/RS/Minas do Leão',
         'key': 'Minas do Leão',
         'lang': 'pt'
       },
-      'BR/RS/Miraguaí': {
-        'id': 'data/BR/RS/Miraguaí',
-        'key': 'Miraguaí',
-        'lang': 'pt'
-      },
-      'BR/RS/Montauri': {
-        'id': 'data/BR/RS/Montauri',
-        'key': 'Montauri',
-        'lang': 'pt'
-      },
+      'BR/RS/Miraguaí': {'id': 'data/BR/RS/Miraguaí', 'key': 'Miraguaí', 'lang': 'pt'},
+      'BR/RS/Montauri': {'id': 'data/BR/RS/Montauri', 'key': 'Montauri', 'lang': 'pt'},
       'BR/RS/Monte Alegre dos Campos': {
         'id': 'data/BR/RS/Monte Alegre dos Campos',
         'key': 'Monte Alegre dos Campos',
@@ -20894,11 +14624,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Montenegro',
         'lang': 'pt'
       },
-      'BR/RS/Mormaço': {
-        'id': 'data/BR/RS/Mormaço',
-        'key': 'Mormaço',
-        'lang': 'pt'
-      },
+      'BR/RS/Mormaço': {'id': 'data/BR/RS/Mormaço', 'key': 'Mormaço', 'lang': 'pt'},
       'BR/RS/Morrinhos do Sul': {
         'id': 'data/BR/RS/Morrinhos do Sul',
         'key': 'Morrinhos do Sul',
@@ -20914,32 +14640,20 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Morro Reuter',
         'lang': 'pt'
       },
-      'BR/RS/Mostardas': {
-        'id': 'data/BR/RS/Mostardas',
-        'key': 'Mostardas',
-        'lang': 'pt'
-      },
+      'BR/RS/Mostardas': {'id': 'data/BR/RS/Mostardas', 'key': 'Mostardas', 'lang': 'pt'},
       'BR/RS/Muitos Capões': {
         'id': 'data/BR/RS/Muitos Capões',
         'key': 'Muitos Capões',
         'lang': 'pt'
       },
-      'BR/RS/Muliterno': {
-        'id': 'data/BR/RS/Muliterno',
-        'key': 'Muliterno',
-        'lang': 'pt'
-      },
+      'BR/RS/Muliterno': {'id': 'data/BR/RS/Muliterno', 'key': 'Muliterno', 'lang': 'pt'},
       'BR/RS/Muçum': {'id': 'data/BR/RS/Muçum', 'key': 'Muçum', 'lang': 'pt'},
       'BR/RS/Nicolau Vergueiro': {
         'id': 'data/BR/RS/Nicolau Vergueiro',
         'key': 'Nicolau Vergueiro',
         'lang': 'pt'
       },
-      'BR/RS/Nonoai': {
-        'id': 'data/BR/RS/Nonoai',
-        'key': 'Nonoai',
-        'lang': 'pt'
-      },
+      'BR/RS/Nonoai': {'id': 'data/BR/RS/Nonoai', 'key': 'Nonoai', 'lang': 'pt'},
       'BR/RS/Nova Alvorada': {
         'id': 'data/BR/RS/Nova Alvorada',
         'key': 'Nova Alvorada',
@@ -21050,11 +14764,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Não-Me-Toque',
         'lang': 'pt'
       },
-      'BR/RS/Osório': {
-        'id': 'data/BR/RS/Osório',
-        'key': 'Osório',
-        'lang': 'pt'
-      },
+      'BR/RS/Osório': {'id': 'data/BR/RS/Osório', 'key': 'Osório', 'lang': 'pt'},
       'BR/RS/Paim Filho': {
         'id': 'data/BR/RS/Paim Filho',
         'key': 'Paim Filho',
@@ -21075,11 +14785,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Palmitinho',
         'lang': 'pt'
       },
-      'BR/RS/Panambi': {
-        'id': 'data/BR/RS/Panambi',
-        'key': 'Panambi',
-        'lang': 'pt'
-      },
+      'BR/RS/Panambi': {'id': 'data/BR/RS/Panambi', 'key': 'Panambi', 'lang': 'pt'},
       'BR/RS/Pantano Grande': {
         'id': 'data/BR/RS/Pantano Grande',
         'key': 'Pantano Grande',
@@ -21096,11 +14802,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pareci Novo',
         'lang': 'pt'
       },
-      'BR/RS/Parobé': {
-        'id': 'data/BR/RS/Parobé',
-        'key': 'Parobé',
-        'lang': 'pt'
-      },
+      'BR/RS/Parobé': {'id': 'data/BR/RS/Parobé', 'key': 'Parobé', 'lang': 'pt'},
       'BR/RS/Passa Sete': {
         'id': 'data/BR/RS/Passa Sete',
         'key': 'Passa Sete',
@@ -21121,11 +14823,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Paulo Bento',
         'lang': 'pt'
       },
-      'BR/RS/Paverama': {
-        'id': 'data/BR/RS/Paverama',
-        'key': 'Paverama',
-        'lang': 'pt'
-      },
+      'BR/RS/Paverama': {'id': 'data/BR/RS/Paverama', 'key': 'Paverama', 'lang': 'pt'},
       'BR/RS/Pedras Altas': {
         'id': 'data/BR/RS/Pedras Altas',
         'key': 'Pedras Altas',
@@ -21136,26 +14834,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pedro Osório',
         'lang': 'pt'
       },
-      'BR/RS/Pejuçara': {
-        'id': 'data/BR/RS/Pejuçara',
-        'key': 'Pejuçara',
-        'lang': 'pt'
-      },
-      'BR/RS/Pelotas': {
-        'id': 'data/BR/RS/Pelotas',
-        'key': 'Pelotas',
-        'lang': 'pt'
-      },
+      'BR/RS/Pejuçara': {'id': 'data/BR/RS/Pejuçara', 'key': 'Pejuçara', 'lang': 'pt'},
+      'BR/RS/Pelotas': {'id': 'data/BR/RS/Pelotas', 'key': 'Pelotas', 'lang': 'pt'},
       'BR/RS/Picada Café': {
         'id': 'data/BR/RS/Picada Café',
         'key': 'Picada Café',
         'lang': 'pt'
       },
-      'BR/RS/Pinhal': {
-        'id': 'data/BR/RS/Pinhal',
-        'key': 'Pinhal',
-        'lang': 'pt'
-      },
+      'BR/RS/Pinhal': {'id': 'data/BR/RS/Pinhal', 'key': 'Pinhal', 'lang': 'pt'},
       'BR/RS/Pinhal Grande': {
         'id': 'data/BR/RS/Pinhal Grande',
         'key': 'Pinhal Grande',
@@ -21181,31 +14867,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pinto Bandeira',
         'lang': 'pt'
       },
-      'BR/RS/Pirapó': {
-        'id': 'data/BR/RS/Pirapó',
-        'key': 'Pirapó',
-        'lang': 'pt'
-      },
-      'BR/RS/Piratini': {
-        'id': 'data/BR/RS/Piratini',
-        'key': 'Piratini',
-        'lang': 'pt'
-      },
-      'BR/RS/Planalto': {
-        'id': 'data/BR/RS/Planalto',
-        'key': 'Planalto',
-        'lang': 'pt'
-      },
+      'BR/RS/Pirapó': {'id': 'data/BR/RS/Pirapó', 'key': 'Pirapó', 'lang': 'pt'},
+      'BR/RS/Piratini': {'id': 'data/BR/RS/Piratini', 'key': 'Piratini', 'lang': 'pt'},
+      'BR/RS/Planalto': {'id': 'data/BR/RS/Planalto', 'key': 'Planalto', 'lang': 'pt'},
       'BR/RS/Ponte Preta': {
         'id': 'data/BR/RS/Ponte Preta',
         'key': 'Ponte Preta',
         'lang': 'pt'
       },
-      'BR/RS/Pontão': {
-        'id': 'data/BR/RS/Pontão',
-        'key': 'Pontão',
-        'lang': 'pt'
-      },
+      'BR/RS/Pontão': {'id': 'data/BR/RS/Pontão', 'key': 'Pontão', 'lang': 'pt'},
       'BR/RS/Porto Alegre': {
         'id': 'data/BR/RS/Porto Alegre',
         'key': 'Porto Alegre',
@@ -21231,11 +14901,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Porto Xavier',
         'lang': 'pt'
       },
-      'BR/RS/Portão': {
-        'id': 'data/BR/RS/Portão',
-        'key': 'Portão',
-        'lang': 'pt'
-      },
+      'BR/RS/Portão': {'id': 'data/BR/RS/Portão', 'key': 'Portão', 'lang': 'pt'},
       'BR/RS/Pouso Novo': {
         'id': 'data/BR/RS/Pouso Novo',
         'key': 'Pouso Novo',
@@ -21251,51 +14917,27 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Presidente Lucena',
         'lang': 'pt'
       },
-      'BR/RS/Progresso': {
-        'id': 'data/BR/RS/Progresso',
-        'key': 'Progresso',
-        'lang': 'pt'
-      },
+      'BR/RS/Progresso': {'id': 'data/BR/RS/Progresso', 'key': 'Progresso', 'lang': 'pt'},
       'BR/RS/Protásio Alves': {
         'id': 'data/BR/RS/Protásio Alves',
         'key': 'Protásio Alves',
         'lang': 'pt'
       },
-      'BR/RS/Putinga': {
-        'id': 'data/BR/RS/Putinga',
-        'key': 'Putinga',
-        'lang': 'pt'
-      },
-      'BR/RS/Quaraí': {
-        'id': 'data/BR/RS/Quaraí',
-        'key': 'Quaraí',
-        'lang': 'pt'
-      },
+      'BR/RS/Putinga': {'id': 'data/BR/RS/Putinga', 'key': 'Putinga', 'lang': 'pt'},
+      'BR/RS/Quaraí': {'id': 'data/BR/RS/Quaraí', 'key': 'Quaraí', 'lang': 'pt'},
       'BR/RS/Quatro Irmãos': {
         'id': 'data/BR/RS/Quatro Irmãos',
         'key': 'Quatro Irmãos',
         'lang': 'pt'
       },
-      'BR/RS/Quevedos': {
-        'id': 'data/BR/RS/Quevedos',
-        'key': 'Quevedos',
-        'lang': 'pt'
-      },
+      'BR/RS/Quevedos': {'id': 'data/BR/RS/Quevedos', 'key': 'Quevedos', 'lang': 'pt'},
       'BR/RS/Quinze de Novembro': {
         'id': 'data/BR/RS/Quinze de Novembro',
         'key': 'Quinze de Novembro',
         'lang': 'pt'
       },
-      'BR/RS/Redentora': {
-        'id': 'data/BR/RS/Redentora',
-        'key': 'Redentora',
-        'lang': 'pt'
-      },
-      'BR/RS/Relvado': {
-        'id': 'data/BR/RS/Relvado',
-        'key': 'Relvado',
-        'lang': 'pt'
-      },
+      'BR/RS/Redentora': {'id': 'data/BR/RS/Redentora', 'key': 'Redentora', 'lang': 'pt'},
+      'BR/RS/Relvado': {'id': 'data/BR/RS/Relvado', 'key': 'Relvado', 'lang': 'pt'},
       'BR/RS/Restinga Seca': {
         'id': 'data/BR/RS/Restinga Seca',
         'key': 'Restinga Seca',
@@ -21306,21 +14948,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Rio Grande',
         'lang': 'pt'
       },
-      'BR/RS/Rio Pardo': {
-        'id': 'data/BR/RS/Rio Pardo',
-        'key': 'Rio Pardo',
-        'lang': 'pt'
-      },
+      'BR/RS/Rio Pardo': {'id': 'data/BR/RS/Rio Pardo', 'key': 'Rio Pardo', 'lang': 'pt'},
       'BR/RS/Rio dos Índios': {
         'id': 'data/BR/RS/Rio dos Índios',
         'key': 'Rio dos Índios',
         'lang': 'pt'
       },
-      'BR/RS/Riozinho': {
-        'id': 'data/BR/RS/Riozinho',
-        'key': 'Riozinho',
-        'lang': 'pt'
-      },
+      'BR/RS/Riozinho': {'id': 'data/BR/RS/Riozinho', 'key': 'Riozinho', 'lang': 'pt'},
       'BR/RS/Roca Sales': {
         'id': 'data/BR/RS/Roca Sales',
         'key': 'Roca Sales',
@@ -21331,26 +14965,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Rodeio Bonito',
         'lang': 'pt'
       },
-      'BR/RS/Rolador': {
-        'id': 'data/BR/RS/Rolador',
-        'key': 'Rolador',
-        'lang': 'pt'
-      },
-      'BR/RS/Rolante': {
-        'id': 'data/BR/RS/Rolante',
-        'key': 'Rolante',
-        'lang': 'pt'
-      },
+      'BR/RS/Rolador': {'id': 'data/BR/RS/Rolador', 'key': 'Rolador', 'lang': 'pt'},
+      'BR/RS/Rolante': {'id': 'data/BR/RS/Rolante', 'key': 'Rolante', 'lang': 'pt'},
       'BR/RS/Ronda Alta': {
         'id': 'data/BR/RS/Ronda Alta',
         'key': 'Ronda Alta',
         'lang': 'pt'
       },
-      'BR/RS/Rondinha': {
-        'id': 'data/BR/RS/Rondinha',
-        'key': 'Rondinha',
-        'lang': 'pt'
-      },
+      'BR/RS/Rondinha': {'id': 'data/BR/RS/Rondinha', 'key': 'Rondinha', 'lang': 'pt'},
       'BR/RS/Roque Gonzales': {
         'id': 'data/BR/RS/Roque Gonzales',
         'key': 'Roque Gonzales',
@@ -21386,11 +15008,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Salvador do Sul',
         'lang': 'pt'
       },
-      'BR/RS/Sananduva': {
-        'id': 'data/BR/RS/Sananduva',
-        'key': 'Sananduva',
-        'lang': 'pt'
-      },
+      'BR/RS/Sananduva': {'id': 'data/BR/RS/Sananduva', 'key': 'Sananduva', 'lang': 'pt'},
       'BR/RS/Santa Bárbara do Sul': {
         'id': 'data/BR/RS/Santa Bárbara do Sul',
         'key': 'Santa Bárbara do Sul',
@@ -21451,11 +15069,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santana do Livramento',
         'lang': 'pt'
       },
-      'BR/RS/Santiago': {
-        'id': 'data/BR/RS/Santiago',
-        'key': 'Santiago',
-        'lang': 'pt'
-      },
+      'BR/RS/Santiago': {'id': 'data/BR/RS/Santiago', 'key': 'Santiago', 'lang': 'pt'},
       'BR/RS/Santo Antônio da Patrulha': {
         'id': 'data/BR/RS/Santo Antônio da Patrulha',
         'key': 'Santo Antônio da Patrulha',
@@ -21496,41 +15110,17 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santo Ângelo',
         'lang': 'pt'
       },
-      'BR/RS/Sapiranga': {
-        'id': 'data/BR/RS/Sapiranga',
-        'key': 'Sapiranga',
-        'lang': 'pt'
-      },
+      'BR/RS/Sapiranga': {'id': 'data/BR/RS/Sapiranga', 'key': 'Sapiranga', 'lang': 'pt'},
       'BR/RS/Sapucaia do Sul': {
         'id': 'data/BR/RS/Sapucaia do Sul',
         'key': 'Sapucaia do Sul',
         'lang': 'pt'
       },
-      'BR/RS/Sarandí': {
-        'id': 'data/BR/RS/Sarandí',
-        'key': 'Sarandí',
-        'lang': 'pt'
-      },
-      'BR/RS/Seberi': {
-        'id': 'data/BR/RS/Seberi',
-        'key': 'Seberi',
-        'lang': 'pt'
-      },
-      'BR/RS/Sede Nova': {
-        'id': 'data/BR/RS/Sede Nova',
-        'key': 'Sede Nova',
-        'lang': 'pt'
-      },
-      'BR/RS/Segredo': {
-        'id': 'data/BR/RS/Segredo',
-        'key': 'Segredo',
-        'lang': 'pt'
-      },
-      'BR/RS/Selbach': {
-        'id': 'data/BR/RS/Selbach',
-        'key': 'Selbach',
-        'lang': 'pt'
-      },
+      'BR/RS/Sarandí': {'id': 'data/BR/RS/Sarandí', 'key': 'Sarandí', 'lang': 'pt'},
+      'BR/RS/Seberi': {'id': 'data/BR/RS/Seberi', 'key': 'Seberi', 'lang': 'pt'},
+      'BR/RS/Sede Nova': {'id': 'data/BR/RS/Sede Nova', 'key': 'Sede Nova', 'lang': 'pt'},
+      'BR/RS/Segredo': {'id': 'data/BR/RS/Segredo', 'key': 'Segredo', 'lang': 'pt'},
+      'BR/RS/Selbach': {'id': 'data/BR/RS/Selbach', 'key': 'Selbach', 'lang': 'pt'},
       'BR/RS/Senador Salgado Filho': {
         'id': 'data/BR/RS/Senador Salgado Filho',
         'key': 'Senador Salgado Filho',
@@ -21546,11 +15136,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Serafina Corrêa',
         'lang': 'pt'
       },
-      'BR/RS/Sertão': {
-        'id': 'data/BR/RS/Sertão',
-        'key': 'Sertão',
-        'lang': 'pt'
-      },
+      'BR/RS/Sertão': {'id': 'data/BR/RS/Sertão', 'key': 'Sertão', 'lang': 'pt'},
       'BR/RS/Sertão Santana': {
         'id': 'data/BR/RS/Sertão Santana',
         'key': 'Sertão Santana',
@@ -21571,26 +15157,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Silveira Martins',
         'lang': 'pt'
       },
-      'BR/RS/Sinimbu': {
-        'id': 'data/BR/RS/Sinimbu',
-        'key': 'Sinimbu',
-        'lang': 'pt'
-      },
+      'BR/RS/Sinimbu': {'id': 'data/BR/RS/Sinimbu', 'key': 'Sinimbu', 'lang': 'pt'},
       'BR/RS/Sobradinho': {
         'id': 'data/BR/RS/Sobradinho',
         'key': 'Sobradinho',
         'lang': 'pt'
       },
-      'BR/RS/Soledade': {
-        'id': 'data/BR/RS/Soledade',
-        'key': 'Soledade',
-        'lang': 'pt'
-      },
-      'BR/RS/São Borja': {
-        'id': 'data/BR/RS/São Borja',
-        'key': 'São Borja',
-        'lang': 'pt'
-      },
+      'BR/RS/Soledade': {'id': 'data/BR/RS/Soledade', 'key': 'Soledade', 'lang': 'pt'},
+      'BR/RS/São Borja': {'id': 'data/BR/RS/São Borja', 'key': 'São Borja', 'lang': 'pt'},
       'BR/RS/São Domingos do Sul': {
         'id': 'data/BR/RS/São Domingos do Sul',
         'key': 'São Domingos do Sul',
@@ -21616,11 +15190,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Jerônimo',
         'lang': 'pt'
       },
-      'BR/RS/São Jorge': {
-        'id': 'data/BR/RS/São Jorge',
-        'key': 'São Jorge',
-        'lang': 'pt'
-      },
+      'BR/RS/São Jorge': {'id': 'data/BR/RS/São Jorge', 'key': 'São Jorge', 'lang': 'pt'},
       'BR/RS/São José das Missões': {
         'id': 'data/BR/RS/São José das Missões',
         'key': 'São José das Missões',
@@ -21741,11 +15311,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Sebastião do Caí',
         'lang': 'pt'
       },
-      'BR/RS/São Sepé': {
-        'id': 'data/BR/RS/São Sepé',
-        'key': 'São Sepé',
-        'lang': 'pt'
-      },
+      'BR/RS/São Sepé': {'id': 'data/BR/RS/São Sepé', 'key': 'São Sepé', 'lang': 'pt'},
       'BR/RS/São Valentim': {
         'id': 'data/BR/RS/São Valentim',
         'key': 'São Valentim',
@@ -21773,37 +15339,17 @@ Map<String, Map<String, String>> get allJson => {
       },
       'BR/RS/Sério': {'id': 'data/BR/RS/Sério', 'key': 'Sério', 'lang': 'pt'},
       'BR/RS/Tabaí': {'id': 'data/BR/RS/Tabaí', 'key': 'Tabaí', 'lang': 'pt'},
-      'BR/RS/Tapejara': {
-        'id': 'data/BR/RS/Tapejara',
-        'key': 'Tapejara',
-        'lang': 'pt'
-      },
-      'BR/RS/Tapera': {
-        'id': 'data/BR/RS/Tapera',
-        'key': 'Tapera',
-        'lang': 'pt'
-      },
+      'BR/RS/Tapejara': {'id': 'data/BR/RS/Tapejara', 'key': 'Tapejara', 'lang': 'pt'},
+      'BR/RS/Tapera': {'id': 'data/BR/RS/Tapera', 'key': 'Tapera', 'lang': 'pt'},
       'BR/RS/Tapes': {'id': 'data/BR/RS/Tapes', 'key': 'Tapes', 'lang': 'pt'},
-      'BR/RS/Taquara': {
-        'id': 'data/BR/RS/Taquara',
-        'key': 'Taquara',
-        'lang': 'pt'
-      },
-      'BR/RS/Taquari': {
-        'id': 'data/BR/RS/Taquari',
-        'key': 'Taquari',
-        'lang': 'pt'
-      },
+      'BR/RS/Taquara': {'id': 'data/BR/RS/Taquara', 'key': 'Taquara', 'lang': 'pt'},
+      'BR/RS/Taquari': {'id': 'data/BR/RS/Taquari', 'key': 'Taquari', 'lang': 'pt'},
       'BR/RS/Taquaruçu do Sul': {
         'id': 'data/BR/RS/Taquaruçu do Sul',
         'key': 'Taquaruçu do Sul',
         'lang': 'pt'
       },
-      'BR/RS/Tavares': {
-        'id': 'data/BR/RS/Tavares',
-        'key': 'Tavares',
-        'lang': 'pt'
-      },
+      'BR/RS/Tavares': {'id': 'data/BR/RS/Tavares', 'key': 'Tavares', 'lang': 'pt'},
       'BR/RS/Tenente Portela': {
         'id': 'data/BR/RS/Tenente Portela',
         'key': 'Tenente Portela',
@@ -21814,36 +15360,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Terra de Areia',
         'lang': 'pt'
       },
-      'BR/RS/Teutônia': {
-        'id': 'data/BR/RS/Teutônia',
-        'key': 'Teutônia',
-        'lang': 'pt'
-      },
-      'BR/RS/Tio Hugo': {
-        'id': 'data/BR/RS/Tio Hugo',
-        'key': 'Tio Hugo',
-        'lang': 'pt'
-      },
+      'BR/RS/Teutônia': {'id': 'data/BR/RS/Teutônia', 'key': 'Teutônia', 'lang': 'pt'},
+      'BR/RS/Tio Hugo': {'id': 'data/BR/RS/Tio Hugo', 'key': 'Tio Hugo', 'lang': 'pt'},
       'BR/RS/Tiradentes do Sul': {
         'id': 'data/BR/RS/Tiradentes do Sul',
         'key': 'Tiradentes do Sul',
         'lang': 'pt'
       },
-      'BR/RS/Toropi': {
-        'id': 'data/BR/RS/Toropi',
-        'key': 'Toropi',
-        'lang': 'pt'
-      },
-      'BR/RS/Torres': {
-        'id': 'data/BR/RS/Torres',
-        'key': 'Torres',
-        'lang': 'pt'
-      },
-      'BR/RS/Tramandaí': {
-        'id': 'data/BR/RS/Tramandaí',
-        'key': 'Tramandaí',
-        'lang': 'pt'
-      },
+      'BR/RS/Toropi': {'id': 'data/BR/RS/Toropi', 'key': 'Toropi', 'lang': 'pt'},
+      'BR/RS/Torres': {'id': 'data/BR/RS/Torres', 'key': 'Torres', 'lang': 'pt'},
+      'BR/RS/Tramandaí': {'id': 'data/BR/RS/Tramandaí', 'key': 'Tramandaí', 'lang': 'pt'},
       'BR/RS/Travesseiro': {
         'id': 'data/BR/RS/Travesseiro',
         'key': 'Travesseiro',
@@ -21854,11 +15380,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Trindade do Sul',
         'lang': 'pt'
       },
-      'BR/RS/Triunfo': {
-        'id': 'data/BR/RS/Triunfo',
-        'key': 'Triunfo',
-        'lang': 'pt'
-      },
+      'BR/RS/Triunfo': {'id': 'data/BR/RS/Triunfo', 'key': 'Triunfo', 'lang': 'pt'},
       'BR/RS/Três Arroios': {
         'id': 'data/BR/RS/Três Arroios',
         'key': 'Três Arroios',
@@ -21894,11 +15416,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Três de Maio',
         'lang': 'pt'
       },
-      'BR/RS/Tucunduva': {
-        'id': 'data/BR/RS/Tucunduva',
-        'key': 'Tucunduva',
-        'lang': 'pt'
-      },
+      'BR/RS/Tucunduva': {'id': 'data/BR/RS/Tucunduva', 'key': 'Tucunduva', 'lang': 'pt'},
       'BR/RS/Tunas': {'id': 'data/BR/RS/Tunas', 'key': 'Tunas', 'lang': 'pt'},
       'BR/RS/Tupanci do Sul': {
         'id': 'data/BR/RS/Tupanci do Sul',
@@ -21910,31 +15428,11 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Tupanciretã',
         'lang': 'pt'
       },
-      'BR/RS/Tupandi': {
-        'id': 'data/BR/RS/Tupandi',
-        'key': 'Tupandi',
-        'lang': 'pt'
-      },
-      'BR/RS/Tuparendi': {
-        'id': 'data/BR/RS/Tuparendi',
-        'key': 'Tuparendi',
-        'lang': 'pt'
-      },
-      'BR/RS/Turuçu': {
-        'id': 'data/BR/RS/Turuçu',
-        'key': 'Turuçu',
-        'lang': 'pt'
-      },
-      'BR/RS/Ubiretama': {
-        'id': 'data/BR/RS/Ubiretama',
-        'key': 'Ubiretama',
-        'lang': 'pt'
-      },
-      'BR/RS/Unistalda': {
-        'id': 'data/BR/RS/Unistalda',
-        'key': 'Unistalda',
-        'lang': 'pt'
-      },
+      'BR/RS/Tupandi': {'id': 'data/BR/RS/Tupandi', 'key': 'Tupandi', 'lang': 'pt'},
+      'BR/RS/Tuparendi': {'id': 'data/BR/RS/Tuparendi', 'key': 'Tuparendi', 'lang': 'pt'},
+      'BR/RS/Turuçu': {'id': 'data/BR/RS/Turuçu', 'key': 'Turuçu', 'lang': 'pt'},
+      'BR/RS/Ubiretama': {'id': 'data/BR/RS/Ubiretama', 'key': 'Ubiretama', 'lang': 'pt'},
+      'BR/RS/Unistalda': {'id': 'data/BR/RS/Unistalda', 'key': 'Unistalda', 'lang': 'pt'},
       'BR/RS/União da Serra': {
         'id': 'data/BR/RS/União da Serra',
         'key': 'União da Serra',
@@ -21945,16 +15443,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Uruguaiana',
         'lang': 'pt'
       },
-      'BR/RS/Vacaria': {
-        'id': 'data/BR/RS/Vacaria',
-        'key': 'Vacaria',
-        'lang': 'pt'
-      },
-      'BR/RS/Vale Real': {
-        'id': 'data/BR/RS/Vale Real',
-        'key': 'Vale Real',
-        'lang': 'pt'
-      },
+      'BR/RS/Vacaria': {'id': 'data/BR/RS/Vacaria', 'key': 'Vacaria', 'lang': 'pt'},
+      'BR/RS/Vale Real': {'id': 'data/BR/RS/Vale Real', 'key': 'Vale Real', 'lang': 'pt'},
       'BR/RS/Vale Verde': {
         'id': 'data/BR/RS/Vale Verde',
         'key': 'Vale Verde',
@@ -21965,21 +15455,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Vale do Sol',
         'lang': 'pt'
       },
-      'BR/RS/Vanini': {
-        'id': 'data/BR/RS/Vanini',
-        'key': 'Vanini',
-        'lang': 'pt'
-      },
+      'BR/RS/Vanini': {'id': 'data/BR/RS/Vanini', 'key': 'Vanini', 'lang': 'pt'},
       'BR/RS/Venâncio Aires': {
         'id': 'data/BR/RS/Venâncio Aires',
         'key': 'Venâncio Aires',
         'lang': 'pt'
       },
-      'BR/RS/Vera Cruz': {
-        'id': 'data/BR/RS/Vera Cruz',
-        'key': 'Vera Cruz',
-        'lang': 'pt'
-      },
+      'BR/RS/Vera Cruz': {'id': 'data/BR/RS/Vera Cruz', 'key': 'Vera Cruz', 'lang': 'pt'},
       'BR/RS/Veranópolis': {
         'id': 'data/BR/RS/Veranópolis',
         'key': 'Veranópolis',
@@ -21990,16 +15472,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Vespasiano Correa',
         'lang': 'pt'
       },
-      'BR/RS/Viadutos': {
-        'id': 'data/BR/RS/Viadutos',
-        'key': 'Viadutos',
-        'lang': 'pt'
-      },
-      'BR/RS/Viamão': {
-        'id': 'data/BR/RS/Viamão',
-        'key': 'Viamão',
-        'lang': 'pt'
-      },
+      'BR/RS/Viadutos': {'id': 'data/BR/RS/Viadutos', 'key': 'Viadutos', 'lang': 'pt'},
+      'BR/RS/Viamão': {'id': 'data/BR/RS/Viamão', 'key': 'Viamão', 'lang': 'pt'},
       'BR/RS/Vicente Dutra': {
         'id': 'data/BR/RS/Vicente Dutra',
         'key': 'Vicente Dutra',
@@ -22050,16 +15524,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Vitória das Missões',
         'lang': 'pt'
       },
-      'BR/RS/Westfalia': {
-        'id': 'data/BR/RS/Westfalia',
-        'key': 'Westfalia',
-        'lang': 'pt'
-      },
-      'BR/RS/Xangri-lá': {
-        'id': 'data/BR/RS/Xangri-lá',
-        'key': 'Xangri-lá',
-        'lang': 'pt'
-      },
+      'BR/RS/Westfalia': {'id': 'data/BR/RS/Westfalia', 'key': 'Westfalia', 'lang': 'pt'},
+      'BR/RS/Xangri-lá': {'id': 'data/BR/RS/Xangri-lá', 'key': 'Xangri-lá', 'lang': 'pt'},
       'BR/RS/Água Santa': {
         'id': 'data/BR/RS/Água Santa',
         'key': 'Água Santa',
@@ -22106,16 +15572,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alto Bela Vista',
         'lang': 'pt'
       },
-      'BR/SC/Anchieta': {
-        'id': 'data/BR/SC/Anchieta',
-        'key': 'Anchieta',
-        'lang': 'pt'
-      },
-      'BR/SC/Angelina': {
-        'id': 'data/BR/SC/Angelina',
-        'key': 'Angelina',
-        'lang': 'pt'
-      },
+      'BR/SC/Anchieta': {'id': 'data/BR/SC/Anchieta', 'key': 'Anchieta', 'lang': 'pt'},
+      'BR/SC/Angelina': {'id': 'data/BR/SC/Angelina', 'key': 'Angelina', 'lang': 'pt'},
       'BR/SC/Anita Garibaldi': {
         'id': 'data/BR/SC/Anita Garibaldi',
         'key': 'Anita Garibaldi',
@@ -22131,56 +15589,20 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Antônio Carlos',
         'lang': 'pt'
       },
-      'BR/SC/Apiúna': {
-        'id': 'data/BR/SC/Apiúna',
-        'key': 'Apiúna',
-        'lang': 'pt'
-      },
-      'BR/SC/Arabutã': {
-        'id': 'data/BR/SC/Arabutã',
-        'key': 'Arabutã',
-        'lang': 'pt'
-      },
-      'BR/SC/Araquari': {
-        'id': 'data/BR/SC/Araquari',
-        'key': 'Araquari',
-        'lang': 'pt'
-      },
-      'BR/SC/Araranguá': {
-        'id': 'data/BR/SC/Araranguá',
-        'key': 'Araranguá',
-        'lang': 'pt'
-      },
-      'BR/SC/Armazém': {
-        'id': 'data/BR/SC/Armazém',
-        'key': 'Armazém',
-        'lang': 'pt'
-      },
+      'BR/SC/Apiúna': {'id': 'data/BR/SC/Apiúna', 'key': 'Apiúna', 'lang': 'pt'},
+      'BR/SC/Arabutã': {'id': 'data/BR/SC/Arabutã', 'key': 'Arabutã', 'lang': 'pt'},
+      'BR/SC/Araquari': {'id': 'data/BR/SC/Araquari', 'key': 'Araquari', 'lang': 'pt'},
+      'BR/SC/Araranguá': {'id': 'data/BR/SC/Araranguá', 'key': 'Araranguá', 'lang': 'pt'},
+      'BR/SC/Armazém': {'id': 'data/BR/SC/Armazém', 'key': 'Armazém', 'lang': 'pt'},
       'BR/SC/Arroio Trinta': {
         'id': 'data/BR/SC/Arroio Trinta',
         'key': 'Arroio Trinta',
         'lang': 'pt'
       },
-      'BR/SC/Arvoredo': {
-        'id': 'data/BR/SC/Arvoredo',
-        'key': 'Arvoredo',
-        'lang': 'pt'
-      },
-      'BR/SC/Ascurra': {
-        'id': 'data/BR/SC/Ascurra',
-        'key': 'Ascurra',
-        'lang': 'pt'
-      },
-      'BR/SC/Atalanta': {
-        'id': 'data/BR/SC/Atalanta',
-        'key': 'Atalanta',
-        'lang': 'pt'
-      },
-      'BR/SC/Aurora': {
-        'id': 'data/BR/SC/Aurora',
-        'key': 'Aurora',
-        'lang': 'pt'
-      },
+      'BR/SC/Arvoredo': {'id': 'data/BR/SC/Arvoredo', 'key': 'Arvoredo', 'lang': 'pt'},
+      'BR/SC/Ascurra': {'id': 'data/BR/SC/Ascurra', 'key': 'Ascurra', 'lang': 'pt'},
+      'BR/SC/Atalanta': {'id': 'data/BR/SC/Atalanta', 'key': 'Atalanta', 'lang': 'pt'},
+      'BR/SC/Aurora': {'id': 'data/BR/SC/Aurora', 'key': 'Aurora', 'lang': 'pt'},
       'BR/SC/Balneário Arroio do Silva': {
         'id': 'data/BR/SC/Balneário Arroio do Silva',
         'key': 'Balneário Arroio do Silva',
@@ -22226,26 +15648,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bela Vista do Toldo',
         'lang': 'pt'
       },
-      'BR/SC/Belmonte': {
-        'id': 'data/BR/SC/Belmonte',
-        'key': 'Belmonte',
-        'lang': 'pt'
-      },
+      'BR/SC/Belmonte': {'id': 'data/BR/SC/Belmonte', 'key': 'Belmonte', 'lang': 'pt'},
       'BR/SC/Benedito Novo': {
         'id': 'data/BR/SC/Benedito Novo',
         'key': 'Benedito Novo',
         'lang': 'pt'
       },
-      'BR/SC/Biguaçu': {
-        'id': 'data/BR/SC/Biguaçu',
-        'key': 'Biguaçu',
-        'lang': 'pt'
-      },
-      'BR/SC/Blumenau': {
-        'id': 'data/BR/SC/Blumenau',
-        'key': 'Blumenau',
-        'lang': 'pt'
-      },
+      'BR/SC/Biguaçu': {'id': 'data/BR/SC/Biguaçu', 'key': 'Biguaçu', 'lang': 'pt'},
+      'BR/SC/Blumenau': {'id': 'data/BR/SC/Blumenau', 'key': 'Blumenau', 'lang': 'pt'},
       'BR/SC/Bocaina do Sul': {
         'id': 'data/BR/SC/Bocaina do Sul',
         'key': 'Bocaina do Sul',
@@ -22256,11 +15666,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bom Jardim da Serra',
         'lang': 'pt'
       },
-      'BR/SC/Bom Jesus': {
-        'id': 'data/BR/SC/Bom Jesus',
-        'key': 'Bom Jesus',
-        'lang': 'pt'
-      },
+      'BR/SC/Bom Jesus': {'id': 'data/BR/SC/Bom Jesus', 'key': 'Bom Jesus', 'lang': 'pt'},
       'BR/SC/Bom Jesus do Oeste': {
         'id': 'data/BR/SC/Bom Jesus do Oeste',
         'key': 'Bom Jesus do Oeste',
@@ -22271,16 +15677,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bom Retiro',
         'lang': 'pt'
       },
-      'BR/SC/Bombinhas': {
-        'id': 'data/BR/SC/Bombinhas',
-        'key': 'Bombinhas',
-        'lang': 'pt'
-      },
-      'BR/SC/Botuverá': {
-        'id': 'data/BR/SC/Botuverá',
-        'key': 'Botuverá',
-        'lang': 'pt'
-      },
+      'BR/SC/Bombinhas': {'id': 'data/BR/SC/Bombinhas', 'key': 'Bombinhas', 'lang': 'pt'},
+      'BR/SC/Botuverá': {'id': 'data/BR/SC/Botuverá', 'key': 'Botuverá', 'lang': 'pt'},
       'BR/SC/Braço do Norte': {
         'id': 'data/BR/SC/Braço do Norte',
         'key': 'Braço do Norte',
@@ -22296,22 +15694,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Brunópolis',
         'lang': 'pt'
       },
-      'BR/SC/Brusque': {
-        'id': 'data/BR/SC/Brusque',
-        'key': 'Brusque',
-        'lang': 'pt'
-      },
+      'BR/SC/Brusque': {'id': 'data/BR/SC/Brusque', 'key': 'Brusque', 'lang': 'pt'},
       'BR/SC/Caibi': {'id': 'data/BR/SC/Caibi', 'key': 'Caibi', 'lang': 'pt'},
-      'BR/SC/Calmon': {
-        'id': 'data/BR/SC/Calmon',
-        'key': 'Calmon',
-        'lang': 'pt'
-      },
-      'BR/SC/Camboriú': {
-        'id': 'data/BR/SC/Camboriú',
-        'key': 'Camboriú',
-        'lang': 'pt'
-      },
+      'BR/SC/Calmon': {'id': 'data/BR/SC/Calmon', 'key': 'Calmon', 'lang': 'pt'},
+      'BR/SC/Camboriú': {'id': 'data/BR/SC/Camboriú', 'key': 'Camboriú', 'lang': 'pt'},
       'BR/SC/Campo Alegre': {
         'id': 'data/BR/SC/Campo Alegre',
         'key': 'Campo Alegre',
@@ -22322,31 +15708,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Campo Belo do Sul',
         'lang': 'pt'
       },
-      'BR/SC/Campo Erê': {
-        'id': 'data/BR/SC/Campo Erê',
-        'key': 'Campo Erê',
-        'lang': 'pt'
-      },
+      'BR/SC/Campo Erê': {'id': 'data/BR/SC/Campo Erê', 'key': 'Campo Erê', 'lang': 'pt'},
       'BR/SC/Campos Novos': {
         'id': 'data/BR/SC/Campos Novos',
         'key': 'Campos Novos',
         'lang': 'pt'
       },
-      'BR/SC/Canelinha': {
-        'id': 'data/BR/SC/Canelinha',
-        'key': 'Canelinha',
-        'lang': 'pt'
-      },
-      'BR/SC/Canoinhas': {
-        'id': 'data/BR/SC/Canoinhas',
-        'key': 'Canoinhas',
-        'lang': 'pt'
-      },
-      'BR/SC/Capinzal': {
-        'id': 'data/BR/SC/Capinzal',
-        'key': 'Capinzal',
-        'lang': 'pt'
-      },
+      'BR/SC/Canelinha': {'id': 'data/BR/SC/Canelinha', 'key': 'Canelinha', 'lang': 'pt'},
+      'BR/SC/Canoinhas': {'id': 'data/BR/SC/Canoinhas', 'key': 'Canoinhas', 'lang': 'pt'},
+      'BR/SC/Capinzal': {'id': 'data/BR/SC/Capinzal', 'key': 'Capinzal', 'lang': 'pt'},
       'BR/SC/Capivari de Baixo': {
         'id': 'data/BR/SC/Capivari de Baixo',
         'key': 'Capivari de Baixo',
@@ -22367,11 +15737,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Caxambu do Sul',
         'lang': 'pt'
       },
-      'BR/SC/Caçador': {
-        'id': 'data/BR/SC/Caçador',
-        'key': 'Caçador',
-        'lang': 'pt'
-      },
+      'BR/SC/Caçador': {'id': 'data/BR/SC/Caçador', 'key': 'Caçador', 'lang': 'pt'},
       'BR/SC/Celso Ramos': {
         'id': 'data/BR/SC/Celso Ramos',
         'key': 'Celso Ramos',
@@ -22387,21 +15753,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Chapadão do Lageado',
         'lang': 'pt'
       },
-      'BR/SC/Chapecó': {
-        'id': 'data/BR/SC/Chapecó',
-        'key': 'Chapecó',
-        'lang': 'pt'
-      },
+      'BR/SC/Chapecó': {'id': 'data/BR/SC/Chapecó', 'key': 'Chapecó', 'lang': 'pt'},
       'BR/SC/Cocal do Sul': {
         'id': 'data/BR/SC/Cocal do Sul',
         'key': 'Cocal do Sul',
         'lang': 'pt'
       },
-      'BR/SC/Concórdia': {
-        'id': 'data/BR/SC/Concórdia',
-        'key': 'Concórdia',
-        'lang': 'pt'
-      },
+      'BR/SC/Concórdia': {'id': 'data/BR/SC/Concórdia', 'key': 'Concórdia', 'lang': 'pt'},
       'BR/SC/Cordilheira Alta': {
         'id': 'data/BR/SC/Cordilheira Alta',
         'key': 'Cordilheira Alta',
@@ -22422,46 +15780,26 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Correia Pinto',
         'lang': 'pt'
       },
-      'BR/SC/Corupá': {
-        'id': 'data/BR/SC/Corupá',
-        'key': 'Corupá',
-        'lang': 'pt'
-      },
-      'BR/SC/Criciúma': {
-        'id': 'data/BR/SC/Criciúma',
-        'key': 'Criciúma',
-        'lang': 'pt'
-      },
+      'BR/SC/Corupá': {'id': 'data/BR/SC/Corupá', 'key': 'Corupá', 'lang': 'pt'},
+      'BR/SC/Criciúma': {'id': 'data/BR/SC/Criciúma', 'key': 'Criciúma', 'lang': 'pt'},
       'BR/SC/Cunha Porã': {
         'id': 'data/BR/SC/Cunha Porã',
         'key': 'Cunha Porã',
         'lang': 'pt'
       },
-      'BR/SC/Cunhataí': {
-        'id': 'data/BR/SC/Cunhataí',
-        'key': 'Cunhataí',
-        'lang': 'pt'
-      },
+      'BR/SC/Cunhataí': {'id': 'data/BR/SC/Cunhataí', 'key': 'Cunhataí', 'lang': 'pt'},
       'BR/SC/Curitibanos': {
         'id': 'data/BR/SC/Curitibanos',
         'key': 'Curitibanos',
         'lang': 'pt'
       },
-      'BR/SC/Descanso': {
-        'id': 'data/BR/SC/Descanso',
-        'key': 'Descanso',
-        'lang': 'pt'
-      },
+      'BR/SC/Descanso': {'id': 'data/BR/SC/Descanso', 'key': 'Descanso', 'lang': 'pt'},
       'BR/SC/Dionísio Cerqueira': {
         'id': 'data/BR/SC/Dionísio Cerqueira',
         'key': 'Dionísio Cerqueira',
         'lang': 'pt'
       },
-      'BR/SC/Dona Emma': {
-        'id': 'data/BR/SC/Dona Emma',
-        'key': 'Dona Emma',
-        'lang': 'pt'
-      },
+      'BR/SC/Dona Emma': {'id': 'data/BR/SC/Dona Emma', 'key': 'Dona Emma', 'lang': 'pt'},
       'BR/SC/Doutor Pedrinho': {
         'id': 'data/BR/SC/Doutor Pedrinho',
         'key': 'Doutor Pedrinho',
@@ -22503,56 +15841,24 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Forquilhinha',
         'lang': 'pt'
       },
-      'BR/SC/Fraiburgo': {
-        'id': 'data/BR/SC/Fraiburgo',
-        'key': 'Fraiburgo',
-        'lang': 'pt'
-      },
+      'BR/SC/Fraiburgo': {'id': 'data/BR/SC/Fraiburgo', 'key': 'Fraiburgo', 'lang': 'pt'},
       'BR/SC/Frei Rogério': {
         'id': 'data/BR/SC/Frei Rogério',
         'key': 'Frei Rogério',
         'lang': 'pt'
       },
-      'BR/SC/Galvão': {
-        'id': 'data/BR/SC/Galvão',
-        'key': 'Galvão',
-        'lang': 'pt'
-      },
-      'BR/SC/Garopaba': {
-        'id': 'data/BR/SC/Garopaba',
-        'key': 'Garopaba',
-        'lang': 'pt'
-      },
-      'BR/SC/Garuva': {
-        'id': 'data/BR/SC/Garuva',
-        'key': 'Garuva',
-        'lang': 'pt'
-      },
-      'BR/SC/Gaspar': {
-        'id': 'data/BR/SC/Gaspar',
-        'key': 'Gaspar',
-        'lang': 'pt'
-      },
+      'BR/SC/Galvão': {'id': 'data/BR/SC/Galvão', 'key': 'Galvão', 'lang': 'pt'},
+      'BR/SC/Garopaba': {'id': 'data/BR/SC/Garopaba', 'key': 'Garopaba', 'lang': 'pt'},
+      'BR/SC/Garuva': {'id': 'data/BR/SC/Garuva', 'key': 'Garuva', 'lang': 'pt'},
+      'BR/SC/Gaspar': {'id': 'data/BR/SC/Gaspar', 'key': 'Gaspar', 'lang': 'pt'},
       'BR/SC/Governador Celso Ramos': {
         'id': 'data/BR/SC/Governador Celso Ramos',
         'key': 'Governador Celso Ramos',
         'lang': 'pt'
       },
-      'BR/SC/Gravatal': {
-        'id': 'data/BR/SC/Gravatal',
-        'key': 'Gravatal',
-        'lang': 'pt'
-      },
-      'BR/SC/Grão Pará': {
-        'id': 'data/BR/SC/Grão Pará',
-        'key': 'Grão Pará',
-        'lang': 'pt'
-      },
-      'BR/SC/Guabiruba': {
-        'id': 'data/BR/SC/Guabiruba',
-        'key': 'Guabiruba',
-        'lang': 'pt'
-      },
+      'BR/SC/Gravatal': {'id': 'data/BR/SC/Gravatal', 'key': 'Gravatal', 'lang': 'pt'},
+      'BR/SC/Grão Pará': {'id': 'data/BR/SC/Grão Pará', 'key': 'Grão Pará', 'lang': 'pt'},
+      'BR/SC/Guabiruba': {'id': 'data/BR/SC/Guabiruba', 'key': 'Guabiruba', 'lang': 'pt'},
       'BR/SC/Guaraciaba': {
         'id': 'data/BR/SC/Guaraciaba',
         'key': 'Guaraciaba',
@@ -22568,73 +15874,29 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Guarujá do Sul',
         'lang': 'pt'
       },
-      'BR/SC/Guatambú': {
-        'id': 'data/BR/SC/Guatambú',
-        'key': 'Guatambú',
-        'lang': 'pt'
-      },
+      'BR/SC/Guatambú': {'id': 'data/BR/SC/Guatambú', 'key': 'Guatambú', 'lang': 'pt'},
       "BR/SC/Herval d'Oeste": {
         'id': "data/BR/SC/Herval d'Oeste",
         'key': "Herval d'Oeste",
         'lang': 'pt'
       },
       'BR/SC/Ibiam': {'id': 'data/BR/SC/Ibiam', 'key': 'Ibiam', 'lang': 'pt'},
-      'BR/SC/Ibicaré': {
-        'id': 'data/BR/SC/Ibicaré',
-        'key': 'Ibicaré',
-        'lang': 'pt'
-      },
-      'BR/SC/Ibirama': {
-        'id': 'data/BR/SC/Ibirama',
-        'key': 'Ibirama',
-        'lang': 'pt'
-      },
-      'BR/SC/Ilhota': {
-        'id': 'data/BR/SC/Ilhota',
-        'key': 'Ilhota',
-        'lang': 'pt'
-      },
-      'BR/SC/Imaruí': {
-        'id': 'data/BR/SC/Imaruí',
-        'key': 'Imaruí',
-        'lang': 'pt'
-      },
-      'BR/SC/Imbituba': {
-        'id': 'data/BR/SC/Imbituba',
-        'key': 'Imbituba',
-        'lang': 'pt'
-      },
-      'BR/SC/Imbuia': {
-        'id': 'data/BR/SC/Imbuia',
-        'key': 'Imbuia',
-        'lang': 'pt'
-      },
-      'BR/SC/Indaial': {
-        'id': 'data/BR/SC/Indaial',
-        'key': 'Indaial',
-        'lang': 'pt'
-      },
-      'BR/SC/Iomerê': {
-        'id': 'data/BR/SC/Iomerê',
-        'key': 'Iomerê',
-        'lang': 'pt'
-      },
+      'BR/SC/Ibicaré': {'id': 'data/BR/SC/Ibicaré', 'key': 'Ibicaré', 'lang': 'pt'},
+      'BR/SC/Ibirama': {'id': 'data/BR/SC/Ibirama', 'key': 'Ibirama', 'lang': 'pt'},
+      'BR/SC/Ilhota': {'id': 'data/BR/SC/Ilhota', 'key': 'Ilhota', 'lang': 'pt'},
+      'BR/SC/Imaruí': {'id': 'data/BR/SC/Imaruí', 'key': 'Imaruí', 'lang': 'pt'},
+      'BR/SC/Imbituba': {'id': 'data/BR/SC/Imbituba', 'key': 'Imbituba', 'lang': 'pt'},
+      'BR/SC/Imbuia': {'id': 'data/BR/SC/Imbuia', 'key': 'Imbuia', 'lang': 'pt'},
+      'BR/SC/Indaial': {'id': 'data/BR/SC/Indaial', 'key': 'Indaial', 'lang': 'pt'},
+      'BR/SC/Iomerê': {'id': 'data/BR/SC/Iomerê', 'key': 'Iomerê', 'lang': 'pt'},
       'BR/SC/Ipirá': {'id': 'data/BR/SC/Ipirá', 'key': 'Ipirá', 'lang': 'pt'},
       'BR/SC/Iporã do Oeste': {
         'id': 'data/BR/SC/Iporã do Oeste',
         'key': 'Iporã do Oeste',
         'lang': 'pt'
       },
-      'BR/SC/Ipuaçu': {
-        'id': 'data/BR/SC/Ipuaçu',
-        'key': 'Ipuaçu',
-        'lang': 'pt'
-      },
-      'BR/SC/Ipumirim': {
-        'id': 'data/BR/SC/Ipumirim',
-        'key': 'Ipumirim',
-        'lang': 'pt'
-      },
+      'BR/SC/Ipuaçu': {'id': 'data/BR/SC/Ipuaçu', 'key': 'Ipuaçu', 'lang': 'pt'},
+      'BR/SC/Ipumirim': {'id': 'data/BR/SC/Ipumirim', 'key': 'Ipumirim', 'lang': 'pt'},
       'BR/SC/Iraceminha': {
         'id': 'data/BR/SC/Iraceminha',
         'key': 'Iraceminha',
@@ -22652,26 +15914,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Itaiópolis',
         'lang': 'pt'
       },
-      'BR/SC/Itajaí': {
-        'id': 'data/BR/SC/Itajaí',
-        'key': 'Itajaí',
-        'lang': 'pt'
-      },
-      'BR/SC/Itapema': {
-        'id': 'data/BR/SC/Itapema',
-        'key': 'Itapema',
-        'lang': 'pt'
-      },
+      'BR/SC/Itajaí': {'id': 'data/BR/SC/Itajaí', 'key': 'Itajaí', 'lang': 'pt'},
+      'BR/SC/Itapema': {'id': 'data/BR/SC/Itapema', 'key': 'Itapema', 'lang': 'pt'},
       'BR/SC/Itapiranga': {
         'id': 'data/BR/SC/Itapiranga',
         'key': 'Itapiranga',
         'lang': 'pt'
       },
-      'BR/SC/Itapoá': {
-        'id': 'data/BR/SC/Itapoá',
-        'key': 'Itapoá',
-        'lang': 'pt'
-      },
+      'BR/SC/Itapoá': {'id': 'data/BR/SC/Itapoá', 'key': 'Itapoá', 'lang': 'pt'},
       'BR/SC/Ituporanga': {
         'id': 'data/BR/SC/Ituporanga',
         'key': 'Ituporanga',
@@ -22679,21 +15929,13 @@ Map<String, Map<String, String>> get allJson => {
       },
       'BR/SC/Itá': {'id': 'data/BR/SC/Itá', 'key': 'Itá', 'lang': 'pt'},
       'BR/SC/Içara': {'id': 'data/BR/SC/Içara', 'key': 'Içara', 'lang': 'pt'},
-      'BR/SC/Jaborá': {
-        'id': 'data/BR/SC/Jaborá',
-        'key': 'Jaborá',
-        'lang': 'pt'
-      },
+      'BR/SC/Jaborá': {'id': 'data/BR/SC/Jaborá', 'key': 'Jaborá', 'lang': 'pt'},
       'BR/SC/Jacinto Machado': {
         'id': 'data/BR/SC/Jacinto Machado',
         'key': 'Jacinto Machado',
         'lang': 'pt'
       },
-      'BR/SC/Jaguaruna': {
-        'id': 'data/BR/SC/Jaguaruna',
-        'key': 'Jaguaruna',
-        'lang': 'pt'
-      },
+      'BR/SC/Jaguaruna': {'id': 'data/BR/SC/Jaguaruna', 'key': 'Jaguaruna', 'lang': 'pt'},
       'BR/SC/Jaraguá do Sul': {
         'id': 'data/BR/SC/Jaraguá do Sul',
         'key': 'Jaraguá do Sul',
@@ -22704,16 +15946,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Jardinópolis',
         'lang': 'pt'
       },
-      'BR/SC/Joaçaba': {
-        'id': 'data/BR/SC/Joaçaba',
-        'key': 'Joaçaba',
-        'lang': 'pt'
-      },
-      'BR/SC/Joinville': {
-        'id': 'data/BR/SC/Joinville',
-        'key': 'Joinville',
-        'lang': 'pt'
-      },
+      'BR/SC/Joaçaba': {'id': 'data/BR/SC/Joaçaba', 'key': 'Joaçaba', 'lang': 'pt'},
+      'BR/SC/Joinville': {'id': 'data/BR/SC/Joinville', 'key': 'Joinville', 'lang': 'pt'},
       'BR/SC/José Boiteux': {
         'id': 'data/BR/SC/José Boiteux',
         'key': 'José Boiteux',
@@ -22726,11 +15960,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/SC/Lages': {'id': 'data/BR/SC/Lages', 'key': 'Lages', 'lang': 'pt'},
-      'BR/SC/Laguna': {
-        'id': 'data/BR/SC/Laguna',
-        'key': 'Laguna',
-        'lang': 'pt'
-      },
+      'BR/SC/Laguna': {'id': 'data/BR/SC/Laguna', 'key': 'Laguna', 'lang': 'pt'},
       'BR/SC/Lajeado Grande': {
         'id': 'data/BR/SC/Lajeado Grande',
         'key': 'Lajeado Grande',
@@ -22761,26 +15991,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Lindóia do Sul',
         'lang': 'pt'
       },
-      'BR/SC/Lontras': {
-        'id': 'data/BR/SC/Lontras',
-        'key': 'Lontras',
-        'lang': 'pt'
-      },
+      'BR/SC/Lontras': {'id': 'data/BR/SC/Lontras', 'key': 'Lontras', 'lang': 'pt'},
       'BR/SC/Luiz Alves': {
         'id': 'data/BR/SC/Luiz Alves',
         'key': 'Luiz Alves',
         'lang': 'pt'
       },
-      'BR/SC/Luzerna': {
-        'id': 'data/BR/SC/Luzerna',
-        'key': 'Luzerna',
-        'lang': 'pt'
-      },
-      'BR/SC/Macieira': {
-        'id': 'data/BR/SC/Macieira',
-        'key': 'Macieira',
-        'lang': 'pt'
-      },
+      'BR/SC/Luzerna': {'id': 'data/BR/SC/Luzerna', 'key': 'Luzerna', 'lang': 'pt'},
+      'BR/SC/Macieira': {'id': 'data/BR/SC/Macieira', 'key': 'Macieira', 'lang': 'pt'},
       'BR/SC/Mafra': {'id': 'data/BR/SC/Mafra', 'key': 'Mafra', 'lang': 'pt'},
       'BR/SC/Major Gercino': {
         'id': 'data/BR/SC/Major Gercino',
@@ -22792,21 +16010,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Major Vieira',
         'lang': 'pt'
       },
-      'BR/SC/Maracajá': {
-        'id': 'data/BR/SC/Maracajá',
-        'key': 'Maracajá',
-        'lang': 'pt'
-      },
-      'BR/SC/Maravilha': {
-        'id': 'data/BR/SC/Maravilha',
-        'key': 'Maravilha',
-        'lang': 'pt'
-      },
-      'BR/SC/Marema': {
-        'id': 'data/BR/SC/Marema',
-        'key': 'Marema',
-        'lang': 'pt'
-      },
+      'BR/SC/Maracajá': {'id': 'data/BR/SC/Maracajá', 'key': 'Maracajá', 'lang': 'pt'},
+      'BR/SC/Maravilha': {'id': 'data/BR/SC/Maravilha', 'key': 'Maravilha', 'lang': 'pt'},
+      'BR/SC/Marema': {'id': 'data/BR/SC/Marema', 'key': 'Marema', 'lang': 'pt'},
       'BR/SC/Massaranduba': {
         'id': 'data/BR/SC/Massaranduba',
         'key': 'Massaranduba',
@@ -22817,26 +16023,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Matos Costa',
         'lang': 'pt'
       },
-      'BR/SC/Meleiro': {
-        'id': 'data/BR/SC/Meleiro',
-        'key': 'Meleiro',
-        'lang': 'pt'
-      },
+      'BR/SC/Meleiro': {'id': 'data/BR/SC/Meleiro', 'key': 'Meleiro', 'lang': 'pt'},
       'BR/SC/Mirim Doce': {
         'id': 'data/BR/SC/Mirim Doce',
         'key': 'Mirim Doce',
         'lang': 'pt'
       },
-      'BR/SC/Modelo': {
-        'id': 'data/BR/SC/Modelo',
-        'key': 'Modelo',
-        'lang': 'pt'
-      },
-      'BR/SC/Mondaí': {
-        'id': 'data/BR/SC/Mondaí',
-        'key': 'Mondaí',
-        'lang': 'pt'
-      },
+      'BR/SC/Modelo': {'id': 'data/BR/SC/Modelo', 'key': 'Modelo', 'lang': 'pt'},
+      'BR/SC/Mondaí': {'id': 'data/BR/SC/Mondaí', 'key': 'Mondaí', 'lang': 'pt'},
       'BR/SC/Monte Carlo': {
         'id': 'data/BR/SC/Monte Carlo',
         'key': 'Monte Carlo',
@@ -22887,11 +16081,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Novo Horizonte',
         'lang': 'pt'
       },
-      'BR/SC/Orléans': {
-        'id': 'data/BR/SC/Orléans',
-        'key': 'Orléans',
-        'lang': 'pt'
-      },
+      'BR/SC/Orléans': {'id': 'data/BR/SC/Orléans', 'key': 'Orléans', 'lang': 'pt'},
       'BR/SC/Otacílio Costa': {
         'id': 'data/BR/SC/Otacílio Costa',
         'key': 'Otacílio Costa',
@@ -22904,41 +16094,17 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/SC/Paial': {'id': 'data/BR/SC/Paial', 'key': 'Paial', 'lang': 'pt'},
-      'BR/SC/Painel': {
-        'id': 'data/BR/SC/Painel',
-        'key': 'Painel',
-        'lang': 'pt'
-      },
-      'BR/SC/Palhoça': {
-        'id': 'data/BR/SC/Palhoça',
-        'key': 'Palhoça',
-        'lang': 'pt'
-      },
+      'BR/SC/Painel': {'id': 'data/BR/SC/Painel', 'key': 'Painel', 'lang': 'pt'},
+      'BR/SC/Palhoça': {'id': 'data/BR/SC/Palhoça', 'key': 'Palhoça', 'lang': 'pt'},
       'BR/SC/Palma Sola': {
         'id': 'data/BR/SC/Palma Sola',
         'key': 'Palma Sola',
         'lang': 'pt'
       },
-      'BR/SC/Palmeira': {
-        'id': 'data/BR/SC/Palmeira',
-        'key': 'Palmeira',
-        'lang': 'pt'
-      },
-      'BR/SC/Palmitos': {
-        'id': 'data/BR/SC/Palmitos',
-        'key': 'Palmitos',
-        'lang': 'pt'
-      },
-      'BR/SC/Papanduva': {
-        'id': 'data/BR/SC/Papanduva',
-        'key': 'Papanduva',
-        'lang': 'pt'
-      },
-      'BR/SC/Paraiso': {
-        'id': 'data/BR/SC/Paraiso',
-        'key': 'Paraiso',
-        'lang': 'pt'
-      },
+      'BR/SC/Palmeira': {'id': 'data/BR/SC/Palmeira', 'key': 'Palmeira', 'lang': 'pt'},
+      'BR/SC/Palmitos': {'id': 'data/BR/SC/Palmitos', 'key': 'Palmitos', 'lang': 'pt'},
+      'BR/SC/Papanduva': {'id': 'data/BR/SC/Papanduva', 'key': 'Papanduva', 'lang': 'pt'},
+      'BR/SC/Paraiso': {'id': 'data/BR/SC/Paraiso', 'key': 'Paraiso', 'lang': 'pt'},
       'BR/SC/Passo de Torres': {
         'id': 'data/BR/SC/Passo de Torres',
         'key': 'Passo de Torres',
@@ -22960,11 +16126,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/SC/Penha': {'id': 'data/BR/SC/Penha', 'key': 'Penha', 'lang': 'pt'},
-      'BR/SC/Peritiba': {
-        'id': 'data/BR/SC/Peritiba',
-        'key': 'Peritiba',
-        'lang': 'pt'
-      },
+      'BR/SC/Peritiba': {'id': 'data/BR/SC/Peritiba', 'key': 'Peritiba', 'lang': 'pt'},
       'BR/SC/Pescaria Brava': {
         'id': 'data/BR/SC/Pescaria Brava',
         'key': 'Pescaria Brava',
@@ -22985,26 +16147,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pinheiro Preto',
         'lang': 'pt'
       },
-      'BR/SC/Piratuba': {
-        'id': 'data/BR/SC/Piratuba',
-        'key': 'Piratuba',
-        'lang': 'pt'
-      },
-      'BR/SC/Piçarras': {
-        'id': 'data/BR/SC/Piçarras',
-        'key': 'Piçarras',
-        'lang': 'pt'
-      },
+      'BR/SC/Piratuba': {'id': 'data/BR/SC/Piratuba', 'key': 'Piratuba', 'lang': 'pt'},
+      'BR/SC/Piçarras': {'id': 'data/BR/SC/Piçarras', 'key': 'Piçarras', 'lang': 'pt'},
       'BR/SC/Planalto Alegre': {
         'id': 'data/BR/SC/Planalto Alegre',
         'key': 'Planalto Alegre',
         'lang': 'pt'
       },
-      'BR/SC/Pomerode': {
-        'id': 'data/BR/SC/Pomerode',
-        'key': 'Pomerode',
-        'lang': 'pt'
-      },
+      'BR/SC/Pomerode': {'id': 'data/BR/SC/Pomerode', 'key': 'Pomerode', 'lang': 'pt'},
       'BR/SC/Ponte Alta': {
         'id': 'data/BR/SC/Ponte Alta',
         'key': 'Ponte Alta',
@@ -23055,16 +16205,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Presidente Nereu',
         'lang': 'pt'
       },
-      'BR/SC/Princesa': {
-        'id': 'data/BR/SC/Princesa',
-        'key': 'Princesa',
-        'lang': 'pt'
-      },
-      'BR/SC/Quilombo': {
-        'id': 'data/BR/SC/Quilombo',
-        'key': 'Quilombo',
-        'lang': 'pt'
-      },
+      'BR/SC/Princesa': {'id': 'data/BR/SC/Princesa', 'key': 'Princesa', 'lang': 'pt'},
+      'BR/SC/Quilombo': {'id': 'data/BR/SC/Quilombo', 'key': 'Quilombo', 'lang': 'pt'},
       'BR/SC/Rancho Queimado': {
         'id': 'data/BR/SC/Rancho Queimado',
         'key': 'Rancho Queimado',
@@ -23110,41 +16252,21 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Rio dos Cedros',
         'lang': 'pt'
       },
-      'BR/SC/Riqueza': {
-        'id': 'data/BR/SC/Riqueza',
-        'key': 'Riqueza',
-        'lang': 'pt'
-      },
-      'BR/SC/Rodeio': {
-        'id': 'data/BR/SC/Rodeio',
-        'key': 'Rodeio',
-        'lang': 'pt'
-      },
+      'BR/SC/Riqueza': {'id': 'data/BR/SC/Riqueza', 'key': 'Riqueza', 'lang': 'pt'},
+      'BR/SC/Rodeio': {'id': 'data/BR/SC/Rodeio', 'key': 'Rodeio', 'lang': 'pt'},
       'BR/SC/Romelândia': {
         'id': 'data/BR/SC/Romelândia',
         'key': 'Romelândia',
         'lang': 'pt'
       },
-      'BR/SC/Salete': {
-        'id': 'data/BR/SC/Salete',
-        'key': 'Salete',
-        'lang': 'pt'
-      },
-      'BR/SC/Saltinho': {
-        'id': 'data/BR/SC/Saltinho',
-        'key': 'Saltinho',
-        'lang': 'pt'
-      },
+      'BR/SC/Salete': {'id': 'data/BR/SC/Salete', 'key': 'Salete', 'lang': 'pt'},
+      'BR/SC/Saltinho': {'id': 'data/BR/SC/Saltinho', 'key': 'Saltinho', 'lang': 'pt'},
       'BR/SC/Salto Veloso': {
         'id': 'data/BR/SC/Salto Veloso',
         'key': 'Salto Veloso',
         'lang': 'pt'
       },
-      'BR/SC/Sangão': {
-        'id': 'data/BR/SC/Sangão',
-        'key': 'Sangão',
-        'lang': 'pt'
-      },
+      'BR/SC/Sangão': {'id': 'data/BR/SC/Sangão', 'key': 'Sangão', 'lang': 'pt'},
       'BR/SC/Santa Cecília': {
         'id': 'data/BR/SC/Santa Cecília',
         'key': 'Santa Cecília',
@@ -23185,16 +16307,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santo Amaro da Imperatriz',
         'lang': 'pt'
       },
-      'BR/SC/Saudades': {
-        'id': 'data/BR/SC/Saudades',
-        'key': 'Saudades',
-        'lang': 'pt'
-      },
-      'BR/SC/Schroeder': {
-        'id': 'data/BR/SC/Schroeder',
-        'key': 'Schroeder',
-        'lang': 'pt'
-      },
+      'BR/SC/Saudades': {'id': 'data/BR/SC/Saudades', 'key': 'Saudades', 'lang': 'pt'},
+      'BR/SC/Schroeder': {'id': 'data/BR/SC/Schroeder', 'key': 'Schroeder', 'lang': 'pt'},
       'BR/SC/Seara': {'id': 'data/BR/SC/Seara', 'key': 'Seara', 'lang': 'pt'},
       'BR/SC/Serra Alta': {
         'id': 'data/BR/SC/Serra Alta',
@@ -23206,11 +16320,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Siderópolis',
         'lang': 'pt'
       },
-      'BR/SC/Sombrio': {
-        'id': 'data/BR/SC/Sombrio',
-        'key': 'Sombrio',
-        'lang': 'pt'
-      },
+      'BR/SC/Sombrio': {'id': 'data/BR/SC/Sombrio', 'key': 'Sombrio', 'lang': 'pt'},
       'BR/SC/Sul Brasil': {
         'id': 'data/BR/SC/Sul Brasil',
         'key': 'Sul Brasil',
@@ -23256,11 +16366,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Joaquim',
         'lang': 'pt'
       },
-      'BR/SC/São José': {
-        'id': 'data/BR/SC/São José',
-        'key': 'São José',
-        'lang': 'pt'
-      },
+      'BR/SC/São José': {'id': 'data/BR/SC/São José', 'key': 'São José', 'lang': 'pt'},
       'BR/SC/São José do Cedro': {
         'id': 'data/BR/SC/São José do Cedro',
         'key': 'São José do Cedro',
@@ -23322,21 +16428,9 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/SC/Taió': {'id': 'data/BR/SC/Taió', 'key': 'Taió', 'lang': 'pt'},
-      'BR/SC/Tangara': {
-        'id': 'data/BR/SC/Tangara',
-        'key': 'Tangara',
-        'lang': 'pt'
-      },
-      'BR/SC/Tigrinhos': {
-        'id': 'data/BR/SC/Tigrinhos',
-        'key': 'Tigrinhos',
-        'lang': 'pt'
-      },
-      'BR/SC/Tijucas': {
-        'id': 'data/BR/SC/Tijucas',
-        'key': 'Tijucas',
-        'lang': 'pt'
-      },
+      'BR/SC/Tangara': {'id': 'data/BR/SC/Tangara', 'key': 'Tangara', 'lang': 'pt'},
+      'BR/SC/Tigrinhos': {'id': 'data/BR/SC/Tigrinhos', 'key': 'Tigrinhos', 'lang': 'pt'},
+      'BR/SC/Tijucas': {'id': 'data/BR/SC/Tijucas', 'key': 'Tijucas', 'lang': 'pt'},
       'BR/SC/Timbo': {'id': 'data/BR/SC/Timbo', 'key': 'Timbo', 'lang': 'pt'},
       'BR/SC/Timbé do Sul': {
         'id': 'data/BR/SC/Timbé do Sul',
@@ -23348,11 +16442,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Timbó Grande',
         'lang': 'pt'
       },
-      'BR/SC/Treviso': {
-        'id': 'data/BR/SC/Treviso',
-        'key': 'Treviso',
-        'lang': 'pt'
-      },
+      'BR/SC/Treviso': {'id': 'data/BR/SC/Treviso', 'key': 'Treviso', 'lang': 'pt'},
       'BR/SC/Treze Tílias': {
         'id': 'data/BR/SC/Treze Tílias',
         'key': 'Treze Tílias',
@@ -23373,93 +16463,41 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Três Barras',
         'lang': 'pt'
       },
-      'BR/SC/Tubarão': {
-        'id': 'data/BR/SC/Tubarão',
-        'key': 'Tubarão',
-        'lang': 'pt'
-      },
-      'BR/SC/Tunápolis': {
-        'id': 'data/BR/SC/Tunápolis',
-        'key': 'Tunápolis',
-        'lang': 'pt'
-      },
+      'BR/SC/Tubarão': {'id': 'data/BR/SC/Tubarão', 'key': 'Tubarão', 'lang': 'pt'},
+      'BR/SC/Tunápolis': {'id': 'data/BR/SC/Tunápolis', 'key': 'Tunápolis', 'lang': 'pt'},
       'BR/SC/Turvo': {'id': 'data/BR/SC/Turvo', 'key': 'Turvo', 'lang': 'pt'},
       'BR/SC/União do Oeste': {
         'id': 'data/BR/SC/União do Oeste',
         'key': 'União do Oeste',
         'lang': 'pt'
       },
-      'BR/SC/Urubici': {
-        'id': 'data/BR/SC/Urubici',
-        'key': 'Urubici',
-        'lang': 'pt'
-      },
-      'BR/SC/Urupema': {
-        'id': 'data/BR/SC/Urupema',
-        'key': 'Urupema',
-        'lang': 'pt'
-      },
-      'BR/SC/Urussanga': {
-        'id': 'data/BR/SC/Urussanga',
-        'key': 'Urussanga',
-        'lang': 'pt'
-      },
-      'BR/SC/Vargem': {
-        'id': 'data/BR/SC/Vargem',
-        'key': 'Vargem',
-        'lang': 'pt'
-      },
+      'BR/SC/Urubici': {'id': 'data/BR/SC/Urubici', 'key': 'Urubici', 'lang': 'pt'},
+      'BR/SC/Urupema': {'id': 'data/BR/SC/Urupema', 'key': 'Urupema', 'lang': 'pt'},
+      'BR/SC/Urussanga': {'id': 'data/BR/SC/Urussanga', 'key': 'Urussanga', 'lang': 'pt'},
+      'BR/SC/Vargem': {'id': 'data/BR/SC/Vargem', 'key': 'Vargem', 'lang': 'pt'},
       'BR/SC/Vargem Bonita': {
         'id': 'data/BR/SC/Vargem Bonita',
         'key': 'Vargem Bonita',
         'lang': 'pt'
       },
-      'BR/SC/Vargeão': {
-        'id': 'data/BR/SC/Vargeão',
-        'key': 'Vargeão',
-        'lang': 'pt'
-      },
+      'BR/SC/Vargeão': {'id': 'data/BR/SC/Vargeão', 'key': 'Vargeão', 'lang': 'pt'},
       'BR/SC/Vidal Ramos': {
         'id': 'data/BR/SC/Vidal Ramos',
         'key': 'Vidal Ramos',
         'lang': 'pt'
       },
-      'BR/SC/Videira': {
-        'id': 'data/BR/SC/Videira',
-        'key': 'Videira',
-        'lang': 'pt'
-      },
+      'BR/SC/Videira': {'id': 'data/BR/SC/Videira', 'key': 'Videira', 'lang': 'pt'},
       'BR/SC/Vitor Meireles': {
         'id': 'data/BR/SC/Vitor Meireles',
         'key': 'Vitor Meireles',
         'lang': 'pt'
       },
-      'BR/SC/Witmarsum': {
-        'id': 'data/BR/SC/Witmarsum',
-        'key': 'Witmarsum',
-        'lang': 'pt'
-      },
-      'BR/SC/Xanxerê': {
-        'id': 'data/BR/SC/Xanxerê',
-        'key': 'Xanxerê',
-        'lang': 'pt'
-      },
-      'BR/SC/Xavantina': {
-        'id': 'data/BR/SC/Xavantina',
-        'key': 'Xavantina',
-        'lang': 'pt'
-      },
+      'BR/SC/Witmarsum': {'id': 'data/BR/SC/Witmarsum', 'key': 'Witmarsum', 'lang': 'pt'},
+      'BR/SC/Xanxerê': {'id': 'data/BR/SC/Xanxerê', 'key': 'Xanxerê', 'lang': 'pt'},
+      'BR/SC/Xavantina': {'id': 'data/BR/SC/Xavantina', 'key': 'Xavantina', 'lang': 'pt'},
       'BR/SC/Xaxim': {'id': 'data/BR/SC/Xaxim', 'key': 'Xaxim', 'lang': 'pt'},
-      'BR/SC/Zortéa': {
-        'id': 'data/BR/SC/Zortéa',
-        'key': 'Zortéa',
-        'lang': 'pt'
-      },
-      'BR/SC/Água Doce': {
-        'id': 'data/BR/SC/Água Doce',
-        'key': 'Água Doce',
-        'lang': 'pt'
-      },
+      'BR/SC/Zortéa': {'id': 'data/BR/SC/Zortéa', 'key': 'Zortéa', 'lang': 'pt'},
+      'BR/SC/Água Doce': {'id': 'data/BR/SC/Água Doce', 'key': 'Água Doce', 'lang': 'pt'},
       'BR/SC/Águas Frias': {
         'id': 'data/BR/SC/Águas Frias',
         'key': 'Águas Frias',
@@ -23491,16 +16529,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Amparo de São Francisco',
         'lang': 'pt'
       },
-      'BR/SE/Aquidabã': {
-        'id': 'data/BR/SE/Aquidabã',
-        'key': 'Aquidabã',
-        'lang': 'pt'
-      },
-      'BR/SE/Aracaju': {
-        'id': 'data/BR/SE/Aracaju',
-        'key': 'Aracaju',
-        'lang': 'pt'
-      },
+      'BR/SE/Aquidabã': {'id': 'data/BR/SE/Aquidabã', 'key': 'Aquidabã', 'lang': 'pt'},
+      'BR/SE/Aracaju': {'id': 'data/BR/SE/Aracaju', 'key': 'Aracaju', 'lang': 'pt'},
       'BR/SE/Arauá': {'id': 'data/BR/SE/Arauá', 'key': 'Arauá', 'lang': 'pt'},
       'BR/SE/Areia Branca': {
         'id': 'data/BR/SE/Areia Branca',
@@ -23512,11 +16542,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Barra dos Coqueiros',
         'lang': 'pt'
       },
-      'BR/SE/Boquim': {
-        'id': 'data/BR/SE/Boquim',
-        'key': 'Boquim',
-        'lang': 'pt'
-      },
+      'BR/SE/Boquim': {'id': 'data/BR/SE/Boquim', 'key': 'Boquim', 'lang': 'pt'},
       'BR/SE/Brejo Grande': {
         'id': 'data/BR/SE/Brejo Grande',
         'key': 'Brejo Grande',
@@ -23527,26 +16553,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Campo do Brito',
         'lang': 'pt'
       },
-      'BR/SE/Canhoba': {
-        'id': 'data/BR/SE/Canhoba',
-        'key': 'Canhoba',
-        'lang': 'pt'
-      },
+      'BR/SE/Canhoba': {'id': 'data/BR/SE/Canhoba', 'key': 'Canhoba', 'lang': 'pt'},
       'BR/SE/Canindé de São Francisco': {
         'id': 'data/BR/SE/Canindé de São Francisco',
         'key': 'Canindé de São Francisco',
         'lang': 'pt'
       },
-      'BR/SE/Capela': {
-        'id': 'data/BR/SE/Capela',
-        'key': 'Capela',
-        'lang': 'pt'
-      },
-      'BR/SE/Carira': {
-        'id': 'data/BR/SE/Carira',
-        'key': 'Carira',
-        'lang': 'pt'
-      },
+      'BR/SE/Capela': {'id': 'data/BR/SE/Capela', 'key': 'Capela', 'lang': 'pt'},
+      'BR/SE/Carira': {'id': 'data/BR/SE/Carira', 'key': 'Carira', 'lang': 'pt'},
       'BR/SE/Carmópolis': {
         'id': 'data/BR/SE/Carmópolis',
         'key': 'Carmópolis',
@@ -23568,11 +16582,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Divina Pastora',
         'lang': 'pt'
       },
-      'BR/SE/Estancia': {
-        'id': 'data/BR/SE/Estancia',
-        'key': 'Estancia',
-        'lang': 'pt'
-      },
+      'BR/SE/Estancia': {'id': 'data/BR/SE/Estancia', 'key': 'Estancia', 'lang': 'pt'},
       'BR/SE/Feira Nova': {
         'id': 'data/BR/SE/Feira Nova',
         'key': 'Feira Nova',
@@ -23583,11 +16593,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Frei Paulo',
         'lang': 'pt'
       },
-      'BR/SE/Gararu': {
-        'id': 'data/BR/SE/Gararu',
-        'key': 'Gararu',
-        'lang': 'pt'
-      },
+      'BR/SE/Gararu': {'id': 'data/BR/SE/Gararu', 'key': 'Gararu', 'lang': 'pt'},
       'BR/SE/General Maynard': {
         'id': 'data/BR/SE/General Maynard',
         'key': 'General Maynard',
@@ -23603,16 +16609,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ilha das Flores',
         'lang': 'pt'
       },
-      'BR/SE/Indiaroba': {
-        'id': 'data/BR/SE/Indiaroba',
-        'key': 'Indiaroba',
-        'lang': 'pt'
-      },
-      'BR/SE/Itabaiana': {
-        'id': 'data/BR/SE/Itabaiana',
-        'key': 'Itabaiana',
-        'lang': 'pt'
-      },
+      'BR/SE/Indiaroba': {'id': 'data/BR/SE/Indiaroba', 'key': 'Indiaroba', 'lang': 'pt'},
+      'BR/SE/Itabaiana': {'id': 'data/BR/SE/Itabaiana', 'key': 'Itabaiana', 'lang': 'pt'},
       'BR/SE/Itabaianinha': {
         'id': 'data/BR/SE/Itabaianinha',
         'key': 'Itabaianinha',
@@ -23629,41 +16627,21 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Japaratuba',
         'lang': 'pt'
       },
-      'BR/SE/Japoatã': {
-        'id': 'data/BR/SE/Japoatã',
-        'key': 'Japoatã',
-        'lang': 'pt'
-      },
-      'BR/SE/Lagarto': {
-        'id': 'data/BR/SE/Lagarto',
-        'key': 'Lagarto',
-        'lang': 'pt'
-      },
+      'BR/SE/Japoatã': {'id': 'data/BR/SE/Japoatã', 'key': 'Japoatã', 'lang': 'pt'},
+      'BR/SE/Lagarto': {'id': 'data/BR/SE/Lagarto', 'key': 'Lagarto', 'lang': 'pt'},
       'BR/SE/Laranjeiras': {
         'id': 'data/BR/SE/Laranjeiras',
         'key': 'Laranjeiras',
         'lang': 'pt'
       },
-      'BR/SE/Macambira': {
-        'id': 'data/BR/SE/Macambira',
-        'key': 'Macambira',
-        'lang': 'pt'
-      },
+      'BR/SE/Macambira': {'id': 'data/BR/SE/Macambira', 'key': 'Macambira', 'lang': 'pt'},
       'BR/SE/Malhada dos Bois': {
         'id': 'data/BR/SE/Malhada dos Bois',
         'key': 'Malhada dos Bois',
         'lang': 'pt'
       },
-      'BR/SE/Malhador': {
-        'id': 'data/BR/SE/Malhador',
-        'key': 'Malhador',
-        'lang': 'pt'
-      },
-      'BR/SE/Maruim': {
-        'id': 'data/BR/SE/Maruim',
-        'key': 'Maruim',
-        'lang': 'pt'
-      },
+      'BR/SE/Malhador': {'id': 'data/BR/SE/Malhador', 'key': 'Malhador', 'lang': 'pt'},
+      'BR/SE/Maruim': {'id': 'data/BR/SE/Maruim', 'key': 'Maruim', 'lang': 'pt'},
       'BR/SE/Moita Bonita': {
         'id': 'data/BR/SE/Moita Bonita',
         'key': 'Moita Bonita',
@@ -23674,16 +16652,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Monte Alegre de Sergipe',
         'lang': 'pt'
       },
-      'BR/SE/Muribeca': {
-        'id': 'data/BR/SE/Muribeca',
-        'key': 'Muribeca',
-        'lang': 'pt'
-      },
-      'BR/SE/Neópolis': {
-        'id': 'data/BR/SE/Neópolis',
-        'key': 'Neópolis',
-        'lang': 'pt'
-      },
+      'BR/SE/Muribeca': {'id': 'data/BR/SE/Muribeca', 'key': 'Muribeca', 'lang': 'pt'},
+      'BR/SE/Neópolis': {'id': 'data/BR/SE/Neópolis', 'key': 'Neópolis', 'lang': 'pt'},
       'BR/SE/Nossa Senhora Aparecida': {
         'id': 'data/BR/SE/Nossa Senhora Aparecida',
         'key': 'Nossa Senhora Aparecida',
@@ -23709,31 +16679,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Nossa Senhora do Socorro',
         'lang': 'pt'
       },
-      'BR/SE/Pacatuba': {
-        'id': 'data/BR/SE/Pacatuba',
-        'key': 'Pacatuba',
-        'lang': 'pt'
-      },
+      'BR/SE/Pacatuba': {'id': 'data/BR/SE/Pacatuba', 'key': 'Pacatuba', 'lang': 'pt'},
       'BR/SE/Pedra Mole': {
         'id': 'data/BR/SE/Pedra Mole',
         'key': 'Pedra Mole',
         'lang': 'pt'
       },
-      'BR/SE/Pedrinhas': {
-        'id': 'data/BR/SE/Pedrinhas',
-        'key': 'Pedrinhas',
-        'lang': 'pt'
-      },
-      'BR/SE/Pinhão': {
-        'id': 'data/BR/SE/Pinhão',
-        'key': 'Pinhão',
-        'lang': 'pt'
-      },
-      'BR/SE/Pirambu': {
-        'id': 'data/BR/SE/Pirambu',
-        'key': 'Pirambu',
-        'lang': 'pt'
-      },
+      'BR/SE/Pedrinhas': {'id': 'data/BR/SE/Pedrinhas', 'key': 'Pedrinhas', 'lang': 'pt'},
+      'BR/SE/Pinhão': {'id': 'data/BR/SE/Pinhão', 'key': 'Pinhão', 'lang': 'pt'},
+      'BR/SE/Pirambu': {'id': 'data/BR/SE/Pirambu', 'key': 'Pirambu', 'lang': 'pt'},
       'BR/SE/Porto da Folha': {
         'id': 'data/BR/SE/Porto da Folha',
         'key': 'Porto da Folha',
@@ -23749,16 +16703,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Poço Verde',
         'lang': 'pt'
       },
-      'BR/SE/Propriá': {
-        'id': 'data/BR/SE/Propriá',
-        'key': 'Propriá',
-        'lang': 'pt'
-      },
-      'BR/SE/Riachuelo': {
-        'id': 'data/BR/SE/Riachuelo',
-        'key': 'Riachuelo',
-        'lang': 'pt'
-      },
+      'BR/SE/Propriá': {'id': 'data/BR/SE/Propriá', 'key': 'Propriá', 'lang': 'pt'},
+      'BR/SE/Riachuelo': {'id': 'data/BR/SE/Riachuelo', 'key': 'Riachuelo', 'lang': 'pt'},
       'BR/SE/Riachão do Dantas': {
         'id': 'data/BR/SE/Riachão do Dantas',
         'key': 'Riachão do Dantas',
@@ -23774,11 +16720,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Rosário do Catete',
         'lang': 'pt'
       },
-      'BR/SE/Salgado': {
-        'id': 'data/BR/SE/Salgado',
-        'key': 'Salgado',
-        'lang': 'pt'
-      },
+      'BR/SE/Salgado': {'id': 'data/BR/SE/Salgado', 'key': 'Salgado', 'lang': 'pt'},
       'BR/SE/Santa Luzia do Itanhy': {
         'id': 'data/BR/SE/Santa Luzia do Itanhy',
         'key': 'Santa Luzia do Itanhy',
@@ -23804,11 +16746,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Simão Dias',
         'lang': 'pt'
       },
-      'BR/SE/Siriri': {
-        'id': 'data/BR/SE/Siriri',
-        'key': 'Siriri',
-        'lang': 'pt'
-      },
+      'BR/SE/Siriri': {'id': 'data/BR/SE/Siriri', 'key': 'Siriri', 'lang': 'pt'},
       'BR/SE/São Cristóvão': {
         'id': 'data/BR/SE/São Cristóvão',
         'key': 'São Cristóvão',
@@ -23840,11 +16778,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Tomar do Geru',
         'lang': 'pt'
       },
-      'BR/SE/Umbaúba': {
-        'id': 'data/BR/SE/Umbaúba',
-        'key': 'Umbaúba',
-        'lang': 'pt'
-      },
+      'BR/SE/Umbaúba': {'id': 'data/BR/SE/Umbaúba', 'key': 'Umbaúba', 'lang': 'pt'},
       'BR/SP': {
         'id': 'data/BR/SP',
         'isoid': 'SP',
@@ -23861,32 +16795,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Adamantina',
         'lang': 'pt'
       },
-      'BR/SP/Adolfo': {
-        'id': 'data/BR/SP/Adolfo',
-        'key': 'Adolfo',
-        'lang': 'pt'
-      },
+      'BR/SP/Adolfo': {'id': 'data/BR/SP/Adolfo', 'key': 'Adolfo', 'lang': 'pt'},
       'BR/SP/Aguaí': {'id': 'data/BR/SP/Aguaí', 'key': 'Aguaí', 'lang': 'pt'},
-      'BR/SP/Agudos': {
-        'id': 'data/BR/SP/Agudos',
-        'key': 'Agudos',
-        'lang': 'pt'
-      },
-      'BR/SP/Alambari': {
-        'id': 'data/BR/SP/Alambari',
-        'key': 'Alambari',
-        'lang': 'pt'
-      },
+      'BR/SP/Agudos': {'id': 'data/BR/SP/Agudos', 'key': 'Agudos', 'lang': 'pt'},
+      'BR/SP/Alambari': {'id': 'data/BR/SP/Alambari', 'key': 'Alambari', 'lang': 'pt'},
       'BR/SP/Alfredo Marcondes': {
         'id': 'data/BR/SP/Alfredo Marcondes',
         'key': 'Alfredo Marcondes',
         'lang': 'pt'
       },
-      'BR/SP/Altair': {
-        'id': 'data/BR/SP/Altair',
-        'key': 'Altair',
-        'lang': 'pt'
-      },
+      'BR/SP/Altair': {'id': 'data/BR/SP/Altair', 'key': 'Altair', 'lang': 'pt'},
       'BR/SP/Altinópolis': {
         'id': 'data/BR/SP/Altinópolis',
         'key': 'Altinópolis',
@@ -23897,26 +16815,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alto Alegre',
         'lang': 'pt'
       },
-      'BR/SP/Alumínio': {
-        'id': 'data/BR/SP/Alumínio',
-        'key': 'Alumínio',
-        'lang': 'pt'
-      },
+      'BR/SP/Alumínio': {'id': 'data/BR/SP/Alumínio', 'key': 'Alumínio', 'lang': 'pt'},
       'BR/SP/Alvinlândia': {
         'id': 'data/BR/SP/Alvinlândia',
         'key': 'Alvinlândia',
         'lang': 'pt'
       },
-      'BR/SP/Americana': {
-        'id': 'data/BR/SP/Americana',
-        'key': 'Americana',
-        'lang': 'pt'
-      },
-      'BR/SP/Amparo': {
-        'id': 'data/BR/SP/Amparo',
-        'key': 'Amparo',
-        'lang': 'pt'
-      },
+      'BR/SP/Americana': {'id': 'data/BR/SP/Americana', 'key': 'Americana', 'lang': 'pt'},
+      'BR/SP/Amparo': {'id': 'data/BR/SP/Amparo', 'key': 'Amparo', 'lang': 'pt'},
       'BR/SP/Américo Brasiliense': {
         'id': 'data/BR/SP/Américo Brasiliense',
         'key': 'Américo Brasiliense',
@@ -23927,129 +16833,57 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Américo de Campos',
         'lang': 'pt'
       },
-      'BR/SP/Analândia': {
-        'id': 'data/BR/SP/Analândia',
-        'key': 'Analândia',
-        'lang': 'pt'
-      },
-      'BR/SP/Andradina': {
-        'id': 'data/BR/SP/Andradina',
-        'key': 'Andradina',
-        'lang': 'pt'
-      },
-      'BR/SP/Angatuba': {
-        'id': 'data/BR/SP/Angatuba',
-        'key': 'Angatuba',
-        'lang': 'pt'
-      },
-      'BR/SP/Anhembi': {
-        'id': 'data/BR/SP/Anhembi',
-        'key': 'Anhembi',
-        'lang': 'pt'
-      },
-      'BR/SP/Anhumas': {
-        'id': 'data/BR/SP/Anhumas',
-        'key': 'Anhumas',
-        'lang': 'pt'
-      },
-      'BR/SP/Aparecida': {
-        'id': 'data/BR/SP/Aparecida',
-        'key': 'Aparecida',
-        'lang': 'pt'
-      },
+      'BR/SP/Analândia': {'id': 'data/BR/SP/Analândia', 'key': 'Analândia', 'lang': 'pt'},
+      'BR/SP/Andradina': {'id': 'data/BR/SP/Andradina', 'key': 'Andradina', 'lang': 'pt'},
+      'BR/SP/Angatuba': {'id': 'data/BR/SP/Angatuba', 'key': 'Angatuba', 'lang': 'pt'},
+      'BR/SP/Anhembi': {'id': 'data/BR/SP/Anhembi', 'key': 'Anhembi', 'lang': 'pt'},
+      'BR/SP/Anhumas': {'id': 'data/BR/SP/Anhumas', 'key': 'Anhumas', 'lang': 'pt'},
+      'BR/SP/Aparecida': {'id': 'data/BR/SP/Aparecida', 'key': 'Aparecida', 'lang': 'pt'},
       "BR/SP/Aparecida d'Oeste": {
         'id': "data/BR/SP/Aparecida d'Oeste",
         'key': "Aparecida d'Oeste",
         'lang': 'pt'
       },
       'BR/SP/Apiaí': {'id': 'data/BR/SP/Apiaí', 'key': 'Apiaí', 'lang': 'pt'},
-      'BR/SP/Aramina': {
-        'id': 'data/BR/SP/Aramina',
-        'key': 'Aramina',
-        'lang': 'pt'
-      },
-      'BR/SP/Arandu': {
-        'id': 'data/BR/SP/Arandu',
-        'key': 'Arandu',
-        'lang': 'pt'
-      },
-      'BR/SP/Arapeí': {
-        'id': 'data/BR/SP/Arapeí',
-        'key': 'Arapeí',
-        'lang': 'pt'
-      },
+      'BR/SP/Aramina': {'id': 'data/BR/SP/Aramina', 'key': 'Aramina', 'lang': 'pt'},
+      'BR/SP/Arandu': {'id': 'data/BR/SP/Arandu', 'key': 'Arandu', 'lang': 'pt'},
+      'BR/SP/Arapeí': {'id': 'data/BR/SP/Arapeí', 'key': 'Arapeí', 'lang': 'pt'},
       'BR/SP/Araraquara': {
         'id': 'data/BR/SP/Araraquara',
         'key': 'Araraquara',
         'lang': 'pt'
       },
-      'BR/SP/Araras': {
-        'id': 'data/BR/SP/Araras',
-        'key': 'Araras',
-        'lang': 'pt'
-      },
+      'BR/SP/Araras': {'id': 'data/BR/SP/Araras', 'key': 'Araras', 'lang': 'pt'},
       'BR/SP/Araçariguama': {
         'id': 'data/BR/SP/Araçariguama',
         'key': 'Araçariguama',
         'lang': 'pt'
       },
-      'BR/SP/Araçatuba': {
-        'id': 'data/BR/SP/Araçatuba',
-        'key': 'Araçatuba',
-        'lang': 'pt'
-      },
+      'BR/SP/Araçatuba': {'id': 'data/BR/SP/Araçatuba', 'key': 'Araçatuba', 'lang': 'pt'},
       'BR/SP/Araçoiaba da Serra': {
         'id': 'data/BR/SP/Araçoiaba da Serra',
         'key': 'Araçoiaba da Serra',
         'lang': 'pt'
       },
-      'BR/SP/Arco-Íris': {
-        'id': 'data/BR/SP/Arco-Íris',
-        'key': 'Arco-Íris',
-        'lang': 'pt'
-      },
-      'BR/SP/Arealva': {
-        'id': 'data/BR/SP/Arealva',
-        'key': 'Arealva',
-        'lang': 'pt'
-      },
-      'BR/SP/Areias': {
-        'id': 'data/BR/SP/Areias',
-        'key': 'Areias',
-        'lang': 'pt'
-      },
+      'BR/SP/Arco-Íris': {'id': 'data/BR/SP/Arco-Íris', 'key': 'Arco-Íris', 'lang': 'pt'},
+      'BR/SP/Arealva': {'id': 'data/BR/SP/Arealva', 'key': 'Arealva', 'lang': 'pt'},
+      'BR/SP/Areias': {'id': 'data/BR/SP/Areias', 'key': 'Areias', 'lang': 'pt'},
       'BR/SP/Areiópolis': {
         'id': 'data/BR/SP/Areiópolis',
         'key': 'Areiópolis',
         'lang': 'pt'
       },
-      'BR/SP/Ariranha': {
-        'id': 'data/BR/SP/Ariranha',
-        'key': 'Ariranha',
-        'lang': 'pt'
-      },
+      'BR/SP/Ariranha': {'id': 'data/BR/SP/Ariranha', 'key': 'Ariranha', 'lang': 'pt'},
       'BR/SP/Artur Nogueira': {
         'id': 'data/BR/SP/Artur Nogueira',
         'key': 'Artur Nogueira',
         'lang': 'pt'
       },
       'BR/SP/Arujá': {'id': 'data/BR/SP/Arujá', 'key': 'Arujá', 'lang': 'pt'},
-      'BR/SP/Aspásia': {
-        'id': 'data/BR/SP/Aspásia',
-        'key': 'Aspásia',
-        'lang': 'pt'
-      },
+      'BR/SP/Aspásia': {'id': 'data/BR/SP/Aspásia', 'key': 'Aspásia', 'lang': 'pt'},
       'BR/SP/Assis': {'id': 'data/BR/SP/Assis', 'key': 'Assis', 'lang': 'pt'},
-      'BR/SP/Atibaia': {
-        'id': 'data/BR/SP/Atibaia',
-        'key': 'Atibaia',
-        'lang': 'pt'
-      },
-      'BR/SP/Auriflama': {
-        'id': 'data/BR/SP/Auriflama',
-        'key': 'Auriflama',
-        'lang': 'pt'
-      },
+      'BR/SP/Atibaia': {'id': 'data/BR/SP/Atibaia', 'key': 'Atibaia', 'lang': 'pt'},
+      'BR/SP/Auriflama': {'id': 'data/BR/SP/Auriflama', 'key': 'Auriflama', 'lang': 'pt'},
       'BR/SP/Avanhandava': {
         'id': 'data/BR/SP/Avanhandava',
         'key': 'Avanhandava',
@@ -24062,26 +16896,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bady Bassitt',
         'lang': 'pt'
       },
-      'BR/SP/Balbinos': {
-        'id': 'data/BR/SP/Balbinos',
-        'key': 'Balbinos',
-        'lang': 'pt'
-      },
-      'BR/SP/Bananal': {
-        'id': 'data/BR/SP/Bananal',
-        'key': 'Bananal',
-        'lang': 'pt'
-      },
-      'BR/SP/Barbosa': {
-        'id': 'data/BR/SP/Barbosa',
-        'key': 'Barbosa',
-        'lang': 'pt'
-      },
-      'BR/SP/Bariri': {
-        'id': 'data/BR/SP/Bariri',
-        'key': 'Bariri',
-        'lang': 'pt'
-      },
+      'BR/SP/Balbinos': {'id': 'data/BR/SP/Balbinos', 'key': 'Balbinos', 'lang': 'pt'},
+      'BR/SP/Bananal': {'id': 'data/BR/SP/Bananal', 'key': 'Bananal', 'lang': 'pt'},
+      'BR/SP/Barbosa': {'id': 'data/BR/SP/Barbosa', 'key': 'Barbosa', 'lang': 'pt'},
+      'BR/SP/Bariri': {'id': 'data/BR/SP/Bariri', 'key': 'Bariri', 'lang': 'pt'},
       'BR/SP/Barra Bonita': {
         'id': 'data/BR/SP/Barra Bonita',
         'key': 'Barra Bonita',
@@ -24097,42 +16915,18 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Barra do Turvo',
         'lang': 'pt'
       },
-      'BR/SP/Barretos': {
-        'id': 'data/BR/SP/Barretos',
-        'key': 'Barretos',
-        'lang': 'pt'
-      },
-      'BR/SP/Barrinha': {
-        'id': 'data/BR/SP/Barrinha',
-        'key': 'Barrinha',
-        'lang': 'pt'
-      },
-      'BR/SP/Barueri': {
-        'id': 'data/BR/SP/Barueri',
-        'key': 'Barueri',
-        'lang': 'pt'
-      },
+      'BR/SP/Barretos': {'id': 'data/BR/SP/Barretos', 'key': 'Barretos', 'lang': 'pt'},
+      'BR/SP/Barrinha': {'id': 'data/BR/SP/Barrinha', 'key': 'Barrinha', 'lang': 'pt'},
+      'BR/SP/Barueri': {'id': 'data/BR/SP/Barueri', 'key': 'Barueri', 'lang': 'pt'},
       'BR/SP/Barão de Antonina': {
         'id': 'data/BR/SP/Barão de Antonina',
         'key': 'Barão de Antonina',
         'lang': 'pt'
       },
-      'BR/SP/Bastos': {
-        'id': 'data/BR/SP/Bastos',
-        'key': 'Bastos',
-        'lang': 'pt'
-      },
-      'BR/SP/Batatais': {
-        'id': 'data/BR/SP/Batatais',
-        'key': 'Batatais',
-        'lang': 'pt'
-      },
+      'BR/SP/Bastos': {'id': 'data/BR/SP/Bastos', 'key': 'Bastos', 'lang': 'pt'},
+      'BR/SP/Batatais': {'id': 'data/BR/SP/Batatais', 'key': 'Batatais', 'lang': 'pt'},
       'BR/SP/Bauru': {'id': 'data/BR/SP/Bauru', 'key': 'Bauru', 'lang': 'pt'},
-      'BR/SP/Bebedouro': {
-        'id': 'data/BR/SP/Bebedouro',
-        'key': 'Bebedouro',
-        'lang': 'pt'
-      },
+      'BR/SP/Bebedouro': {'id': 'data/BR/SP/Bebedouro', 'key': 'Bebedouro', 'lang': 'pt'},
       'BR/SP/Bento de Abreu': {
         'id': 'data/BR/SP/Bento de Abreu',
         'key': 'Bento de Abreu',
@@ -24143,17 +16937,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bernardino de Campos',
         'lang': 'pt'
       },
-      'BR/SP/Bertioga': {
-        'id': 'data/BR/SP/Bertioga',
-        'key': 'Bertioga',
-        'lang': 'pt'
-      },
+      'BR/SP/Bertioga': {'id': 'data/BR/SP/Bertioga', 'key': 'Bertioga', 'lang': 'pt'},
       'BR/SP/Bilac': {'id': 'data/BR/SP/Bilac', 'key': 'Bilac', 'lang': 'pt'},
-      'BR/SP/Birigüi': {
-        'id': 'data/BR/SP/Birigüi',
-        'key': 'Birigüi',
-        'lang': 'pt'
-      },
+      'BR/SP/Birigüi': {'id': 'data/BR/SP/Birigüi', 'key': 'Birigüi', 'lang': 'pt'},
       'BR/SP/Biritiba-Mirim': {
         'id': 'data/BR/SP/Biritiba-Mirim',
         'key': 'Biritiba-Mirim',
@@ -24164,21 +16950,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Boa Esperança do Sul',
         'lang': 'pt'
       },
-      'BR/SP/Bocaina': {
-        'id': 'data/BR/SP/Bocaina',
-        'key': 'Bocaina',
-        'lang': 'pt'
-      },
-      'BR/SP/Bofete': {
-        'id': 'data/BR/SP/Bofete',
-        'key': 'Bofete',
-        'lang': 'pt'
-      },
-      'BR/SP/Boituva': {
-        'id': 'data/BR/SP/Boituva',
-        'key': 'Boituva',
-        'lang': 'pt'
-      },
+      'BR/SP/Bocaina': {'id': 'data/BR/SP/Bocaina', 'key': 'Bocaina', 'lang': 'pt'},
+      'BR/SP/Bofete': {'id': 'data/BR/SP/Bofete', 'key': 'Bofete', 'lang': 'pt'},
+      'BR/SP/Boituva': {'id': 'data/BR/SP/Boituva', 'key': 'Boituva', 'lang': 'pt'},
       'BR/SP/Bom Jesus dos Perdões': {
         'id': 'data/BR/SP/Bom Jesus dos Perdões',
         'key': 'Bom Jesus dos Perdões',
@@ -24189,73 +16963,29 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Bom Sucesso de Itararé',
         'lang': 'pt'
       },
-      'BR/SP/Boracéia': {
-        'id': 'data/BR/SP/Boracéia',
-        'key': 'Boracéia',
-        'lang': 'pt'
-      },
-      'BR/SP/Borborema': {
-        'id': 'data/BR/SP/Borborema',
-        'key': 'Borborema',
-        'lang': 'pt'
-      },
-      'BR/SP/Borebi': {
-        'id': 'data/BR/SP/Borebi',
-        'key': 'Borebi',
-        'lang': 'pt'
-      },
+      'BR/SP/Boracéia': {'id': 'data/BR/SP/Boracéia', 'key': 'Boracéia', 'lang': 'pt'},
+      'BR/SP/Borborema': {'id': 'data/BR/SP/Borborema', 'key': 'Borborema', 'lang': 'pt'},
+      'BR/SP/Borebi': {'id': 'data/BR/SP/Borebi', 'key': 'Borebi', 'lang': 'pt'},
       'BR/SP/Borá': {'id': 'data/BR/SP/Borá', 'key': 'Borá', 'lang': 'pt'},
-      'BR/SP/Botucatu': {
-        'id': 'data/BR/SP/Botucatu',
-        'key': 'Botucatu',
-        'lang': 'pt'
-      },
+      'BR/SP/Botucatu': {'id': 'data/BR/SP/Botucatu', 'key': 'Botucatu', 'lang': 'pt'},
       'BR/SP/Bragança Paulista': {
         'id': 'data/BR/SP/Bragança Paulista',
         'key': 'Bragança Paulista',
         'lang': 'pt'
       },
-      'BR/SP/Braúna': {
-        'id': 'data/BR/SP/Braúna',
-        'key': 'Braúna',
-        'lang': 'pt'
-      },
+      'BR/SP/Braúna': {'id': 'data/BR/SP/Braúna', 'key': 'Braúna', 'lang': 'pt'},
       'BR/SP/Brejo Alegre': {
         'id': 'data/BR/SP/Brejo Alegre',
         'key': 'Brejo Alegre',
         'lang': 'pt'
       },
-      'BR/SP/Brodowski': {
-        'id': 'data/BR/SP/Brodowski',
-        'key': 'Brodowski',
-        'lang': 'pt'
-      },
-      'BR/SP/Brotas': {
-        'id': 'data/BR/SP/Brotas',
-        'key': 'Brotas',
-        'lang': 'pt'
-      },
+      'BR/SP/Brodowski': {'id': 'data/BR/SP/Brodowski', 'key': 'Brodowski', 'lang': 'pt'},
+      'BR/SP/Brotas': {'id': 'data/BR/SP/Brotas', 'key': 'Brotas', 'lang': 'pt'},
       'BR/SP/Buri': {'id': 'data/BR/SP/Buri', 'key': 'Buri', 'lang': 'pt'},
-      'BR/SP/Buritama': {
-        'id': 'data/BR/SP/Buritama',
-        'key': 'Buritama',
-        'lang': 'pt'
-      },
-      'BR/SP/Buritizal': {
-        'id': 'data/BR/SP/Buritizal',
-        'key': 'Buritizal',
-        'lang': 'pt'
-      },
-      'BR/SP/Bálsamo': {
-        'id': 'data/BR/SP/Bálsamo',
-        'key': 'Bálsamo',
-        'lang': 'pt'
-      },
-      'BR/SP/Cabreúva': {
-        'id': 'data/BR/SP/Cabreúva',
-        'key': 'Cabreúva',
-        'lang': 'pt'
-      },
+      'BR/SP/Buritama': {'id': 'data/BR/SP/Buritama', 'key': 'Buritama', 'lang': 'pt'},
+      'BR/SP/Buritizal': {'id': 'data/BR/SP/Buritizal', 'key': 'Buritizal', 'lang': 'pt'},
+      'BR/SP/Bálsamo': {'id': 'data/BR/SP/Bálsamo', 'key': 'Bálsamo', 'lang': 'pt'},
+      'BR/SP/Cabreúva': {'id': 'data/BR/SP/Cabreúva', 'key': 'Cabreúva', 'lang': 'pt'},
       'BR/SP/Cabrália Paulista': {
         'id': 'data/BR/SP/Cabrália Paulista',
         'key': 'Cabrália Paulista',
@@ -24266,57 +16996,25 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cachoeira Paulista',
         'lang': 'pt'
       },
-      'BR/SP/Caconde': {
-        'id': 'data/BR/SP/Caconde',
-        'key': 'Caconde',
-        'lang': 'pt'
-      },
+      'BR/SP/Caconde': {'id': 'data/BR/SP/Caconde', 'key': 'Caconde', 'lang': 'pt'},
       'BR/SP/Cafelândia': {
         'id': 'data/BR/SP/Cafelândia',
         'key': 'Cafelândia',
         'lang': 'pt'
       },
-      'BR/SP/Caiabu': {
-        'id': 'data/BR/SP/Caiabu',
-        'key': 'Caiabu',
-        'lang': 'pt'
-      },
-      'BR/SP/Caieiras': {
-        'id': 'data/BR/SP/Caieiras',
-        'key': 'Caieiras',
-        'lang': 'pt'
-      },
+      'BR/SP/Caiabu': {'id': 'data/BR/SP/Caiabu', 'key': 'Caiabu', 'lang': 'pt'},
+      'BR/SP/Caieiras': {'id': 'data/BR/SP/Caieiras', 'key': 'Caieiras', 'lang': 'pt'},
       'BR/SP/Caiuá': {'id': 'data/BR/SP/Caiuá', 'key': 'Caiuá', 'lang': 'pt'},
-      'BR/SP/Cajamar': {
-        'id': 'data/BR/SP/Cajamar',
-        'key': 'Cajamar',
-        'lang': 'pt'
-      },
-      'BR/SP/Cajati': {
-        'id': 'data/BR/SP/Cajati',
-        'key': 'Cajati',
-        'lang': 'pt'
-      },
-      'BR/SP/Cajobi': {
-        'id': 'data/BR/SP/Cajobi',
-        'key': 'Cajobi',
-        'lang': 'pt'
-      },
-      'BR/SP/Cajuru': {
-        'id': 'data/BR/SP/Cajuru',
-        'key': 'Cajuru',
-        'lang': 'pt'
-      },
+      'BR/SP/Cajamar': {'id': 'data/BR/SP/Cajamar', 'key': 'Cajamar', 'lang': 'pt'},
+      'BR/SP/Cajati': {'id': 'data/BR/SP/Cajati', 'key': 'Cajati', 'lang': 'pt'},
+      'BR/SP/Cajobi': {'id': 'data/BR/SP/Cajobi', 'key': 'Cajobi', 'lang': 'pt'},
+      'BR/SP/Cajuru': {'id': 'data/BR/SP/Cajuru', 'key': 'Cajuru', 'lang': 'pt'},
       'BR/SP/Campina do Monte Alegre': {
         'id': 'data/BR/SP/Campina do Monte Alegre',
         'key': 'Campina do Monte Alegre',
         'lang': 'pt'
       },
-      'BR/SP/Campinas': {
-        'id': 'data/BR/SP/Campinas',
-        'key': 'Campinas',
-        'lang': 'pt'
-      },
+      'BR/SP/Campinas': {'id': 'data/BR/SP/Campinas', 'key': 'Campinas', 'lang': 'pt'},
       'BR/SP/Campo Limpo Paulista': {
         'id': 'data/BR/SP/Campo Limpo Paulista',
         'key': 'Campo Limpo Paulista',
@@ -24332,27 +17030,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Campos do Jordão',
         'lang': 'pt'
       },
-      'BR/SP/Cananéia': {
-        'id': 'data/BR/SP/Cananéia',
-        'key': 'Cananéia',
-        'lang': 'pt'
-      },
+      'BR/SP/Cananéia': {'id': 'data/BR/SP/Cananéia', 'key': 'Cananéia', 'lang': 'pt'},
       'BR/SP/Canas': {'id': 'data/BR/SP/Canas', 'key': 'Canas', 'lang': 'pt'},
-      'BR/SP/Canitar': {
-        'id': 'data/BR/SP/Canitar',
-        'key': 'Canitar',
-        'lang': 'pt'
-      },
+      'BR/SP/Canitar': {'id': 'data/BR/SP/Canitar', 'key': 'Canitar', 'lang': 'pt'},
       'BR/SP/Capela do Alto': {
         'id': 'data/BR/SP/Capela do Alto',
         'key': 'Capela do Alto',
         'lang': 'pt'
       },
-      'BR/SP/Capivari': {
-        'id': 'data/BR/SP/Capivari',
-        'key': 'Capivari',
-        'lang': 'pt'
-      },
+      'BR/SP/Capivari': {'id': 'data/BR/SP/Capivari', 'key': 'Capivari', 'lang': 'pt'},
       'BR/SP/Capão Bonito': {
         'id': 'data/BR/SP/Capão Bonito',
         'key': 'Capão Bonito',
@@ -24368,51 +17054,23 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Carapicuíba',
         'lang': 'pt'
       },
-      'BR/SP/Cardoso': {
-        'id': 'data/BR/SP/Cardoso',
-        'key': 'Cardoso',
-        'lang': 'pt'
-      },
+      'BR/SP/Cardoso': {'id': 'data/BR/SP/Cardoso', 'key': 'Cardoso', 'lang': 'pt'},
       'BR/SP/Casa Branca': {
         'id': 'data/BR/SP/Casa Branca',
         'key': 'Casa Branca',
         'lang': 'pt'
       },
-      'BR/SP/Castilho': {
-        'id': 'data/BR/SP/Castilho',
-        'key': 'Castilho',
-        'lang': 'pt'
-      },
-      'BR/SP/Catanduva': {
-        'id': 'data/BR/SP/Catanduva',
-        'key': 'Catanduva',
-        'lang': 'pt'
-      },
-      'BR/SP/Catiguá': {
-        'id': 'data/BR/SP/Catiguá',
-        'key': 'Catiguá',
-        'lang': 'pt'
-      },
-      'BR/SP/Caçapava': {
-        'id': 'data/BR/SP/Caçapava',
-        'key': 'Caçapava',
-        'lang': 'pt'
-      },
-      'BR/SP/Cedral': {
-        'id': 'data/BR/SP/Cedral',
-        'key': 'Cedral',
-        'lang': 'pt'
-      },
+      'BR/SP/Castilho': {'id': 'data/BR/SP/Castilho', 'key': 'Castilho', 'lang': 'pt'},
+      'BR/SP/Catanduva': {'id': 'data/BR/SP/Catanduva', 'key': 'Catanduva', 'lang': 'pt'},
+      'BR/SP/Catiguá': {'id': 'data/BR/SP/Catiguá', 'key': 'Catiguá', 'lang': 'pt'},
+      'BR/SP/Caçapava': {'id': 'data/BR/SP/Caçapava', 'key': 'Caçapava', 'lang': 'pt'},
+      'BR/SP/Cedral': {'id': 'data/BR/SP/Cedral', 'key': 'Cedral', 'lang': 'pt'},
       'BR/SP/Cerqueira César': {
         'id': 'data/BR/SP/Cerqueira César',
         'key': 'Cerqueira César',
         'lang': 'pt'
       },
-      'BR/SP/Cerquilho': {
-        'id': 'data/BR/SP/Cerquilho',
-        'key': 'Cerquilho',
-        'lang': 'pt'
-      },
+      'BR/SP/Cerquilho': {'id': 'data/BR/SP/Cerquilho', 'key': 'Cerquilho', 'lang': 'pt'},
       'BR/SP/Cesário Lange': {
         'id': 'data/BR/SP/Cesário Lange',
         'key': 'Cesário Lange',
@@ -24423,46 +17081,22 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Charqueada',
         'lang': 'pt'
       },
-      'BR/SP/Chavantes': {
-        'id': 'data/BR/SP/Chavantes',
-        'key': 'Chavantes',
-        'lang': 'pt'
-      },
+      'BR/SP/Chavantes': {'id': 'data/BR/SP/Chavantes', 'key': 'Chavantes', 'lang': 'pt'},
       'BR/SP/Clementina': {
         'id': 'data/BR/SP/Clementina',
         'key': 'Clementina',
         'lang': 'pt'
       },
-      'BR/SP/Colina': {
-        'id': 'data/BR/SP/Colina',
-        'key': 'Colina',
-        'lang': 'pt'
-      },
-      'BR/SP/Colombia': {
-        'id': 'data/BR/SP/Colombia',
-        'key': 'Colombia',
-        'lang': 'pt'
-      },
-      'BR/SP/Conchal': {
-        'id': 'data/BR/SP/Conchal',
-        'key': 'Conchal',
-        'lang': 'pt'
-      },
-      'BR/SP/Conchas': {
-        'id': 'data/BR/SP/Conchas',
-        'key': 'Conchas',
-        'lang': 'pt'
-      },
+      'BR/SP/Colina': {'id': 'data/BR/SP/Colina', 'key': 'Colina', 'lang': 'pt'},
+      'BR/SP/Colombia': {'id': 'data/BR/SP/Colombia', 'key': 'Colombia', 'lang': 'pt'},
+      'BR/SP/Conchal': {'id': 'data/BR/SP/Conchal', 'key': 'Conchal', 'lang': 'pt'},
+      'BR/SP/Conchas': {'id': 'data/BR/SP/Conchas', 'key': 'Conchas', 'lang': 'pt'},
       'BR/SP/Cordeirópolis': {
         'id': 'data/BR/SP/Cordeirópolis',
         'key': 'Cordeirópolis',
         'lang': 'pt'
       },
-      'BR/SP/Coroados': {
-        'id': 'data/BR/SP/Coroados',
-        'key': 'Coroados',
-        'lang': 'pt'
-      },
+      'BR/SP/Coroados': {'id': 'data/BR/SP/Coroados', 'key': 'Coroados', 'lang': 'pt'},
       'BR/SP/Coronel Macedo': {
         'id': 'data/BR/SP/Coronel Macedo',
         'key': 'Coronel Macedo',
@@ -24478,37 +17112,17 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cosmopolis',
         'lang': 'pt'
       },
-      'BR/SP/Cosmorama': {
-        'id': 'data/BR/SP/Cosmorama',
-        'key': 'Cosmorama',
-        'lang': 'pt'
-      },
+      'BR/SP/Cosmorama': {'id': 'data/BR/SP/Cosmorama', 'key': 'Cosmorama', 'lang': 'pt'},
       'BR/SP/Cotia': {'id': 'data/BR/SP/Cotia', 'key': 'Cotia', 'lang': 'pt'},
-      'BR/SP/Cravinhos': {
-        'id': 'data/BR/SP/Cravinhos',
-        'key': 'Cravinhos',
-        'lang': 'pt'
-      },
+      'BR/SP/Cravinhos': {'id': 'data/BR/SP/Cravinhos', 'key': 'Cravinhos', 'lang': 'pt'},
       'BR/SP/Cristais Paulista': {
         'id': 'data/BR/SP/Cristais Paulista',
         'key': 'Cristais Paulista',
         'lang': 'pt'
       },
-      'BR/SP/Cruzeiro': {
-        'id': 'data/BR/SP/Cruzeiro',
-        'key': 'Cruzeiro',
-        'lang': 'pt'
-      },
-      'BR/SP/Cruzália': {
-        'id': 'data/BR/SP/Cruzália',
-        'key': 'Cruzália',
-        'lang': 'pt'
-      },
-      'BR/SP/Cubatão': {
-        'id': 'data/BR/SP/Cubatão',
-        'key': 'Cubatão',
-        'lang': 'pt'
-      },
+      'BR/SP/Cruzeiro': {'id': 'data/BR/SP/Cruzeiro', 'key': 'Cruzeiro', 'lang': 'pt'},
+      'BR/SP/Cruzália': {'id': 'data/BR/SP/Cruzália', 'key': 'Cruzália', 'lang': 'pt'},
+      'BR/SP/Cubatão': {'id': 'data/BR/SP/Cubatão', 'key': 'Cubatão', 'lang': 'pt'},
       'BR/SP/Cunha': {'id': 'data/BR/SP/Cunha', 'key': 'Cunha', 'lang': 'pt'},
       'BR/SP/Cássia dos Coqueiros': {
         'id': 'data/BR/SP/Cássia dos Coqueiros',
@@ -24530,11 +17144,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Descalvado',
         'lang': 'pt'
       },
-      'BR/SP/Diadema': {
-        'id': 'data/BR/SP/Diadema',
-        'key': 'Diadema',
-        'lang': 'pt'
-      },
+      'BR/SP/Diadema': {'id': 'data/BR/SP/Diadema', 'key': 'Diadema', 'lang': 'pt'},
       'BR/SP/Dirce Reis': {
         'id': 'data/BR/SP/Dirce Reis',
         'key': 'Dirce Reis',
@@ -24545,11 +17155,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Divinolândia',
         'lang': 'pt'
       },
-      'BR/SP/Dobrada': {
-        'id': 'data/BR/SP/Dobrada',
-        'key': 'Dobrada',
-        'lang': 'pt'
-      },
+      'BR/SP/Dobrada': {'id': 'data/BR/SP/Dobrada', 'key': 'Dobrada', 'lang': 'pt'},
       'BR/SP/Dois Córregos': {
         'id': 'data/BR/SP/Dois Córregos',
         'key': 'Dois Córregos',
@@ -24560,51 +17166,19 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Dolcinópolis',
         'lang': 'pt'
       },
-      'BR/SP/Dourado': {
-        'id': 'data/BR/SP/Dourado',
-        'key': 'Dourado',
-        'lang': 'pt'
-      },
-      'BR/SP/Dracena': {
-        'id': 'data/BR/SP/Dracena',
-        'key': 'Dracena',
-        'lang': 'pt'
-      },
-      'BR/SP/Duartina': {
-        'id': 'data/BR/SP/Duartina',
-        'key': 'Duartina',
-        'lang': 'pt'
-      },
-      'BR/SP/Dumont': {
-        'id': 'data/BR/SP/Dumont',
-        'key': 'Dumont',
-        'lang': 'pt'
-      },
-      'BR/SP/Echaporã': {
-        'id': 'data/BR/SP/Echaporã',
-        'key': 'Echaporã',
-        'lang': 'pt'
-      },
-      'BR/SP/Eldorado': {
-        'id': 'data/BR/SP/Eldorado',
-        'key': 'Eldorado',
-        'lang': 'pt'
-      },
+      'BR/SP/Dourado': {'id': 'data/BR/SP/Dourado', 'key': 'Dourado', 'lang': 'pt'},
+      'BR/SP/Dracena': {'id': 'data/BR/SP/Dracena', 'key': 'Dracena', 'lang': 'pt'},
+      'BR/SP/Duartina': {'id': 'data/BR/SP/Duartina', 'key': 'Duartina', 'lang': 'pt'},
+      'BR/SP/Dumont': {'id': 'data/BR/SP/Dumont', 'key': 'Dumont', 'lang': 'pt'},
+      'BR/SP/Echaporã': {'id': 'data/BR/SP/Echaporã', 'key': 'Echaporã', 'lang': 'pt'},
+      'BR/SP/Eldorado': {'id': 'data/BR/SP/Eldorado', 'key': 'Eldorado', 'lang': 'pt'},
       'BR/SP/Elias Fausto': {
         'id': 'data/BR/SP/Elias Fausto',
         'key': 'Elias Fausto',
         'lang': 'pt'
       },
-      'BR/SP/Elisiário': {
-        'id': 'data/BR/SP/Elisiário',
-        'key': 'Elisiário',
-        'lang': 'pt'
-      },
-      'BR/SP/Embaúba': {
-        'id': 'data/BR/SP/Embaúba',
-        'key': 'Embaúba',
-        'lang': 'pt'
-      },
+      'BR/SP/Elisiário': {'id': 'data/BR/SP/Elisiário', 'key': 'Elisiário', 'lang': 'pt'},
+      'BR/SP/Embaúba': {'id': 'data/BR/SP/Embaúba', 'key': 'Embaúba', 'lang': 'pt'},
       'BR/SP/Embu das Artes': {
         'id': 'data/BR/SP/Embu das Artes',
         'key': 'Embu das Artes',
@@ -24655,11 +17229,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Euclides da Cunha Paulista',
         'lang': 'pt'
       },
-      'BR/SP/Fartura': {
-        'id': 'data/BR/SP/Fartura',
-        'key': 'Fartura',
-        'lang': 'pt'
-      },
+      'BR/SP/Fartura': {'id': 'data/BR/SP/Fartura', 'key': 'Fartura', 'lang': 'pt'},
       'BR/SP/Fernando Prestes': {
         'id': 'data/BR/SP/Fernando Prestes',
         'key': 'Fernando Prestes',
@@ -24670,11 +17240,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Fernandópolis',
         'lang': 'pt'
       },
-      'BR/SP/Fernão': {
-        'id': 'data/BR/SP/Fernão',
-        'key': 'Fernão',
-        'lang': 'pt'
-      },
+      'BR/SP/Fernão': {'id': 'data/BR/SP/Fernão', 'key': 'Fernão', 'lang': 'pt'},
       'BR/SP/Ferraz de Vasconcelos': {
         'id': 'data/BR/SP/Ferraz de Vasconcelos',
         'key': 'Ferraz de Vasconcelos',
@@ -24685,26 +17251,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Flora Rica',
         'lang': 'pt'
       },
-      'BR/SP/Floréal': {
-        'id': 'data/BR/SP/Floréal',
-        'key': 'Floréal',
-        'lang': 'pt'
-      },
-      'BR/SP/Florínia': {
-        'id': 'data/BR/SP/Florínia',
-        'key': 'Florínia',
-        'lang': 'pt'
-      },
+      'BR/SP/Floréal': {'id': 'data/BR/SP/Floréal', 'key': 'Floréal', 'lang': 'pt'},
+      'BR/SP/Florínia': {'id': 'data/BR/SP/Florínia', 'key': 'Florínia', 'lang': 'pt'},
       'BR/SP/Flórida Paulista': {
         'id': 'data/BR/SP/Flórida Paulista',
         'key': 'Flórida Paulista',
         'lang': 'pt'
       },
-      'BR/SP/Franca': {
-        'id': 'data/BR/SP/Franca',
-        'key': 'Franca',
-        'lang': 'pt'
-      },
+      'BR/SP/Franca': {'id': 'data/BR/SP/Franca', 'key': 'Franca', 'lang': 'pt'},
       'BR/SP/Francisco Morato': {
         'id': 'data/BR/SP/Francisco Morato',
         'key': 'Francisco Morato',
@@ -24736,102 +17290,38 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'General Salgado',
         'lang': 'pt'
       },
-      'BR/SP/Getulina': {
-        'id': 'data/BR/SP/Getulina',
-        'key': 'Getulina',
-        'lang': 'pt'
-      },
-      'BR/SP/Glicério': {
-        'id': 'data/BR/SP/Glicério',
-        'key': 'Glicério',
-        'lang': 'pt'
-      },
-      'BR/SP/Guaimbê': {
-        'id': 'data/BR/SP/Guaimbê',
-        'key': 'Guaimbê',
-        'lang': 'pt'
-      },
-      'BR/SP/Guaiçara': {
-        'id': 'data/BR/SP/Guaiçara',
-        'key': 'Guaiçara',
-        'lang': 'pt'
-      },
-      'BR/SP/Guapiara': {
-        'id': 'data/BR/SP/Guapiara',
-        'key': 'Guapiara',
-        'lang': 'pt'
-      },
-      'BR/SP/Guapiaçu': {
-        'id': 'data/BR/SP/Guapiaçu',
-        'key': 'Guapiaçu',
-        'lang': 'pt'
-      },
-      'BR/SP/Guaraci': {
-        'id': 'data/BR/SP/Guaraci',
-        'key': 'Guaraci',
-        'lang': 'pt'
-      },
+      'BR/SP/Getulina': {'id': 'data/BR/SP/Getulina', 'key': 'Getulina', 'lang': 'pt'},
+      'BR/SP/Glicério': {'id': 'data/BR/SP/Glicério', 'key': 'Glicério', 'lang': 'pt'},
+      'BR/SP/Guaimbê': {'id': 'data/BR/SP/Guaimbê', 'key': 'Guaimbê', 'lang': 'pt'},
+      'BR/SP/Guaiçara': {'id': 'data/BR/SP/Guaiçara', 'key': 'Guaiçara', 'lang': 'pt'},
+      'BR/SP/Guapiara': {'id': 'data/BR/SP/Guapiara', 'key': 'Guapiara', 'lang': 'pt'},
+      'BR/SP/Guapiaçu': {'id': 'data/BR/SP/Guapiaçu', 'key': 'Guapiaçu', 'lang': 'pt'},
+      'BR/SP/Guaraci': {'id': 'data/BR/SP/Guaraci', 'key': 'Guaraci', 'lang': 'pt'},
       "BR/SP/Guarani d'Oeste": {
         'id': "data/BR/SP/Guarani d'Oeste",
         'key': "Guarani d'Oeste",
         'lang': 'pt'
       },
-      'BR/SP/Guarantã': {
-        'id': 'data/BR/SP/Guarantã',
-        'key': 'Guarantã',
-        'lang': 'pt'
-      },
+      'BR/SP/Guarantã': {'id': 'data/BR/SP/Guarantã', 'key': 'Guarantã', 'lang': 'pt'},
       'BR/SP/Guararapes': {
         'id': 'data/BR/SP/Guararapes',
         'key': 'Guararapes',
         'lang': 'pt'
       },
-      'BR/SP/Guararema': {
-        'id': 'data/BR/SP/Guararema',
-        'key': 'Guararema',
-        'lang': 'pt'
-      },
+      'BR/SP/Guararema': {'id': 'data/BR/SP/Guararema', 'key': 'Guararema', 'lang': 'pt'},
       'BR/SP/Guaratinguetá': {
         'id': 'data/BR/SP/Guaratinguetá',
         'key': 'Guaratinguetá',
         'lang': 'pt'
       },
-      'BR/SP/Guaraçaí': {
-        'id': 'data/BR/SP/Guaraçaí',
-        'key': 'Guaraçaí',
-        'lang': 'pt'
-      },
-      'BR/SP/Guareí': {
-        'id': 'data/BR/SP/Guareí',
-        'key': 'Guareí',
-        'lang': 'pt'
-      },
-      'BR/SP/Guariba': {
-        'id': 'data/BR/SP/Guariba',
-        'key': 'Guariba',
-        'lang': 'pt'
-      },
-      'BR/SP/Guarujá': {
-        'id': 'data/BR/SP/Guarujá',
-        'key': 'Guarujá',
-        'lang': 'pt'
-      },
-      'BR/SP/Guarulhos': {
-        'id': 'data/BR/SP/Guarulhos',
-        'key': 'Guarulhos',
-        'lang': 'pt'
-      },
+      'BR/SP/Guaraçaí': {'id': 'data/BR/SP/Guaraçaí', 'key': 'Guaraçaí', 'lang': 'pt'},
+      'BR/SP/Guareí': {'id': 'data/BR/SP/Guareí', 'key': 'Guareí', 'lang': 'pt'},
+      'BR/SP/Guariba': {'id': 'data/BR/SP/Guariba', 'key': 'Guariba', 'lang': 'pt'},
+      'BR/SP/Guarujá': {'id': 'data/BR/SP/Guarujá', 'key': 'Guarujá', 'lang': 'pt'},
+      'BR/SP/Guarulhos': {'id': 'data/BR/SP/Guarulhos', 'key': 'Guarulhos', 'lang': 'pt'},
       'BR/SP/Guará': {'id': 'data/BR/SP/Guará', 'key': 'Guará', 'lang': 'pt'},
-      'BR/SP/Guatapará': {
-        'id': 'data/BR/SP/Guatapará',
-        'key': 'Guatapará',
-        'lang': 'pt'
-      },
-      'BR/SP/Guaíra': {
-        'id': 'data/BR/SP/Guaíra',
-        'key': 'Guaíra',
-        'lang': 'pt'
-      },
+      'BR/SP/Guatapará': {'id': 'data/BR/SP/Guatapará', 'key': 'Guatapará', 'lang': 'pt'},
+      'BR/SP/Guaíra': {'id': 'data/BR/SP/Guaíra', 'key': 'Guaíra', 'lang': 'pt'},
       'BR/SP/Guzolândia': {
         'id': 'data/BR/SP/Guzolândia',
         'key': 'Guzolândia',
@@ -24843,62 +17333,30 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Herculândia',
         'lang': 'pt'
       },
-      'BR/SP/Holambra': {
-        'id': 'data/BR/SP/Holambra',
-        'key': 'Holambra',
-        'lang': 'pt'
-      },
+      'BR/SP/Holambra': {'id': 'data/BR/SP/Holambra', 'key': 'Holambra', 'lang': 'pt'},
       'BR/SP/Hortolândia': {
         'id': 'data/BR/SP/Hortolândia',
         'key': 'Hortolândia',
         'lang': 'pt'
       },
-      'BR/SP/Iacanga': {
-        'id': 'data/BR/SP/Iacanga',
-        'key': 'Iacanga',
-        'lang': 'pt'
-      },
+      'BR/SP/Iacanga': {'id': 'data/BR/SP/Iacanga', 'key': 'Iacanga', 'lang': 'pt'},
       'BR/SP/Iacri': {'id': 'data/BR/SP/Iacri', 'key': 'Iacri', 'lang': 'pt'},
       'BR/SP/Iaras': {'id': 'data/BR/SP/Iaras', 'key': 'Iaras', 'lang': 'pt'},
       'BR/SP/Ibaté': {'id': 'data/BR/SP/Ibaté', 'key': 'Ibaté', 'lang': 'pt'},
-      'BR/SP/Ibirarema': {
-        'id': 'data/BR/SP/Ibirarema',
-        'key': 'Ibirarema',
-        'lang': 'pt'
-      },
+      'BR/SP/Ibirarema': {'id': 'data/BR/SP/Ibirarema', 'key': 'Ibirarema', 'lang': 'pt'},
       'BR/SP/Ibirá': {'id': 'data/BR/SP/Ibirá', 'key': 'Ibirá', 'lang': 'pt'},
-      'BR/SP/Ibitinga': {
-        'id': 'data/BR/SP/Ibitinga',
-        'key': 'Ibitinga',
-        'lang': 'pt'
-      },
-      'BR/SP/Ibiúna': {
-        'id': 'data/BR/SP/Ibiúna',
-        'key': 'Ibiúna',
-        'lang': 'pt'
-      },
+      'BR/SP/Ibitinga': {'id': 'data/BR/SP/Ibitinga', 'key': 'Ibitinga', 'lang': 'pt'},
+      'BR/SP/Ibiúna': {'id': 'data/BR/SP/Ibiúna', 'key': 'Ibiúna', 'lang': 'pt'},
       'BR/SP/Icém': {'id': 'data/BR/SP/Icém', 'key': 'Icém', 'lang': 'pt'},
       'BR/SP/Iepê': {'id': 'data/BR/SP/Iepê', 'key': 'Iepê', 'lang': 'pt'},
-      'BR/SP/Igarapava': {
-        'id': 'data/BR/SP/Igarapava',
-        'key': 'Igarapava',
-        'lang': 'pt'
-      },
-      'BR/SP/Igaratá': {
-        'id': 'data/BR/SP/Igaratá',
-        'key': 'Igaratá',
-        'lang': 'pt'
-      },
+      'BR/SP/Igarapava': {'id': 'data/BR/SP/Igarapava', 'key': 'Igarapava', 'lang': 'pt'},
+      'BR/SP/Igaratá': {'id': 'data/BR/SP/Igaratá', 'key': 'Igaratá', 'lang': 'pt'},
       'BR/SP/Igaraçu do Tietê': {
         'id': 'data/BR/SP/Igaraçu do Tietê',
         'key': 'Igaraçu do Tietê',
         'lang': 'pt'
       },
-      'BR/SP/Iguape': {
-        'id': 'data/BR/SP/Iguape',
-        'key': 'Iguape',
-        'lang': 'pt'
-      },
+      'BR/SP/Iguape': {'id': 'data/BR/SP/Iguape', 'key': 'Iguape', 'lang': 'pt'},
       'BR/SP/Ilha Comprida': {
         'id': 'data/BR/SP/Ilha Comprida',
         'key': 'Ilha Comprida',
@@ -24909,84 +17367,36 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ilha Solteira',
         'lang': 'pt'
       },
-      'BR/SP/Ilhabela': {
-        'id': 'data/BR/SP/Ilhabela',
-        'key': 'Ilhabela',
-        'lang': 'pt'
-      },
+      'BR/SP/Ilhabela': {'id': 'data/BR/SP/Ilhabela', 'key': 'Ilhabela', 'lang': 'pt'},
       'BR/SP/Indaiatuba': {
         'id': 'data/BR/SP/Indaiatuba',
         'key': 'Indaiatuba',
         'lang': 'pt'
       },
-      'BR/SP/Indiana': {
-        'id': 'data/BR/SP/Indiana',
-        'key': 'Indiana',
-        'lang': 'pt'
-      },
-      'BR/SP/Indiaporã': {
-        'id': 'data/BR/SP/Indiaporã',
-        'key': 'Indiaporã',
-        'lang': 'pt'
-      },
+      'BR/SP/Indiana': {'id': 'data/BR/SP/Indiana', 'key': 'Indiana', 'lang': 'pt'},
+      'BR/SP/Indiaporã': {'id': 'data/BR/SP/Indiaporã', 'key': 'Indiaporã', 'lang': 'pt'},
       'BR/SP/Inúbia Paulista': {
         'id': 'data/BR/SP/Inúbia Paulista',
         'key': 'Inúbia Paulista',
         'lang': 'pt'
       },
-      'BR/SP/Ipaussu': {
-        'id': 'data/BR/SP/Ipaussu',
-        'key': 'Ipaussu',
-        'lang': 'pt'
-      },
+      'BR/SP/Ipaussu': {'id': 'data/BR/SP/Ipaussu', 'key': 'Ipaussu', 'lang': 'pt'},
       'BR/SP/Iperó': {'id': 'data/BR/SP/Iperó', 'key': 'Iperó', 'lang': 'pt'},
-      'BR/SP/Ipeúna': {
-        'id': 'data/BR/SP/Ipeúna',
-        'key': 'Ipeúna',
-        'lang': 'pt'
-      },
-      'BR/SP/Ipiguá': {
-        'id': 'data/BR/SP/Ipiguá',
-        'key': 'Ipiguá',
-        'lang': 'pt'
-      },
-      'BR/SP/Iporanga': {
-        'id': 'data/BR/SP/Iporanga',
-        'key': 'Iporanga',
-        'lang': 'pt'
-      },
+      'BR/SP/Ipeúna': {'id': 'data/BR/SP/Ipeúna', 'key': 'Ipeúna', 'lang': 'pt'},
+      'BR/SP/Ipiguá': {'id': 'data/BR/SP/Ipiguá', 'key': 'Ipiguá', 'lang': 'pt'},
+      'BR/SP/Iporanga': {'id': 'data/BR/SP/Iporanga', 'key': 'Iporanga', 'lang': 'pt'},
       'BR/SP/Ipuã': {'id': 'data/BR/SP/Ipuã', 'key': 'Ipuã', 'lang': 'pt'},
       'BR/SP/Iracemápolis': {
         'id': 'data/BR/SP/Iracemápolis',
         'key': 'Iracemápolis',
         'lang': 'pt'
       },
-      'BR/SP/Irapuru': {
-        'id': 'data/BR/SP/Irapuru',
-        'key': 'Irapuru',
-        'lang': 'pt'
-      },
-      'BR/SP/Irapuã': {
-        'id': 'data/BR/SP/Irapuã',
-        'key': 'Irapuã',
-        'lang': 'pt'
-      },
-      'BR/SP/Itaberá': {
-        'id': 'data/BR/SP/Itaberá',
-        'key': 'Itaberá',
-        'lang': 'pt'
-      },
-      'BR/SP/Itajobi': {
-        'id': 'data/BR/SP/Itajobi',
-        'key': 'Itajobi',
-        'lang': 'pt'
-      },
+      'BR/SP/Irapuru': {'id': 'data/BR/SP/Irapuru', 'key': 'Irapuru', 'lang': 'pt'},
+      'BR/SP/Irapuã': {'id': 'data/BR/SP/Irapuã', 'key': 'Irapuã', 'lang': 'pt'},
+      'BR/SP/Itaberá': {'id': 'data/BR/SP/Itaberá', 'key': 'Itaberá', 'lang': 'pt'},
+      'BR/SP/Itajobi': {'id': 'data/BR/SP/Itajobi', 'key': 'Itajobi', 'lang': 'pt'},
       'BR/SP/Itaju': {'id': 'data/BR/SP/Itaju', 'key': 'Itaju', 'lang': 'pt'},
-      'BR/SP/Itanhaém': {
-        'id': 'data/BR/SP/Itanhaém',
-        'key': 'Itanhaém',
-        'lang': 'pt'
-      },
+      'BR/SP/Itanhaém': {'id': 'data/BR/SP/Itanhaém', 'key': 'Itanhaém', 'lang': 'pt'},
       'BR/SP/Itapecerica da Serra': {
         'id': 'data/BR/SP/Itapecerica da Serra',
         'key': 'Itapecerica da Serra',
@@ -24997,21 +17407,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Itapetininga',
         'lang': 'pt'
       },
-      'BR/SP/Itapeva': {
-        'id': 'data/BR/SP/Itapeva',
-        'key': 'Itapeva',
-        'lang': 'pt'
-      },
-      'BR/SP/Itapevi': {
-        'id': 'data/BR/SP/Itapevi',
-        'key': 'Itapevi',
-        'lang': 'pt'
-      },
-      'BR/SP/Itapira': {
-        'id': 'data/BR/SP/Itapira',
-        'key': 'Itapira',
-        'lang': 'pt'
-      },
+      'BR/SP/Itapeva': {'id': 'data/BR/SP/Itapeva', 'key': 'Itapeva', 'lang': 'pt'},
+      'BR/SP/Itapevi': {'id': 'data/BR/SP/Itapevi', 'key': 'Itapevi', 'lang': 'pt'},
+      'BR/SP/Itapira': {'id': 'data/BR/SP/Itapira', 'key': 'Itapira', 'lang': 'pt'},
       'BR/SP/Itapirapuã Paulista': {
         'id': 'data/BR/SP/Itapirapuã Paulista',
         'key': 'Itapirapuã Paulista',
@@ -25022,89 +17420,33 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Itaporanga',
         'lang': 'pt'
       },
-      'BR/SP/Itapura': {
-        'id': 'data/BR/SP/Itapura',
-        'key': 'Itapura',
-        'lang': 'pt'
-      },
-      'BR/SP/Itapuí': {
-        'id': 'data/BR/SP/Itapuí',
-        'key': 'Itapuí',
-        'lang': 'pt'
-      },
+      'BR/SP/Itapura': {'id': 'data/BR/SP/Itapura', 'key': 'Itapura', 'lang': 'pt'},
+      'BR/SP/Itapuí': {'id': 'data/BR/SP/Itapuí', 'key': 'Itapuí', 'lang': 'pt'},
       'BR/SP/Itaquaquecetuba': {
         'id': 'data/BR/SP/Itaquaquecetuba',
         'key': 'Itaquaquecetuba',
         'lang': 'pt'
       },
-      'BR/SP/Itararé': {
-        'id': 'data/BR/SP/Itararé',
-        'key': 'Itararé',
-        'lang': 'pt'
-      },
-      'BR/SP/Itariri': {
-        'id': 'data/BR/SP/Itariri',
-        'key': 'Itariri',
-        'lang': 'pt'
-      },
-      'BR/SP/Itatiba': {
-        'id': 'data/BR/SP/Itatiba',
-        'key': 'Itatiba',
-        'lang': 'pt'
-      },
-      'BR/SP/Itatinga': {
-        'id': 'data/BR/SP/Itatinga',
-        'key': 'Itatinga',
-        'lang': 'pt'
-      },
+      'BR/SP/Itararé': {'id': 'data/BR/SP/Itararé', 'key': 'Itararé', 'lang': 'pt'},
+      'BR/SP/Itariri': {'id': 'data/BR/SP/Itariri', 'key': 'Itariri', 'lang': 'pt'},
+      'BR/SP/Itatiba': {'id': 'data/BR/SP/Itatiba', 'key': 'Itatiba', 'lang': 'pt'},
+      'BR/SP/Itatinga': {'id': 'data/BR/SP/Itatinga', 'key': 'Itatinga', 'lang': 'pt'},
       'BR/SP/Itaí': {'id': 'data/BR/SP/Itaí', 'key': 'Itaí', 'lang': 'pt'},
-      'BR/SP/Itaóca': {
-        'id': 'data/BR/SP/Itaóca',
-        'key': 'Itaóca',
-        'lang': 'pt'
-      },
-      'BR/SP/Itirapina': {
-        'id': 'data/BR/SP/Itirapina',
-        'key': 'Itirapina',
-        'lang': 'pt'
-      },
-      'BR/SP/Itirapuã': {
-        'id': 'data/BR/SP/Itirapuã',
-        'key': 'Itirapuã',
-        'lang': 'pt'
-      },
+      'BR/SP/Itaóca': {'id': 'data/BR/SP/Itaóca', 'key': 'Itaóca', 'lang': 'pt'},
+      'BR/SP/Itirapina': {'id': 'data/BR/SP/Itirapina', 'key': 'Itirapina', 'lang': 'pt'},
+      'BR/SP/Itirapuã': {'id': 'data/BR/SP/Itirapuã', 'key': 'Itirapuã', 'lang': 'pt'},
       'BR/SP/Itobi': {'id': 'data/BR/SP/Itobi', 'key': 'Itobi', 'lang': 'pt'},
       'BR/SP/Itu': {'id': 'data/BR/SP/Itu', 'key': 'Itu', 'lang': 'pt'},
-      'BR/SP/Itupeva': {
-        'id': 'data/BR/SP/Itupeva',
-        'key': 'Itupeva',
-        'lang': 'pt'
-      },
-      'BR/SP/Ituverava': {
-        'id': 'data/BR/SP/Ituverava',
-        'key': 'Ituverava',
-        'lang': 'pt'
-      },
-      'BR/SP/Itápolis': {
-        'id': 'data/BR/SP/Itápolis',
-        'key': 'Itápolis',
-        'lang': 'pt'
-      },
-      'BR/SP/Jaborandi': {
-        'id': 'data/BR/SP/Jaborandi',
-        'key': 'Jaborandi',
-        'lang': 'pt'
-      },
+      'BR/SP/Itupeva': {'id': 'data/BR/SP/Itupeva', 'key': 'Itupeva', 'lang': 'pt'},
+      'BR/SP/Ituverava': {'id': 'data/BR/SP/Ituverava', 'key': 'Ituverava', 'lang': 'pt'},
+      'BR/SP/Itápolis': {'id': 'data/BR/SP/Itápolis', 'key': 'Itápolis', 'lang': 'pt'},
+      'BR/SP/Jaborandi': {'id': 'data/BR/SP/Jaborandi', 'key': 'Jaborandi', 'lang': 'pt'},
       'BR/SP/Jaboticabal': {
         'id': 'data/BR/SP/Jaboticabal',
         'key': 'Jaboticabal',
         'lang': 'pt'
       },
-      'BR/SP/Jacareí': {
-        'id': 'data/BR/SP/Jacareí',
-        'key': 'Jacareí',
-        'lang': 'pt'
-      },
+      'BR/SP/Jacareí': {'id': 'data/BR/SP/Jacareí', 'key': 'Jacareí', 'lang': 'pt'},
       'BR/SP/Jaci': {'id': 'data/BR/SP/Jaci', 'key': 'Jaci', 'lang': 'pt'},
       'BR/SP/Jacupiranga': {
         'id': 'data/BR/SP/Jacupiranga',
@@ -25117,32 +17459,16 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/SP/Jales': {'id': 'data/BR/SP/Jales', 'key': 'Jales', 'lang': 'pt'},
-      'BR/SP/Jambeiro': {
-        'id': 'data/BR/SP/Jambeiro',
-        'key': 'Jambeiro',
-        'lang': 'pt'
-      },
-      'BR/SP/Jandira': {
-        'id': 'data/BR/SP/Jandira',
-        'key': 'Jandira',
-        'lang': 'pt'
-      },
+      'BR/SP/Jambeiro': {'id': 'data/BR/SP/Jambeiro', 'key': 'Jambeiro', 'lang': 'pt'},
+      'BR/SP/Jandira': {'id': 'data/BR/SP/Jandira', 'key': 'Jandira', 'lang': 'pt'},
       'BR/SP/Jardinópolis': {
         'id': 'data/BR/SP/Jardinópolis',
         'key': 'Jardinópolis',
         'lang': 'pt'
       },
-      'BR/SP/Jarinu': {
-        'id': 'data/BR/SP/Jarinu',
-        'key': 'Jarinu',
-        'lang': 'pt'
-      },
+      'BR/SP/Jarinu': {'id': 'data/BR/SP/Jarinu', 'key': 'Jarinu', 'lang': 'pt'},
       'BR/SP/Jaú': {'id': 'data/BR/SP/Jaú', 'key': 'Jaú', 'lang': 'pt'},
-      'BR/SP/Jeriquara': {
-        'id': 'data/BR/SP/Jeriquara',
-        'key': 'Jeriquara',
-        'lang': 'pt'
-      },
+      'BR/SP/Jeriquara': {'id': 'data/BR/SP/Jeriquara', 'key': 'Jeriquara', 'lang': 'pt'},
       'BR/SP/Joanópolis': {
         'id': 'data/BR/SP/Joanópolis',
         'key': 'Joanópolis',
@@ -25158,164 +17484,68 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'João Ramalho',
         'lang': 'pt'
       },
-      'BR/SP/Jumirim': {
-        'id': 'data/BR/SP/Jumirim',
-        'key': 'Jumirim',
-        'lang': 'pt'
-      },
-      'BR/SP/Jundiaí': {
-        'id': 'data/BR/SP/Jundiaí',
-        'key': 'Jundiaí',
-        'lang': 'pt'
-      },
+      'BR/SP/Jumirim': {'id': 'data/BR/SP/Jumirim', 'key': 'Jumirim', 'lang': 'pt'},
+      'BR/SP/Jundiaí': {'id': 'data/BR/SP/Jundiaí', 'key': 'Jundiaí', 'lang': 'pt'},
       'BR/SP/Junqueirópolis': {
         'id': 'data/BR/SP/Junqueirópolis',
         'key': 'Junqueirópolis',
         'lang': 'pt'
       },
-      'BR/SP/Juquitiba': {
-        'id': 'data/BR/SP/Juquitiba',
-        'key': 'Juquitiba',
-        'lang': 'pt'
-      },
-      'BR/SP/Juquiá': {
-        'id': 'data/BR/SP/Juquiá',
-        'key': 'Juquiá',
-        'lang': 'pt'
-      },
+      'BR/SP/Juquitiba': {'id': 'data/BR/SP/Juquitiba', 'key': 'Juquitiba', 'lang': 'pt'},
+      'BR/SP/Juquiá': {'id': 'data/BR/SP/Juquiá', 'key': 'Juquiá', 'lang': 'pt'},
       'BR/SP/Júlio Mesquita': {
         'id': 'data/BR/SP/Júlio Mesquita',
         'key': 'Júlio Mesquita',
         'lang': 'pt'
       },
-      'BR/SP/Lagoinha': {
-        'id': 'data/BR/SP/Lagoinha',
-        'key': 'Lagoinha',
-        'lang': 'pt'
-      },
+      'BR/SP/Lagoinha': {'id': 'data/BR/SP/Lagoinha', 'key': 'Lagoinha', 'lang': 'pt'},
       'BR/SP/Laranjal Paulista': {
         'id': 'data/BR/SP/Laranjal Paulista',
         'key': 'Laranjal Paulista',
         'lang': 'pt'
       },
-      'BR/SP/Lavrinhas': {
-        'id': 'data/BR/SP/Lavrinhas',
-        'key': 'Lavrinhas',
-        'lang': 'pt'
-      },
-      'BR/SP/Lavínia': {
-        'id': 'data/BR/SP/Lavínia',
-        'key': 'Lavínia',
-        'lang': 'pt'
-      },
+      'BR/SP/Lavrinhas': {'id': 'data/BR/SP/Lavrinhas', 'key': 'Lavrinhas', 'lang': 'pt'},
+      'BR/SP/Lavínia': {'id': 'data/BR/SP/Lavínia', 'key': 'Lavínia', 'lang': 'pt'},
       'BR/SP/Leme': {'id': 'data/BR/SP/Leme', 'key': 'Leme', 'lang': 'pt'},
       'BR/SP/Lençóis Paulista': {
         'id': 'data/BR/SP/Lençóis Paulista',
         'key': 'Lençóis Paulista',
         'lang': 'pt'
       },
-      'BR/SP/Limeira': {
-        'id': 'data/BR/SP/Limeira',
-        'key': 'Limeira',
-        'lang': 'pt'
-      },
-      'BR/SP/Lindóia': {
-        'id': 'data/BR/SP/Lindóia',
-        'key': 'Lindóia',
-        'lang': 'pt'
-      },
+      'BR/SP/Limeira': {'id': 'data/BR/SP/Limeira', 'key': 'Limeira', 'lang': 'pt'},
+      'BR/SP/Lindóia': {'id': 'data/BR/SP/Lindóia', 'key': 'Lindóia', 'lang': 'pt'},
       'BR/SP/Lins': {'id': 'data/BR/SP/Lins', 'key': 'Lins', 'lang': 'pt'},
-      'BR/SP/Lorena': {
-        'id': 'data/BR/SP/Lorena',
-        'key': 'Lorena',
-        'lang': 'pt'
-      },
-      'BR/SP/Lourdes': {
-        'id': 'data/BR/SP/Lourdes',
-        'key': 'Lourdes',
-        'lang': 'pt'
-      },
-      'BR/SP/Louveira': {
-        'id': 'data/BR/SP/Louveira',
-        'key': 'Louveira',
-        'lang': 'pt'
-      },
+      'BR/SP/Lorena': {'id': 'data/BR/SP/Lorena', 'key': 'Lorena', 'lang': 'pt'},
+      'BR/SP/Lourdes': {'id': 'data/BR/SP/Lourdes', 'key': 'Lourdes', 'lang': 'pt'},
+      'BR/SP/Louveira': {'id': 'data/BR/SP/Louveira', 'key': 'Louveira', 'lang': 'pt'},
       'BR/SP/Lucianópolis': {
         'id': 'data/BR/SP/Lucianópolis',
         'key': 'Lucianópolis',
         'lang': 'pt'
       },
-      'BR/SP/Lucélia': {
-        'id': 'data/BR/SP/Lucélia',
-        'key': 'Lucélia',
-        'lang': 'pt'
-      },
-      'BR/SP/Luiziânia': {
-        'id': 'data/BR/SP/Luiziânia',
-        'key': 'Luiziânia',
-        'lang': 'pt'
-      },
-      'BR/SP/Lupércio': {
-        'id': 'data/BR/SP/Lupércio',
-        'key': 'Lupércio',
-        'lang': 'pt'
-      },
-      'BR/SP/Lutécia': {
-        'id': 'data/BR/SP/Lutécia',
-        'key': 'Lutécia',
-        'lang': 'pt'
-      },
+      'BR/SP/Lucélia': {'id': 'data/BR/SP/Lucélia', 'key': 'Lucélia', 'lang': 'pt'},
+      'BR/SP/Luiziânia': {'id': 'data/BR/SP/Luiziânia', 'key': 'Luiziânia', 'lang': 'pt'},
+      'BR/SP/Lupércio': {'id': 'data/BR/SP/Lupércio', 'key': 'Lupércio', 'lang': 'pt'},
+      'BR/SP/Lutécia': {'id': 'data/BR/SP/Lutécia', 'key': 'Lutécia', 'lang': 'pt'},
       'BR/SP/Luís Antônio': {
         'id': 'data/BR/SP/Luís Antônio',
         'key': 'Luís Antônio',
         'lang': 'pt'
       },
-      'BR/SP/Macatuba': {
-        'id': 'data/BR/SP/Macatuba',
-        'key': 'Macatuba',
-        'lang': 'pt'
-      },
-      'BR/SP/Macaubal': {
-        'id': 'data/BR/SP/Macaubal',
-        'key': 'Macaubal',
-        'lang': 'pt'
-      },
-      'BR/SP/Macedônia': {
-        'id': 'data/BR/SP/Macedônia',
-        'key': 'Macedônia',
-        'lang': 'pt'
-      },
+      'BR/SP/Macatuba': {'id': 'data/BR/SP/Macatuba', 'key': 'Macatuba', 'lang': 'pt'},
+      'BR/SP/Macaubal': {'id': 'data/BR/SP/Macaubal', 'key': 'Macaubal', 'lang': 'pt'},
+      'BR/SP/Macedônia': {'id': 'data/BR/SP/Macedônia', 'key': 'Macedônia', 'lang': 'pt'},
       'BR/SP/Magda': {'id': 'data/BR/SP/Magda', 'key': 'Magda', 'lang': 'pt'},
-      'BR/SP/Mairinque': {
-        'id': 'data/BR/SP/Mairinque',
-        'key': 'Mairinque',
-        'lang': 'pt'
-      },
-      'BR/SP/Mairiporã': {
-        'id': 'data/BR/SP/Mairiporã',
-        'key': 'Mairiporã',
-        'lang': 'pt'
-      },
-      'BR/SP/Manduri': {
-        'id': 'data/BR/SP/Manduri',
-        'key': 'Manduri',
-        'lang': 'pt'
-      },
+      'BR/SP/Mairinque': {'id': 'data/BR/SP/Mairinque', 'key': 'Mairinque', 'lang': 'pt'},
+      'BR/SP/Mairiporã': {'id': 'data/BR/SP/Mairiporã', 'key': 'Mairiporã', 'lang': 'pt'},
+      'BR/SP/Manduri': {'id': 'data/BR/SP/Manduri', 'key': 'Manduri', 'lang': 'pt'},
       'BR/SP/Marabá Paulista': {
         'id': 'data/BR/SP/Marabá Paulista',
         'key': 'Marabá Paulista',
         'lang': 'pt'
       },
-      'BR/SP/Maracaí': {
-        'id': 'data/BR/SP/Maracaí',
-        'key': 'Maracaí',
-        'lang': 'pt'
-      },
-      'BR/SP/Marapoama': {
-        'id': 'data/BR/SP/Marapoama',
-        'key': 'Marapoama',
-        'lang': 'pt'
-      },
+      'BR/SP/Maracaí': {'id': 'data/BR/SP/Maracaí', 'key': 'Maracaí', 'lang': 'pt'},
+      'BR/SP/Marapoama': {'id': 'data/BR/SP/Marapoama', 'key': 'Marapoama', 'lang': 'pt'},
       'BR/SP/Marinópolis': {
         'id': 'data/BR/SP/Marinópolis',
         'key': 'Marinópolis',
@@ -25331,28 +17561,12 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Martinópolis',
         'lang': 'pt'
       },
-      'BR/SP/Marília': {
-        'id': 'data/BR/SP/Marília',
-        'key': 'Marília',
-        'lang': 'pt'
-      },
+      'BR/SP/Marília': {'id': 'data/BR/SP/Marília', 'key': 'Marília', 'lang': 'pt'},
       'BR/SP/Matão': {'id': 'data/BR/SP/Matão', 'key': 'Matão', 'lang': 'pt'},
       'BR/SP/Mauá': {'id': 'data/BR/SP/Mauá', 'key': 'Mauá', 'lang': 'pt'},
-      'BR/SP/Mendonça': {
-        'id': 'data/BR/SP/Mendonça',
-        'key': 'Mendonça',
-        'lang': 'pt'
-      },
-      'BR/SP/Meridiano': {
-        'id': 'data/BR/SP/Meridiano',
-        'key': 'Meridiano',
-        'lang': 'pt'
-      },
-      'BR/SP/Mesópolis': {
-        'id': 'data/BR/SP/Mesópolis',
-        'key': 'Mesópolis',
-        'lang': 'pt'
-      },
+      'BR/SP/Mendonça': {'id': 'data/BR/SP/Mendonça', 'key': 'Mendonça', 'lang': 'pt'},
+      'BR/SP/Meridiano': {'id': 'data/BR/SP/Meridiano', 'key': 'Meridiano', 'lang': 'pt'},
+      'BR/SP/Mesópolis': {'id': 'data/BR/SP/Mesópolis', 'key': 'Mesópolis', 'lang': 'pt'},
       'BR/SP/Miguelópolis': {
         'id': 'data/BR/SP/Miguelópolis',
         'key': 'Miguelópolis',
@@ -25368,11 +17582,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Mira Estrela',
         'lang': 'pt'
       },
-      'BR/SP/Miracatu': {
-        'id': 'data/BR/SP/Miracatu',
-        'key': 'Miracatu',
-        'lang': 'pt'
-      },
+      'BR/SP/Miracatu': {'id': 'data/BR/SP/Miracatu', 'key': 'Miracatu', 'lang': 'pt'},
       'BR/SP/Mirandópolis': {
         'id': 'data/BR/SP/Mirandópolis',
         'key': 'Mirandópolis',
@@ -25383,21 +17593,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Mirante do Paranapanema',
         'lang': 'pt'
       },
-      'BR/SP/Mirassol': {
-        'id': 'data/BR/SP/Mirassol',
-        'key': 'Mirassol',
-        'lang': 'pt'
-      },
+      'BR/SP/Mirassol': {'id': 'data/BR/SP/Mirassol', 'key': 'Mirassol', 'lang': 'pt'},
       'BR/SP/Mirassolândia': {
         'id': 'data/BR/SP/Mirassolândia',
         'key': 'Mirassolândia',
         'lang': 'pt'
       },
-      'BR/SP/Mococa': {
-        'id': 'data/BR/SP/Mococa',
-        'key': 'Mococa',
-        'lang': 'pt'
-      },
+      'BR/SP/Mococa': {'id': 'data/BR/SP/Mococa', 'key': 'Mococa', 'lang': 'pt'},
       'BR/SP/Mogi Guaçu': {
         'id': 'data/BR/SP/Mogi Guaçu',
         'key': 'Mogi Guaçu',
@@ -25413,16 +17615,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Mogi das Cruzes',
         'lang': 'pt'
       },
-      'BR/SP/Mombuca': {
-        'id': 'data/BR/SP/Mombuca',
-        'key': 'Mombuca',
-        'lang': 'pt'
-      },
-      'BR/SP/Mongaguá': {
-        'id': 'data/BR/SP/Mongaguá',
-        'key': 'Mongaguá',
-        'lang': 'pt'
-      },
+      'BR/SP/Mombuca': {'id': 'data/BR/SP/Mombuca', 'key': 'Mombuca', 'lang': 'pt'},
+      'BR/SP/Mongaguá': {'id': 'data/BR/SP/Mongaguá', 'key': 'Mongaguá', 'lang': 'pt'},
       'BR/SP/Monte Alegre do Sul': {
         'id': 'data/BR/SP/Monte Alegre do Sul',
         'key': 'Monte Alegre do Sul',
@@ -25448,51 +17642,27 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Monte Castelo',
         'lang': 'pt'
       },
-      'BR/SP/Monte Mor': {
-        'id': 'data/BR/SP/Monte Mor',
-        'key': 'Monte Mor',
-        'lang': 'pt'
-      },
+      'BR/SP/Monte Mor': {'id': 'data/BR/SP/Monte Mor', 'key': 'Monte Mor', 'lang': 'pt'},
       'BR/SP/Monteiro Lobato': {
         'id': 'data/BR/SP/Monteiro Lobato',
         'key': 'Monteiro Lobato',
         'lang': 'pt'
       },
-      'BR/SP/Monções': {
-        'id': 'data/BR/SP/Monções',
-        'key': 'Monções',
-        'lang': 'pt'
-      },
+      'BR/SP/Monções': {'id': 'data/BR/SP/Monções', 'key': 'Monções', 'lang': 'pt'},
       'BR/SP/Morro Agudo': {
         'id': 'data/BR/SP/Morro Agudo',
         'key': 'Morro Agudo',
         'lang': 'pt'
       },
-      'BR/SP/Morungaba': {
-        'id': 'data/BR/SP/Morungaba',
-        'key': 'Morungaba',
-        'lang': 'pt'
-      },
-      'BR/SP/Motuca': {
-        'id': 'data/BR/SP/Motuca',
-        'key': 'Motuca',
-        'lang': 'pt'
-      },
+      'BR/SP/Morungaba': {'id': 'data/BR/SP/Morungaba', 'key': 'Morungaba', 'lang': 'pt'},
+      'BR/SP/Motuca': {'id': 'data/BR/SP/Motuca', 'key': 'Motuca', 'lang': 'pt'},
       'BR/SP/Murutinga do Sul': {
         'id': 'data/BR/SP/Murutinga do Sul',
         'key': 'Murutinga do Sul',
         'lang': 'pt'
       },
-      'BR/SP/Nantes': {
-        'id': 'data/BR/SP/Nantes',
-        'key': 'Nantes',
-        'lang': 'pt'
-      },
-      'BR/SP/Narandiba': {
-        'id': 'data/BR/SP/Narandiba',
-        'key': 'Narandiba',
-        'lang': 'pt'
-      },
+      'BR/SP/Nantes': {'id': 'data/BR/SP/Nantes', 'key': 'Nantes', 'lang': 'pt'},
+      'BR/SP/Narandiba': {'id': 'data/BR/SP/Narandiba', 'key': 'Narandiba', 'lang': 'pt'},
       'BR/SP/Natividade da Serra': {
         'id': 'data/BR/SP/Natividade da Serra',
         'key': 'Natividade da Serra',
@@ -25508,11 +17678,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Neves Paulista',
         'lang': 'pt'
       },
-      'BR/SP/Nhandeara': {
-        'id': 'data/BR/SP/Nhandeara',
-        'key': 'Nhandeara',
-        'lang': 'pt'
-      },
+      'BR/SP/Nhandeara': {'id': 'data/BR/SP/Nhandeara', 'key': 'Nhandeara', 'lang': 'pt'},
       'BR/SP/Nipoã': {'id': 'data/BR/SP/Nipoã', 'key': 'Nipoã', 'lang': 'pt'},
       'BR/SP/Nova Aliança': {
         'id': 'data/BR/SP/Nova Aliança',
@@ -25564,57 +17730,25 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Nova Odessa',
         'lang': 'pt'
       },
-      'BR/SP/Novais': {
-        'id': 'data/BR/SP/Novais',
-        'key': 'Novais',
-        'lang': 'pt'
-      },
+      'BR/SP/Novais': {'id': 'data/BR/SP/Novais', 'key': 'Novais', 'lang': 'pt'},
       'BR/SP/Novo Horizonte': {
         'id': 'data/BR/SP/Novo Horizonte',
         'key': 'Novo Horizonte',
         'lang': 'pt'
       },
-      'BR/SP/Nuporanga': {
-        'id': 'data/BR/SP/Nuporanga',
-        'key': 'Nuporanga',
-        'lang': 'pt'
-      },
-      'BR/SP/Ocauçu': {
-        'id': 'data/BR/SP/Ocauçu',
-        'key': 'Ocauçu',
-        'lang': 'pt'
-      },
+      'BR/SP/Nuporanga': {'id': 'data/BR/SP/Nuporanga', 'key': 'Nuporanga', 'lang': 'pt'},
+      'BR/SP/Ocauçu': {'id': 'data/BR/SP/Ocauçu', 'key': 'Ocauçu', 'lang': 'pt'},
       'BR/SP/Oleo': {'id': 'data/BR/SP/Oleo', 'key': 'Oleo', 'lang': 'pt'},
-      'BR/SP/Olímpia': {
-        'id': 'data/BR/SP/Olímpia',
-        'key': 'Olímpia',
-        'lang': 'pt'
-      },
+      'BR/SP/Olímpia': {'id': 'data/BR/SP/Olímpia', 'key': 'Olímpia', 'lang': 'pt'},
       'BR/SP/Onda Verde': {
         'id': 'data/BR/SP/Onda Verde',
         'key': 'Onda Verde',
         'lang': 'pt'
       },
-      'BR/SP/Oriente': {
-        'id': 'data/BR/SP/Oriente',
-        'key': 'Oriente',
-        'lang': 'pt'
-      },
-      'BR/SP/Orindiúva': {
-        'id': 'data/BR/SP/Orindiúva',
-        'key': 'Orindiúva',
-        'lang': 'pt'
-      },
-      'BR/SP/Orlândia': {
-        'id': 'data/BR/SP/Orlândia',
-        'key': 'Orlândia',
-        'lang': 'pt'
-      },
-      'BR/SP/Osasco': {
-        'id': 'data/BR/SP/Osasco',
-        'key': 'Osasco',
-        'lang': 'pt'
-      },
+      'BR/SP/Oriente': {'id': 'data/BR/SP/Oriente', 'key': 'Oriente', 'lang': 'pt'},
+      'BR/SP/Orindiúva': {'id': 'data/BR/SP/Orindiúva', 'key': 'Orindiúva', 'lang': 'pt'},
+      'BR/SP/Orlândia': {'id': 'data/BR/SP/Orlândia', 'key': 'Orlândia', 'lang': 'pt'},
+      'BR/SP/Osasco': {'id': 'data/BR/SP/Osasco', 'key': 'Osasco', 'lang': 'pt'},
       'BR/SP/Oscar Bressane': {
         'id': 'data/BR/SP/Oscar Bressane',
         'key': 'Oscar Bressane',
@@ -25625,31 +17759,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Osvaldo Cruz',
         'lang': 'pt'
       },
-      'BR/SP/Ourinhos': {
-        'id': 'data/BR/SP/Ourinhos',
-        'key': 'Ourinhos',
-        'lang': 'pt'
-      },
+      'BR/SP/Ourinhos': {'id': 'data/BR/SP/Ourinhos', 'key': 'Ourinhos', 'lang': 'pt'},
       'BR/SP/Ouro Verde': {
         'id': 'data/BR/SP/Ouro Verde',
         'key': 'Ouro Verde',
         'lang': 'pt'
       },
-      'BR/SP/Ouroeste': {
-        'id': 'data/BR/SP/Ouroeste',
-        'key': 'Ouroeste',
-        'lang': 'pt'
-      },
-      'BR/SP/Pacaembu': {
-        'id': 'data/BR/SP/Pacaembu',
-        'key': 'Pacaembu',
-        'lang': 'pt'
-      },
-      'BR/SP/Palestina': {
-        'id': 'data/BR/SP/Palestina',
-        'key': 'Palestina',
-        'lang': 'pt'
-      },
+      'BR/SP/Ouroeste': {'id': 'data/BR/SP/Ouroeste', 'key': 'Ouroeste', 'lang': 'pt'},
+      'BR/SP/Pacaembu': {'id': 'data/BR/SP/Pacaembu', 'key': 'Pacaembu', 'lang': 'pt'},
+      'BR/SP/Palestina': {'id': 'data/BR/SP/Palestina', 'key': 'Palestina', 'lang': 'pt'},
       'BR/SP/Palmares Paulista': {
         'id': 'data/BR/SP/Palmares Paulista',
         'key': 'Palmares Paulista',
@@ -25660,71 +17778,35 @@ Map<String, Map<String, String>> get allJson => {
         'key': "Palmeira d'Oeste",
         'lang': 'pt'
       },
-      'BR/SP/Palmital': {
-        'id': 'data/BR/SP/Palmital',
-        'key': 'Palmital',
-        'lang': 'pt'
-      },
-      'BR/SP/Panorama': {
-        'id': 'data/BR/SP/Panorama',
-        'key': 'Panorama',
-        'lang': 'pt'
-      },
+      'BR/SP/Palmital': {'id': 'data/BR/SP/Palmital', 'key': 'Palmital', 'lang': 'pt'},
+      'BR/SP/Panorama': {'id': 'data/BR/SP/Panorama', 'key': 'Panorama', 'lang': 'pt'},
       'BR/SP/Paraguaçu Paulista': {
         'id': 'data/BR/SP/Paraguaçu Paulista',
         'key': 'Paraguaçu Paulista',
         'lang': 'pt'
       },
-      'BR/SP/Paraibuna': {
-        'id': 'data/BR/SP/Paraibuna',
-        'key': 'Paraibuna',
-        'lang': 'pt'
-      },
-      'BR/SP/Paraiso': {
-        'id': 'data/BR/SP/Paraiso',
-        'key': 'Paraiso',
-        'lang': 'pt'
-      },
+      'BR/SP/Paraibuna': {'id': 'data/BR/SP/Paraibuna', 'key': 'Paraibuna', 'lang': 'pt'},
+      'BR/SP/Paraiso': {'id': 'data/BR/SP/Paraiso', 'key': 'Paraiso', 'lang': 'pt'},
       'BR/SP/Paranapanema': {
         'id': 'data/BR/SP/Paranapanema',
         'key': 'Paranapanema',
         'lang': 'pt'
       },
-      'BR/SP/Paranapuã': {
-        'id': 'data/BR/SP/Paranapuã',
-        'key': 'Paranapuã',
-        'lang': 'pt'
-      },
-      'BR/SP/Parapuã': {
-        'id': 'data/BR/SP/Parapuã',
-        'key': 'Parapuã',
-        'lang': 'pt'
-      },
-      'BR/SP/Pardinho': {
-        'id': 'data/BR/SP/Pardinho',
-        'key': 'Pardinho',
-        'lang': 'pt'
-      },
+      'BR/SP/Paranapuã': {'id': 'data/BR/SP/Paranapuã', 'key': 'Paranapuã', 'lang': 'pt'},
+      'BR/SP/Parapuã': {'id': 'data/BR/SP/Parapuã', 'key': 'Parapuã', 'lang': 'pt'},
+      'BR/SP/Pardinho': {'id': 'data/BR/SP/Pardinho', 'key': 'Pardinho', 'lang': 'pt'},
       'BR/SP/Pariquera-Açu': {
         'id': 'data/BR/SP/Pariquera-Açu',
         'key': 'Pariquera-Açu',
         'lang': 'pt'
       },
-      'BR/SP/Parisi': {
-        'id': 'data/BR/SP/Parisi',
-        'key': 'Parisi',
-        'lang': 'pt'
-      },
+      'BR/SP/Parisi': {'id': 'data/BR/SP/Parisi', 'key': 'Parisi', 'lang': 'pt'},
       'BR/SP/Patrocínio Paulista': {
         'id': 'data/BR/SP/Patrocínio Paulista',
         'key': 'Patrocínio Paulista',
         'lang': 'pt'
       },
-      'BR/SP/Paulicéia': {
-        'id': 'data/BR/SP/Paulicéia',
-        'key': 'Paulicéia',
-        'lang': 'pt'
-      },
+      'BR/SP/Paulicéia': {'id': 'data/BR/SP/Paulicéia', 'key': 'Paulicéia', 'lang': 'pt'},
       'BR/SP/Paulistânia': {
         'id': 'data/BR/SP/Paulistânia',
         'key': 'Paulistânia',
@@ -25735,11 +17817,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Paulo de Faria',
         'lang': 'pt'
       },
-      'BR/SP/Paulínia': {
-        'id': 'data/BR/SP/Paulínia',
-        'key': 'Paulínia',
-        'lang': 'pt'
-      },
+      'BR/SP/Paulínia': {'id': 'data/BR/SP/Paulínia', 'key': 'Paulínia', 'lang': 'pt'},
       'BR/SP/Pederneiras': {
         'id': 'data/BR/SP/Pederneiras',
         'key': 'Pederneiras',
@@ -25760,11 +17838,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pedregulho',
         'lang': 'pt'
       },
-      'BR/SP/Pedreira': {
-        'id': 'data/BR/SP/Pedreira',
-        'key': 'Pedreira',
-        'lang': 'pt'
-      },
+      'BR/SP/Pedreira': {'id': 'data/BR/SP/Pedreira', 'key': 'Pedreira', 'lang': 'pt'},
       'BR/SP/Pedrinhas Paulista': {
         'id': 'data/BR/SP/Pedrinhas Paulista',
         'key': 'Pedrinhas Paulista',
@@ -25775,36 +17849,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pedro de Toledo',
         'lang': 'pt'
       },
-      'BR/SP/Penápolis': {
-        'id': 'data/BR/SP/Penápolis',
-        'key': 'Penápolis',
-        'lang': 'pt'
-      },
+      'BR/SP/Penápolis': {'id': 'data/BR/SP/Penápolis', 'key': 'Penápolis', 'lang': 'pt'},
       'BR/SP/Pereira Barreto': {
         'id': 'data/BR/SP/Pereira Barreto',
         'key': 'Pereira Barreto',
         'lang': 'pt'
       },
-      'BR/SP/Pereiras': {
-        'id': 'data/BR/SP/Pereiras',
-        'key': 'Pereiras',
-        'lang': 'pt'
-      },
-      'BR/SP/Peruíbe': {
-        'id': 'data/BR/SP/Peruíbe',
-        'key': 'Peruíbe',
-        'lang': 'pt'
-      },
-      'BR/SP/Piacatu': {
-        'id': 'data/BR/SP/Piacatu',
-        'key': 'Piacatu',
-        'lang': 'pt'
-      },
-      'BR/SP/Piedade': {
-        'id': 'data/BR/SP/Piedade',
-        'key': 'Piedade',
-        'lang': 'pt'
-      },
+      'BR/SP/Pereiras': {'id': 'data/BR/SP/Pereiras', 'key': 'Pereiras', 'lang': 'pt'},
+      'BR/SP/Peruíbe': {'id': 'data/BR/SP/Peruíbe', 'key': 'Peruíbe', 'lang': 'pt'},
+      'BR/SP/Piacatu': {'id': 'data/BR/SP/Piacatu', 'key': 'Piacatu', 'lang': 'pt'},
+      'BR/SP/Piedade': {'id': 'data/BR/SP/Piedade', 'key': 'Piedade', 'lang': 'pt'},
       'BR/SP/Pilar do Sul': {
         'id': 'data/BR/SP/Pilar do Sul',
         'key': 'Pilar do Sul',
@@ -25815,51 +17869,23 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pindamonhangaba',
         'lang': 'pt'
       },
-      'BR/SP/Pindorama': {
-        'id': 'data/BR/SP/Pindorama',
-        'key': 'Pindorama',
-        'lang': 'pt'
-      },
+      'BR/SP/Pindorama': {'id': 'data/BR/SP/Pindorama', 'key': 'Pindorama', 'lang': 'pt'},
       'BR/SP/Pinhalzinho': {
         'id': 'data/BR/SP/Pinhalzinho',
         'key': 'Pinhalzinho',
         'lang': 'pt'
       },
-      'BR/SP/Piquerobi': {
-        'id': 'data/BR/SP/Piquerobi',
-        'key': 'Piquerobi',
-        'lang': 'pt'
-      },
-      'BR/SP/Piquete': {
-        'id': 'data/BR/SP/Piquete',
-        'key': 'Piquete',
-        'lang': 'pt'
-      },
-      'BR/SP/Piracaia': {
-        'id': 'data/BR/SP/Piracaia',
-        'key': 'Piracaia',
-        'lang': 'pt'
-      },
+      'BR/SP/Piquerobi': {'id': 'data/BR/SP/Piquerobi', 'key': 'Piquerobi', 'lang': 'pt'},
+      'BR/SP/Piquete': {'id': 'data/BR/SP/Piquete', 'key': 'Piquete', 'lang': 'pt'},
+      'BR/SP/Piracaia': {'id': 'data/BR/SP/Piracaia', 'key': 'Piracaia', 'lang': 'pt'},
       'BR/SP/Piracicaba': {
         'id': 'data/BR/SP/Piracicaba',
         'key': 'Piracicaba',
         'lang': 'pt'
       },
-      'BR/SP/Piraju': {
-        'id': 'data/BR/SP/Piraju',
-        'key': 'Piraju',
-        'lang': 'pt'
-      },
-      'BR/SP/Pirajuí': {
-        'id': 'data/BR/SP/Pirajuí',
-        'key': 'Pirajuí',
-        'lang': 'pt'
-      },
-      'BR/SP/Pirangi': {
-        'id': 'data/BR/SP/Pirangi',
-        'key': 'Pirangi',
-        'lang': 'pt'
-      },
+      'BR/SP/Piraju': {'id': 'data/BR/SP/Piraju', 'key': 'Piraju', 'lang': 'pt'},
+      'BR/SP/Pirajuí': {'id': 'data/BR/SP/Pirajuí', 'key': 'Pirajuí', 'lang': 'pt'},
+      'BR/SP/Pirangi': {'id': 'data/BR/SP/Pirangi', 'key': 'Pirangi', 'lang': 'pt'},
       'BR/SP/Pirapora do Bom Jesus': {
         'id': 'data/BR/SP/Pirapora do Bom Jesus',
         'key': 'Pirapora do Bom Jesus',
@@ -25885,37 +17911,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pitangueiras',
         'lang': 'pt'
       },
-      'BR/SP/Planalto': {
-        'id': 'data/BR/SP/Planalto',
-        'key': 'Planalto',
-        'lang': 'pt'
-      },
-      'BR/SP/Platina': {
-        'id': 'data/BR/SP/Platina',
-        'key': 'Platina',
-        'lang': 'pt'
-      },
+      'BR/SP/Planalto': {'id': 'data/BR/SP/Planalto', 'key': 'Planalto', 'lang': 'pt'},
+      'BR/SP/Platina': {'id': 'data/BR/SP/Platina', 'key': 'Platina', 'lang': 'pt'},
       'BR/SP/Poa': {'id': 'data/BR/SP/Poa', 'key': 'Poa', 'lang': 'pt'},
-      'BR/SP/Poloni': {
-        'id': 'data/BR/SP/Poloni',
-        'key': 'Poloni',
-        'lang': 'pt'
-      },
-      'BR/SP/Pompéia': {
-        'id': 'data/BR/SP/Pompéia',
-        'key': 'Pompéia',
-        'lang': 'pt'
-      },
-      'BR/SP/Pongaí': {
-        'id': 'data/BR/SP/Pongaí',
-        'key': 'Pongaí',
-        'lang': 'pt'
-      },
-      'BR/SP/Pontal': {
-        'id': 'data/BR/SP/Pontal',
-        'key': 'Pontal',
-        'lang': 'pt'
-      },
+      'BR/SP/Poloni': {'id': 'data/BR/SP/Poloni', 'key': 'Poloni', 'lang': 'pt'},
+      'BR/SP/Pompéia': {'id': 'data/BR/SP/Pompéia', 'key': 'Pompéia', 'lang': 'pt'},
+      'BR/SP/Pongaí': {'id': 'data/BR/SP/Pongaí', 'key': 'Pongaí', 'lang': 'pt'},
+      'BR/SP/Pontal': {'id': 'data/BR/SP/Pontal', 'key': 'Pontal', 'lang': 'pt'},
       'BR/SP/Pontalinda': {
         'id': 'data/BR/SP/Pontalinda',
         'key': 'Pontalinda',
@@ -25926,16 +17928,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pontes Gestal',
         'lang': 'pt'
       },
-      'BR/SP/Populina': {
-        'id': 'data/BR/SP/Populina',
-        'key': 'Populina',
-        'lang': 'pt'
-      },
-      'BR/SP/Porangaba': {
-        'id': 'data/BR/SP/Porangaba',
-        'key': 'Porangaba',
-        'lang': 'pt'
-      },
+      'BR/SP/Populina': {'id': 'data/BR/SP/Populina', 'key': 'Populina', 'lang': 'pt'},
+      'BR/SP/Porangaba': {'id': 'data/BR/SP/Porangaba', 'key': 'Porangaba', 'lang': 'pt'},
       'BR/SP/Porto Feliz': {
         'id': 'data/BR/SP/Porto Feliz',
         'key': 'Porto Feliz',
@@ -25952,11 +17946,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Potirendaba',
         'lang': 'pt'
       },
-      'BR/SP/Pracinha': {
-        'id': 'data/BR/SP/Pracinha',
-        'key': 'Pracinha',
-        'lang': 'pt'
-      },
+      'BR/SP/Pracinha': {'id': 'data/BR/SP/Pracinha', 'key': 'Pracinha', 'lang': 'pt'},
       'BR/SP/Pradópolis': {
         'id': 'data/BR/SP/Pradópolis',
         'key': 'Pradópolis',
@@ -25967,11 +17957,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Praia Grande',
         'lang': 'pt'
       },
-      'BR/SP/Pratânia': {
-        'id': 'data/BR/SP/Pratânia',
-        'key': 'Pratânia',
-        'lang': 'pt'
-      },
+      'BR/SP/Pratânia': {'id': 'data/BR/SP/Pratânia', 'key': 'Pratânia', 'lang': 'pt'},
       'BR/SP/Presidente Alves': {
         'id': 'data/BR/SP/Presidente Alves',
         'key': 'Presidente Alves',
@@ -25997,42 +17983,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Presidente Venceslau',
         'lang': 'pt'
       },
-      'BR/SP/Promissão': {
-        'id': 'data/BR/SP/Promissão',
-        'key': 'Promissão',
-        'lang': 'pt'
-      },
-      'BR/SP/Quadra': {
-        'id': 'data/BR/SP/Quadra',
-        'key': 'Quadra',
-        'lang': 'pt'
-      },
+      'BR/SP/Promissão': {'id': 'data/BR/SP/Promissão', 'key': 'Promissão', 'lang': 'pt'},
+      'BR/SP/Quadra': {'id': 'data/BR/SP/Quadra', 'key': 'Quadra', 'lang': 'pt'},
       'BR/SP/Quatá': {'id': 'data/BR/SP/Quatá', 'key': 'Quatá', 'lang': 'pt'},
-      'BR/SP/Queiroz': {
-        'id': 'data/BR/SP/Queiroz',
-        'key': 'Queiroz',
-        'lang': 'pt'
-      },
-      'BR/SP/Queluz': {
-        'id': 'data/BR/SP/Queluz',
-        'key': 'Queluz',
-        'lang': 'pt'
-      },
-      'BR/SP/Quintana': {
-        'id': 'data/BR/SP/Quintana',
-        'key': 'Quintana',
-        'lang': 'pt'
-      },
-      'BR/SP/Rafard': {
-        'id': 'data/BR/SP/Rafard',
-        'key': 'Rafard',
-        'lang': 'pt'
-      },
-      'BR/SP/Rancharia': {
-        'id': 'data/BR/SP/Rancharia',
-        'key': 'Rancharia',
-        'lang': 'pt'
-      },
+      'BR/SP/Queiroz': {'id': 'data/BR/SP/Queiroz', 'key': 'Queiroz', 'lang': 'pt'},
+      'BR/SP/Queluz': {'id': 'data/BR/SP/Queluz', 'key': 'Queluz', 'lang': 'pt'},
+      'BR/SP/Quintana': {'id': 'data/BR/SP/Quintana', 'key': 'Quintana', 'lang': 'pt'},
+      'BR/SP/Rafard': {'id': 'data/BR/SP/Rafard', 'key': 'Rafard', 'lang': 'pt'},
+      'BR/SP/Rancharia': {'id': 'data/BR/SP/Rancharia', 'key': 'Rancharia', 'lang': 'pt'},
       'BR/SP/Redenção da Serra': {
         'id': 'data/BR/SP/Redenção da Serra',
         'key': 'Redenção da Serra',
@@ -26048,21 +18006,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Reginópolis',
         'lang': 'pt'
       },
-      'BR/SP/Registro': {
-        'id': 'data/BR/SP/Registro',
-        'key': 'Registro',
-        'lang': 'pt'
-      },
-      'BR/SP/Restinga': {
-        'id': 'data/BR/SP/Restinga',
-        'key': 'Restinga',
-        'lang': 'pt'
-      },
-      'BR/SP/Ribeira': {
-        'id': 'data/BR/SP/Ribeira',
-        'key': 'Ribeira',
-        'lang': 'pt'
-      },
+      'BR/SP/Registro': {'id': 'data/BR/SP/Registro', 'key': 'Registro', 'lang': 'pt'},
+      'BR/SP/Restinga': {'id': 'data/BR/SP/Restinga', 'key': 'Restinga', 'lang': 'pt'},
+      'BR/SP/Ribeira': {'id': 'data/BR/SP/Ribeira', 'key': 'Ribeira', 'lang': 'pt'},
       'BR/SP/Ribeirão Bonito': {
         'id': 'data/BR/SP/Ribeirão Bonito',
         'key': 'Ribeirão Bonito',
@@ -26103,26 +18049,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ribeirão dos Índios',
         'lang': 'pt'
       },
-      'BR/SP/Rifaina': {
-        'id': 'data/BR/SP/Rifaina',
-        'key': 'Rifaina',
-        'lang': 'pt'
-      },
-      'BR/SP/Rincão': {
-        'id': 'data/BR/SP/Rincão',
-        'key': 'Rincão',
-        'lang': 'pt'
-      },
-      'BR/SP/Rinópolis': {
-        'id': 'data/BR/SP/Rinópolis',
-        'key': 'Rinópolis',
-        'lang': 'pt'
-      },
-      'BR/SP/Rio Claro': {
-        'id': 'data/BR/SP/Rio Claro',
-        'key': 'Rio Claro',
-        'lang': 'pt'
-      },
+      'BR/SP/Rifaina': {'id': 'data/BR/SP/Rifaina', 'key': 'Rifaina', 'lang': 'pt'},
+      'BR/SP/Rincão': {'id': 'data/BR/SP/Rincão', 'key': 'Rincão', 'lang': 'pt'},
+      'BR/SP/Rinópolis': {'id': 'data/BR/SP/Rinópolis', 'key': 'Rinópolis', 'lang': 'pt'},
+      'BR/SP/Rio Claro': {'id': 'data/BR/SP/Rio Claro', 'key': 'Rio Claro', 'lang': 'pt'},
       'BR/SP/Rio Grande da Serra': {
         'id': 'data/BR/SP/Rio Grande da Serra',
         'key': 'Rio Grande da Serra',
@@ -26133,46 +18063,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Rio das Pedras',
         'lang': 'pt'
       },
-      'BR/SP/Riolândia': {
-        'id': 'data/BR/SP/Riolândia',
-        'key': 'Riolândia',
-        'lang': 'pt'
-      },
-      'BR/SP/Riversul': {
-        'id': 'data/BR/SP/Riversul',
-        'key': 'Riversul',
-        'lang': 'pt'
-      },
-      'BR/SP/Rosana': {
-        'id': 'data/BR/SP/Rosana',
-        'key': 'Rosana',
-        'lang': 'pt'
-      },
-      'BR/SP/Roseira': {
-        'id': 'data/BR/SP/Roseira',
-        'key': 'Roseira',
-        'lang': 'pt'
-      },
-      'BR/SP/Rubinéia': {
-        'id': 'data/BR/SP/Rubinéia',
-        'key': 'Rubinéia',
-        'lang': 'pt'
-      },
-      'BR/SP/Rubiácea': {
-        'id': 'data/BR/SP/Rubiácea',
-        'key': 'Rubiácea',
-        'lang': 'pt'
-      },
-      'BR/SP/Sabino': {
-        'id': 'data/BR/SP/Sabino',
-        'key': 'Sabino',
-        'lang': 'pt'
-      },
-      'BR/SP/Sagres': {
-        'id': 'data/BR/SP/Sagres',
-        'key': 'Sagres',
-        'lang': 'pt'
-      },
+      'BR/SP/Riolândia': {'id': 'data/BR/SP/Riolândia', 'key': 'Riolândia', 'lang': 'pt'},
+      'BR/SP/Riversul': {'id': 'data/BR/SP/Riversul', 'key': 'Riversul', 'lang': 'pt'},
+      'BR/SP/Rosana': {'id': 'data/BR/SP/Rosana', 'key': 'Rosana', 'lang': 'pt'},
+      'BR/SP/Roseira': {'id': 'data/BR/SP/Roseira', 'key': 'Roseira', 'lang': 'pt'},
+      'BR/SP/Rubinéia': {'id': 'data/BR/SP/Rubinéia', 'key': 'Rubinéia', 'lang': 'pt'},
+      'BR/SP/Rubiácea': {'id': 'data/BR/SP/Rubiácea', 'key': 'Rubiácea', 'lang': 'pt'},
+      'BR/SP/Sabino': {'id': 'data/BR/SP/Sabino', 'key': 'Sabino', 'lang': 'pt'},
+      'BR/SP/Sagres': {'id': 'data/BR/SP/Sagres', 'key': 'Sagres', 'lang': 'pt'},
       'BR/SP/Sales': {'id': 'data/BR/SP/Sales', 'key': 'Sales', 'lang': 'pt'},
       'BR/SP/Sales Oliveira': {
         'id': 'data/BR/SP/Sales Oliveira',
@@ -26184,16 +18082,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Salesópolis',
         'lang': 'pt'
       },
-      'BR/SP/Salmourão': {
-        'id': 'data/BR/SP/Salmourão',
-        'key': 'Salmourão',
-        'lang': 'pt'
-      },
-      'BR/SP/Saltinho': {
-        'id': 'data/BR/SP/Saltinho',
-        'key': 'Saltinho',
-        'lang': 'pt'
-      },
+      'BR/SP/Salmourão': {'id': 'data/BR/SP/Salmourão', 'key': 'Salmourão', 'lang': 'pt'},
+      'BR/SP/Saltinho': {'id': 'data/BR/SP/Saltinho', 'key': 'Saltinho', 'lang': 'pt'},
       'BR/SP/Salto': {'id': 'data/BR/SP/Salto', 'key': 'Salto', 'lang': 'pt'},
       'BR/SP/Salto Grande': {
         'id': 'data/BR/SP/Salto Grande',
@@ -26360,26 +18250,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santo Expedito',
         'lang': 'pt'
       },
-      'BR/SP/Santos': {
-        'id': 'data/BR/SP/Santos',
-        'key': 'Santos',
-        'lang': 'pt'
-      },
+      'BR/SP/Santos': {'id': 'data/BR/SP/Santos', 'key': 'Santos', 'lang': 'pt'},
       'BR/SP/Santópolis do Aguapeí': {
         'id': 'data/BR/SP/Santópolis do Aguapeí',
         'key': 'Santópolis do Aguapeí',
         'lang': 'pt'
       },
-      'BR/SP/Sarapuí': {
-        'id': 'data/BR/SP/Sarapuí',
-        'key': 'Sarapuí',
-        'lang': 'pt'
-      },
-      'BR/SP/Sarutaiá': {
-        'id': 'data/BR/SP/Sarutaiá',
-        'key': 'Sarutaiá',
-        'lang': 'pt'
-      },
+      'BR/SP/Sarapuí': {'id': 'data/BR/SP/Sarapuí', 'key': 'Sarapuí', 'lang': 'pt'},
+      'BR/SP/Sarutaiá': {'id': 'data/BR/SP/Sarutaiá', 'key': 'Sarutaiá', 'lang': 'pt'},
       'BR/SP/Sebastianópolis do Sul': {
         'id': 'data/BR/SP/Sebastianópolis do Sul',
         'key': 'Sebastianópolis do Sul',
@@ -26395,11 +18273,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Serra Negra',
         'lang': 'pt'
       },
-      'BR/SP/Serrana': {
-        'id': 'data/BR/SP/Serrana',
-        'key': 'Serrana',
-        'lang': 'pt'
-      },
+      'BR/SP/Serrana': {'id': 'data/BR/SP/Serrana', 'key': 'Serrana', 'lang': 'pt'},
       'BR/SP/Sertãozinho': {
         'id': 'data/BR/SP/Sertãozinho',
         'key': 'Sertãozinho',
@@ -26410,41 +18284,17 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Sete Barras',
         'lang': 'pt'
       },
-      'BR/SP/Severínia': {
-        'id': 'data/BR/SP/Severínia',
-        'key': 'Severínia',
-        'lang': 'pt'
-      },
-      'BR/SP/Silveiras': {
-        'id': 'data/BR/SP/Silveiras',
-        'key': 'Silveiras',
-        'lang': 'pt'
-      },
-      'BR/SP/Socorro': {
-        'id': 'data/BR/SP/Socorro',
-        'key': 'Socorro',
-        'lang': 'pt'
-      },
-      'BR/SP/Sorocaba': {
-        'id': 'data/BR/SP/Sorocaba',
-        'key': 'Sorocaba',
-        'lang': 'pt'
-      },
+      'BR/SP/Severínia': {'id': 'data/BR/SP/Severínia', 'key': 'Severínia', 'lang': 'pt'},
+      'BR/SP/Silveiras': {'id': 'data/BR/SP/Silveiras', 'key': 'Silveiras', 'lang': 'pt'},
+      'BR/SP/Socorro': {'id': 'data/BR/SP/Socorro', 'key': 'Socorro', 'lang': 'pt'},
+      'BR/SP/Sorocaba': {'id': 'data/BR/SP/Sorocaba', 'key': 'Sorocaba', 'lang': 'pt'},
       'BR/SP/Sud Mennucci': {
         'id': 'data/BR/SP/Sud Mennucci',
         'key': 'Sud Mennucci',
         'lang': 'pt'
       },
-      'BR/SP/Sumaré': {
-        'id': 'data/BR/SP/Sumaré',
-        'key': 'Sumaré',
-        'lang': 'pt'
-      },
-      'BR/SP/Suzano': {
-        'id': 'data/BR/SP/Suzano',
-        'key': 'Suzano',
-        'lang': 'pt'
-      },
+      'BR/SP/Sumaré': {'id': 'data/BR/SP/Sumaré', 'key': 'Sumaré', 'lang': 'pt'},
+      'BR/SP/Suzano': {'id': 'data/BR/SP/Suzano', 'key': 'Suzano', 'lang': 'pt'},
       'BR/SP/Suzanápolis': {
         'id': 'data/BR/SP/Suzanápolis',
         'key': 'Suzanápolis',
@@ -26545,26 +18395,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Miguel Arcanjo',
         'lang': 'pt'
       },
-      'BR/SP/São Paulo': {
-        'id': 'data/BR/SP/São Paulo',
-        'key': 'São Paulo',
-        'lang': 'pt'
-      },
-      'BR/SP/São Pedro': {
-        'id': 'data/BR/SP/São Pedro',
-        'key': 'São Pedro',
-        'lang': 'pt'
-      },
+      'BR/SP/São Paulo': {'id': 'data/BR/SP/São Paulo', 'key': 'São Paulo', 'lang': 'pt'},
+      'BR/SP/São Pedro': {'id': 'data/BR/SP/São Pedro', 'key': 'São Pedro', 'lang': 'pt'},
       'BR/SP/São Pedro do Turvo': {
         'id': 'data/BR/SP/São Pedro do Turvo',
         'key': 'São Pedro do Turvo',
         'lang': 'pt'
       },
-      'BR/SP/São Roque': {
-        'id': 'data/BR/SP/São Roque',
-        'key': 'São Roque',
-        'lang': 'pt'
-      },
+      'BR/SP/São Roque': {'id': 'data/BR/SP/São Roque', 'key': 'São Roque', 'lang': 'pt'},
       'BR/SP/São Sebastião': {
         'id': 'data/BR/SP/São Sebastião',
         'key': 'São Sebastião',
@@ -26575,76 +18413,32 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'São Sebastião da Grama',
         'lang': 'pt'
       },
-      'BR/SP/São Simão': {
-        'id': 'data/BR/SP/São Simão',
-        'key': 'São Simão',
-        'lang': 'pt'
-      },
+      'BR/SP/São Simão': {'id': 'data/BR/SP/São Simão', 'key': 'São Simão', 'lang': 'pt'},
       'BR/SP/São Vicente': {
         'id': 'data/BR/SP/São Vicente',
         'key': 'São Vicente',
         'lang': 'pt'
       },
-      'BR/SP/Tabapuã': {
-        'id': 'data/BR/SP/Tabapuã',
-        'key': 'Tabapuã',
-        'lang': 'pt'
-      },
-      'BR/SP/Tabatinga': {
-        'id': 'data/BR/SP/Tabatinga',
-        'key': 'Tabatinga',
-        'lang': 'pt'
-      },
+      'BR/SP/Tabapuã': {'id': 'data/BR/SP/Tabapuã', 'key': 'Tabapuã', 'lang': 'pt'},
+      'BR/SP/Tabatinga': {'id': 'data/BR/SP/Tabatinga', 'key': 'Tabatinga', 'lang': 'pt'},
       'BR/SP/Taboão da Serra': {
         'id': 'data/BR/SP/Taboão da Serra',
         'key': 'Taboão da Serra',
         'lang': 'pt'
       },
-      'BR/SP/Taciba': {
-        'id': 'data/BR/SP/Taciba',
-        'key': 'Taciba',
-        'lang': 'pt'
-      },
-      'BR/SP/Taguaí': {
-        'id': 'data/BR/SP/Taguaí',
-        'key': 'Taguaí',
-        'lang': 'pt'
-      },
-      'BR/SP/Taiaçu': {
-        'id': 'data/BR/SP/Taiaçu',
-        'key': 'Taiaçu',
-        'lang': 'pt'
-      },
-      'BR/SP/Taiúva': {
-        'id': 'data/BR/SP/Taiúva',
-        'key': 'Taiúva',
-        'lang': 'pt'
-      },
-      'BR/SP/Tambaú': {
-        'id': 'data/BR/SP/Tambaú',
-        'key': 'Tambaú',
-        'lang': 'pt'
-      },
-      'BR/SP/Tanabi': {
-        'id': 'data/BR/SP/Tanabi',
-        'key': 'Tanabi',
-        'lang': 'pt'
-      },
+      'BR/SP/Taciba': {'id': 'data/BR/SP/Taciba', 'key': 'Taciba', 'lang': 'pt'},
+      'BR/SP/Taguaí': {'id': 'data/BR/SP/Taguaí', 'key': 'Taguaí', 'lang': 'pt'},
+      'BR/SP/Taiaçu': {'id': 'data/BR/SP/Taiaçu', 'key': 'Taiaçu', 'lang': 'pt'},
+      'BR/SP/Taiúva': {'id': 'data/BR/SP/Taiúva', 'key': 'Taiúva', 'lang': 'pt'},
+      'BR/SP/Tambaú': {'id': 'data/BR/SP/Tambaú', 'key': 'Tambaú', 'lang': 'pt'},
+      'BR/SP/Tanabi': {'id': 'data/BR/SP/Tanabi', 'key': 'Tanabi', 'lang': 'pt'},
       'BR/SP/Tapiratiba': {
         'id': 'data/BR/SP/Tapiratiba',
         'key': 'Tapiratiba',
         'lang': 'pt'
       },
-      'BR/SP/Tapiraí': {
-        'id': 'data/BR/SP/Tapiraí',
-        'key': 'Tapiraí',
-        'lang': 'pt'
-      },
-      'BR/SP/Taquaral': {
-        'id': 'data/BR/SP/Taquaral',
-        'key': 'Taquaral',
-        'lang': 'pt'
-      },
+      'BR/SP/Tapiraí': {'id': 'data/BR/SP/Tapiraí', 'key': 'Tapiraí', 'lang': 'pt'},
+      'BR/SP/Taquaral': {'id': 'data/BR/SP/Taquaral', 'key': 'Taquaral', 'lang': 'pt'},
       'BR/SP/Taquaritinga': {
         'id': 'data/BR/SP/Taquaritinga',
         'key': 'Taquaritinga',
@@ -26660,27 +18454,11 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Taquarivaí',
         'lang': 'pt'
       },
-      'BR/SP/Tarabai': {
-        'id': 'data/BR/SP/Tarabai',
-        'key': 'Tarabai',
-        'lang': 'pt'
-      },
-      'BR/SP/Tarumã': {
-        'id': 'data/BR/SP/Tarumã',
-        'key': 'Tarumã',
-        'lang': 'pt'
-      },
+      'BR/SP/Tarabai': {'id': 'data/BR/SP/Tarabai', 'key': 'Tarabai', 'lang': 'pt'},
+      'BR/SP/Tarumã': {'id': 'data/BR/SP/Tarumã', 'key': 'Tarumã', 'lang': 'pt'},
       'BR/SP/Tatuí': {'id': 'data/BR/SP/Tatuí', 'key': 'Tatuí', 'lang': 'pt'},
-      'BR/SP/Taubaté': {
-        'id': 'data/BR/SP/Taubaté',
-        'key': 'Taubaté',
-        'lang': 'pt'
-      },
-      'BR/SP/Tejupá': {
-        'id': 'data/BR/SP/Tejupá',
-        'key': 'Tejupá',
-        'lang': 'pt'
-      },
+      'BR/SP/Taubaté': {'id': 'data/BR/SP/Taubaté', 'key': 'Taubaté', 'lang': 'pt'},
+      'BR/SP/Tejupá': {'id': 'data/BR/SP/Tejupá', 'key': 'Tejupá', 'lang': 'pt'},
       'BR/SP/Teodoro Sampaio': {
         'id': 'data/BR/SP/Teodoro Sampaio',
         'key': 'Teodoro Sampaio',
@@ -26692,72 +18470,32 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/SP/Tietê': {'id': 'data/BR/SP/Tietê', 'key': 'Tietê', 'lang': 'pt'},
-      'BR/SP/Timburi': {
-        'id': 'data/BR/SP/Timburi',
-        'key': 'Timburi',
-        'lang': 'pt'
-      },
+      'BR/SP/Timburi': {'id': 'data/BR/SP/Timburi', 'key': 'Timburi', 'lang': 'pt'},
       'BR/SP/Torre de Pedra': {
         'id': 'data/BR/SP/Torre de Pedra',
         'key': 'Torre de Pedra',
         'lang': 'pt'
       },
-      'BR/SP/Torrinha': {
-        'id': 'data/BR/SP/Torrinha',
-        'key': 'Torrinha',
-        'lang': 'pt'
-      },
-      'BR/SP/Trabiju': {
-        'id': 'data/BR/SP/Trabiju',
-        'key': 'Trabiju',
-        'lang': 'pt'
-      },
-      'BR/SP/Tremembé': {
-        'id': 'data/BR/SP/Tremembé',
-        'key': 'Tremembé',
-        'lang': 'pt'
-      },
+      'BR/SP/Torrinha': {'id': 'data/BR/SP/Torrinha', 'key': 'Torrinha', 'lang': 'pt'},
+      'BR/SP/Trabiju': {'id': 'data/BR/SP/Trabiju', 'key': 'Trabiju', 'lang': 'pt'},
+      'BR/SP/Tremembé': {'id': 'data/BR/SP/Tremembé', 'key': 'Tremembé', 'lang': 'pt'},
       'BR/SP/Três Fronteiras': {
         'id': 'data/BR/SP/Três Fronteiras',
         'key': 'Três Fronteiras',
         'lang': 'pt'
       },
-      'BR/SP/Tuiuti': {
-        'id': 'data/BR/SP/Tuiuti',
-        'key': 'Tuiuti',
-        'lang': 'pt'
-      },
+      'BR/SP/Tuiuti': {'id': 'data/BR/SP/Tuiuti', 'key': 'Tuiuti', 'lang': 'pt'},
       'BR/SP/Tupi Paulista': {
         'id': 'data/BR/SP/Tupi Paulista',
         'key': 'Tupi Paulista',
         'lang': 'pt'
       },
       'BR/SP/Tupã': {'id': 'data/BR/SP/Tupã', 'key': 'Tupã', 'lang': 'pt'},
-      'BR/SP/Turiúba': {
-        'id': 'data/BR/SP/Turiúba',
-        'key': 'Turiúba',
-        'lang': 'pt'
-      },
-      'BR/SP/Turmalina': {
-        'id': 'data/BR/SP/Turmalina',
-        'key': 'Turmalina',
-        'lang': 'pt'
-      },
-      'BR/SP/Ubarana': {
-        'id': 'data/BR/SP/Ubarana',
-        'key': 'Ubarana',
-        'lang': 'pt'
-      },
-      'BR/SP/Ubatuba': {
-        'id': 'data/BR/SP/Ubatuba',
-        'key': 'Ubatuba',
-        'lang': 'pt'
-      },
-      'BR/SP/Ubirajara': {
-        'id': 'data/BR/SP/Ubirajara',
-        'key': 'Ubirajara',
-        'lang': 'pt'
-      },
+      'BR/SP/Turiúba': {'id': 'data/BR/SP/Turiúba', 'key': 'Turiúba', 'lang': 'pt'},
+      'BR/SP/Turmalina': {'id': 'data/BR/SP/Turmalina', 'key': 'Turmalina', 'lang': 'pt'},
+      'BR/SP/Ubarana': {'id': 'data/BR/SP/Ubarana', 'key': 'Ubarana', 'lang': 'pt'},
+      'BR/SP/Ubatuba': {'id': 'data/BR/SP/Ubatuba', 'key': 'Ubatuba', 'lang': 'pt'},
+      'BR/SP/Ubirajara': {'id': 'data/BR/SP/Ubirajara', 'key': 'Ubirajara', 'lang': 'pt'},
       'BR/SP/Uchoa': {'id': 'data/BR/SP/Uchoa', 'key': 'Uchoa', 'lang': 'pt'},
       'BR/SP/União Paulista': {
         'id': 'data/BR/SP/União Paulista',
@@ -26765,36 +18503,20 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/SP/Uru': {'id': 'data/BR/SP/Uru', 'key': 'Uru', 'lang': 'pt'},
-      'BR/SP/Urupês': {
-        'id': 'data/BR/SP/Urupês',
-        'key': 'Urupês',
-        'lang': 'pt'
-      },
-      'BR/SP/Urânia': {
-        'id': 'data/BR/SP/Urânia',
-        'key': 'Urânia',
-        'lang': 'pt'
-      },
+      'BR/SP/Urupês': {'id': 'data/BR/SP/Urupês', 'key': 'Urupês', 'lang': 'pt'},
+      'BR/SP/Urânia': {'id': 'data/BR/SP/Urânia', 'key': 'Urânia', 'lang': 'pt'},
       'BR/SP/Valentim Gentil': {
         'id': 'data/BR/SP/Valentim Gentil',
         'key': 'Valentim Gentil',
         'lang': 'pt'
       },
-      'BR/SP/Valinhos': {
-        'id': 'data/BR/SP/Valinhos',
-        'key': 'Valinhos',
-        'lang': 'pt'
-      },
+      'BR/SP/Valinhos': {'id': 'data/BR/SP/Valinhos', 'key': 'Valinhos', 'lang': 'pt'},
       'BR/SP/Valparaíso': {
         'id': 'data/BR/SP/Valparaíso',
         'key': 'Valparaíso',
         'lang': 'pt'
       },
-      'BR/SP/Vargem': {
-        'id': 'data/BR/SP/Vargem',
-        'key': 'Vargem',
-        'lang': 'pt'
-      },
+      'BR/SP/Vargem': {'id': 'data/BR/SP/Vargem', 'key': 'Vargem', 'lang': 'pt'},
       'BR/SP/Vargem Grande Paulista': {
         'id': 'data/BR/SP/Vargem Grande Paulista',
         'key': 'Vargem Grande Paulista',
@@ -26805,21 +18527,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Vargem Grande do Sul',
         'lang': 'pt'
       },
-      'BR/SP/Vera Cruz': {
-        'id': 'data/BR/SP/Vera Cruz',
-        'key': 'Vera Cruz',
-        'lang': 'pt'
-      },
-      'BR/SP/Vinhedo': {
-        'id': 'data/BR/SP/Vinhedo',
-        'key': 'Vinhedo',
-        'lang': 'pt'
-      },
-      'BR/SP/Viradouro': {
-        'id': 'data/BR/SP/Viradouro',
-        'key': 'Viradouro',
-        'lang': 'pt'
-      },
+      'BR/SP/Vera Cruz': {'id': 'data/BR/SP/Vera Cruz', 'key': 'Vera Cruz', 'lang': 'pt'},
+      'BR/SP/Vinhedo': {'id': 'data/BR/SP/Vinhedo', 'key': 'Vinhedo', 'lang': 'pt'},
+      'BR/SP/Viradouro': {'id': 'data/BR/SP/Viradouro', 'key': 'Viradouro', 'lang': 'pt'},
       'BR/SP/Vista Alegre do Alto': {
         'id': 'data/BR/SP/Vista Alegre do Alto',
         'key': 'Vista Alegre do Alto',
@@ -26845,11 +18555,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Várzea Paulista',
         'lang': 'pt'
       },
-      'BR/SP/Zacarias': {
-        'id': 'data/BR/SP/Zacarias',
-        'key': 'Zacarias',
-        'lang': 'pt'
-      },
+      'BR/SP/Zacarias': {'id': 'data/BR/SP/Zacarias', 'key': 'Zacarias', 'lang': 'pt'},
       'BR/SP/Águas da Prata': {
         'id': 'data/BR/SP/Águas da Prata',
         'key': 'Águas da Prata',
@@ -26912,21 +18618,9 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'pt'
       },
       'BR/TO/Almas': {'id': 'data/BR/TO/Almas', 'key': 'Almas', 'lang': 'pt'},
-      'BR/TO/Alvorada': {
-        'id': 'data/BR/TO/Alvorada',
-        'key': 'Alvorada',
-        'lang': 'pt'
-      },
-      'BR/TO/Ananas': {
-        'id': 'data/BR/TO/Ananas',
-        'key': 'Ananas',
-        'lang': 'pt'
-      },
-      'BR/TO/Angico': {
-        'id': 'data/BR/TO/Angico',
-        'key': 'Angico',
-        'lang': 'pt'
-      },
+      'BR/TO/Alvorada': {'id': 'data/BR/TO/Alvorada', 'key': 'Alvorada', 'lang': 'pt'},
+      'BR/TO/Ananas': {'id': 'data/BR/TO/Ananas', 'key': 'Ananas', 'lang': 'pt'},
+      'BR/TO/Angico': {'id': 'data/BR/TO/Angico', 'key': 'Angico', 'lang': 'pt'},
       'BR/TO/Aparecida do Rio Negro': {
         'id': 'data/BR/TO/Aparecida do Rio Negro',
         'key': 'Aparecida do Rio Negro',
@@ -26942,36 +18636,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Araguacema',
         'lang': 'pt'
       },
-      'BR/TO/Araguanã': {
-        'id': 'data/BR/TO/Araguanã',
-        'key': 'Araguanã',
-        'lang': 'pt'
-      },
+      'BR/TO/Araguanã': {'id': 'data/BR/TO/Araguanã', 'key': 'Araguanã', 'lang': 'pt'},
       'BR/TO/Araguatins': {
         'id': 'data/BR/TO/Araguatins',
         'key': 'Araguatins',
         'lang': 'pt'
       },
-      'BR/TO/Araguaçu': {
-        'id': 'data/BR/TO/Araguaçu',
-        'key': 'Araguaçu',
-        'lang': 'pt'
-      },
-      'BR/TO/Araguaína': {
-        'id': 'data/BR/TO/Araguaína',
-        'key': 'Araguaína',
-        'lang': 'pt'
-      },
-      'BR/TO/Arapoema': {
-        'id': 'data/BR/TO/Arapoema',
-        'key': 'Arapoema',
-        'lang': 'pt'
-      },
-      'BR/TO/Arraias': {
-        'id': 'data/BR/TO/Arraias',
-        'key': 'Arraias',
-        'lang': 'pt'
-      },
+      'BR/TO/Araguaçu': {'id': 'data/BR/TO/Araguaçu', 'key': 'Araguaçu', 'lang': 'pt'},
+      'BR/TO/Araguaína': {'id': 'data/BR/TO/Araguaína', 'key': 'Araguaína', 'lang': 'pt'},
+      'BR/TO/Arapoema': {'id': 'data/BR/TO/Arapoema', 'key': 'Arapoema', 'lang': 'pt'},
+      'BR/TO/Arraias': {'id': 'data/BR/TO/Arraias', 'key': 'Arraias', 'lang': 'pt'},
       'BR/TO/Augustinópolis': {
         'id': 'data/BR/TO/Augustinópolis',
         'key': 'Augustinópolis',
@@ -27057,11 +18731,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Carrasco Bonito',
         'lang': 'pt'
       },
-      'BR/TO/Caseara': {
-        'id': 'data/BR/TO/Caseara',
-        'key': 'Caseara',
-        'lang': 'pt'
-      },
+      'BR/TO/Caseara': {'id': 'data/BR/TO/Caseara', 'key': 'Caseara', 'lang': 'pt'},
       'BR/TO/Centenário': {
         'id': 'data/BR/TO/Centenário',
         'key': 'Centenário',
@@ -27082,16 +18752,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Colinas do Tocantins',
         'lang': 'pt'
       },
-      'BR/TO/Colméia': {
-        'id': 'data/BR/TO/Colméia',
-        'key': 'Colméia',
-        'lang': 'pt'
-      },
-      'BR/TO/Combinado': {
-        'id': 'data/BR/TO/Combinado',
-        'key': 'Combinado',
-        'lang': 'pt'
-      },
+      'BR/TO/Colméia': {'id': 'data/BR/TO/Colméia', 'key': 'Colméia', 'lang': 'pt'},
+      'BR/TO/Combinado': {'id': 'data/BR/TO/Combinado', 'key': 'Combinado', 'lang': 'pt'},
       'BR/TO/Conceição do Tocantins': {
         'id': 'data/BR/TO/Conceição do Tocantins',
         'key': 'Conceição do Tocantins',
@@ -27158,41 +18820,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Fortaleza do Tabocão',
         'lang': 'pt'
       },
-      'BR/TO/Fátima': {
-        'id': 'data/BR/TO/Fátima',
-        'key': 'Fátima',
-        'lang': 'pt'
-      },
-      'BR/TO/Goianorte': {
-        'id': 'data/BR/TO/Goianorte',
-        'key': 'Goianorte',
-        'lang': 'pt'
-      },
-      'BR/TO/Goiatins': {
-        'id': 'data/BR/TO/Goiatins',
-        'key': 'Goiatins',
-        'lang': 'pt'
-      },
-      'BR/TO/Guaraí': {
-        'id': 'data/BR/TO/Guaraí',
-        'key': 'Guaraí',
-        'lang': 'pt'
-      },
-      'BR/TO/Gurupi': {
-        'id': 'data/BR/TO/Gurupi',
-        'key': 'Gurupi',
-        'lang': 'pt'
-      },
-      'BR/TO/Ipueiras': {
-        'id': 'data/BR/TO/Ipueiras',
-        'key': 'Ipueiras',
-        'lang': 'pt'
-      },
-      'BR/TO/Itacajá': {
-        'id': 'data/BR/TO/Itacajá',
-        'key': 'Itacajá',
-        'lang': 'pt'
-      },
+      'BR/TO/Fátima': {'id': 'data/BR/TO/Fátima', 'key': 'Fátima', 'lang': 'pt'},
+      'BR/TO/Goianorte': {'id': 'data/BR/TO/Goianorte', 'key': 'Goianorte', 'lang': 'pt'},
+      'BR/TO/Goiatins': {'id': 'data/BR/TO/Goiatins', 'key': 'Goiatins', 'lang': 'pt'},
+      'BR/TO/Guaraí': {'id': 'data/BR/TO/Guaraí', 'key': 'Guaraí', 'lang': 'pt'},
+      'BR/TO/Gurupi': {'id': 'data/BR/TO/Gurupi', 'key': 'Gurupi', 'lang': 'pt'},
+      'BR/TO/Ipueiras': {'id': 'data/BR/TO/Ipueiras', 'key': 'Ipueiras', 'lang': 'pt'},
+      'BR/TO/Itacajá': {'id': 'data/BR/TO/Itacajá', 'key': 'Itacajá', 'lang': 'pt'},
       'BR/TO/Itaguatins': {
         'id': 'data/BR/TO/Itaguatins',
         'key': 'Itaguatins',
@@ -27213,11 +18847,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Jaú do Tocantins',
         'lang': 'pt'
       },
-      'BR/TO/Juarina': {
-        'id': 'data/BR/TO/Juarina',
-        'key': 'Juarina',
-        'lang': 'pt'
-      },
+      'BR/TO/Juarina': {'id': 'data/BR/TO/Juarina', 'key': 'Juarina', 'lang': 'pt'},
       'BR/TO/Lagoa da Confusão': {
         'id': 'data/BR/TO/Lagoa da Confusão',
         'key': 'Lagoa da Confusão',
@@ -27228,21 +18858,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Lagoa do Tocantins',
         'lang': 'pt'
       },
-      'BR/TO/Lajeado': {
-        'id': 'data/BR/TO/Lajeado',
-        'key': 'Lajeado',
-        'lang': 'pt'
-      },
+      'BR/TO/Lajeado': {'id': 'data/BR/TO/Lajeado', 'key': 'Lajeado', 'lang': 'pt'},
       'BR/TO/Lavandeira': {
         'id': 'data/BR/TO/Lavandeira',
         'key': 'Lavandeira',
         'lang': 'pt'
       },
-      'BR/TO/Lizarda': {
-        'id': 'data/BR/TO/Lizarda',
-        'key': 'Lizarda',
-        'lang': 'pt'
-      },
+      'BR/TO/Lizarda': {'id': 'data/BR/TO/Lizarda', 'key': 'Lizarda', 'lang': 'pt'},
       'BR/TO/Luzinópolis': {
         'id': 'data/BR/TO/Luzinópolis',
         'key': 'Luzinópolis',
@@ -27253,11 +18875,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Marianópolis do Tocantins',
         'lang': 'pt'
       },
-      'BR/TO/Mateiros': {
-        'id': 'data/BR/TO/Mateiros',
-        'key': 'Mateiros',
-        'lang': 'pt'
-      },
+      'BR/TO/Mateiros': {'id': 'data/BR/TO/Mateiros', 'key': 'Mateiros', 'lang': 'pt'},
       'BR/TO/Maurilândia do Tocantins': {
         'id': 'data/BR/TO/Maurilândia do Tocantins',
         'key': 'Maurilândia do Tocantins',
@@ -27268,11 +18886,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Miracema do Tocantins',
         'lang': 'pt'
       },
-      'BR/TO/Miranorte': {
-        'id': 'data/BR/TO/Miranorte',
-        'key': 'Miranorte',
-        'lang': 'pt'
-      },
+      'BR/TO/Miranorte': {'id': 'data/BR/TO/Miranorte', 'key': 'Miranorte', 'lang': 'pt'},
       'BR/TO/Monte Santo do Tocantins': {
         'id': 'data/BR/TO/Monte Santo do Tocantins',
         'key': 'Monte Santo do Tocantins',
@@ -27293,11 +18907,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Natividade',
         'lang': 'pt'
       },
-      'BR/TO/Nazaré': {
-        'id': 'data/BR/TO/Nazaré',
-        'key': 'Nazaré',
-        'lang': 'pt'
-      },
+      'BR/TO/Nazaré': {'id': 'data/BR/TO/Nazaré', 'key': 'Nazaré', 'lang': 'pt'},
       'BR/TO/Nova Olinda': {
         'id': 'data/BR/TO/Nova Olinda',
         'key': 'Nova Olinda',
@@ -27328,11 +18938,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Oliveira de Fátima',
         'lang': 'pt'
       },
-      'BR/TO/Palmas': {
-        'id': 'data/BR/TO/Palmas',
-        'key': 'Palmas',
-        'lang': 'pt'
-      },
+      'BR/TO/Palmas': {'id': 'data/BR/TO/Palmas', 'key': 'Palmas', 'lang': 'pt'},
       'BR/TO/Palmeirante': {
         'id': 'data/BR/TO/Palmeirante',
         'key': 'Palmeirante',
@@ -27348,11 +18954,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Palmeirópolis',
         'lang': 'pt'
       },
-      'BR/TO/Paraná': {
-        'id': 'data/BR/TO/Paraná',
-        'key': 'Paraná',
-        'lang': 'pt'
-      },
+      'BR/TO/Paraná': {'id': 'data/BR/TO/Paraná', 'key': 'Paraná', 'lang': 'pt'},
       'BR/TO/Paraíso do Tocantins': {
         'id': 'data/BR/TO/Paraíso do Tocantins',
         'key': 'Paraíso do Tocantins',
@@ -27379,11 +18981,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pindorama do Tocantins',
         'lang': 'pt'
       },
-      'BR/TO/Piraquê': {
-        'id': 'data/BR/TO/Piraquê',
-        'key': 'Piraquê',
-        'lang': 'pt'
-      },
+      'BR/TO/Piraquê': {'id': 'data/BR/TO/Piraquê', 'key': 'Piraquê', 'lang': 'pt'},
       'BR/TO/Pium': {'id': 'data/BR/TO/Pium', 'key': 'Pium', 'lang': 'pt'},
       'BR/TO/Ponte Alta do Bom Jesus': {
         'id': 'data/BR/TO/Ponte Alta do Bom Jesus',
@@ -27415,26 +19013,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Presidente Kennedy',
         'lang': 'pt'
       },
-      'BR/TO/Pugmil': {
-        'id': 'data/BR/TO/Pugmil',
-        'key': 'Pugmil',
-        'lang': 'pt'
-      },
+      'BR/TO/Pugmil': {'id': 'data/BR/TO/Pugmil', 'key': 'Pugmil', 'lang': 'pt'},
       'BR/TO/Recursolândia': {
         'id': 'data/BR/TO/Recursolândia',
         'key': 'Recursolândia',
         'lang': 'pt'
       },
-      'BR/TO/Riachinho': {
-        'id': 'data/BR/TO/Riachinho',
-        'key': 'Riachinho',
-        'lang': 'pt'
-      },
-      'BR/TO/Rio Sono': {
-        'id': 'data/BR/TO/Rio Sono',
-        'key': 'Rio Sono',
-        'lang': 'pt'
-      },
+      'BR/TO/Riachinho': {'id': 'data/BR/TO/Riachinho', 'key': 'Riachinho', 'lang': 'pt'},
+      'BR/TO/Rio Sono': {'id': 'data/BR/TO/Rio Sono', 'key': 'Rio Sono', 'lang': 'pt'},
       'BR/TO/Rio da Conceição': {
         'id': 'data/BR/TO/Rio da Conceição',
         'key': 'Rio da Conceição',
@@ -27445,11 +19031,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Rio dos Bois',
         'lang': 'pt'
       },
-      'BR/TO/Sampaio': {
-        'id': 'data/BR/TO/Sampaio',
-        'key': 'Sampaio',
-        'lang': 'pt'
-      },
+      'BR/TO/Sampaio': {'id': 'data/BR/TO/Sampaio', 'key': 'Sampaio', 'lang': 'pt'},
       'BR/TO/Sandolândia': {
         'id': 'data/BR/TO/Sandolândia',
         'key': 'Sandolândia',
@@ -27490,11 +19072,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Silvanópolis',
         'lang': 'pt'
       },
-      'BR/TO/Sucupira': {
-        'id': 'data/BR/TO/Sucupira',
-        'key': 'Sucupira',
-        'lang': 'pt'
-      },
+      'BR/TO/Sucupira': {'id': 'data/BR/TO/Sucupira', 'key': 'Sucupira', 'lang': 'pt'},
       'BR/TO/São Bento do Tocantins': {
         'id': 'data/BR/TO/São Bento do Tocantins',
         'key': 'São Bento do Tocantins',
@@ -27540,11 +19118,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Taipas do Tocantins',
         'lang': 'pt'
       },
-      'BR/TO/Talisma': {
-        'id': 'data/BR/TO/Talisma',
-        'key': 'Talisma',
-        'lang': 'pt'
-      },
+      'BR/TO/Talisma': {'id': 'data/BR/TO/Talisma', 'key': 'Talisma', 'lang': 'pt'},
       'BR/TO/Tocantinópolis': {
         'id': 'data/BR/TO/Tocantinópolis',
         'key': 'Tocantinópolis',
@@ -27555,11 +19129,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Tocantínia',
         'lang': 'pt'
       },
-      'BR/TO/Tupirama': {
-        'id': 'data/BR/TO/Tupirama',
-        'key': 'Tupirama',
-        'lang': 'pt'
-      },
+      'BR/TO/Tupirama': {'id': 'data/BR/TO/Tupirama', 'key': 'Tupirama', 'lang': 'pt'},
       'BR/TO/Tupiratins': {
         'id': 'data/BR/TO/Tupiratins',
         'key': 'Tupiratins',
@@ -27570,11 +19140,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Wanderlândia',
         'lang': 'pt'
       },
-      'BR/TO/Xambioá': {
-        'id': 'data/BR/TO/Xambioá',
-        'key': 'Xambioá',
-        'lang': 'pt'
-      },
+      'BR/TO/Xambioá': {'id': 'data/BR/TO/Xambioá', 'key': 'Xambioá', 'lang': 'pt'},
       'BS': {
         'fmt': '%N%n%O%n%A%n%C, %S',
         'id': 'data/BS',
@@ -27744,18 +19310,15 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'en',
         'languages': 'en~fr',
         'name': 'CANADA',
-        'posturl':
-            'https://www.canadapost.ca/cpo/mc/personal/postalcode/fpc.jsf',
+        'posturl': 'https://www.canadapost.ca/cpo/mc/personal/postalcode/fpc.jsf',
         'require': 'ACSZ',
         'sub_isoids': 'AB~BC~MB~NB~NL~NT~NS~NU~ON~PE~QC~SK~YT',
         'sub_keys': 'AB~BC~MB~NB~NL~NT~NS~NU~ON~PE~QC~SK~YT',
         'sub_names':
             'Alberta~British Columbia~Manitoba~New Brunswick~Newfoundland and Labrador~Northwest Territories~Nova Scotia~Nunavut~Ontario~Prince Edward Island~Quebec~Saskatchewan~Yukon',
-        'sub_zips':
-            'T~V~R~E~A~X0E|X0G|X1A~B~X0A|X0B|X0C~K|L|M|N|P~C~G|H|J|K1A~S|R8A~Y',
+        'sub_zips': 'T~V~R~E~A~X0E|X0G|X1A~B~X0A|X0B|X0C~K|L|M|N|P~C~G|H|J|K1A~S|R8A~Y',
         'upper': 'ACNOSZ',
-        'zip':
-            '[ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJ-NPRSTV-Z] ?\\d[ABCEGHJ-NPRSTV-Z]\\d',
+        'zip': '[ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJ-NPRSTV-Z] ?\\d[ABCEGHJ-NPRSTV-Z]\\d',
         'zipex': 'H3Z 2Y7,V8X 3X4,T0L 1K0,T0H 1A0,K1A 0B1'
       },
       'CA--fr': {
@@ -27764,18 +19327,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'CA',
         'lang': 'fr',
         'name': 'CANADA',
-        'posturl':
-            'https://www.canadapost.ca/cpo/mc/personal/postalcode/fpc.jsf',
+        'posturl': 'https://www.canadapost.ca/cpo/mc/personal/postalcode/fpc.jsf',
         'require': 'ACSZ',
         'sub_isoids': 'AB~BC~PE~MB~NB~NS~NU~ON~QC~SK~NL~NT~YT',
         'sub_keys': 'AB~BC~PE~MB~NB~NS~NU~ON~QC~SK~NL~NT~YT',
         'sub_names':
             'Alberta~Colombie-Britannique~Île-du-Prince-Édouard~Manitoba~Nouveau-Brunswick~Nouvelle-Écosse~Nunavut~Ontario~Québec~Saskatchewan~Terre-Neuve-et-Labrador~Territoires du Nord-Ouest~Yukon',
-        'sub_zips':
-            'T~V~C~R~E~B~X0A|X0B|X0C~K|L|M|N|P~G|H|J|K1A~S|R8A~A~X0E|X0G|X1A~Y',
+        'sub_zips': 'T~V~C~R~E~B~X0A|X0B|X0C~K|L|M|N|P~G|H|J|K1A~S|R8A~A~X0E|X0G|X1A~Y',
         'upper': 'ACNOSZ',
-        'zip':
-            '[ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJ-NPRSTV-Z] ?\\d[ABCEGHJ-NPRSTV-Z]\\d',
+        'zip': '[ABCEGHJKLMNPRSTVXY]\\d[ABCEGHJ-NPRSTV-Z] ?\\d[ABCEGHJ-NPRSTV-Z]\\d',
         'zipex': 'H3Z 2Y7,V8X 3X4,T0L 1K0,T0H 1A0,K1A 0B1'
       },
       'CA/AB': {
@@ -28349,21 +19909,13 @@ Map<String, Map<String, String>> get allJson => {
         'sub_keys':
             "Aysén~Chile Chico~Cisnes~Cochrane~Coyhaique~Guaitecas~Lago Verde~O'Higgins~Río Ibáñez~Tortel"
       },
-      'CL/Aysén/Aysén': {
-        'id': 'data/CL/Aysén/Aysén',
-        'key': 'Aysén',
-        'lang': 'es'
-      },
+      'CL/Aysén/Aysén': {'id': 'data/CL/Aysén/Aysén', 'key': 'Aysén', 'lang': 'es'},
       'CL/Aysén/Chile Chico': {
         'id': 'data/CL/Aysén/Chile Chico',
         'key': 'Chile Chico',
         'lang': 'es'
       },
-      'CL/Aysén/Cisnes': {
-        'id': 'data/CL/Aysén/Cisnes',
-        'key': 'Cisnes',
-        'lang': 'es'
-      },
+      'CL/Aysén/Cisnes': {'id': 'data/CL/Aysén/Cisnes', 'key': 'Cisnes', 'lang': 'es'},
       'CL/Aysén/Cochrane': {
         'id': 'data/CL/Aysén/Cochrane',
         'key': 'Cochrane',
@@ -28394,11 +19946,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Río Ibáñez',
         'lang': 'es'
       },
-      'CL/Aysén/Tortel': {
-        'id': 'data/CL/Aysén/Tortel',
-        'key': 'Tortel',
-        'lang': 'es'
-      },
+      'CL/Aysén/Tortel': {'id': 'data/CL/Aysén/Tortel', 'key': 'Tortel', 'lang': 'es'},
       'CL/Biobío': {
         'id': 'data/CL/Biobío',
         'isoid': 'BI',
@@ -28413,31 +19961,15 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Alto Biobío',
         'lang': 'es'
       },
-      'CL/Biobío/Antuco': {
-        'id': 'data/CL/Biobío/Antuco',
-        'key': 'Antuco',
-        'lang': 'es'
-      },
-      'CL/Biobío/Arauco': {
-        'id': 'data/CL/Biobío/Arauco',
-        'key': 'Arauco',
-        'lang': 'es'
-      },
-      'CL/Biobío/Bulnes': {
-        'id': 'data/CL/Biobío/Bulnes',
-        'key': 'Bulnes',
-        'lang': 'es'
-      },
+      'CL/Biobío/Antuco': {'id': 'data/CL/Biobío/Antuco', 'key': 'Antuco', 'lang': 'es'},
+      'CL/Biobío/Arauco': {'id': 'data/CL/Biobío/Arauco', 'key': 'Arauco', 'lang': 'es'},
+      'CL/Biobío/Bulnes': {'id': 'data/CL/Biobío/Bulnes', 'key': 'Bulnes', 'lang': 'es'},
       'CL/Biobío/Cabrero': {
         'id': 'data/CL/Biobío/Cabrero',
         'key': 'Cabrero',
         'lang': 'es'
       },
-      'CL/Biobío/Cañete': {
-        'id': 'data/CL/Biobío/Cañete',
-        'key': 'Cañete',
-        'lang': 'es'
-      },
+      'CL/Biobío/Cañete': {'id': 'data/CL/Biobío/Cañete', 'key': 'Cañete', 'lang': 'es'},
       'CL/Biobío/Chiguayante': {
         'id': 'data/CL/Biobío/Chiguayante',
         'key': 'Chiguayante',
@@ -28508,16 +20040,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Hualqui',
         'lang': 'es'
       },
-      'CL/Biobío/Laja': {
-        'id': 'data/CL/Biobío/Laja',
-        'key': 'Laja',
-        'lang': 'es'
-      },
-      'CL/Biobío/Lebu': {
-        'id': 'data/CL/Biobío/Lebu',
-        'key': 'Lebu',
-        'lang': 'es'
-      },
+      'CL/Biobío/Laja': {'id': 'data/CL/Biobío/Laja', 'key': 'Laja', 'lang': 'es'},
+      'CL/Biobío/Lebu': {'id': 'data/CL/Biobío/Lebu', 'key': 'Lebu', 'lang': 'es'},
       'CL/Biobío/Los Álamos': {
         'id': 'data/CL/Biobío/Los Álamos',
         'key': 'Los Álamos',
@@ -28528,11 +20052,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Los Ángeles',
         'lang': 'es'
       },
-      'CL/Biobío/Lota': {
-        'id': 'data/CL/Biobío/Lota',
-        'key': 'Lota',
-        'lang': 'es'
-      },
+      'CL/Biobío/Lota': {'id': 'data/CL/Biobío/Lota', 'key': 'Lota', 'lang': 'es'},
       'CL/Biobío/Mulchén': {
         'id': 'data/CL/Biobío/Mulchén',
         'key': 'Mulchén',
@@ -28548,26 +20068,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Negrete',
         'lang': 'es'
       },
-      'CL/Biobío/Ninhue': {
-        'id': 'data/CL/Biobío/Ninhue',
-        'key': 'Ninhue',
-        'lang': 'es'
-      },
-      'CL/Biobío/Pemuco': {
-        'id': 'data/CL/Biobío/Pemuco',
-        'key': 'Pemuco',
-        'lang': 'es'
-      },
-      'CL/Biobío/Penco': {
-        'id': 'data/CL/Biobío/Penco',
-        'key': 'Penco',
-        'lang': 'es'
-      },
-      'CL/Biobío/Pinto': {
-        'id': 'data/CL/Biobío/Pinto',
-        'key': 'Pinto',
-        'lang': 'es'
-      },
+      'CL/Biobío/Ninhue': {'id': 'data/CL/Biobío/Ninhue', 'key': 'Ninhue', 'lang': 'es'},
+      'CL/Biobío/Pemuco': {'id': 'data/CL/Biobío/Pemuco', 'key': 'Pemuco', 'lang': 'es'},
+      'CL/Biobío/Penco': {'id': 'data/CL/Biobío/Penco', 'key': 'Penco', 'lang': 'es'},
+      'CL/Biobío/Pinto': {'id': 'data/CL/Biobío/Pinto', 'key': 'Pinto', 'lang': 'es'},
       'CL/Biobío/Portezuelo': {
         'id': 'data/CL/Biobío/Portezuelo',
         'key': 'Portezuelo',
@@ -28643,16 +20147,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Talcahuano',
         'lang': 'es'
       },
-      'CL/Biobío/Tirúa': {
-        'id': 'data/CL/Biobío/Tirúa',
-        'key': 'Tirúa',
-        'lang': 'es'
-      },
-      'CL/Biobío/Tomé': {
-        'id': 'data/CL/Biobío/Tomé',
-        'key': 'Tomé',
-        'lang': 'es'
-      },
+      'CL/Biobío/Tirúa': {'id': 'data/CL/Biobío/Tirúa', 'key': 'Tirúa', 'lang': 'es'},
+      'CL/Biobío/Tomé': {'id': 'data/CL/Biobío/Tomé', 'key': 'Tomé', 'lang': 'es'},
       'CL/Biobío/Treguaco': {
         'id': 'data/CL/Biobío/Treguaco',
         'key': 'Treguaco',
@@ -28663,21 +20159,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Tucapel',
         'lang': 'es'
       },
-      'CL/Biobío/Yumbel': {
-        'id': 'data/CL/Biobío/Yumbel',
-        'key': 'Yumbel',
-        'lang': 'es'
-      },
-      'CL/Biobío/Yungay': {
-        'id': 'data/CL/Biobío/Yungay',
-        'key': 'Yungay',
-        'lang': 'es'
-      },
-      'CL/Biobío/Ñiquén': {
-        'id': 'data/CL/Biobío/Ñiquén',
-        'key': 'Ñiquén',
-        'lang': 'es'
-      },
+      'CL/Biobío/Yumbel': {'id': 'data/CL/Biobío/Yumbel', 'key': 'Yumbel', 'lang': 'es'},
+      'CL/Biobío/Yungay': {'id': 'data/CL/Biobío/Yungay', 'key': 'Yungay', 'lang': 'es'},
+      'CL/Biobío/Ñiquén': {'id': 'data/CL/Biobío/Ñiquén', 'key': 'Ñiquén', 'lang': 'es'},
       'CL/Coquimbo': {
         'id': 'data/CL/Coquimbo',
         'isoid': 'CO',
@@ -28950,11 +20434,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Lago Ranco',
         'lang': 'es'
       },
-      'CL/Los Ríos/Lanco': {
-        'id': 'data/CL/Los Ríos/Lanco',
-        'key': 'Lanco',
-        'lang': 'es'
-      },
+      'CL/Los Ríos/Lanco': {'id': 'data/CL/Los Ríos/Lanco', 'key': 'Lanco', 'lang': 'es'},
       'CL/Los Ríos/Los Lagos': {
         'id': 'data/CL/Los Ríos/Los Lagos',
         'key': 'Los Lagos',
@@ -28965,11 +20445,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Mariquina',
         'lang': 'es'
       },
-      'CL/Los Ríos/Máfil': {
-        'id': 'data/CL/Los Ríos/Máfil',
-        'key': 'Máfil',
-        'lang': 'es'
-      },
+      'CL/Los Ríos/Máfil': {'id': 'data/CL/Los Ríos/Máfil', 'key': 'Máfil', 'lang': 'es'},
       'CL/Los Ríos/Paillaco': {
         'id': 'data/CL/Los Ríos/Paillaco',
         'key': 'Paillaco',
@@ -29068,76 +20544,32 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cauquenes',
         'lang': 'es'
       },
-      'CL/Maule/Chanco': {
-        'id': 'data/CL/Maule/Chanco',
-        'key': 'Chanco',
-        'lang': 'es'
-      },
-      'CL/Maule/Colbún': {
-        'id': 'data/CL/Maule/Colbún',
-        'key': 'Colbún',
-        'lang': 'es'
-      },
+      'CL/Maule/Chanco': {'id': 'data/CL/Maule/Chanco', 'key': 'Chanco', 'lang': 'es'},
+      'CL/Maule/Colbún': {'id': 'data/CL/Maule/Colbún', 'key': 'Colbún', 'lang': 'es'},
       'CL/Maule/Constitución': {
         'id': 'data/CL/Maule/Constitución',
         'key': 'Constitución',
         'lang': 'es'
       },
-      'CL/Maule/Curepto': {
-        'id': 'data/CL/Maule/Curepto',
-        'key': 'Curepto',
-        'lang': 'es'
-      },
-      'CL/Maule/Curicó': {
-        'id': 'data/CL/Maule/Curicó',
-        'key': 'Curicó',
-        'lang': 'es'
-      },
+      'CL/Maule/Curepto': {'id': 'data/CL/Maule/Curepto', 'key': 'Curepto', 'lang': 'es'},
+      'CL/Maule/Curicó': {'id': 'data/CL/Maule/Curicó', 'key': 'Curicó', 'lang': 'es'},
       'CL/Maule/Empedrado': {
         'id': 'data/CL/Maule/Empedrado',
         'key': 'Empedrado',
         'lang': 'es'
       },
-      'CL/Maule/Hualañé': {
-        'id': 'data/CL/Maule/Hualañé',
-        'key': 'Hualañé',
-        'lang': 'es'
-      },
+      'CL/Maule/Hualañé': {'id': 'data/CL/Maule/Hualañé', 'key': 'Hualañé', 'lang': 'es'},
       'CL/Maule/Licantén': {
         'id': 'data/CL/Maule/Licantén',
         'key': 'Licantén',
         'lang': 'es'
       },
-      'CL/Maule/Linares': {
-        'id': 'data/CL/Maule/Linares',
-        'key': 'Linares',
-        'lang': 'es'
-      },
-      'CL/Maule/Longaví': {
-        'id': 'data/CL/Maule/Longaví',
-        'key': 'Longaví',
-        'lang': 'es'
-      },
-      'CL/Maule/Maule': {
-        'id': 'data/CL/Maule/Maule',
-        'key': 'Maule',
-        'lang': 'es'
-      },
-      'CL/Maule/Molina': {
-        'id': 'data/CL/Maule/Molina',
-        'key': 'Molina',
-        'lang': 'es'
-      },
-      'CL/Maule/Parral': {
-        'id': 'data/CL/Maule/Parral',
-        'key': 'Parral',
-        'lang': 'es'
-      },
-      'CL/Maule/Pelarco': {
-        'id': 'data/CL/Maule/Pelarco',
-        'key': 'Pelarco',
-        'lang': 'es'
-      },
+      'CL/Maule/Linares': {'id': 'data/CL/Maule/Linares', 'key': 'Linares', 'lang': 'es'},
+      'CL/Maule/Longaví': {'id': 'data/CL/Maule/Longaví', 'key': 'Longaví', 'lang': 'es'},
+      'CL/Maule/Maule': {'id': 'data/CL/Maule/Maule', 'key': 'Maule', 'lang': 'es'},
+      'CL/Maule/Molina': {'id': 'data/CL/Maule/Molina', 'key': 'Molina', 'lang': 'es'},
+      'CL/Maule/Parral': {'id': 'data/CL/Maule/Parral', 'key': 'Parral', 'lang': 'es'},
+      'CL/Maule/Pelarco': {'id': 'data/CL/Maule/Pelarco', 'key': 'Pelarco', 'lang': 'es'},
       'CL/Maule/Pelluhue': {
         'id': 'data/CL/Maule/Pelluhue',
         'key': 'Pelluhue',
@@ -29148,21 +20580,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Pencahue',
         'lang': 'es'
       },
-      'CL/Maule/Rauco': {
-        'id': 'data/CL/Maule/Rauco',
-        'key': 'Rauco',
-        'lang': 'es'
-      },
-      'CL/Maule/Retiro': {
-        'id': 'data/CL/Maule/Retiro',
-        'key': 'Retiro',
-        'lang': 'es'
-      },
-      'CL/Maule/Romeral': {
-        'id': 'data/CL/Maule/Romeral',
-        'key': 'Romeral',
-        'lang': 'es'
-      },
+      'CL/Maule/Rauco': {'id': 'data/CL/Maule/Rauco', 'key': 'Rauco', 'lang': 'es'},
+      'CL/Maule/Retiro': {'id': 'data/CL/Maule/Retiro', 'key': 'Retiro', 'lang': 'es'},
+      'CL/Maule/Romeral': {'id': 'data/CL/Maule/Romeral', 'key': 'Romeral', 'lang': 'es'},
       'CL/Maule/Río Claro': {
         'id': 'data/CL/Maule/Río Claro',
         'key': 'Río Claro',
@@ -29188,16 +20608,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'San Rafael',
         'lang': 'es'
       },
-      'CL/Maule/Talca': {
-        'id': 'data/CL/Maule/Talca',
-        'key': 'Talca',
-        'lang': 'es'
-      },
-      'CL/Maule/Teno': {
-        'id': 'data/CL/Maule/Teno',
-        'key': 'Teno',
-        'lang': 'es'
-      },
+      'CL/Maule/Talca': {'id': 'data/CL/Maule/Talca', 'key': 'Talca', 'lang': 'es'},
+      'CL/Maule/Teno': {'id': 'data/CL/Maule/Teno', 'key': 'Teno', 'lang': 'es'},
       'CL/Maule/Vichuquén': {
         'id': 'data/CL/Maule/Vichuquén',
         'key': 'Vichuquén',
@@ -29662,8 +21074,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Tarapacá',
         'lang': 'es',
         'name': 'Tarapacá',
-        'sub_keys':
-            'Alto Hospicio~Camiña~Colchane~Huara~Iquique~Pica~Pozo Almonte'
+        'sub_keys': 'Alto Hospicio~Camiña~Colchane~Huara~Iquique~Pica~Pozo Almonte'
       },
       'CL/Tarapacá/Alto Hospicio': {
         'id': 'data/CL/Tarapacá/Alto Hospicio',
@@ -29680,21 +21091,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Colchane',
         'lang': 'es'
       },
-      'CL/Tarapacá/Huara': {
-        'id': 'data/CL/Tarapacá/Huara',
-        'key': 'Huara',
-        'lang': 'es'
-      },
+      'CL/Tarapacá/Huara': {'id': 'data/CL/Tarapacá/Huara', 'key': 'Huara', 'lang': 'es'},
       'CL/Tarapacá/Iquique': {
         'id': 'data/CL/Tarapacá/Iquique',
         'key': 'Iquique',
         'lang': 'es'
       },
-      'CL/Tarapacá/Pica': {
-        'id': 'data/CL/Tarapacá/Pica',
-        'key': 'Pica',
-        'lang': 'es'
-      },
+      'CL/Tarapacá/Pica': {'id': 'data/CL/Tarapacá/Pica', 'key': 'Pica', 'lang': 'es'},
       'CL/Tarapacá/Pozo Almonte': {
         'id': 'data/CL/Tarapacá/Pozo Almonte',
         'key': 'Pozo Almonte',
@@ -29905,34 +21308,17 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Ñuble',
         'lang': 'es',
         'name': 'Ñuble',
-        'sub_keys':
-            'Bulnes~Chillán~Coelemu~Coihueco~Quillón~Quirihue~San Carlos~Yungay'
+        'sub_keys': 'Bulnes~Chillán~Coelemu~Coihueco~Quillón~Quirihue~San Carlos~Yungay'
       },
-      'CL/Ñuble/Bulnes': {
-        'id': 'data/CL/Ñuble/Bulnes',
-        'key': 'Bulnes',
-        'lang': 'es'
-      },
-      'CL/Ñuble/Chillán': {
-        'id': 'data/CL/Ñuble/Chillán',
-        'key': 'Chillán',
-        'lang': 'es'
-      },
-      'CL/Ñuble/Coelemu': {
-        'id': 'data/CL/Ñuble/Coelemu',
-        'key': 'Coelemu',
-        'lang': 'es'
-      },
+      'CL/Ñuble/Bulnes': {'id': 'data/CL/Ñuble/Bulnes', 'key': 'Bulnes', 'lang': 'es'},
+      'CL/Ñuble/Chillán': {'id': 'data/CL/Ñuble/Chillán', 'key': 'Chillán', 'lang': 'es'},
+      'CL/Ñuble/Coelemu': {'id': 'data/CL/Ñuble/Coelemu', 'key': 'Coelemu', 'lang': 'es'},
       'CL/Ñuble/Coihueco': {
         'id': 'data/CL/Ñuble/Coihueco',
         'key': 'Coihueco',
         'lang': 'es'
       },
-      'CL/Ñuble/Quillón': {
-        'id': 'data/CL/Ñuble/Quillón',
-        'key': 'Quillón',
-        'lang': 'es'
-      },
+      'CL/Ñuble/Quillón': {'id': 'data/CL/Ñuble/Quillón', 'key': 'Quillón', 'lang': 'es'},
       'CL/Ñuble/Quirihue': {
         'id': 'data/CL/Ñuble/Quirihue',
         'key': 'Quirihue',
@@ -29943,11 +21329,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'San Carlos',
         'lang': 'es'
       },
-      'CL/Ñuble/Yungay': {
-        'id': 'data/CL/Ñuble/Yungay',
-        'key': 'Yungay',
-        'lang': 'es'
-      },
+      'CL/Ñuble/Yungay': {'id': 'data/CL/Ñuble/Yungay', 'key': 'Yungay', 'lang': 'es'},
       'CM': {'id': 'data/CM', 'key': 'CM', 'name': 'CAMEROON'},
       'CN': {
         'fmt': '%Z%n%S%C%D%n%A%n%O%n%N',
@@ -29970,8 +21352,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_names':
             '安徽省~澳门~北京市~重庆市~福建省~甘肃省~广东省~广西~贵州省~海南省~河北省~河南省~黑龙江省~湖北省~湖南省~吉林省~江苏省~江西省~辽宁省~内蒙古~宁夏~青海省~山东省~山西省~陕西省~上海市~四川省~台湾~天津市~西藏~香港~新疆~云南省~浙江省',
         'sub_xrequires': '~A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ACS~~~',
-        'sub_xzips':
-            '~999078~~~~~~~~~~~~~~~~~~~~~~~~~~\\d{3}(\\d{2,3})?~~~999077~~~',
+        'sub_xzips': '~999078~~~~~~~~~~~~~~~~~~~~~~~~~~\\d{3}(\\d{2,3})?~~~999077~~~',
         'sublocality_name_type': 'district',
         'upper': 'S',
         'zip': '\\d{6}',
@@ -30144,8 +21525,7 @@ Map<String, Map<String, String>> get allJson => {
             'Baoshan Shi~Chuxiong Zhou~Dali Zhou~Dehong Zhou~Dêqên Zhou~Honghe Zhou~Kunming Shi~Lijiang Shi~Lincang Shi~Nujiang Zhou~Puer Shi~Qujing Shi~Wenshan Zhou~Xishuangbanna Zhou~Yuxi Shi~Zhaotong Shi',
         'sub_mores':
             'true~true~true~true~true~true~true~true~true~true~true~true~true~true~true~true',
-        'sub_names':
-            '保山市~楚雄州~大理州~德宏州~迪庆州~红河州~昆明市~丽江市~临沧市~怒江州~普洱市~曲靖市~文山州~西双版纳州~玉溪市~昭通市',
+        'sub_names': '保山市~楚雄州~大理州~德宏州~迪庆州~红河州~昆明市~丽江市~临沧市~怒江州~普洱市~曲靖市~文山州~西双版纳州~玉溪市~昭通市',
         'sub_zipexs':
             '678000~675000~671000~678400~674400~661400~650011~674100~677000~673100~665000~655000~663000~666100~653100~657000'
       },
@@ -30239,8 +21619,7 @@ Map<String, Map<String, String>> get allJson => {
         'name': '丽江市',
         'sub_keys': '古城区~华坪县~宁蒗彝族自治县~永胜县~玉龙纳西族自治县',
         'sub_lfnames': '~~Ninglang Yizu Zizhixian~~Yulong Naki Zizhixian',
-        'sub_lnames':
-            'Gucheng Qu~Huaping Xian~Ninglang Xian~Yongsheng Xian~Yulong Xian',
+        'sub_lnames': 'Gucheng Qu~Huaping Xian~Ninglang Xian~Yongsheng Xian~Yulong Xian',
         'sub_names': '古城区~华坪县~宁蒗县~永胜县~玉龙县',
         'sub_zipexs': '674100~674800~674300~674200~674100',
         'zipex': '674100'
@@ -30347,8 +21726,7 @@ Map<String, Map<String, String>> get allJson => {
         'lfname': 'Dali Baizu Zizhizhou',
         'lname': 'Dali Zhou',
         'name': '大理州',
-        'sub_keys':
-            '宾川县~大理市~洱源县~鹤庆县~剑川县~弥渡县~南涧彝族自治县~巍山彝族回族自治县~祥云县~漾濞彝族自治县~永平县~云龙县',
+        'sub_keys': '宾川县~大理市~洱源县~鹤庆县~剑川县~弥渡县~南涧彝族自治县~巍山彝族回族自治县~祥云县~漾濞彝族自治县~永平县~云龙县',
         'sub_lfnames':
             '~~~~~~Nanjian Yizu Zizhixian~Weishan Yizu Huizu Zizhixian~~Yangbi Yizu Zizhixian~~',
         'sub_lnames':
@@ -30465,8 +21843,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Dehong Zhou',
         'name': '德宏州',
         'sub_keys': '梁河县~陇川县~潞西市~瑞丽市~盈江县',
-        'sub_lnames':
-            'Lianghe Xian~Longchuan Xian~Luxi Shi~Ruili Shi~Yingjiang Xian',
+        'sub_lnames': 'Lianghe Xian~Longchuan Xian~Luxi Shi~Ruili Shi~Yingjiang Xian',
         'sub_names': '梁河县~陇川县~潞西市~瑞丽市~盈江县',
         'sub_zipexs': '679200~678700~678400~678600~679300',
         'zipex': '678400'
@@ -30988,8 +22365,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Fuyuan Xian~Huize Xian~Luliang Xian~Luoping Xian~Malong Xian~Qilin Qu~Shizong Xian~Xuanwei Shi~Zhanyi Xian',
         'sub_names': '富源县~会泽县~陆良县~罗平县~马龙县~麒麟区~师宗县~宣威市~沾益县',
-        'sub_zipexs':
-            '655500~654200~655600~655800~655100~655000~655700~655400~655500',
+        'sub_zipexs': '655500~654200~655600~655800~655100~655000~655700~655400~655500',
         'zipex': '655000'
       },
       'CN/云南省/曲靖市/会泽县': {
@@ -31171,8 +22547,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Chengjiang Xian~Eshan Xian~Hongta Qu~Huaning Xian~Jiangchuan Xian~Tonghai Xian~Xinping Xian~Yimen Xian~Yuanjiang Xian',
         'sub_names': '澄江县~峨山县~红塔区~华宁县~江川县~通海县~新平县~易门县~元江县',
-        'sub_zipexs':
-            '652500~653200~653100~652800~652600~652700~653400~651100~653300',
+        'sub_zipexs': '652500~653200~653100~652800~652600~652700~653400~651100~653300',
         'zipex': '653100'
       },
       'CN/云南省/玉溪市/元江哈尼族彝族傣族自治县': {
@@ -31257,8 +22632,7 @@ Map<String, Map<String, String>> get allJson => {
         'lfname': 'Honghe Hanizu Yizu Zizhizhou',
         'lname': 'Honghe Zhou',
         'name': '红河州',
-        'sub_keys':
-            '个旧市~河口瑶族自治县~红河县~建水县~金平苗族瑶族傣族自治县~开远市~泸西县~绿春县~蒙自市~弥勒县~屏边苗族自治县~石屏县~元阳县',
+        'sub_keys': '个旧市~河口瑶族自治县~红河县~建水县~金平苗族瑶族傣族自治县~开远市~泸西县~绿春县~蒙自市~弥勒县~屏边苗族自治县~石屏县~元阳县',
         'sub_lfnames':
             '~Hekou Yaozu Zizhixian~~~Jinping Miaozu Yaozu Daizu Zizhixian~~~~~~Pingbian Miaozu Zizhixian~~',
         'sub_lnames':
@@ -31458,15 +22832,12 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Neimenggu Zizhiqu',
         'name': '内蒙古',
-        'sub_keys':
-            '阿拉善盟~巴彦淖尔市~包头市~赤峰市~鄂尔多斯市~呼和浩特市~呼伦贝尔市~通辽市~乌海市~乌兰察布市~锡林郭勒盟~兴安盟',
+        'sub_keys': '阿拉善盟~巴彦淖尔市~包头市~赤峰市~鄂尔多斯市~呼和浩特市~呼伦贝尔市~通辽市~乌海市~乌兰察布市~锡林郭勒盟~兴安盟',
         'sub_lfnames': '~~~Chifeng (Ulanhad) Shi~~~~~~~~',
         'sub_lnames':
             'Alxa Meng~Bayannur Shi~Baotou Shi~Chifeng Shi~Ordos Shi~Hohhot Shi~Hulun Buir Shi~Tongliao Shi~Wuhai Shi~Ulanqab Shi~Xilin Gol Meng~Hinggan Meng',
-        'sub_mores':
-            'true~true~true~true~true~true~true~true~true~true~true~true',
-        'sub_names':
-            '阿拉善盟~巴彦淖尔市~包头市~赤峰市~鄂尔多斯市~呼和浩特市~呼伦贝尔市~通辽市~乌海市~乌兰察布市~锡林郭勒盟~兴安盟',
+        'sub_mores': 'true~true~true~true~true~true~true~true~true~true~true~true',
+        'sub_names': '阿拉善盟~巴彦淖尔市~包头市~赤峰市~鄂尔多斯市~呼和浩特市~呼伦贝尔市~通辽市~乌海市~乌兰察布市~锡林郭勒盟~兴安盟',
         'sub_zipexs':
             '750306~015001~014025~024000~017004~010020~021008~028000~016000~012000~026021~137401'
       },
@@ -31679,8 +23050,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Baiyun Kuangqu~Darhan Mumingan Lianheqi~Donghe Qu~Guyang Xian~Jiuyuan Qu~Hondlon Qu~Qingshan Qu~Shiguai Qu~Tumd Youqi',
         'sub_names': '白云矿区~达尔罕茂明安联合旗~东河区~固阳县~九原区~昆都仑区~青山区~石拐区~土默特右旗',
-        'sub_zipexs':
-            '014080~014500~014040~014200~014060~014010~014030~014070~014100',
+        'sub_zipexs': '014080~014500~014040~014200~014060~014010~014030~014070~014100',
         'zipex': '014025'
       },
       'CN/内蒙古自治区/包头市/东河区': {
@@ -31890,8 +23260,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Horinger Xian~Huimin Qu~Qingshuihe Xian~Saihan Qu~Tumd Zuoqi~Togtoh Xian~Wuchuan Xian~Xincheng Qu~Yuquan Qu',
         'sub_names': '和林格尔县~回民区~清水河县~赛罕区~土默特左旗~托克托县~武川县~新城区~玉泉区',
-        'sub_zipexs':
-            '011500~010030~011600~010020~010100~010200~011700~010010~010031',
+        'sub_zipexs': '011500~010030~011600~010020~010100~010200~011700~010010~010031',
         'zipex': '010020'
       },
       'CN/内蒙古自治区/呼和浩特市/和林格尔县': {
@@ -32045,8 +23414,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_keys': '阿鲁科尔沁旗~敖汉旗~巴林右旗~巴林左旗~红山区~喀喇沁旗~克什克腾旗~林西县~宁城县~松山区~翁牛特旗~元宝山区',
         'sub_lnames':
             'Ar Horqin Qi~Aohan Qi~Bairin Youqi~Bairin Zuoqi~Hongshan Qu~Harqin Qi~Hexigten Qi~Linxi Xian~Ningcheng Xian~Songshan Qu~Ongniud Qi~Yuanbaoshan Qu',
-        'sub_names':
-            '阿鲁科尔沁旗~敖汉旗~巴林右旗~巴林左旗~红山区~喀喇沁旗~克什克腾旗~林西县~宁城县~松山区~翁牛特旗~元宝山区',
+        'sub_names': '阿鲁科尔沁旗~敖汉旗~巴林右旗~巴林左旗~红山区~喀喇沁旗~克什克腾旗~林西县~宁城县~松山区~翁牛特旗~元宝山区',
         'sub_zipexs':
             '025550~024300~025150~025450~024001~024400~025350~025250~024200~024001~024500~024070',
         'zipex': '024000'
@@ -32307,14 +23675,12 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Xilin Gol Meng',
         'name': '锡林郭勒盟',
-        'sub_keys':
-            '阿巴嘎旗~东乌珠穆沁旗~多伦县~二连浩特市~苏尼特右旗~苏尼特左旗~太仆寺旗~西乌珠穆沁旗~锡林浩特市~镶黄旗~正蓝旗~正镶白旗',
+        'sub_keys': '阿巴嘎旗~东乌珠穆沁旗~多伦县~二连浩特市~苏尼特右旗~苏尼特左旗~太仆寺旗~西乌珠穆沁旗~锡林浩特市~镶黄旗~正蓝旗~正镶白旗',
         'sub_lfnames':
             '~~Duolun (Dolonnur) Xian~~~~~~~Xianghuang (Hobot Xar) Qi~Zhenglan (Xulun Hoh) Qi~Zhengxiangbai (Xulun Hobot Qagan) Qi',
         'sub_lnames':
             'Abag Qi~Dong Ujimqin Qi~Duolun Xian~Erenhot Shi~Sonid Youqi~Sonid Zuoqi~Taibus Qi~Xi Ujimqin Qi~Xilinhot Shi~Xianghuang Qi~Zhenglan Qi~Zhengxiangbai Qi',
-        'sub_names':
-            '阿巴嘎旗~东乌珠穆沁旗~多伦县~二连浩特市~苏尼特右旗~苏尼特左旗~太仆寺旗~西乌珠穆沁旗~锡林浩特市~镶黄旗~正蓝旗~正镶白旗',
+        'sub_names': '阿巴嘎旗~东乌珠穆沁旗~多伦县~二连浩特市~苏尼特右旗~苏尼特左旗~太仆寺旗~西乌珠穆沁旗~锡林浩特市~镶黄旗~正蓝旗~正镶白旗',
         'sub_zipexs':
             '011400~026300~027300~011100~011200~011300~027000~026200~026021~013250~027200~013800',
         'zipex': '026021'
@@ -32462,12 +23828,10 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Beijing Shi',
         'name': '北京市',
-        'sub_keys':
-            '昌平区~朝阳区~大兴区~东城区~房山区~丰台区~海淀区~怀柔区~门头沟区~密云县~平谷区~石景山区~顺义区~通州区~西城区~延庆县',
+        'sub_keys': '昌平区~朝阳区~大兴区~东城区~房山区~丰台区~海淀区~怀柔区~门头沟区~密云县~平谷区~石景山区~顺义区~通州区~西城区~延庆县',
         'sub_lnames':
             'Changping Qu~Chaoyang Qu~Daxing Qu~Dongcheng Qu~Fangshan Qu~Fengtai Qu~Haidian Qu~Huairou Qu~Mentougou Qu~Miyun Xian~Pinggu Qu~Shijingshan Qu~Shunyi Qu~Tongzhou Qu~Xicheng Qu~Yanqing Xian',
-        'sub_names':
-            '昌平区~朝阳区~大兴区~东城区~房山区~丰台区~海淀区~怀柔区~门头沟区~密云县~平谷区~石景山区~顺义区~通州区~西城区~延庆县',
+        'sub_names': '昌平区~朝阳区~大兴区~东城区~房山区~丰台区~海淀区~怀柔区~门头沟区~密云县~平谷区~石景山区~顺义区~通州区~西城区~延庆县',
         'sub_zipexs':
             '102200~100020~102600~100010~102400~100071~100080~101400~102300~101500~101200~100043~101300~101149~100032~102100'
       },
@@ -33416,14 +24780,11 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Taitung County',
         'name': '台東縣',
-        'sub_keys':
-            '卑南鄉~成功鎮~池上鄉~達仁鄉~大武鄉~東河鄉~關山鎮~海端鄉~金峰鄉~蘭嶼鄉~鹿野鄉~綠島鄉~台東市~太麻里鄉~延平鄉~長濱鄉',
+        'sub_keys': '卑南鄉~成功鎮~池上鄉~達仁鄉~大武鄉~東河鄉~關山鎮~海端鄉~金峰鄉~蘭嶼鄉~鹿野鄉~綠島鄉~台東市~太麻里鄉~延平鄉~長濱鄉',
         'sub_lnames':
             'Beinan Township~Chenggong Township~Chishang Township~Daren Township~Dawu Township~Donghe Township~Guanshan Township~Haiduan Township~Jinfeng Township~Lanyu Township~Luye Township~Lüdao Township~Taitung City~Taimali Township~Yanping Township~Changbin Township',
-        'sub_names':
-            '卑南鄉~成功鎮~池上鄉~達仁鄉~大武鄉~東河鄉~關山鎮~海端鄉~金峰鄉~蘭嶼鄉~鹿野鄉~綠島鄉~台東市~太麻里鄉~延平鄉~長濱鄉',
-        'sub_zips':
-            '954~961~958~966~965~959~956~957~964~952~955~951~950~963~953~962',
+        'sub_names': '卑南鄉~成功鎮~池上鄉~達仁鄉~大武鄉~東河鄉~關山鎮~海端鄉~金峰鄉~蘭嶼鄉~鹿野鄉~綠島鄉~台東市~太麻里鄉~延平鄉~長濱鄉',
+        'sub_zips': '954~961~958~966~965~959~956~957~964~952~955~951~950~963~953~962',
         'zip': '9[56]',
         'zipex': '950,966'
       },
@@ -35292,8 +26653,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Lienchiang County',
         'name': '連江縣',
         'sub_keys': '北竿鄉~東引鄉~莒光鄉~南竿鄉',
-        'sub_lnames':
-            'Beigan Township~Dongyin Township~Juguang Township~Nangan Township',
+        'sub_lnames': 'Beigan Township~Dongyin Township~Juguang Township~Nangan Township',
         'sub_names': '北竿鄉~東引鄉~莒光鄉~南竿鄉',
         'sub_zips': '210~212~211~209',
         'zip': '209|21[012]',
@@ -35920,8 +27280,7 @@ Map<String, Map<String, String>> get allJson => {
             'Baicheng Shi~Baishan Shi~Jilin Shi~Liaoyuan Shi~Siping Shi~Songyuan Shi~Tonghua Shi~Yanbian Zhou~Changchun Shi',
         'sub_mores': 'true~true~true~true~true~true~true~true~true',
         'sub_names': '白城市~白山市~吉林市~辽源市~四平市~松原市~通化市~延边州~长春市',
-        'sub_zipexs':
-            '137000~134300~132011~136200~136000~138000~134001~133000~130061'
+        'sub_zipexs': '137000~134300~132011~136200~136000~138000~134001~133000~130061'
       },
       'CN/吉林省/吉林市': {
         'id': 'data/CN/吉林省/吉林市',
@@ -35933,8 +27292,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Changyi Qu~Chuanying Qu~Fengman Qu~Huadian Shi~Jiaohe Shi~Longtan Qu~Panshi Shi~Shulan Shi~Yongji Xian',
         'sub_names': '昌邑区~船营区~丰满区~桦甸市~蛟河市~龙潭区~磐石市~舒兰市~永吉县',
-        'sub_zipexs':
-            '132001~132011~132108~132400~132500~132021~132300~132600~132200',
+        'sub_zipexs': '132001~132011~132108~132400~132500~132021~132300~132600~132200',
         'zipex': '132011'
       },
       'CN/吉林省/吉林市/丰满区': {
@@ -36659,8 +28017,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Neijiang Shi',
         'name': '内江市',
         'sub_keys': '东兴区~隆昌县~市中区~威远县~资中县',
-        'sub_lnames':
-            'Dongxing Qu~Longchang Xian~Shizhong Qu~Weiyuan Xian~Zizhong Xian',
+        'sub_lnames': 'Dongxing Qu~Longchang Xian~Shizhong Qu~Weiyuan Xian~Zizhong Xian',
         'sub_names': '东兴区~隆昌县~市中区~威远县~资中县',
         'sub_zipexs': '641100~642150~641000~642450~641200',
         'zipex': '641000'
@@ -36870,8 +28227,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             "Gaoping Qu~Jialing Qu~Langzhong Shi~Nanbu Xian~Peng'an Xian~Shunqing Qu~Xichong Xian~Yilong Xian~Yingshan Xian",
         'sub_names': '高坪区~嘉陵区~阆中市~南部县~蓬安县~顺庆区~西充县~仪陇县~营山县',
-        'sub_zipexs':
-            '637100~637500~637400~637300~637800~637000~637200~637600~637700',
+        'sub_zipexs': '637100~637500~637400~637300~637800~637000~637200~637600~637700',
         'zipex': '637000'
       },
       'CN/四川省/南充市/仪陇县': {
@@ -37168,8 +28524,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': "Guang'an Shi",
         'name': '广安市',
         'sub_keys': '广安区~华蓥市~邻水县~武胜县~岳池县',
-        'sub_lnames':
-            "Guang'an Qu~Huaying Shi~Linshui Xian~Wusheng Xian~Yuechi Xian",
+        'sub_lnames': "Guang'an Qu~Huaying Shi~Linshui Xian~Wusheng Xian~Yuechi Xian",
         'sub_names': '广安区~华蓥市~邻水县~武胜县~岳池县',
         'sub_zipexs': '638550~638600~638500~638400~638300',
         'zipex': '638500'
@@ -37808,8 +29163,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'An Xian~Beichuan Xian~Fucheng Qu~Jiangyou Shi~Pingwu Xian~Santai Xian~Yanting Xian~Youxian Qu~Zitong Xian',
         'sub_names': '安县~北川县~涪城区~江油市~平武县~三台县~盐亭县~游仙区~梓潼县',
-        'sub_zipexs':
-            '622650~622750~621000~621700~622550~621100~621600~621022~622150',
+        'sub_zipexs': '622650~622750~621000~621700~622550~621100~621600~621022~622150',
         'zipex': '621000'
       },
       'CN/四川省/绵阳市/三台县': {
@@ -37892,8 +29246,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Zigong Shi',
         'name': '自贡市',
         'sub_keys': '大安区~富顺县~贡井区~荣县~沿滩区~自流井区',
-        'sub_lnames':
-            "Da'an Qu~Fushun Xian~Gongjing Qu~Rong Xian~Yantan Qu~Ziliujing Qu",
+        'sub_lnames': "Da'an Qu~Fushun Xian~Gongjing Qu~Rong Xian~Yantan Qu~Ziliujing Qu",
         'sub_names': '大安区~富顺县~贡井区~荣县~沿滩区~自流井区',
         'sub_zipexs': '643010~643200~643020~643100~643030~643000',
         'zipex': '643000'
@@ -38066,8 +29419,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Suining Shi',
         'name': '遂宁市',
         'sub_keys': '安居区~船山区~大英县~蓬溪县~射洪县',
-        'sub_lnames':
-            'Anju Qu~Chuanshan Qu~Daying Xian~Pengxi Xian~Shehong Xian',
+        'sub_lnames': 'Anju Qu~Chuanshan Qu~Daying Xian~Pengxi Xian~Shehong Xian',
         'sub_names': '安居区~船山区~大英县~蓬溪县~射洪县',
         'sub_zipexs': '629000~629000~629300~629100~629200',
         'zipex': '629000'
@@ -38320,12 +29672,10 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Tianjin Shi',
         'name': '天津市',
-        'sub_keys':
-            '宝坻区~北辰区~滨海新区~东丽区~和平区~河北区~河东区~河西区~红桥区~蓟县~津南区~静海县~南开区~宁河县~武清区~西青区',
+        'sub_keys': '宝坻区~北辰区~滨海新区~东丽区~和平区~河北区~河东区~河西区~红桥区~蓟县~津南区~静海县~南开区~宁河县~武清区~西青区',
         'sub_lnames':
             'Baodi Qu~Beichen Qu~Binhai Xinqu~Dongli Qu~Heping Qu~Hebei Qu~Hedong Qu~Hexi Qu~Hongqiao Qu~Ji Xian~Jinnan Qu~Jinghai Xian~Nankai Qu~Ninghe Xian~Wuqing Qu~Xiqing Qu',
-        'sub_names':
-            '宝坻区~北辰区~滨海新区~东丽区~和平区~河北区~河东区~河西区~红桥区~蓟县~津南区~静海县~南开区~宁河县~武清区~西青区',
+        'sub_names': '宝坻区~北辰区~滨海新区~东丽区~和平区~河北区~河东区~河西区~红桥区~蓟县~津南区~静海县~南开区~宁河县~武清区~西青区',
         'sub_zipexs':
             '301800~300400~300050~300300~300041~300143~300171~300202~300131~301900~300350~301600~300100~301500~301700~300380'
       },
@@ -38465,8 +29815,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Ningxia Huizuzizhiqu',
         'name': '宁夏',
         'sub_keys': '固原市~石嘴山市~吴忠市~银川市~中卫市',
-        'sub_lnames':
-            'Guyuan Shi~Shizuishan Shi~Wuzhong Shi~Yinchuan Shi~Zhongwei Shi',
+        'sub_lnames': 'Guyuan Shi~Shizuishan Shi~Wuzhong Shi~Yinchuan Shi~Zhongwei Shi',
         'sub_mores': 'true~true~true~true~true',
         'sub_names': '固原市~石嘴山市~吴忠市~银川市~中卫市',
         'sub_zipexs': '756000~753000~751100~750004~751700'
@@ -38558,8 +29907,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Guyuan Shi',
         'name': '固原市',
         'sub_keys': '泾源县~隆德县~彭阳县~西吉县~原州区',
-        'sub_lnames':
-            'Jingyuan Xian~Longde Xian~Pengyang Xian~Xiji Xian~Yuanzhou Qu',
+        'sub_lnames': 'Jingyuan Xian~Longde Xian~Pengyang Xian~Xiji Xian~Yuanzhou Qu',
         'sub_names': '泾源县~隆德县~彭阳县~西吉县~原州区',
         'sub_zipexs': '756400~756300~756500~756200~756000',
         'zipex': '756000'
@@ -39789,8 +31137,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Shandong Sheng',
         'name': '山东省',
-        'sub_keys':
-            '滨州市~德州市~东营市~菏泽市~济南市~济宁市~莱芜市~聊城市~临沂市~青岛市~日照市~泰安市~威海市~潍坊市~烟台市~枣庄市~淄博市',
+        'sub_keys': '滨州市~德州市~东营市~菏泽市~济南市~济宁市~莱芜市~聊城市~临沂市~青岛市~日照市~泰安市~威海市~潍坊市~烟台市~枣庄市~淄博市',
         'sub_lnames':
             "Binzhou shi~Dezhou Shi~Dongying Shi~Heze Shi~Jinan Shi~Jining Shi~Laiwu Shi~Liaocheng Shi~Linyi Shi~Qingdao Shi~Rizhao Shi~Tai'an Shi~Weihai Shi~Weifang shi~Yantai Shi~Zaozhuang Shi~Zibo Shi",
         'sub_mores':
@@ -39807,8 +31154,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Dongying Shi',
         'name': '东营市',
         'sub_keys': '东营区~广饶县~河口区~垦利县~利津县',
-        'sub_lnames':
-            'Dongying Qu~Guangrao Xian~Hekou Qu~Kenli Xian~Lijin Xian',
+        'sub_lnames': 'Dongying Qu~Guangrao Xian~Hekou Qu~Kenli Xian~Lijin Xian',
         'sub_names': '东营区~广饶县~河口区~垦利县~利津县',
         'sub_zipexs': '257029~257300~257200~257500~257400',
         'zipex': '257093'
@@ -40960,8 +32306,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Cao Xian~Chengwu Xian~Shan Xian~Dingtao Xian~Dongming Xian~Juye Xian~Juancheng Xian~Mudan Qu~Yuncheng Xian',
         'sub_names': '曹县~成武县~单县~定陶县~东明县~巨野县~鄄城县~牡丹区~郓城县',
-        'sub_zipexs':
-            '274400~274200~273700~274100~274500~274900~274600~274009~274700',
+        'sub_zipexs': '274400~274200~273700~274100~274500~274900~274600~274009~274700',
         'zipex': '274020'
       },
       'CN/山东省/菏泽市/东明县': {
@@ -41167,12 +32512,10 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Linfen Shi',
         'name': '临汾市',
-        'sub_keys':
-            '安泽县~大宁县~汾西县~浮山县~古县~洪洞县~侯马市~霍州市~吉县~蒲县~曲沃县~隰县~乡宁县~襄汾县~尧都区~翼城县~永和县',
+        'sub_keys': '安泽县~大宁县~汾西县~浮山县~古县~洪洞县~侯马市~霍州市~吉县~蒲县~曲沃县~隰县~乡宁县~襄汾县~尧都区~翼城县~永和县',
         'sub_lnames':
             'Anze Xian~Daning Xian~Fenxi Xian~Fushan Xian~Gu Xian~Hongtong Xian~Houma Shi~Huozhou Shi~Ji Xian~Pu Xian~Quwo Xian~Xi Xian~Xiangning Xian~Xiangfen Xian~Yaodu Qu~Yicheng Xian~Yonghe Xian',
-        'sub_names':
-            '安泽县~大宁县~汾西县~浮山县~古县~洪洞县~侯马市~霍州市~吉县~蒲县~曲沃县~隰县~乡宁县~襄汾县~尧都区~翼城县~永和县',
+        'sub_names': '安泽县~大宁县~汾西县~浮山县~古县~洪洞县~侯马市~霍州市~吉县~蒲县~曲沃县~隰县~乡宁县~襄汾县~尧都区~翼城县~永和县',
         'sub_zipexs':
             '042500~042300~031500~042600~042400~031600~043000~031400~042200~041200~043400~041300~042100~041500~041000~043500~041400',
         'zipex': '041000'
@@ -42306,8 +33649,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Yunfu Shi',
         'name': '云浮市',
         'sub_keys': '罗定市~新兴县~郁南县~云安县~云城区',
-        'sub_lnames':
-            "Luoding Shi~Xinxing Xian~Yunan Xian~Yun'an Xian~Yuncheng Qu",
+        'sub_lnames': "Luoding Shi~Xinxing Xian~Yunan Xian~Yun'an Xian~Yuncheng Qu",
         'sub_names': '罗定市~新兴县~郁南县~云安县~云城区',
         'sub_zipexs': '527200~527400~527100~527500~527300',
         'zipex': '527300'
@@ -42513,8 +33855,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Huizhou Shi',
         'name': '惠州市',
         'sub_keys': '博罗县~惠城区~惠东县~惠阳区~龙门县',
-        'sub_lnames':
-            'Boluo Xian~Huicheng Qu~Huidong Xian~Huiyang Qu~Longmen Xian',
+        'sub_lnames': 'Boluo Xian~Huicheng Qu~Huidong Xian~Huiyang Qu~Longmen Xian',
         'sub_names': '博罗县~惠城区~惠东县~惠阳区~龙门县',
         'sub_zipexs': '516100~516001~516300~516200~516800',
         'zipex': '516001'
@@ -42566,8 +33907,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Jieyang Shi',
         'name': '揭阳市',
         'sub_keys': '惠来县~揭东县~揭西县~普宁市~榕城区',
-        'sub_lnames':
-            'Huilai Xian~Jiedong Xian~Jiexi Xian~Puning Shi~Rongcheng Qu',
+        'sub_lnames': 'Huilai Xian~Jiedong Xian~Jiexi Xian~Puning Shi~Rongcheng Qu',
         'sub_names': '惠来县~揭东县~揭西县~普宁市~榕城区',
         'sub_zipexs': '515200~515554~515400~515300~522095',
         'zipex': '522000'
@@ -42942,8 +34282,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             "Bao'an Qu~Futian Qu~Guangming Qu~Longgang Qu~Longhua Qu~Luohu Qu~Nanshan Qu~Pingshan Qu~Yantian Qu",
         'sub_names': '宝安区~福田区~光明区~龙岗区~龙华区~罗湖区~南山区~坪山新区~盐田区',
-        'sub_zipexs':
-            '518101~518033~518107~518116~518110~518001~518052~518118~518083',
+        'sub_zipexs': '518101~518033~518107~518116~518110~518001~518052~518118~518083',
         'zipex': '518027'
       },
       'CN/广东省/深圳市/光明区': {
@@ -43025,8 +34364,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Qingyuan Shi',
         'name': '清远市',
         'sub_keys': '佛冈县~连南瑶族自治县~连山壮族瑶族自治县~连州市~清城区~清新县~阳山县~英德市',
-        'sub_lfnames':
-            '~Liannan Yaozu Zizhixian~Lianshan Zhuangzu Yaozu Zizhixian~~~~~',
+        'sub_lfnames': '~Liannan Yaozu Zizhixian~Lianshan Zhuangzu Yaozu Zizhixian~~~~~',
         'sub_lnames':
             'Fogang Xian~Liannan Xian~Lianshan Xian~Lianzhou Shi~Qingcheng Qu~Qingxin Xian~Yangshan Xian~Yingde Shi',
         'sub_names': '佛冈县~连南县~连山县~连州市~清城区~清新县~阳山县~英德市',
@@ -43109,8 +34447,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Chikan Qu~Leizhou Shi~Lianjiang Shi~Mazhang Qu~Potou Qu~Suixi Xian~Wuchuan Shi~Xiashan Qu~Xuwen Xian',
         'sub_names': '赤坎区~雷州市~廉江市~麻章区~坡头区~遂溪县~吴川市~霞山区~徐闻县',
-        'sub_zipexs':
-            '524033~524200~524400~524003~524057~524300~524500~524002~524100',
+        'sub_zipexs': '524033~524200~524400~524003~524057~524300~524500~524002~524100',
         'zipex': '524038'
       },
       'CN/广东省/湛江市/吴川市': {
@@ -43835,8 +35172,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Liuzhou Shi',
         'name': '柳州市',
         'sub_keys': '城中区~柳北区~柳城县~柳江县~柳南区~鹿寨县~融安县~融水苗族自治县~三江侗族自治县~鱼峰区',
-        'sub_lfnames':
-            '~~~~~~~Rongshui Miaozu Zizhixian~Sanjiang Dongzu Zizhixian~',
+        'sub_lfnames': '~~~~~~~Rongshui Miaozu Zizhixian~Sanjiang Dongzu Zizhixian~',
         'sub_lnames':
             "Chengzhong Qu~Liubei Qu~Liucheng Xian~Liujiang Xian~Liunan Qu~Luzhai Xian~Rong'an Xian~Rongshui Xian~Sanjiang Xian~Yufeng Qu",
         'sub_names': '城中区~柳北区~柳城县~柳江县~柳南区~鹿寨县~融安县~融水县~三江县~鱼峰区',
@@ -44157,8 +35493,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Hechi Shi',
         'name': '河池市',
-        'sub_keys':
-            '巴马瑶族自治县~大化瑶族自治县~东兰县~都安瑶族自治县~凤山县~环江毛南族自治县~金城江区~罗城仫佬族自治县~南丹县~天峨县~宜州市',
+        'sub_keys': '巴马瑶族自治县~大化瑶族自治县~东兰县~都安瑶族自治县~凤山县~环江毛南族自治县~金城江区~罗城仫佬族自治县~南丹县~天峨县~宜州市',
         'sub_lfnames':
             "Bama Yaozu Zizhixian~Dahua Yaozu Zizhixian~~Du'an Yaozu Zizhixian~~Huanjiang Maonanzu Zizhixian~~Luocheng Mulaozu Zizhixian~~~",
         'sub_lnames':
@@ -44441,8 +35776,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Guigang Shi',
         'name': '贵港市',
         'sub_keys': '港北区~港南区~桂平市~平南县~覃塘区',
-        'sub_lnames':
-            'Gangbei Qu~Gangnan Qu~Guiping Shi~Pingnan Xian~Tantang Qu',
+        'sub_lnames': 'Gangbei Qu~Gangnan Qu~Guiping Shi~Pingnan Xian~Tantang Qu',
         'sub_names': '港北区~港南区~桂平市~平南县~覃塘区',
         'sub_zipexs': '537100~537130~537200~537300~537121',
         'zipex': '537100'
@@ -44928,8 +36262,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Bortala Zhou',
         'name': '博尔塔拉州',
         'sub_keys': '博乐市~精河县~温泉县',
-        'sub_lfnames':
-            'Bole (Bortala) Shi~Jinghe (Jing) Xian~Wenquan (Arixang) Xian',
+        'sub_lfnames': 'Bole (Bortala) Shi~Jinghe (Jing) Xian~Wenquan (Arixang) Xian',
         'sub_lnames': 'Bole Shi~Jinghe Xian~Wenquan Xian',
         'sub_names': '博乐市~精河县~温泉县',
         'sub_zipexs': '833400~833300~833500',
@@ -45091,8 +36424,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Hami Diqu',
         'name': '哈密地区',
         'sub_keys': '巴里坤哈萨克自治县~哈密市~伊吾县',
-        'sub_lfnames':
-            'Barkol Kazak Zizhixian~Hami (Kumul) Shi~Yiwu (Aratürük) Xian',
+        'sub_lfnames': 'Barkol Kazak Zizhixian~Hami (Kumul) Shi~Yiwu (Aratürük) Xian',
         'sub_lnames': 'Barkol Xian~Hami Shi~Yiwu Xian',
         'sub_names': '巴里坤县~哈密市~伊吾县',
         'sub_zipexs': '839200~839000~839300',
@@ -45132,8 +36464,7 @@ Map<String, Map<String, String>> get allJson => {
         'lfname': 'Kashi (Kaxgar) Diqu',
         'lname': 'Kashi Diqu',
         'name': '喀什地区',
-        'sub_keys':
-            '巴楚县~伽师县~喀什市~麦盖提县~莎车县~疏附县~疏勒县~塔什库尔干塔吉克自治县~叶城县~英吉沙县~岳普湖县~泽普县',
+        'sub_keys': '巴楚县~伽师县~喀什市~麦盖提县~莎车县~疏附县~疏勒县~塔什库尔干塔吉克自治县~叶城县~英吉沙县~岳普湖县~泽普县',
         'sub_lfnames':
             'Bachu (Maralbexi) Xian~Jiashi (Payzawat) Xian~Kashi (Kaxgar) Shi~~Shache (Yarkant) Xian~~~Taxkorgan Tajik Zizhixian~Yecheng (Kargilik) Xian~~~Zepu (Poskam) Xian',
         'sub_lnames':
@@ -45343,8 +36674,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Bohu Xian~Hejing Xian~Hoxud Xian~Korla Shi~Luntai Xian~Qiemo Xian~Ruoqiang Xian~Yuli Xian~Yanqi Xian',
         'sub_names': '博湖县~和静县~和硕县~库尔勒市~轮台县~且末县~若羌县~尉犁县~焉耆县',
-        'sub_zipexs':
-            '841400~841300~841200~841000~841600~841900~841800~841500~841100',
+        'sub_zipexs': '841400~841300~841200~841000~841600~841900~841800~841500~841100',
         'zipex': '841000'
       },
       'CN/新疆维吾尔自治区/巴音郭楞蒙古自治州/且末县': {
@@ -45517,8 +36847,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Aksu Shi~Awat Xian~Baicheng Xian~Kalpin Xian~Kuqa Xian~Xayar Xian~Wensu Xian~Wushi Xian~Xinhe Xian',
         'sub_names': '阿克苏市~阿瓦提县~拜城县~柯坪县~库车县~沙雅县~温宿县~乌什县~新和县',
-        'sub_zipexs':
-            '843000~843200~842300~843600~842000~842200~843100~843400~842100',
+        'sub_zipexs': '843000~843200~842300~843600~842000~842200~843100~843400~842100',
         'zipex': '843000'
       },
       'CN/新疆维吾尔自治区/阿克苏地区/乌什县': {
@@ -45689,8 +37018,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_keys': '常州市~淮安市~连云港市~南京市~南通市~苏州市~宿迁市~泰州市~无锡市~徐州市~盐城市~扬州市~镇江市',
         'sub_lnames':
             "Changzhou Shi~Huai'an Shi~Lianyungang Shi~Nanjing Shi~Nantong Shi~Suzhou Shi~Suqian Shi~Taizhou Shi~Wuxi Shi~Xuzhou Shi~Yancheng Shi~Yangzhou Shi~Zhenjiang Shi",
-        'sub_mores':
-            'true~true~true~true~true~true~true~true~true~true~true~true~true',
+        'sub_mores': 'true~true~true~true~true~true~true~true~true~true~true~true~true',
         'sub_names': '常州市~淮安市~连云港市~南京市~南通市~苏州市~宿迁市~泰州市~无锡市~徐州市~盐城市~扬州市~镇江市',
         'sub_zipexs':
             '213003~223001~222002~210008~226001~215002~223800~225300~214001~221003~224005~225002~212001'
@@ -46176,8 +37504,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             "Beitang Qu~Binhu Qu~Chong'an Qu~Huishan Qu~Jiangyin Shi~Liangxi Qu~Nanchang Qu~Xishan Qu~Xinwu Qu~Yixing Shi",
         'sub_names': '北塘区~滨湖区~崇安区~惠山区~江阴市~梁溪区~南长区~锡山区~新吴区~宜兴市',
-        'sub_zipexs':
-            '214044~214062~214002~214187~214400~~214021~214101~~214200',
+        'sub_zipexs': '214044~214062~214002~214187~214400~~214021~214101~~214200',
         'zipex': '214001'
       },
       'CN/江苏省/无锡市/北塘区': {
@@ -46406,8 +37733,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Binhai Xian~Dafeng Shi~Dongtai Shi~Funing Xian~Jianhu Xian~Sheyang Xian~Tinghu Qu~Xiangshui Xian~Yandu Qu',
         'sub_names': '滨海县~大丰市~东台市~阜宁县~建湖县~射阳县~亭湖区~响水县~盐都区',
-        'sub_zipexs':
-            '224500~224100~224200~224400~224700~224300~224005~224600~224055',
+        'sub_zipexs': '224500~224100~224200~224400~224700~224300~224005~224600~224055',
         'zipex': '224005'
       },
       'CN/江苏省/盐城市/东台市': {
@@ -46492,8 +37818,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Changshu Shi~Gusu Qu~Huqiu Qu~Kunshan Shi~Taicang Shi~Wujiang Qu~Wuzhong Qu~Xiangcheng Qu~Zhangjiagang Shi',
         'sub_names': '常熟市~姑苏区~虎丘区~昆山市~太仓市~吴江区~吴中区~相城区~张家港市',
-        'sub_zipexs':
-            '215500~215000~215004~215300~215400~215200~215128~215131~215600',
+        'sub_zipexs': '215500~215000~215004~215300~215400~215200~215128~215131~215600',
         'zipex': '215002'
       },
       'CN/江苏省/苏州市/吴中区': {
@@ -46943,8 +38268,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Anyi Xian~Donghu Qu~Jinxian Xian~Nanchang Xian~Qingshanhu Qu~Qingyunpu Qu~Wanli Qu~Xihu Qu~Xinjian Xian',
         'sub_names': '安义县~东湖区~进贤县~南昌县~青山湖区~青云谱区~湾里区~西湖区~新建县',
-        'sub_zipexs':
-            '330500~330006~331700~330200~330006~330001~330004~330009~330100',
+        'sub_zipexs': '330500~330006~331700~330200~330006~330001~330004~330009~330100',
         'zipex': '330008'
       },
       'CN/江西省/南昌市/东湖区': {
@@ -47412,8 +38736,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Pingxiang Shi',
         'name': '萍乡市',
         'sub_keys': '安源区~莲花县~芦溪县~上栗县~湘东区',
-        'sub_lnames':
-            'Anyuan Qu~Lianhua Xian~Luxi Xian~Shangli Xian~Xiangdong Qu',
+        'sub_lnames': 'Anyuan Qu~Lianhua Xian~Luxi Xian~Shangli Xian~Xiangdong Qu',
         'sub_names': '安源区~莲花县~芦溪县~上栗县~湘东区',
         'sub_zipexs': '337035~337100~337253~337300~337016',
         'zipex': '337002'
@@ -48113,8 +39436,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Zhangjiakou Shi',
         'name': '张家口市',
-        'sub_keys':
-            '赤城县~崇礼县~沽源县~怀安县~怀来县~康保县~桥东区~桥西区~尚义县~万全县~蔚县~下花园区~宣化区~宣化县~阳原县~张北县~涿鹿县',
+        'sub_keys': '赤城县~崇礼县~沽源县~怀安县~怀来县~康保县~桥东区~桥西区~尚义县~万全县~蔚县~下花园区~宣化区~宣化县~阳原县~张北县~涿鹿县',
         'sub_lnames':
             "Chicheng Xian~Chongli Xian~Guyuan Xian~Huai'an Xian~Huailai Xian~Kangbao Xian~Qiaodong Qu~Qiaoxi Qu~Shangyi Xian~Wanquan Xian~Yu Xian~Xiahuayuan Qu~Xuanhua Qu~Xuanhua Xian~Yangyuan Xian~Zhangbei Xian~Zhuolu Xian",
         'sub_names':
@@ -48265,8 +39587,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Chengde Shi',
         'name': '承德市',
-        'sub_keys':
-            '承德县~丰宁满族自治县~宽城满族自治县~隆化县~滦平县~平泉县~双滦区~双桥区~围场满族蒙古族自治县~兴隆县~鹰手营子矿区',
+        'sub_keys': '承德县~丰宁满族自治县~宽城满族自治县~隆化县~滦平县~平泉县~双滦区~双桥区~围场满族蒙古族自治县~兴隆县~鹰手营子矿区',
         'sub_lfnames':
             '~Fengning Manzu Zizhixian~Kuancheng Manzu Zizhixian~~~~~~Weichang Manzu Mongolzu Zizhixian~~',
         'sub_lnames':
@@ -48373,13 +39694,11 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Cangzhou Shi',
         'name': '沧州市',
-        'sub_keys':
-            '沧县~东光县~海兴县~河间市~黄骅市~孟村回族自治县~南皮县~泊头市~青县~任丘市~肃宁县~吴桥县~献县~新华区~盐山县~运河区',
+        'sub_keys': '沧县~东光县~海兴县~河间市~黄骅市~孟村回族自治县~南皮县~泊头市~青县~任丘市~肃宁县~吴桥县~献县~新华区~盐山县~运河区',
         'sub_lfnames': '~~~~~Mengcun Huizu Zizhixian~~~~~~~~~~',
         'sub_lnames':
             'Cang Xian~Dongguang Xian~Haixing Xian~Hejian Shi~Huanghua Shi~Mengcun Xian~Nanpi Xian~Botou Shi~Qing Xian~Renqiu Shi~Suning Xian~Wuqiao Xian~Xian Xian~Xinhua Qu~Yanshan Xian~Yunhe Qu',
-        'sub_names':
-            '沧县~东光县~海兴县~河间市~黄骅市~孟村县~南皮县~泊头市~青县~任丘市~肃宁县~吴桥县~献县~新华区~盐山县~运河区',
+        'sub_names': '沧县~东光县~海兴县~河间市~黄骅市~孟村县~南皮县~泊头市~青县~任丘市~肃宁县~吴桥县~献县~新华区~盐山县~运河区',
         'sub_zipexs':
             '061000~061600~061200~062450~061100~061400~061500~062150~062650~062550~062350~061800~062250~061000~061300~061000',
         'zipex': '061001'
@@ -49239,8 +40558,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Sanmenxia Shi',
         'name': '三门峡市',
         'sub_keys': '湖滨区~灵宝市~卢氏县~渑池县~陕县~义马市',
-        'sub_lnames':
-            'Hubin Qu~Lingbao Shi~Lushi Xian~Mianchi Xian~Shan Xian~Yima Shi',
+        'sub_lnames': 'Hubin Qu~Lingbao Shi~Lushi Xian~Mianchi Xian~Shan Xian~Yima Shi',
         'sub_names': '湖滨区~灵宝市~卢氏县~渑池县~陕县~义马市',
         'sub_zipexs': '472000~472500~472200~472400~472100~472300',
         'zipex': '472000'
@@ -49609,8 +40927,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Liangyuan Qu~Minquan Xian~Ningling Xian~Sui Xian~Suiyang Qu~Xiayi Xian~Yongcheng Shi~Yucheng Xian~Zhecheng Xian',
         'sub_names': '梁园区~民权县~宁陵县~睢县~睢阳区~夏邑县~永城市~虞城县~柘城县',
-        'sub_zipexs':
-            '476000~476600~476700~476900~476100~476400~456550~476100~476200',
+        'sub_zipexs': '476000~476600~476700~476900~476100~476400~456550~476100~476200',
         'zipex': '476000'
       },
       'CN/河南省/商丘市/夏邑县': {
@@ -49695,8 +41012,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             "Anyang Xian~Beiguan Qu~Hua Xian~Linzhou Shi~Long'an Qu~Neihuang Xian~Tangyin Xian~Wenfeng Qu~Yindou Qu",
         'sub_names': '安阳县~北关区~滑县~林州市~龙安区~内黄县~汤阴县~文峰区~殷都区',
-        'sub_zipexs':
-            '455000~455001~456400~456550~455001~456350~456150~455000~455004',
+        'sub_zipexs': '455000~455001~456400~456550~455001~456350~456150~455000~455004',
         'zipex': '455000'
       },
       'CN/河南省/安阳市/内黄县': {
@@ -50075,12 +41391,10 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Luoyang Shi',
         'name': '洛阳市',
-        'sub_keys':
-            '瀍河回族区~吉利区~涧西区~老城区~栾川县~洛龙区~洛宁县~孟津县~汝阳县~嵩县~西工区~新安县~偃师市~伊川县~宜阳县',
+        'sub_keys': '瀍河回族区~吉利区~涧西区~老城区~栾川县~洛龙区~洛宁县~孟津县~汝阳县~嵩县~西工区~新安县~偃师市~伊川县~宜阳县',
         'sub_lnames':
             "Chanhe Huizu Qu~Jili Qu~Jianxi Qu~Laocheng Qu~Luanchuan Xian~Luolong Qu~Luoning Xian~Mengjin Xian~Ruyang Xian~Song Xian~Xigong Qu~Xin'an Xian~Yanshi Shi~Yichuan Xian~Yiyang Xian",
-        'sub_names':
-            '瀍河回族区~吉利区~涧西区~老城区~栾川县~洛龙区~洛宁县~孟津县~汝阳县~嵩县~西工区~新安县~偃师市~伊川县~宜阳县',
+        'sub_names': '瀍河回族区~吉利区~涧西区~老城区~栾川县~洛龙区~洛宁县~孟津县~汝阳县~嵩县~西工区~新安县~偃师市~伊川县~宜阳县',
         'sub_zipexs':
             '471002~471012~471003~471002~471500~471000~471700~471100~471200~471400~471000~471800~471900~471300~471600',
         'zipex': '471000'
@@ -50212,8 +41526,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Luohe Shi',
         'name': '漯河市',
         'sub_keys': '临颍县~舞阳县~郾城区~源汇区~召陵区',
-        'sub_lnames':
-            'Linying Xian~Wuyang Xian~Yancheng Qu~Yuanhui Qu~Zhaoling Qu',
+        'sub_lnames': 'Linying Xian~Wuyang Xian~Yancheng Qu~Yuanhui Qu~Zhaoling Qu',
         'sub_names': '临颍县~舞阳县~郾城区~源汇区~召陵区',
         'sub_zipexs': '462600~462400~462300~462000~462300',
         'zipex': '462000'
@@ -50764,8 +42077,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Jinyun Xian~Jingning Xian~Liandu Qu~Longquan Shi~Qingtian Xian~Qingyuan Xian~Songyang Xian~Suichang Xian~Yunhe Xian',
         'sub_names': '缙云县~景宁县~莲都区~龙泉市~青田县~庆元县~松阳县~遂昌县~云和县',
-        'sub_zipexs':
-            '321400~323500~323000~323700~323900~323800~323400~323300~323600',
+        'sub_zipexs': '321400~323500~323000~323700~323900~323800~323400~323300~323600',
         'zipex': '323000'
       },
       'CN/浙江省/丽水市/云和县': {
@@ -50851,8 +42163,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Huangyan Qu~Jiaojiang Qu~Linhai Shi~Luqiao Qu~Sanmen Xian~Tiantai Xian~Wenling Shi~Xianju Xian~Yuhuan Xian',
         'sub_names': '黄岩区~椒江区~临海市~路桥区~三门县~天台县~温岭市~仙居县~玉环县',
-        'sub_zipexs':
-            '318020~318000~317000~318050~317100~317200~317500~317300~317600',
+        'sub_zipexs': '318020~318000~317000~318050~317100~317200~317500~317300~317600',
         'zipex': '318000'
       },
       'CN/浙江省/台州市/三门县': {
@@ -51325,8 +42636,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Huzhou Shi',
         'name': '湖州市',
         'sub_keys': '安吉县~德清县~南浔区~吴兴区~长兴县',
-        'sub_lnames':
-            'Anji Xian~Deqing Xian~Nanxun Qu~Wuxing Qu~Changxing Xian',
+        'sub_lnames': 'Anji Xian~Deqing Xian~Nanxun Qu~Wuxing Qu~Changxing Xian',
         'sub_names': '安吉县~德清县~南浔区~吴兴区~长兴县',
         'sub_zipexs': '313300~313200~313009~313000~313100',
         'zipex': '313000'
@@ -51547,8 +42857,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             "Dongyang Shi~Jindong Qu~Lanxi Shi~Pan'an Xian~Pujiang Xian~Wuyi Xian~Wucheng Qu~Yiwu Shi~Yongkang Shi",
         'sub_names': '东阳市~金东区~兰溪市~磐安县~浦江县~武义县~婺城区~义乌市~永康市',
-        'sub_zipexs':
-            '322100~321000~321100~322300~322200~321200~321000~322000~321300',
+        'sub_zipexs': '322100~321000~321100~322300~322200~321200~321000~322000~321300',
         'zipex': '321000'
       },
       'CN/浙江省/金华市/东阳市': {
@@ -52111,10 +43420,8 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Yichang Shi',
         'name': '宜昌市',
-        'sub_keys':
-            '当阳市~点军区~五峰土家族自治县~伍家岗区~西陵区~猇亭区~兴山县~夷陵区~宜都市~远安县~长阳土家族自治县~枝江市~秭归县',
-        'sub_lfnames':
-            '~~Wufeng Tujiazu Zizhixian~~~~~~~~Changyang Tujiazu Zizhixian~~',
+        'sub_keys': '当阳市~点军区~五峰土家族自治县~伍家岗区~西陵区~猇亭区~兴山县~夷陵区~宜都市~远安县~长阳土家族自治县~枝江市~秭归县',
+        'sub_lfnames': '~~Wufeng Tujiazu Zizhixian~~~~~~~~Changyang Tujiazu Zizhixian~~',
         'sub_lnames':
             "Dangyang Shi~Dianjun Qu~Wufeng Xian~Wujiagang Qu~Xiling Qu~Xiaoting Qu~Xingshan Xian~Yiling Qu~Yidu Shi~Yuan'an Xian~Changyang Xian~Zhijiang Shi~Zigui Xian",
         'sub_names': '当阳市~点军区~五峰县~伍家岗区~西陵区~猇亭区~兴山县~夷陵区~宜都市~远安县~长阳县~枝江市~秭归县',
@@ -52524,8 +43831,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Jingmen Shi',
         'name': '荆门市',
         'sub_keys': '东宝区~掇刀区~京山县~沙洋县~钟祥市',
-        'sub_lnames':
-            'Dongbao Qu~Duodao Qu~Jingshan Xian~Shayang Xian~Zhongxiang Shi',
+        'sub_lnames': 'Dongbao Qu~Duodao Qu~Jingshan Xian~Shayang Xian~Zhongxiang Shi',
         'sub_names': '东宝区~掇刀区~京山县~沙洋县~钟祥市',
         'sub_zipexs': '448004~448004~431800~448200~431900',
         'zipex': '448000'
@@ -52580,8 +43886,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Baokang Xian~Fancheng Qu~Gucheng Xian~Laohekou Shi~Nanzhang Xian~Xiangcheng Qu~Xiangzhou Qu~Yicheng Shi~Zaoyang Shi',
         'sub_names': '保康县~樊城区~谷城县~老河口市~南漳县~襄城区~襄州区~宜城市~枣阳市',
-        'sub_zipexs':
-            '441600~441001~441700~441800~441500~441021~441100~441400~441200',
+        'sub_zipexs': '441600~441001~441700~441800~441500~441021~441100~441400~441200',
         'zipex': '441021'
       },
       'CN/湖北省/襄阳市/保康县': {
@@ -52882,8 +44187,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Hunan Sheng',
         'name': '湖南省',
-        'sub_keys':
-            '常德市~郴州市~衡阳市~怀化市~娄底市~邵阳市~湘潭市~湘西土家族苗族自治州~益阳市~永州市~岳阳市~张家界市~长沙市~株洲市',
+        'sub_keys': '常德市~郴州市~衡阳市~怀化市~娄底市~邵阳市~湘潭市~湘西土家族苗族自治州~益阳市~永州市~岳阳市~张家界市~长沙市~株洲市',
         'sub_lfnames': '~~~~~~~Xiangxi Tujiazu Miaozu Zizhizhou~~~~~~',
         'sub_lnames':
             'Changde Shi~Chenzhou Shi~Hengyang Shi~Huaihua Shi~Loudi Shi~Shaoyang Shi~Xiangtan Shi~Xiangxi Zhou~Yiyang Shi~Yongzhou Shi~Yueyang Shi~Zhangjiajie Shi~Changsha Shi~Zhuzhou Shi',
@@ -52956,8 +44260,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Huarong Xian~Junshan Qu~Linxiang Shi~Miluo Shi~Pingjiang Xian~Xiangyin Xian~Yueyanglou Qu~Yueyang Xian~Yunxi Qu',
         'sub_names': '华容县~君山区~临湘市~汨罗市~平江县~湘阴县~岳阳楼区~岳阳县~云溪区',
-        'sub_zipexs':
-            '414200~414005~414300~414400~410400~410500~414000~414100~414003',
+        'sub_zipexs': '414200~414005~414300~414400~410400~410500~414000~414100~414003',
         'zipex': '414000'
       },
       'CN/湖南省/岳阳市/临湘市': {
@@ -53042,8 +44345,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Anxiang Xian~Dingcheng Qu~Hanshou Xian~Jinshi Shi~Li Xian~Linli Xian~Shimen Xian~Taoyuan Xian~Wuling Qu',
         'sub_names': '安乡县~鼎城区~汉寿县~津市市~澧县~临澧县~石门县~桃源县~武陵区',
-        'sub_zipexs':
-            '415600~415100~415900~415400~415500~415200~415300~415700~415000',
+        'sub_zipexs': '415600~415100~415900~415400~415500~415200~415300~415700~415000',
         'zipex': '415000'
       },
       'CN/湖南省/常德市/临澧县': {
@@ -53290,8 +44592,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Chaling Xian~Hetang Qu~Liling Shi~Lusong Qu~Shifeng Qu~Tianyuan Qu~Yanling Xian~You Xian~Zhuzhou Xian',
         'sub_names': '茶陵县~荷塘区~醴陵市~芦淞区~石峰区~天元区~炎陵县~攸县~株洲县',
-        'sub_zipexs':
-            '412400~412000~412200~412000~412005~412000~412500~412300~412100',
+        'sub_zipexs': '412400~412000~412200~412000~412005~412000~412500~412300~412100',
         'zipex': '412000'
       },
       'CN/湖南省/株洲市/天元区': {
@@ -53477,8 +44778,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Xiangtan Shi',
         'name': '湘潭市',
         'sub_keys': '韶山市~湘潭县~湘乡市~雨湖区~岳塘区',
-        'sub_lnames':
-            'Shaoshan Shi~Xiangtan Xian~Xiangxiang Shi~Yuhu Qu~Yuetang Qu',
+        'sub_lnames': 'Shaoshan Shi~Xiangtan Xian~Xiangxiang Shi~Yuhu Qu~Yuetang Qu',
         'sub_names': '韶山市~湘潭县~湘乡市~雨湖区~岳塘区',
         'sub_zipexs': '411300~411200~411400~411100~411101',
         'zipex': '411100'
@@ -53996,8 +45296,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Furong Qu~Kaifu Qu~Liuyang Shi~Ningxiang Xian~Tianxin Qu~Wangcheng Qu~Yuhua Qu~Yuelu Qu~Changsha Xian',
         'sub_names': '芙蓉区~开福区~浏阳市~宁乡县~天心区~望城区~雨花区~岳麓区~长沙县',
-        'sub_zipexs':
-            '410011~410005~410300~410600~410002~410200~410007~410006~410100',
+        'sub_zipexs': '410011~410005~410300~410600~410002~410200~410007~410006~410100',
         'zipex': '410005'
       },
       'CN/湖南省/长沙市/天心区': {
@@ -54099,10 +45398,8 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Gansu Sheng',
         'name': '甘肃省',
-        'sub_keys':
-            '白银市~定西市~甘南藏族自治州~嘉峪关市~金昌市~酒泉市~兰州市~临夏回族自治州~陇南市~平凉市~庆阳市~天水市~武威市~张掖市',
-        'sub_lfnames':
-            '~~Gannan Zangzu Zizhizhou~~~~~Linxia Huizu Zizhizhou~~~~~~',
+        'sub_keys': '白银市~定西市~甘南藏族自治州~嘉峪关市~金昌市~酒泉市~兰州市~临夏回族自治州~陇南市~平凉市~庆阳市~天水市~武威市~张掖市',
+        'sub_lfnames': '~~Gannan Zangzu Zizhizhou~~~~~Linxia Huizu Zizhizhou~~~~~~',
         'sub_lnames':
             'Baiyin Shi~Dingxi Shi~Gannan Zhou~Jiayuguan Shi~Jinchang Shi~Jiuquan Shi~Lanzhou Shi~Linxia Zhou~Longnan Shi~Pingliang Shi~Qingyang Shi~Tianshui Shi~Wuwei Shi~Zhangye Shi',
         'sub_mores':
@@ -54758,8 +46055,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Baiyin Shi',
         'name': '白银市',
         'sub_keys': '白银区~会宁县~景泰县~靖远县~平川区',
-        'sub_lnames':
-            'Baiyin Qu~Huining Xian~Jingtai Xian~Jingyuan Xian~Pingchuan Qu',
+        'sub_lnames': 'Baiyin Qu~Huining Xian~Jingtai Xian~Jingyuan Xian~Pingchuan Qu',
         'sub_names': '白银区~会宁县~景泰县~靖远县~平川区',
         'sub_zipexs': '730900~730700~730400~730600~730913',
         'zipex': '730900'
@@ -54914,8 +46210,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Cheng Xian~Tanchang Xian~Hui Xian~Kang Xian~Li Xian~Liangdang Xian~Wen Xian~Wudu Qu~Xihe Xian',
         'sub_names': '成县~宕昌县~徽县~康县~礼县~两当县~文县~武都区~西和县',
-        'sub_zipexs':
-            '742500~748500~742300~746500~742200~742400~746400~746000~742100',
+        'sub_zipexs': '742500~748500~742300~746500~742200~742400~746400~746000~742100',
         'zipex': '742500'
       },
       'CN/甘肃省/陇南市/两当县': {
@@ -55002,8 +46297,7 @@ Map<String, Map<String, String>> get allJson => {
             'Fuzhou Shi~Longyan Shi~Nanping Shi~Ningde Shi~Putian Shi~Quanzhou Shi~Sanming Shi~Xiamen Shi~Zhangzhou Shi',
         'sub_mores': 'true~true~true~true~true~true~true~true~true',
         'sub_names': '福州市~龙岩市~南平市~宁德市~莆田市~泉州市~三明市~厦门市~漳州市',
-        'sub_zipexs':
-            '350001~364000~353000~352100~351100~362000~365000~361012~363000'
+        'sub_zipexs': '350001~364000~353000~352100~351100~362000~365000~361012~363000'
       },
       'CN/福建省/三明市': {
         'id': 'data/CN/福建省/三明市',
@@ -55216,8 +46510,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Xiamen Shi',
         'name': '厦门市',
         'sub_keys': '海沧区~湖里区~集美区~思明区~同安区~翔安区',
-        'sub_lnames':
-            "Haicang Qu~Huli Qu~Jimei Qu~Siming Qu~Tong'an Qu~Xiang'an Qu",
+        'sub_lnames': "Haicang Qu~Huli Qu~Jimei Qu~Siming Qu~Tong'an Qu~Xiang'an Qu",
         'sub_names': '海沧区~湖里区~集美区~思明区~同安区~翔安区',
         'sub_zipexs': '361022~361006~361021~361001~361100~361003',
         'zipex': '361012'
@@ -55280,8 +46573,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             "Fu'an Shi~Fuding Shi~Gutian Xian~Jiaocheng Qu~Pingnan Xian~Shouning Xian~Xiapu Xian~Zherong Xian~Zhouning Xian",
         'sub_names': '福安市~福鼎市~古田县~蕉城区~屏南县~寿宁县~霞浦县~柘荣县~周宁县',
-        'sub_zipexs':
-            '355000~355200~352200~352100~352300~355500~355100~355300~355400',
+        'sub_zipexs': '355000~355200~352200~352100~352300~355500~355100~355300~355400',
         'zipex': '352100'
       },
       'CN/福建省/宁德市/古田县': {
@@ -55692,8 +46984,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Putian Shi',
         'name': '莆田市',
         'sub_keys': '城厢区~涵江区~荔城区~仙游县~秀屿区',
-        'sub_lnames':
-            'Chengxiang Qu~Hanjiang Qu~Licheng Qu~Xianyou Xian~Xiuyu Qu',
+        'sub_lnames': 'Chengxiang Qu~Hanjiang Qu~Licheng Qu~Xianyou Xian~Xiuyu Qu',
         'sub_names': '城厢区~涵江区~荔城区~仙游县~秀屿区',
         'sub_zipexs': '351100~351111~351100~351200~351152',
         'zipex': '351100'
@@ -56515,16 +47806,14 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Guizhou Sheng',
         'name': '贵州省',
-        'sub_keys':
-            '安顺市~毕节地区~贵阳市~六盘水市~黔东南苗族侗族自治州~黔南布依族苗族自治州~黔西南布依族苗族自治州~铜仁地区~遵义市',
+        'sub_keys': '安顺市~毕节地区~贵阳市~六盘水市~黔东南苗族侗族自治州~黔南布依族苗族自治州~黔西南布依族苗族自治州~铜仁地区~遵义市',
         'sub_lfnames':
             '~~~~Qiandongnan Miaozu Dongzu Zizhizhou~Qiannan Buyeizu Miaozu Zizhizhou~Qianxinan Buyeizu Miaozu Zizhizhou~~',
         'sub_lnames':
             'Anshun Shi~Bijie Diqu~Guiyang Shi~Liupanshui Shi~Qiandongnan Zhou~Qiannan Zhou~Qianxinan Zhou~Tongren Diqu~Zunyi Shi',
         'sub_mores': 'true~true~true~true~true~true~true~true~true',
         'sub_names': '安顺市~毕节地区~贵阳市~六盘水市~黔东南州~黔南州~黔西南州~铜仁地区~遵义市',
-        'sub_zipexs':
-            '561000~551700~550003~553001~556000~558000~562400~554300~563000'
+        'sub_zipexs': '561000~551700~550003~553001~556000~558000~562400~554300~563000'
       },
       'CN/贵州省/六盘水市': {
         'id': 'data/CN/贵州省/六盘水市',
@@ -56946,8 +48235,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Tongren Diqu',
         'name': '铜仁地区',
-        'sub_keys':
-            '德江县~江口县~石阡县~思南县~松桃苗族自治县~铜仁市~万山特区~沿河土家族自治县~印江土家族苗族自治县~玉屏侗族自治县',
+        'sub_keys': '德江县~江口县~石阡县~思南县~松桃苗族自治县~铜仁市~万山特区~沿河土家族自治县~印江土家族苗族自治县~玉屏侗族自治县',
         'sub_lfnames':
             '~~~~Songtao Miaozu Zizhixian~~~Yanhe Tujiazu Zizhixian~Yinjiang Tujiazu Miaozu Zizhixian~Yuping Dongzu Zizhixian',
         'sub_lnames':
@@ -57048,12 +48336,10 @@ Map<String, Map<String, String>> get allJson => {
         'lfname': 'Qiandongnan Miaozu Dongzu Zizhizhou',
         'lname': 'Qiandongnan Zhou',
         'name': '黔东南州',
-        'sub_keys':
-            '岑巩县~从江县~丹寨县~黄平县~剑河县~锦屏县~凯里市~雷山县~黎平县~麻江县~榕江县~三穗县~施秉县~台江县~天柱县~镇远县',
+        'sub_keys': '岑巩县~从江县~丹寨县~黄平县~剑河县~锦屏县~凯里市~雷山县~黎平县~麻江县~榕江县~三穗县~施秉县~台江县~天柱县~镇远县',
         'sub_lnames':
             'Cengong Xian~Congjiang Xian~Danzhai Xian~Huangping Xian~Jianhe Xian~Jinping Xian~Kaili Shi~Leishan Xian~Liping Xian~Majiang Xian~Rongjiang Xian~Sansui Xian~Shibing Xian~Taijiang Xian~Tianzhu Xian~Zhenyuan Xian',
-        'sub_names':
-            '岑巩县~从江县~丹寨县~黄平县~剑河县~锦屏县~凯里市~雷山县~黎平县~麻江县~榕江县~三穗县~施秉县~台江县~天柱县~镇远县',
+        'sub_names': '岑巩县~从江县~丹寨县~黄平县~剑河县~锦屏县~凯里市~雷山县~黎平县~麻江县~榕江县~三穗县~施秉县~台江县~天柱县~镇远县',
         'sub_zipexs':
             '557800~557400~557500~556100~556400~556700~556000~557100~557300~557600~557200~556500~556200~556300~556600~557700',
         'zipex': '556000'
@@ -57701,8 +48987,7 @@ Map<String, Map<String, String>> get allJson => {
         'name': '本溪市',
         'sub_keys': '本溪满族自治县~桓仁满族自治县~明山区~南芬区~平山区~溪湖区',
         'sub_lfnames': 'Benxi Manzu Zizhixian~Huanren Manzu Zizhixian~~~~',
-        'sub_lnames':
-            'Benxi Xian~Huanren Xian~Mingshan Qu~Nanfen Qu~Pingshan Qu~Xihu Qu',
+        'sub_lnames': 'Benxi Xian~Huanren Xian~Mingshan Qu~Nanfen Qu~Pingshan Qu~Xihu Qu',
         'sub_names': '本溪县~桓仁县~明山区~南芬区~平山区~溪湖区',
         'sub_zipexs': '117100~117200~117021~117014~117000~117002',
         'zipex': '117000'
@@ -59731,8 +51016,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Qinghai Sheng',
         'name': '青海省',
-        'sub_keys':
-            '果洛藏族自治州~海北藏族自治州~海东市~海南藏族自治州~海西蒙古族藏族自治州~黄南藏族自治州~西宁市~玉树藏族自治州',
+        'sub_keys': '果洛藏族自治州~海北藏族自治州~海东市~海南藏族自治州~海西蒙古族藏族自治州~黄南藏族自治州~西宁市~玉树藏族自治州',
         'sub_lfnames':
             'Golog Zangzu Zizhizhou~Haibei Zangzu Zizhizhou~~Hainan Zangzu Zizhizhou~Haixi Mongolzu Zangzu Zizhizhou~Huangnan Zangzu Zizhizhou~~Yushu Zangzu Zizhizhou',
         'sub_lnames':
@@ -59925,8 +51209,7 @@ Map<String, Map<String, String>> get allJson => {
         'lname': 'Hainan Zhou',
         'name': '海南州',
         'sub_keys': '共和县~贵德县~贵南县~同德县~兴海县',
-        'sub_lnames':
-            'Gonghe Xian~Guide Xian~Guinan Xian~Tongde Xian~Xinghai Xian',
+        'sub_lnames': 'Gonghe Xian~Guide Xian~Guinan Xian~Tongde Xian~Xinghai Xian',
         'sub_names': '共和县~贵德县~贵南县~同德县~兴海县',
         'sub_zipexs': '813000~811700~813100~813200~813300',
         'zipex': '813000'
@@ -60245,14 +51528,11 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh',
         'lname': 'Heilongjiang Sheng',
         'name': '黑龙江省',
-        'sub_keys':
-            '大庆市~大兴安岭地区~哈尔滨市~鹤岗市~黑河市~鸡西市~佳木斯市~牡丹江市~七台河市~齐齐哈尔市~双鸭山市~绥化市~伊春市',
+        'sub_keys': '大庆市~大兴安岭地区~哈尔滨市~鹤岗市~黑河市~鸡西市~佳木斯市~牡丹江市~七台河市~齐齐哈尔市~双鸭山市~绥化市~伊春市',
         'sub_lnames':
             'Daqing Shi~Da Hinggan Ling Diqu~Harbin Shi~Hegang Shi~Heihe Shi~Jixi Shi~Jiamusi Shi~Mudanjiang Shi~Qitaihe Shi~Qiqihar Shi~Shuangyashan Shi~Suihua Shi~Yichun Shi',
-        'sub_mores':
-            'true~true~true~true~true~true~true~true~true~true~true~true~true',
-        'sub_names':
-            '大庆市~大兴安岭地区~哈尔滨市~鹤岗市~黑河市~鸡西市~佳木斯市~牡丹江市~七台河市~齐齐哈尔市~双鸭山市~绥化市~伊春市',
+        'sub_mores': 'true~true~true~true~true~true~true~true~true~true~true~true~true',
+        'sub_names': '大庆市~大兴安岭地区~哈尔滨市~鹤岗市~黑河市~鸡西市~佳木斯市~牡丹江市~七台河市~齐齐哈尔市~双鸭山市~绥化市~伊春市',
         'sub_zipexs':
             '163311~165000~150010~154100~164300~158100~154002~157000~154600~161005~155100~152000~153000'
       },
@@ -60859,8 +52139,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Datong Qu~Dorbod Xian~Honggang Qu~Lindian Xian~Longfeng Qu~Ranghulu Qu~Sairt Qu~Zhaoyuan Xian~Zhaozhou Xian',
         'sub_names': '大同区~杜尔伯特县~红岗区~林甸县~龙凤区~让胡路区~萨尔图区~肇源县~肇州县',
-        'sub_zipexs':
-            '163515~166200~163511~166300~163711~163712~163001~166500~166400',
+        'sub_zipexs': '163515~166200~163511~166300~163711~163712~163001~166500~166400',
         'zipex': '163311'
       },
       'CN/黑龙江省/大庆市/大同区': {
@@ -61134,8 +52413,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_lnames':
             'Chengzihe Qu~Keyao Qu~Hengshan Qu~Hulin Shi~Jidong Xian~Jiguan Qu~Lishu Qu~Mashan Qu~Mishan Shi',
         'sub_names': '城子河区~滴道区~恒山区~虎林市~鸡东县~鸡冠区~梨树区~麻山区~密山市',
-        'sub_zipexs':
-            '158170~158150~158130~158400~158200~158100~158160~158180~158300',
+        'sub_zipexs': '158170~158150~158130~158400~158200~158100~158160~158180~158300',
         'zipex': '158100'
       },
       'CN/黑龙江省/鸡西市/城子河区': {
@@ -61533,12 +52811,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Atlántico',
         'lang': 'es'
       },
-      'CO/Bogotá': {
-        'id': 'data/CO/Bogotá',
-        'isoid': 'DC',
-        'key': 'Bogotá',
-        'lang': 'es'
-      },
+      'CO/Bogotá': {'id': 'data/CO/Bogotá', 'isoid': 'DC', 'key': 'Bogotá', 'lang': 'es'},
       'CO/Bolívar': {
         'id': 'data/CO/Bolívar',
         'isoid': 'BOL',
@@ -61569,24 +52842,9 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Casanare',
         'lang': 'es'
       },
-      'CO/Cauca': {
-        'id': 'data/CO/Cauca',
-        'isoid': 'CAU',
-        'key': 'Cauca',
-        'lang': 'es'
-      },
-      'CO/Cesar': {
-        'id': 'data/CO/Cesar',
-        'isoid': 'CES',
-        'key': 'Cesar',
-        'lang': 'es'
-      },
-      'CO/Chocó': {
-        'id': 'data/CO/Chocó',
-        'isoid': 'CHO',
-        'key': 'Chocó',
-        'lang': 'es'
-      },
+      'CO/Cauca': {'id': 'data/CO/Cauca', 'isoid': 'CAU', 'key': 'Cauca', 'lang': 'es'},
+      'CO/Cesar': {'id': 'data/CO/Cesar', 'isoid': 'CES', 'key': 'Cesar', 'lang': 'es'},
+      'CO/Chocó': {'id': 'data/CO/Chocó', 'isoid': 'CHO', 'key': 'Chocó', 'lang': 'es'},
       'CO/Cundinamarca': {
         'id': 'data/CO/Cundinamarca',
         'isoid': 'CUN',
@@ -61611,12 +52869,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Guaviare',
         'lang': 'es'
       },
-      'CO/Huila': {
-        'id': 'data/CO/Huila',
-        'isoid': 'HUI',
-        'key': 'Huila',
-        'lang': 'es'
-      },
+      'CO/Huila': {'id': 'data/CO/Huila', 'isoid': 'HUI', 'key': 'Huila', 'lang': 'es'},
       'CO/La Guajira': {
         'id': 'data/CO/La Guajira',
         'isoid': 'LAG',
@@ -61629,12 +52882,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Magdalena',
         'lang': 'es'
       },
-      'CO/Meta': {
-        'id': 'data/CO/Meta',
-        'isoid': 'MET',
-        'key': 'Meta',
-        'lang': 'es'
-      },
+      'CO/Meta': {'id': 'data/CO/Meta', 'isoid': 'MET', 'key': 'Meta', 'lang': 'es'},
       'CO/Nariño': {
         'id': 'data/CO/Nariño',
         'isoid': 'NAR',
@@ -61677,12 +52925,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Santander',
         'lang': 'es'
       },
-      'CO/Sucre': {
-        'id': 'data/CO/Sucre',
-        'isoid': 'SUC',
-        'key': 'Sucre',
-        'lang': 'es'
-      },
+      'CO/Sucre': {'id': 'data/CO/Sucre', 'isoid': 'SUC', 'key': 'Sucre', 'lang': 'es'},
       'CO/Tolima': {
         'id': 'data/CO/Tolima',
         'isoid': 'TOL',
@@ -61754,12 +52997,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cienfuegos',
         'lang': 'es'
       },
-      'CU/Granma': {
-        'id': 'data/CU/Granma',
-        'isoid': '12',
-        'key': 'Granma',
-        'lang': 'es'
-      },
+      'CU/Granma': {'id': 'data/CU/Granma', 'isoid': '12', 'key': 'Granma', 'lang': 'es'},
       'CU/Guantánamo': {
         'id': 'data/CU/Guantánamo',
         'isoid': '14',
@@ -61846,40 +53084,13 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Boa Vista',
         'lang': 'pt'
       },
-      'CV/Brava': {
-        'id': 'data/CV/Brava',
-        'isoid': 'BR',
-        'key': 'Brava',
-        'lang': 'pt'
-      },
+      'CV/Brava': {'id': 'data/CV/Brava', 'isoid': 'BR', 'key': 'Brava', 'lang': 'pt'},
       'CV/Fogo': {'id': 'data/CV/Fogo', 'key': 'Fogo', 'lang': 'pt'},
-      'CV/Maio': {
-        'id': 'data/CV/Maio',
-        'isoid': 'MA',
-        'key': 'Maio',
-        'lang': 'pt'
-      },
-      'CV/Sal': {
-        'id': 'data/CV/Sal',
-        'isoid': 'SL',
-        'key': 'Sal',
-        'lang': 'pt'
-      },
-      'CV/Santiago': {
-        'id': 'data/CV/Santiago',
-        'key': 'Santiago',
-        'lang': 'pt'
-      },
-      'CV/Santo Antão': {
-        'id': 'data/CV/Santo Antão',
-        'key': 'Santo Antão',
-        'lang': 'pt'
-      },
-      'CV/São Nicolau': {
-        'id': 'data/CV/São Nicolau',
-        'key': 'São Nicolau',
-        'lang': 'pt'
-      },
+      'CV/Maio': {'id': 'data/CV/Maio', 'isoid': 'MA', 'key': 'Maio', 'lang': 'pt'},
+      'CV/Sal': {'id': 'data/CV/Sal', 'isoid': 'SL', 'key': 'Sal', 'lang': 'pt'},
+      'CV/Santiago': {'id': 'data/CV/Santiago', 'key': 'Santiago', 'lang': 'pt'},
+      'CV/Santo Antão': {'id': 'data/CV/Santo Antão', 'key': 'Santo Antão', 'lang': 'pt'},
+      'CV/São Nicolau': {'id': 'data/CV/São Nicolau', 'key': 'São Nicolau', 'lang': 'pt'},
       'CV/São Vicente': {
         'id': 'data/CV/São Vicente',
         'isoid': 'SV',
@@ -62940,13 +54151,7 @@ Map<String, Map<String, String>> get allJson => {
         'name': 'Huesca',
         'zip': '22'
       },
-      'ES/J': {
-        'id': 'data/ES/J',
-        'key': 'J',
-        'lang': 'es',
-        'name': 'Jaén',
-        'zip': '23'
-      },
+      'ES/J': {'id': 'data/ES/J', 'key': 'J', 'lang': 'es', 'name': 'Jaén', 'zip': '23'},
       'ES/J--ca': {
         'id': 'data/ES/J--ca',
         'key': 'J',
@@ -68381,12 +59586,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_isoids': 'N~K',
         'sub_keys': 'Nevis~St. Kitts'
       },
-      'KN/Nevis': {
-        'id': 'data/KN/Nevis',
-        'isoid': 'N',
-        'key': 'Nevis',
-        'lang': 'en'
-      },
+      'KN/Nevis': {'id': 'data/KN/Nevis', 'isoid': 'N', 'key': 'Nevis', 'lang': 'en'},
       'KN/St. Kitts': {
         'id': 'data/KN/St. Kitts',
         'isoid': 'K',
@@ -68402,8 +59602,7 @@ Map<String, Map<String, String>> get allJson => {
         'lfmt': '%N%n%O%n%A%n%C%n%S, %Z',
         'name': 'NORTH KOREA',
         'sub_isoids': '07~13~10~04~02~03~01~08~09~05~06',
-        'sub_keys':
-            '강원도~라선 특별시~량강도~자강도~평안 남도~평안 북도~평양 직할시~함경 남도~함경 북도~황해남도~황해북도',
+        'sub_keys': '강원도~라선 특별시~량강도~자강도~평안 남도~평안 북도~평양 직할시~함경 남도~함경 북도~황해남도~황해북도',
         'sub_lnames':
             'Kangwon~Rason~Ryanggang~Chagang~South Pyongan~North Pyongan~Pyongyang~South Hamgyong~North Hamgyong~South Hwanghae~North Hwanghae'
       },
@@ -69158,8 +60357,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'ko',
         'lname': 'Changwon-si',
         'sub_keys': '마산합포구~마산회원구~성산구~의창구~진해구',
-        'sub_lnames':
-            'Masanhappo-gu~Masanhoewon-gu~Seongsan-gu~Uichang-gu~Jinhae-gu',
+        'sub_lnames': 'Masanhappo-gu~Masanhoewon-gu~Seongsan-gu~Uichang-gu~Jinhae-gu',
         'sub_zips': '51[237]~51[23]~51[457]~51[1-4]~51[5-7]',
         'zip': '51[2-7]'
       },
@@ -69487,8 +60685,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_keys': '남구~달서구~달성군~동구~북구~서구~수성구~중구',
         'sub_lnames':
             'Nam-gu~Dalseo-gu~Dalseong-gun~Dong-gu~Buk-gu~Seo-gu~Suseong-gu~Jung-gu',
-        'sub_zips':
-            '42[45]~42[678]~4(?:29|30)~41[0-2]~41[45]~41[78]~42[0-2]~419',
+        'sub_zips': '42[45]~42[678]~4(?:29|30)~41[0-2]~41[45]~41[78]~42[0-2]~419',
         'zip': '4[123]\\d{2}',
         'zipex': '42456'
       },
@@ -69603,8 +60800,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'ko',
         'lname': 'Busan',
         'name': '부산',
-        'sub_keys':
-            '강서구~금정구~기장군~남구~동구~동래구~부산진구~북구~사상구~사하구~서구~수영구~연제구~영도구~중구~해운대구',
+        'sub_keys': '강서구~금정구~기장군~남구~동구~동래구~부산진구~북구~사상구~사하구~서구~수영구~연제구~영도구~중구~해운대구',
         'sub_lnames':
             'Gangseo-gu~Geumjeong-gu~Gijang-gun~Nam-gu~Dong-gu~Dongnae-gu~Busanjin-gu~Buk-gu~Sasang-gu~Saha-gu~Seo-gu~Suyeong-gu~Yeonje-gu~Yeongdo-gu~Jung-gu~Haeundae-gu',
         'sub_zips':
@@ -70107,8 +61303,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_keys': '강화군~계양구~남구~남동구~동구~부평구~서구~연수구~옹진군~중구',
         'sub_lnames':
             'Ganghwa-gun~Gyeyang-gu~Nam-gu~Namdong-gu~Dong-gu~Bupyeong-gu~Seo-gu~Yeonsu-gu~Ongjin-gun~Jung-gu',
-        'sub_zips':
-            '230~21[01]~22[12]~21[5-7]~225~21[34]~22[6-8]~2(?:19|20)~231~22[34]',
+        'sub_zips': '230~21[01]~22[12]~21[5-7]~225~21[34]~22[6-8]~2(?:19|20)~231~22[34]',
         'zip': '2[1-3]\\d{2}',
         'zipex': '23024'
       },
@@ -70518,8 +61713,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'ko',
         'lname': 'Chungcheongnam-do',
         'name': '충남',
-        'sub_keys':
-            '계룡시~공주시~금산군~논산시~당진시~보령시~부여군~서산시~서천군~아산시~예산군~천안시~청양군~태안군~홍성군',
+        'sub_keys': '계룡시~공주시~금산군~논산시~당진시~보령시~부여군~서산시~서천군~아산시~예산군~천안시~청양군~태안군~홍성군',
         'sub_lnames':
             'Gyeryong-si~Gongju-si~Geumsan-gun~Nonsan-si~Dangjin-si~Boryeong-si~Buyeo-gun~Seosan-si~Seocheon-gun~Asan-si~Yesan-gun~Cheonan-si~Cheongyang-gun~Taean-gun~Hongseong-gun',
         'sub_mores':
@@ -70661,8 +61855,7 @@ Map<String, Map<String, String>> get allJson => {
         'sub_keys': '괴산군~단양군~보은군~영동군~옥천군~음성군~제천시~증평군~진천군~청주시~충주시',
         'sub_lnames':
             'Goesan-gun~Danyang-gun~Boeun-gun~Yeongdong-gun~Okcheon-gun~Eumseong-gun~Jecheon-si~Jeungpyeong-gun~Jincheon-gun~Cheongju-si~Chungju-si',
-        'sub_mores':
-            'false~false~false~false~false~false~false~false~false~true~false',
+        'sub_mores': 'false~false~false~false~false~false~false~false~false~true~false',
         'sub_zips': '280~270~289~291~290~27[67]~27[12]~279~278~28[0-9]~27[3-5]',
         'zip': '2[789]\\d{2}',
         'zipex': '28006'
@@ -70797,11 +61990,7 @@ Map<String, Map<String, String>> get allJson => {
         'zip': 'KY\\d-\\d{4}',
         'zipex': 'KY1-1100,KY1-1702,KY2-2101'
       },
-      'KY/Cayman Brac': {
-        'id': 'data/KY/Cayman Brac',
-        'key': 'Cayman Brac',
-        'lang': 'en'
-      },
+      'KY/Cayman Brac': {'id': 'data/KY/Cayman Brac', 'key': 'Cayman Brac', 'lang': 'en'},
       'KY/Grand Cayman': {
         'id': 'data/KY/Grand Cayman',
         'key': 'Grand Cayman',
@@ -70946,8 +62135,7 @@ Map<String, Map<String, String>> get allJson => {
         'id': 'data/MF',
         'key': 'MF',
         'name': 'SAINT MARTIN',
-        'posturl':
-            'https://www.laposte.fr/particulier/outils/trouver-un-code-postal',
+        'posturl': 'https://www.laposte.fr/particulier/outils/trouver-un-code-postal',
         'require': 'ACZ',
         'upper': 'ACX',
         'zip': '9[78][01]\\d{2}',
@@ -71063,12 +62251,7 @@ Map<String, Map<String, String>> get allJson => {
         'zip': '\\d{5}',
         'zipex': '20026'
       },
-      'MW': {
-        'fmt': '%N%n%O%n%A%n%C %X',
-        'id': 'data/MW',
-        'key': 'MW',
-        'name': 'MALAWI'
-      },
+      'MW': {'fmt': '%N%n%O%n%A%n%C %X', 'id': 'data/MW', 'key': 'MW', 'name': 'MALAWI'},
       'MX': {
         'fmt': '%N%n%O%n%A%n%D%n%Z %C, %S',
         'id': 'data/MX',
@@ -71558,54 +62741,24 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Cidade de Maputo',
         'lang': 'pt'
       },
-      'MZ/Gaza': {
-        'id': 'data/MZ/Gaza',
-        'isoid': 'G',
-        'key': 'Gaza',
-        'lang': 'pt'
-      },
+      'MZ/Gaza': {'id': 'data/MZ/Gaza', 'isoid': 'G', 'key': 'Gaza', 'lang': 'pt'},
       'MZ/Inhambane': {
         'id': 'data/MZ/Inhambane',
         'isoid': 'I',
         'key': 'Inhambane',
         'lang': 'pt'
       },
-      'MZ/Manica': {
-        'id': 'data/MZ/Manica',
-        'isoid': 'B',
-        'key': 'Manica',
-        'lang': 'pt'
-      },
-      'MZ/Maputo': {
-        'id': 'data/MZ/Maputo',
-        'isoid': 'L',
-        'key': 'Maputo',
-        'lang': 'pt'
-      },
+      'MZ/Manica': {'id': 'data/MZ/Manica', 'isoid': 'B', 'key': 'Manica', 'lang': 'pt'},
+      'MZ/Maputo': {'id': 'data/MZ/Maputo', 'isoid': 'L', 'key': 'Maputo', 'lang': 'pt'},
       'MZ/Nampula': {
         'id': 'data/MZ/Nampula',
         'isoid': 'N',
         'key': 'Nampula',
         'lang': 'pt'
       },
-      'MZ/Niassa': {
-        'id': 'data/MZ/Niassa',
-        'isoid': 'A',
-        'key': 'Niassa',
-        'lang': 'pt'
-      },
-      'MZ/Sofala': {
-        'id': 'data/MZ/Sofala',
-        'isoid': 'S',
-        'key': 'Sofala',
-        'lang': 'pt'
-      },
-      'MZ/Tete': {
-        'id': 'data/MZ/Tete',
-        'isoid': 'T',
-        'key': 'Tete',
-        'lang': 'pt'
-      },
+      'MZ/Niassa': {'id': 'data/MZ/Niassa', 'isoid': 'A', 'key': 'Niassa', 'lang': 'pt'},
+      'MZ/Sofala': {'id': 'data/MZ/Sofala', 'isoid': 'S', 'key': 'Sofala', 'lang': 'pt'},
+      'MZ/Tete': {'id': 'data/MZ/Tete', 'isoid': 'T', 'key': 'Tete', 'lang': 'pt'},
       'MZ/Zambezia': {
         'id': 'data/MZ/Zambezia',
         'isoid': 'Q',
@@ -71666,12 +62819,7 @@ Map<String, Map<String, String>> get allJson => {
         'zip': '\\d{6}',
         'zipex': '930283,300001,931104'
       },
-      'NG/Abia': {
-        'id': 'data/NG/Abia',
-        'isoid': 'AB',
-        'key': 'Abia',
-        'lang': 'en'
-      },
+      'NG/Abia': {'id': 'data/NG/Abia', 'isoid': 'AB', 'key': 'Abia', 'lang': 'en'},
       'NG/Adamawa': {
         'id': 'data/NG/Adamawa',
         'isoid': 'AD',
@@ -71690,198 +62838,73 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Anambra',
         'lang': 'en'
       },
-      'NG/Bauchi': {
-        'id': 'data/NG/Bauchi',
-        'isoid': 'BA',
-        'key': 'Bauchi',
-        'lang': 'en'
-      },
+      'NG/Bauchi': {'id': 'data/NG/Bauchi', 'isoid': 'BA', 'key': 'Bauchi', 'lang': 'en'},
       'NG/Bayelsa': {
         'id': 'data/NG/Bayelsa',
         'isoid': 'BY',
         'key': 'Bayelsa',
         'lang': 'en'
       },
-      'NG/Benue': {
-        'id': 'data/NG/Benue',
-        'isoid': 'BE',
-        'key': 'Benue',
-        'lang': 'en'
-      },
-      'NG/Borno': {
-        'id': 'data/NG/Borno',
-        'isoid': 'BO',
-        'key': 'Borno',
-        'lang': 'en'
-      },
+      'NG/Benue': {'id': 'data/NG/Benue', 'isoid': 'BE', 'key': 'Benue', 'lang': 'en'},
+      'NG/Borno': {'id': 'data/NG/Borno', 'isoid': 'BO', 'key': 'Borno', 'lang': 'en'},
       'NG/Cross River': {
         'id': 'data/NG/Cross River',
         'isoid': 'CR',
         'key': 'Cross River',
         'lang': 'en'
       },
-      'NG/Delta': {
-        'id': 'data/NG/Delta',
-        'isoid': 'DE',
-        'key': 'Delta',
-        'lang': 'en'
-      },
-      'NG/Ebonyi': {
-        'id': 'data/NG/Ebonyi',
-        'isoid': 'EB',
-        'key': 'Ebonyi',
-        'lang': 'en'
-      },
-      'NG/Edo': {
-        'id': 'data/NG/Edo',
-        'isoid': 'ED',
-        'key': 'Edo',
-        'lang': 'en'
-      },
-      'NG/Ekiti': {
-        'id': 'data/NG/Ekiti',
-        'isoid': 'EK',
-        'key': 'Ekiti',
-        'lang': 'en'
-      },
-      'NG/Enugu': {
-        'id': 'data/NG/Enugu',
-        'isoid': 'EN',
-        'key': 'Enugu',
-        'lang': 'en'
-      },
+      'NG/Delta': {'id': 'data/NG/Delta', 'isoid': 'DE', 'key': 'Delta', 'lang': 'en'},
+      'NG/Ebonyi': {'id': 'data/NG/Ebonyi', 'isoid': 'EB', 'key': 'Ebonyi', 'lang': 'en'},
+      'NG/Edo': {'id': 'data/NG/Edo', 'isoid': 'ED', 'key': 'Edo', 'lang': 'en'},
+      'NG/Ekiti': {'id': 'data/NG/Ekiti', 'isoid': 'EK', 'key': 'Ekiti', 'lang': 'en'},
+      'NG/Enugu': {'id': 'data/NG/Enugu', 'isoid': 'EN', 'key': 'Enugu', 'lang': 'en'},
       'NG/Federal Capital Territory': {
         'id': 'data/NG/Federal Capital Territory',
         'isoid': 'FC',
         'key': 'Federal Capital Territory',
         'lang': 'en'
       },
-      'NG/Gombe': {
-        'id': 'data/NG/Gombe',
-        'isoid': 'GO',
-        'key': 'Gombe',
-        'lang': 'en'
-      },
-      'NG/Imo': {
-        'id': 'data/NG/Imo',
-        'isoid': 'IM',
-        'key': 'Imo',
-        'lang': 'en'
-      },
-      'NG/Jigawa': {
-        'id': 'data/NG/Jigawa',
-        'isoid': 'JI',
-        'key': 'Jigawa',
-        'lang': 'en'
-      },
-      'NG/Kaduna': {
-        'id': 'data/NG/Kaduna',
-        'isoid': 'KD',
-        'key': 'Kaduna',
-        'lang': 'en'
-      },
-      'NG/Kano': {
-        'id': 'data/NG/Kano',
-        'isoid': 'KN',
-        'key': 'Kano',
-        'lang': 'en'
-      },
+      'NG/Gombe': {'id': 'data/NG/Gombe', 'isoid': 'GO', 'key': 'Gombe', 'lang': 'en'},
+      'NG/Imo': {'id': 'data/NG/Imo', 'isoid': 'IM', 'key': 'Imo', 'lang': 'en'},
+      'NG/Jigawa': {'id': 'data/NG/Jigawa', 'isoid': 'JI', 'key': 'Jigawa', 'lang': 'en'},
+      'NG/Kaduna': {'id': 'data/NG/Kaduna', 'isoid': 'KD', 'key': 'Kaduna', 'lang': 'en'},
+      'NG/Kano': {'id': 'data/NG/Kano', 'isoid': 'KN', 'key': 'Kano', 'lang': 'en'},
       'NG/Katsina': {
         'id': 'data/NG/Katsina',
         'isoid': 'KT',
         'key': 'Katsina',
         'lang': 'en'
       },
-      'NG/Kebbi': {
-        'id': 'data/NG/Kebbi',
-        'isoid': 'KE',
-        'key': 'Kebbi',
-        'lang': 'en'
-      },
-      'NG/Kogi': {
-        'id': 'data/NG/Kogi',
-        'isoid': 'KO',
-        'key': 'Kogi',
-        'lang': 'en'
-      },
-      'NG/Kwara': {
-        'id': 'data/NG/Kwara',
-        'isoid': 'KW',
-        'key': 'Kwara',
-        'lang': 'en'
-      },
-      'NG/Lagos': {
-        'id': 'data/NG/Lagos',
-        'isoid': 'LA',
-        'key': 'Lagos',
-        'lang': 'en'
-      },
+      'NG/Kebbi': {'id': 'data/NG/Kebbi', 'isoid': 'KE', 'key': 'Kebbi', 'lang': 'en'},
+      'NG/Kogi': {'id': 'data/NG/Kogi', 'isoid': 'KO', 'key': 'Kogi', 'lang': 'en'},
+      'NG/Kwara': {'id': 'data/NG/Kwara', 'isoid': 'KW', 'key': 'Kwara', 'lang': 'en'},
+      'NG/Lagos': {'id': 'data/NG/Lagos', 'isoid': 'LA', 'key': 'Lagos', 'lang': 'en'},
       'NG/Nasarawa': {
         'id': 'data/NG/Nasarawa',
         'isoid': 'NA',
         'key': 'Nasarawa',
         'lang': 'en'
       },
-      'NG/Niger': {
-        'id': 'data/NG/Niger',
-        'isoid': 'NI',
-        'key': 'Niger',
-        'lang': 'en'
-      },
+      'NG/Niger': {'id': 'data/NG/Niger', 'isoid': 'NI', 'key': 'Niger', 'lang': 'en'},
       'NG/Ogun State': {
         'id': 'data/NG/Ogun State',
         'isoid': 'OG',
         'key': 'Ogun State',
         'lang': 'en'
       },
-      'NG/Ondo': {
-        'id': 'data/NG/Ondo',
-        'isoid': 'ON',
-        'key': 'Ondo',
-        'lang': 'en'
-      },
-      'NG/Osun': {
-        'id': 'data/NG/Osun',
-        'isoid': 'OS',
-        'key': 'Osun',
-        'lang': 'en'
-      },
-      'NG/Oyo': {
-        'id': 'data/NG/Oyo',
-        'isoid': 'OY',
-        'key': 'Oyo',
-        'lang': 'en'
-      },
+      'NG/Ondo': {'id': 'data/NG/Ondo', 'isoid': 'ON', 'key': 'Ondo', 'lang': 'en'},
+      'NG/Osun': {'id': 'data/NG/Osun', 'isoid': 'OS', 'key': 'Osun', 'lang': 'en'},
+      'NG/Oyo': {'id': 'data/NG/Oyo', 'isoid': 'OY', 'key': 'Oyo', 'lang': 'en'},
       'NG/Plateau': {
         'id': 'data/NG/Plateau',
         'isoid': 'PL',
         'key': 'Plateau',
         'lang': 'en'
       },
-      'NG/Rivers': {
-        'id': 'data/NG/Rivers',
-        'isoid': 'RI',
-        'key': 'Rivers',
-        'lang': 'en'
-      },
-      'NG/Sokoto': {
-        'id': 'data/NG/Sokoto',
-        'isoid': 'SO',
-        'key': 'Sokoto',
-        'lang': 'en'
-      },
-      'NG/Taraba': {
-        'id': 'data/NG/Taraba',
-        'isoid': 'TA',
-        'key': 'Taraba',
-        'lang': 'en'
-      },
-      'NG/Yobe': {
-        'id': 'data/NG/Yobe',
-        'isoid': 'YO',
-        'key': 'Yobe',
-        'lang': 'en'
-      },
+      'NG/Rivers': {'id': 'data/NG/Rivers', 'isoid': 'RI', 'key': 'Rivers', 'lang': 'en'},
+      'NG/Sokoto': {'id': 'data/NG/Sokoto', 'isoid': 'SO', 'key': 'Sokoto', 'lang': 'en'},
+      'NG/Taraba': {'id': 'data/NG/Taraba', 'isoid': 'TA', 'key': 'Taraba', 'lang': 'en'},
+      'NG/Yobe': {'id': 'data/NG/Yobe', 'isoid': 'YO', 'key': 'Yobe', 'lang': 'en'},
       'NG/Zamfara': {
         'id': 'data/NG/Zamfara',
         'isoid': 'ZA',
@@ -72158,8 +63181,7 @@ Map<String, Map<String, String>> get allJson => {
         'id': 'data/NZ',
         'key': 'NZ',
         'name': 'NEW ZEALAND',
-        'posturl':
-            'http://www.nzpost.co.nz/Cultures/en-NZ/OnlineTools/PostCodeFinder/',
+        'posturl': 'http://www.nzpost.co.nz/Cultures/en-NZ/OnlineTools/PostCodeFinder/',
         'require': 'ACZ',
         'zip': '\\d{4}',
         'zipex': '6001,6015,6332,8252,1030'
@@ -72231,12 +63253,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Callao',
         'lang': 'es'
       },
-      'PE/Cuzco': {
-        'id': 'data/PE/Cuzco',
-        'isoid': 'CUS',
-        'key': 'Cuzco',
-        'lang': 'es'
-      },
+      'PE/Cuzco': {'id': 'data/PE/Cuzco', 'isoid': 'CUS', 'key': 'Cuzco', 'lang': 'es'},
       'PE/Gobierno Regional de Lima': {
         'id': 'data/PE/Gobierno Regional de Lima',
         'isoid': 'LIM',
@@ -72255,18 +63272,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Huánuco',
         'lang': 'es'
       },
-      'PE/Ica': {
-        'id': 'data/PE/Ica',
-        'isoid': 'ICA',
-        'key': 'Ica',
-        'lang': 'es'
-      },
-      'PE/Junín': {
-        'id': 'data/PE/Junín',
-        'isoid': 'JUN',
-        'key': 'Junín',
-        'lang': 'es'
-      },
+      'PE/Ica': {'id': 'data/PE/Ica', 'isoid': 'ICA', 'key': 'Ica', 'lang': 'es'},
+      'PE/Junín': {'id': 'data/PE/Junín', 'isoid': 'JUN', 'key': 'Junín', 'lang': 'es'},
       'PE/La Libertad': {
         'id': 'data/PE/La Libertad',
         'isoid': 'LAL',
@@ -72303,36 +63310,16 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Municipalidad Metropolitana de Lima',
         'lang': 'es'
       },
-      'PE/Pasco': {
-        'id': 'data/PE/Pasco',
-        'isoid': 'PAS',
-        'key': 'Pasco',
-        'lang': 'es'
-      },
-      'PE/Piura': {
-        'id': 'data/PE/Piura',
-        'isoid': 'PIU',
-        'key': 'Piura',
-        'lang': 'es'
-      },
-      'PE/Puno': {
-        'id': 'data/PE/Puno',
-        'isoid': 'PUN',
-        'key': 'Puno',
-        'lang': 'es'
-      },
+      'PE/Pasco': {'id': 'data/PE/Pasco', 'isoid': 'PAS', 'key': 'Pasco', 'lang': 'es'},
+      'PE/Piura': {'id': 'data/PE/Piura', 'isoid': 'PIU', 'key': 'Piura', 'lang': 'es'},
+      'PE/Puno': {'id': 'data/PE/Puno', 'isoid': 'PUN', 'key': 'Puno', 'lang': 'es'},
       'PE/San Martín': {
         'id': 'data/PE/San Martín',
         'isoid': 'SAM',
         'key': 'San Martín',
         'lang': 'es'
       },
-      'PE/Tacna': {
-        'id': 'data/PE/Tacna',
-        'isoid': 'TAC',
-        'key': 'Tacna',
-        'lang': 'es'
-      },
+      'PE/Tacna': {'id': 'data/PE/Tacna', 'isoid': 'TAC', 'key': 'Tacna', 'lang': 'es'},
       'PE/Tumbes': {
         'id': 'data/PE/Tumbes',
         'isoid': 'TUM',
@@ -74243,12 +65230,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Nickerie',
         'lang': 'nl'
       },
-      'SR/Para': {
-        'id': 'data/SR/Para',
-        'isoid': 'PR',
-        'key': 'Para',
-        'lang': 'nl'
-      },
+      'SR/Para': {'id': 'data/SR/Para', 'isoid': 'PR', 'key': 'Para', 'lang': 'nl'},
       'SR/Paramaribo': {
         'id': 'data/SR/Paramaribo',
         'isoid': 'PM',
@@ -74267,12 +65249,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Sipaliwini',
         'lang': 'nl'
       },
-      'SR/Wanica': {
-        'id': 'data/SR/Wanica',
-        'isoid': 'WA',
-        'key': 'Wanica',
-        'lang': 'nl'
-      },
+      'SR/Wanica': {'id': 'data/SR/Wanica', 'isoid': 'WA', 'key': 'Wanica', 'lang': 'nl'},
       'SS': {'id': 'data/SS', 'key': 'SS', 'name': 'SOUTH SUDAN'},
       'ST': {'id': 'data/ST', 'key': 'ST', 'name': 'SAO TOME AND PRINCIPE'},
       'SV': {
@@ -74458,11 +65435,7 @@ Map<String, Map<String, String>> get allJson => {
         'zipex': 'TKCA 1ZZ'
       },
       'TD': {'id': 'data/TD', 'key': 'TD', 'name': 'CHAD'},
-      'TF': {
-        'id': 'data/TF',
-        'key': 'TF',
-        'name': 'FRENCH SOUTHERN TERRITORIES'
-      },
+      'TF': {'id': 'data/TF', 'key': 'TF', 'name': 'FRENCH SOUTHERN TERRITORIES'},
       'TG': {'id': 'data/TG', 'key': 'TG', 'name': 'TOGO'},
       'TH': {
         'fmt': '%N%n%O%n%A%n%D %C%n%S %Z',
@@ -75745,23 +66718,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Nanumea',
         'lang': 'tyv'
       },
-      'TV/Niulakita': {
-        'id': 'data/TV/Niulakita',
-        'key': 'Niulakita',
-        'lang': 'tyv'
-      },
+      'TV/Niulakita': {'id': 'data/TV/Niulakita', 'key': 'Niulakita', 'lang': 'tyv'},
       'TV/Niutao': {
         'id': 'data/TV/Niutao',
         'isoid': 'NIT',
         'key': 'Niutao',
         'lang': 'tyv'
       },
-      'TV/Nui': {
-        'id': 'data/TV/Nui',
-        'isoid': 'NUI',
-        'key': 'Nui',
-        'lang': 'tyv'
-      },
+      'TV/Nui': {'id': 'data/TV/Nui', 'isoid': 'NUI', 'key': 'Nui', 'lang': 'tyv'},
       'TV/Nukufetau': {
         'id': 'data/TV/Nukufetau',
         'isoid': 'NKF',
@@ -76507,12 +67471,10 @@ Map<String, Map<String, String>> get allJson => {
         'key': '台東縣',
         'lang': 'zh-Hant',
         'lname': 'Taitung County',
-        'sub_keys':
-            '大武鄉~太麻里鄉~台東市~成功鎮~池上鄉~卑南鄉~延平鄉~東河鄉~金峰鄉~長濱鄉~海端鄉~鹿野鄉~達仁鄉~綠島鄉~關山鎮~蘭嶼鄉',
+        'sub_keys': '大武鄉~太麻里鄉~台東市~成功鎮~池上鄉~卑南鄉~延平鄉~東河鄉~金峰鄉~長濱鄉~海端鄉~鹿野鄉~達仁鄉~綠島鄉~關山鎮~蘭嶼鄉',
         'sub_lnames':
             'Dawu Township~Taimali Township~Taitung City~Chenggong Township~Chishang Township~Beinan Township~Yanping Township~Donghe Township~Jinfeng Township~Changbin Township~Haiduan Township~Luye Township~Daren Township~Lüdao Township~Guanshan Township~Lanyu Township',
-        'sub_zips':
-            '965~963~950~961~958~954~953~959~964~962~957~955~966~951~956~952',
+        'sub_zips': '965~963~950~961~958~954~953~959~964~962~957~955~966~951~956~952',
         'zip': '9[56]',
         'zipex': '950,966'
       },
@@ -78153,8 +69115,7 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'zh-Hant',
         'lname': 'Lienchiang County',
         'sub_keys': '北竿鄉~東引鄉~南竿鄉~莒光鄉',
-        'sub_lnames':
-            'Beigan Township~Dongyin Township~Nangan Township~Juguang Township',
+        'sub_lnames': 'Beigan Township~Dongyin Township~Nangan Township~Juguang Township',
         'sub_zips': '210~212~209~211',
         'zip': '209|21[012]',
         'zipex': '209,212'
@@ -79559,10 +70520,8 @@ Map<String, Map<String, String>> get allJson => {
         'lang': 'es',
         'languages': 'es',
         'name': 'URUGUAY',
-        'posturl':
-            'http://www.correo.com.uy/index.asp?codPag=codPost&switchMapa=codPost',
-        'sub_isoids':
-            'AR~CA~CL~CO~DU~FS~FD~LA~MA~MO~PA~RN~RV~RO~SA~SJ~SO~TA~TT',
+        'posturl': 'http://www.correo.com.uy/index.asp?codPag=codPost&switchMapa=codPost',
+        'sub_isoids': 'AR~CA~CL~CO~DU~FS~FD~LA~MA~MO~PA~RN~RV~RO~SA~SJ~SO~TA~TT',
         'sub_keys':
             'Artigas~Canelones~Cerro Largo~Colonia~Durazno~Flores~Florida~Lavalleja~Maldonado~Montevideo~Paysandú~Río Negro~Rivera~Rocha~Salto~San José~Soriano~Tacuarembó~Treinta y Tres',
         'sub_zips':
@@ -79761,18 +70720,8 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Anzoátegui',
         'lang': 'es'
       },
-      'VE/Apure': {
-        'id': 'data/VE/Apure',
-        'isoid': 'C',
-        'key': 'Apure',
-        'lang': 'es'
-      },
-      'VE/Aragua': {
-        'id': 'data/VE/Aragua',
-        'isoid': 'D',
-        'key': 'Aragua',
-        'lang': 'es'
-      },
+      'VE/Apure': {'id': 'data/VE/Apure', 'isoid': 'C', 'key': 'Apure', 'lang': 'es'},
+      'VE/Aragua': {'id': 'data/VE/Aragua', 'isoid': 'D', 'key': 'Aragua', 'lang': 'es'},
       'VE/Barinas': {
         'id': 'data/VE/Barinas',
         'isoid': 'E',
@@ -79815,24 +70764,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Distrito Federal',
         'lang': 'es'
       },
-      'VE/Falcón': {
-        'id': 'data/VE/Falcón',
-        'isoid': 'I',
-        'key': 'Falcón',
-        'lang': 'es'
-      },
+      'VE/Falcón': {'id': 'data/VE/Falcón', 'isoid': 'I', 'key': 'Falcón', 'lang': 'es'},
       'VE/Guárico': {
         'id': 'data/VE/Guárico',
         'isoid': 'J',
         'key': 'Guárico',
         'lang': 'es'
       },
-      'VE/Lara': {
-        'id': 'data/VE/Lara',
-        'isoid': 'K',
-        'key': 'Lara',
-        'lang': 'es'
-      },
+      'VE/Lara': {'id': 'data/VE/Lara', 'isoid': 'K', 'key': 'Lara', 'lang': 'es'},
       'VE/Miranda': {
         'id': 'data/VE/Miranda',
         'isoid': 'M',
@@ -79845,12 +70784,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Monagas',
         'lang': 'es'
       },
-      'VE/Mérida': {
-        'id': 'data/VE/Mérida',
-        'isoid': 'L',
-        'key': 'Mérida',
-        'lang': 'es'
-      },
+      'VE/Mérida': {'id': 'data/VE/Mérida', 'isoid': 'L', 'key': 'Mérida', 'lang': 'es'},
       'VE/Nueva Esparta': {
         'id': 'data/VE/Nueva Esparta',
         'isoid': 'O',
@@ -79863,12 +70797,7 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Portuguesa',
         'lang': 'es'
       },
-      'VE/Sucre': {
-        'id': 'data/VE/Sucre',
-        'isoid': 'R',
-        'key': 'Sucre',
-        'lang': 'es'
-      },
+      'VE/Sucre': {'id': 'data/VE/Sucre', 'isoid': 'R', 'key': 'Sucre', 'lang': 'es'},
       'VE/Trujillo': {
         'id': 'data/VE/Trujillo',
         'isoid': 'T',
@@ -79881,24 +70810,14 @@ Map<String, Map<String, String>> get allJson => {
         'key': 'Táchira',
         'lang': 'es'
       },
-      'VE/Vargas': {
-        'id': 'data/VE/Vargas',
-        'isoid': 'X',
-        'key': 'Vargas',
-        'lang': 'es'
-      },
+      'VE/Vargas': {'id': 'data/VE/Vargas', 'isoid': 'X', 'key': 'Vargas', 'lang': 'es'},
       'VE/Yaracuy': {
         'id': 'data/VE/Yaracuy',
         'isoid': 'U',
         'key': 'Yaracuy',
         'lang': 'es'
       },
-      'VE/Zulia': {
-        'id': 'data/VE/Zulia',
-        'isoid': 'V',
-        'key': 'Zulia',
-        'lang': 'es'
-      },
+      'VE/Zulia': {'id': 'data/VE/Zulia', 'isoid': 'V', 'key': 'Zulia', 'lang': 'es'},
       'VG': {
         'fmt': '%N%n%O%n%A%n%C%n%Z',
         'id': 'data/VG',

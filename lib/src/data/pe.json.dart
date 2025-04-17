@@ -54,12 +54,7 @@ Map<String, Map<String, String>> get peJson => {
         'key': 'Callao',
         'lang': 'es'
       },
-      'PE/Cuzco': {
-        'id': 'data/PE/Cuzco',
-        'isoid': 'CUS',
-        'key': 'Cuzco',
-        'lang': 'es'
-      },
+      'PE/Cuzco': {'id': 'data/PE/Cuzco', 'isoid': 'CUS', 'key': 'Cuzco', 'lang': 'es'},
       'PE/Gobierno Regional de Lima': {
         'id': 'data/PE/Gobierno Regional de Lima',
         'isoid': 'LIM',
@@ -78,18 +73,8 @@ Map<String, Map<String, String>> get peJson => {
         'key': 'Huánuco',
         'lang': 'es'
       },
-      'PE/Ica': {
-        'id': 'data/PE/Ica',
-        'isoid': 'ICA',
-        'key': 'Ica',
-        'lang': 'es'
-      },
-      'PE/Junín': {
-        'id': 'data/PE/Junín',
-        'isoid': 'JUN',
-        'key': 'Junín',
-        'lang': 'es'
-      },
+      'PE/Ica': {'id': 'data/PE/Ica', 'isoid': 'ICA', 'key': 'Ica', 'lang': 'es'},
+      'PE/Junín': {'id': 'data/PE/Junín', 'isoid': 'JUN', 'key': 'Junín', 'lang': 'es'},
       'PE/La Libertad': {
         'id': 'data/PE/La Libertad',
         'isoid': 'LAL',
@@ -126,36 +111,16 @@ Map<String, Map<String, String>> get peJson => {
         'key': 'Municipalidad Metropolitana de Lima',
         'lang': 'es'
       },
-      'PE/Pasco': {
-        'id': 'data/PE/Pasco',
-        'isoid': 'PAS',
-        'key': 'Pasco',
-        'lang': 'es'
-      },
-      'PE/Piura': {
-        'id': 'data/PE/Piura',
-        'isoid': 'PIU',
-        'key': 'Piura',
-        'lang': 'es'
-      },
-      'PE/Puno': {
-        'id': 'data/PE/Puno',
-        'isoid': 'PUN',
-        'key': 'Puno',
-        'lang': 'es'
-      },
+      'PE/Pasco': {'id': 'data/PE/Pasco', 'isoid': 'PAS', 'key': 'Pasco', 'lang': 'es'},
+      'PE/Piura': {'id': 'data/PE/Piura', 'isoid': 'PIU', 'key': 'Piura', 'lang': 'es'},
+      'PE/Puno': {'id': 'data/PE/Puno', 'isoid': 'PUN', 'key': 'Puno', 'lang': 'es'},
       'PE/San Martín': {
         'id': 'data/PE/San Martín',
         'isoid': 'SAM',
         'key': 'San Martín',
         'lang': 'es'
       },
-      'PE/Tacna': {
-        'id': 'data/PE/Tacna',
-        'isoid': 'TAC',
-        'key': 'Tacna',
-        'lang': 'es'
-      },
+      'PE/Tacna': {'id': 'data/PE/Tacna', 'isoid': 'TAC', 'key': 'Tacna', 'lang': 'es'},
       'PE/Tumbes': {
         'id': 'data/PE/Tumbes',
         'isoid': 'TUM',
@@ -168,10 +133,5 @@ Map<String, Map<String, String>> get peJson => {
         'key': 'Ucayali',
         'lang': 'es'
       },
-      'PE/Áncash': {
-        'id': 'data/PE/Áncash',
-        'isoid': 'ANC',
-        'key': 'Áncash',
-        'lang': 'es'
-      }
+      'PE/Áncash': {'id': 'data/PE/Áncash', 'isoid': 'ANC', 'key': 'Áncash', 'lang': 'es'}
     };

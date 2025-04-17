@@ -98,8 +98,7 @@ void main() {
             () => normalizeAddress(address),
             throwsA(
               predicate((e) =>
-                  e is InvalidAddressError &&
-                  _compareErrors(e.errors, expectedErrors)),
+                  e is InvalidAddressError && _compareErrors(e.errors, expectedErrors)),
             ),
           );
         });
@@ -339,8 +338,7 @@ CHINA''');
 }
 
 // Helper function to compare error maps
-bool _compareErrors(
-    Map<String, dynamic> actual, Map<String, dynamic> expected) {
+bool _compareErrors(Map<String, dynamic> actual, Map<String, dynamic> expected) {
   if (actual.length != expected.length) {
     return false;
   }

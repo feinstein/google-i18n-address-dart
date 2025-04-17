@@ -334,21 +334,13 @@ Map<String, Map<String, String>> get clJson => {
         'sub_keys':
             "Aysén~Chile Chico~Cisnes~Cochrane~Coyhaique~Guaitecas~Lago Verde~O'Higgins~Río Ibáñez~Tortel"
       },
-      'CL/Aysén/Aysén': {
-        'id': 'data/CL/Aysén/Aysén',
-        'key': 'Aysén',
-        'lang': 'es'
-      },
+      'CL/Aysén/Aysén': {'id': 'data/CL/Aysén/Aysén', 'key': 'Aysén', 'lang': 'es'},
       'CL/Aysén/Chile Chico': {
         'id': 'data/CL/Aysén/Chile Chico',
         'key': 'Chile Chico',
         'lang': 'es'
       },
-      'CL/Aysén/Cisnes': {
-        'id': 'data/CL/Aysén/Cisnes',
-        'key': 'Cisnes',
-        'lang': 'es'
-      },
+      'CL/Aysén/Cisnes': {'id': 'data/CL/Aysén/Cisnes', 'key': 'Cisnes', 'lang': 'es'},
       'CL/Aysén/Cochrane': {
         'id': 'data/CL/Aysén/Cochrane',
         'key': 'Cochrane',
@@ -379,11 +371,7 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Río Ibáñez',
         'lang': 'es'
       },
-      'CL/Aysén/Tortel': {
-        'id': 'data/CL/Aysén/Tortel',
-        'key': 'Tortel',
-        'lang': 'es'
-      },
+      'CL/Aysén/Tortel': {'id': 'data/CL/Aysén/Tortel', 'key': 'Tortel', 'lang': 'es'},
       'CL/Biobío': {
         'id': 'data/CL/Biobío',
         'isoid': 'BI',
@@ -398,31 +386,15 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Alto Biobío',
         'lang': 'es'
       },
-      'CL/Biobío/Antuco': {
-        'id': 'data/CL/Biobío/Antuco',
-        'key': 'Antuco',
-        'lang': 'es'
-      },
-      'CL/Biobío/Arauco': {
-        'id': 'data/CL/Biobío/Arauco',
-        'key': 'Arauco',
-        'lang': 'es'
-      },
-      'CL/Biobío/Bulnes': {
-        'id': 'data/CL/Biobío/Bulnes',
-        'key': 'Bulnes',
-        'lang': 'es'
-      },
+      'CL/Biobío/Antuco': {'id': 'data/CL/Biobío/Antuco', 'key': 'Antuco', 'lang': 'es'},
+      'CL/Biobío/Arauco': {'id': 'data/CL/Biobío/Arauco', 'key': 'Arauco', 'lang': 'es'},
+      'CL/Biobío/Bulnes': {'id': 'data/CL/Biobío/Bulnes', 'key': 'Bulnes', 'lang': 'es'},
       'CL/Biobío/Cabrero': {
         'id': 'data/CL/Biobío/Cabrero',
         'key': 'Cabrero',
         'lang': 'es'
       },
-      'CL/Biobío/Cañete': {
-        'id': 'data/CL/Biobío/Cañete',
-        'key': 'Cañete',
-        'lang': 'es'
-      },
+      'CL/Biobío/Cañete': {'id': 'data/CL/Biobío/Cañete', 'key': 'Cañete', 'lang': 'es'},
       'CL/Biobío/Chiguayante': {
         'id': 'data/CL/Biobío/Chiguayante',
         'key': 'Chiguayante',
@@ -493,16 +465,8 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Hualqui',
         'lang': 'es'
       },
-      'CL/Biobío/Laja': {
-        'id': 'data/CL/Biobío/Laja',
-        'key': 'Laja',
-        'lang': 'es'
-      },
-      'CL/Biobío/Lebu': {
-        'id': 'data/CL/Biobío/Lebu',
-        'key': 'Lebu',
-        'lang': 'es'
-      },
+      'CL/Biobío/Laja': {'id': 'data/CL/Biobío/Laja', 'key': 'Laja', 'lang': 'es'},
+      'CL/Biobío/Lebu': {'id': 'data/CL/Biobío/Lebu', 'key': 'Lebu', 'lang': 'es'},
       'CL/Biobío/Los Álamos': {
         'id': 'data/CL/Biobío/Los Álamos',
         'key': 'Los Álamos',
@@ -513,11 +477,7 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Los Ángeles',
         'lang': 'es'
       },
-      'CL/Biobío/Lota': {
-        'id': 'data/CL/Biobío/Lota',
-        'key': 'Lota',
-        'lang': 'es'
-      },
+      'CL/Biobío/Lota': {'id': 'data/CL/Biobío/Lota', 'key': 'Lota', 'lang': 'es'},
       'CL/Biobío/Mulchén': {
         'id': 'data/CL/Biobío/Mulchén',
         'key': 'Mulchén',
@@ -533,26 +493,10 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Negrete',
         'lang': 'es'
       },
-      'CL/Biobío/Ninhue': {
-        'id': 'data/CL/Biobío/Ninhue',
-        'key': 'Ninhue',
-        'lang': 'es'
-      },
-      'CL/Biobío/Pemuco': {
-        'id': 'data/CL/Biobío/Pemuco',
-        'key': 'Pemuco',
-        'lang': 'es'
-      },
-      'CL/Biobío/Penco': {
-        'id': 'data/CL/Biobío/Penco',
-        'key': 'Penco',
-        'lang': 'es'
-      },
-      'CL/Biobío/Pinto': {
-        'id': 'data/CL/Biobío/Pinto',
-        'key': 'Pinto',
-        'lang': 'es'
-      },
+      'CL/Biobío/Ninhue': {'id': 'data/CL/Biobío/Ninhue', 'key': 'Ninhue', 'lang': 'es'},
+      'CL/Biobío/Pemuco': {'id': 'data/CL/Biobío/Pemuco', 'key': 'Pemuco', 'lang': 'es'},
+      'CL/Biobío/Penco': {'id': 'data/CL/Biobío/Penco', 'key': 'Penco', 'lang': 'es'},
+      'CL/Biobío/Pinto': {'id': 'data/CL/Biobío/Pinto', 'key': 'Pinto', 'lang': 'es'},
       'CL/Biobío/Portezuelo': {
         'id': 'data/CL/Biobío/Portezuelo',
         'key': 'Portezuelo',
@@ -628,16 +572,8 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Talcahuano',
         'lang': 'es'
       },
-      'CL/Biobío/Tirúa': {
-        'id': 'data/CL/Biobío/Tirúa',
-        'key': 'Tirúa',
-        'lang': 'es'
-      },
-      'CL/Biobío/Tomé': {
-        'id': 'data/CL/Biobío/Tomé',
-        'key': 'Tomé',
-        'lang': 'es'
-      },
+      'CL/Biobío/Tirúa': {'id': 'data/CL/Biobío/Tirúa', 'key': 'Tirúa', 'lang': 'es'},
+      'CL/Biobío/Tomé': {'id': 'data/CL/Biobío/Tomé', 'key': 'Tomé', 'lang': 'es'},
       'CL/Biobío/Treguaco': {
         'id': 'data/CL/Biobío/Treguaco',
         'key': 'Treguaco',
@@ -648,21 +584,9 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Tucapel',
         'lang': 'es'
       },
-      'CL/Biobío/Yumbel': {
-        'id': 'data/CL/Biobío/Yumbel',
-        'key': 'Yumbel',
-        'lang': 'es'
-      },
-      'CL/Biobío/Yungay': {
-        'id': 'data/CL/Biobío/Yungay',
-        'key': 'Yungay',
-        'lang': 'es'
-      },
-      'CL/Biobío/Ñiquén': {
-        'id': 'data/CL/Biobío/Ñiquén',
-        'key': 'Ñiquén',
-        'lang': 'es'
-      },
+      'CL/Biobío/Yumbel': {'id': 'data/CL/Biobío/Yumbel', 'key': 'Yumbel', 'lang': 'es'},
+      'CL/Biobío/Yungay': {'id': 'data/CL/Biobío/Yungay', 'key': 'Yungay', 'lang': 'es'},
+      'CL/Biobío/Ñiquén': {'id': 'data/CL/Biobío/Ñiquén', 'key': 'Ñiquén', 'lang': 'es'},
       'CL/Coquimbo': {
         'id': 'data/CL/Coquimbo',
         'isoid': 'CO',
@@ -935,11 +859,7 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Lago Ranco',
         'lang': 'es'
       },
-      'CL/Los Ríos/Lanco': {
-        'id': 'data/CL/Los Ríos/Lanco',
-        'key': 'Lanco',
-        'lang': 'es'
-      },
+      'CL/Los Ríos/Lanco': {'id': 'data/CL/Los Ríos/Lanco', 'key': 'Lanco', 'lang': 'es'},
       'CL/Los Ríos/Los Lagos': {
         'id': 'data/CL/Los Ríos/Los Lagos',
         'key': 'Los Lagos',
@@ -950,11 +870,7 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Mariquina',
         'lang': 'es'
       },
-      'CL/Los Ríos/Máfil': {
-        'id': 'data/CL/Los Ríos/Máfil',
-        'key': 'Máfil',
-        'lang': 'es'
-      },
+      'CL/Los Ríos/Máfil': {'id': 'data/CL/Los Ríos/Máfil', 'key': 'Máfil', 'lang': 'es'},
       'CL/Los Ríos/Paillaco': {
         'id': 'data/CL/Los Ríos/Paillaco',
         'key': 'Paillaco',
@@ -1053,76 +969,32 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Cauquenes',
         'lang': 'es'
       },
-      'CL/Maule/Chanco': {
-        'id': 'data/CL/Maule/Chanco',
-        'key': 'Chanco',
-        'lang': 'es'
-      },
-      'CL/Maule/Colbún': {
-        'id': 'data/CL/Maule/Colbún',
-        'key': 'Colbún',
-        'lang': 'es'
-      },
+      'CL/Maule/Chanco': {'id': 'data/CL/Maule/Chanco', 'key': 'Chanco', 'lang': 'es'},
+      'CL/Maule/Colbún': {'id': 'data/CL/Maule/Colbún', 'key': 'Colbún', 'lang': 'es'},
       'CL/Maule/Constitución': {
         'id': 'data/CL/Maule/Constitución',
         'key': 'Constitución',
         'lang': 'es'
       },
-      'CL/Maule/Curepto': {
-        'id': 'data/CL/Maule/Curepto',
-        'key': 'Curepto',
-        'lang': 'es'
-      },
-      'CL/Maule/Curicó': {
-        'id': 'data/CL/Maule/Curicó',
-        'key': 'Curicó',
-        'lang': 'es'
-      },
+      'CL/Maule/Curepto': {'id': 'data/CL/Maule/Curepto', 'key': 'Curepto', 'lang': 'es'},
+      'CL/Maule/Curicó': {'id': 'data/CL/Maule/Curicó', 'key': 'Curicó', 'lang': 'es'},
       'CL/Maule/Empedrado': {
         'id': 'data/CL/Maule/Empedrado',
         'key': 'Empedrado',
         'lang': 'es'
       },
-      'CL/Maule/Hualañé': {
-        'id': 'data/CL/Maule/Hualañé',
-        'key': 'Hualañé',
-        'lang': 'es'
-      },
+      'CL/Maule/Hualañé': {'id': 'data/CL/Maule/Hualañé', 'key': 'Hualañé', 'lang': 'es'},
       'CL/Maule/Licantén': {
         'id': 'data/CL/Maule/Licantén',
         'key': 'Licantén',
         'lang': 'es'
       },
-      'CL/Maule/Linares': {
-        'id': 'data/CL/Maule/Linares',
-        'key': 'Linares',
-        'lang': 'es'
-      },
-      'CL/Maule/Longaví': {
-        'id': 'data/CL/Maule/Longaví',
-        'key': 'Longaví',
-        'lang': 'es'
-      },
-      'CL/Maule/Maule': {
-        'id': 'data/CL/Maule/Maule',
-        'key': 'Maule',
-        'lang': 'es'
-      },
-      'CL/Maule/Molina': {
-        'id': 'data/CL/Maule/Molina',
-        'key': 'Molina',
-        'lang': 'es'
-      },
-      'CL/Maule/Parral': {
-        'id': 'data/CL/Maule/Parral',
-        'key': 'Parral',
-        'lang': 'es'
-      },
-      'CL/Maule/Pelarco': {
-        'id': 'data/CL/Maule/Pelarco',
-        'key': 'Pelarco',
-        'lang': 'es'
-      },
+      'CL/Maule/Linares': {'id': 'data/CL/Maule/Linares', 'key': 'Linares', 'lang': 'es'},
+      'CL/Maule/Longaví': {'id': 'data/CL/Maule/Longaví', 'key': 'Longaví', 'lang': 'es'},
+      'CL/Maule/Maule': {'id': 'data/CL/Maule/Maule', 'key': 'Maule', 'lang': 'es'},
+      'CL/Maule/Molina': {'id': 'data/CL/Maule/Molina', 'key': 'Molina', 'lang': 'es'},
+      'CL/Maule/Parral': {'id': 'data/CL/Maule/Parral', 'key': 'Parral', 'lang': 'es'},
+      'CL/Maule/Pelarco': {'id': 'data/CL/Maule/Pelarco', 'key': 'Pelarco', 'lang': 'es'},
       'CL/Maule/Pelluhue': {
         'id': 'data/CL/Maule/Pelluhue',
         'key': 'Pelluhue',
@@ -1133,21 +1005,9 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Pencahue',
         'lang': 'es'
       },
-      'CL/Maule/Rauco': {
-        'id': 'data/CL/Maule/Rauco',
-        'key': 'Rauco',
-        'lang': 'es'
-      },
-      'CL/Maule/Retiro': {
-        'id': 'data/CL/Maule/Retiro',
-        'key': 'Retiro',
-        'lang': 'es'
-      },
-      'CL/Maule/Romeral': {
-        'id': 'data/CL/Maule/Romeral',
-        'key': 'Romeral',
-        'lang': 'es'
-      },
+      'CL/Maule/Rauco': {'id': 'data/CL/Maule/Rauco', 'key': 'Rauco', 'lang': 'es'},
+      'CL/Maule/Retiro': {'id': 'data/CL/Maule/Retiro', 'key': 'Retiro', 'lang': 'es'},
+      'CL/Maule/Romeral': {'id': 'data/CL/Maule/Romeral', 'key': 'Romeral', 'lang': 'es'},
       'CL/Maule/Río Claro': {
         'id': 'data/CL/Maule/Río Claro',
         'key': 'Río Claro',
@@ -1173,16 +1033,8 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'San Rafael',
         'lang': 'es'
       },
-      'CL/Maule/Talca': {
-        'id': 'data/CL/Maule/Talca',
-        'key': 'Talca',
-        'lang': 'es'
-      },
-      'CL/Maule/Teno': {
-        'id': 'data/CL/Maule/Teno',
-        'key': 'Teno',
-        'lang': 'es'
-      },
+      'CL/Maule/Talca': {'id': 'data/CL/Maule/Talca', 'key': 'Talca', 'lang': 'es'},
+      'CL/Maule/Teno': {'id': 'data/CL/Maule/Teno', 'key': 'Teno', 'lang': 'es'},
       'CL/Maule/Vichuquén': {
         'id': 'data/CL/Maule/Vichuquén',
         'key': 'Vichuquén',
@@ -1647,8 +1499,7 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Tarapacá',
         'lang': 'es',
         'name': 'Tarapacá',
-        'sub_keys':
-            'Alto Hospicio~Camiña~Colchane~Huara~Iquique~Pica~Pozo Almonte'
+        'sub_keys': 'Alto Hospicio~Camiña~Colchane~Huara~Iquique~Pica~Pozo Almonte'
       },
       'CL/Tarapacá/Alto Hospicio': {
         'id': 'data/CL/Tarapacá/Alto Hospicio',
@@ -1665,21 +1516,13 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Colchane',
         'lang': 'es'
       },
-      'CL/Tarapacá/Huara': {
-        'id': 'data/CL/Tarapacá/Huara',
-        'key': 'Huara',
-        'lang': 'es'
-      },
+      'CL/Tarapacá/Huara': {'id': 'data/CL/Tarapacá/Huara', 'key': 'Huara', 'lang': 'es'},
       'CL/Tarapacá/Iquique': {
         'id': 'data/CL/Tarapacá/Iquique',
         'key': 'Iquique',
         'lang': 'es'
       },
-      'CL/Tarapacá/Pica': {
-        'id': 'data/CL/Tarapacá/Pica',
-        'key': 'Pica',
-        'lang': 'es'
-      },
+      'CL/Tarapacá/Pica': {'id': 'data/CL/Tarapacá/Pica', 'key': 'Pica', 'lang': 'es'},
       'CL/Tarapacá/Pozo Almonte': {
         'id': 'data/CL/Tarapacá/Pozo Almonte',
         'key': 'Pozo Almonte',
@@ -1890,34 +1733,17 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'Ñuble',
         'lang': 'es',
         'name': 'Ñuble',
-        'sub_keys':
-            'Bulnes~Chillán~Coelemu~Coihueco~Quillón~Quirihue~San Carlos~Yungay'
+        'sub_keys': 'Bulnes~Chillán~Coelemu~Coihueco~Quillón~Quirihue~San Carlos~Yungay'
       },
-      'CL/Ñuble/Bulnes': {
-        'id': 'data/CL/Ñuble/Bulnes',
-        'key': 'Bulnes',
-        'lang': 'es'
-      },
-      'CL/Ñuble/Chillán': {
-        'id': 'data/CL/Ñuble/Chillán',
-        'key': 'Chillán',
-        'lang': 'es'
-      },
-      'CL/Ñuble/Coelemu': {
-        'id': 'data/CL/Ñuble/Coelemu',
-        'key': 'Coelemu',
-        'lang': 'es'
-      },
+      'CL/Ñuble/Bulnes': {'id': 'data/CL/Ñuble/Bulnes', 'key': 'Bulnes', 'lang': 'es'},
+      'CL/Ñuble/Chillán': {'id': 'data/CL/Ñuble/Chillán', 'key': 'Chillán', 'lang': 'es'},
+      'CL/Ñuble/Coelemu': {'id': 'data/CL/Ñuble/Coelemu', 'key': 'Coelemu', 'lang': 'es'},
       'CL/Ñuble/Coihueco': {
         'id': 'data/CL/Ñuble/Coihueco',
         'key': 'Coihueco',
         'lang': 'es'
       },
-      'CL/Ñuble/Quillón': {
-        'id': 'data/CL/Ñuble/Quillón',
-        'key': 'Quillón',
-        'lang': 'es'
-      },
+      'CL/Ñuble/Quillón': {'id': 'data/CL/Ñuble/Quillón', 'key': 'Quillón', 'lang': 'es'},
       'CL/Ñuble/Quirihue': {
         'id': 'data/CL/Ñuble/Quirihue',
         'key': 'Quirihue',
@@ -1928,9 +1754,5 @@ Map<String, Map<String, String>> get clJson => {
         'key': 'San Carlos',
         'lang': 'es'
       },
-      'CL/Ñuble/Yungay': {
-        'id': 'data/CL/Ñuble/Yungay',
-        'key': 'Yungay',
-        'lang': 'es'
-      }
+      'CL/Ñuble/Yungay': {'id': 'data/CL/Ñuble/Yungay', 'key': 'Yungay', 'lang': 'es'}
     };

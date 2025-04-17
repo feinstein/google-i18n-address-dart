@@ -676,8 +676,7 @@ Map<String, Map<String, String>> get krJson => {
         'lang': 'ko',
         'lname': 'Changwon-si',
         'sub_keys': '마산합포구~마산회원구~성산구~의창구~진해구',
-        'sub_lnames':
-            'Masanhappo-gu~Masanhoewon-gu~Seongsan-gu~Uichang-gu~Jinhae-gu',
+        'sub_lnames': 'Masanhappo-gu~Masanhoewon-gu~Seongsan-gu~Uichang-gu~Jinhae-gu',
         'sub_zips': '51[237]~51[23]~51[457]~51[1-4]~51[5-7]',
         'zip': '51[2-7]'
       },
@@ -1005,8 +1004,7 @@ Map<String, Map<String, String>> get krJson => {
         'sub_keys': '남구~달서구~달성군~동구~북구~서구~수성구~중구',
         'sub_lnames':
             'Nam-gu~Dalseo-gu~Dalseong-gun~Dong-gu~Buk-gu~Seo-gu~Suseong-gu~Jung-gu',
-        'sub_zips':
-            '42[45]~42[678]~4(?:29|30)~41[0-2]~41[45]~41[78]~42[0-2]~419',
+        'sub_zips': '42[45]~42[678]~4(?:29|30)~41[0-2]~41[45]~41[78]~42[0-2]~419',
         'zip': '4[123]\\d{2}',
         'zipex': '42456'
       },
@@ -1121,8 +1119,7 @@ Map<String, Map<String, String>> get krJson => {
         'lang': 'ko',
         'lname': 'Busan',
         'name': '부산',
-        'sub_keys':
-            '강서구~금정구~기장군~남구~동구~동래구~부산진구~북구~사상구~사하구~서구~수영구~연제구~영도구~중구~해운대구',
+        'sub_keys': '강서구~금정구~기장군~남구~동구~동래구~부산진구~북구~사상구~사하구~서구~수영구~연제구~영도구~중구~해운대구',
         'sub_lnames':
             'Gangseo-gu~Geumjeong-gu~Gijang-gun~Nam-gu~Dong-gu~Dongnae-gu~Busanjin-gu~Buk-gu~Sasang-gu~Saha-gu~Seo-gu~Suyeong-gu~Yeonje-gu~Yeongdo-gu~Jung-gu~Haeundae-gu',
         'sub_zips':
@@ -1625,8 +1622,7 @@ Map<String, Map<String, String>> get krJson => {
         'sub_keys': '강화군~계양구~남구~남동구~동구~부평구~서구~연수구~옹진군~중구',
         'sub_lnames':
             'Ganghwa-gun~Gyeyang-gu~Nam-gu~Namdong-gu~Dong-gu~Bupyeong-gu~Seo-gu~Yeonsu-gu~Ongjin-gun~Jung-gu',
-        'sub_zips':
-            '230~21[01]~22[12]~21[5-7]~225~21[34]~22[6-8]~2(?:19|20)~231~22[34]',
+        'sub_zips': '230~21[01]~22[12]~21[5-7]~225~21[34]~22[6-8]~2(?:19|20)~231~22[34]',
         'zip': '2[1-3]\\d{2}',
         'zipex': '23024'
       },
@@ -2036,8 +2032,7 @@ Map<String, Map<String, String>> get krJson => {
         'lang': 'ko',
         'lname': 'Chungcheongnam-do',
         'name': '충남',
-        'sub_keys':
-            '계룡시~공주시~금산군~논산시~당진시~보령시~부여군~서산시~서천군~아산시~예산군~천안시~청양군~태안군~홍성군',
+        'sub_keys': '계룡시~공주시~금산군~논산시~당진시~보령시~부여군~서산시~서천군~아산시~예산군~천안시~청양군~태안군~홍성군',
         'sub_lnames':
             'Gyeryong-si~Gongju-si~Geumsan-gun~Nonsan-si~Dangjin-si~Boryeong-si~Buyeo-gun~Seosan-si~Seocheon-gun~Asan-si~Yesan-gun~Cheonan-si~Cheongyang-gun~Taean-gun~Hongseong-gun',
         'sub_mores':
@@ -2179,8 +2174,7 @@ Map<String, Map<String, String>> get krJson => {
         'sub_keys': '괴산군~단양군~보은군~영동군~옥천군~음성군~제천시~증평군~진천군~청주시~충주시',
         'sub_lnames':
             'Goesan-gun~Danyang-gun~Boeun-gun~Yeongdong-gun~Okcheon-gun~Eumseong-gun~Jecheon-si~Jeungpyeong-gun~Jincheon-gun~Cheongju-si~Chungju-si',
-        'sub_mores':
-            'false~false~false~false~false~false~false~false~false~true~false',
+        'sub_mores': 'false~false~false~false~false~false~false~false~false~true~false',
         'sub_zips': '280~270~289~291~290~27[67]~27[12]~279~278~28[0-9]~27[3-5]',
         'zip': '2[789]\\d{2}',
         'zipex': '28006'

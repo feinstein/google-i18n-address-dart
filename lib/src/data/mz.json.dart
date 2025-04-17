@@ -27,54 +27,24 @@ Map<String, Map<String, String>> get mzJson => {
         'key': 'Cidade de Maputo',
         'lang': 'pt'
       },
-      'MZ/Gaza': {
-        'id': 'data/MZ/Gaza',
-        'isoid': 'G',
-        'key': 'Gaza',
-        'lang': 'pt'
-      },
+      'MZ/Gaza': {'id': 'data/MZ/Gaza', 'isoid': 'G', 'key': 'Gaza', 'lang': 'pt'},
       'MZ/Inhambane': {
         'id': 'data/MZ/Inhambane',
         'isoid': 'I',
         'key': 'Inhambane',
         'lang': 'pt'
       },
-      'MZ/Manica': {
-        'id': 'data/MZ/Manica',
-        'isoid': 'B',
-        'key': 'Manica',
-        'lang': 'pt'
-      },
-      'MZ/Maputo': {
-        'id': 'data/MZ/Maputo',
-        'isoid': 'L',
-        'key': 'Maputo',
-        'lang': 'pt'
-      },
+      'MZ/Manica': {'id': 'data/MZ/Manica', 'isoid': 'B', 'key': 'Manica', 'lang': 'pt'},
+      'MZ/Maputo': {'id': 'data/MZ/Maputo', 'isoid': 'L', 'key': 'Maputo', 'lang': 'pt'},
       'MZ/Nampula': {
         'id': 'data/MZ/Nampula',
         'isoid': 'N',
         'key': 'Nampula',
         'lang': 'pt'
       },
-      'MZ/Niassa': {
-        'id': 'data/MZ/Niassa',
-        'isoid': 'A',
-        'key': 'Niassa',
-        'lang': 'pt'
-      },
-      'MZ/Sofala': {
-        'id': 'data/MZ/Sofala',
-        'isoid': 'S',
-        'key': 'Sofala',
-        'lang': 'pt'
-      },
-      'MZ/Tete': {
-        'id': 'data/MZ/Tete',
-        'isoid': 'T',
-        'key': 'Tete',
-        'lang': 'pt'
-      },
+      'MZ/Niassa': {'id': 'data/MZ/Niassa', 'isoid': 'A', 'key': 'Niassa', 'lang': 'pt'},
+      'MZ/Sofala': {'id': 'data/MZ/Sofala', 'isoid': 'S', 'key': 'Sofala', 'lang': 'pt'},
+      'MZ/Tete': {'id': 'data/MZ/Tete', 'isoid': 'T', 'key': 'Tete', 'lang': 'pt'},
       'MZ/Zambezia': {
         'id': 'data/MZ/Zambezia',
         'isoid': 'Q',

@@ -22,10 +22,8 @@ String _formatAddressLine(
   });
 
   // Split format into parts and replace placeholders
-  final parts = RegExp(r'(%.)')
-      .allMatches(lineFormat)
-      .map((match) => match.group(0)!)
-      .toList();
+  final parts =
+      RegExp(r'(%.)').allMatches(lineFormat).map((match) => match.group(0)!).toList();
 
   // Keep track of the current position in the format string
   var currentPos = 0;

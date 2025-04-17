@@ -13,23 +13,20 @@ final RegExp validCountryCode = RegExp(r'^\w{2,3}$');
 /// Throws [ArgumentError] if the country code is invalid.
 Map<String, Map<String, String>> loadValidationData(String countryCode) {
   if (!validCountryCode.hasMatch(countryCode)) {
-    throw ArgumentError(
-        '"$countryCode" is not a valid country code', 'countryCode');
+    throw ArgumentError('"$countryCode" is not a valid country code', 'countryCode');
   }
 
   final normalizedCountryCode = countryCode.toLowerCase();
 
   if (!jsonDataMap.containsKey(normalizedCountryCode)) {
-    throw ArgumentError(
-        '"$countryCode" is not a valid country code', 'countryCode');
+    throw ArgumentError('"$countryCode" is not a valid country code', 'countryCode');
   }
 
   try {
     return jsonDataMap[normalizedCountryCode]!();
   } catch (e) {
     _log.severe('Failed to load validation data for $countryCode', e);
-    throw ArgumentError(
-        'Failed to load validation data for $countryCode', 'countryCode');
+    throw ArgumentError('Failed to load validation data for $countryCode', 'countryCode');
   }
 }
 
@@ -46,8 +43,7 @@ Map<String, Map<String, String>> loadValidationData(String countryCode) {
     final normalizedCountryCode = countryCode.toUpperCase();
     if (normalizedCountryCode.toLowerCase() == 'zz') {
       throw ArgumentError(
-          '"$normalizedCountryCode" is not a valid country code',
-          'countryCode');
+          '"$normalizedCountryCode" is not a valid country code', 'countryCode');
     }
 
     database = loadValidationData(normalizedCountryCode.toLowerCase());

@@ -9,10 +9,8 @@ Map<String, Map<String, String>> get uyJson => {
         'lang': 'es',
         'languages': 'es',
         'name': 'URUGUAY',
-        'posturl':
-            'http://www.correo.com.uy/index.asp?codPag=codPost&switchMapa=codPost',
-        'sub_isoids':
-            'AR~CA~CL~CO~DU~FS~FD~LA~MA~MO~PA~RN~RV~RO~SA~SJ~SO~TA~TT',
+        'posturl': 'http://www.correo.com.uy/index.asp?codPag=codPost&switchMapa=codPost',
+        'sub_isoids': 'AR~CA~CL~CO~DU~FS~FD~LA~MA~MO~PA~RN~RV~RO~SA~SJ~SO~TA~TT',
         'sub_keys':
             'Artigas~Canelones~Cerro Largo~Colonia~Durazno~Flores~Florida~Lavalleja~Maldonado~Montevideo~Paysandú~Río Negro~Rivera~Rocha~Salto~San José~Soriano~Tacuarembó~Treinta y Tres',
         'sub_zips':

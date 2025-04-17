@@ -19,12 +19,7 @@ Map<String, Map<String, String>> get ngJson => {
         'zip': '\\d{6}',
         'zipex': '930283,300001,931104'
       },
-      'NG/Abia': {
-        'id': 'data/NG/Abia',
-        'isoid': 'AB',
-        'key': 'Abia',
-        'lang': 'en'
-      },
+      'NG/Abia': {'id': 'data/NG/Abia', 'isoid': 'AB', 'key': 'Abia', 'lang': 'en'},
       'NG/Adamawa': {
         'id': 'data/NG/Adamawa',
         'isoid': 'AD',
@@ -43,198 +38,73 @@ Map<String, Map<String, String>> get ngJson => {
         'key': 'Anambra',
         'lang': 'en'
       },
-      'NG/Bauchi': {
-        'id': 'data/NG/Bauchi',
-        'isoid': 'BA',
-        'key': 'Bauchi',
-        'lang': 'en'
-      },
+      'NG/Bauchi': {'id': 'data/NG/Bauchi', 'isoid': 'BA', 'key': 'Bauchi', 'lang': 'en'},
       'NG/Bayelsa': {
         'id': 'data/NG/Bayelsa',
         'isoid': 'BY',
         'key': 'Bayelsa',
         'lang': 'en'
       },
-      'NG/Benue': {
-        'id': 'data/NG/Benue',
-        'isoid': 'BE',
-        'key': 'Benue',
-        'lang': 'en'
-      },
-      'NG/Borno': {
-        'id': 'data/NG/Borno',
-        'isoid': 'BO',
-        'key': 'Borno',
-        'lang': 'en'
-      },
+      'NG/Benue': {'id': 'data/NG/Benue', 'isoid': 'BE', 'key': 'Benue', 'lang': 'en'},
+      'NG/Borno': {'id': 'data/NG/Borno', 'isoid': 'BO', 'key': 'Borno', 'lang': 'en'},
       'NG/Cross River': {
         'id': 'data/NG/Cross River',
         'isoid': 'CR',
         'key': 'Cross River',
         'lang': 'en'
       },
-      'NG/Delta': {
-        'id': 'data/NG/Delta',
-        'isoid': 'DE',
-        'key': 'Delta',
-        'lang': 'en'
-      },
-      'NG/Ebonyi': {
-        'id': 'data/NG/Ebonyi',
-        'isoid': 'EB',
-        'key': 'Ebonyi',
-        'lang': 'en'
-      },
-      'NG/Edo': {
-        'id': 'data/NG/Edo',
-        'isoid': 'ED',
-        'key': 'Edo',
-        'lang': 'en'
-      },
-      'NG/Ekiti': {
-        'id': 'data/NG/Ekiti',
-        'isoid': 'EK',
-        'key': 'Ekiti',
-        'lang': 'en'
-      },
-      'NG/Enugu': {
-        'id': 'data/NG/Enugu',
-        'isoid': 'EN',
-        'key': 'Enugu',
-        'lang': 'en'
-      },
+      'NG/Delta': {'id': 'data/NG/Delta', 'isoid': 'DE', 'key': 'Delta', 'lang': 'en'},
+      'NG/Ebonyi': {'id': 'data/NG/Ebonyi', 'isoid': 'EB', 'key': 'Ebonyi', 'lang': 'en'},
+      'NG/Edo': {'id': 'data/NG/Edo', 'isoid': 'ED', 'key': 'Edo', 'lang': 'en'},
+      'NG/Ekiti': {'id': 'data/NG/Ekiti', 'isoid': 'EK', 'key': 'Ekiti', 'lang': 'en'},
+      'NG/Enugu': {'id': 'data/NG/Enugu', 'isoid': 'EN', 'key': 'Enugu', 'lang': 'en'},
       'NG/Federal Capital Territory': {
         'id': 'data/NG/Federal Capital Territory',
         'isoid': 'FC',
         'key': 'Federal Capital Territory',
         'lang': 'en'
       },
-      'NG/Gombe': {
-        'id': 'data/NG/Gombe',
-        'isoid': 'GO',
-        'key': 'Gombe',
-        'lang': 'en'
-      },
-      'NG/Imo': {
-        'id': 'data/NG/Imo',
-        'isoid': 'IM',
-        'key': 'Imo',
-        'lang': 'en'
-      },
-      'NG/Jigawa': {
-        'id': 'data/NG/Jigawa',
-        'isoid': 'JI',
-        'key': 'Jigawa',
-        'lang': 'en'
-      },
-      'NG/Kaduna': {
-        'id': 'data/NG/Kaduna',
-        'isoid': 'KD',
-        'key': 'Kaduna',
-        'lang': 'en'
-      },
-      'NG/Kano': {
-        'id': 'data/NG/Kano',
-        'isoid': 'KN',
-        'key': 'Kano',
-        'lang': 'en'
-      },
+      'NG/Gombe': {'id': 'data/NG/Gombe', 'isoid': 'GO', 'key': 'Gombe', 'lang': 'en'},
+      'NG/Imo': {'id': 'data/NG/Imo', 'isoid': 'IM', 'key': 'Imo', 'lang': 'en'},
+      'NG/Jigawa': {'id': 'data/NG/Jigawa', 'isoid': 'JI', 'key': 'Jigawa', 'lang': 'en'},
+      'NG/Kaduna': {'id': 'data/NG/Kaduna', 'isoid': 'KD', 'key': 'Kaduna', 'lang': 'en'},
+      'NG/Kano': {'id': 'data/NG/Kano', 'isoid': 'KN', 'key': 'Kano', 'lang': 'en'},
       'NG/Katsina': {
         'id': 'data/NG/Katsina',
         'isoid': 'KT',
         'key': 'Katsina',
         'lang': 'en'
       },
-      'NG/Kebbi': {
-        'id': 'data/NG/Kebbi',
-        'isoid': 'KE',
-        'key': 'Kebbi',
-        'lang': 'en'
-      },
-      'NG/Kogi': {
-        'id': 'data/NG/Kogi',
-        'isoid': 'KO',
-        'key': 'Kogi',
-        'lang': 'en'
-      },
-      'NG/Kwara': {
-        'id': 'data/NG/Kwara',
-        'isoid': 'KW',
-        'key': 'Kwara',
-        'lang': 'en'
-      },
-      'NG/Lagos': {
-        'id': 'data/NG/Lagos',
-        'isoid': 'LA',
-        'key': 'Lagos',
-        'lang': 'en'
-      },
+      'NG/Kebbi': {'id': 'data/NG/Kebbi', 'isoid': 'KE', 'key': 'Kebbi', 'lang': 'en'},
+      'NG/Kogi': {'id': 'data/NG/Kogi', 'isoid': 'KO', 'key': 'Kogi', 'lang': 'en'},
+      'NG/Kwara': {'id': 'data/NG/Kwara', 'isoid': 'KW', 'key': 'Kwara', 'lang': 'en'},
+      'NG/Lagos': {'id': 'data/NG/Lagos', 'isoid': 'LA', 'key': 'Lagos', 'lang': 'en'},
       'NG/Nasarawa': {
         'id': 'data/NG/Nasarawa',
         'isoid': 'NA',
         'key': 'Nasarawa',
         'lang': 'en'
       },
-      'NG/Niger': {
-        'id': 'data/NG/Niger',
-        'isoid': 'NI',
-        'key': 'Niger',
-        'lang': 'en'
-      },
+      'NG/Niger': {'id': 'data/NG/Niger', 'isoid': 'NI', 'key': 'Niger', 'lang': 'en'},
       'NG/Ogun State': {
         'id': 'data/NG/Ogun State',
         'isoid': 'OG',
         'key': 'Ogun State',
         'lang': 'en'
       },
-      'NG/Ondo': {
-        'id': 'data/NG/Ondo',
-        'isoid': 'ON',
-        'key': 'Ondo',
-        'lang': 'en'
-      },
-      'NG/Osun': {
-        'id': 'data/NG/Osun',
-        'isoid': 'OS',
-        'key': 'Osun',
-        'lang': 'en'
-      },
-      'NG/Oyo': {
-        'id': 'data/NG/Oyo',
-        'isoid': 'OY',
-        'key': 'Oyo',
-        'lang': 'en'
-      },
+      'NG/Ondo': {'id': 'data/NG/Ondo', 'isoid': 'ON', 'key': 'Ondo', 'lang': 'en'},
+      'NG/Osun': {'id': 'data/NG/Osun', 'isoid': 'OS', 'key': 'Osun', 'lang': 'en'},
+      'NG/Oyo': {'id': 'data/NG/Oyo', 'isoid': 'OY', 'key': 'Oyo', 'lang': 'en'},
       'NG/Plateau': {
         'id': 'data/NG/Plateau',
         'isoid': 'PL',
         'key': 'Plateau',
         'lang': 'en'
       },
-      'NG/Rivers': {
-        'id': 'data/NG/Rivers',
-        'isoid': 'RI',
-        'key': 'Rivers',
-        'lang': 'en'
-      },
-      'NG/Sokoto': {
-        'id': 'data/NG/Sokoto',
-        'isoid': 'SO',
-        'key': 'Sokoto',
-        'lang': 'en'
-      },
-      'NG/Taraba': {
-        'id': 'data/NG/Taraba',
-        'isoid': 'TA',
-        'key': 'Taraba',
-        'lang': 'en'
-      },
-      'NG/Yobe': {
-        'id': 'data/NG/Yobe',
-        'isoid': 'YO',
-        'key': 'Yobe',
-        'lang': 'en'
-      },
+      'NG/Rivers': {'id': 'data/NG/Rivers', 'isoid': 'RI', 'key': 'Rivers', 'lang': 'en'},
+      'NG/Sokoto': {'id': 'data/NG/Sokoto', 'isoid': 'SO', 'key': 'Sokoto', 'lang': 'en'},
+      'NG/Taraba': {'id': 'data/NG/Taraba', 'isoid': 'TA', 'key': 'Taraba', 'lang': 'en'},
+      'NG/Yobe': {'id': 'data/NG/Yobe', 'isoid': 'YO', 'key': 'Yobe', 'lang': 'en'},
       'NG/Zamfara': {
         'id': 'data/NG/Zamfara',
         'isoid': 'ZA',

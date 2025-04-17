@@ -33,23 +33,14 @@ Map<String, Map<String, String>> get tvJson => {
         'key': 'Nanumea',
         'lang': 'tyv'
       },
-      'TV/Niulakita': {
-        'id': 'data/TV/Niulakita',
-        'key': 'Niulakita',
-        'lang': 'tyv'
-      },
+      'TV/Niulakita': {'id': 'data/TV/Niulakita', 'key': 'Niulakita', 'lang': 'tyv'},
       'TV/Niutao': {
         'id': 'data/TV/Niutao',
         'isoid': 'NIT',
         'key': 'Niutao',
         'lang': 'tyv'
       },
-      'TV/Nui': {
-        'id': 'data/TV/Nui',
-        'isoid': 'NUI',
-        'key': 'Nui',
-        'lang': 'tyv'
-      },
+      'TV/Nui': {'id': 'data/TV/Nui', 'isoid': 'NUI', 'key': 'Nui', 'lang': 'tyv'},
       'TV/Nukufetau': {
         'id': 'data/TV/Nukufetau',
         'isoid': 'NKF',

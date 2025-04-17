@@ -23,8 +23,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_names':
             '安徽省~澳门~北京市~重庆市~福建省~甘肃省~广东省~广西~贵州省~海南省~河北省~河南省~黑龙江省~湖北省~湖南省~吉林省~江苏省~江西省~辽宁省~内蒙古~宁夏~青海省~山东省~山西省~陕西省~上海市~四川省~台湾~天津市~西藏~香港~新疆~云南省~浙江省',
         'sub_xrequires': '~A~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ACS~~~',
-        'sub_xzips':
-            '~999078~~~~~~~~~~~~~~~~~~~~~~~~~~\\d{3}(\\d{2,3})?~~~999077~~~',
+        'sub_xzips': '~999078~~~~~~~~~~~~~~~~~~~~~~~~~~\\d{3}(\\d{2,3})?~~~999077~~~',
         'sublocality_name_type': 'district',
         'upper': 'S',
         'zip': '\\d{6}',
@@ -197,8 +196,7 @@ Map<String, Map<String, String>> get cnJson => {
             'Baoshan Shi~Chuxiong Zhou~Dali Zhou~Dehong Zhou~Dêqên Zhou~Honghe Zhou~Kunming Shi~Lijiang Shi~Lincang Shi~Nujiang Zhou~Puer Shi~Qujing Shi~Wenshan Zhou~Xishuangbanna Zhou~Yuxi Shi~Zhaotong Shi',
         'sub_mores':
             'true~true~true~true~true~true~true~true~true~true~true~true~true~true~true~true',
-        'sub_names':
-            '保山市~楚雄州~大理州~德宏州~迪庆州~红河州~昆明市~丽江市~临沧市~怒江州~普洱市~曲靖市~文山州~西双版纳州~玉溪市~昭通市',
+        'sub_names': '保山市~楚雄州~大理州~德宏州~迪庆州~红河州~昆明市~丽江市~临沧市~怒江州~普洱市~曲靖市~文山州~西双版纳州~玉溪市~昭通市',
         'sub_zipexs':
             '678000~675000~671000~678400~674400~661400~650011~674100~677000~673100~665000~655000~663000~666100~653100~657000'
       },
@@ -292,8 +290,7 @@ Map<String, Map<String, String>> get cnJson => {
         'name': '丽江市',
         'sub_keys': '古城区~华坪县~宁蒗彝族自治县~永胜县~玉龙纳西族自治县',
         'sub_lfnames': '~~Ninglang Yizu Zizhixian~~Yulong Naki Zizhixian',
-        'sub_lnames':
-            'Gucheng Qu~Huaping Xian~Ninglang Xian~Yongsheng Xian~Yulong Xian',
+        'sub_lnames': 'Gucheng Qu~Huaping Xian~Ninglang Xian~Yongsheng Xian~Yulong Xian',
         'sub_names': '古城区~华坪县~宁蒗县~永胜县~玉龙县',
         'sub_zipexs': '674100~674800~674300~674200~674100',
         'zipex': '674100'
@@ -400,8 +397,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lfname': 'Dali Baizu Zizhizhou',
         'lname': 'Dali Zhou',
         'name': '大理州',
-        'sub_keys':
-            '宾川县~大理市~洱源县~鹤庆县~剑川县~弥渡县~南涧彝族自治县~巍山彝族回族自治县~祥云县~漾濞彝族自治县~永平县~云龙县',
+        'sub_keys': '宾川县~大理市~洱源县~鹤庆县~剑川县~弥渡县~南涧彝族自治县~巍山彝族回族自治县~祥云县~漾濞彝族自治县~永平县~云龙县',
         'sub_lfnames':
             '~~~~~~Nanjian Yizu Zizhixian~Weishan Yizu Huizu Zizhixian~~Yangbi Yizu Zizhixian~~',
         'sub_lnames':
@@ -518,8 +514,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Dehong Zhou',
         'name': '德宏州',
         'sub_keys': '梁河县~陇川县~潞西市~瑞丽市~盈江县',
-        'sub_lnames':
-            'Lianghe Xian~Longchuan Xian~Luxi Shi~Ruili Shi~Yingjiang Xian',
+        'sub_lnames': 'Lianghe Xian~Longchuan Xian~Luxi Shi~Ruili Shi~Yingjiang Xian',
         'sub_names': '梁河县~陇川县~潞西市~瑞丽市~盈江县',
         'sub_zipexs': '679200~678700~678400~678600~679300',
         'zipex': '678400'
@@ -1041,8 +1036,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Fuyuan Xian~Huize Xian~Luliang Xian~Luoping Xian~Malong Xian~Qilin Qu~Shizong Xian~Xuanwei Shi~Zhanyi Xian',
         'sub_names': '富源县~会泽县~陆良县~罗平县~马龙县~麒麟区~师宗县~宣威市~沾益县',
-        'sub_zipexs':
-            '655500~654200~655600~655800~655100~655000~655700~655400~655500',
+        'sub_zipexs': '655500~654200~655600~655800~655100~655000~655700~655400~655500',
         'zipex': '655000'
       },
       'CN/云南省/曲靖市/会泽县': {
@@ -1224,8 +1218,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Chengjiang Xian~Eshan Xian~Hongta Qu~Huaning Xian~Jiangchuan Xian~Tonghai Xian~Xinping Xian~Yimen Xian~Yuanjiang Xian',
         'sub_names': '澄江县~峨山县~红塔区~华宁县~江川县~通海县~新平县~易门县~元江县',
-        'sub_zipexs':
-            '652500~653200~653100~652800~652600~652700~653400~651100~653300',
+        'sub_zipexs': '652500~653200~653100~652800~652600~652700~653400~651100~653300',
         'zipex': '653100'
       },
       'CN/云南省/玉溪市/元江哈尼族彝族傣族自治县': {
@@ -1310,8 +1303,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lfname': 'Honghe Hanizu Yizu Zizhizhou',
         'lname': 'Honghe Zhou',
         'name': '红河州',
-        'sub_keys':
-            '个旧市~河口瑶族自治县~红河县~建水县~金平苗族瑶族傣族自治县~开远市~泸西县~绿春县~蒙自市~弥勒县~屏边苗族自治县~石屏县~元阳县',
+        'sub_keys': '个旧市~河口瑶族自治县~红河县~建水县~金平苗族瑶族傣族自治县~开远市~泸西县~绿春县~蒙自市~弥勒县~屏边苗族自治县~石屏县~元阳县',
         'sub_lfnames':
             '~Hekou Yaozu Zizhixian~~~Jinping Miaozu Yaozu Daizu Zizhixian~~~~~~Pingbian Miaozu Zizhixian~~',
         'sub_lnames':
@@ -1511,15 +1503,12 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Neimenggu Zizhiqu',
         'name': '内蒙古',
-        'sub_keys':
-            '阿拉善盟~巴彦淖尔市~包头市~赤峰市~鄂尔多斯市~呼和浩特市~呼伦贝尔市~通辽市~乌海市~乌兰察布市~锡林郭勒盟~兴安盟',
+        'sub_keys': '阿拉善盟~巴彦淖尔市~包头市~赤峰市~鄂尔多斯市~呼和浩特市~呼伦贝尔市~通辽市~乌海市~乌兰察布市~锡林郭勒盟~兴安盟',
         'sub_lfnames': '~~~Chifeng (Ulanhad) Shi~~~~~~~~',
         'sub_lnames':
             'Alxa Meng~Bayannur Shi~Baotou Shi~Chifeng Shi~Ordos Shi~Hohhot Shi~Hulun Buir Shi~Tongliao Shi~Wuhai Shi~Ulanqab Shi~Xilin Gol Meng~Hinggan Meng',
-        'sub_mores':
-            'true~true~true~true~true~true~true~true~true~true~true~true',
-        'sub_names':
-            '阿拉善盟~巴彦淖尔市~包头市~赤峰市~鄂尔多斯市~呼和浩特市~呼伦贝尔市~通辽市~乌海市~乌兰察布市~锡林郭勒盟~兴安盟',
+        'sub_mores': 'true~true~true~true~true~true~true~true~true~true~true~true',
+        'sub_names': '阿拉善盟~巴彦淖尔市~包头市~赤峰市~鄂尔多斯市~呼和浩特市~呼伦贝尔市~通辽市~乌海市~乌兰察布市~锡林郭勒盟~兴安盟',
         'sub_zipexs':
             '750306~015001~014025~024000~017004~010020~021008~028000~016000~012000~026021~137401'
       },
@@ -1732,8 +1721,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Baiyun Kuangqu~Darhan Mumingan Lianheqi~Donghe Qu~Guyang Xian~Jiuyuan Qu~Hondlon Qu~Qingshan Qu~Shiguai Qu~Tumd Youqi',
         'sub_names': '白云矿区~达尔罕茂明安联合旗~东河区~固阳县~九原区~昆都仑区~青山区~石拐区~土默特右旗',
-        'sub_zipexs':
-            '014080~014500~014040~014200~014060~014010~014030~014070~014100',
+        'sub_zipexs': '014080~014500~014040~014200~014060~014010~014030~014070~014100',
         'zipex': '014025'
       },
       'CN/内蒙古自治区/包头市/东河区': {
@@ -1943,8 +1931,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Horinger Xian~Huimin Qu~Qingshuihe Xian~Saihan Qu~Tumd Zuoqi~Togtoh Xian~Wuchuan Xian~Xincheng Qu~Yuquan Qu',
         'sub_names': '和林格尔县~回民区~清水河县~赛罕区~土默特左旗~托克托县~武川县~新城区~玉泉区',
-        'sub_zipexs':
-            '011500~010030~011600~010020~010100~010200~011700~010010~010031',
+        'sub_zipexs': '011500~010030~011600~010020~010100~010200~011700~010010~010031',
         'zipex': '010020'
       },
       'CN/内蒙古自治区/呼和浩特市/和林格尔县': {
@@ -2098,8 +2085,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_keys': '阿鲁科尔沁旗~敖汉旗~巴林右旗~巴林左旗~红山区~喀喇沁旗~克什克腾旗~林西县~宁城县~松山区~翁牛特旗~元宝山区',
         'sub_lnames':
             'Ar Horqin Qi~Aohan Qi~Bairin Youqi~Bairin Zuoqi~Hongshan Qu~Harqin Qi~Hexigten Qi~Linxi Xian~Ningcheng Xian~Songshan Qu~Ongniud Qi~Yuanbaoshan Qu',
-        'sub_names':
-            '阿鲁科尔沁旗~敖汉旗~巴林右旗~巴林左旗~红山区~喀喇沁旗~克什克腾旗~林西县~宁城县~松山区~翁牛特旗~元宝山区',
+        'sub_names': '阿鲁科尔沁旗~敖汉旗~巴林右旗~巴林左旗~红山区~喀喇沁旗~克什克腾旗~林西县~宁城县~松山区~翁牛特旗~元宝山区',
         'sub_zipexs':
             '025550~024300~025150~025450~024001~024400~025350~025250~024200~024001~024500~024070',
         'zipex': '024000'
@@ -2360,14 +2346,12 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Xilin Gol Meng',
         'name': '锡林郭勒盟',
-        'sub_keys':
-            '阿巴嘎旗~东乌珠穆沁旗~多伦县~二连浩特市~苏尼特右旗~苏尼特左旗~太仆寺旗~西乌珠穆沁旗~锡林浩特市~镶黄旗~正蓝旗~正镶白旗',
+        'sub_keys': '阿巴嘎旗~东乌珠穆沁旗~多伦县~二连浩特市~苏尼特右旗~苏尼特左旗~太仆寺旗~西乌珠穆沁旗~锡林浩特市~镶黄旗~正蓝旗~正镶白旗',
         'sub_lfnames':
             '~~Duolun (Dolonnur) Xian~~~~~~~Xianghuang (Hobot Xar) Qi~Zhenglan (Xulun Hoh) Qi~Zhengxiangbai (Xulun Hobot Qagan) Qi',
         'sub_lnames':
             'Abag Qi~Dong Ujimqin Qi~Duolun Xian~Erenhot Shi~Sonid Youqi~Sonid Zuoqi~Taibus Qi~Xi Ujimqin Qi~Xilinhot Shi~Xianghuang Qi~Zhenglan Qi~Zhengxiangbai Qi',
-        'sub_names':
-            '阿巴嘎旗~东乌珠穆沁旗~多伦县~二连浩特市~苏尼特右旗~苏尼特左旗~太仆寺旗~西乌珠穆沁旗~锡林浩特市~镶黄旗~正蓝旗~正镶白旗',
+        'sub_names': '阿巴嘎旗~东乌珠穆沁旗~多伦县~二连浩特市~苏尼特右旗~苏尼特左旗~太仆寺旗~西乌珠穆沁旗~锡林浩特市~镶黄旗~正蓝旗~正镶白旗',
         'sub_zipexs':
             '011400~026300~027300~011100~011200~011300~027000~026200~026021~013250~027200~013800',
         'zipex': '026021'
@@ -2515,12 +2499,10 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Beijing Shi',
         'name': '北京市',
-        'sub_keys':
-            '昌平区~朝阳区~大兴区~东城区~房山区~丰台区~海淀区~怀柔区~门头沟区~密云县~平谷区~石景山区~顺义区~通州区~西城区~延庆县',
+        'sub_keys': '昌平区~朝阳区~大兴区~东城区~房山区~丰台区~海淀区~怀柔区~门头沟区~密云县~平谷区~石景山区~顺义区~通州区~西城区~延庆县',
         'sub_lnames':
             'Changping Qu~Chaoyang Qu~Daxing Qu~Dongcheng Qu~Fangshan Qu~Fengtai Qu~Haidian Qu~Huairou Qu~Mentougou Qu~Miyun Xian~Pinggu Qu~Shijingshan Qu~Shunyi Qu~Tongzhou Qu~Xicheng Qu~Yanqing Xian',
-        'sub_names':
-            '昌平区~朝阳区~大兴区~东城区~房山区~丰台区~海淀区~怀柔区~门头沟区~密云县~平谷区~石景山区~顺义区~通州区~西城区~延庆县',
+        'sub_names': '昌平区~朝阳区~大兴区~东城区~房山区~丰台区~海淀区~怀柔区~门头沟区~密云县~平谷区~石景山区~顺义区~通州区~西城区~延庆县',
         'sub_zipexs':
             '102200~100020~102600~100010~102400~100071~100080~101400~102300~101500~101200~100043~101300~101149~100032~102100'
       },
@@ -3469,14 +3451,11 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Taitung County',
         'name': '台東縣',
-        'sub_keys':
-            '卑南鄉~成功鎮~池上鄉~達仁鄉~大武鄉~東河鄉~關山鎮~海端鄉~金峰鄉~蘭嶼鄉~鹿野鄉~綠島鄉~台東市~太麻里鄉~延平鄉~長濱鄉',
+        'sub_keys': '卑南鄉~成功鎮~池上鄉~達仁鄉~大武鄉~東河鄉~關山鎮~海端鄉~金峰鄉~蘭嶼鄉~鹿野鄉~綠島鄉~台東市~太麻里鄉~延平鄉~長濱鄉',
         'sub_lnames':
             'Beinan Township~Chenggong Township~Chishang Township~Daren Township~Dawu Township~Donghe Township~Guanshan Township~Haiduan Township~Jinfeng Township~Lanyu Township~Luye Township~Lüdao Township~Taitung City~Taimali Township~Yanping Township~Changbin Township',
-        'sub_names':
-            '卑南鄉~成功鎮~池上鄉~達仁鄉~大武鄉~東河鄉~關山鎮~海端鄉~金峰鄉~蘭嶼鄉~鹿野鄉~綠島鄉~台東市~太麻里鄉~延平鄉~長濱鄉',
-        'sub_zips':
-            '954~961~958~966~965~959~956~957~964~952~955~951~950~963~953~962',
+        'sub_names': '卑南鄉~成功鎮~池上鄉~達仁鄉~大武鄉~東河鄉~關山鎮~海端鄉~金峰鄉~蘭嶼鄉~鹿野鄉~綠島鄉~台東市~太麻里鄉~延平鄉~長濱鄉',
+        'sub_zips': '954~961~958~966~965~959~956~957~964~952~955~951~950~963~953~962',
         'zip': '9[56]',
         'zipex': '950,966'
       },
@@ -5345,8 +5324,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Lienchiang County',
         'name': '連江縣',
         'sub_keys': '北竿鄉~東引鄉~莒光鄉~南竿鄉',
-        'sub_lnames':
-            'Beigan Township~Dongyin Township~Juguang Township~Nangan Township',
+        'sub_lnames': 'Beigan Township~Dongyin Township~Juguang Township~Nangan Township',
         'sub_names': '北竿鄉~東引鄉~莒光鄉~南竿鄉',
         'sub_zips': '210~212~211~209',
         'zip': '209|21[012]',
@@ -5973,8 +5951,7 @@ Map<String, Map<String, String>> get cnJson => {
             'Baicheng Shi~Baishan Shi~Jilin Shi~Liaoyuan Shi~Siping Shi~Songyuan Shi~Tonghua Shi~Yanbian Zhou~Changchun Shi',
         'sub_mores': 'true~true~true~true~true~true~true~true~true',
         'sub_names': '白城市~白山市~吉林市~辽源市~四平市~松原市~通化市~延边州~长春市',
-        'sub_zipexs':
-            '137000~134300~132011~136200~136000~138000~134001~133000~130061'
+        'sub_zipexs': '137000~134300~132011~136200~136000~138000~134001~133000~130061'
       },
       'CN/吉林省/吉林市': {
         'id': 'data/CN/吉林省/吉林市',
@@ -5986,8 +5963,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Changyi Qu~Chuanying Qu~Fengman Qu~Huadian Shi~Jiaohe Shi~Longtan Qu~Panshi Shi~Shulan Shi~Yongji Xian',
         'sub_names': '昌邑区~船营区~丰满区~桦甸市~蛟河市~龙潭区~磐石市~舒兰市~永吉县',
-        'sub_zipexs':
-            '132001~132011~132108~132400~132500~132021~132300~132600~132200',
+        'sub_zipexs': '132001~132011~132108~132400~132500~132021~132300~132600~132200',
         'zipex': '132011'
       },
       'CN/吉林省/吉林市/丰满区': {
@@ -6712,8 +6688,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Neijiang Shi',
         'name': '内江市',
         'sub_keys': '东兴区~隆昌县~市中区~威远县~资中县',
-        'sub_lnames':
-            'Dongxing Qu~Longchang Xian~Shizhong Qu~Weiyuan Xian~Zizhong Xian',
+        'sub_lnames': 'Dongxing Qu~Longchang Xian~Shizhong Qu~Weiyuan Xian~Zizhong Xian',
         'sub_names': '东兴区~隆昌县~市中区~威远县~资中县',
         'sub_zipexs': '641100~642150~641000~642450~641200',
         'zipex': '641000'
@@ -6923,8 +6898,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             "Gaoping Qu~Jialing Qu~Langzhong Shi~Nanbu Xian~Peng'an Xian~Shunqing Qu~Xichong Xian~Yilong Xian~Yingshan Xian",
         'sub_names': '高坪区~嘉陵区~阆中市~南部县~蓬安县~顺庆区~西充县~仪陇县~营山县',
-        'sub_zipexs':
-            '637100~637500~637400~637300~637800~637000~637200~637600~637700',
+        'sub_zipexs': '637100~637500~637400~637300~637800~637000~637200~637600~637700',
         'zipex': '637000'
       },
       'CN/四川省/南充市/仪陇县': {
@@ -7221,8 +7195,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': "Guang'an Shi",
         'name': '广安市',
         'sub_keys': '广安区~华蓥市~邻水县~武胜县~岳池县',
-        'sub_lnames':
-            "Guang'an Qu~Huaying Shi~Linshui Xian~Wusheng Xian~Yuechi Xian",
+        'sub_lnames': "Guang'an Qu~Huaying Shi~Linshui Xian~Wusheng Xian~Yuechi Xian",
         'sub_names': '广安区~华蓥市~邻水县~武胜县~岳池县',
         'sub_zipexs': '638550~638600~638500~638400~638300',
         'zipex': '638500'
@@ -7861,8 +7834,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'An Xian~Beichuan Xian~Fucheng Qu~Jiangyou Shi~Pingwu Xian~Santai Xian~Yanting Xian~Youxian Qu~Zitong Xian',
         'sub_names': '安县~北川县~涪城区~江油市~平武县~三台县~盐亭县~游仙区~梓潼县',
-        'sub_zipexs':
-            '622650~622750~621000~621700~622550~621100~621600~621022~622150',
+        'sub_zipexs': '622650~622750~621000~621700~622550~621100~621600~621022~622150',
         'zipex': '621000'
       },
       'CN/四川省/绵阳市/三台县': {
@@ -7945,8 +7917,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Zigong Shi',
         'name': '自贡市',
         'sub_keys': '大安区~富顺县~贡井区~荣县~沿滩区~自流井区',
-        'sub_lnames':
-            "Da'an Qu~Fushun Xian~Gongjing Qu~Rong Xian~Yantan Qu~Ziliujing Qu",
+        'sub_lnames': "Da'an Qu~Fushun Xian~Gongjing Qu~Rong Xian~Yantan Qu~Ziliujing Qu",
         'sub_names': '大安区~富顺县~贡井区~荣县~沿滩区~自流井区',
         'sub_zipexs': '643010~643200~643020~643100~643030~643000',
         'zipex': '643000'
@@ -8119,8 +8090,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Suining Shi',
         'name': '遂宁市',
         'sub_keys': '安居区~船山区~大英县~蓬溪县~射洪县',
-        'sub_lnames':
-            'Anju Qu~Chuanshan Qu~Daying Xian~Pengxi Xian~Shehong Xian',
+        'sub_lnames': 'Anju Qu~Chuanshan Qu~Daying Xian~Pengxi Xian~Shehong Xian',
         'sub_names': '安居区~船山区~大英县~蓬溪县~射洪县',
         'sub_zipexs': '629000~629000~629300~629100~629200',
         'zipex': '629000'
@@ -8373,12 +8343,10 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Tianjin Shi',
         'name': '天津市',
-        'sub_keys':
-            '宝坻区~北辰区~滨海新区~东丽区~和平区~河北区~河东区~河西区~红桥区~蓟县~津南区~静海县~南开区~宁河县~武清区~西青区',
+        'sub_keys': '宝坻区~北辰区~滨海新区~东丽区~和平区~河北区~河东区~河西区~红桥区~蓟县~津南区~静海县~南开区~宁河县~武清区~西青区',
         'sub_lnames':
             'Baodi Qu~Beichen Qu~Binhai Xinqu~Dongli Qu~Heping Qu~Hebei Qu~Hedong Qu~Hexi Qu~Hongqiao Qu~Ji Xian~Jinnan Qu~Jinghai Xian~Nankai Qu~Ninghe Xian~Wuqing Qu~Xiqing Qu',
-        'sub_names':
-            '宝坻区~北辰区~滨海新区~东丽区~和平区~河北区~河东区~河西区~红桥区~蓟县~津南区~静海县~南开区~宁河县~武清区~西青区',
+        'sub_names': '宝坻区~北辰区~滨海新区~东丽区~和平区~河北区~河东区~河西区~红桥区~蓟县~津南区~静海县~南开区~宁河县~武清区~西青区',
         'sub_zipexs':
             '301800~300400~300050~300300~300041~300143~300171~300202~300131~301900~300350~301600~300100~301500~301700~300380'
       },
@@ -8518,8 +8486,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Ningxia Huizuzizhiqu',
         'name': '宁夏',
         'sub_keys': '固原市~石嘴山市~吴忠市~银川市~中卫市',
-        'sub_lnames':
-            'Guyuan Shi~Shizuishan Shi~Wuzhong Shi~Yinchuan Shi~Zhongwei Shi',
+        'sub_lnames': 'Guyuan Shi~Shizuishan Shi~Wuzhong Shi~Yinchuan Shi~Zhongwei Shi',
         'sub_mores': 'true~true~true~true~true',
         'sub_names': '固原市~石嘴山市~吴忠市~银川市~中卫市',
         'sub_zipexs': '756000~753000~751100~750004~751700'
@@ -8611,8 +8578,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Guyuan Shi',
         'name': '固原市',
         'sub_keys': '泾源县~隆德县~彭阳县~西吉县~原州区',
-        'sub_lnames':
-            'Jingyuan Xian~Longde Xian~Pengyang Xian~Xiji Xian~Yuanzhou Qu',
+        'sub_lnames': 'Jingyuan Xian~Longde Xian~Pengyang Xian~Xiji Xian~Yuanzhou Qu',
         'sub_names': '泾源县~隆德县~彭阳县~西吉县~原州区',
         'sub_zipexs': '756400~756300~756500~756200~756000',
         'zipex': '756000'
@@ -9842,8 +9808,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Shandong Sheng',
         'name': '山东省',
-        'sub_keys':
-            '滨州市~德州市~东营市~菏泽市~济南市~济宁市~莱芜市~聊城市~临沂市~青岛市~日照市~泰安市~威海市~潍坊市~烟台市~枣庄市~淄博市',
+        'sub_keys': '滨州市~德州市~东营市~菏泽市~济南市~济宁市~莱芜市~聊城市~临沂市~青岛市~日照市~泰安市~威海市~潍坊市~烟台市~枣庄市~淄博市',
         'sub_lnames':
             "Binzhou shi~Dezhou Shi~Dongying Shi~Heze Shi~Jinan Shi~Jining Shi~Laiwu Shi~Liaocheng Shi~Linyi Shi~Qingdao Shi~Rizhao Shi~Tai'an Shi~Weihai Shi~Weifang shi~Yantai Shi~Zaozhuang Shi~Zibo Shi",
         'sub_mores':
@@ -9860,8 +9825,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Dongying Shi',
         'name': '东营市',
         'sub_keys': '东营区~广饶县~河口区~垦利县~利津县',
-        'sub_lnames':
-            'Dongying Qu~Guangrao Xian~Hekou Qu~Kenli Xian~Lijin Xian',
+        'sub_lnames': 'Dongying Qu~Guangrao Xian~Hekou Qu~Kenli Xian~Lijin Xian',
         'sub_names': '东营区~广饶县~河口区~垦利县~利津县',
         'sub_zipexs': '257029~257300~257200~257500~257400',
         'zipex': '257093'
@@ -11013,8 +10977,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Cao Xian~Chengwu Xian~Shan Xian~Dingtao Xian~Dongming Xian~Juye Xian~Juancheng Xian~Mudan Qu~Yuncheng Xian',
         'sub_names': '曹县~成武县~单县~定陶县~东明县~巨野县~鄄城县~牡丹区~郓城县',
-        'sub_zipexs':
-            '274400~274200~273700~274100~274500~274900~274600~274009~274700',
+        'sub_zipexs': '274400~274200~273700~274100~274500~274900~274600~274009~274700',
         'zipex': '274020'
       },
       'CN/山东省/菏泽市/东明县': {
@@ -11220,12 +11183,10 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Linfen Shi',
         'name': '临汾市',
-        'sub_keys':
-            '安泽县~大宁县~汾西县~浮山县~古县~洪洞县~侯马市~霍州市~吉县~蒲县~曲沃县~隰县~乡宁县~襄汾县~尧都区~翼城县~永和县',
+        'sub_keys': '安泽县~大宁县~汾西县~浮山县~古县~洪洞县~侯马市~霍州市~吉县~蒲县~曲沃县~隰县~乡宁县~襄汾县~尧都区~翼城县~永和县',
         'sub_lnames':
             'Anze Xian~Daning Xian~Fenxi Xian~Fushan Xian~Gu Xian~Hongtong Xian~Houma Shi~Huozhou Shi~Ji Xian~Pu Xian~Quwo Xian~Xi Xian~Xiangning Xian~Xiangfen Xian~Yaodu Qu~Yicheng Xian~Yonghe Xian',
-        'sub_names':
-            '安泽县~大宁县~汾西县~浮山县~古县~洪洞县~侯马市~霍州市~吉县~蒲县~曲沃县~隰县~乡宁县~襄汾县~尧都区~翼城县~永和县',
+        'sub_names': '安泽县~大宁县~汾西县~浮山县~古县~洪洞县~侯马市~霍州市~吉县~蒲县~曲沃县~隰县~乡宁县~襄汾县~尧都区~翼城县~永和县',
         'sub_zipexs':
             '042500~042300~031500~042600~042400~031600~043000~031400~042200~041200~043400~041300~042100~041500~041000~043500~041400',
         'zipex': '041000'
@@ -12359,8 +12320,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Yunfu Shi',
         'name': '云浮市',
         'sub_keys': '罗定市~新兴县~郁南县~云安县~云城区',
-        'sub_lnames':
-            "Luoding Shi~Xinxing Xian~Yunan Xian~Yun'an Xian~Yuncheng Qu",
+        'sub_lnames': "Luoding Shi~Xinxing Xian~Yunan Xian~Yun'an Xian~Yuncheng Qu",
         'sub_names': '罗定市~新兴县~郁南县~云安县~云城区',
         'sub_zipexs': '527200~527400~527100~527500~527300',
         'zipex': '527300'
@@ -12566,8 +12526,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Huizhou Shi',
         'name': '惠州市',
         'sub_keys': '博罗县~惠城区~惠东县~惠阳区~龙门县',
-        'sub_lnames':
-            'Boluo Xian~Huicheng Qu~Huidong Xian~Huiyang Qu~Longmen Xian',
+        'sub_lnames': 'Boluo Xian~Huicheng Qu~Huidong Xian~Huiyang Qu~Longmen Xian',
         'sub_names': '博罗县~惠城区~惠东县~惠阳区~龙门县',
         'sub_zipexs': '516100~516001~516300~516200~516800',
         'zipex': '516001'
@@ -12619,8 +12578,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Jieyang Shi',
         'name': '揭阳市',
         'sub_keys': '惠来县~揭东县~揭西县~普宁市~榕城区',
-        'sub_lnames':
-            'Huilai Xian~Jiedong Xian~Jiexi Xian~Puning Shi~Rongcheng Qu',
+        'sub_lnames': 'Huilai Xian~Jiedong Xian~Jiexi Xian~Puning Shi~Rongcheng Qu',
         'sub_names': '惠来县~揭东县~揭西县~普宁市~榕城区',
         'sub_zipexs': '515200~515554~515400~515300~522095',
         'zipex': '522000'
@@ -12995,8 +12953,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             "Bao'an Qu~Futian Qu~Guangming Qu~Longgang Qu~Longhua Qu~Luohu Qu~Nanshan Qu~Pingshan Qu~Yantian Qu",
         'sub_names': '宝安区~福田区~光明区~龙岗区~龙华区~罗湖区~南山区~坪山新区~盐田区',
-        'sub_zipexs':
-            '518101~518033~518107~518116~518110~518001~518052~518118~518083',
+        'sub_zipexs': '518101~518033~518107~518116~518110~518001~518052~518118~518083',
         'zipex': '518027'
       },
       'CN/广东省/深圳市/光明区': {
@@ -13078,8 +13035,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Qingyuan Shi',
         'name': '清远市',
         'sub_keys': '佛冈县~连南瑶族自治县~连山壮族瑶族自治县~连州市~清城区~清新县~阳山县~英德市',
-        'sub_lfnames':
-            '~Liannan Yaozu Zizhixian~Lianshan Zhuangzu Yaozu Zizhixian~~~~~',
+        'sub_lfnames': '~Liannan Yaozu Zizhixian~Lianshan Zhuangzu Yaozu Zizhixian~~~~~',
         'sub_lnames':
             'Fogang Xian~Liannan Xian~Lianshan Xian~Lianzhou Shi~Qingcheng Qu~Qingxin Xian~Yangshan Xian~Yingde Shi',
         'sub_names': '佛冈县~连南县~连山县~连州市~清城区~清新县~阳山县~英德市',
@@ -13162,8 +13118,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Chikan Qu~Leizhou Shi~Lianjiang Shi~Mazhang Qu~Potou Qu~Suixi Xian~Wuchuan Shi~Xiashan Qu~Xuwen Xian',
         'sub_names': '赤坎区~雷州市~廉江市~麻章区~坡头区~遂溪县~吴川市~霞山区~徐闻县',
-        'sub_zipexs':
-            '524033~524200~524400~524003~524057~524300~524500~524002~524100',
+        'sub_zipexs': '524033~524200~524400~524003~524057~524300~524500~524002~524100',
         'zipex': '524038'
       },
       'CN/广东省/湛江市/吴川市': {
@@ -13888,8 +13843,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Liuzhou Shi',
         'name': '柳州市',
         'sub_keys': '城中区~柳北区~柳城县~柳江县~柳南区~鹿寨县~融安县~融水苗族自治县~三江侗族自治县~鱼峰区',
-        'sub_lfnames':
-            '~~~~~~~Rongshui Miaozu Zizhixian~Sanjiang Dongzu Zizhixian~',
+        'sub_lfnames': '~~~~~~~Rongshui Miaozu Zizhixian~Sanjiang Dongzu Zizhixian~',
         'sub_lnames':
             "Chengzhong Qu~Liubei Qu~Liucheng Xian~Liujiang Xian~Liunan Qu~Luzhai Xian~Rong'an Xian~Rongshui Xian~Sanjiang Xian~Yufeng Qu",
         'sub_names': '城中区~柳北区~柳城县~柳江县~柳南区~鹿寨县~融安县~融水县~三江县~鱼峰区',
@@ -14210,8 +14164,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Hechi Shi',
         'name': '河池市',
-        'sub_keys':
-            '巴马瑶族自治县~大化瑶族自治县~东兰县~都安瑶族自治县~凤山县~环江毛南族自治县~金城江区~罗城仫佬族自治县~南丹县~天峨县~宜州市',
+        'sub_keys': '巴马瑶族自治县~大化瑶族自治县~东兰县~都安瑶族自治县~凤山县~环江毛南族自治县~金城江区~罗城仫佬族自治县~南丹县~天峨县~宜州市',
         'sub_lfnames':
             "Bama Yaozu Zizhixian~Dahua Yaozu Zizhixian~~Du'an Yaozu Zizhixian~~Huanjiang Maonanzu Zizhixian~~Luocheng Mulaozu Zizhixian~~~",
         'sub_lnames':
@@ -14494,8 +14447,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Guigang Shi',
         'name': '贵港市',
         'sub_keys': '港北区~港南区~桂平市~平南县~覃塘区',
-        'sub_lnames':
-            'Gangbei Qu~Gangnan Qu~Guiping Shi~Pingnan Xian~Tantang Qu',
+        'sub_lnames': 'Gangbei Qu~Gangnan Qu~Guiping Shi~Pingnan Xian~Tantang Qu',
         'sub_names': '港北区~港南区~桂平市~平南县~覃塘区',
         'sub_zipexs': '537100~537130~537200~537300~537121',
         'zipex': '537100'
@@ -14981,8 +14933,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Bortala Zhou',
         'name': '博尔塔拉州',
         'sub_keys': '博乐市~精河县~温泉县',
-        'sub_lfnames':
-            'Bole (Bortala) Shi~Jinghe (Jing) Xian~Wenquan (Arixang) Xian',
+        'sub_lfnames': 'Bole (Bortala) Shi~Jinghe (Jing) Xian~Wenquan (Arixang) Xian',
         'sub_lnames': 'Bole Shi~Jinghe Xian~Wenquan Xian',
         'sub_names': '博乐市~精河县~温泉县',
         'sub_zipexs': '833400~833300~833500',
@@ -15144,8 +15095,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Hami Diqu',
         'name': '哈密地区',
         'sub_keys': '巴里坤哈萨克自治县~哈密市~伊吾县',
-        'sub_lfnames':
-            'Barkol Kazak Zizhixian~Hami (Kumul) Shi~Yiwu (Aratürük) Xian',
+        'sub_lfnames': 'Barkol Kazak Zizhixian~Hami (Kumul) Shi~Yiwu (Aratürük) Xian',
         'sub_lnames': 'Barkol Xian~Hami Shi~Yiwu Xian',
         'sub_names': '巴里坤县~哈密市~伊吾县',
         'sub_zipexs': '839200~839000~839300',
@@ -15185,8 +15135,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lfname': 'Kashi (Kaxgar) Diqu',
         'lname': 'Kashi Diqu',
         'name': '喀什地区',
-        'sub_keys':
-            '巴楚县~伽师县~喀什市~麦盖提县~莎车县~疏附县~疏勒县~塔什库尔干塔吉克自治县~叶城县~英吉沙县~岳普湖县~泽普县',
+        'sub_keys': '巴楚县~伽师县~喀什市~麦盖提县~莎车县~疏附县~疏勒县~塔什库尔干塔吉克自治县~叶城县~英吉沙县~岳普湖县~泽普县',
         'sub_lfnames':
             'Bachu (Maralbexi) Xian~Jiashi (Payzawat) Xian~Kashi (Kaxgar) Shi~~Shache (Yarkant) Xian~~~Taxkorgan Tajik Zizhixian~Yecheng (Kargilik) Xian~~~Zepu (Poskam) Xian',
         'sub_lnames':
@@ -15396,8 +15345,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Bohu Xian~Hejing Xian~Hoxud Xian~Korla Shi~Luntai Xian~Qiemo Xian~Ruoqiang Xian~Yuli Xian~Yanqi Xian',
         'sub_names': '博湖县~和静县~和硕县~库尔勒市~轮台县~且末县~若羌县~尉犁县~焉耆县',
-        'sub_zipexs':
-            '841400~841300~841200~841000~841600~841900~841800~841500~841100',
+        'sub_zipexs': '841400~841300~841200~841000~841600~841900~841800~841500~841100',
         'zipex': '841000'
       },
       'CN/新疆维吾尔自治区/巴音郭楞蒙古自治州/且末县': {
@@ -15570,8 +15518,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Aksu Shi~Awat Xian~Baicheng Xian~Kalpin Xian~Kuqa Xian~Xayar Xian~Wensu Xian~Wushi Xian~Xinhe Xian',
         'sub_names': '阿克苏市~阿瓦提县~拜城县~柯坪县~库车县~沙雅县~温宿县~乌什县~新和县',
-        'sub_zipexs':
-            '843000~843200~842300~843600~842000~842200~843100~843400~842100',
+        'sub_zipexs': '843000~843200~842300~843600~842000~842200~843100~843400~842100',
         'zipex': '843000'
       },
       'CN/新疆维吾尔自治区/阿克苏地区/乌什县': {
@@ -15742,8 +15689,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_keys': '常州市~淮安市~连云港市~南京市~南通市~苏州市~宿迁市~泰州市~无锡市~徐州市~盐城市~扬州市~镇江市',
         'sub_lnames':
             "Changzhou Shi~Huai'an Shi~Lianyungang Shi~Nanjing Shi~Nantong Shi~Suzhou Shi~Suqian Shi~Taizhou Shi~Wuxi Shi~Xuzhou Shi~Yancheng Shi~Yangzhou Shi~Zhenjiang Shi",
-        'sub_mores':
-            'true~true~true~true~true~true~true~true~true~true~true~true~true',
+        'sub_mores': 'true~true~true~true~true~true~true~true~true~true~true~true~true',
         'sub_names': '常州市~淮安市~连云港市~南京市~南通市~苏州市~宿迁市~泰州市~无锡市~徐州市~盐城市~扬州市~镇江市',
         'sub_zipexs':
             '213003~223001~222002~210008~226001~215002~223800~225300~214001~221003~224005~225002~212001'
@@ -16229,8 +16175,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             "Beitang Qu~Binhu Qu~Chong'an Qu~Huishan Qu~Jiangyin Shi~Liangxi Qu~Nanchang Qu~Xishan Qu~Xinwu Qu~Yixing Shi",
         'sub_names': '北塘区~滨湖区~崇安区~惠山区~江阴市~梁溪区~南长区~锡山区~新吴区~宜兴市',
-        'sub_zipexs':
-            '214044~214062~214002~214187~214400~~214021~214101~~214200',
+        'sub_zipexs': '214044~214062~214002~214187~214400~~214021~214101~~214200',
         'zipex': '214001'
       },
       'CN/江苏省/无锡市/北塘区': {
@@ -16459,8 +16404,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Binhai Xian~Dafeng Shi~Dongtai Shi~Funing Xian~Jianhu Xian~Sheyang Xian~Tinghu Qu~Xiangshui Xian~Yandu Qu',
         'sub_names': '滨海县~大丰市~东台市~阜宁县~建湖县~射阳县~亭湖区~响水县~盐都区',
-        'sub_zipexs':
-            '224500~224100~224200~224400~224700~224300~224005~224600~224055',
+        'sub_zipexs': '224500~224100~224200~224400~224700~224300~224005~224600~224055',
         'zipex': '224005'
       },
       'CN/江苏省/盐城市/东台市': {
@@ -16545,8 +16489,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Changshu Shi~Gusu Qu~Huqiu Qu~Kunshan Shi~Taicang Shi~Wujiang Qu~Wuzhong Qu~Xiangcheng Qu~Zhangjiagang Shi',
         'sub_names': '常熟市~姑苏区~虎丘区~昆山市~太仓市~吴江区~吴中区~相城区~张家港市',
-        'sub_zipexs':
-            '215500~215000~215004~215300~215400~215200~215128~215131~215600',
+        'sub_zipexs': '215500~215000~215004~215300~215400~215200~215128~215131~215600',
         'zipex': '215002'
       },
       'CN/江苏省/苏州市/吴中区': {
@@ -16996,8 +16939,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Anyi Xian~Donghu Qu~Jinxian Xian~Nanchang Xian~Qingshanhu Qu~Qingyunpu Qu~Wanli Qu~Xihu Qu~Xinjian Xian',
         'sub_names': '安义县~东湖区~进贤县~南昌县~青山湖区~青云谱区~湾里区~西湖区~新建县',
-        'sub_zipexs':
-            '330500~330006~331700~330200~330006~330001~330004~330009~330100',
+        'sub_zipexs': '330500~330006~331700~330200~330006~330001~330004~330009~330100',
         'zipex': '330008'
       },
       'CN/江西省/南昌市/东湖区': {
@@ -17465,8 +17407,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Pingxiang Shi',
         'name': '萍乡市',
         'sub_keys': '安源区~莲花县~芦溪县~上栗县~湘东区',
-        'sub_lnames':
-            'Anyuan Qu~Lianhua Xian~Luxi Xian~Shangli Xian~Xiangdong Qu',
+        'sub_lnames': 'Anyuan Qu~Lianhua Xian~Luxi Xian~Shangli Xian~Xiangdong Qu',
         'sub_names': '安源区~莲花县~芦溪县~上栗县~湘东区',
         'sub_zipexs': '337035~337100~337253~337300~337016',
         'zipex': '337002'
@@ -18166,8 +18107,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Zhangjiakou Shi',
         'name': '张家口市',
-        'sub_keys':
-            '赤城县~崇礼县~沽源县~怀安县~怀来县~康保县~桥东区~桥西区~尚义县~万全县~蔚县~下花园区~宣化区~宣化县~阳原县~张北县~涿鹿县',
+        'sub_keys': '赤城县~崇礼县~沽源县~怀安县~怀来县~康保县~桥东区~桥西区~尚义县~万全县~蔚县~下花园区~宣化区~宣化县~阳原县~张北县~涿鹿县',
         'sub_lnames':
             "Chicheng Xian~Chongli Xian~Guyuan Xian~Huai'an Xian~Huailai Xian~Kangbao Xian~Qiaodong Qu~Qiaoxi Qu~Shangyi Xian~Wanquan Xian~Yu Xian~Xiahuayuan Qu~Xuanhua Qu~Xuanhua Xian~Yangyuan Xian~Zhangbei Xian~Zhuolu Xian",
         'sub_names':
@@ -18318,8 +18258,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Chengde Shi',
         'name': '承德市',
-        'sub_keys':
-            '承德县~丰宁满族自治县~宽城满族自治县~隆化县~滦平县~平泉县~双滦区~双桥区~围场满族蒙古族自治县~兴隆县~鹰手营子矿区',
+        'sub_keys': '承德县~丰宁满族自治县~宽城满族自治县~隆化县~滦平县~平泉县~双滦区~双桥区~围场满族蒙古族自治县~兴隆县~鹰手营子矿区',
         'sub_lfnames':
             '~Fengning Manzu Zizhixian~Kuancheng Manzu Zizhixian~~~~~~Weichang Manzu Mongolzu Zizhixian~~',
         'sub_lnames':
@@ -18426,13 +18365,11 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Cangzhou Shi',
         'name': '沧州市',
-        'sub_keys':
-            '沧县~东光县~海兴县~河间市~黄骅市~孟村回族自治县~南皮县~泊头市~青县~任丘市~肃宁县~吴桥县~献县~新华区~盐山县~运河区',
+        'sub_keys': '沧县~东光县~海兴县~河间市~黄骅市~孟村回族自治县~南皮县~泊头市~青县~任丘市~肃宁县~吴桥县~献县~新华区~盐山县~运河区',
         'sub_lfnames': '~~~~~Mengcun Huizu Zizhixian~~~~~~~~~~',
         'sub_lnames':
             'Cang Xian~Dongguang Xian~Haixing Xian~Hejian Shi~Huanghua Shi~Mengcun Xian~Nanpi Xian~Botou Shi~Qing Xian~Renqiu Shi~Suning Xian~Wuqiao Xian~Xian Xian~Xinhua Qu~Yanshan Xian~Yunhe Qu',
-        'sub_names':
-            '沧县~东光县~海兴县~河间市~黄骅市~孟村县~南皮县~泊头市~青县~任丘市~肃宁县~吴桥县~献县~新华区~盐山县~运河区',
+        'sub_names': '沧县~东光县~海兴县~河间市~黄骅市~孟村县~南皮县~泊头市~青县~任丘市~肃宁县~吴桥县~献县~新华区~盐山县~运河区',
         'sub_zipexs':
             '061000~061600~061200~062450~061100~061400~061500~062150~062650~062550~062350~061800~062250~061000~061300~061000',
         'zipex': '061001'
@@ -19292,8 +19229,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Sanmenxia Shi',
         'name': '三门峡市',
         'sub_keys': '湖滨区~灵宝市~卢氏县~渑池县~陕县~义马市',
-        'sub_lnames':
-            'Hubin Qu~Lingbao Shi~Lushi Xian~Mianchi Xian~Shan Xian~Yima Shi',
+        'sub_lnames': 'Hubin Qu~Lingbao Shi~Lushi Xian~Mianchi Xian~Shan Xian~Yima Shi',
         'sub_names': '湖滨区~灵宝市~卢氏县~渑池县~陕县~义马市',
         'sub_zipexs': '472000~472500~472200~472400~472100~472300',
         'zipex': '472000'
@@ -19662,8 +19598,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Liangyuan Qu~Minquan Xian~Ningling Xian~Sui Xian~Suiyang Qu~Xiayi Xian~Yongcheng Shi~Yucheng Xian~Zhecheng Xian',
         'sub_names': '梁园区~民权县~宁陵县~睢县~睢阳区~夏邑县~永城市~虞城县~柘城县',
-        'sub_zipexs':
-            '476000~476600~476700~476900~476100~476400~456550~476100~476200',
+        'sub_zipexs': '476000~476600~476700~476900~476100~476400~456550~476100~476200',
         'zipex': '476000'
       },
       'CN/河南省/商丘市/夏邑县': {
@@ -19748,8 +19683,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             "Anyang Xian~Beiguan Qu~Hua Xian~Linzhou Shi~Long'an Qu~Neihuang Xian~Tangyin Xian~Wenfeng Qu~Yindou Qu",
         'sub_names': '安阳县~北关区~滑县~林州市~龙安区~内黄县~汤阴县~文峰区~殷都区',
-        'sub_zipexs':
-            '455000~455001~456400~456550~455001~456350~456150~455000~455004',
+        'sub_zipexs': '455000~455001~456400~456550~455001~456350~456150~455000~455004',
         'zipex': '455000'
       },
       'CN/河南省/安阳市/内黄县': {
@@ -20128,12 +20062,10 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Luoyang Shi',
         'name': '洛阳市',
-        'sub_keys':
-            '瀍河回族区~吉利区~涧西区~老城区~栾川县~洛龙区~洛宁县~孟津县~汝阳县~嵩县~西工区~新安县~偃师市~伊川县~宜阳县',
+        'sub_keys': '瀍河回族区~吉利区~涧西区~老城区~栾川县~洛龙区~洛宁县~孟津县~汝阳县~嵩县~西工区~新安县~偃师市~伊川县~宜阳县',
         'sub_lnames':
             "Chanhe Huizu Qu~Jili Qu~Jianxi Qu~Laocheng Qu~Luanchuan Xian~Luolong Qu~Luoning Xian~Mengjin Xian~Ruyang Xian~Song Xian~Xigong Qu~Xin'an Xian~Yanshi Shi~Yichuan Xian~Yiyang Xian",
-        'sub_names':
-            '瀍河回族区~吉利区~涧西区~老城区~栾川县~洛龙区~洛宁县~孟津县~汝阳县~嵩县~西工区~新安县~偃师市~伊川县~宜阳县',
+        'sub_names': '瀍河回族区~吉利区~涧西区~老城区~栾川县~洛龙区~洛宁县~孟津县~汝阳县~嵩县~西工区~新安县~偃师市~伊川县~宜阳县',
         'sub_zipexs':
             '471002~471012~471003~471002~471500~471000~471700~471100~471200~471400~471000~471800~471900~471300~471600',
         'zipex': '471000'
@@ -20265,8 +20197,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Luohe Shi',
         'name': '漯河市',
         'sub_keys': '临颍县~舞阳县~郾城区~源汇区~召陵区',
-        'sub_lnames':
-            'Linying Xian~Wuyang Xian~Yancheng Qu~Yuanhui Qu~Zhaoling Qu',
+        'sub_lnames': 'Linying Xian~Wuyang Xian~Yancheng Qu~Yuanhui Qu~Zhaoling Qu',
         'sub_names': '临颍县~舞阳县~郾城区~源汇区~召陵区',
         'sub_zipexs': '462600~462400~462300~462000~462300',
         'zipex': '462000'
@@ -20817,8 +20748,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Jinyun Xian~Jingning Xian~Liandu Qu~Longquan Shi~Qingtian Xian~Qingyuan Xian~Songyang Xian~Suichang Xian~Yunhe Xian',
         'sub_names': '缙云县~景宁县~莲都区~龙泉市~青田县~庆元县~松阳县~遂昌县~云和县',
-        'sub_zipexs':
-            '321400~323500~323000~323700~323900~323800~323400~323300~323600',
+        'sub_zipexs': '321400~323500~323000~323700~323900~323800~323400~323300~323600',
         'zipex': '323000'
       },
       'CN/浙江省/丽水市/云和县': {
@@ -20904,8 +20834,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Huangyan Qu~Jiaojiang Qu~Linhai Shi~Luqiao Qu~Sanmen Xian~Tiantai Xian~Wenling Shi~Xianju Xian~Yuhuan Xian',
         'sub_names': '黄岩区~椒江区~临海市~路桥区~三门县~天台县~温岭市~仙居县~玉环县',
-        'sub_zipexs':
-            '318020~318000~317000~318050~317100~317200~317500~317300~317600',
+        'sub_zipexs': '318020~318000~317000~318050~317100~317200~317500~317300~317600',
         'zipex': '318000'
       },
       'CN/浙江省/台州市/三门县': {
@@ -21378,8 +21307,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Huzhou Shi',
         'name': '湖州市',
         'sub_keys': '安吉县~德清县~南浔区~吴兴区~长兴县',
-        'sub_lnames':
-            'Anji Xian~Deqing Xian~Nanxun Qu~Wuxing Qu~Changxing Xian',
+        'sub_lnames': 'Anji Xian~Deqing Xian~Nanxun Qu~Wuxing Qu~Changxing Xian',
         'sub_names': '安吉县~德清县~南浔区~吴兴区~长兴县',
         'sub_zipexs': '313300~313200~313009~313000~313100',
         'zipex': '313000'
@@ -21600,8 +21528,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             "Dongyang Shi~Jindong Qu~Lanxi Shi~Pan'an Xian~Pujiang Xian~Wuyi Xian~Wucheng Qu~Yiwu Shi~Yongkang Shi",
         'sub_names': '东阳市~金东区~兰溪市~磐安县~浦江县~武义县~婺城区~义乌市~永康市',
-        'sub_zipexs':
-            '322100~321000~321100~322300~322200~321200~321000~322000~321300',
+        'sub_zipexs': '322100~321000~321100~322300~322200~321200~321000~322000~321300',
         'zipex': '321000'
       },
       'CN/浙江省/金华市/东阳市': {
@@ -22164,10 +22091,8 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Yichang Shi',
         'name': '宜昌市',
-        'sub_keys':
-            '当阳市~点军区~五峰土家族自治县~伍家岗区~西陵区~猇亭区~兴山县~夷陵区~宜都市~远安县~长阳土家族自治县~枝江市~秭归县',
-        'sub_lfnames':
-            '~~Wufeng Tujiazu Zizhixian~~~~~~~~Changyang Tujiazu Zizhixian~~',
+        'sub_keys': '当阳市~点军区~五峰土家族自治县~伍家岗区~西陵区~猇亭区~兴山县~夷陵区~宜都市~远安县~长阳土家族自治县~枝江市~秭归县',
+        'sub_lfnames': '~~Wufeng Tujiazu Zizhixian~~~~~~~~Changyang Tujiazu Zizhixian~~',
         'sub_lnames':
             "Dangyang Shi~Dianjun Qu~Wufeng Xian~Wujiagang Qu~Xiling Qu~Xiaoting Qu~Xingshan Xian~Yiling Qu~Yidu Shi~Yuan'an Xian~Changyang Xian~Zhijiang Shi~Zigui Xian",
         'sub_names': '当阳市~点军区~五峰县~伍家岗区~西陵区~猇亭区~兴山县~夷陵区~宜都市~远安县~长阳县~枝江市~秭归县',
@@ -22577,8 +22502,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Jingmen Shi',
         'name': '荆门市',
         'sub_keys': '东宝区~掇刀区~京山县~沙洋县~钟祥市',
-        'sub_lnames':
-            'Dongbao Qu~Duodao Qu~Jingshan Xian~Shayang Xian~Zhongxiang Shi',
+        'sub_lnames': 'Dongbao Qu~Duodao Qu~Jingshan Xian~Shayang Xian~Zhongxiang Shi',
         'sub_names': '东宝区~掇刀区~京山县~沙洋县~钟祥市',
         'sub_zipexs': '448004~448004~431800~448200~431900',
         'zipex': '448000'
@@ -22633,8 +22557,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Baokang Xian~Fancheng Qu~Gucheng Xian~Laohekou Shi~Nanzhang Xian~Xiangcheng Qu~Xiangzhou Qu~Yicheng Shi~Zaoyang Shi',
         'sub_names': '保康县~樊城区~谷城县~老河口市~南漳县~襄城区~襄州区~宜城市~枣阳市',
-        'sub_zipexs':
-            '441600~441001~441700~441800~441500~441021~441100~441400~441200',
+        'sub_zipexs': '441600~441001~441700~441800~441500~441021~441100~441400~441200',
         'zipex': '441021'
       },
       'CN/湖北省/襄阳市/保康县': {
@@ -22935,8 +22858,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Hunan Sheng',
         'name': '湖南省',
-        'sub_keys':
-            '常德市~郴州市~衡阳市~怀化市~娄底市~邵阳市~湘潭市~湘西土家族苗族自治州~益阳市~永州市~岳阳市~张家界市~长沙市~株洲市',
+        'sub_keys': '常德市~郴州市~衡阳市~怀化市~娄底市~邵阳市~湘潭市~湘西土家族苗族自治州~益阳市~永州市~岳阳市~张家界市~长沙市~株洲市',
         'sub_lfnames': '~~~~~~~Xiangxi Tujiazu Miaozu Zizhizhou~~~~~~',
         'sub_lnames':
             'Changde Shi~Chenzhou Shi~Hengyang Shi~Huaihua Shi~Loudi Shi~Shaoyang Shi~Xiangtan Shi~Xiangxi Zhou~Yiyang Shi~Yongzhou Shi~Yueyang Shi~Zhangjiajie Shi~Changsha Shi~Zhuzhou Shi',
@@ -23009,8 +22931,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Huarong Xian~Junshan Qu~Linxiang Shi~Miluo Shi~Pingjiang Xian~Xiangyin Xian~Yueyanglou Qu~Yueyang Xian~Yunxi Qu',
         'sub_names': '华容县~君山区~临湘市~汨罗市~平江县~湘阴县~岳阳楼区~岳阳县~云溪区',
-        'sub_zipexs':
-            '414200~414005~414300~414400~410400~410500~414000~414100~414003',
+        'sub_zipexs': '414200~414005~414300~414400~410400~410500~414000~414100~414003',
         'zipex': '414000'
       },
       'CN/湖南省/岳阳市/临湘市': {
@@ -23095,8 +23016,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Anxiang Xian~Dingcheng Qu~Hanshou Xian~Jinshi Shi~Li Xian~Linli Xian~Shimen Xian~Taoyuan Xian~Wuling Qu',
         'sub_names': '安乡县~鼎城区~汉寿县~津市市~澧县~临澧县~石门县~桃源县~武陵区',
-        'sub_zipexs':
-            '415600~415100~415900~415400~415500~415200~415300~415700~415000',
+        'sub_zipexs': '415600~415100~415900~415400~415500~415200~415300~415700~415000',
         'zipex': '415000'
       },
       'CN/湖南省/常德市/临澧县': {
@@ -23343,8 +23263,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Chaling Xian~Hetang Qu~Liling Shi~Lusong Qu~Shifeng Qu~Tianyuan Qu~Yanling Xian~You Xian~Zhuzhou Xian',
         'sub_names': '茶陵县~荷塘区~醴陵市~芦淞区~石峰区~天元区~炎陵县~攸县~株洲县',
-        'sub_zipexs':
-            '412400~412000~412200~412000~412005~412000~412500~412300~412100',
+        'sub_zipexs': '412400~412000~412200~412000~412005~412000~412500~412300~412100',
         'zipex': '412000'
       },
       'CN/湖南省/株洲市/天元区': {
@@ -23530,8 +23449,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Xiangtan Shi',
         'name': '湘潭市',
         'sub_keys': '韶山市~湘潭县~湘乡市~雨湖区~岳塘区',
-        'sub_lnames':
-            'Shaoshan Shi~Xiangtan Xian~Xiangxiang Shi~Yuhu Qu~Yuetang Qu',
+        'sub_lnames': 'Shaoshan Shi~Xiangtan Xian~Xiangxiang Shi~Yuhu Qu~Yuetang Qu',
         'sub_names': '韶山市~湘潭县~湘乡市~雨湖区~岳塘区',
         'sub_zipexs': '411300~411200~411400~411100~411101',
         'zipex': '411100'
@@ -24049,8 +23967,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Furong Qu~Kaifu Qu~Liuyang Shi~Ningxiang Xian~Tianxin Qu~Wangcheng Qu~Yuhua Qu~Yuelu Qu~Changsha Xian',
         'sub_names': '芙蓉区~开福区~浏阳市~宁乡县~天心区~望城区~雨花区~岳麓区~长沙县',
-        'sub_zipexs':
-            '410011~410005~410300~410600~410002~410200~410007~410006~410100',
+        'sub_zipexs': '410011~410005~410300~410600~410002~410200~410007~410006~410100',
         'zipex': '410005'
       },
       'CN/湖南省/长沙市/天心区': {
@@ -24152,10 +24069,8 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Gansu Sheng',
         'name': '甘肃省',
-        'sub_keys':
-            '白银市~定西市~甘南藏族自治州~嘉峪关市~金昌市~酒泉市~兰州市~临夏回族自治州~陇南市~平凉市~庆阳市~天水市~武威市~张掖市',
-        'sub_lfnames':
-            '~~Gannan Zangzu Zizhizhou~~~~~Linxia Huizu Zizhizhou~~~~~~',
+        'sub_keys': '白银市~定西市~甘南藏族自治州~嘉峪关市~金昌市~酒泉市~兰州市~临夏回族自治州~陇南市~平凉市~庆阳市~天水市~武威市~张掖市',
+        'sub_lfnames': '~~Gannan Zangzu Zizhizhou~~~~~Linxia Huizu Zizhizhou~~~~~~',
         'sub_lnames':
             'Baiyin Shi~Dingxi Shi~Gannan Zhou~Jiayuguan Shi~Jinchang Shi~Jiuquan Shi~Lanzhou Shi~Linxia Zhou~Longnan Shi~Pingliang Shi~Qingyang Shi~Tianshui Shi~Wuwei Shi~Zhangye Shi',
         'sub_mores':
@@ -24811,8 +24726,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Baiyin Shi',
         'name': '白银市',
         'sub_keys': '白银区~会宁县~景泰县~靖远县~平川区',
-        'sub_lnames':
-            'Baiyin Qu~Huining Xian~Jingtai Xian~Jingyuan Xian~Pingchuan Qu',
+        'sub_lnames': 'Baiyin Qu~Huining Xian~Jingtai Xian~Jingyuan Xian~Pingchuan Qu',
         'sub_names': '白银区~会宁县~景泰县~靖远县~平川区',
         'sub_zipexs': '730900~730700~730400~730600~730913',
         'zipex': '730900'
@@ -24967,8 +24881,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Cheng Xian~Tanchang Xian~Hui Xian~Kang Xian~Li Xian~Liangdang Xian~Wen Xian~Wudu Qu~Xihe Xian',
         'sub_names': '成县~宕昌县~徽县~康县~礼县~两当县~文县~武都区~西和县',
-        'sub_zipexs':
-            '742500~748500~742300~746500~742200~742400~746400~746000~742100',
+        'sub_zipexs': '742500~748500~742300~746500~742200~742400~746400~746000~742100',
         'zipex': '742500'
       },
       'CN/甘肃省/陇南市/两当县': {
@@ -25055,8 +24968,7 @@ Map<String, Map<String, String>> get cnJson => {
             'Fuzhou Shi~Longyan Shi~Nanping Shi~Ningde Shi~Putian Shi~Quanzhou Shi~Sanming Shi~Xiamen Shi~Zhangzhou Shi',
         'sub_mores': 'true~true~true~true~true~true~true~true~true',
         'sub_names': '福州市~龙岩市~南平市~宁德市~莆田市~泉州市~三明市~厦门市~漳州市',
-        'sub_zipexs':
-            '350001~364000~353000~352100~351100~362000~365000~361012~363000'
+        'sub_zipexs': '350001~364000~353000~352100~351100~362000~365000~361012~363000'
       },
       'CN/福建省/三明市': {
         'id': 'data/CN/福建省/三明市',
@@ -25269,8 +25181,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Xiamen Shi',
         'name': '厦门市',
         'sub_keys': '海沧区~湖里区~集美区~思明区~同安区~翔安区',
-        'sub_lnames':
-            "Haicang Qu~Huli Qu~Jimei Qu~Siming Qu~Tong'an Qu~Xiang'an Qu",
+        'sub_lnames': "Haicang Qu~Huli Qu~Jimei Qu~Siming Qu~Tong'an Qu~Xiang'an Qu",
         'sub_names': '海沧区~湖里区~集美区~思明区~同安区~翔安区',
         'sub_zipexs': '361022~361006~361021~361001~361100~361003',
         'zipex': '361012'
@@ -25333,8 +25244,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             "Fu'an Shi~Fuding Shi~Gutian Xian~Jiaocheng Qu~Pingnan Xian~Shouning Xian~Xiapu Xian~Zherong Xian~Zhouning Xian",
         'sub_names': '福安市~福鼎市~古田县~蕉城区~屏南县~寿宁县~霞浦县~柘荣县~周宁县',
-        'sub_zipexs':
-            '355000~355200~352200~352100~352300~355500~355100~355300~355400',
+        'sub_zipexs': '355000~355200~352200~352100~352300~355500~355100~355300~355400',
         'zipex': '352100'
       },
       'CN/福建省/宁德市/古田县': {
@@ -25745,8 +25655,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Putian Shi',
         'name': '莆田市',
         'sub_keys': '城厢区~涵江区~荔城区~仙游县~秀屿区',
-        'sub_lnames':
-            'Chengxiang Qu~Hanjiang Qu~Licheng Qu~Xianyou Xian~Xiuyu Qu',
+        'sub_lnames': 'Chengxiang Qu~Hanjiang Qu~Licheng Qu~Xianyou Xian~Xiuyu Qu',
         'sub_names': '城厢区~涵江区~荔城区~仙游县~秀屿区',
         'sub_zipexs': '351100~351111~351100~351200~351152',
         'zipex': '351100'
@@ -26568,16 +26477,14 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Guizhou Sheng',
         'name': '贵州省',
-        'sub_keys':
-            '安顺市~毕节地区~贵阳市~六盘水市~黔东南苗族侗族自治州~黔南布依族苗族自治州~黔西南布依族苗族自治州~铜仁地区~遵义市',
+        'sub_keys': '安顺市~毕节地区~贵阳市~六盘水市~黔东南苗族侗族自治州~黔南布依族苗族自治州~黔西南布依族苗族自治州~铜仁地区~遵义市',
         'sub_lfnames':
             '~~~~Qiandongnan Miaozu Dongzu Zizhizhou~Qiannan Buyeizu Miaozu Zizhizhou~Qianxinan Buyeizu Miaozu Zizhizhou~~',
         'sub_lnames':
             'Anshun Shi~Bijie Diqu~Guiyang Shi~Liupanshui Shi~Qiandongnan Zhou~Qiannan Zhou~Qianxinan Zhou~Tongren Diqu~Zunyi Shi',
         'sub_mores': 'true~true~true~true~true~true~true~true~true',
         'sub_names': '安顺市~毕节地区~贵阳市~六盘水市~黔东南州~黔南州~黔西南州~铜仁地区~遵义市',
-        'sub_zipexs':
-            '561000~551700~550003~553001~556000~558000~562400~554300~563000'
+        'sub_zipexs': '561000~551700~550003~553001~556000~558000~562400~554300~563000'
       },
       'CN/贵州省/六盘水市': {
         'id': 'data/CN/贵州省/六盘水市',
@@ -26999,8 +26906,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Tongren Diqu',
         'name': '铜仁地区',
-        'sub_keys':
-            '德江县~江口县~石阡县~思南县~松桃苗族自治县~铜仁市~万山特区~沿河土家族自治县~印江土家族苗族自治县~玉屏侗族自治县',
+        'sub_keys': '德江县~江口县~石阡县~思南县~松桃苗族自治县~铜仁市~万山特区~沿河土家族自治县~印江土家族苗族自治县~玉屏侗族自治县',
         'sub_lfnames':
             '~~~~Songtao Miaozu Zizhixian~~~Yanhe Tujiazu Zizhixian~Yinjiang Tujiazu Miaozu Zizhixian~Yuping Dongzu Zizhixian',
         'sub_lnames':
@@ -27101,12 +27007,10 @@ Map<String, Map<String, String>> get cnJson => {
         'lfname': 'Qiandongnan Miaozu Dongzu Zizhizhou',
         'lname': 'Qiandongnan Zhou',
         'name': '黔东南州',
-        'sub_keys':
-            '岑巩县~从江县~丹寨县~黄平县~剑河县~锦屏县~凯里市~雷山县~黎平县~麻江县~榕江县~三穗县~施秉县~台江县~天柱县~镇远县',
+        'sub_keys': '岑巩县~从江县~丹寨县~黄平县~剑河县~锦屏县~凯里市~雷山县~黎平县~麻江县~榕江县~三穗县~施秉县~台江县~天柱县~镇远县',
         'sub_lnames':
             'Cengong Xian~Congjiang Xian~Danzhai Xian~Huangping Xian~Jianhe Xian~Jinping Xian~Kaili Shi~Leishan Xian~Liping Xian~Majiang Xian~Rongjiang Xian~Sansui Xian~Shibing Xian~Taijiang Xian~Tianzhu Xian~Zhenyuan Xian',
-        'sub_names':
-            '岑巩县~从江县~丹寨县~黄平县~剑河县~锦屏县~凯里市~雷山县~黎平县~麻江县~榕江县~三穗县~施秉县~台江县~天柱县~镇远县',
+        'sub_names': '岑巩县~从江县~丹寨县~黄平县~剑河县~锦屏县~凯里市~雷山县~黎平县~麻江县~榕江县~三穗县~施秉县~台江县~天柱县~镇远县',
         'sub_zipexs':
             '557800~557400~557500~556100~556400~556700~556000~557100~557300~557600~557200~556500~556200~556300~556600~557700',
         'zipex': '556000'
@@ -27754,8 +27658,7 @@ Map<String, Map<String, String>> get cnJson => {
         'name': '本溪市',
         'sub_keys': '本溪满族自治县~桓仁满族自治县~明山区~南芬区~平山区~溪湖区',
         'sub_lfnames': 'Benxi Manzu Zizhixian~Huanren Manzu Zizhixian~~~~',
-        'sub_lnames':
-            'Benxi Xian~Huanren Xian~Mingshan Qu~Nanfen Qu~Pingshan Qu~Xihu Qu',
+        'sub_lnames': 'Benxi Xian~Huanren Xian~Mingshan Qu~Nanfen Qu~Pingshan Qu~Xihu Qu',
         'sub_names': '本溪县~桓仁县~明山区~南芬区~平山区~溪湖区',
         'sub_zipexs': '117100~117200~117021~117014~117000~117002',
         'zipex': '117000'
@@ -29784,8 +29687,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Qinghai Sheng',
         'name': '青海省',
-        'sub_keys':
-            '果洛藏族自治州~海北藏族自治州~海东市~海南藏族自治州~海西蒙古族藏族自治州~黄南藏族自治州~西宁市~玉树藏族自治州',
+        'sub_keys': '果洛藏族自治州~海北藏族自治州~海东市~海南藏族自治州~海西蒙古族藏族自治州~黄南藏族自治州~西宁市~玉树藏族自治州',
         'sub_lfnames':
             'Golog Zangzu Zizhizhou~Haibei Zangzu Zizhizhou~~Hainan Zangzu Zizhizhou~Haixi Mongolzu Zangzu Zizhizhou~Huangnan Zangzu Zizhizhou~~Yushu Zangzu Zizhizhou',
         'sub_lnames':
@@ -29978,8 +29880,7 @@ Map<String, Map<String, String>> get cnJson => {
         'lname': 'Hainan Zhou',
         'name': '海南州',
         'sub_keys': '共和县~贵德县~贵南县~同德县~兴海县',
-        'sub_lnames':
-            'Gonghe Xian~Guide Xian~Guinan Xian~Tongde Xian~Xinghai Xian',
+        'sub_lnames': 'Gonghe Xian~Guide Xian~Guinan Xian~Tongde Xian~Xinghai Xian',
         'sub_names': '共和县~贵德县~贵南县~同德县~兴海县',
         'sub_zipexs': '813000~811700~813100~813200~813300',
         'zipex': '813000'
@@ -30298,14 +30199,11 @@ Map<String, Map<String, String>> get cnJson => {
         'lang': 'zh',
         'lname': 'Heilongjiang Sheng',
         'name': '黑龙江省',
-        'sub_keys':
-            '大庆市~大兴安岭地区~哈尔滨市~鹤岗市~黑河市~鸡西市~佳木斯市~牡丹江市~七台河市~齐齐哈尔市~双鸭山市~绥化市~伊春市',
+        'sub_keys': '大庆市~大兴安岭地区~哈尔滨市~鹤岗市~黑河市~鸡西市~佳木斯市~牡丹江市~七台河市~齐齐哈尔市~双鸭山市~绥化市~伊春市',
         'sub_lnames':
             'Daqing Shi~Da Hinggan Ling Diqu~Harbin Shi~Hegang Shi~Heihe Shi~Jixi Shi~Jiamusi Shi~Mudanjiang Shi~Qitaihe Shi~Qiqihar Shi~Shuangyashan Shi~Suihua Shi~Yichun Shi',
-        'sub_mores':
-            'true~true~true~true~true~true~true~true~true~true~true~true~true',
-        'sub_names':
-            '大庆市~大兴安岭地区~哈尔滨市~鹤岗市~黑河市~鸡西市~佳木斯市~牡丹江市~七台河市~齐齐哈尔市~双鸭山市~绥化市~伊春市',
+        'sub_mores': 'true~true~true~true~true~true~true~true~true~true~true~true~true',
+        'sub_names': '大庆市~大兴安岭地区~哈尔滨市~鹤岗市~黑河市~鸡西市~佳木斯市~牡丹江市~七台河市~齐齐哈尔市~双鸭山市~绥化市~伊春市',
         'sub_zipexs':
             '163311~165000~150010~154100~164300~158100~154002~157000~154600~161005~155100~152000~153000'
       },
@@ -30912,8 +30810,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Datong Qu~Dorbod Xian~Honggang Qu~Lindian Xian~Longfeng Qu~Ranghulu Qu~Sairt Qu~Zhaoyuan Xian~Zhaozhou Xian',
         'sub_names': '大同区~杜尔伯特县~红岗区~林甸县~龙凤区~让胡路区~萨尔图区~肇源县~肇州县',
-        'sub_zipexs':
-            '163515~166200~163511~166300~163711~163712~163001~166500~166400',
+        'sub_zipexs': '163515~166200~163511~166300~163711~163712~163001~166500~166400',
         'zipex': '163311'
       },
       'CN/黑龙江省/大庆市/大同区': {
@@ -31187,8 +31084,7 @@ Map<String, Map<String, String>> get cnJson => {
         'sub_lnames':
             'Chengzihe Qu~Keyao Qu~Hengshan Qu~Hulin Shi~Jidong Xian~Jiguan Qu~Lishu Qu~Mashan Qu~Mishan Shi',
         'sub_names': '城子河区~滴道区~恒山区~虎林市~鸡东县~鸡冠区~梨树区~麻山区~密山市',
-        'sub_zipexs':
-            '158170~158150~158130~158400~158200~158100~158160~158180~158300',
+        'sub_zipexs': '158170~158150~158130~158400~158200~158100~158160~158180~158300',
         'zipex': '158100'
       },
       'CN/黑龙江省/鸡西市/城子河区': {

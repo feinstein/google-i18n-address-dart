@@ -16,11 +16,7 @@ Map<String, Map<String, String>> get kyJson => {
         'zip': 'KY\\d-\\d{4}',
         'zipex': 'KY1-1100,KY1-1702,KY2-2101'
       },
-      'KY/Cayman Brac': {
-        'id': 'data/KY/Cayman Brac',
-        'key': 'Cayman Brac',
-        'lang': 'en'
-      },
+      'KY/Cayman Brac': {'id': 'data/KY/Cayman Brac', 'key': 'Cayman Brac', 'lang': 'en'},
       'KY/Grand Cayman': {
         'id': 'data/KY/Grand Cayman',
         'key': 'Grand Cayman',

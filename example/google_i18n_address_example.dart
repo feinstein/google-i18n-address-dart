@@ -37,8 +37,7 @@ void main() {
 
   // Example 3: Getting validation rules
   print('Example 3: Getting validation rules');
-  final rules =
-      getValidationRules({'country_code': 'US', 'country_area': 'CA'});
+  final rules = getValidationRules({'country_code': 'US', 'country_area': 'CA'});
   print('Required fields: ${rules.requiredFields}');
   print('Postal code examples: ${rules.postalCodeExamples}');
   print('');

@@ -43,12 +43,7 @@ Map<String, Map<String, String>> get coJson => {
         'key': 'Atlántico',
         'lang': 'es'
       },
-      'CO/Bogotá': {
-        'id': 'data/CO/Bogotá',
-        'isoid': 'DC',
-        'key': 'Bogotá',
-        'lang': 'es'
-      },
+      'CO/Bogotá': {'id': 'data/CO/Bogotá', 'isoid': 'DC', 'key': 'Bogotá', 'lang': 'es'},
       'CO/Bolívar': {
         'id': 'data/CO/Bolívar',
         'isoid': 'BOL',
@@ -79,24 +74,9 @@ Map<String, Map<String, String>> get coJson => {
         'key': 'Casanare',
         'lang': 'es'
       },
-      'CO/Cauca': {
-        'id': 'data/CO/Cauca',
-        'isoid': 'CAU',
-        'key': 'Cauca',
-        'lang': 'es'
-      },
-      'CO/Cesar': {
-        'id': 'data/CO/Cesar',
-        'isoid': 'CES',
-        'key': 'Cesar',
-        'lang': 'es'
-      },
-      'CO/Chocó': {
-        'id': 'data/CO/Chocó',
-        'isoid': 'CHO',
-        'key': 'Chocó',
-        'lang': 'es'
-      },
+      'CO/Cauca': {'id': 'data/CO/Cauca', 'isoid': 'CAU', 'key': 'Cauca', 'lang': 'es'},
+      'CO/Cesar': {'id': 'data/CO/Cesar', 'isoid': 'CES', 'key': 'Cesar', 'lang': 'es'},
+      'CO/Chocó': {'id': 'data/CO/Chocó', 'isoid': 'CHO', 'key': 'Chocó', 'lang': 'es'},
       'CO/Cundinamarca': {
         'id': 'data/CO/Cundinamarca',
         'isoid': 'CUN',
@@ -121,12 +101,7 @@ Map<String, Map<String, String>> get coJson => {
         'key': 'Guaviare',
         'lang': 'es'
       },
-      'CO/Huila': {
-        'id': 'data/CO/Huila',
-        'isoid': 'HUI',
-        'key': 'Huila',
-        'lang': 'es'
-      },
+      'CO/Huila': {'id': 'data/CO/Huila', 'isoid': 'HUI', 'key': 'Huila', 'lang': 'es'},
       'CO/La Guajira': {
         'id': 'data/CO/La Guajira',
         'isoid': 'LAG',
@@ -139,12 +114,7 @@ Map<String, Map<String, String>> get coJson => {
         'key': 'Magdalena',
         'lang': 'es'
       },
-      'CO/Meta': {
-        'id': 'data/CO/Meta',
-        'isoid': 'MET',
-        'key': 'Meta',
-        'lang': 'es'
-      },
+      'CO/Meta': {'id': 'data/CO/Meta', 'isoid': 'MET', 'key': 'Meta', 'lang': 'es'},
       'CO/Nariño': {
         'id': 'data/CO/Nariño',
         'isoid': 'NAR',
@@ -187,12 +157,7 @@ Map<String, Map<String, String>> get coJson => {
         'key': 'Santander',
         'lang': 'es'
       },
-      'CO/Sucre': {
-        'id': 'data/CO/Sucre',
-        'isoid': 'SUC',
-        'key': 'Sucre',
-        'lang': 'es'
-      },
+      'CO/Sucre': {'id': 'data/CO/Sucre', 'isoid': 'SUC', 'key': 'Sucre', 'lang': 'es'},
       'CO/Tolima': {
         'id': 'data/CO/Tolima',
         'isoid': 'TOL',

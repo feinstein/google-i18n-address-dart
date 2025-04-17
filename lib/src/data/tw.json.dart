@@ -729,12 +729,10 @@ Map<String, Map<String, String>> get twJson => {
         'key': '台東縣',
         'lang': 'zh-Hant',
         'lname': 'Taitung County',
-        'sub_keys':
-            '大武鄉~太麻里鄉~台東市~成功鎮~池上鄉~卑南鄉~延平鄉~東河鄉~金峰鄉~長濱鄉~海端鄉~鹿野鄉~達仁鄉~綠島鄉~關山鎮~蘭嶼鄉',
+        'sub_keys': '大武鄉~太麻里鄉~台東市~成功鎮~池上鄉~卑南鄉~延平鄉~東河鄉~金峰鄉~長濱鄉~海端鄉~鹿野鄉~達仁鄉~綠島鄉~關山鎮~蘭嶼鄉',
         'sub_lnames':
             'Dawu Township~Taimali Township~Taitung City~Chenggong Township~Chishang Township~Beinan Township~Yanping Township~Donghe Township~Jinfeng Township~Changbin Township~Haiduan Township~Luye Township~Daren Township~Lüdao Township~Guanshan Township~Lanyu Township',
-        'sub_zips':
-            '965~963~950~961~958~954~953~959~964~962~957~955~966~951~956~952',
+        'sub_zips': '965~963~950~961~958~954~953~959~964~962~957~955~966~951~956~952',
         'zip': '9[56]',
         'zipex': '950,966'
       },
@@ -2375,8 +2373,7 @@ Map<String, Map<String, String>> get twJson => {
         'lang': 'zh-Hant',
         'lname': 'Lienchiang County',
         'sub_keys': '北竿鄉~東引鄉~南竿鄉~莒光鄉',
-        'sub_lnames':
-            'Beigan Township~Dongyin Township~Nangan Township~Juguang Township',
+        'sub_lnames': 'Beigan Township~Dongyin Township~Nangan Township~Juguang Township',
         'sub_zips': '210~212~209~211',
         'zip': '209|21[012]',
         'zipex': '209,212'

@@ -695,13 +695,7 @@ Map<String, Map<String, String>> get esJson => {
         'name': 'Huesca',
         'zip': '22'
       },
-      'ES/J': {
-        'id': 'data/ES/J',
-        'key': 'J',
-        'lang': 'es',
-        'name': 'Jaén',
-        'zip': '23'
-      },
+      'ES/J': {'id': 'data/ES/J', 'key': 'J', 'lang': 'es', 'name': 'Jaén', 'zip': '23'},
       'ES/J--ca': {
         'id': 'data/ES/J--ca',
         'key': 'J',
