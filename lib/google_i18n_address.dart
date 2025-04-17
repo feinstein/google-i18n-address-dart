@@ -1,4 +1,3 @@
-export 'src/downloader.dart';
 export 'src/formatting.dart';
 export 'src/latinization.dart';
 export 'src/models.dart';

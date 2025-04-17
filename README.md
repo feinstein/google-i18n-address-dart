@@ -24,11 +24,17 @@ dart pub get
 This package includes a tool to update the address data from Google's i18n address database. The tool downloads JSON files and converts them to Dart getters for lazy loading.
 
 ```bash
-# Update all countries
+# Update all countries (download and convert to Dart)
 dart tool/update_json_files.dart
 
 # Update a specific country (e.g., US)
 dart tool/update_json_files.dart --country=us
+
+# Only download the JSON files without converting to Dart
+dart tool/update_json_files.dart --download
+
+# Only convert existing JSON files to Dart
+dart tool/update_json_files.dart --convert
 
 # Show all options
 dart tool/update_json_files.dart --help
