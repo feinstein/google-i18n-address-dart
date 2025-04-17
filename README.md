@@ -19,6 +19,23 @@ Then run:
 dart pub get
 ```
 
+## Updating Address Data
+
+This package includes a tool to update the address data from Google's i18n address database. The tool downloads JSON files and converts them to Dart getters for lazy loading.
+
+```bash
+# Update all countries
+dart tool/update_json_files.dart
+
+# Update a specific country (e.g., US)
+dart tool/update_json_files.dart --country=us
+
+# Show all options
+dart tool/update_json_files.dart --help
+```
+
+For more details, see the [tool README](tool/README.md).
+
 ## Address Validation
 
 The `normalizeAddress` function checks the address and either returns its canonical form (suitable for storage and use in addressing envelopes) or throws an `InvalidAddressError` exception that contains a list of errors.
