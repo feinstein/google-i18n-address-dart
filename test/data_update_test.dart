@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'dart:io';
 
+import 'package:google_i18n_address/src/data/us.json.dart';
 import 'package:http/http.dart' as http;
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
@@ -444,7 +445,11 @@ void main() {
       skip:
           'Skipping this test as it is a convenience test to be used manually to test the downloader',
       () async {
-    // This was part of the original test file but might be skipped
-    // as it seems to be a manual verification test
+    final referenceJsonFile = File('test/usJsonReference.json');
+    final referenceJson = json.decode(referenceJsonFile.readAsStringSync());
+    final newJson = usJson;
+
+
+    expect(newJson, equals(referenceJson));
   });
 }
