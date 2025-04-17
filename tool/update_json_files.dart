@@ -2,8 +2,10 @@
 
 import 'dart:convert';
 import 'dart:io';
+import 'dart:isolate';
 
 import 'package:args/args.dart';
+import 'package:collection/collection.dart';
 import 'package:http/http.dart' as http;
 import 'package:logging/logging.dart';
 import 'package:path/path.dart' as path;
@@ -110,6 +112,7 @@ void writeAllJsonFile(Map<String, Map<String, dynamic>> allData) {
 
 /// Converts JSON file to Dart getter
 void convertJsonToDart(String countryCode) {
+  final stopwatch = Stopwatch()..start();
   final jsonFilePath = path.join(dataDir, '${countryCode.toLowerCase()}.json');
   final dartFilePath = path.join(dataDir, '${countryCode.toLowerCase()}.json.dart');
 
@@ -121,7 +124,7 @@ void convertJsonToDart(String countryCode) {
     return;
   }
 
-  final jsonContent = jsonFile.readAsStringSync();
+  final jsonContent = jsonFile.readAsStringSync().replaceAll(r'$', r'\$');
 
   final dartFile = File(dartFilePath);
   dartFile.writeAsStringSync('''
@@ -130,6 +133,9 @@ void convertJsonToDart(String countryCode) {
 
 Map<String, Map<String, String>> get ${countryCode.toLowerCase()}Json => $jsonContent;
 ''');
+
+  stopwatch.stop();
+  _log.info('JSON file converted to Dart in ${stopwatch.elapsed}');
 }
 
 /// Creates the json_data.dart file that maps all getters
@@ -203,9 +209,8 @@ Future<void> downloadCountryData({String? specificCountry}) async {
 Future<void> main(List<String> arguments) async {
   // Configure logging
   Logger.root.level = Level.INFO;
-  Logger.root.onRecord.listen((record) {
-    print('${record.level.name}: ${record.message}');
-  });
+
+  setupLogs();
 
   // Parse command-line arguments
   final parser = ArgParser()
@@ -215,6 +220,7 @@ Future<void> main(List<String> arguments) async {
         abbr: 'c', negatable: false, help: 'Convert JSON files to Dart getters')
     ..addOption('country', abbr: 'o', help: 'Process only the specified country code');
 
+  final stopwatch = Stopwatch()..start();
   try {
     final results = parser.parse(arguments);
 
@@ -248,7 +254,7 @@ Future<void> main(List<String> arguments) async {
 
     if (shouldConvert) {
       // Find all JSON files in the data directory
-      final jsonFiles = directory
+      final countries = directory
           .listSync()
           .whereType<File>()
           .where(
@@ -258,31 +264,60 @@ Future<void> main(List<String> arguments) async {
 
       if (specificCountry != null) {
         final country = specificCountry.toLowerCase();
-        if (jsonFiles.contains(country)) {
+        if (countries.contains(country)) {
           convertJsonToDart(country);
         } else {
           _log.warning('No JSON file found for country: $country');
         }
       } else {
-        for (final country in jsonFiles) {
-          if (country == 'all') continue; // Skip all.json
-          convertJsonToDart(country);
-        }
+        await runCountriesConversions(countries);
       }
 
       // Create the json_data.dart file
       createJsonDataFile();
     }
 
-    _log.info('Formatting Dart files...');
-    await Process.run('dart', ['format', 'lib/src/data']);
+    _log.info('Fixing Dart file... (${stopwatch.elapsed})');
+    Process.runSync('dart', ['fix', '--apply', dataDir]);
 
-    _log.info('Fixing Dart files...');
-    await Process.run('dart', ['fix', '--apply', 'lib/src/data']);
+    _log.info('Formatting Dart files... (${stopwatch.elapsed})');
+    Process.runSync('dart', ['format', dataDir]);
 
-    _log.info('Operation completed successfully');
+
+    stopwatch.stop();
+    _log.info('Operation completed successfully in ${stopwatch.elapsed}');
   } catch (e) {
     _log.severe('An error occurred: $e');
     exitCode = 1;
+  } finally {
+    stopwatch.stop();
   }
+}
+
+void setupLogs() {
+  Logger.root.onRecord.listen((record) {
+    print('${record.level.name}: ${record.message}');
+  });
+}
+
+Future<void> runCountriesConversions(List<String> countries) async {
+  // gets how many cores are available
+  final coresCount = Platform.numberOfProcessors;
+
+  final batchesCount = countries.length ~/ coresCount;
+  final countriesBatches = countries.slices(batchesCount);
+
+  void convertBatch(List<String> batch) {
+    // We need to setup logs for each isolate
+    setupLogs();
+
+    for (final country in batch) {
+      convertJsonToDart(country);
+    }
+  }
+
+  await [
+    for (final countriesBatch in countriesBatches)
+      Isolate.run(() => convertBatch(countriesBatch))
+  ].wait;
 }
