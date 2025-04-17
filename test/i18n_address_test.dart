@@ -27,7 +27,7 @@ void main() {
     test('dictionary access works correctly', () {
       final data = loadValidationData('US');
       final state = data['US/NV'];
-      expect(state['name'], 'Nevada');
+      expect(state?['name'], 'Nevada');
     });
 
     test('validation rules for Canada', () {

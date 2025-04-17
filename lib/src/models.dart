@@ -141,7 +141,7 @@ class InvalidAddressError implements Exception {
 /// Helper class to make choices from address data
 class ChoicesMaker {
   /// Make choices from address rules
-  static List<List<String>> makeChoices(Map<String, dynamic> rules,
+  static List<List<String>> makeChoices(Map<String, String> rules,
       {bool translated = false}) {
     final subKeys = rules['sub_keys'];
     if (subKeys == null) {

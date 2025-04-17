@@ -42,8 +42,8 @@ Future<Map<String, dynamic>> fetch(String url) async {
 
 /// Processes a key/language pair and returns data.
 /// Also adds any sub-keys and language variants to the collection.
-Future<Map<String, dynamic>> processData(
-    String key, String? language, Map<String, Map<String, dynamic>> allData) async {
+Future<Map<String, dynamic>> processData(String key, String? language,
+    Map<String, Map<String, dynamic>> allData) async {
   final fullKey = language != null ? '$key--$language' : key;
   final url = '$mainUrl/$fullKey';
 
@@ -85,7 +85,8 @@ Future<Map<String, dynamic>> processData(
 }
 
 /// Writes country data to JSON file
-void writeJsonFile(String countryCode, Map<String, Map<String, dynamic>> allData) {
+void writeJsonFile(
+    String countryCode, Map<String, Map<String, dynamic>> allData) {
   final filePath = path.join(dataDir, '${countryCode.toLowerCase()}.json');
   _log.info('Writing JSON file: $filePath');
 
@@ -114,7 +115,8 @@ void writeAllJsonFile(Map<String, Map<String, dynamic>> allData) {
 void convertJsonToDart(String countryCode) {
   final stopwatch = Stopwatch()..start();
   final jsonFilePath = path.join(dataDir, '${countryCode.toLowerCase()}.json');
-  final dartFilePath = path.join(dataDir, '${countryCode.toLowerCase()}.json.dart');
+  final dartFilePath =
+      path.join(dataDir, '${countryCode.toLowerCase()}.json.dart');
 
   _log.info('Converting $jsonFilePath to $dartFilePath');
 
@@ -155,7 +157,8 @@ void createJsonDataFile() {
 
   final mapEntries = ([
     ...dartFiles.map((file) {
-      final countryCode = path.basenameWithoutExtension(file).replaceAll('.json', '');
+      final countryCode =
+          path.basenameWithoutExtension(file).replaceAll('.json', '');
       return "  '$countryCode': () => ${countryCode}Json,";
     })
   ]..sort((a, b) => a.compareTo(b)))
@@ -179,8 +182,9 @@ $mapEntries
 
 /// Downloads address data for countries
 Future<void> downloadCountryData({String? specificCountry}) async {
-  final countries =
-      specificCountry != null ? [specificCountry.toUpperCase()] : await getCountries();
+  final countries = specificCountry != null
+      ? [specificCountry.toUpperCase()]
+      : await getCountries();
 
   final allData = <String, Map<String, dynamic>>{};
 
@@ -214,11 +218,14 @@ Future<void> main(List<String> arguments) async {
 
   // Parse command-line arguments
   final parser = ArgParser()
-    ..addFlag('help', abbr: 'h', negatable: false, help: 'Show usage information')
-    ..addFlag('download', abbr: 'd', negatable: false, help: 'Download JSON files')
+    ..addFlag('help',
+        abbr: 'h', negatable: false, help: 'Show usage information')
+    ..addFlag('download',
+        abbr: 'd', negatable: false, help: 'Download JSON files')
     ..addFlag('convert',
         abbr: 'c', negatable: false, help: 'Convert JSON files to Dart getters')
-    ..addOption('country', abbr: 'o', help: 'Process only the specified country code');
+    ..addOption('country',
+        abbr: 'o', help: 'Process only the specified country code');
 
   final stopwatch = Stopwatch()..start();
   try {
@@ -236,7 +243,8 @@ Future<void> main(List<String> arguments) async {
 
     // Default behavior: download and convert if no flags are specified
     if (!shouldDownload && !shouldConvert) {
-      _log.info('No specific operation selected. Will download and convert files.');
+      _log.info(
+          'No specific operation selected. Will download and convert files.');
       shouldDownload = true;
       shouldConvert = true;
     }
@@ -257,8 +265,8 @@ Future<void> main(List<String> arguments) async {
       final countries = directory
           .listSync()
           .whereType<File>()
-          .where(
-              (file) => file.path.endsWith('.json') && !file.path.endsWith('.json.dart'))
+          .where((file) =>
+              file.path.endsWith('.json') && !file.path.endsWith('.json.dart'))
           .map((file) => path.basenameWithoutExtension(file.path))
           .toList();
 
@@ -282,7 +290,6 @@ Future<void> main(List<String> arguments) async {
 
     _log.info('Formatting Dart files... (${stopwatch.elapsed})');
     Process.runSync('dart', ['format', dataDir]);
-
 
     stopwatch.stop();
     _log.info('Operation completed successfully in ${stopwatch.elapsed}');

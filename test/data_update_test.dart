@@ -35,9 +35,11 @@ class Downloader {
 class ArgumentParser {
   final Map<String, dynamic> _options = {};
   final Map<String, String> _descriptions = {};
-  String get usage => _descriptions.entries.map((e) => '${e.key}: ${e.value}').join('\n');
+  String get usage =>
+      _descriptions.entries.map((e) => '${e.key}: ${e.value}').join('\n');
 
-  void addFlag(String name, {String? abbr, String? help, bool negatable = true}) {
+  void addFlag(String name,
+      {String? abbr, String? help, bool negatable = true}) {
     _options[name] = false;
     if (abbr != null) {
       _options[abbr] = false;
@@ -111,7 +113,8 @@ Future<void> downloadWithClient(
 
   // Get countries list
   final response = await client.get(Uri.parse('$mainUrl/countries'));
-  final countries = (json.decode(response.body)['countries'] as String).split('~');
+  final countries =
+      (json.decode(response.body)['countries'] as String).split('~');
 
   if (country != null) {
     final normalizedCountry = country.toUpperCase();
@@ -207,7 +210,8 @@ void main() {
 
     setUp(() {
       // Create a temporary directory for test files
-      tempDir = Directory.systemTemp.createTempSync('google_i18n_address_test_');
+      tempDir =
+          Directory.systemTemp.createTempSync('google_i18n_address_test_');
     });
 
     tearDown(() {
@@ -235,7 +239,8 @@ void main() {
 
     setUp(() {
       // Create a temporary directory for test files
-      tempDir = Directory.systemTemp.createTempSync('google_i18n_address_test_');
+      tempDir =
+          Directory.systemTemp.createTempSync('google_i18n_address_test_');
       mockClient = MockClient();
     });
 
@@ -248,8 +253,8 @@ void main() {
 
     test('download with single country argument', () async {
       // Mocking responses for country listing and individual country data
-      when(mockClient.get(Uri.parse('$mainUrl/countries')))
-          .thenAnswer((_) async => http.Response('{"countries": "PL~US"}', 200));
+      when(mockClient.get(Uri.parse('$mainUrl/countries'))).thenAnswer(
+          (_) async => http.Response('{"countries": "PL~US"}', 200));
 
       when(mockClient.get(Uri.parse('$mainUrl/PL'))).thenAnswer((_) async =>
           http.Response('{"key": "PL", "lang": "pl", "name": "POLAND"}', 200));
@@ -274,8 +279,8 @@ void main() {
 
     test('download throws on invalid country code', () async {
       // Mock countries response
-      when(mockClient.get(Uri.parse('$mainUrl/countries')))
-          .thenAnswer((_) async => http.Response('{"countries": "PL~US"}', 200));
+      when(mockClient.get(Uri.parse('$mainUrl/countries'))).thenAnswer(
+          (_) async => http.Response('{"countries": "PL~US"}', 200));
 
       // Make sure invalid country code throws
       expect(
@@ -298,14 +303,16 @@ void main() {
                 }
                 ''', 200));
 
-      when(mockClient.get(Uri.parse('$mainUrl/CH/AG'))).thenAnswer(
-          (_) async => http.Response('{"key": "CH/AG", "name": "Aargau"}', 200));
+      when(mockClient.get(Uri.parse('$mainUrl/CH/AG'))).thenAnswer((_) async =>
+          http.Response('{"key": "CH/AG", "name": "Aargau"}', 200));
 
       when(mockClient.get(Uri.parse('$mainUrl/CH/AR'))).thenAnswer((_) async =>
-          http.Response('{"key": "CH/AR", "name": "Appenzell Ausserrhoden"}', 200));
+          http.Response(
+              '{"key": "CH/AR", "name": "Appenzell Ausserrhoden"}', 200));
 
-      when(mockClient.get(Uri.parse('$mainUrl/CH?lang=fr'))).thenAnswer((_) async =>
-          http.Response('{"key": "CH", "lang": "fr", "name": "SUISSE"}', 200));
+      when(mockClient.get(Uri.parse('$mainUrl/CH?lang=fr'))).thenAnswer(
+          (_) async => http.Response(
+              '{"key": "CH", "lang": "fr", "name": "SUISSE"}', 200));
 
       // Run the process test with mocked client
       final allData = <String, Map<String, dynamic>>{};
@@ -323,14 +330,15 @@ void main() {
 
     test('download all countries', () async {
       // Mocking responses for country listing
-      when(mockClient.get(Uri.parse('$mainUrl/countries')))
-          .thenAnswer((_) async => http.Response('{"countries": "PL~US"}', 200));
+      when(mockClient.get(Uri.parse('$mainUrl/countries'))).thenAnswer(
+          (_) async => http.Response('{"countries": "PL~US"}', 200));
 
       when(mockClient.get(Uri.parse('$mainUrl/PL'))).thenAnswer((_) async =>
           http.Response('{"key": "PL", "lang": "pl", "name": "POLAND"}', 200));
 
       when(mockClient.get(Uri.parse('$mainUrl/US'))).thenAnswer((_) async =>
-          http.Response('{"key": "US", "lang": "en", "name": "UNITED STATES"}', 200));
+          http.Response(
+              '{"key": "US", "lang": "en", "name": "UNITED STATES"}', 200));
 
       // Set output directory to temp directory
       final dataDir = '${tempDir.path}/data';
@@ -397,7 +405,8 @@ void main() {
     Future<void> mockDownloadJsonFiles({List<String>? arguments}) async {
       final parser = ArgumentParser();
       parser
-        ..addFlag('help', abbr: 'h', help: 'Show this help message', negatable: false)
+        ..addFlag('help',
+            abbr: 'h', help: 'Show this help message', negatable: false)
         ..addOption('country', abbr: 'c', help: 'Country code to download');
 
       final results = parser.parse(arguments ?? []);
@@ -448,7 +457,6 @@ void main() {
     final referenceJsonFile = File('test/usJsonReference.json');
     final referenceJson = json.decode(referenceJsonFile.readAsStringSync());
     final newJson = usJson;
-
 
     expect(newJson, equals(referenceJson));
   });

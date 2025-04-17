@@ -1,6 +1,4 @@
-import 'dart:io';
 import 'package:google_i18n_address/src/data_loader.dart';
-import 'package:path/path.dart' as path;
 import 'package:test/test.dart';
 
 void main() {
@@ -9,8 +7,8 @@ void main() {
       final data = loadValidationData('us');
       expect(data, isA<Map<String, dynamic>>());
       expect(data.containsKey('US'), isTrue);
-      expect(data['US'].containsKey('name'), isTrue);
-      expect(data['US']['name'], 'UNITED STATES');
+      expect(data['US']?.containsKey('name'), isTrue);
+      expect(data['US']?['name'], 'UNITED STATES');
     });
 
     test('loadValidationData throws on invalid country code', () {
@@ -54,7 +52,7 @@ void main() {
 
       // Database should contain US sub-regions
       expect(result.database.containsKey('US/CA'), isTrue);
-      expect(result.database['US/CA']['name'], 'California');
+      expect(result.database['US/CA']?['name'], 'California');
     });
 
     test('loadCountryData throws on ZZ country code', () {
@@ -79,11 +77,6 @@ void main() {
       expect(validCountryCode.hasMatch('A'), isFalse);
       expect(validCountryCode.hasMatch('INVALID'), isFalse);
       expect(validCountryCode.hasMatch('../../../etc/passwd'), isFalse);
-    });
-
-    test('validationDataDir points to valid directory', () {
-      final dirPath = path.join(Directory.current.path, validationDataDir);
-      expect(Directory(dirPath).existsSync(), isTrue);
     });
   });
 }

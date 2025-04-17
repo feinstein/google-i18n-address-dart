@@ -4,22 +4,6 @@ import 'models.dart';
 /// Gets validation rules for an address.
 ///
 /// The address should at least have a country_code field.
-///
-///
-///   country_code = address.get("country_code", "").upper()
-// country_data, database = _load_country_data(country_code)
-// country_name = country_data.get("name", "")
-// address_format = country_data["fmt"]
-// address_latin_format = country_data.get("lfmt", address_format)
-// format_fields = re.finditer(r"%([ACDNOSXZ])", address_format)
-// allowed_fields = {FIELD_MAPPING[m.group(1)] for m in format_fields}
-// required_fields = {FIELD_MAPPING[f] for f in country_data["require"]}
-// upper_fields = {FIELD_MAPPING[f] for f in country_data["upper"]}
-// languages = [None]
-// if "languages" in country_data:
-//     languages = country_data["languages"].split("~")
-
-///
 ValidationRules getValidationRules(Map<String, String> address) {
   final countryCode = address['country_code']?.toUpperCase() ?? '';
   final (countryData: countryData, database: database) =
@@ -27,7 +11,7 @@ ValidationRules getValidationRules(Map<String, String> address) {
 
   final countryName = countryData['name'] ?? '';
   final addressFormat = countryData['fmt'] as String;
-  final addressLatinFormat = countryData['lfmt'] as String? ?? addressFormat;
+  final addressLatinFormat = countryData['lfmt'] ?? addressFormat;
 
   // Parse format fields to determine allowed fields
   final formatFields = RegExp(r'%([ACDNOSXZ])').allMatches(addressFormat);
@@ -36,13 +20,13 @@ ValidationRules getValidationRules(Map<String, String> address) {
   };
 
   // Get required fields
-  final requiredFieldsStr = countryData['require'] as String? ?? '';
+  final requiredFieldsStr = countryData['require'] ?? '';
   final requiredFields = <String>{
     for (final char in requiredFieldsStr.split('')) fieldMapping[char]!
   };
 
   // Get upper fields
-  final upperFieldsStr = countryData['upper'] as String? ?? '';
+  final upperFieldsStr = countryData['upper'] ?? '';
   final upperFields = <String>{
     for (final char in upperFieldsStr.split('')) fieldMapping[char]!
   };
@@ -67,11 +51,11 @@ ValidationRules getValidationRules(Map<String, String> address) {
   }
 
   // Get field types
-  final countryAreaType = countryData['state_name_type'] as String? ?? '';
-  final cityType = countryData['locality_name_type'] as String? ?? '';
-  final cityAreaType = countryData['sublocality_name_type'] as String? ?? '';
-  final postalCodeType = countryData['zip_name_type'] as String? ?? '';
-  final postalCodePrefix = countryData['postprefix'] as String? ?? '';
+  final countryAreaType = countryData['state_name_type'] ?? '';
+  final cityType = countryData['locality_name_type'] ?? '';
+  final cityAreaType = countryData['sublocality_name_type'] ?? '';
+  final postalCodeType = countryData['zip_name_type'] ?? '';
+  final postalCodePrefix = countryData['postprefix'] ?? '';
 
   var countryAreaChoices = <List<String>>[];
   var cityChoices = <List<String>>[];
@@ -88,9 +72,9 @@ ValidationRules getValidationRules(Map<String, String> address) {
       final isDefaultLanguage =
           language == null || language == countryData['lang'];
 
-      Map<String, dynamic> localizedCountryData;
+      Map<String, String> localizedCountryData;
       if (isDefaultLanguage) {
-        localizedCountryData = database[countryCode];
+        localizedCountryData = database[countryCode] ?? {};
       } else {
         localizedCountryData = database['$countryCode--$language'] ?? {};
       }
@@ -105,7 +89,7 @@ ValidationRules getValidationRules(Map<String, String> address) {
 
       if (countryArea != null) {
         // Third level of data is for cities
-        Map<String, dynamic> countryAreaData;
+        Map<String, String> countryAreaData;
         if (isDefaultLanguage) {
           countryAreaData = database['$countryCode/$countryArea'] ?? {};
         } else {
@@ -134,7 +118,7 @@ ValidationRules getValidationRules(Map<String, String> address) {
 
           if (city != null) {
             // Fourth level of data is for city areas
-            Map<String, dynamic> cityData;
+            Map<String, String> cityData;
             if (isDefaultLanguage) {
               cityData = database['$countryCode/$countryArea/$city'] ?? {};
             } else {
