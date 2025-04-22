@@ -22,11 +22,23 @@ void main() {
     test('getValidationRules returns correct data for Switzerland', () {
       final validationRules = getValidationRules({'country_code': 'CH'});
 
-      expect(validationRules.allowedFields,
-          containsAll(['company_name', 'city', 'postal_code', 'street_address', 'name']));
+      expect(
+          validationRules.allowedFields,
+          containsAll([
+            AddressField.companyName,
+            AddressField.city,
+            AddressField.postalCode,
+            AddressField.streetAddress,
+            AddressField.name,
+          ]));
 
-      expect(validationRules.requiredFields,
-          containsAll(['city', 'postal_code', 'street_address']));
+      expect(
+          validationRules.requiredFields,
+          containsAll([
+            AddressField.city,
+            AddressField.postalCode,
+            AddressField.streetAddress,
+          ]));
     });
   });
 
@@ -119,10 +131,10 @@ void main() {
       final fieldOrder = getFieldOrder({'country_code': 'PL'});
 
       expect(fieldOrder, [
-        ['name'],
-        ['company_name'],
-        ['street_address'],
-        ['postal_code', 'city'],
+        [AddressField.name],
+        [AddressField.companyName],
+        [AddressField.streetAddress],
+        [AddressField.postalCode, AddressField.city],
       ]);
     });
 
@@ -130,11 +142,15 @@ void main() {
       final fieldOrder = getFieldOrder({'country_code': 'CN'});
 
       expect(fieldOrder, [
-        ['postal_code'],
-        ['country_area', 'city', 'city_area'],
-        ['street_address'],
-        ['company_name'],
-        ['name'],
+        [AddressField.postalCode],
+        [
+          AddressField.countryArea,
+          AddressField.city,
+          AddressField.cityArea
+        ],
+        [AddressField.streetAddress],
+        [AddressField.companyName],
+        [AddressField.name],
       ]);
     });
   });

@@ -10,15 +10,23 @@ void main() {
         addressFormat: '%N%n%O%n%A%n%C, %S %Z',
         addressLatinFormat: '%N%n%O%n%A%n%C, %S %Z',
         allowedFields: {
-          'name',
-          'company_name',
-          'street_address',
-          'city',
-          'country_area',
-          'postal_code'
+          AddressField.name,
+          AddressField.companyName,
+          AddressField.streetAddress,
+          AddressField.city,
+          AddressField.countryArea,
+          AddressField.postalCode,
         },
-        requiredFields: {'street_address', 'city', 'country_area', 'postal_code'},
-        upperFields: {'city', 'country_area'},
+        requiredFields: {
+          AddressField.streetAddress,
+          AddressField.city,
+          AddressField.countryArea,
+          AddressField.postalCode,
+        },
+        upperFields: {
+          AddressField.city,
+          AddressField.countryArea,
+        },
         countryAreaType: 'state',
         countryAreaChoices: [
           ['CA', 'California'],
@@ -38,9 +46,9 @@ void main() {
       expect(rules.countryName, 'UNITED STATES');
       expect(rules.addressFormat, '%N%n%O%n%A%n%C, %S %Z');
       expect(rules.addressLatinFormat, '%N%n%O%n%A%n%C, %S %Z');
-      expect(rules.allowedFields, contains('name'));
-      expect(rules.requiredFields, contains('street_address'));
-      expect(rules.upperFields, contains('city'));
+      expect(rules.allowedFields, contains(AddressField.name));
+      expect(rules.requiredFields, contains(AddressField.streetAddress));
+      expect(rules.upperFields, contains(AddressField.city));
       expect(rules.countryAreaType, 'state');
       expect(rules.countryAreaChoices, [
         ['CA', 'California'],
@@ -62,9 +70,9 @@ void main() {
         countryName: 'UNITED STATES',
         addressFormat: '%N%n%O%n%A%n%C, %S %Z',
         addressLatinFormat: '%N%n%O%n%A%n%C, %S %Z',
-        allowedFields: {'name', 'company_name'},
-        requiredFields: {'street_address'},
-        upperFields: {'city'},
+        allowedFields: {AddressField.name, AddressField.companyName},
+        requiredFields: {AddressField.streetAddress},
+        upperFields: {AddressField.city},
         countryAreaType: 'state',
         countryAreaChoices: [
           ['CA', 'California']
@@ -243,6 +251,62 @@ void main() {
     });
   });
 
+  group('AddressField', () {
+    test('maps format codes to field names', () {
+      expect(AddressField.asMap, {
+        'A': 'street_address',
+        'C': 'city',
+        'D': 'city_area',
+        'N': 'name',
+        'O': 'company_name',
+        'S': 'country_area',
+        'X': 'sorting_code',
+        'Z': 'postal_code',
+      });
+    });
+
+    test('fromCode returns correct field', () {
+      expect(AddressField.fromCode('A'), AddressField.streetAddress);
+      expect(AddressField.fromCode('C'), AddressField.city);
+      expect(AddressField.fromCode('D'), AddressField.cityArea);
+      expect(AddressField.fromCode('N'), AddressField.name);
+      expect(AddressField.fromCode('O'), AddressField.companyName);
+      expect(AddressField.fromCode('S'), AddressField.countryArea);
+      expect(AddressField.fromCode('X'), AddressField.sortingCode);
+      expect(AddressField.fromCode('Z'), AddressField.postalCode);
+    });
+
+    test('fromCode throws on invalid code', () {
+      expect(() => AddressField.fromCode('invalid'), throwsArgumentError);
+    });
+
+    test('fieldNameFromCode returns correct field name', () {
+      expect(AddressField.fieldNameFromCode('A'), 'street_address');
+      expect(AddressField.fieldNameFromCode('C'), 'city');
+      expect(AddressField.fieldNameFromCode('D'), 'city_area');
+      expect(AddressField.fieldNameFromCode('N'), 'name');
+      expect(AddressField.fieldNameFromCode('O'), 'company_name');
+      expect(AddressField.fieldNameFromCode('S'), 'country_area');
+      expect(AddressField.fieldNameFromCode('X'), 'sorting_code');
+      expect(AddressField.fieldNameFromCode('Z'), 'postal_code');
+    });
+
+    test('fromFieldName returns correct field', () {
+      expect(AddressField.fromFieldName('street_address'), AddressField.streetAddress);
+      expect(AddressField.fromFieldName('city'), AddressField.city);
+      expect(AddressField.fromFieldName('city_area'), AddressField.cityArea);
+      expect(AddressField.fromFieldName('name'), AddressField.name);
+      expect(AddressField.fromFieldName('company_name'), AddressField.companyName);
+      expect(AddressField.fromFieldName('country_area'), AddressField.countryArea);
+      expect(AddressField.fromFieldName('sorting_code'), AddressField.sortingCode);
+      expect(AddressField.fromFieldName('postal_code'), AddressField.postalCode);
+    });
+
+    test('fromFieldName throws on invalid field name', () {
+      expect(() => AddressField.fromFieldName('invalid'), throwsArgumentError);
+    });
+  });
+
   group('Constants', () {
     test('knownFields contains all expected fields', () {
       expect(
@@ -258,19 +322,6 @@ void main() {
             'name',
             'company_name',
           ]));
-    });
-
-    test('fieldMapping maps format codes to field names', () {
-      expect(fieldMapping, {
-        'A': 'street_address',
-        'C': 'city',
-        'D': 'city_area',
-        'N': 'name',
-        'O': 'company_name',
-        'S': 'country_area',
-        'X': 'sorting_code',
-        'Z': 'postal_code',
-      });
     });
   });
 }

@@ -7,19 +7,18 @@ import 'validation.dart';
 String _formatAddressLine(
     String lineFormat, Map<String, String> address, ValidationRules rules) {
   // Helper function to get field value
-  String getField(String name) {
-    var value = address[name] ?? '';
-    if (rules.upperFields.contains(name)) {
+  String getFieldValue(AddressField field) {
+    var value = address[field.fieldName] ?? '';
+    if (rules.upperFields.contains(field)) {
       value = value.toUpperCase();
     }
     return value;
   }
 
-  // Create replacements map
-  final replacements = <String, String>{};
-  fieldMapping.forEach((code, fieldName) {
-    replacements['%$code'] = getField(fieldName);
-  });
+  // Replace field codes with values
+  final replacements = <String, String>{
+    for (var field in AddressField.values) '%${field.code}': getFieldValue(field)
+  };
 
   // Split format into parts and replace placeholders
   final parts =

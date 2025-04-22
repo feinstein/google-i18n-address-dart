@@ -37,8 +37,7 @@ class _FakeResponse_0 extends _i1.SmartFake implements _i2.Response {
         );
 }
 
-class _FakeStreamedResponse_1 extends _i1.SmartFake
-    implements _i2.StreamedResponse {
+class _FakeStreamedResponse_1 extends _i1.SmartFake implements _i2.StreamedResponse {
   _FakeStreamedResponse_1(
     Object parent,
     Invocation parentInvocation,
@@ -71,8 +70,7 @@ class MockClient extends _i1.Mock implements _i2.Client {
             {#headers: headers},
           ),
         )),
-        returnValueForMissingStub:
-            _i3.Future<_i2.Response>.value(_FakeResponse_0(
+        returnValueForMissingStub: _i3.Future<_i2.Response>.value(_FakeResponse_0(
           this,
           Invocation.method(
             #head,
@@ -101,8 +99,7 @@ class MockClient extends _i1.Mock implements _i2.Client {
             {#headers: headers},
           ),
         )),
-        returnValueForMissingStub:
-            _i3.Future<_i2.Response>.value(_FakeResponse_0(
+        returnValueForMissingStub: _i3.Future<_i2.Response>.value(_FakeResponse_0(
           this,
           Invocation.method(
             #get,
@@ -141,8 +138,7 @@ class MockClient extends _i1.Mock implements _i2.Client {
             },
           ),
         )),
-        returnValueForMissingStub:
-            _i3.Future<_i2.Response>.value(_FakeResponse_0(
+        returnValueForMissingStub: _i3.Future<_i2.Response>.value(_FakeResponse_0(
           this,
           Invocation.method(
             #post,
@@ -185,8 +181,7 @@ class MockClient extends _i1.Mock implements _i2.Client {
             },
           ),
         )),
-        returnValueForMissingStub:
-            _i3.Future<_i2.Response>.value(_FakeResponse_0(
+        returnValueForMissingStub: _i3.Future<_i2.Response>.value(_FakeResponse_0(
           this,
           Invocation.method(
             #put,
@@ -229,8 +224,7 @@ class MockClient extends _i1.Mock implements _i2.Client {
             },
           ),
         )),
-        returnValueForMissingStub:
-            _i3.Future<_i2.Response>.value(_FakeResponse_0(
+        returnValueForMissingStub: _i3.Future<_i2.Response>.value(_FakeResponse_0(
           this,
           Invocation.method(
             #patch,
@@ -273,8 +267,7 @@ class MockClient extends _i1.Mock implements _i2.Client {
             },
           ),
         )),
-        returnValueForMissingStub:
-            _i3.Future<_i2.Response>.value(_FakeResponse_0(
+        returnValueForMissingStub: _i3.Future<_i2.Response>.value(_FakeResponse_0(
           this,
           Invocation.method(
             #delete,
@@ -307,8 +300,7 @@ class MockClient extends _i1.Mock implements _i2.Client {
             {#headers: headers},
           ),
         )),
-        returnValueForMissingStub:
-            _i3.Future<String>.value(_i5.dummyValue<String>(
+        returnValueForMissingStub: _i3.Future<String>.value(_i5.dummyValue<String>(
           this,
           Invocation.method(
             #read,
@@ -330,19 +322,16 @@ class MockClient extends _i1.Mock implements _i2.Client {
           {#headers: headers},
         ),
         returnValue: _i3.Future<_i6.Uint8List>.value(_i6.Uint8List(0)),
-        returnValueForMissingStub:
-            _i3.Future<_i6.Uint8List>.value(_i6.Uint8List(0)),
+        returnValueForMissingStub: _i3.Future<_i6.Uint8List>.value(_i6.Uint8List(0)),
       ) as _i3.Future<_i6.Uint8List>);
 
   @override
-  _i3.Future<_i2.StreamedResponse> send(_i2.BaseRequest? request) =>
-      (super.noSuchMethod(
+  _i3.Future<_i2.StreamedResponse> send(_i2.BaseRequest? request) => (super.noSuchMethod(
         Invocation.method(
           #send,
           [request],
         ),
-        returnValue:
-            _i3.Future<_i2.StreamedResponse>.value(_FakeStreamedResponse_1(
+        returnValue: _i3.Future<_i2.StreamedResponse>.value(_FakeStreamedResponse_1(
           this,
           Invocation.method(
             #send,

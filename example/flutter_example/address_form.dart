@@ -33,7 +33,7 @@ class _AddressFormState extends State<AddressForm> {
   ];
 
   ValidationRules? _rules;
-  List<List<String>> _fieldOrder = [];
+  List<List<AddressField>> _fieldOrder = [];
   Map<String, String> _fieldErrors = {};
 
   @override
@@ -159,10 +159,11 @@ class _AddressFormState extends State<AddressForm> {
 }
 
 /// A widget that builds a single address field based on the field name and validation rules.
-class AddressField extends StatelessWidget {
-  const AddressField({
+class AddressTextField extends StatelessWidget {
+  const AddressTextField({
     super.key,
     required this.fieldName,
+    required this.addressField,
     required this.rules,
     required this.controller,
     required this.addressData,
@@ -171,6 +172,7 @@ class AddressField extends StatelessWidget {
   });
 
   final String fieldName;
+  final AddressField addressField;
   final ValidationRules rules;
   final TextEditingController? controller;
   final Map<String, String> addressData;
@@ -179,12 +181,13 @@ class AddressField extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isRequired = rules.requiredFields.contains(fieldName);
+    final isRequired = rules.requiredFields.contains(addressField);
     final hasError = fieldErrors.containsKey(fieldName);
     final errorText = hasError ? fieldErrors[fieldName] : null;
 
     // Handle special cases for fields with choices
-    if (fieldName == 'country_area' && rules.countryAreaChoices.isNotEmpty) {
+    if (addressField == AddressField.countryArea &&
+        rules.countryAreaChoices.isNotEmpty) {
       return DropdownButtonFormField<String>(
         decoration: InputDecoration(
           labelText: _getReadableFieldName(fieldName),
@@ -201,7 +204,7 @@ class AddressField extends StatelessWidget {
               child: Text('-- Select --'),
             ),
           ...rules.countryAreaChoices.map((choice) => DropdownMenuItem(
-                value: choice[0],
+                value: choice.first,
                 child: Text(choice[1]),
               )),
         ],
@@ -286,7 +289,7 @@ class AddressFieldsBuilder extends StatelessWidget {
   });
 
   final ValidationRules? rules;
-  final List<List<String>> fieldOrder;
+  final List<List<AddressField>> fieldOrder;
   final Map<String, TextEditingController> controllers;
   final Map<String, String> addressData;
   final Map<String, String> fieldErrors;
@@ -307,10 +310,11 @@ class AddressFieldsBuilder extends StatelessWidget {
         fieldWidgets.add(
           Padding(
             padding: const EdgeInsets.only(bottom: 16),
-            child: AddressField(
-              fieldName: lineFields[0],
+            child: AddressTextField(
+              fieldName: lineFields.first.fieldName,
+              addressField: lineFields.first,
               rules: rules!,
-              controller: controllers[lineFields[0]],
+              controller: controllers[lineFields.first.fieldName],
               addressData: addressData,
               fieldErrors: fieldErrors,
               onChanged: onFieldChanged,
@@ -331,10 +335,11 @@ class AddressFieldsBuilder extends StatelessWidget {
                             left: field == lineFields.first ? 0 : 8,
                             right: field == lineFields.last ? 0 : 8,
                           ),
-                          child: AddressField(
-                            fieldName: field,
+                          child: AddressTextField(
+                            fieldName: field.fieldName,
+                            addressField: field,
                             rules: rules!,
-                            controller: controllers[field],
+                            controller: controllers[field.fieldName],
                             addressData: addressData,
                             fieldErrors: fieldErrors,
                             onChanged: onFieldChanged,

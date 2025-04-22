@@ -116,8 +116,9 @@ class _MyHomePageState extends State<MyHomePage> {
   String _formatFieldName(String fieldName) {
     final result = fieldName
         .split('_')
-        .map((word) =>
-            word.isNotEmpty ? '${word[0].toUpperCase()}${word.substring(1)}' : '')
+        .map((word) => word.isNotEmpty
+            ? '${word[0].toUpperCase()}${word.substring(1)}'
+            : '')
         .join(' ');
     return result;
   }

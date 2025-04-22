@@ -1,29 +1,53 @@
+import 'dart:collection';
+
 import 'package:meta/meta.dart';
 
 /// Set of all known address fields.
-final Set<String> knownFields = {
+final Set<String> knownFields = UnmodifiableSetView<String>({
   'country_code',
-  'country_area',
-  'city',
-  'city_area',
-  'street_address',
-  'postal_code',
-  'sorting_code',
-  'name',
-  'company_name',
-};
+  ...AddressField.values.map((f) => f.fieldName),
+});
 
-/// Mapping of format codes to field names.
-final Map<String, String> fieldMapping = {
-  'A': 'street_address',
-  'C': 'city',
-  'D': 'city_area',
-  'N': 'name',
-  'O': 'company_name',
-  'S': 'country_area',
-  'X': 'sorting_code',
-  'Z': 'postal_code',
-};
+/// Enum representing address field codes and their corresponding field names.
+enum AddressField {
+  streetAddress('A', 'street_address'),
+  city('C', 'city'),
+  cityArea('D', 'city_area'),
+  name('N', 'name'),
+  companyName('O', 'company_name'),
+  countryArea('S', 'country_area'),
+  sortingCode('X', 'sorting_code'),
+  postalCode('Z', 'postal_code');
+
+  final String code;
+  final String fieldName;
+
+  const AddressField(this.code, this.fieldName);
+
+  /// Get an address field by its code
+  static AddressField fromCode(String code) {
+    return AddressField.values.firstWhere(
+      (field) => field.code == code,
+      orElse: () => throw ArgumentError('Invalid field code: $code'),
+    );
+  }
+
+  static AddressField fromFieldName(String fieldName) {
+    return AddressField.values.firstWhere(
+      (field) => field.fieldName == fieldName,
+      orElse: () => throw ArgumentError('Invalid field name: $fieldName'),
+    );
+  }
+
+  /// Get the field name for a given code
+  static String fieldNameFromCode(String code) {
+    return fromCode(code).fieldName;
+  }
+
+  /// Get all field mappings as a [Map<String, String>]
+  static Map<String, String> get asMap =>
+      Map.fromEntries(AddressField.values.map((f) => MapEntry(f.code, f.fieldName)));
+}
 
 /// Address validation rules for a specific country or region.
 @immutable
@@ -41,13 +65,13 @@ class ValidationRules {
   final String addressLatinFormat;
 
   /// Set of allowed address fields.
-  final Set<String> allowedFields;
+  final Set<AddressField> allowedFields;
 
   /// Set of required address fields.
-  final Set<String> requiredFields;
+  final Set<AddressField> requiredFields;
 
   /// Set of fields that should be uppercase.
-  final Set<String> upperFields;
+  final Set<AddressField> upperFields;
 
   /// Type of country area (e.g., "state", "province").
   final String countryAreaType;
