@@ -15,6 +15,149 @@ class AddressForm extends StatefulWidget {
   State<AddressForm> createState() => _AddressFormState();
 }
 
+class _AddressFormState extends State<AddressForm> {
+  final _formKey = GlobalKey<FormState>();
+  final _addressData = <String, String>{};
+  final _controllers = <String, TextEditingController>{};
+
+  // Sample list of countries - in a real app, you would use a complete list
+  final _countries = const [
+    {'code': 'US', 'name': 'United States'},
+    {'code': 'CA', 'name': 'Canada'},
+    {'code': 'GB', 'name': 'United Kingdom'},
+    {'code': 'DE', 'name': 'Germany'},
+    {'code': 'FR', 'name': 'France'},
+    {'code': 'JP', 'name': 'Japan'},
+    {'code': 'CN', 'name': 'China'},
+    {'code': 'AU', 'name': 'Australia'},
+  ];
+
+  ValidationRules? _rules;
+  List<List<String>> _fieldOrder = [];
+  Map<String, String> _fieldErrors = {};
+
+  @override
+  void initState() {
+    super.initState();
+
+    // Initialize with US as the default country
+    _updateCountry('US');
+
+    // Initialize controllers for all known fields
+    for (final field in knownFields) {
+      _controllers[field] = TextEditingController();
+    }
+  }
+
+  @override
+  void dispose() {
+    // Dispose all controllers
+    for (final controller in _controllers.values) {
+      controller.dispose();
+    }
+    super.dispose();
+  }
+
+  void _updateCountry(String countryCode) {
+    setState(() {
+      _addressData['country_code'] = countryCode;
+      _rules = getValidationRules({'country_code': countryCode});
+      _fieldOrder = getFieldOrder({'country_code': countryCode});
+      _fieldErrors = {};
+    });
+  }
+
+  void _submitForm() {
+    if (_formKey.currentState?.validate() ?? false) {
+      _formKey.currentState?.save();
+
+      try {
+        final normalizedAddress = normalizeAddress(_addressData);
+        widget.onSubmit?.call(normalizedAddress);
+
+        // Show success message
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text('Address validated successfully'),
+            backgroundColor: Colors.green,
+          ),
+        );
+      } on InvalidAddressError catch (e) {
+        setState(() {
+          _fieldErrors = e.errors;
+        });
+
+        // Show error message
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Address validation failed: ${e.message}'),
+            backgroundColor: Colors.red,
+          ),
+        );
+      }
+    }
+  }
+
+  void _onFieldChanged(String fieldName, String value) {
+    setState(() {
+      _addressData[fieldName] = value;
+      if (_fieldErrors.containsKey(fieldName)) {
+        _fieldErrors.remove(fieldName);
+      }
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Form(
+      key: _formKey,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          // Country selector
+          DropdownButtonFormField<String>(
+            decoration: const InputDecoration(
+              labelText: 'Country',
+              border: OutlineInputBorder(),
+            ),
+            value: _addressData['country_code'] ?? 'US',
+            items: _countries
+                .map((country) => DropdownMenuItem(
+                      value: country['code'],
+                      child: Text(country['name']!),
+                    ))
+                .toList(),
+            onChanged: (value) {
+              if (value != null) {
+                _updateCountry(value);
+              }
+            },
+          ),
+          const SizedBox(height: 16),
+
+          // Dynamic address fields based on country
+          AddressFieldsBuilder(
+            rules: _rules,
+            fieldOrder: _fieldOrder,
+            controllers: _controllers,
+            addressData: _addressData,
+            fieldErrors: _fieldErrors,
+            onFieldChanged: _onFieldChanged,
+          ),
+
+          const SizedBox(height: 24),
+
+          // Submit button
+          ElevatedButton(
+            onPressed: _submitForm,
+            child: const Text('Submit'),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
 /// A widget that builds a single address field based on the field name and validation rules.
 class AddressField extends StatelessWidget {
   const AddressField({
@@ -206,149 +349,6 @@ class AddressFieldsBuilder extends StatelessWidget {
     }
 
     return Column(children: fieldWidgets);
-  }
-}
-
-class _AddressFormState extends State<AddressForm> {
-  final _formKey = GlobalKey<FormState>();
-  final _addressData = <String, String>{};
-  final _controllers = <String, TextEditingController>{};
-
-  // Sample list of countries - in a real app, you would use a complete list
-  final _countries = const [
-    {'code': 'US', 'name': 'United States'},
-    {'code': 'CA', 'name': 'Canada'},
-    {'code': 'GB', 'name': 'United Kingdom'},
-    {'code': 'DE', 'name': 'Germany'},
-    {'code': 'FR', 'name': 'France'},
-    {'code': 'JP', 'name': 'Japan'},
-    {'code': 'CN', 'name': 'China'},
-    {'code': 'AU', 'name': 'Australia'},
-  ];
-
-  ValidationRules? _rules;
-  List<List<String>> _fieldOrder = [];
-  Map<String, String> _fieldErrors = {};
-
-  @override
-  void initState() {
-    super.initState();
-
-    // Initialize with US as the default country
-    _updateCountry('US');
-
-    // Initialize controllers for all known fields
-    for (final field in knownFields) {
-      _controllers[field] = TextEditingController();
-    }
-  }
-
-  @override
-  void dispose() {
-    // Dispose all controllers
-    for (final controller in _controllers.values) {
-      controller.dispose();
-    }
-    super.dispose();
-  }
-
-  void _updateCountry(String countryCode) {
-    setState(() {
-      _addressData['country_code'] = countryCode;
-      _rules = getValidationRules({'country_code': countryCode});
-      _fieldOrder = getFieldOrder({'country_code': countryCode});
-      _fieldErrors = {};
-    });
-  }
-
-  void _submitForm() {
-    if (_formKey.currentState?.validate() ?? false) {
-      _formKey.currentState?.save();
-
-      try {
-        final normalizedAddress = normalizeAddress(_addressData);
-        widget.onSubmit?.call(normalizedAddress);
-
-        // Show success message
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Address validated successfully'),
-            backgroundColor: Colors.green,
-          ),
-        );
-      } on InvalidAddressError catch (e) {
-        setState(() {
-          _fieldErrors = e.errors;
-        });
-
-        // Show error message
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('Address validation failed: ${e.message}'),
-            backgroundColor: Colors.red,
-          ),
-        );
-      }
-    }
-  }
-
-  void _onFieldChanged(String fieldName, String value) {
-    setState(() {
-      _addressData[fieldName] = value;
-      if (_fieldErrors.containsKey(fieldName)) {
-        _fieldErrors.remove(fieldName);
-      }
-    });
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Form(
-      key: _formKey,
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          // Country selector
-          DropdownButtonFormField<String>(
-            decoration: const InputDecoration(
-              labelText: 'Country',
-              border: OutlineInputBorder(),
-            ),
-            value: _addressData['country_code'] ?? 'US',
-            items: _countries
-                .map((country) => DropdownMenuItem(
-                      value: country['code'],
-                      child: Text(country['name']!),
-                    ))
-                .toList(),
-            onChanged: (value) {
-              if (value != null) {
-                _updateCountry(value);
-              }
-            },
-          ),
-          const SizedBox(height: 16),
-
-          // Dynamic address fields based on country
-          AddressFieldsBuilder(
-            rules: _rules,
-            fieldOrder: _fieldOrder,
-            controllers: _controllers,
-            addressData: _addressData,
-            fieldErrors: _fieldErrors,
-            onFieldChanged: _onFieldChanged,
-          ),
-
-          const SizedBox(height: 24),
-
-          // Submit button
-          ElevatedButton(
-            onPressed: _submitForm,
-            child: const Text('Submit'),
-          ),
-        ],
-      ),
-    );
   }
 }
 
