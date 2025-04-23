@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.0
+
+- BREAKING CHANGE: The address fileds are now represented by the AddressField enum
+
 ## 1.0.0+2
 
 - Update the example

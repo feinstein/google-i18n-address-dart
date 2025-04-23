@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_i18n_address/google_i18n_address.dart';
 import 'address_form.dart';
 
 void main() {
@@ -29,7 +30,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  Map<String, String>? _validatedAddress;
+  Map<AddressField, String>? _validatedAddress;
 
   @override
   Widget build(BuildContext context) {
@@ -113,13 +114,17 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  String _formatFieldName(String fieldName) {
-    final result = fieldName
-        .split('_')
-        .map((word) => word.isNotEmpty
-            ? '${word[0].toUpperCase()}${word.substring(1)}'
-            : '')
-        .join(' ');
-    return result;
+  String _formatFieldName(AddressField field) {
+    return switch (field) {
+      AddressField.countryCode => 'Country Code',
+      AddressField.streetAddress => 'Street Address',
+      AddressField.city => 'City',
+      AddressField.cityArea => 'City Area',
+      AddressField.name => 'Name',
+      AddressField.companyName => 'Company Name',
+      AddressField.countryArea => 'Country Area',
+      AddressField.sortingCode => 'Sorting Code',
+      AddressField.postalCode => 'Postal Code',
+    };
   }
 }

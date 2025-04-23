@@ -6,92 +6,92 @@ void main() {
     group('normalize_address errors', () {
       final testCases = [
         {
-          'address': <String, String>{},
+          'address': <AddressField, String>{},
           'errors': {
-            'country_code': 'required',
-            'city': 'required',
-            'street_address': 'required',
+            AddressField.countryCode: 'required',
+            AddressField.city: 'required',
+            AddressField.streetAddress: 'required',
           },
         },
         {
-          'address': {'country_code': 'AR'},
+          'address': {AddressField.countryCode: 'AR'},
           'errors': {
-            'city': 'required',
-            'street_address': 'required',
+            AddressField.city: 'required',
+            AddressField.streetAddress: 'required',
           },
         },
         {
           'address': {
-            'country_code': 'CN',
-            'country_area': '北京市',
-            'postal_code': '100084',
-            'city': 'Invalid',
-            'street_address': '...',
+            AddressField.countryCode: 'CN',
+            AddressField.countryArea: '北京市',
+            AddressField.postalCode: '100084',
+            AddressField.city: 'Invalid',
+            AddressField.streetAddress: '...',
           },
-          'errors': {'city': 'invalid'},
+          'errors': {AddressField.city: 'invalid'},
         },
         {
           'address': {
-            'country_code': 'CN',
-            'country_area': '云南省',
-            'postal_code': '677400',
-            'city': '临沧市',
-            'city_area': 'Invalid',
-            'street_address': '...',
+            AddressField.countryCode: 'CN',
+            AddressField.countryArea: '云南省',
+            AddressField.postalCode: '677400',
+            AddressField.city: '临沧市',
+            AddressField.cityArea: 'Invalid',
+            AddressField.streetAddress: '...',
           },
-          'errors': {'city_area': 'invalid'},
+          'errors': {AddressField.cityArea: 'invalid'},
         },
         {
           'address': {
-            'country_code': 'DE',
-            'city': 'Berlin',
-            'postal_code': '77-777',
-            'street_address': '...',
+            AddressField.countryCode: 'DE',
+            AddressField.city: 'Berlin',
+            AddressField.postalCode: '77-777',
+            AddressField.streetAddress: '...',
           },
-          'errors': {'postal_code': 'invalid'},
+          'errors': {AddressField.postalCode: 'invalid'},
         },
         {
           'address': {
-            'country_code': 'PL',
-            'city': 'Wrocław',
-            'postal_code': '77777',
-            'street_address': '...',
+            AddressField.countryCode: 'PL',
+            AddressField.city: 'Wrocław',
+            AddressField.postalCode: '77777',
+            AddressField.streetAddress: '...',
           },
-          'errors': {'postal_code': 'invalid'},
+          'errors': {AddressField.postalCode: 'invalid'},
         },
         {
-          'address': {'country_code': 'KR'},
+          'address': {AddressField.countryCode: 'KR'},
           'errors': {
-            'country_area': 'required',
-            'postal_code': 'required',
-            'city': 'required',
-            'street_address': 'required',
+            AddressField.countryArea: 'required',
+            AddressField.postalCode: 'required',
+            AddressField.city: 'required',
+            AddressField.streetAddress: 'required',
           },
         },
         {
           'address': {
-            'country_code': 'US',
-            'country_area': 'Nevada',
-            'postal_code': '90210',
-            'city': 'Las Vegas',
-            'street_address': '...',
+            AddressField.countryCode: 'US',
+            AddressField.countryArea: 'Nevada',
+            AddressField.postalCode: '90210',
+            AddressField.city: 'Las Vegas',
+            AddressField.streetAddress: '...',
           },
-          'errors': {'postal_code': 'invalid'},
+          'errors': {AddressField.postalCode: 'invalid'},
         },
         {
-          'address': {'country_code': 'XX'},
-          'errors': {'country_code': 'invalid'},
+          'address': {AddressField.countryCode: 'XX'},
+          'errors': {AddressField.countryCode: 'invalid'},
         },
         {
-          'address': {'country_code': 'ZZ'},
-          'errors': {'country_code': 'invalid'},
+          'address': {AddressField.countryCode: 'ZZ'},
+          'errors': {AddressField.countryCode: 'invalid'},
         },
       ];
 
       for (var i = 0; i < testCases.length; i++) {
         final testCase = testCases[i];
-        final address = testCase['address'] as Map<String, String>;
-        final expectedErrors = testCase['errors'] as Map<String, String>;
+        final address = testCase['address'] as Map<AddressField, String>;
+        final expectedErrors = testCase['errors'] as Map<AddressField, String>;
 
         test('test case $i validates errors correctly', () {
           expect(
@@ -108,93 +108,93 @@ void main() {
     group('validate_known_addresses', () {
       final knownAddresses = [
         {
-          'country_code': 'AE',
-          'country_area': 'Dubai',
-          'city': 'Dubai',
-          'street_address': 'P.O Box 1234',
+          AddressField.countryCode: 'AE',
+          AddressField.countryArea: 'Dubai',
+          AddressField.city: 'Dubai',
+          AddressField.streetAddress: 'P.O Box 1234',
         },
         {
-          'country_code': 'CA',
-          'country_area': 'QC',
-          'city': 'Montreal',
-          'postal_code': 'H3Z 2Y7',
-          'street_address': '10-123 1/2 MAIN STREET NW',
+          AddressField.countryCode: 'CA',
+          AddressField.countryArea: 'QC',
+          AddressField.city: 'Montreal',
+          AddressField.postalCode: 'H3Z 2Y7',
+          AddressField.streetAddress: '10-123 1/2 MAIN STREET NW',
         },
         {
-          'country_code': 'CH',
-          'city': 'Zürich',
-          'postal_code': '8022',
-          'street_address': 'Kappelergasse 1',
+          AddressField.countryCode: 'CH',
+          AddressField.city: 'Zürich',
+          AddressField.postalCode: '8022',
+          AddressField.streetAddress: 'Kappelergasse 1',
         },
         {
-          'country_code': 'CN',
-          'country_area': '北京市',
-          'postal_code': '100084',
-          'city': '海淀区',
-          'street_address': '中关村东路1号',
+          AddressField.countryCode: 'CN',
+          AddressField.countryArea: '北京市',
+          AddressField.postalCode: '100084',
+          AddressField.city: '海淀区',
+          AddressField.streetAddress: '中关村东路1号',
         },
         {
-          'country_code': 'CN',
-          'country_area': '云南省',
-          'postal_code': '677400',
-          'city': '临沧市',
-          'city_area': '凤庆县',
-          'street_address': '中关村东路1号',
+          AddressField.countryCode: 'CN',
+          AddressField.countryArea: '云南省',
+          AddressField.postalCode: '677400',
+          AddressField.city: '临沧市',
+          AddressField.cityArea: '凤庆县',
+          AddressField.streetAddress: '中关村东路1号',
         },
         {
-          'country_code': 'CN',
-          'country_area': 'Beijing Shi',
-          'postal_code': '100084',
-          'city': 'Haidian Qu',
-          'street_address': '#1 Zhongguancun East Road',
+          AddressField.countryCode: 'CN',
+          AddressField.countryArea: 'Beijing Shi',
+          AddressField.postalCode: '100084',
+          AddressField.city: 'Haidian Qu',
+          AddressField.streetAddress: '#1 Zhongguancun East Road',
         },
         {
-          'country_code': 'JP',
-          'country_area': '東京都',
-          'postal_code': '150-8512',
-          'city': '渋谷区',
-          'street_address': '桜丘町26-1',
+          AddressField.countryCode: 'JP',
+          AddressField.countryArea: '東京都',
+          AddressField.postalCode: '150-8512',
+          AddressField.city: '渋谷区',
+          AddressField.streetAddress: '桜丘町26-1',
         },
         {
-          'country_code': 'JP',
-          'country_area': 'Tokyo',
-          'postal_code': '150-8512',
-          'city': 'Shibuya-ku',
-          'street_address': '26-1 Sakuragaoka-cho',
+          AddressField.countryCode: 'JP',
+          AddressField.countryArea: 'Tokyo',
+          AddressField.postalCode: '150-8512',
+          AddressField.city: 'Shibuya-ku',
+          AddressField.streetAddress: '26-1 Sakuragaoka-cho',
         },
         {
-          'country_code': 'KR',
-          'country_area': '서울',
-          'postal_code': '06136',
-          'city': '강남구',
-          'street_address': '역삼동 737번지 강남파이낸스센터',
+          AddressField.countryCode: 'KR',
+          AddressField.countryArea: '서울',
+          AddressField.postalCode: '06136',
+          AddressField.city: '강남구',
+          AddressField.streetAddress: '역삼동 737번지 강남파이낸스센터',
         },
         {
-          'country_code': 'KR',
-          'country_area': '서울특별시',
-          'postal_code': '06136',
-          'city': '강남구',
-          'street_address': '역삼동 737번지 강남파이낸스센터',
+          AddressField.countryCode: 'KR',
+          AddressField.countryArea: '서울특별시',
+          AddressField.postalCode: '06136',
+          AddressField.city: '강남구',
+          AddressField.streetAddress: '역삼동 737번지 강남파이낸스센터',
         },
         {
-          'country_code': 'KR',
-          'country_area': 'Seoul',
-          'postal_code': '06136',
-          'city': 'Gangnam-gu',
-          'street_address': '역삼동 737번지 강남파이낸스센터',
+          AddressField.countryCode: 'KR',
+          AddressField.countryArea: 'Seoul',
+          AddressField.postalCode: '06136',
+          AddressField.city: 'Gangnam-gu',
+          AddressField.streetAddress: '역삼동 737번지 강남파이낸스센터',
         },
         {
-          'country_code': 'PL',
-          'city': 'Warszawa',
-          'postal_code': '00-374',
-          'street_address': 'Aleje Jerozolimskie 2',
+          AddressField.countryCode: 'PL',
+          AddressField.city: 'Warszawa',
+          AddressField.postalCode: '00-374',
+          AddressField.streetAddress: 'Aleje Jerozolimskie 2',
         },
         {
-          'country_code': 'US',
-          'country_area': 'California',
-          'postal_code': '94037',
-          'city': 'Mountain View',
-          'street_address': '1600 Charleston Rd.',
+          AddressField.countryCode: 'US',
+          AddressField.countryArea: 'California',
+          AddressField.postalCode: '94037',
+          AddressField.city: 'Mountain View',
+          AddressField.streetAddress: '1600 Charleston Rd.',
         },
       ];
 
@@ -208,55 +208,55 @@ void main() {
 
     test('localization handling', () {
       var address = normalizeAddress({
-        'country_code': 'us',
-        'country_area': 'California',
-        'postal_code': '94037',
-        'city': 'Mountain View',
-        'street_address': '1600 Charleston Rd.',
+        AddressField.countryCode: 'us',
+        AddressField.countryArea: 'California',
+        AddressField.postalCode: '94037',
+        AddressField.city: 'Mountain View',
+        AddressField.streetAddress: '1600 Charleston Rd.',
       });
-      expect(address['country_code'], 'US');
-      expect(address['country_area'], 'CA');
+      expect(address[AddressField.countryCode], 'US');
+      expect(address[AddressField.countryArea], 'CA');
 
       address = normalizeAddress({
-        'country_code': 'us',
-        'country_area': 'CALIFORNIA',
-        'postal_code': '94037',
-        'city': 'Mountain View',
-        'street_address': '1600 Charleston Rd.',
+        AddressField.countryCode: 'us',
+        AddressField.countryArea: 'CALIFORNIA',
+        AddressField.postalCode: '94037',
+        AddressField.city: 'Mountain View',
+        AddressField.streetAddress: '1600 Charleston Rd.',
       });
-      expect(address['country_area'], 'CA');
+      expect(address[AddressField.countryArea], 'CA');
 
       address = normalizeAddress({
-        'country_code': 'CN',
-        'country_area': 'Beijing Shi',
-        'postal_code': '100084',
-        'city': 'Haidian Qu',
-        'street_address': '#1 Zhongguancun East Road',
+        AddressField.countryCode: 'CN',
+        AddressField.countryArea: 'Beijing Shi',
+        AddressField.postalCode: '100084',
+        AddressField.city: 'Haidian Qu',
+        AddressField.streetAddress: '#1 Zhongguancun East Road',
       });
-      expect(address['country_area'], '北京市');
-      expect(address['city'], '海淀区');
+      expect(address[AddressField.countryArea], '北京市');
+      expect(address[AddressField.city], '海淀区');
 
       address = normalizeAddress({
-        'country_code': 'AE',
-        'country_area': 'Dubai',
-        'postal_code': '123456',
-        'sorting_code': '654321',
-        'street_address': 'P.O Box 1234',
+        AddressField.countryCode: 'AE',
+        AddressField.countryArea: 'Dubai',
+        AddressField.postalCode: '123456',
+        AddressField.sortingCode: '654321',
+        AddressField.streetAddress: 'P.O Box 1234',
       });
-      expect(address['country_area'], 'إمارة دبيّ');
-      expect(address['city'], '');
-      expect(address['postal_code'], '');
-      expect(address['sorting_code'], '');
+      expect(address[AddressField.countryArea], 'إمارة دبيّ');
+      expect(address[AddressField.city], '');
+      expect(address[AddressField.postalCode], '');
+      expect(address[AddressField.sortingCode], '');
     });
 
     test('address formatting', () {
       final address = {
-        'country_code': 'CN',
-        'country_area': '云南省',
-        'postal_code': '677400',
-        'city': '临沧市',
-        'city_area': '凤庆县',
-        'street_address': '中关村东路1号',
+        AddressField.countryCode: 'CN',
+        AddressField.countryArea: '云南省',
+        AddressField.postalCode: '677400',
+        AddressField.city: '临沧市',
+        AddressField.cityArea: '凤庆县',
+        AddressField.streetAddress: '中关村东路1号',
       };
       final result = formatAddress(address);
       expect(result, '677400\n云南省临沧市凤庆县\n中关村东路1号\nCHINA');
@@ -264,65 +264,65 @@ void main() {
 
     test('capitalization', () {
       final address = normalizeAddress({
-        'country_code': 'GB',
-        'postal_code': 'sw1a 0aa',
-        'city': 'London',
-        'street_address': 'Westminster',
+        AddressField.countryCode: 'GB',
+        AddressField.postalCode: 'sw1a 0aa',
+        AddressField.city: 'London',
+        AddressField.streetAddress: 'Westminster',
       });
-      expect(address['city'], 'LONDON');
-      expect(address['postal_code'], 'SW1A 0AA');
+      expect(address[AddressField.city], 'LONDON');
+      expect(address[AddressField.postalCode], 'SW1A 0AA');
     });
 
     group('address_latinization', () {
       test('empty address stays empty', () {
-        var address = <String, String>{};
+        var address = <AddressField, String>{};
         address = latinizeAddress(address, isNormalized: true);
-        expect(address, <String, String>{});
+        expect(address, <AddressField, String>{});
       });
 
       test('latinize US address', () {
         var address = {
-          'country_code': 'US',
-          'country_area': 'CA',
-          'postal_code': '94037',
-          'city': 'Mountain View',
-          'street_address': '1600 Charleston Rd.',
+          AddressField.countryCode: 'US',
+          AddressField.countryArea: 'CA',
+          AddressField.postalCode: '94037',
+          AddressField.city: 'Mountain View',
+          AddressField.streetAddress: '1600 Charleston Rd.',
         };
         address = latinizeAddress(address);
-        expect(address['country_area'], 'California');
+        expect(address[AddressField.countryArea], 'California');
       });
 
       test('latinize Chinese address', () {
         var address = {
-          'country_code': 'CN',
-          'country_area': '云南省',
-          'postal_code': '677400',
-          'city': '临沧市',
-          'city_area': '凤庆县',
-          'street_address': '中关村东路1号',
+          AddressField.countryCode: 'CN',
+          AddressField.countryArea: '云南省',
+          AddressField.postalCode: '677400',
+          AddressField.city: '临沧市',
+          AddressField.cityArea: '凤庆县',
+          AddressField.streetAddress: '中关村东路1号',
         };
         address = latinizeAddress(address);
         expect(address, {
-          'country_code': 'CN',
-          'country_area': 'Yunnan Sheng',
-          'postal_code': '677400',
-          'city': 'Lincang Shi',
-          'city_area': 'Fengqing Xian',
-          'street_address': '中关村东路1号',
-          'sorting_code': '',
+          AddressField.countryCode: 'CN',
+          AddressField.countryArea: 'Yunnan Sheng',
+          AddressField.postalCode: '677400',
+          AddressField.city: 'Lincang Shi',
+          AddressField.cityArea: 'Fengqing Xian',
+          AddressField.streetAddress: '中关村东路1号',
+          AddressField.sortingCode: '',
         });
       });
 
       test('latinize and format address', () {
         var address = {
-          'name': 'Zhang San',
-          'company_name': 'Beijing Kid Toy Company',
-          'country_code': 'CN',
-          'country_area': '北京市',
-          'city': '海淀区',
-          'postal_code': '100084',
-          'sorting_code': '',
-          'street_address': '#1 Zhongguancun East Road',
+          AddressField.name: 'Zhang San',
+          AddressField.companyName: 'Beijing Kid Toy Company',
+          AddressField.countryCode: 'CN',
+          AddressField.countryArea: '北京市',
+          AddressField.city: '海淀区',
+          AddressField.postalCode: '100084',
+          AddressField.sortingCode: '',
+          AddressField.streetAddress: '#1 Zhongguancun East Road',
         };
         address = latinizeAddress(address);
         final result = formatAddress(address, latin: true);
@@ -338,7 +338,8 @@ CHINA''');
 }
 
 // Helper function to compare error maps
-bool _compareErrors(Map<String, dynamic> actual, Map<String, dynamic> expected) {
+bool _compareErrors(
+    Map<AddressField, String> actual, Map<AddressField, String> expected) {
   if (actual.length != expected.length) {
     return false;
   }

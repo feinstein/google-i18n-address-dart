@@ -5,12 +5,12 @@ void main() {
   group('formatAddress', () {
     test('formats a Chinese address correctly', () {
       final address = {
-        'country_code': 'CN',
-        'country_area': '云南省',
-        'postal_code': '677400',
-        'city': '临沧市',
-        'city_area': '凤庆县',
-        'street_address': '中关村东路1号',
+        AddressField.countryCode: 'CN',
+        AddressField.countryArea: '云南省',
+        AddressField.postalCode: '677400',
+        AddressField.city: '临沧市',
+        AddressField.cityArea: '凤庆县',
+        AddressField.streetAddress: '中关村东路1号',
       };
 
       final result = formatAddress(address);
@@ -20,12 +20,12 @@ void main() {
 
     test('formats a Chinese address correctly in Latin format', () {
       final address = {
-        'country_code': 'CN',
-        'country_area': '云南省',
-        'postal_code': '677400',
-        'city': '临沧市',
-        'city_area': '凤庆县',
-        'street_address': '中关村东路1号',
+        AddressField.countryCode: 'CN',
+        AddressField.countryArea: '云南省',
+        AddressField.postalCode: '677400',
+        AddressField.city: '临沧市',
+        AddressField.cityArea: '凤庆县',
+        AddressField.streetAddress: '中关村东路1号',
       };
 
       final result = formatAddress(address, latin: true);
@@ -36,13 +36,13 @@ void main() {
 
     test('formats a US address correctly', () {
       final address = {
-        'name': 'John Doe',
-        'company_name': 'Example Corp',
-        'country_code': 'US',
-        'country_area': 'CA',
-        'postal_code': '94043',
-        'city': 'Mountain View',
-        'street_address': '1600 Amphitheatre Pkwy',
+        AddressField.name: 'John Doe',
+        AddressField.companyName: 'Example Corp',
+        AddressField.countryCode: 'US',
+        AddressField.countryArea: 'CA',
+        AddressField.postalCode: '94043',
+        AddressField.city: 'Mountain View',
+        AddressField.streetAddress: '1600 Amphitheatre Pkwy',
       };
 
       final result = formatAddress(address);
@@ -55,36 +55,36 @@ void main() {
   group('latinizeAddress', () {
     test('latinizes a Chinese address correctly', () {
       final address = {
-        'country_code': 'CN',
-        'country_area': '云南省',
-        'postal_code': '677400',
-        'city': '临沧市',
-        'city_area': '凤庆县',
-        'street_address': '中关村东路1号',
+        AddressField.countryCode: 'CN',
+        AddressField.countryArea: '云南省',
+        AddressField.postalCode: '677400',
+        AddressField.city: '临沧市',
+        AddressField.cityArea: '凤庆县',
+        AddressField.streetAddress: '中关村东路1号',
       };
 
       final latinized = latinizeAddress(address);
 
-      expect(latinized['country_area'], 'Yunnan Sheng');
-      expect(latinized['city'], 'Lincang Shi');
-      expect(latinized['city_area'], 'Fengqing Xian');
-      expect(latinized['street_address'], '中关村东路1号');
-      expect(latinized['sorting_code'], '');
+      expect(latinized[AddressField.countryArea], 'Yunnan Sheng');
+      expect(latinized[AddressField.city], 'Lincang Shi');
+      expect(latinized[AddressField.cityArea], 'Fengqing Xian');
+      expect(latinized[AddressField.streetAddress], '中关村东路1号');
+      expect(latinized[AddressField.sortingCode], '');
     });
 
     test('latinizes a US address correctly (expands state codes)', () {
       final address = {
-        'country_code': 'US',
-        'country_area': 'CA',
-        'postal_code': '94037',
-        'city': 'MOUNTAIN VIEW',
-        'street_address': '1600 Charleston Rd.',
+        AddressField.countryCode: 'US',
+        AddressField.countryArea: 'CA',
+        AddressField.postalCode: '94037',
+        AddressField.city: 'MOUNTAIN VIEW',
+        AddressField.streetAddress: '1600 Charleston Rd.',
       };
 
       final latinized = latinizeAddress(address);
 
-      expect(latinized['country_area'], 'California');
-      expect(latinized['city'], 'MOUNTAIN VIEW');
+      expect(latinized[AddressField.countryArea], 'California');
+      expect(latinized[AddressField.city], 'MOUNTAIN VIEW');
     });
 
     test('handles empty address', () {

@@ -6,8 +6,8 @@ import 'models.dart';
 /// Gets validation rules for an address.
 ///
 /// The address should at least have a country_code field.
-ValidationRules getValidationRules(Map<String, String> address) {
-  final countryCode = address['country_code']?.toUpperCase() ?? '';
+ValidationRules getValidationRules(Map<AddressField, String> address) {
+  final countryCode = address[AddressField.countryCode]?.toUpperCase() ?? '';
   final (countryData: countryData, database: database) = loadCountryData(countryCode);
 
   final countryName = countryData['name'] ?? '';
@@ -73,8 +73,8 @@ ValidationRules getValidationRules(Map<String, String> address) {
       countryAreaChoices.addAll(localizedCountryAreaChoices);
 
       final existingChoice = countryArea != null;
-      countryArea =
-          ChoicesMaker.matchChoices(address['country_area'], localizedCountryAreaChoices);
+      countryArea = ChoicesMaker.matchChoices(
+          address[AddressField.countryArea], localizedCountryAreaChoices);
 
       if (countryArea != null) {
         // Third level of data is for cities
@@ -99,7 +99,8 @@ ValidationRules getValidationRules(Map<String, String> address) {
           cityChoices.addAll(localizedCityChoices);
 
           final existingCityChoice = city != null;
-          city = ChoicesMaker.matchChoices(address['city'], localizedCityChoices);
+          city =
+              ChoicesMaker.matchChoices(address[AddressField.city], localizedCityChoices);
 
           if (city != null) {
             // Fourth level of data is for city areas
@@ -125,7 +126,7 @@ ValidationRules getValidationRules(Map<String, String> address) {
 
               final existingCityAreaChoice = cityArea != null;
               cityArea = ChoicesMaker.matchChoices(
-                  address[AddressField.cityArea.fieldName], localizedCityAreaChoices);
+                  address[AddressField.cityArea], localizedCityAreaChoices);
 
               if (cityArea != null) {
                 final Map<String, dynamic> cityAreaData;
@@ -182,24 +183,27 @@ ValidationRules getValidationRules(Map<String, String> address) {
 /// Normalizes a field in an address.
 ///
 /// Updates the cleaned data map and adds any errors to the errors map.
-void _normalizeField(AddressField field, ValidationRules rules, Map<String, String> data,
-    List<List<String>> choices, Map<String, String> errors) {
-  final name = field.fieldName;
-  final value = data[name];
+void _normalizeField(
+    AddressField field,
+    ValidationRules rules,
+    Map<AddressField, String> data,
+    List<List<String>> choices,
+    Map<AddressField, String> errors) {
+  final value = data[field];
 
   // Handle uppercase fields
   if (rules.upperFields.contains(field) && value != null) {
-    data[name] = value.toUpperCase();
+    data[field] = value.toUpperCase();
   }
 
   // Handle fields not in allowed fields
   if (!rules.allowedFields.contains(field)) {
-    data[name] = '';
+    data[field] = '';
   }
   // Handle required fields
   else if (value == null || value.isEmpty) {
     if (rules.requiredFields.contains(field)) {
-      errors[name] = 'required';
+      errors[field] = 'required';
     }
   }
   // Handle choices
@@ -207,16 +211,16 @@ void _normalizeField(AddressField field, ValidationRules rules, Map<String, Stri
     if (value.isNotEmpty || rules.requiredFields.contains(field)) {
       final matchedValue = ChoicesMaker.matchChoices(value, choices);
       if (matchedValue != null) {
-        data[name] = matchedValue;
+        data[field] = matchedValue;
       } else {
-        errors[name] = 'invalid';
+        errors[field] = 'invalid';
       }
     }
   }
 
   // Ensure empty values are represented as empty strings
-  if (data[name] == null) {
-    data[name] = '';
+  if (data[field] == null) {
+    data[field] = '';
   }
 }
 
@@ -224,25 +228,25 @@ void _normalizeField(AddressField field, ValidationRules rules, Map<String, Stri
 ///
 /// Returns a validated and normalized address map.
 /// Throws [InvalidAddressError] if validation fails.
-Map<String, String> normalizeAddress(Map<String, String> address) {
-  final errors = <String, String>{};
+Map<AddressField, String> normalizeAddress(Map<AddressField, String> address) {
+  final errors = <AddressField, String>{};
   ValidationRules rules;
 
   try {
     rules = getValidationRules(address);
   } catch (e) {
-    errors['country_code'] = 'invalid';
+    errors[AddressField.countryCode] = 'invalid';
     throw InvalidAddressError('Invalid address', errors);
   }
 
-  final cleanedData = <String, String>{...address};
+  final cleanedData = <AddressField, String>{...address};
 
   // Validate country code
-  final countryCode = cleanedData['country_code'];
+  final countryCode = cleanedData[AddressField.countryCode];
   if (countryCode == null || countryCode.isEmpty) {
-    errors['country_code'] = 'required';
+    errors[AddressField.countryCode] = 'required';
   } else {
-    cleanedData['country_code'] = countryCode.toUpperCase();
+    cleanedData[AddressField.countryCode] = countryCode.toUpperCase();
   }
 
   // Normalize fields
@@ -254,12 +258,11 @@ Map<String, String> normalizeAddress(Map<String, String> address) {
   _normalizeField(AddressField.postalCode, rules, cleanedData, [], errors);
 
   // Validate postal code format
-  final postalCodeName = AddressField.postalCode.fieldName;
-  final postalCode = cleanedData[postalCodeName] ?? '';
+  final postalCode = cleanedData[AddressField.postalCode] ?? '';
   if (rules.postalCodeMatchers.isNotEmpty && postalCode.isNotEmpty) {
     for (final matcher in rules.postalCodeMatchers) {
       if (!matcher.hasMatch(postalCode)) {
-        errors[postalCodeName] = 'invalid';
+        errors[AddressField.postalCode] = 'invalid';
         break;
       }
     }
@@ -279,22 +282,18 @@ Map<String, String> normalizeAddress(Map<String, String> address) {
 ///
 /// Returns a list of lists, where each inner list represents a line
 /// in the address format. This can be used to build form layouts.
-List<List<AddressField>> getFieldOrder(Map<String, String> address,
+List<List<AddressField>> getFieldOrder(Map<AddressField, String> address,
     {bool latin = false}) {
   final rules = getValidationRules(address);
   final addressFormat = latin ? rules.addressLatinFormat : rules.addressFormat;
   final addressLines = addressFormat.split('%n');
-
-  final replacements = <String, AddressField>{
-    for (final field in AddressField.values) '%${field.code}': field,
-  };
 
   final allLines = [
     for (final line in addressLines)
       [
         ...RegExp(r'(%.)')
             .allMatches(line)
-            .map((match) => replacements[match.group(0)])
+            .map((match) => addressFieldFromCode(match.group(1)![1]))
             .nonNulls
       ]
   ];
@@ -307,15 +306,15 @@ final _formatFieldRegExp = RegExp(r'%([ACDNOSXZ])');
 @visibleForTesting
 Set<AddressField> parseFormatFields(String format) {
   final formatFields = _formatFieldRegExp.allMatches(format);
-  return {for (final match in formatFields) AddressField.fromCode(match.group(1)!)};
+  return {for (final match in formatFields) addressFieldFromCode(match.group(1)!)};
 }
 
 @visibleForTesting
 Set<AddressField> parseRequiredFields(String requiredFieldsStr) {
-  return {for (final char in requiredFieldsStr.split('')) AddressField.fromCode(char)};
+  return {for (final char in requiredFieldsStr.split('')) addressFieldFromCode(char)};
 }
 
 @visibleForTesting
 Set<AddressField> parseUpperFields(String upperFieldsStr) {
-  return {for (final char in upperFieldsStr.split('')) AddressField.fromCode(char)};
+  return {for (final char in upperFieldsStr.split('')) addressFieldFromCode(char)};
 }

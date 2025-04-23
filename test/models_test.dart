@@ -95,13 +95,15 @@ void main() {
 
   group('InvalidAddressError', () {
     test('creates instance with message and errors', () {
-      final error = InvalidAddressError('Invalid address', {'city': 'required'});
+      final error =
+          InvalidAddressError('Invalid address', {AddressField.city: 'required'});
       expect(error.message, 'Invalid address');
-      expect(error.errors, {'city': 'required'});
+      expect(error.errors, {AddressField.city: 'required'});
     });
 
     test('toString returns a string representation', () {
-      final error = InvalidAddressError('Invalid address', {'city': 'required'});
+      final error =
+          InvalidAddressError('Invalid address', {AddressField.city: 'required'});
       expect(error.toString(), 'InvalidAddressError: Invalid address');
     });
   });
@@ -252,76 +254,19 @@ void main() {
   });
 
   group('AddressField', () {
-    test('maps format codes to field names', () {
-      expect(AddressField.asMap, {
-        'A': 'street_address',
-        'C': 'city',
-        'D': 'city_area',
-        'N': 'name',
-        'O': 'company_name',
-        'S': 'country_area',
-        'X': 'sorting_code',
-        'Z': 'postal_code',
-      });
-    });
-
-    test('fromCode returns correct field', () {
-      expect(AddressField.fromCode('A'), AddressField.streetAddress);
-      expect(AddressField.fromCode('C'), AddressField.city);
-      expect(AddressField.fromCode('D'), AddressField.cityArea);
-      expect(AddressField.fromCode('N'), AddressField.name);
-      expect(AddressField.fromCode('O'), AddressField.companyName);
-      expect(AddressField.fromCode('S'), AddressField.countryArea);
-      expect(AddressField.fromCode('X'), AddressField.sortingCode);
-      expect(AddressField.fromCode('Z'), AddressField.postalCode);
+    test('addressFieldFromCode returns correct field', () {
+      expect(addressFieldFromCode('A'), AddressField.streetAddress);
+      expect(addressFieldFromCode('C'), AddressField.city);
+      expect(addressFieldFromCode('D'), AddressField.cityArea);
+      expect(addressFieldFromCode('N'), AddressField.name);
+      expect(addressFieldFromCode('O'), AddressField.companyName);
+      expect(addressFieldFromCode('S'), AddressField.countryArea);
+      expect(addressFieldFromCode('X'), AddressField.sortingCode);
+      expect(addressFieldFromCode('Z'), AddressField.postalCode);
     });
 
     test('fromCode throws on invalid code', () {
-      expect(() => AddressField.fromCode('invalid'), throwsArgumentError);
-    });
-
-    test('fieldNameFromCode returns correct field name', () {
-      expect(AddressField.fieldNameFromCode('A'), 'street_address');
-      expect(AddressField.fieldNameFromCode('C'), 'city');
-      expect(AddressField.fieldNameFromCode('D'), 'city_area');
-      expect(AddressField.fieldNameFromCode('N'), 'name');
-      expect(AddressField.fieldNameFromCode('O'), 'company_name');
-      expect(AddressField.fieldNameFromCode('S'), 'country_area');
-      expect(AddressField.fieldNameFromCode('X'), 'sorting_code');
-      expect(AddressField.fieldNameFromCode('Z'), 'postal_code');
-    });
-
-    test('fromFieldName returns correct field', () {
-      expect(AddressField.fromFieldName('street_address'), AddressField.streetAddress);
-      expect(AddressField.fromFieldName('city'), AddressField.city);
-      expect(AddressField.fromFieldName('city_area'), AddressField.cityArea);
-      expect(AddressField.fromFieldName('name'), AddressField.name);
-      expect(AddressField.fromFieldName('company_name'), AddressField.companyName);
-      expect(AddressField.fromFieldName('country_area'), AddressField.countryArea);
-      expect(AddressField.fromFieldName('sorting_code'), AddressField.sortingCode);
-      expect(AddressField.fromFieldName('postal_code'), AddressField.postalCode);
-    });
-
-    test('fromFieldName throws on invalid field name', () {
-      expect(() => AddressField.fromFieldName('invalid'), throwsArgumentError);
-    });
-  });
-
-  group('Constants', () {
-    test('knownFields contains all expected fields', () {
-      expect(
-          knownFields,
-          containsAll([
-            'country_code',
-            'country_area',
-            'city',
-            'city_area',
-            'street_address',
-            'postal_code',
-            'sorting_code',
-            'name',
-            'company_name',
-          ]));
+      expect(() => addressFieldFromCode('invalid'), throwsArgumentError);
     });
   });
 }

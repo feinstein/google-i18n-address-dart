@@ -9,7 +9,7 @@ class AddressForm extends StatefulWidget {
     this.onSubmit,
   });
 
-  final void Function(Map<String, String>)? onSubmit;
+  final void Function(Map<AddressField, String>)? onSubmit;
 
   @override
   State<AddressForm> createState() => _AddressFormState();
@@ -17,8 +17,8 @@ class AddressForm extends StatefulWidget {
 
 class _AddressFormState extends State<AddressForm> {
   final _formKey = GlobalKey<FormState>();
-  final _addressData = <String, String>{};
-  final _controllers = <String, TextEditingController>{};
+  final _addressData = <AddressField, String>{};
+  final _controllers = <AddressField, TextEditingController>{};
 
   // Sample list of countries - in a real app, you would use a complete list
   final _countries = const [
@@ -34,7 +34,7 @@ class _AddressFormState extends State<AddressForm> {
 
   ValidationRules? _rules;
   List<List<AddressField>> _fieldOrder = [];
-  Map<String, String> _fieldErrors = {};
+  Map<AddressField, String> _fieldErrors = {};
 
   @override
   void initState() {
@@ -44,7 +44,7 @@ class _AddressFormState extends State<AddressForm> {
     _updateCountry('US');
 
     // Initialize controllers for all known fields
-    for (final field in knownFields) {
+    for (final field in AddressField.values) {
       _controllers[field] = TextEditingController();
     }
   }
@@ -60,9 +60,9 @@ class _AddressFormState extends State<AddressForm> {
 
   void _updateCountry(String countryCode) {
     setState(() {
-      _addressData['country_code'] = countryCode;
-      _rules = getValidationRules({'country_code': countryCode});
-      _fieldOrder = getFieldOrder({'country_code': countryCode});
+      _addressData[AddressField.countryCode] = countryCode;
+      _rules = getValidationRules({AddressField.countryCode: countryCode});
+      _fieldOrder = getFieldOrder({AddressField.countryCode: countryCode});
       _fieldErrors = {};
     });
   }
@@ -98,11 +98,11 @@ class _AddressFormState extends State<AddressForm> {
     }
   }
 
-  void _onFieldChanged(String fieldName, String value) {
+  void _onFieldChanged(AddressField field, String value) {
     setState(() {
-      _addressData[fieldName] = value;
-      if (_fieldErrors.containsKey(fieldName)) {
-        _fieldErrors.remove(fieldName);
+      _addressData[field] = value;
+      if (_fieldErrors.containsKey(field)) {
+        _fieldErrors.remove(field);
       }
     });
   }
@@ -162,7 +162,6 @@ class _AddressFormState extends State<AddressForm> {
 class AddressTextField extends StatelessWidget {
   const AddressTextField({
     super.key,
-    required this.fieldName,
     required this.addressField,
     required this.rules,
     required this.controller,
@@ -171,32 +170,31 @@ class AddressTextField extends StatelessWidget {
     required this.onChanged,
   });
 
-  final String fieldName;
   final AddressField addressField;
   final ValidationRules rules;
   final TextEditingController? controller;
-  final Map<String, String> addressData;
-  final Map<String, String> fieldErrors;
-  final void Function(String, String) onChanged;
+  final Map<AddressField, String> addressData;
+  final Map<AddressField, String> fieldErrors;
+  final void Function(AddressField, String) onChanged;
 
   @override
   Widget build(BuildContext context) {
     final isRequired = rules.requiredFields.contains(addressField);
-    final hasError = fieldErrors.containsKey(fieldName);
-    final errorText = hasError ? fieldErrors[fieldName] : null;
+    final hasError = fieldErrors.containsKey(addressField);
+    final errorText = hasError ? fieldErrors[addressField] : null;
 
     // Handle special cases for fields with choices
     if (addressField == AddressField.countryArea &&
         rules.countryAreaChoices.isNotEmpty) {
       return DropdownButtonFormField<String>(
         decoration: InputDecoration(
-          labelText: _getReadableFieldName(fieldName),
+          labelText: _getReadableFieldName(addressField),
           border: const OutlineInputBorder(),
           errorText: errorText != null
               ? 'This field is ${errorText == 'invalid' ? 'invalid' : 'required'}'
               : null,
         ),
-        value: addressData[fieldName],
+        value: addressData[addressField],
         items: [
           if (!isRequired)
             const DropdownMenuItem(
@@ -210,7 +208,7 @@ class AddressTextField extends StatelessWidget {
         ],
         onChanged: (value) {
           if (value != null) {
-            onChanged(fieldName, value);
+            onChanged(addressField, value);
           }
         },
         validator: isRequired
@@ -223,15 +221,15 @@ class AddressTextField extends StatelessWidget {
     return TextFormField(
       controller: controller,
       decoration: InputDecoration(
-        labelText: _getReadableFieldName(fieldName),
-        hintText: _getHintText(fieldName),
+        labelText: _getReadableFieldName(addressField),
+        hintText: _getHintText(addressField),
         border: const OutlineInputBorder(),
         errorText: errorText != null
             ? 'This field is ${errorText == 'invalid' ? 'invalid' : 'required'}'
             : null,
       ),
       onChanged: (value) {
-        onChanged(fieldName, value);
+        onChanged(addressField, value);
       },
       validator: isRequired
           ? (value) => (value == null || value.isEmpty) ? 'Required' : null
@@ -239,34 +237,32 @@ class AddressTextField extends StatelessWidget {
     );
   }
 
-  String _getReadableFieldName(String fieldName) {
-    switch (fieldName) {
-      case 'country_code':
+  String _getReadableFieldName(AddressField field) {
+    switch (field) {
+      case AddressField.countryCode:
         return 'Country';
-      case 'country_area':
+      case AddressField.countryArea:
         return rules.countryAreaType.capitalize();
-      case 'city':
+      case AddressField.city:
         return rules.cityType.capitalize();
-      case 'city_area':
+      case AddressField.cityArea:
         return rules.cityAreaType.capitalize();
-      case 'postal_code':
+      case AddressField.postalCode:
         return rules.postalCodeType.capitalize();
-      case 'street_address':
+      case AddressField.streetAddress:
         return 'Street Address';
-      case 'sorting_code':
+      case AddressField.sortingCode:
         return 'Sorting Code';
-      case 'name':
+      case AddressField.name:
         return 'Full Name';
-      case 'company_name':
+      case AddressField.companyName:
         return 'Company';
-      default:
-        return fieldName.capitalize();
     }
   }
 
-  String _getHintText(String fieldName) {
-    switch (fieldName) {
-      case 'postal_code':
+  String _getHintText(AddressField field) {
+    switch (field) {
+      case AddressField.postalCode:
         return (rules.postalCodeExamples.isNotEmpty)
             ? 'Example: ${rules.postalCodeExamples.first}'
             : '';
@@ -290,10 +286,10 @@ class AddressFieldsBuilder extends StatelessWidget {
 
   final ValidationRules? rules;
   final List<List<AddressField>> fieldOrder;
-  final Map<String, TextEditingController> controllers;
-  final Map<String, String> addressData;
-  final Map<String, String> fieldErrors;
-  final void Function(String, String) onFieldChanged;
+  final Map<AddressField, TextEditingController> controllers;
+  final Map<AddressField, String> addressData;
+  final Map<AddressField, String> fieldErrors;
+  final void Function(AddressField, String) onFieldChanged;
 
   @override
   Widget build(BuildContext context) {
@@ -311,10 +307,9 @@ class AddressFieldsBuilder extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(bottom: 16),
             child: AddressTextField(
-              fieldName: lineFields.first.fieldName,
               addressField: lineFields.first,
               rules: rules!,
-              controller: controllers[lineFields.first.fieldName],
+              controller: controllers[lineFields.first],
               addressData: addressData,
               fieldErrors: fieldErrors,
               onChanged: onFieldChanged,
@@ -336,10 +331,9 @@ class AddressFieldsBuilder extends StatelessWidget {
                             right: field == lineFields.last ? 0 : 8,
                           ),
                           child: AddressTextField(
-                            fieldName: field.fieldName,
                             addressField: field,
                             rules: rules!,
-                            controller: controllers[field.fieldName],
+                            controller: controllers[field],
                             addressData: addressData,
                             fieldErrors: fieldErrors,
                             onChanged: onFieldChanged,

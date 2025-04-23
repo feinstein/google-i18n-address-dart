@@ -4,44 +4,6 @@ This package contains a copy of [Google's i18n address](https://chromium-i18n.ap
 
 Contents of this package will allow you to programmatically build address forms that adhere to rules of a particular region or country, validate local addresses, and format them to produce a valid address label for delivery.
 
-## Installation
-
-Add this package to your `pubspec.yaml` file:
-
-```yaml
-dependencies:
-  google_i18n_address: ^1.0.0
-```
-
-Then run:
-
-```dart
-dart pub get
-```
-
-## Updating Address Data
-
-This package includes a tool to update the address data from Google's i18n address database. The tool downloads JSON files and converts them to Dart getters for lazy loading.
-
-```bash
-# Update all countries (download and convert to Dart)
-dart tool/update_json_files.dart
-
-# Update a specific country (e.g., US)
-dart tool/update_json_files.dart --country=us
-
-# Only download the JSON files without converting to Dart
-dart tool/update_json_files.dart --download
-
-# Only convert existing JSON files to Dart
-dart tool/update_json_files.dart --convert
-
-# Show all options
-dart tool/update_json_files.dart --help
-```
-
-For more details, see the [tool README](tool/README.md).
-
 ## Address Validation
 
 The `normalizeAddress` function checks the address and either returns its canonical form (suitable for storage and use in addressing envelopes) or throws an `InvalidAddressError` exception that contains a list of errors.
@@ -50,15 +12,15 @@ The `normalizeAddress` function checks the address and either returns its canoni
 
 Here is the list of recognized fields:
 
-- `country_code` is a two-letter ISO 3166-1 country code
-- `country_area` is a designation of a region, province, or state. Recognized values include official names, designated abbreviations, official translations, and Latin transliterations
-- `city` is a city or town name. Recognized values include official names, official translations, and Latin transliterations
-- `city_area` is a sublocality like a district. Recognized values include official names, official translations, and Latin transliterations
-- `street_address` is the (possibly multiline) street address
-- `postal_code` is a postal code or zip code
-- `sorting_code` is a sorting code
-- `name` is a person's name
-- `company_name` is a name of a company or organization
+- `AddressField.countryCode` is a two-letter ISO 3166-1 country code
+- `AddressField.countryArea` is a designation of a region, province, or state. Recognized values include official names, designated abbreviations, official translations, and Latin transliterations
+- `AddressField.city` is a city or town name. Recognized values include official names, official translations, and Latin transliterations
+- `AddressField.cityArea` is a sublocality like a district. Recognized values include official names, official translations, and Latin transliterations
+- `AddressField.streetAddress` is the (possibly multiline) street address
+- `AddressField.postalCode` is a postal code or zip code
+- `AddressField.sortingCode` is a sorting code
+- `AddressField.name` is a person's name
+- `AddressField.companyName` is a name of a company or organization
 
 ### Errors
 
@@ -69,7 +31,7 @@ import 'package:google_i18n_address/google_i18n_address.dart';
 
 void main() {
   try {
-    final address = normalizeAddress({'country_code': 'US'});
+    final address = normalizeAddress({AddressField.countryCode: 'US'});
   } on InvalidAddressError catch (e) {
     print(e.errors);
   }
@@ -78,8 +40,8 @@ void main() {
 
 Output:
 
-```dart
-{city: required, country_area: required, postal_code: required, street_address: required}
+```console
+{AddressField.city: required, AddressField.countryArea: required, AddressField.postalCode: required, AddressField.streetAddress: required}
 ```
 
 With correct address:
@@ -89,11 +51,11 @@ import 'package:google_i18n_address/google_i18n_address.dart';
 
 void main() {
   final address = normalizeAddress({
-    'country_code': 'US',
-    'country_area': 'California',
-    'city': 'Mountain View',
-    'postal_code': '94043',
-    'street_address': '1600 Amphitheatre Pkwy'
+    AddressField.countryCode: 'US',
+    AddressField.countryArea: 'California',
+    AddressField.city: 'Mountain View',
+    AddressField.postalCode: '94043',
+    AddressField.streetAddress: '1600 Amphitheatre Pkwy'
   });
   print(address);
 }
@@ -101,8 +63,8 @@ void main() {
 
 Output:
 
-```dart
-{city: MOUNTAIN VIEW, city_area: , country_area: CA, country_code: US, postal_code: 94043, sorting_code: , street_address: 1600 Amphitheatre Pkwy}
+```console
+{AddressField.city: MOUNTAIN VIEW, AddressField.cityArea: , AddressField.countryArea: CA, AddressField.countryCode: US, AddressField.postalCode: 94043, AddressField.sortingCode: , AddressField.streetAddress: 1600 Amphitheatre Pkwy}
 ```
 
 Postal code/zip code validation example:
@@ -113,11 +75,11 @@ import 'package:google_i18n_address/google_i18n_address.dart';
 void main() {
   try {
     final address = normalizeAddress({
-      'country_code': 'US',
-      'country_area': 'California',
-      'city': 'Mountain View',
-      'postal_code': '74043',
-      'street_address': '1600 Amphitheatre Pkwy'
+      AddressField.countryCode: 'US',
+      AddressField.countryArea: 'California',
+      AddressField.city: 'Mountain View',
+      AddressField.postalCode: '74043',
+      AddressField.streetAddress: '1600 Amphitheatre Pkwy'
     });
   } on InvalidAddressError catch (e) {
     print(e.errors);
@@ -127,8 +89,8 @@ void main() {
 
 Output:
 
-```dart
-{postal_code: invalid}
+```console
+{AddressField.postalCode: invalid}
 ```
 
 ## Address Latinization
@@ -142,12 +104,12 @@ import 'package:google_i18n_address/google_i18n_address.dart';
 
 void main() {
   final address = {
-    'country_code': 'CN',
-    'country_area': '云南省',
-    'postal_code': '677400',
-    'city': '临沧市',
-    'city_area': '凤庆县',
-    'street_address': '中关村东路1号'
+    AddressField.countryCode: 'CN',
+    AddressField.countryArea: '云南省',
+    AddressField.postalCode: '677400',
+    AddressField.city: '临沧市',
+    AddressField.cityArea: '凤庆县',
+    AddressField.streetAddress: '中关村东路1号'
   };
   
   final latinized = latinizeAddress(address);
@@ -157,8 +119,8 @@ void main() {
 
 Output:
 
-```dart
-{country_code: CN, country_area: Yunnan Sheng, city: Lincang Shi, city_area: Fengqing Xian, sorting_code: , postal_code: 677400, street_address: 中关村东路1号}
+```console
+{AddressField.countryCode: CN, AddressField.countryArea: Yunnan Sheng, AddressField.city: Lincang Shi, AddressField.cityArea: Fengqing Xian, AddressField.sortingCode: , AddressField.postalCode: 677400, AddressField.streetAddress: 中关村东路1号}
 ```
 
 It will also return expanded names for area types that normally use codes and abbreviations such as state names in the US:
@@ -168,11 +130,11 @@ import 'package:google_i18n_address/google_i18n_address.dart';
 
 void main() {
   final address = {
-    'country_code': 'US',
-    'country_area': 'CA',
-    'postal_code': '94037',
-    'city': 'Mountain View',
-    'street_address': '1600 Charleston Rd.'
+    AddressField.countryCode: 'US',
+    AddressField.countryArea: 'CA',
+    AddressField.postalCode: '94037',
+    AddressField.city: 'Mountain View',
+    AddressField.streetAddress: '1600 Charleston Rd.'
   };
   
   final latinized = latinizeAddress(address);
@@ -182,8 +144,8 @@ void main() {
 
 Output:
 
-```dart
-{country_code: US, country_area: California, city: Mountain View, city_area: , sorting_code: , postal_code: 94037, street_address: 1600 Charleston Rd.}
+```console
+{AddressField.countryCode: US, AddressField.countryArea: California, AddressField.city: Mountain View, AddressField.cityArea: , AddressField.sortingCode: , AddressField.postalCode: 94037, AddressField.streetAddress: 1600 Charleston Rd.}
 ```
 
 ## Address Formatting
@@ -195,12 +157,12 @@ import 'package:google_i18n_address/google_i18n_address.dart';
 
 void main() {
   final address = {
-    'country_code': 'CN',
-    'country_area': '云南省',
-    'postal_code': '677400',
-    'city': '临沧市',
-    'city_area': '凤庆县',
-    'street_address': '中关村东路1号'
+    AddressField.countryCode: 'CN',
+    AddressField.countryArea: '云南省',
+    AddressField.postalCode: '677400',
+    AddressField.city: '临沧市',
+    AddressField.cityArea: '凤庆县',
+    AddressField.streetAddress: '中关村东路1号'
   };
   
   print(formatAddress(address));
@@ -223,12 +185,12 @@ import 'package:google_i18n_address/google_i18n_address.dart';
 
 void main() {
   final address = {
-    'country_code': 'CN',
-    'country_area': '云南省',
-    'postal_code': '677400',
-    'city': '临沧市',
-    'city_area': '凤庆县',
-    'street_address': '中关村东路1号'
+    AddressField.countryCode: 'CN',
+    AddressField.countryArea: '云南省',
+    AddressField.postalCode: '677400',
+    AddressField.city: '临沧市',
+    AddressField.cityArea: '凤庆县',
+    AddressField.streetAddress: '中关村东路1号'
   };
   
   print(formatAddress(address, latin: true));
@@ -253,15 +215,15 @@ You can use the `getValidationRules` function to obtain validation data useful f
 import 'package:google_i18n_address/google_i18n_address.dart';
 
 void main() {
-  final rules = getValidationRules({'country_code': 'US', 'country_area': 'CA'});
+  final rules = getValidationRules({AddressField.countryCode: 'US', AddressField.countryArea: 'CA'});
   print(rules);
 }
 ```
 
 Output:
 
-```dart
-ValidationRules(countryCode: US, countryName: UNITED STATES, addressFormat: %N%n%O%n%A%n%C, %S %Z, addressLatinFormat: %N%n%O%n%A%n%C, %S %Z, allowedFields: {street_address, company_name, city, name, country_area, postal_code}, requiredFields: {street_address, city, country_area, postal_code}, upperFields: {city, country_area}, countryAreaType: state, countryAreaChoices: [[AL, Alabama], [AK, Alaska], ...], cityType: city, cityChoices: [], cityAreaType: suburb, cityAreaChoices: [], postalCodeType: zip, postalCodeMatchers: [RegExp: pattern=^(\d{5})(?:[ \-](\d{4}))?$], postalCodeExamples: [90000, 96199], postalCodePrefix: )
+```console
+ValidationRules(countryCode: US, countryName: UNITED STATES, addressFormat: %N%n%O%n%A%n%C, %S %Z, addressLatinFormat: %N%n%O%n%A%n%C, %S %Z, allowedFields: {AddressField.streetAddress, AddressField.companyName, AddressField.city, AddressField.name, AddressField.countryArea, AddressField.postalCode}, requiredFields: {AddressField.streetAddress, AddressField.city, AddressField.countryArea, AddressField.postalCode}, upperFields: {AddressField.city, AddressField.countryArea}, countryAreaType: state, countryAreaChoices: [[AL, Alabama], [AK, Alaska], ...], cityType: city, cityChoices: [], cityAreaType: suburb, cityAreaChoices: [], postalCodeType: zip, postalCodeMatchers: [RegExp: pattern=^(\d{5})(?:[ \-](\d{4}))?$], postalCodeExamples: [90000, 96199], postalCodePrefix: )
 ```
 
 ## Field Order
@@ -272,35 +234,41 @@ You can use the `getFieldOrder` function to get the expected order of address fo
 import 'package:google_i18n_address/google_i18n_address.dart';
 
 void main() {
-  final fieldOrder = getFieldOrder({'country_code': 'PL'});
+  final fieldOrder = getFieldOrder({AddressField.countryCode: 'PL'});
   print(fieldOrder);
 }
 ```
 
 Output:
 
-```dart
-[[name], [company_name], [street_address], [postal_code, city]]
+```console
+[[name], [company_name], [AddressField.streetAddress], [AddressField.postalCode, AddressField.city]]
 ```
 
-## All Known Fields
+## Development
 
-You can use the `knownFields` set to render optional address fields as hidden elements of your form:
+### Updating Address Data
 
-```dart
-import 'package:google_i18n_address/google_i18n_address.dart';
+This package includes a tool to update the address data from Google's i18n address database. The tool downloads JSON files and converts them to Dart getters for lazy loading.
 
-void main() {
-  final rules = getValidationRules({'country_code': 'US'});
-  print(knownFields.difference(rules.allowedFields));
-}
+```bash
+# Update all countries (download and convert to Dart)
+dart tool/update_json_files.dart
+
+# Update a specific country (e.g., US)
+dart tool/update_json_files.dart --country=us
+
+# Only download the JSON files without converting to Dart
+dart tool/update_json_files.dart --download
+
+# Only convert existing JSON files to Dart
+dart tool/update_json_files.dart --convert
+
+# Show all options
+dart tool/update_json_files.dart --help
 ```
 
-Output:
-
-```dart
-{city_area, sorting_code}
-```
+For more details, see the [tool README](tool/README.md).
 
 ## License
 

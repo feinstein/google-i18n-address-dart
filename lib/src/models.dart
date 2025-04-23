@@ -1,52 +1,31 @@
-import 'dart:collection';
-
 import 'package:meta/meta.dart';
 
-/// Set of all known address fields.
-final Set<String> knownFields = UnmodifiableSetView<String>({
-  'country_code',
-  ...AddressField.values.map((f) => f.fieldName),
-});
-
-/// Enum representing address field codes and their corresponding field names.
+/// Enum representing address fields.
 enum AddressField {
-  streetAddress('A', 'street_address'),
-  city('C', 'city'),
-  cityArea('D', 'city_area'),
-  name('N', 'name'),
-  companyName('O', 'company_name'),
-  countryArea('S', 'country_area'),
-  sortingCode('X', 'sorting_code'),
-  postalCode('Z', 'postal_code');
+  countryCode,
+  streetAddress,
+  city,
+  cityArea,
+  name,
+  companyName,
+  countryArea,
+  sortingCode,
+  postalCode,
+}
 
-  final String code;
-  final String fieldName;
-
-  const AddressField(this.code, this.fieldName);
-
-  /// Get an address field by its code
-  static AddressField fromCode(String code) {
-    return AddressField.values.firstWhere(
-      (field) => field.code == code,
-      orElse: () => throw ArgumentError('Invalid field code: $code'),
-    );
-  }
-
-  static AddressField fromFieldName(String fieldName) {
-    return AddressField.values.firstWhere(
-      (field) => field.fieldName == fieldName,
-      orElse: () => throw ArgumentError('Invalid field name: $fieldName'),
-    );
-  }
-
-  /// Get the field name for a given code
-  static String fieldNameFromCode(String code) {
-    return fromCode(code).fieldName;
-  }
-
-  /// Get all field mappings as a [Map<String, String>]
-  static Map<String, String> get asMap =>
-      Map.fromEntries(AddressField.values.map((f) => MapEntry(f.code, f.fieldName)));
+/// Get an address field by its code
+AddressField addressFieldFromCode(String code) {
+  return switch (code) {
+    'A' => AddressField.streetAddress,
+    'C' => AddressField.city,
+    'D' => AddressField.cityArea,
+    'N' => AddressField.name,
+    'O' => AddressField.companyName,
+    'S' => AddressField.countryArea,
+    'X' => AddressField.sortingCode,
+    'Z' => AddressField.postalCode,
+    _ => throw ArgumentError('Invalid field code: $code'),
+  };
 }
 
 /// Address validation rules for a specific country or region.
@@ -153,7 +132,7 @@ class InvalidAddressError implements Exception {
   final String message;
 
   /// Map of field names to error codes.
-  final Map<String, String> errors;
+  final Map<AddressField, String> errors;
 
   /// Creates a new invalid address error.
   InvalidAddressError(this.message, this.errors);

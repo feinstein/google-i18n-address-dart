@@ -5,10 +5,10 @@ import 'validation.dart';
 ///
 /// Replaces placeholders with actual field values.
 String _formatAddressLine(
-    String lineFormat, Map<String, String> address, ValidationRules rules) {
+    String lineFormat, Map<AddressField, String> address, ValidationRules rules) {
   // Helper function to get field value
   String getFieldValue(AddressField field) {
-    var value = address[field.fieldName] ?? '';
+    var value = address[field] ?? '';
     if (rules.upperFields.contains(field)) {
       value = value.toUpperCase();
     }
@@ -16,13 +16,14 @@ String _formatAddressLine(
   }
 
   // Replace field codes with values
-  final replacements = <String, String>{
-    for (var field in AddressField.values) '%${field.code}': getFieldValue(field)
+  final replacements = <AddressField, String>{
+    for (var field in AddressField.values) field: getFieldValue(field)
   };
 
   // Split format into parts and replace placeholders
-  final parts =
-      RegExp(r'(%.)').allMatches(lineFormat).map((match) => match.group(0)!).toList();
+  final parts = [
+    ...RegExp(r'(%.)').allMatches(lineFormat).map((match) => match.group(0)!)
+  ];
 
   // Keep track of the current position in the format string
   var currentPos = 0;
@@ -37,8 +38,10 @@ String _formatAddressLine(
       result.write(lineFormat.substring(currentPos, partPos));
     }
 
+    final code = part[1];
+    final field = addressFieldFromCode(code);
     // Add the replacement for this part
-    result.write(replacements[part] ?? part);
+    result.write(replacements[field] ?? part);
 
     // Update current position
     currentPos = partPos + part.length;
@@ -56,7 +59,7 @@ String _formatAddressLine(
 ///
 /// Returns a formatted address string suitable for printing on an envelope.
 /// If [latin] is true, uses Latin-friendly format where available.
-String formatAddress(Map<String, String> address, {bool latin = false}) {
+String formatAddress(Map<AddressField, String> address, {bool latin = false}) {
   final rules = getValidationRules(address);
   final addressFormat = latin ? rules.addressLatinFormat : rules.addressFormat;
   final addressLineFormats = addressFormat.split('%n');

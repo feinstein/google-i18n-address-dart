@@ -31,7 +31,7 @@ void main() {
     });
 
     test('validation rules for Canada', () {
-      final validationData = getValidationRules({'country_code': 'CA'});
+      final validationData = getValidationRules({AddressField.countryCode: 'CA'});
       expect(validationData.countryCode, 'CA');
       expect(
           validationData.countryAreaChoices,
@@ -60,7 +60,7 @@ void main() {
     });
 
     test('validation for India', () {
-      final validationData = getValidationRules({'country_code': 'IN'});
+      final validationData = getValidationRules({AddressField.countryCode: 'IN'});
       expect(
           validationData.countryAreaChoices,
           containsAll([
@@ -143,7 +143,7 @@ void main() {
     });
 
     test('validation rules for Switzerland', () {
-      final validationData = getValidationRules({'country_code': 'CH'});
+      final validationData = getValidationRules({AddressField.countryCode: 'CH'});
       expect(
         validationData.allowedFields,
         containsAll([
@@ -165,7 +165,7 @@ void main() {
     });
 
     test('field order for Poland', () {
-      final fieldOrder = getFieldOrder({'country_code': 'PL'});
+      final fieldOrder = getFieldOrder({AddressField.countryCode: 'PL'});
       expect(fieldOrder, [
         [AddressField.name],
         [AddressField.companyName],
@@ -175,7 +175,7 @@ void main() {
     });
 
     test('field order for China', () {
-      final fieldOrder = getFieldOrder({'country_code': 'CN'});
+      final fieldOrder = getFieldOrder({AddressField.countryCode: 'CN'});
       expect(fieldOrder, [
         [AddressField.postalCode],
         [AddressField.countryArea, AddressField.city, AddressField.cityArea],
@@ -197,7 +197,7 @@ void main() {
         final levels = entry.value;
 
         test('locality types for $country', () {
-          final validationData = getValidationRules({'country_code': country});
+          final validationData = getValidationRules({AddressField.countryCode: country});
           expect(validationData.countryAreaType, levels[0]);
           expect(validationData.cityType, levels[1]);
           expect(validationData.cityAreaType, levels[2]);
