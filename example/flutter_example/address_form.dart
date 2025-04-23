@@ -1,13 +1,11 @@
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
 import 'package:google_i18n_address/google_i18n_address.dart';
 
 /// A form widget that uses google_i18n_address to validate and format
 /// address input according to the selected country.
 class AddressForm extends StatefulWidget {
-  const AddressForm({
-    super.key,
-    this.onSubmit,
-  });
+  const AddressForm({super.key, this.onSubmit});
 
   final void Function(Map<AddressField, String>)? onSubmit;
 
@@ -60,6 +58,7 @@ class _AddressFormState extends State<AddressForm> {
 
   void _updateCountry(String countryCode) {
     setState(() {
+      _addressData.clear();
       _addressData[AddressField.countryCode] = countryCode;
       _rules = getValidationRules({AddressField.countryCode: countryCode});
       _fieldOrder = getFieldOrder({AddressField.countryCode: countryCode});
@@ -121,12 +120,15 @@ class _AddressFormState extends State<AddressForm> {
               border: OutlineInputBorder(),
             ),
             value: _addressData['country_code'] ?? 'US',
-            items: _countries
-                .map((country) => DropdownMenuItem(
-                      value: country['code'],
-                      child: Text(country['name']!),
-                    ))
-                .toList(),
+            items:
+                _countries
+                    .map(
+                      (country) => DropdownMenuItem(
+                        value: country['code'],
+                        child: Text(country['name']!),
+                      ),
+                    )
+                    .toList(),
             onChanged: (value) {
               if (value != null) {
                 _updateCountry(value);
@@ -148,10 +150,7 @@ class _AddressFormState extends State<AddressForm> {
           const SizedBox(height: 24),
 
           // Submit button
-          ElevatedButton(
-            onPressed: _submitForm,
-            child: const Text('Submit'),
-          ),
+          ElevatedButton(onPressed: _submitForm, child: const Text('Submit')),
         ],
       ),
     );
@@ -190,30 +189,46 @@ class AddressTextField extends StatelessWidget {
         decoration: InputDecoration(
           labelText: _getReadableFieldName(addressField),
           border: const OutlineInputBorder(),
-          errorText: errorText != null
-              ? 'This field is ${errorText == 'invalid' ? 'invalid' : 'required'}'
-              : null,
+          errorText:
+              errorText != null
+                  ? 'This field is ${errorText == 'invalid' ? 'invalid' : 'required'}'
+                  : null,
         ),
         value: addressData[addressField],
         items: [
           if (!isRequired)
-            const DropdownMenuItem(
-              value: '',
-              child: Text('-- Select --'),
-            ),
-          ...rules.countryAreaChoices.map((choice) => DropdownMenuItem(
-                value: choice.code,
-                child: Text(choice.name),
-              )),
+            const DropdownMenuItem(value: '', child: Text('-- Select --')),
+          ...rules.countryAreaChoices
+              .groupFoldBy<String, ({String code, String name})>(
+                (choice) => choice.code,
+                (previous, element) {
+                  if (previous == null) {
+                    return element;
+                  }
+                  return (
+                    code: previous.code,
+                    name: '${previous.name}, ${element.name}',
+                  );
+                },
+              )
+              .entries
+              .map(
+                (entry) => DropdownMenuItem(
+                  value: entry.key,
+                  child: Text(entry.value.name),
+                ),
+              ),
         ],
         onChanged: (value) {
           if (value != null) {
             onChanged(addressField, value);
           }
         },
-        validator: isRequired
-            ? (value) => (value == null || value.isEmpty) ? 'Required' : null
-            : null,
+        validator:
+            isRequired
+                ? (value) =>
+                    (value == null || value.isEmpty) ? 'Required' : null
+                : null,
       );
     }
 
@@ -224,16 +239,18 @@ class AddressTextField extends StatelessWidget {
         labelText: _getReadableFieldName(addressField),
         hintText: _getHintText(addressField),
         border: const OutlineInputBorder(),
-        errorText: errorText != null
-            ? 'This field is ${errorText == 'invalid' ? 'invalid' : 'required'}'
-            : null,
+        errorText:
+            errorText != null
+                ? 'This field is ${errorText == 'invalid' ? 'invalid' : 'required'}'
+                : null,
       ),
       onChanged: (value) {
         onChanged(addressField, value);
       },
-      validator: isRequired
-          ? (value) => (value == null || value.isEmpty) ? 'Required' : null
-          : null,
+      validator:
+          isRequired
+              ? (value) => (value == null || value.isEmpty) ? 'Required' : null
+              : null,
     );
   }
 
@@ -323,24 +340,27 @@ class AddressFieldsBuilder extends StatelessWidget {
             padding: const EdgeInsets.only(bottom: 16),
             child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: lineFields
-                  .map((field) => Expanded(
-                        child: Padding(
-                          padding: EdgeInsets.only(
-                            left: field == lineFields.first ? 0 : 8,
-                            right: field == lineFields.last ? 0 : 8,
-                          ),
-                          child: AddressTextField(
-                            addressField: field,
-                            rules: rules!,
-                            controller: controllers[field],
-                            addressData: addressData,
-                            fieldErrors: fieldErrors,
-                            onChanged: onFieldChanged,
+              children:
+                  lineFields
+                      .map(
+                        (field) => Expanded(
+                          child: Padding(
+                            padding: EdgeInsets.only(
+                              left: field == lineFields.first ? 0 : 8,
+                              right: field == lineFields.last ? 0 : 8,
+                            ),
+                            child: AddressTextField(
+                              addressField: field,
+                              rules: rules!,
+                              controller: controllers[field],
+                              addressData: addressData,
+                              fieldErrors: fieldErrors,
+                              onChanged: onFieldChanged,
+                            ),
                           ),
                         ),
-                      ))
-                  .toList(),
+                      )
+                      .toList(),
             ),
           ),
         );

@@ -46,10 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             const Text(
               'International Address Form',
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-              ),
+              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 16),
             const Text(
@@ -68,10 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
               const SizedBox(height: 32),
               const Text(
                 'Validated Address:',
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
-                ),
+                style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
               ),
               const SizedBox(height: 8),
               Card(
@@ -83,26 +77,26 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       ..._validatedAddress!.entries
                           .where((e) => e.value.isNotEmpty)
-                          .map((e) => Padding(
-                                padding: const EdgeInsets.only(bottom: 8.0),
-                                child: Row(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    SizedBox(
-                                      width: 120,
-                                      child: Text(
-                                        '${_formatFieldName(e.key)}:',
-                                        style: const TextStyle(
-                                          fontWeight: FontWeight.bold,
-                                        ),
+                          .map(
+                            (e) => Padding(
+                              padding: const EdgeInsets.only(bottom: 8.0),
+                              child: Row(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: [
+                                  SizedBox(
+                                    width: 120,
+                                    child: Text(
+                                      '${_formatFieldName(e.key)}:',
+                                      style: const TextStyle(
+                                        fontWeight: FontWeight.bold,
                                       ),
                                     ),
-                                    Expanded(
-                                      child: Text(e.value),
-                                    ),
-                                  ],
-                                ),
-                              )),
+                                  ),
+                                  Expanded(child: Text(e.value)),
+                                ],
+                              ),
+                            ),
+                          ),
                     ],
                   ),
                 ),
