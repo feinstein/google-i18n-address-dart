@@ -35,6 +35,12 @@ void main() {
       );
     });
 
+    test('loadValidationData dictionary access works correctly', () {
+      final data = loadValidationData('US');
+      final state = data['US/NV'];
+      expect(state?['name'], 'Nevada');
+    });
+
     test('loadCountryData loads base data for null country code', () {
       final result = loadCountryData(null);
       expect(result.countryData, isA<Map<String, dynamic>>());

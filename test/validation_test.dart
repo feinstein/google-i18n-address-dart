@@ -33,6 +33,92 @@ void main() {
       ]);
     });
 
+    test('validation for India', () {
+      final validationData = getValidationRules({AddressField.countryCode: 'IN'});
+      expect(
+        validationData.countryAreaChoices,
+        containsAll([
+          (code: 'Andaman and Nicobar Islands', name: 'Andaman & Nicobar'),
+          (code: 'Andhra Pradesh', name: 'Andhra Pradesh'),
+          (code: 'Andhra Pradesh', name: 'आंध्र प्रदेश'),
+          (code: 'Arunachal Pradesh', name: 'Arunachal Pradesh'),
+          (code: 'Arunachal Pradesh', name: 'अरुणाचल प्रदेश'),
+          (code: 'Assam', name: 'Assam'),
+          (code: 'Assam', name: 'असम'),
+          (code: 'Bihar', name: 'Bihar'),
+          (code: 'Bihar', name: 'बिहार'),
+          (code: 'Chandigarh', name: 'Chandigarh'),
+          (code: 'Chandigarh', name: 'चंडीगढ़'),
+          (code: 'Chhattisgarh', name: 'Chhattisgarh'),
+          (code: 'Chhattisgarh', name: 'छत्तीसगढ़'),
+          (
+            code: 'Dadra and Nagar Haveli and Daman and Diu',
+            name: 'Dadra & Nagar Haveli & Daman & Diu',
+          ),
+          (code: 'Delhi', name: 'Delhi'),
+          (code: 'Delhi', name: 'दिल्ली'),
+          (code: 'Goa', name: 'Goa'),
+          (code: 'Goa', name: 'गोआ'),
+          (code: 'Gujarat', name: 'Gujarat'),
+          (code: 'Gujarat', name: 'गुजरात'),
+          (code: 'Haryana', name: 'Haryana'),
+          (code: 'Haryana', name: 'हरियाणा'),
+          (code: 'Himachal Pradesh', name: 'Himachal Pradesh'),
+          (code: 'Himachal Pradesh', name: 'हिमाचल प्रदेश'),
+          (code: 'Jammu and Kashmir', name: 'Jammu & Kashmir'),
+          (code: 'Jharkhand', name: 'Jharkhand'),
+          (code: 'Jharkhand', name: 'झारखण्ड'),
+          (code: 'Karnataka', name: 'Karnataka'),
+          (code: 'Karnataka', name: 'कर्नाटक'),
+          (code: 'Kerala', name: 'Kerala'),
+          (code: 'Kerala', name: 'केरल'),
+          (code: 'Ladakh', name: 'Ladakh'),
+          (code: 'Ladakh', name: 'लद्दाख़'),
+          (code: 'Lakshadweep', name: 'Lakshadweep'),
+          (code: 'Lakshadweep', name: 'लक्षद्वीप'),
+          (code: 'Madhya Pradesh', name: 'Madhya Pradesh'),
+          (code: 'Madhya Pradesh', name: 'मध्य प्रदेश'),
+          (code: 'Maharashtra', name: 'Maharashtra'),
+          (code: 'Maharashtra', name: 'महाराष्ट्र'),
+          (code: 'Manipur', name: 'Manipur'),
+          (code: 'Manipur', name: 'मणिपुर'),
+          (code: 'Meghalaya', name: 'Meghalaya'),
+          (code: 'Mizoram', name: 'Mizoram'),
+          (code: 'Mizoram', name: 'मिजोरम'),
+          (code: 'Nagaland', name: 'Nagaland'),
+          (code: 'Nagaland', name: 'नागालैंड'),
+          (code: 'Odisha', name: 'Odisha'),
+          (code: 'Odisha', name: 'ओड़िशा'),
+          (code: 'Puducherry', name: 'Puducherry'),
+          (code: 'Puducherry', name: 'पांडिचेरी'),
+          (code: 'Punjab', name: 'Punjab'),
+          (code: 'Punjab', name: 'पंजाब'),
+          (code: 'Rajasthan', name: 'Rajasthan'),
+          (code: 'Rajasthan', name: 'राजस्थान'),
+          (code: 'Sikkim', name: 'Sikkim'),
+          (code: 'Sikkim', name: 'सिक्किम'),
+          (code: 'Tamil Nadu', name: 'Tamil Nadu'),
+          (code: 'Tamil Nadu', name: 'तमिल नाडु'),
+          (code: 'Telangana', name: 'Telangana'),
+          (code: 'Telangana', name: 'तेलंगाना'),
+          (code: 'Tripura', name: 'Tripura'),
+          (code: 'Tripura', name: 'त्रिपुरा'),
+          (code: 'Uttar Pradesh', name: 'Uttar Pradesh'),
+          (code: 'Uttar Pradesh', name: 'उत्तर प्रदेश'),
+          (code: 'Uttarakhand', name: 'Uttarakhand'),
+          (code: 'Uttarakhand', name: 'उत्तराखण्ड'),
+          (code: 'West Bengal', name: 'West Bengal'),
+          (code: 'West Bengal', name: 'पश्चिम बंगाल'),
+          (code: 'Andaman & Nicobar', name: 'अंडमान और निकोबार द्वीपसमूह'),
+          (code: 'Jammu & Kashmir', name: 'जम्मू और कश्मीर'),
+          (
+            code: 'Dadra & Nagar Haveli & Daman & Diu',
+            name: 'दादरा और नगर हवेली और दमन और दिउ',
+          ),
+        ]),
+      );
+    });
+
     test('getValidationRules returns correct data for Switzerland', () {
       final validationRules = getValidationRules({AddressField.countryCode: 'CH'});
 
@@ -436,5 +522,25 @@ void main() {
         [AddressField.postalCode, AddressField.city, AddressField.sortingCode],
       ]);
     });
+  });
+
+  group('locality types', () {
+    final testData = {
+      'CN': (countryAreaType: 'province', cityType: 'city', cityAreaType: 'district'),
+      'JP': (countryAreaType: 'prefecture', cityType: 'city', cityAreaType: 'suburb'),
+      'KR': (countryAreaType: 'do_si', cityType: 'city', cityAreaType: 'district'),
+    };
+
+    for (final entry in testData.entries) {
+      final country = entry.key;
+      final levels = entry.value;
+
+      test('locality types for $country', () {
+        final validationData = getValidationRules({AddressField.countryCode: country});
+        expect(validationData.countryAreaType, levels.countryAreaType);
+        expect(validationData.cityType, levels.cityType);
+        expect(validationData.cityAreaType, levels.cityAreaType);
+      });
+    }
   });
 }
