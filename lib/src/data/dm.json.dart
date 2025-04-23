@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get dmJson => {
-      'DM': {'id': 'data/DM', 'key': 'DM', 'name': 'DOMINICA'}
-    };
+  'DM': {'id': 'data/DM', 'key': 'DM', 'name': 'DOMINICA'},
+};

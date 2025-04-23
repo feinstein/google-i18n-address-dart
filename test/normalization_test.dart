@@ -97,8 +97,10 @@ void main() {
           expect(
             () => normalizeAddress(address),
             throwsA(
-              predicate((e) =>
-                  e is InvalidAddressError && _compareErrors(e.errors, expectedErrors)),
+              predicate(
+                (e) =>
+                    e is InvalidAddressError && _compareErrors(e.errors, expectedErrors),
+              ),
             ),
           );
         });
@@ -339,7 +341,9 @@ CHINA''');
 
 // Helper function to compare error maps
 bool _compareErrors(
-    Map<AddressField, String> actual, Map<AddressField, String> expected) {
+  Map<AddressField, String> actual,
+  Map<AddressField, String> expected,
+) {
   if (actual.length != expected.length) {
     return false;
   }

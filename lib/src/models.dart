@@ -56,19 +56,21 @@ class ValidationRules {
   final String countryAreaType;
 
   /// List of available country areas as (code, name) pairs.
-  final List<List<String>> countryAreaChoices;
+  final List<({String code, String name})> countryAreaChoices;
 
   /// Type of city (e.g., "city", "town").
   final String cityType;
 
   /// List of available cities as (code, name) pairs.
-  final List<List<String>> cityChoices;
+  /// Be aware that many cities have the "code" as their native names and the "name" as their latin names
+  // TODO(mfeinstein): [23/04/2025] Review this structure as many cities have the "code" as their native names and the "name" as their latin names
+  final List<({String code, String name})> cityChoices;
 
   /// Type of city area (e.g., "district", "suburb").
   final String cityAreaType;
 
   /// List of available city areas as (code, name) pairs.
-  final List<List<String>> cityAreaChoices;
+  final List<({String code, String name})> cityAreaChoices;
 
   /// Type of postal code (e.g., "zip", "postal").
   final String postalCodeType;
@@ -141,99 +143,97 @@ class InvalidAddressError implements Exception {
   String toString() => 'InvalidAddressError: $message';
 }
 
-/// Helper class to make choices from address data
-class ChoicesMaker {
-  /// Make choices from address rules
-  static List<List<String>> makeChoices(Map<String, String> rules,
-      {bool translated = false}) {
-    final subKeys = rules['sub_keys'];
-    if (subKeys == null) {
-      return [];
-    }
-
-    final choices = <List<String>>[];
-    final subKeysList = subKeys.split('~');
-    final subNames = rules['sub_names'];
-
-    if (subNames != null) {
-      final subNamesList = subNames.split('~');
-      for (int i = 0; i < subKeysList.length && i < subNamesList.length; i++) {
-        if (subNamesList[i].isNotEmpty) {
-          choices.add([subKeysList[i], subNamesList[i]]);
-        }
-      }
-    } else if (!translated) {
-      for (final key in subKeysList) {
-        choices.add([key, key]);
-      }
-    }
-
-    if (!translated) {
-      final subLNames = rules['sub_lnames'];
-      if (subLNames != null) {
-        final subLNamesList = subLNames.split('~');
-        for (int i = 0; i < subKeysList.length && i < subLNamesList.length; i++) {
-          if (subLNamesList[i].isNotEmpty) {
-            choices.add([subKeysList[i], subLNamesList[i]]);
-          }
-        }
-      }
-
-      final subLFNames = rules['sub_lfnames'];
-      if (subLFNames != null) {
-        final subLFNamesList = subLFNames.split('~');
-        for (int i = 0; i < subKeysList.length && i < subLFNamesList.length; i++) {
-          if (subLFNamesList[i].isNotEmpty) {
-            choices.add([subKeysList[i], subLFNamesList[i]]);
-          }
-        }
-      }
-    }
-
-    return choices;
+/// Make choices from address rules
+List<({String code, String name})> makeChoices(
+  Map<String, String> rules, {
+  bool translated = false,
+}) {
+  final subKeys = rules['sub_keys'];
+  if (subKeys == null) {
+    return [];
   }
 
-  /// Compact choices to avoid duplicates
-  static List<List<String>> compactChoices(List<List<String>> choices) {
-    final valueMap = <String, Set<String>>{};
+  final choices = <({String code, String name})>[];
+  final subKeysList = subKeys.split('~');
+  final subNames = rules['sub_names'];
 
-    for (final choice in choices) {
-      final key = choice[0];
-      final value = choice[1];
-      valueMap.putIfAbsent(key, () => <String>{}).add(value);
-    }
-
-    final result = <List<String>>[];
-    for (final entry in valueMap.entries) {
-      for (final value in entry.value.toList()..sort()) {
-        result.add([entry.key, value]);
+  if (subNames != null) {
+    final subNamesList = subNames.split('~');
+    for (int i = 0; i < subKeysList.length && i < subNamesList.length; i++) {
+      if (subNamesList[i].isNotEmpty) {
+        choices.add((code: subKeysList[i], name: subNamesList[i]));
       }
     }
-
-    return result;
+  } else if (!translated) {
+    for (final key in subKeysList) {
+      choices.add((code: key, name: key));
+    }
   }
 
-  /// Match a value against a list of choices
-  static String? matchChoices(String? value, List<List<String>> choices) {
-    if (value == null || value.isEmpty) {
-      return null;
-    }
-
-    final normalizedValue = value.trim().toLowerCase();
-
-    for (final choice in choices) {
-      final name = choice[0];
-      final label = choice[1];
-
-      if (name.toLowerCase() == normalizedValue) {
-        return name;
-      }
-
-      if (label.toLowerCase() == normalizedValue) {
-        return name;
+  if (!translated) {
+    final subLNames = rules['sub_lnames'];
+    if (subLNames != null) {
+      final subLNamesList = subLNames.split('~');
+      for (int i = 0; i < subKeysList.length && i < subLNamesList.length; i++) {
+        if (subLNamesList[i].isNotEmpty) {
+          choices.add((code: subKeysList[i], name: subLNamesList[i]));
+        }
       }
     }
 
+    final subLFNames = rules['sub_lfnames'];
+    if (subLFNames != null) {
+      final subLFNamesList = subLFNames.split('~');
+      for (int i = 0; i < subKeysList.length && i < subLFNamesList.length; i++) {
+        if (subLFNamesList[i].isNotEmpty) {
+          choices.add((code: subKeysList[i], name: subLFNamesList[i]));
+        }
+      }
+    }
+  }
+
+  return choices;
+}
+
+/// Compact choices to avoid duplicates
+List<({String code, String name})> compactChoices(
+  List<({String code, String name})> choices,
+) {
+  final valueMap = <String, Set<String>>{};
+
+  for (final choice in choices) {
+    final code = choice.code;
+    final name = choice.name;
+    valueMap.putIfAbsent(code, () => <String>{}).add(name);
+  }
+
+  final result = <({String code, String name})>[
+    for (final entry in valueMap.entries)
+      for (final value in entry.value.toList()..sort()) (code: entry.key, name: value),
+  ];
+  return result;
+}
+
+/// Match a value against a list of choices returning the code of the matched choice
+String? matchChoices(String? value, List<({String code, String name})> choices) {
+  if (value == null || value.isEmpty) {
     return null;
   }
+
+  final normalizedValue = value.trim().toLowerCase();
+
+  for (final choice in choices) {
+    final code = choice.code;
+    final name = choice.name;
+
+    if (code.toLowerCase() == normalizedValue) {
+      return code;
+    }
+
+    if (name.toLowerCase() == normalizedValue) {
+      return code;
+    }
+  }
+
+  return null;
 }

@@ -35,7 +35,7 @@ Map<String, Map<String, String>> loadValidationData(String countryCode) {
 /// Returns a tuple containing the country data and the full database.
 /// The full database is needed to get sub-regions data.
 ({Map<String, String> countryData, Map<String, Map<String, String>> database})
-    loadCountryData(String? countryCode) {
+loadCountryData(String? countryCode) {
   var database = loadValidationData('zz');
   final countryData = <String, String>{...(database['ZZ'] ?? {})};
 
@@ -43,7 +43,9 @@ Map<String, Map<String, String>> loadValidationData(String countryCode) {
     final normalizedCountryCode = countryCode.toUpperCase();
     if (normalizedCountryCode.toLowerCase() == 'zz') {
       throw ArgumentError(
-          '"$normalizedCountryCode" is not a valid country code', 'countryCode');
+        '"$normalizedCountryCode" is not a valid country code',
+        'countryCode',
+      );
     }
 
     database = loadValidationData(normalizedCountryCode.toLowerCase());

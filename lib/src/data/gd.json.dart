@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get gdJson => {
-      'GD': {'id': 'data/GD', 'key': 'GD', 'name': 'GRENADA (WEST INDIES)'}
-    };
+  'GD': {'id': 'data/GD', 'key': 'GD', 'name': 'GRENADA (WEST INDIES)'},
+};

@@ -43,7 +43,10 @@ Future<Map<String, dynamic>> fetch(String url) async {
 /// Processes a key/language pair and returns data.
 /// Also adds any sub-keys and language variants to the collection.
 Future<Map<String, dynamic>> processData(
-    String key, String? language, Map<String, Map<String, dynamic>> allData) async {
+  String key,
+  String? language,
+  Map<String, Map<String, dynamic>> allData,
+) async {
   final fullKey = language != null ? '$key--$language' : key;
   final url = '$mainUrl/$fullKey';
 
@@ -142,12 +145,13 @@ Map<String, Map<String, String>> get ${countryCode.toLowerCase()}Json => $jsonCo
 void createJsonDataFile() {
   _log.info('Creating json_data.dart file');
   final dataDirectory = Directory(dataDir);
-  final dartFiles = dataDirectory
-      .listSync()
-      .whereType<File>()
-      .where((file) => file.path.endsWith('.json.dart'))
-      .map((file) => path.basename(file.path))
-      .toList();
+  final dartFiles =
+      dataDirectory
+          .listSync()
+          .whereType<File>()
+          .where((file) => file.path.endsWith('.json.dart'))
+          .map((file) => path.basename(file.path))
+          .toList();
 
   final jsonDataFile = File(path.join(dataDir, 'json_data.dart'));
 
@@ -156,9 +160,8 @@ void createJsonDataFile() {
     ...dartFiles.map((file) {
       final countryCode = path.basenameWithoutExtension(file).replaceAll('.json', '');
       return "  '$countryCode': () => ${countryCode}Json,";
-    })
-  ]..sort((a, b) => a.compareTo(b)))
-      .join('\n');
+    }),
+  ]..sort((a, b) => a.compareTo(b))).join('\n');
 
   jsonDataFile.writeAsStringSync('''
 // Generated Dart file
@@ -214,12 +217,21 @@ Future<void> main(List<String> arguments) async {
   setupLogs();
 
   // Parse command-line arguments
-  final parser = ArgParser()
-    ..addFlag('help', abbr: 'h', negatable: false, help: 'Show usage information')
-    ..addFlag('download', abbr: 'd', negatable: false, help: 'Download JSON files')
-    ..addFlag('convert',
-        abbr: 'c', negatable: false, help: 'Convert JSON files to Dart getters')
-    ..addOption('country', abbr: 'o', help: 'Process only the specified country code');
+  final parser =
+      ArgParser()
+        ..addFlag('help', abbr: 'h', negatable: false, help: 'Show usage information')
+        ..addFlag('download', abbr: 'd', negatable: false, help: 'Download JSON files')
+        ..addFlag(
+          'convert',
+          abbr: 'c',
+          negatable: false,
+          help: 'Convert JSON files to Dart getters',
+        )
+        ..addOption(
+          'country',
+          abbr: 'o',
+          help: 'Process only the specified country code',
+        );
 
   final stopwatch = Stopwatch()..start();
   try {
@@ -255,13 +267,16 @@ Future<void> main(List<String> arguments) async {
 
     if (shouldConvert) {
       // Find all JSON files in the data directory
-      final countries = directory
-          .listSync()
-          .whereType<File>()
-          .where(
-              (file) => file.path.endsWith('.json') && !file.path.endsWith('.json.dart'))
-          .map((file) => path.basenameWithoutExtension(file.path))
-          .toList();
+      final countries =
+          directory
+              .listSync()
+              .whereType<File>()
+              .where(
+                (file) =>
+                    file.path.endsWith('.json') && !file.path.endsWith('.json.dart'),
+              )
+              .map((file) => path.basenameWithoutExtension(file.path))
+              .toList();
 
       if (specificCountry != null) {
         final country = specificCountry.toLowerCase();
@@ -318,6 +333,6 @@ Future<void> runCountriesConversions(List<String> countries) async {
 
   await [
     for (final countriesBatch in countriesBatches)
-      Isolate.run(() => convertBatch(countriesBatch))
+      Isolate.run(() => convertBatch(countriesBatch)),
   ].wait;
 }

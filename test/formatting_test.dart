@@ -47,8 +47,10 @@ void main() {
 
       final result = formatAddress(address);
 
-      expect(result,
-          'John Doe\nExample Corp\n1600 Amphitheatre Pkwy\nMOUNTAIN VIEW, CA 94043\nUNITED STATES');
+      expect(
+        result,
+        'John Doe\nExample Corp\n1600 Amphitheatre Pkwy\nMOUNTAIN VIEW, CA 94043\nUNITED STATES',
+      );
     });
   });
 

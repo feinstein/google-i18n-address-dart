@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get bqJson => {
-      'BQ': {'id': 'data/BQ', 'key': 'BQ', 'name': 'BONAIRE, SINT EUSTATIUS, AND SABA'}
-    };
+  'BQ': {'id': 'data/BQ', 'key': 'BQ', 'name': 'BONAIRE, SINT EUSTATIUS, AND SABA'},
+};

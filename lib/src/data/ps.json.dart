@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get psJson => {
-      'PS': {'id': 'data/PS', 'key': 'PS', 'name': 'PALESTINIAN TERRITORY'}
-    };
+  'PS': {'id': 'data/PS', 'key': 'PS', 'name': 'PALESTINIAN TERRITORY'},
+};

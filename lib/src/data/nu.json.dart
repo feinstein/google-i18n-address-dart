@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get nuJson => {
-      'NU': {'id': 'data/NU', 'key': 'NU', 'name': 'NIUE'}
-    };
+  'NU': {'id': 'data/NU', 'key': 'NU', 'name': 'NIUE'},
+};

@@ -49,9 +49,9 @@ ValidationRules getValidationRules(Map<AddressField, String> address) {
   final postalCodeType = countryData['zip_name_type'] ?? '';
   final postalCodePrefix = countryData['postprefix'] ?? '';
 
-  var countryAreaChoices = <List<String>>[];
-  var cityChoices = <List<String>>[];
-  var cityAreaChoices = <List<String>>[];
+  var countryAreaChoices = <({String code, String name})>[];
+  var cityChoices = <({String code, String name})>[];
+  var cityAreaChoices = <({String code, String name})>[];
 
   String? countryArea;
   String? city;
@@ -69,12 +69,14 @@ ValidationRules getValidationRules(Map<AddressField, String> address) {
         localizedCountryData = database['$countryCode--$language'] ?? {};
       }
 
-      final localizedCountryAreaChoices = ChoicesMaker.makeChoices(localizedCountryData);
+      final localizedCountryAreaChoices = makeChoices(localizedCountryData);
       countryAreaChoices.addAll(localizedCountryAreaChoices);
 
       final existingChoice = countryArea != null;
-      countryArea = ChoicesMaker.matchChoices(
-          address[AddressField.countryArea], localizedCountryAreaChoices);
+      countryArea = matchChoices(
+        address[AddressField.countryArea],
+        localizedCountryAreaChoices,
+      );
 
       if (countryArea != null) {
         // Third level of data is for cities
@@ -95,12 +97,11 @@ ValidationRules getValidationRules(Map<AddressField, String> address) {
         }
 
         if (countryAreaData.containsKey('sub_keys')) {
-          final localizedCityChoices = ChoicesMaker.makeChoices(countryAreaData);
+          final localizedCityChoices = makeChoices(countryAreaData);
           cityChoices.addAll(localizedCityChoices);
 
           final existingCityChoice = city != null;
-          city =
-              ChoicesMaker.matchChoices(address[AddressField.city], localizedCityChoices);
+          city = matchChoices(address[AddressField.city], localizedCityChoices);
 
           if (city != null) {
             // Fourth level of data is for city areas
@@ -121,12 +122,14 @@ ValidationRules getValidationRules(Map<AddressField, String> address) {
             }
 
             if (cityData.containsKey('sub_keys')) {
-              final localizedCityAreaChoices = ChoicesMaker.makeChoices(cityData);
+              final localizedCityAreaChoices = makeChoices(cityData);
               cityAreaChoices.addAll(localizedCityAreaChoices);
 
               final existingCityAreaChoice = cityArea != null;
-              cityArea = ChoicesMaker.matchChoices(
-                  address[AddressField.cityArea], localizedCityAreaChoices);
+              cityArea = matchChoices(
+                address[AddressField.cityArea],
+                localizedCityAreaChoices,
+              );
 
               if (cityArea != null) {
                 final Map<String, dynamic> cityAreaData;
@@ -136,7 +139,7 @@ ValidationRules getValidationRules(Map<AddressField, String> address) {
                 } else {
                   cityAreaData =
                       database['$countryCode/$countryArea/$city/$cityArea--$language'] ??
-                          {};
+                      {};
                 }
 
                 if (!existingCityAreaChoice) {
@@ -154,9 +157,9 @@ ValidationRules getValidationRules(Map<AddressField, String> address) {
       }
     }
 
-    countryAreaChoices = ChoicesMaker.compactChoices(countryAreaChoices);
-    cityChoices = ChoicesMaker.compactChoices(cityChoices);
-    cityAreaChoices = ChoicesMaker.compactChoices(cityAreaChoices);
+    countryAreaChoices = compactChoices(countryAreaChoices);
+    cityChoices = compactChoices(cityChoices);
+    cityAreaChoices = compactChoices(cityAreaChoices);
   }
 
   return ValidationRules(
@@ -184,11 +187,12 @@ ValidationRules getValidationRules(Map<AddressField, String> address) {
 ///
 /// Updates the cleaned data map and adds any errors to the errors map.
 void _normalizeField(
-    AddressField field,
-    ValidationRules rules,
-    Map<AddressField, String> data,
-    List<List<String>> choices,
-    Map<AddressField, String> errors) {
+  AddressField field,
+  ValidationRules rules,
+  Map<AddressField, String> data,
+  List<({String code, String name})> choices,
+  Map<AddressField, String> errors,
+) {
   final value = data[field];
 
   // Handle uppercase fields
@@ -209,7 +213,7 @@ void _normalizeField(
   // Handle choices
   else if (choices.isNotEmpty) {
     if (value.isNotEmpty || rules.requiredFields.contains(field)) {
-      final matchedValue = ChoicesMaker.matchChoices(value, choices);
+      final matchedValue = matchChoices(value, choices);
       if (matchedValue != null) {
         data[field] = matchedValue;
       } else {
@@ -251,10 +255,20 @@ Map<AddressField, String> normalizeAddress(Map<AddressField, String> address) {
 
   // Normalize fields
   _normalizeField(
-      AddressField.countryArea, rules, cleanedData, rules.countryAreaChoices, errors);
+    AddressField.countryArea,
+    rules,
+    cleanedData,
+    rules.countryAreaChoices,
+    errors,
+  );
   _normalizeField(AddressField.city, rules, cleanedData, rules.cityChoices, errors);
   _normalizeField(
-      AddressField.cityArea, rules, cleanedData, rules.cityAreaChoices, errors);
+    AddressField.cityArea,
+    rules,
+    cleanedData,
+    rules.cityAreaChoices,
+    errors,
+  );
   _normalizeField(AddressField.postalCode, rules, cleanedData, [], errors);
 
   // Validate postal code format
@@ -282,8 +296,10 @@ Map<AddressField, String> normalizeAddress(Map<AddressField, String> address) {
 ///
 /// Returns a list of lists, where each inner list represents a line
 /// in the address format. This can be used to build form layouts.
-List<List<AddressField>> getFieldOrder(Map<AddressField, String> address,
-    {bool latin = false}) {
+List<List<AddressField>> getFieldOrder(
+  Map<AddressField, String> address, {
+  bool latin = false,
+}) {
   final rules = getValidationRules(address);
   final addressFormat = latin ? rules.addressLatinFormat : rules.addressFormat;
   final addressLines = addressFormat.split('%n');
@@ -294,8 +310,8 @@ List<List<AddressField>> getFieldOrder(Map<AddressField, String> address,
         ...RegExp(r'(%.)')
             .allMatches(line)
             .map((match) => addressFieldFromCode(match.group(1)![1]))
-            .nonNulls
-      ]
+            .nonNulls,
+      ],
   ];
 
   return allLines;

@@ -23,10 +23,7 @@ void main(List<String> arguments) {
   }
 
   // Construct the process arguments
-  final processArgs = [
-    toolScript,
-    ...arguments,
-  ];
+  final processArgs = [toolScript, ...arguments];
 
   // Run the tool script
   final result = Process.runSync(

@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get vuJson => {
-      'VU': {'id': 'data/VU', 'key': 'VU', 'name': 'VANUATU'}
-    };
+  'VU': {'id': 'data/VU', 'key': 'VU', 'name': 'VANUATU'},
+};

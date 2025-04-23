@@ -5,7 +5,10 @@ import 'validation.dart';
 ///
 /// Replaces placeholders with actual field values.
 String _formatAddressLine(
-    String lineFormat, Map<AddressField, String> address, ValidationRules rules) {
+  String lineFormat,
+  Map<AddressField, String> address,
+  ValidationRules rules,
+) {
   // Helper function to get field value
   String getFieldValue(AddressField field) {
     var value = address[field] ?? '';
@@ -17,12 +20,12 @@ String _formatAddressLine(
 
   // Replace field codes with values
   final replacements = <AddressField, String>{
-    for (var field in AddressField.values) field: getFieldValue(field)
+    for (var field in AddressField.values) field: getFieldValue(field),
   };
 
   // Split format into parts and replace placeholders
   final parts = [
-    ...RegExp(r'(%.)').allMatches(lineFormat).map((match) => match.group(0)!)
+    ...RegExp(r'(%.)').allMatches(lineFormat).map((match) => match.group(0)!),
   ];
 
   // Keep track of the current position in the format string

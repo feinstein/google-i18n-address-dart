@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get biJson => {
-      'BI': {'id': 'data/BI', 'key': 'BI', 'name': 'BURUNDI'}
-    };
+  'BI': {'id': 'data/BI', 'key': 'BI', 'name': 'BURUNDI'},
+};

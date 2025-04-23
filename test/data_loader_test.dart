@@ -14,20 +14,24 @@ void main() {
     test('loadValidationData throws on invalid country code', () {
       expect(
         () => loadValidationData('XX'),
-        throwsA(isA<ArgumentError>().having(
-          (e) => e.message,
-          'message',
-          contains('is not a valid country code'),
-        )),
+        throwsA(
+          isA<ArgumentError>().having(
+            (e) => e.message,
+            'message',
+            contains('is not a valid country code'),
+          ),
+        ),
       );
 
       expect(
         () => loadValidationData('../../../etc/passwd'),
-        throwsA(isA<ArgumentError>().having(
-          (e) => e.message,
-          'message',
-          contains('is not a valid country code'),
-        )),
+        throwsA(
+          isA<ArgumentError>().having(
+            (e) => e.message,
+            'message',
+            contains('is not a valid country code'),
+          ),
+        ),
       );
     });
 
@@ -58,11 +62,13 @@ void main() {
     test('loadCountryData throws on ZZ country code', () {
       expect(
         () => loadCountryData('ZZ'),
-        throwsA(isA<ArgumentError>().having(
-          (e) => e.message,
-          'message',
-          contains('is not a valid country code'),
-        )),
+        throwsA(
+          isA<ArgumentError>().having(
+            (e) => e.message,
+            'message',
+            contains('is not a valid country code'),
+          ),
+        ),
       );
     });
 
@@ -70,8 +76,10 @@ void main() {
       expect(validCountryCode.hasMatch('US'), isTrue);
       expect(validCountryCode.hasMatch('CA'), isTrue);
       expect(validCountryCode.hasMatch('GB'), isTrue);
-      expect(validCountryCode.hasMatch('ZZZ'),
-          isTrue); // Just checking pattern, not validity
+      expect(
+        validCountryCode.hasMatch('ZZZ'),
+        isTrue,
+      ); // Just checking pattern, not validity
 
       expect(validCountryCode.hasMatch(''), isFalse);
       expect(validCountryCode.hasMatch('A'), isFalse);

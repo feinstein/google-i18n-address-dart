@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get awJson => {
-      'AW': {'id': 'data/AW', 'key': 'AW', 'name': 'ARUBA'}
-    };
+  'AW': {'id': 'data/AW', 'key': 'AW', 'name': 'ARUBA'},
+};

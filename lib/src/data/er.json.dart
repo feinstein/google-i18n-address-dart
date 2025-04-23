@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get erJson => {
-      'ER': {'id': 'data/ER', 'key': 'ER', 'name': 'ERITREA'}
-    };
+  'ER': {'id': 'data/ER', 'key': 'ER', 'name': 'ERITREA'},
+};

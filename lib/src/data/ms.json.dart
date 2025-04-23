@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get msJson => {
-      'MS': {'id': 'data/MS', 'key': 'MS', 'name': 'MONTSERRAT'}
-    };
+  'MS': {'id': 'data/MS', 'key': 'MS', 'name': 'MONTSERRAT'},
+};

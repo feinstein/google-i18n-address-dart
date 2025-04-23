@@ -202,8 +202,8 @@ class AddressTextField extends StatelessWidget {
               child: Text('-- Select --'),
             ),
           ...rules.countryAreaChoices.map((choice) => DropdownMenuItem(
-                value: choice.first,
-                child: Text(choice[1]),
+                value: choice.code,
+                child: Text(choice.name),
               )),
         ],
         onChanged: (value) {

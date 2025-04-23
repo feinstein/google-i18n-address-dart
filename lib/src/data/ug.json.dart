@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get ugJson => {
-      'UG': {'id': 'data/UG', 'key': 'UG', 'name': 'UGANDA'}
-    };
+  'UG': {'id': 'data/UG', 'key': 'UG', 'name': 'UGANDA'},
+};

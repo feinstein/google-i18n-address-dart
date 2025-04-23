@@ -23,14 +23,11 @@ void main() {
           AddressField.countryArea,
           AddressField.postalCode,
         },
-        upperFields: {
-          AddressField.city,
-          AddressField.countryArea,
-        },
+        upperFields: {AddressField.city, AddressField.countryArea},
         countryAreaType: 'state',
         countryAreaChoices: [
-          ['CA', 'California'],
-          ['NY', 'New York']
+          (code: 'CA', name: 'California'),
+          (code: 'NY', name: 'New York'),
         ],
         cityType: 'city',
         cityChoices: [],
@@ -51,8 +48,8 @@ void main() {
       expect(rules.upperFields, contains(AddressField.city));
       expect(rules.countryAreaType, 'state');
       expect(rules.countryAreaChoices, [
-        ['CA', 'California'],
-        ['NY', 'New York']
+        (code: 'CA', name: 'California'),
+        (code: 'NY', name: 'New York'),
       ]);
       expect(rules.cityType, 'city');
       expect(rules.cityChoices, isEmpty);
@@ -74,9 +71,7 @@ void main() {
         requiredFields: {AddressField.streetAddress},
         upperFields: {AddressField.city},
         countryAreaType: 'state',
-        countryAreaChoices: [
-          ['CA', 'California']
-        ],
+        countryAreaChoices: [(code: 'CA', name: 'California')],
         cityType: 'city',
         cityChoices: [],
         cityAreaType: 'district',
@@ -95,44 +90,43 @@ void main() {
 
   group('InvalidAddressError', () {
     test('creates instance with message and errors', () {
-      final error =
-          InvalidAddressError('Invalid address', {AddressField.city: 'required'});
+      final error = InvalidAddressError('Invalid address', {
+        AddressField.city: 'required',
+      });
       expect(error.message, 'Invalid address');
       expect(error.errors, {AddressField.city: 'required'});
     });
 
     test('toString returns a string representation', () {
-      final error =
-          InvalidAddressError('Invalid address', {AddressField.city: 'required'});
+      final error = InvalidAddressError('Invalid address', {
+        AddressField.city: 'required',
+      });
       expect(error.toString(), 'InvalidAddressError: Invalid address');
     });
   });
 
   group('ChoicesMaker', () {
     test('makeChoices creates simple choices from rules', () {
-      final rules = {
-        'sub_keys': 'CA~NY~TX',
-        'sub_names': 'California~New York~Texas',
-      };
+      final rules = {'sub_keys': 'CA~NY~TX', 'sub_names': 'California~New York~Texas'};
 
-      final choices = ChoicesMaker.makeChoices(rules);
+      final choices = makeChoices(rules);
 
       expect(choices, [
-        ['CA', 'California'],
-        ['NY', 'New York'],
-        ['TX', 'Texas'],
+        (code: 'CA', name: 'California'),
+        (code: 'NY', name: 'New York'),
+        (code: 'TX', name: 'Texas'),
       ]);
     });
 
     test('makeChoices handles missing sub_names', () {
       final rules = {'sub_keys': 'CA~NY~TX'};
 
-      final choices = ChoicesMaker.makeChoices(rules);
+      final choices = makeChoices(rules);
 
       expect(choices, [
-        ['CA', 'CA'],
-        ['NY', 'NY'],
-        ['TX', 'TX'],
+        (code: 'CA', name: 'CA'),
+        (code: 'NY', name: 'NY'),
+        (code: 'TX', name: 'TX'),
       ]);
     });
 
@@ -143,18 +137,19 @@ void main() {
         'sub_lnames': 'Calif~NY~Tex',
       };
 
-      final choices = ChoicesMaker.makeChoices(rules);
+      final choices = makeChoices(rules);
 
       expect(
-          choices,
-          containsAll([
-            ['CA', 'California'],
-            ['NY', 'New York'],
-            ['TX', 'Texas'],
-            ['CA', 'Calif'],
-            ['NY', 'NY'],
-            ['TX', 'Tex'],
-          ]));
+        choices,
+        containsAll([
+          (code: 'CA', name: 'California'),
+          (code: 'NY', name: 'New York'),
+          (code: 'TX', name: 'Texas'),
+          (code: 'CA', name: 'Calif'),
+          (code: 'NY', name: 'NY'),
+          (code: 'TX', name: 'Tex'),
+        ]),
+      );
     });
 
     test('makeChoices includes latin full names when not translated', () {
@@ -164,18 +159,19 @@ void main() {
         'sub_lfnames': 'California State~New York State~Texas State',
       };
 
-      final choices = ChoicesMaker.makeChoices(rules);
+      final choices = makeChoices(rules);
 
       expect(
-          choices,
-          containsAll([
-            ['CA', 'California'],
-            ['NY', 'New York'],
-            ['TX', 'Texas'],
-            ['CA', 'California State'],
-            ['NY', 'New York State'],
-            ['TX', 'Texas State'],
-          ]));
+        choices,
+        containsAll([
+          (code: 'CA', name: 'California'),
+          (code: 'NY', name: 'New York'),
+          (code: 'TX', name: 'Texas'),
+          (code: 'CA', name: 'California State'),
+          (code: 'NY', name: 'New York State'),
+          (code: 'TX', name: 'Texas State'),
+        ]),
+      );
     });
 
     test('makeChoices skips latin names when translated', () {
@@ -186,70 +182,67 @@ void main() {
         'sub_lfnames': 'California State~New York State~Texas State',
       };
 
-      final choices = ChoicesMaker.makeChoices(rules, translated: true);
+      final choices = makeChoices(rules, translated: true);
 
       expect(choices, [
-        ['CA', 'California'],
-        ['NY', 'New York'],
-        ['TX', 'Texas'],
+        (code: 'CA', name: 'California'),
+        (code: 'NY', name: 'New York'),
+        (code: 'TX', name: 'Texas'),
       ]);
     });
 
     test('compactChoices removes duplicates', () {
       final choices = [
-        ['CA', 'California'],
-        ['CA', 'California'],
-        ['NY', 'New York'],
-        ['TX', 'Texas'],
-        ['TX', 'TX'],
+        (code: 'CA', name: 'California'),
+        (code: 'CA', name: 'California'),
+        (code: 'NY', name: 'New York'),
+        (code: 'TX', name: 'Texas'),
+        (code: 'TX', name: 'TX'),
       ];
 
-      final compacted = ChoicesMaker.compactChoices(choices);
+      final compacted = compactChoices(choices);
 
       // Expect unique entries (sorted by value within each key)
       expect(compacted, [
-        ['CA', 'California'],
-        ['NY', 'New York'],
-        ['TX', 'TX'],
-        ['TX', 'Texas'],
+        (code: 'CA', name: 'California'),
+        (code: 'NY', name: 'New York'),
+        (code: 'TX', name: 'TX'),
+        (code: 'TX', name: 'Texas'),
       ]);
     });
 
     test('matchChoices returns matching key', () {
       final choices = [
-        ['CA', 'California'],
-        ['NY', 'New York'],
-        ['TX', 'Texas'],
+        (code: 'CA', name: 'California'),
+        (code: 'NY', name: 'New York'),
+        (code: 'TX', name: 'Texas'),
       ];
 
-      expect(ChoicesMaker.matchChoices('California', choices), 'CA');
-      expect(ChoicesMaker.matchChoices('ca', choices), 'CA');
-      expect(ChoicesMaker.matchChoices('New York', choices), 'NY');
-      expect(ChoicesMaker.matchChoices('new york', choices), 'NY');
-      expect(ChoicesMaker.matchChoices('NY', choices), 'NY');
-      expect(ChoicesMaker.matchChoices('TX', choices), 'TX');
+      expect(matchChoices('California', choices), 'CA');
+      expect(matchChoices('ca', choices), 'CA');
+      expect(matchChoices('New York', choices), 'NY');
+      expect(matchChoices('new york', choices), 'NY');
+      expect(matchChoices('NY', choices), 'NY');
+      expect(matchChoices('TX', choices), 'TX');
     });
 
     test('matchChoices returns null for no match', () {
       final choices = [
-        ['CA', 'California'],
-        ['NY', 'New York'],
-        ['TX', 'Texas'],
+        (code: 'CA', name: 'California'),
+        (code: 'NY', name: 'New York'),
+        (code: 'TX', name: 'Texas'),
       ];
 
-      expect(ChoicesMaker.matchChoices('Florida', choices), isNull);
-      expect(ChoicesMaker.matchChoices('', choices), isNull);
-      expect(ChoicesMaker.matchChoices(null, choices), isNull);
+      expect(matchChoices('Florida', choices), isNull);
+      expect(matchChoices('', choices), isNull);
+      expect(matchChoices(null, choices), isNull);
     });
 
     test('matchChoices handles whitespace', () {
-      final choices = [
-        ['CA', 'California'],
-        ['NY', 'New York'],
-      ];
+      final choices = [(code: 'CA', name: 'California'), (code: 'NY', name: 'New York')];
 
-      expect(ChoicesMaker.matchChoices(' California ', choices), 'CA');
-      expect(ChoicesMaker.matchChoices(' New York ', choices), 'NY');
+      expect(matchChoices(' California ', choices), 'CA');
+      expect(matchChoices(' New York ', choices), 'NY');
     });
   });
 

@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get cdJson => {
-      'CD': {'id': 'data/CD', 'key': 'CD', 'name': 'CONGO (DEM. REP.)'}
-    };
+  'CD': {'id': 'data/CD', 'key': 'CD', 'name': 'CONGO (DEM. REP.)'},
+};

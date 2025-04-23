@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get gaJson => {
-      'GA': {'id': 'data/GA', 'key': 'GA', 'name': 'GABON'}
-    };
+  'GA': {'id': 'data/GA', 'key': 'GA', 'name': 'GABON'},
+};

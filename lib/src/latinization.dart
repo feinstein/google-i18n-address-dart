@@ -6,8 +6,10 @@ import 'data_loader.dart';
 ///
 /// Converts address fields to their Latin equivalent where possible.
 /// If [isNormalized] is true, assumes the address is already normalized.
-Map<AddressField, String> latinizeAddress(Map<AddressField, String> address,
-    {bool isNormalized = false}) {
+Map<AddressField, String> latinizeAddress(
+  Map<AddressField, String> address, {
+  bool isNormalized = false,
+}) {
   // Normalize the address if needed
   final normalizedAddress = isNormalized ? {...address} : normalizeAddress(address);
 
@@ -35,7 +37,8 @@ Map<AddressField, String> latinizeAddress(Map<AddressField, String> address,
 
     if (countryAreaData != null) {
       // Get the latinized name, or use the standard name, or keep the original
-      cleanedData[AddressField.countryArea] = countryAreaData['lname'] as String? ??
+      cleanedData[AddressField.countryArea] =
+          countryAreaData['lname'] as String? ??
           countryAreaData['name'] as String? ??
           countryArea;
 
@@ -58,7 +61,8 @@ Map<AddressField, String> latinizeAddress(Map<AddressField, String> address,
 
             if (cityAreaData != null) {
               // Get the latinized name, or use the standard name, or keep the original
-              cleanedData[AddressField.cityArea] = cityAreaData['lname'] as String? ??
+              cleanedData[AddressField.cityArea] =
+                  cityAreaData['lname'] as String? ??
                   cityAreaData['name'] as String? ??
                   cityArea;
             }

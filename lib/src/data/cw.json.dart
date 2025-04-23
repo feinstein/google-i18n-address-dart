@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get cwJson => {
-      'CW': {'id': 'data/CW', 'key': 'CW', 'name': 'CURACAO'}
-    };
+  'CW': {'id': 'data/CW', 'key': 'CW', 'name': 'CURACAO'},
+};

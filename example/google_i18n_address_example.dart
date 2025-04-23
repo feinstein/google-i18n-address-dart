@@ -11,7 +11,7 @@ void main() {
       AddressField.countryArea: 'California',
       AddressField.city: 'Mountain View',
       AddressField.postalCode: '94043',
-      AddressField.streetAddress: '1600 Amphitheatre Pkwy'
+      AddressField.streetAddress: '1600 Amphitheatre Pkwy',
     });
     print('Normalized address: $address');
   } on InvalidAddressError catch (e) {
@@ -27,7 +27,7 @@ void main() {
       AddressField.countryArea: 'California',
       AddressField.city: 'Mountain View',
       AddressField.postalCode: '74043', // Invalid postal code for California
-      AddressField.streetAddress: '1600 Amphitheatre Pkwy'
+      AddressField.streetAddress: '1600 Amphitheatre Pkwy',
     });
     print('Normalized address: $address');
   } on InvalidAddressError catch (e) {
@@ -37,8 +37,10 @@ void main() {
 
   // Example 3: Getting validation rules
   print('Example 3: Getting validation rules');
-  final rules = getValidationRules(
-      {AddressField.countryCode: 'US', AddressField.countryArea: 'CA'});
+  final rules = getValidationRules({
+    AddressField.countryCode: 'US',
+    AddressField.countryArea: 'CA',
+  });
   print('Required fields: ${rules.requiredFields}');
   print('Postal code examples: ${rules.postalCodeExamples}');
   print('');
@@ -51,7 +53,7 @@ void main() {
     AddressField.postalCode: '677400',
     AddressField.city: '临沧市',
     AddressField.cityArea: '凤庆县',
-    AddressField.streetAddress: '中关村东路1号'
+    AddressField.streetAddress: '中关村东路1号',
   };
   final latinized = latinizeAddress(chineseAddress);
   print('Original: $chineseAddress');
@@ -67,7 +69,7 @@ void main() {
     AddressField.countryArea: 'CA',
     AddressField.postalCode: '94043',
     AddressField.city: 'Mountain View',
-    AddressField.streetAddress: '1600 Amphitheatre Pkwy'
+    AddressField.streetAddress: '1600 Amphitheatre Pkwy',
   };
   print('Formatted address:');
   print(formatAddress(usAddress));

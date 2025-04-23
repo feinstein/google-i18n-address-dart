@@ -2,5 +2,5 @@
 // Do not edit manually
 
 Map<String, Map<String, String>> get tgJson => {
-      'TG': {'id': 'data/TG', 'key': 'TG', 'name': 'TOGO'}
-    };
+  'TG': {'id': 'data/TG', 'key': 'TG', 'name': 'TOGO'},
+};
