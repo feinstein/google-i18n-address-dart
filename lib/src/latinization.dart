@@ -72,7 +72,7 @@ Map<AddressField, String> latinizeAddress(
     }
   }
 
-  // Ensure sorting_code exists (for compatibility with the Python version)
+  // Ensure sortingCode exists (for compatibility with the Python version)
   if (!cleanedData.containsKey(AddressField.sortingCode)) {
     cleanedData[AddressField.sortingCode] = '';
   }
