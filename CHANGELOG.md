@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.0
+
+- BREAKING CHANGE: Refactored the address types like "city area type" to be an enum instead of strings.
+
 ## 2.0.0
 
 - BREAKING CHANGE: The address fileds are now represented by the AddressField enum

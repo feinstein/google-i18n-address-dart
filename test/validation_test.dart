@@ -170,9 +170,9 @@ void main() {
 
         expect(validationRules.cityAreaChoices, []);
 
-        expect(validationRules.cityAreaType, 'neighborhood');
-        expect(validationRules.cityType, 'city');
-        expect(validationRules.countryAreaType, 'state');
+        expect(validationRules.cityAreaType, CityAreaType.neighborhood);
+        expect(validationRules.cityType, CityType.city);
+        expect(validationRules.countryAreaType, CountryAreaType.state);
         expect(validationRules.countryCode, 'BR');
         expect(validationRules.countryName, 'BRAZIL');
 
@@ -182,7 +182,7 @@ void main() {
           RegExp(r'^2[0-8]'),
         ]);
 
-        expect(validationRules.postalCodeType, 'postal');
+        expect(validationRules.postalCodeType, PostalCodeType.postal);
         expect(validationRules.upperFields, [
           AddressField.city,
           AddressField.countryArea,
@@ -526,9 +526,21 @@ void main() {
 
   group('locality types', () {
     final testData = {
-      'CN': (countryAreaType: 'province', cityType: 'city', cityAreaType: 'district'),
-      'JP': (countryAreaType: 'prefecture', cityType: 'city', cityAreaType: 'suburb'),
-      'KR': (countryAreaType: 'do_si', cityType: 'city', cityAreaType: 'district'),
+      'CN': (
+        countryAreaType: CountryAreaType.province,
+        cityType: CityType.city,
+        cityAreaType: CityAreaType.district,
+      ),
+      'JP': (
+        countryAreaType: CountryAreaType.prefecture,
+        cityType: CityType.city,
+        cityAreaType: CityAreaType.suburb,
+      ),
+      'KR': (
+        countryAreaType: CountryAreaType.doOrSi,
+        cityType: CityType.city,
+        cityAreaType: CityAreaType.district,
+      ),
     };
 
     for (final entry in testData.entries) {

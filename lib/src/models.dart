@@ -28,6 +28,109 @@ AddressField addressFieldFromCode(String code) {
   };
 }
 
+/// Enum for country area types
+enum CountryAreaType {
+  area,
+  county,
+  department,
+  district,
+  doOrSi, // Specific to South Korea
+  emirate,
+  island,
+  oblast,
+  parish,
+  prefecture,
+  province,
+  state,
+}
+
+CountryAreaType countryAreaTypeFromString(String? value) {
+  switch (value?.toLowerCase()) {
+    case 'area':
+      return CountryAreaType.area;
+    case 'county':
+      return CountryAreaType.county;
+    case 'department':
+      return CountryAreaType.department;
+    case 'district':
+      return CountryAreaType.district;
+    case 'do_si':
+      return CountryAreaType.doOrSi;
+    case 'emirate':
+      return CountryAreaType.emirate;
+    case 'island':
+      return CountryAreaType.island;
+    case 'oblast':
+      return CountryAreaType.oblast;
+    case 'parish':
+      return CountryAreaType.parish;
+    case 'prefecture':
+      return CountryAreaType.prefecture;
+    case 'province':
+      return CountryAreaType.province;
+    case 'state':
+      return CountryAreaType.state;
+    default:
+      throw ArgumentError('Invalid country area type: $value');
+  }
+}
+
+/// Enum for city types
+enum CityType { city, district, postTown, suburb }
+
+CityType cityTypeFromString(String? value) {
+  switch (value?.toLowerCase()) {
+    case 'city':
+      return CityType.city;
+    case 'district':
+      return CityType.district;
+    case 'post_town':
+      return CityType.postTown;
+    case 'suburb':
+      return CityType.suburb;
+    default:
+      throw ArgumentError('Invalid city type: $value');
+  }
+}
+
+/// Enum for city area types
+enum CityAreaType { district, neighborhood, suburb, townland, villageOrTownship }
+
+CityAreaType cityAreaTypeFromString(String? value) {
+  switch (value?.toLowerCase()) {
+    case 'district':
+      return CityAreaType.district;
+    case 'neighborhood':
+      return CityAreaType.neighborhood;
+    case 'suburb':
+      return CityAreaType.suburb;
+    case 'townland':
+      return CityAreaType.townland;
+    case 'village_township':
+      return CityAreaType.villageOrTownship;
+    default:
+      throw ArgumentError('Invalid city area type: $value');
+  }
+}
+
+/// Enum for postal code types
+enum PostalCodeType { eircode, pin, postal, zip }
+
+PostalCodeType postalCodeTypeFromString(String? value) {
+  switch (value?.toLowerCase()) {
+    case 'eircode':
+      return PostalCodeType.eircode;
+    case 'pin':
+      return PostalCodeType.pin;
+    case 'postal':
+      return PostalCodeType.postal;
+    case 'zip':
+      return PostalCodeType.zip;
+    default:
+      throw ArgumentError('Invalid postal code type: $value');
+  }
+}
+
 /// Address validation rules for a specific country or region.
 @immutable
 class ValidationRules {
@@ -53,13 +156,13 @@ class ValidationRules {
   final Set<AddressField> upperFields;
 
   /// Type of country area (e.g., "state", "province").
-  final String countryAreaType;
+  final CountryAreaType countryAreaType;
 
   /// List of available country areas as (code, name) pairs.
   final List<({String code, String name})> countryAreaChoices;
 
   /// Type of city (e.g., "city", "town").
-  final String cityType;
+  final CityType cityType;
 
   /// List of available cities as (code, name) pairs.
   /// Be aware that many cities have the "code" as their native names and the "name" as their latin names
@@ -67,13 +170,13 @@ class ValidationRules {
   final List<({String code, String name})> cityChoices;
 
   /// Type of city area (e.g., "district", "suburb").
-  final String cityAreaType;
+  final CityAreaType cityAreaType;
 
   /// List of available city areas as (code, name) pairs.
   final List<({String code, String name})> cityAreaChoices;
 
   /// Type of postal code (e.g., "zip", "postal").
-  final String postalCodeType;
+  final PostalCodeType postalCodeType;
 
   /// Regular expressions for matching postal codes.
   final List<RegExp> postalCodeMatchers;

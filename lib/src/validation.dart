@@ -43,10 +43,10 @@ ValidationRules getValidationRules(Map<AddressField, String> address) {
   }
 
   // Get field types
-  final countryAreaType = countryData['state_name_type'] ?? '';
-  final cityType = countryData['locality_name_type'] ?? '';
-  final cityAreaType = countryData['sublocality_name_type'] ?? '';
-  final postalCodeType = countryData['zip_name_type'] ?? '';
+  final countryAreaType = countryAreaTypeFromString(countryData['state_name_type']);
+  final cityType = cityTypeFromString(countryData['locality_name_type']);
+  final cityAreaType = cityAreaTypeFromString(countryData['sublocality_name_type']);
+  final postalCodeType = postalCodeTypeFromString(countryData['zip_name_type']);
   final postalCodePrefix = countryData['postprefix'] ?? '';
 
   var countryAreaChoices = <({String code, String name})>[];

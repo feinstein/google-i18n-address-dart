@@ -259,13 +259,13 @@ class AddressTextField extends StatelessWidget {
       case AddressField.countryCode:
         return 'Country';
       case AddressField.countryArea:
-        return rules.countryAreaType.capitalize();
+        return _countryAreaTypeLabel(rules.countryAreaType);
       case AddressField.city:
-        return rules.cityType.capitalize();
+        return _cityTypeLabel(rules.cityType);
       case AddressField.cityArea:
-        return rules.cityAreaType.capitalize();
+        return _cityAreaTypeLabel(rules.cityAreaType);
       case AddressField.postalCode:
-        return rules.postalCodeType.capitalize();
+        return _postalCodeTypeLabel(rules.postalCodeType);
       case AddressField.streetAddress:
         return 'Street Address';
       case AddressField.sortingCode:
@@ -274,6 +274,76 @@ class AddressTextField extends StatelessWidget {
         return 'Full Name';
       case AddressField.companyName:
         return 'Company';
+    }
+  }
+
+  String _countryAreaTypeLabel(CountryAreaType type) {
+    switch (type) {
+      case CountryAreaType.area:
+        return 'Area';
+      case CountryAreaType.county:
+        return 'County';
+      case CountryAreaType.department:
+        return 'Department';
+      case CountryAreaType.district:
+        return 'District';
+      case CountryAreaType.doOrSi:
+        return 'Do/Si';
+      case CountryAreaType.emirate:
+        return 'Emirate';
+      case CountryAreaType.island:
+        return 'Island';
+      case CountryAreaType.oblast:
+        return 'Oblast';
+      case CountryAreaType.parish:
+        return 'Parish';
+      case CountryAreaType.prefecture:
+        return 'Prefecture';
+      case CountryAreaType.province:
+        return 'Province';
+      case CountryAreaType.state:
+        return 'State';
+    }
+  }
+
+  String _cityTypeLabel(CityType type) {
+    switch (type) {
+      case CityType.city:
+        return 'City';
+      case CityType.district:
+        return 'District';
+      case CityType.postTown:
+        return 'Post Town';
+      case CityType.suburb:
+        return 'Suburb';
+    }
+  }
+
+  String _cityAreaTypeLabel(CityAreaType type) {
+    switch (type) {
+      case CityAreaType.district:
+        return 'District';
+      case CityAreaType.neighborhood:
+        return 'Neighborhood';
+      case CityAreaType.suburb:
+        return 'Suburb';
+      case CityAreaType.townland:
+        return 'Townland';
+      case CityAreaType.villageOrTownship:
+        return 'Village/Township';
+    }
+  }
+
+  String _postalCodeTypeLabel(PostalCodeType type) {
+    switch (type) {
+      case PostalCodeType.eircode:
+        return 'Eircode';
+      case PostalCodeType.pin:
+        return 'PIN';
+      case PostalCodeType.postal:
+        return 'Postal Code';
+      case PostalCodeType.zip:
+        return 'ZIP Code';
     }
   }
 

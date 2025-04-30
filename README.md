@@ -1,6 +1,6 @@
 # Google i18n Address for Dart
 
-This package contains a copy of [Google's i18n address](https://chromium-i18n.appspot.com/ssl-address) metadata repository that contains great data but comes with no uptime guarantees.
+This package is a dart port of [google-i18n-address](https://github.com/mirumee/google-i18n-address), made in Python. It contains a copy of [Google's i18n address](https://chromium-i18n.appspot.com/ssl-address) metadata repository that contains great data but comes with no uptime guarantees.
 
 Contents of this package will allow you to programmatically build address forms that adhere to rules of a particular region or country, validate local addresses, and format them to produce a valid address label for delivery.
 
@@ -223,7 +223,7 @@ void main() {
 Output:
 
 ```console
-ValidationRules(countryCode: US, countryName: UNITED STATES, addressFormat: %N%n%O%n%A%n%C, %S %Z, addressLatinFormat: %N%n%O%n%A%n%C, %S %Z, allowedFields: {AddressField.streetAddress, AddressField.companyName, AddressField.city, AddressField.name, AddressField.countryArea, AddressField.postalCode}, requiredFields: {AddressField.streetAddress, AddressField.city, AddressField.countryArea, AddressField.postalCode}, upperFields: {AddressField.city, AddressField.countryArea}, countryAreaType: state, countryAreaChoices: [[AL, Alabama], [AK, Alaska], ...], cityType: city, cityChoices: [], cityAreaType: suburb, cityAreaChoices: [], postalCodeType: zip, postalCodeMatchers: [RegExp: pattern=^(\d{5})(?:[ \-](\d{4}))?$], postalCodeExamples: [90000, 96199], postalCodePrefix: )
+ValidationRules(countryCode: US, countryName: UNITED STATES, addressFormat: %N%n%O%n%A%n%C, %S %Z, addressLatinFormat: %N%n%O%n%A%n%C, %S %Z, allowedFields: {AddressField.streetAddress, AddressField.companyName, AddressField.city, AddressField.name, AddressField.countryArea, AddressField.postalCode}, requiredFields: {AddressField.streetAddress, AddressField.city, AddressField.countryArea, AddressField.postalCode}, upperFields: {AddressField.city, AddressField.countryArea}, countryAreaType: CountryAreaType.state, countryAreaChoices: [[AL, Alabama], [AK, Alaska], ...], cityType: CityType.city, cityChoices: [], cityAreaType: CityAreaType.suburb, cityAreaChoices: [], postalCodeType: PostalCodeType.zip, postalCodeMatchers: [RegExp: pattern=^(\d{5})(?:[ \-](\d{4}))?$], postalCodeExamples: [90000, 96199], postalCodePrefix: )
 ```
 
 ## Field Order
@@ -273,3 +273,7 @@ For more details, see the [tool README](tool/README.md).
 ## License
 
 This project is licensed under the MIT License.
+
+## TODO
+
+- Check the validation errors, they probably can become an enum

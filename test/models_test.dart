@@ -24,16 +24,16 @@ void main() {
           AddressField.postalCode,
         },
         upperFields: {AddressField.city, AddressField.countryArea},
-        countryAreaType: 'state',
+        countryAreaType: CountryAreaType.state,
         countryAreaChoices: [
           (code: 'CA', name: 'California'),
           (code: 'NY', name: 'New York'),
         ],
-        cityType: 'city',
+        cityType: CityType.city,
         cityChoices: [],
-        cityAreaType: 'district',
+        cityAreaType: CityAreaType.district,
         cityAreaChoices: [],
-        postalCodeType: 'zip',
+        postalCodeType: PostalCodeType.zip,
         postalCodeMatchers: [RegExp(r'^\d{5}$'), RegExp(r'^\d{5}-\d{4}$')],
         postalCodeExamples: ['90210', '20500'],
         postalCodePrefix: '',
@@ -46,16 +46,16 @@ void main() {
       expect(rules.allowedFields, contains(AddressField.name));
       expect(rules.requiredFields, contains(AddressField.streetAddress));
       expect(rules.upperFields, contains(AddressField.city));
-      expect(rules.countryAreaType, 'state');
+      expect(rules.countryAreaType, CountryAreaType.state);
       expect(rules.countryAreaChoices, [
         (code: 'CA', name: 'California'),
         (code: 'NY', name: 'New York'),
       ]);
-      expect(rules.cityType, 'city');
+      expect(rules.cityType, CityType.city);
       expect(rules.cityChoices, isEmpty);
-      expect(rules.cityAreaType, 'district');
+      expect(rules.cityAreaType, CityAreaType.district);
       expect(rules.cityAreaChoices, isEmpty);
-      expect(rules.postalCodeType, 'zip');
+      expect(rules.postalCodeType, PostalCodeType.zip);
       expect(rules.postalCodeMatchers, hasLength(2));
       expect(rules.postalCodeExamples, ['90210', '20500']);
       expect(rules.postalCodePrefix, '');
@@ -70,13 +70,13 @@ void main() {
         allowedFields: {AddressField.name, AddressField.companyName},
         requiredFields: {AddressField.streetAddress},
         upperFields: {AddressField.city},
-        countryAreaType: 'state',
+        countryAreaType: CountryAreaType.state,
         countryAreaChoices: [(code: 'CA', name: 'California')],
-        cityType: 'city',
+        cityType: CityType.city,
         cityChoices: [],
-        cityAreaType: 'district',
+        cityAreaType: CityAreaType.district,
         cityAreaChoices: [],
-        postalCodeType: 'zip',
+        postalCodeType: PostalCodeType.zip,
         postalCodeMatchers: [RegExp(r'^\d{5}$')],
         postalCodeExamples: ['90210'],
         postalCodePrefix: '',
